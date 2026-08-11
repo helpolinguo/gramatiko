@@ -1,0 +1,26 @@
+% Echantillon des fontes candidates, a la justification mesuree (91.69 mm),
+% au corps qui reproduit la hauteur d'x du fac-simile.
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[paperwidth=110mm,paperheight=210mm,margin=9mm]{geometry}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\newcommand{\ech}[3]{%
+  \textsf{\scriptsize #1 — #2}\par\nobreak\vspace{1mm}%
+  \begingroup\fontfamily{#3}\fontsize{#2}{9.88pt}\selectfont
+  La formi Angliano, Franciano, Germaniano, Rusiano,\\
+  Suediano, Daniano, Poloniano, Grekiano, Arabiano, His-\\
+  paniano, Skotiano, Laponiano, Suisiano esas tote reguloza,\\
+  \endgroup\par\vspace{3mm}}
+\begin{document}
+\ech{cmr (Latin Modern)}{10.12pt}{cmr}
+\ech{Times ptm}{11.10pt}{ptm}
+\ech{Palatino ppl}{10.04pt}{ppl}
+\ech{New Century pnc}{9.56pt}{pnc}
+\ech{Utopia put}{9.92pt}{put}
+\ech{Charter bch}{10.16pt}{bch}
+\ech{XCharter}{10.16pt}{XCharter-TLF}
+\ech{Cochineal}{10.3pt}{Cochineal-TLF}
+\ech{newtx}{10.6pt}{ntxtlf}
+\end{document}

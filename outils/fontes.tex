@@ -1,0 +1,38 @@
+% Mesure des metriques des fontes candidates, a 10 pt nominal.
+% Sortie : lignes "FONTE <nom> xheight=<pt> capheight=<pt> width_<mot>=<pt>"
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\newlength{\LX}\newlength{\LC}\newlength{\LW}
+\newcommand{\mesure}[1]{%
+  \settoheight{\LX}{x}%
+  \settoheight{\LC}{H}%
+  \typeout{FONTE #1 xheight=\the\LX\space capheight=\the\LC}%
+  \settowidth{\LW}{La formi Angliano, Franciano, Germaniano, Rusiano,}%
+  \typeout{FONTE #1 L1=\the\LW}%
+  \settowidth{\LW}{Suediano, Daniano, Poloniano, Grekiano, Arabiano, His-}%
+  \typeout{FONTE #1 L2=\the\LW}%
+  \settowidth{\LW}{paniano, Skotiano, Laponiano, Suisiano esas tote reguloza,}%
+  \typeout{FONTE #1 L3=\the\LW}%
+  \settowidth{\LW}{do permisata. Ma per imito dil uzado internaciona, qua por}%
+  \typeout{FONTE #1 L4=\the\LW}%
+  \settowidth{\LW}{ta nomi di rasi o populi havas formi plu kurta, Ido preferas}%
+  \typeout{FONTE #1 L5=\the\LW}%
+  \settowidth{\LW}{nacionala dil formo ia (Latina origine) konservas sua formo}%
+  \typeout{FONTE #1 L6=\the\LW}%
+}
+\begin{document}
+\typeout{JUSTIF=91.69mm}
+\mesure{cmr}
+{\fontfamily{ptm}\selectfont\mesure{times-ptm}}
+{\fontfamily{ppl}\selectfont\mesure{palatino-ppl}}
+{\fontfamily{pnc}\selectfont\mesure{newcent-pnc}}
+{\fontfamily{put}\selectfont\mesure{utopia-put}}
+{\fontfamily{pbk}\selectfont\mesure{bookman-pbk}}
+{\fontfamily{bch}\selectfont\mesure{charter-bch}}
+{\fontfamily{fxlj}\selectfont\mesure{erewhon-fxlj}}
+{\fontfamily{XCharter-TLF}\selectfont\mesure{xcharter}}
+{\fontfamily{Cochineal-TLF}\selectfont\mesure{cochineal}}
+{\fontfamily{ntxtlf}\selectfont\mesure{newtx}}
+\mbox{}
+\end{document}

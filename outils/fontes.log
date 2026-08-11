@@ -1,0 +1,222 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.8)  3 AUG 2026 20:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**fontes.tex
+(./fontes.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+\LX=\skip50
+\LC=\skip51
+\LW=\skip52
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count195
+\l__pdf_internal_box=\box51
+)
+No file fontes.aux.
+\openout1 = `fontes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+JUSTIF=91.69mm
+FONTE cmr xheight=4.3045pt capheight=6.8872pt
+FONTE cmr L1=232.79037pt
+FONTE cmr L2=247.34238pt
+FONTE cmr L3=256.10413pt
+FONTE cmr L4=262.32483pt
+FONTE cmr L5=259.40887pt
+FONTE cmr L6=258.96454pt
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 27
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+FONTE times-ptm xheight=4.58496pt capheight=6.50987pt
+FONTE times-ptm L1=214.68811pt
+FONTE times-ptm L2=228.29823pt
+FONTE times-ptm L3=235.27792pt
+FONTE times-ptm L4=235.83759pt
+FONTE times-ptm L5=233.95772pt
+FONTE times-ptm L6=238.48749pt
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 28
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+FONTE palatino-ppl xheight=4.84497pt capheight=6.92993pt
+FONTE palatino-ppl L1=234.65767pt
+FONTE palatino-ppl L2=250.18753pt
+FONTE palatino-ppl L3=258.50735pt
+FONTE palatino-ppl L4=262.99715pt
+FONTE palatino-ppl L5=260.94702pt
+FONTE palatino-ppl L6=262.39722pt
+LaTeX Font Info:    Trying to load font information for T1+pnc on input line 29
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pnc.fd
+File: t1pnc.fd 2001/06/04 font definitions for T1/pnc.
+)
+FONTE newcent-pnc xheight=4.81995pt capheight=7.30994pt
+FONTE newcent-pnc L1=245.32712pt
+FONTE newcent-pnc L2=259.52701pt
+FONTE newcent-pnc L3=271.37665pt
+FONTE newcent-pnc L4=273.28621pt
+FONTE newcent-pnc L5=272.33606pt
+FONTE newcent-pnc L6=273.73627pt
+LaTeX Font Info:    Trying to load font information for T1+put on input line 30
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1put.fd
+File: t1put.fd 2001/06/04 font definitions for T1/put.
+)
+FONTE utopia-put xheight=5.00993pt capheight=6.73993pt
+FONTE utopia-put L1=236.81693pt
+FONTE utopia-put L2=252.417pt
+FONTE utopia-put L3=263.3064pt
+FONTE utopia-put L4=267.9363pt
+FONTE utopia-put L5=262.17683pt
+FONTE utopia-put L6=266.93642pt
+LaTeX Font Info:    Trying to load font information for T1+pbk on input line 31
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pbk.fd
+File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
+)
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <10> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 31.
+
+FONTE bookman-pbk xheight=4.98491pt capheight=6.98991pt
+FONTE bookman-pbk L1=259.61726pt
+FONTE bookman-pbk L2=276.46765pt
+FONTE bookman-pbk L3=289.46715pt
+FONTE bookman-pbk L4=290.3765pt
+FONTE bookman-pbk L5=288.97638pt
+FONTE bookman-pbk L6=288.41689pt
+LaTeX Font Info:    Trying to load font information for T1+bch on input line 32
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1bch.fd
+File: t1bch.fd 2004/10/18 font definitions for T1/bch.
+)
+FONTE charter-bch xheight=4.90999pt capheight=6.825pt
+FONTE charter-bch L1=229.84962pt
+FONTE charter-bch L2=245.21957pt
+FONTE charter-bch L3=256.74956pt
+FONTE charter-bch L4=259.20958pt
+FONTE charter-bch L5=256.32959pt
+FONTE charter-bch L6=259.76953pt
+LaTeX Font Info:    Trying to load font information for T1+fxlj on input line 3
+3.
+LaTeX Font Info:    No file T1fxlj.fd. on input line 33.
+
+LaTeX Font Warning: Font shape `T1/fxlj/m/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 33.
+
+FONTE erewhon-fxlj xheight=4.3045pt capheight=6.8872pt
+FONTE erewhon-fxlj L1=232.79037pt
+FONTE erewhon-fxlj L2=247.34238pt
+FONTE erewhon-fxlj L3=256.10413pt
+FONTE erewhon-fxlj L4=262.32483pt
+FONTE erewhon-fxlj L5=259.40887pt
+FONTE erewhon-fxlj L6=258.96454pt
+LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on inpu
+t line 34.
+(/usr/share/texlive/texmf-dist/tex/latex/xcharter/T1XCharter-TLF.fd
+File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-
+TLF.
+)
+FONTE xcharter xheight=4.86499pt capheight=6.8pt
+FONTE xcharter L1=229.18951pt
+FONTE xcharter L2=244.28943pt
+FONTE xcharter L3=255.68942pt
+FONTE xcharter L4=259.29253pt
+FONTE xcharter L5=255.1695pt
+FONTE xcharter L6=258.48938pt
+LaTeX Font Info:    Trying to load font information for T1+Cochineal-TLF on inp
+ut line 35.
+(/usr/share/texlive/texmf-dist/tex/latex/cochineal/T1Cochineal-TLF.fd
+File: T1Cochineal-TLF.fd 2019/06/21 (msharpe) Font definitions for T1/Cochineal
+-TLF.
+)
+FONTE cochineal xheight=4.26498pt capheight=6.525pt
+FONTE cochineal L1=207.9197pt
+FONTE cochineal L2=221.76968pt
+FONTE cochineal L3=228.60968pt
+FONTE cochineal L4=232.88466pt
+FONTE cochineal L5=230.08965pt
+FONTE cochineal L6=232.16965pt
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
+ 36.
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
+File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
+)
+FONTE newtx xheight=4.555pt capheight=6.76pt
+FONTE newtx L1=214.44pt
+FONTE newtx L2=228.05002pt
+FONTE newtx L3=235.23001pt
+FONTE newtx L4=236.65001pt
+FONTE newtx L5=233.70998pt
+FONTE newtx L6=238.29pt
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./fontes.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1076 strings out of 476106
+ 17763 string characters out of 5793934
+ 1922975 words of memory out of 5000000
+ 23122 multiletter control sequences out of 15000+600000
+ 592446 words of font info for 46 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 35i,5n,50p,180b,122s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </root/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk>
+Output written on fontes.pdf (1 page, 1344 bytes).
+PDF statistics:
+ 13 PDF objects out of 1000 (max. 8388607)
+ 8 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

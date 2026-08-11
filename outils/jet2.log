@@ -1,0 +1,12 @@
+Mesure du premier jet automatique contre le releve manuel :
+
+  folio f15 : 32 lignes relevees, 32 lues —   4.8 % d'erreur
+  folio 12  : 34 lignes relevees, 34 lues —   5.3 % d'erreur
+  folio 13  : 41 lignes relevees, 41 lues —   6.4 % d'erreur
+  folio 14  : 39 lignes relevees, 38 lues —  65.5 % d'erreur
+  folio 15  : 35 lignes relevees, 35 lues —   3.7 % d'erreur
+  folio 16  : 42 lignes relevees, 41 lues —  34.6 % d'erreur
+  folio 17  : 41 lignes relevees, 41 lues —   2.5 % d'erreur
+  folio 18  : 41 lignes relevees, 41 lues —   2.8 % d'erreur
+
+  TAUX D'ERREUR GLOBAL : 16.1 % par caractere (2634 sur 16392)

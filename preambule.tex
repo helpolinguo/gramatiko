@@ -1,0 +1,875 @@
+% ===================================================================
+%  preambule.tex — tous les reglages et toutes les macros.
+%  Une seule constante par reglage. Aucune valeur en dur ailleurs.
+%  Toute valeur est justifiee dans LISEZ-MOI.md, section « Calibration ».
+% ===================================================================
+
+% -------------------------------------------------------------------
+% 1. GEOMETRIE   (mesuree sur le fac-simile, cf. outils/inventaire.py)
+% -------------------------------------------------------------------
+% Format du papier : mediane des images de page a 300 dpi, une fois
+% otee la marge de numerisation.  117,2 x 176,9 mm mesures sur l'image
+% brute ; le rogne du massicot et l'ombre de reliure retirent ~1 mm de
+% chaque cote.  On retient un in-16 courant de 116 x 182 mm.
+\newcommand{\VUpapierLargeur}{116mm}
+\newcommand{\VUpapierHauteur}{182mm}
+
+% Justification : mediane sur 223 pages a >= 25 lignes = 91,69 mm,
+% ecart-type 1,36 mm (la dispersion vient du scan, pas de l'imprime).
+\newcommand{\VUtexteLargeur}{91.69mm}
+
+% Deux ordonnees mesurees, comptees depuis le bord superieur du papier :
+%   - le folio       : mediane 221 px = 18,71 mm ;
+%   - la 1re ligne du corps de texte : mediane 287 px = 24,30 mm.
+% Le texte courant commence donc a 24,30 mm ; le folio est place au-dessus,
+% en hauteur nulle, a son ordonnee propre.
+\newcommand{\VUfolioY}{18.71mm}
+\newcommand{\VUmargeSup}{24.30mm}
+% Hauteur du bloc : du haut du folio (18,71) au bas de la derniere ligne
+% (mediane 1850 px = 156,63 mm).
+\newcommand{\VUtexteHauteur}{132.4mm}
+
+% -------------------------------------------------------------------
+% 2. CORPS ET INTERLIGNAGE
+% -------------------------------------------------------------------
+% Interlignage du texte courant.
+%
+% CETTE VALEUR ETAIT FAUSSE DE 0,11 pt, ET C'EST LE CONTROLE 11 QUI L'A
+% MONTREE. Le premier releve prenait le MODE DES HAUTS DE LIGNE sur 85
+% pages : 41 px a 300 dpi, soit 9,88 pt. Mais le haut d'une ligne depend
+% des ascendantes qu'elle porte, et le mode d'une grandeur bruitee tombe
+% sur l'entier le plus proche : 41 px n'etait pas une mesure, c'etait un
+% arrondi. Mesure sur les LIGNES DE BASE (outils/lignesbase.py), qui ne
+% dependent d'aucune lettre particuliere, le pas vaut 41,45 px sur les
+% feuillets 20, 24, 30, 32, 37, 38 -- et 41,26 a 41,44 px sur les six
+% feuillets 62 a 67. 41,45 px = 9,986 pt.
+%
+% L'ecart de 0,43 px par ligne ne se voit pas sur une ligne ; sur les
+% quarante d'une page il fait 17 px, soit 1,4 mm, et c'est exactement le
+% residu que neuf pages gardaient sans qu'on sut d'ou il venait. Pose a
+% 9,99 pt, il tombe : dix pages en echec au controle 11, cinq apres.
+% Essais voisins : 9,94 pt en laisse huit, 9,96 pt cinq, 10,02 pt sept.
+% On retient la valeur MESUREE, non la meilleure du balayage.
+\newcommand{\VUinterligne}{9.99pt}
+
+% Corps du texte courant : la hauteur d'x mesuree vaut 1,729 mm
+% (4,92 pt TeX) ; la largeur naturelle des lignes releveest de 260,7 pt.
+% Les deux criteres donnent 10,2 pt pour XCharter (cf. LISEZ-MOI).
+\newcommand{\VUcorps}{10.2pt}
+
+% Notes : hauteur d'x 1,329 mm, soit 0,766 fois celle du corps, ce qui
+% donne 7,81 pt ; pas des lignes 33,25 px = 8,01 pt.
+\newcommand{\VUcorpsNote}{7.85pt}
+\newcommand{\VUinterligneNote}{8.01pt}
+
+% LES NOTES SONT INTERLETTREES.
+% Deux mesures se contredisaient : la hauteur d'x donnait 7,8 pt pour le
+% corps des notes, la largeur des lignes en reclamait 9,3. Aucun corps ne
+% satisfait les deux — parce que l'original ne joue pas sur le corps mais
+% sur l'approche : les notes sont composees interlettrees, usage courant
+% pour le petit texte de cette epoque.
+% Sans cela, mes lignes de note naissaient 15 % trop courtes et TeX
+% comblait en etirant les espaces-mots, qui devenaient beants.
+% Mesure sur quatre lignes de note entierement romaines du folio 14 :
+% +77, +83, +79, +75 millièmes de cadratin. Mediane retenue : +78.
+\newcommand{\VUtrackingNote}{78}
+
+% L'ESPACE-MOT, mesuree et non heritee de la fonte.
+% Blancs inter-mots du fac-simile, sur 2011 echantillons pris dans les
+% lignes pleines de six pages : mediane 19,0 px = 4,58 pt, soit 0,449 du
+% corps. XCharter, lui, donne 2,84 pt d'espace et 1,42 pt d'etirement :
+% son plafond est a 4,26 pt, EN DESSOUS de ce que l'original emploie au
+% repos. Mes lignes ne pouvaient donc pas se remplir : TeX les laissait
+% courtes (sept « Underfull \hbox ») a 94 % de la justification, et le
+% controle 10 les signalait sans que je comprenne pourquoi.
+% C'est un poste de calibration que j'avais omis : j'avais mesure le
+% corps, jamais la chasse des blancs.
+%
+% MAIS 4,58 pt est la valeur APRES justification, non au repos : j'ai
+% mesure le resultat, pas le reglage. Pose telle quelle, elle fait
+% deborder les lignes qui tenaient (48 echecs contre 7). On garde donc
+% une largeur proche de celle de la fonte, avec une elasticite large,
+% qui laisse chaque ligne trouver sa mesure. Cela ramene les
+% « Underfull \hbox » de sept a deux — mais n'explique PAS les lignes a
+% 94 % : le resultat est insensible au reglage sur trois valeurs
+% essayees. L'hypothese est donc refutee, et la cause reste inconnue.
+\newcommand{\VUespaceRatio}{0.32}
+\newcommand{\VUespaceEtire}{0.30}
+\newcommand{\VUespaceSerre}{0.14}
+
+% -------------------------------------------------------------------
+% 3. FONTE
+% -------------------------------------------------------------------
+% Le fac-simile est compose dans une romaine de transition a fort oeil,
+% empattements fins et horizontaux, axe vertical.  Parmi les fontes
+% disponibles, XCharter reproduit a la fois la hauteur d'x et la chasse
+% (cf. outils/fontes.tex et outils/comparfontes.tex).
+\newcommand{\VUfonte}{XCharter-TLF}
+
+% LE GRAS VIENT D'UNE AUTRE FAMILLE, et c'est deliberé.
+% Le gras du fac-simile est un demi-gras etroit, comme il est d'usage
+% dans les fontes allemandes et luxembourgeoises de l'epoque : il n'est
+% pas proportionne a son romain. Le gras de XCharter, lui, est large.
+% Mesure sur le folio 12, ligne « la chefa esforco di la voco : ... » :
+% le passage gras occupe 575 px = 138,5 pt au fac-simile, contre
+% 151,4 pt en XCharter gras a 10,2 pt, soit 9 % de trop — assez pour
+% que « neutra. » ne tienne plus dans la ligne.
+% Deux remedes possibles, tous deux essayes :
+%   - garder XCharter gras et le reduire : il faut descendre a 9,2 pt,
+%     soit -10 %, ce qui se voit (les capitales grasses rapetissent) ;
+%   - prendre un gras plus etroit : newtx gras donne 141,5 pt a 10,2 pt,
+%     et tombe donc juste a 10,0 pt, a -2 % seulement, avec une hauteur
+%     de capitale a 1,4 % de la mesure.
+% C'est le second qui est retenu.
+\newcommand{\VUfonteGras}{ntxtlf}
+% Le gras est defini par un RAPPORT au corps courant, non par un corps
+% absolu : 10,0 / 10,2 = 0,98. Fixe en dur, il composait les lettres
+% grasses des notes (corps 7,9 pt) a 10 pt, ou elles sautaient aux yeux.
+\newcommand{\VUratioGras}{0.98}
+
+% -------------------------------------------------------------------
+% 4. PAQUETAGES
+% -------------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{XCharter}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage[tracking=true,letterspace=0]{microtype}
+% Approche appliquee par \lsstyle aux corps inferieurs a 9 pt : les notes.
+\SetTracking[no ligatures={f}]{encoding=*, size=-9}{78}
+
+\geometry{
+  paperwidth=\VUpapierLargeur, paperheight=\VUpapierHauteur,
+  textwidth=\VUtexteLargeur,   textheight=\VUtexteHauteur,
+  top=\VUmargeSup, includehead=false, includefoot=false,
+  hcentering, % marges laterales egales : le fac-simile est symetrique
+}
+
+% -------------------------------------------------------------------
+% 5. COUPURES DE LIGNE EXPLICITES
+% -------------------------------------------------------------------
+% \nl : fin de ligne SANS trait d'union.
+% \cc : fin de ligne AVEC trait d'union (le trait est compose).
+% On n'utilise jamais \\ : il annule la justification de la ligne.
+\newcommand{\nl}{\penalty-10000\relax}
+\newcommand{\cc}{-\penalty-10000\relax}
+% \parplein TERMINE un alinea dont la derniere ligne court jusqu'a la
+% marge — cas d'un alinea qui se poursuit sur la page suivante. Il
+% remplace la ligne blanche qui termine un alinea ordinaire.
+%
+% \parfillskip est un parametre GLOBAL : pose une fois, il justifiait la
+% derniere ligne de tous les alineas suivants de la page (folio 15 :
+% « Rose Germana, rosa Italiana. » et les autres se retrouvaient tires
+% jusqu'a la marge). On l'enferme donc dans un groupe, referme aussitot
+% apres le \par qui l'utilise.
+\newcommand{\parplein}{{\parfillskip=0pt\relax\par}}
+
+% \VUcontinue OUVRE un alinea qui continue la page precedente : pas de
+% renfoncement, la ligne reprend au fer a gauche.
+\newcommand{\VUcontinue}{\noindent}
+
+% \VUauFer{recul}{matiere} : une ligne calee A DROITE, mais a une
+% distance MESUREE de la marge — c'est ainsi que le fac-simile pose les
+% deux signatures du folio 8 (« L. DE BEAUFRONT. » a 41 px de la marge,
+% « L. B. » a 43 px). Le recul est le meme aux deux a 2 px pres : c'est
+% un cadratin voulu, non un hasard de justification.
+% \parfillskip doit etre annule DANS le groupe, faute de quoi il se
+% partage la place avec le \hfill et la ligne se centre.
+\newcommand{\VUauFer}[2]{{\parfillskip=0pt\relax
+  \noindent\hspace*{\fill}#2\hspace*{#1}\par}}
+
+% L'APPEL DE NOTE D'UN TITRE. Au folio 5 (feuillet 9) le titre « Averto »
+% porte un « (1) » qui n'est ni gras ni au corps du titre : c'est le
+% romain du texte courant, remonte de 13 px (1,10 mm) au-dessus de la
+% ligne de base du titre. Titre et appel sont centres ENSEMBLE sur la
+% justification, a un demi-pixel pres.
+% #1 = ecart entre le titre et l'appel.
+% L'appel n'est PAS interlettre : \textls[0] annule dans le groupe
+% l'interlettrage du titre, qui vaut -105 au folio 5.
+\newcommand{\VUtitreAppel}[2][1.5mm]{%
+  \hspace{#1}\VUdecale{1.10mm}{{\normalfont\fontfamily{\VUfonte}%
+  \fontsize{\VUcorps}{\VUcorps}\selectfont\textls[0]{#2}}}}
+
+% Conserve sous son ancien nom, mais il ne doit plus servir : il fuit.
+\newcommand{\parsuite}{\parfillskip=0pt\relax}
+
+% Les espaces-mots sont INSECABLES.
+%
+% Sans cela, le modele fuit : \nl force bien une coupure a la fin de la
+% ligne, mais n'empeche pas TeX d'en placer une AVANT si la matiere ne
+% tient pas. Une ligne 0,7 % trop large se recoupait donc toute seule, en
+% silence, sans meme produire d'« Overfull \hbox » — c'est arrive au
+% folio 13. Les espaces rendus insecables, le seul point de coupure
+% legal d'une ligne est celui que le releve a place : une ligne trop
+% large devient un « Overfull \hbox », que le controle 1 inventorie.
+% La faute passe du silence au bruit.
+%
+% Les espaces gardent toute leur elasticite : la justification est intacte.
+% Le corps de l'espace-mot, defini HORS du groupe ou l'espace est active :
+% ecrit a l'interieur, ses propres espaces devenaient des tokens actifs
+% et le rappelaient — recursion infinie, « TeX capacity exceeded ».
+\makeatletter\newcommand{\VUespaceMot}{%
+  \ifdim\spaceskip=0pt\relax
+    \@tempdimb=\f@size pt
+    \hskip\VUespaceRatio\@tempdimb
+      plus\VUespaceEtire\@tempdimb minus\VUespaceSerre\@tempdimb
+  \else \hskip\spaceskip \fi}\makeatother
+\begingroup
+  \catcode`\ =\active
+  \gdef\VUespacesInsecables{\catcode`\ =\active
+    \def {\ifhmode\ifnum\lastnodetype>-1\relax\penalty10000\VUespaceMot\fi\fi}}%
+\endgroup
+
+% Aucune cesure decidee par TeX : toutes les coupures sont relevees.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\pretolerance=-1
+\tolerance=9999
+\emergencystretch=0pt
+
+% -------------------------------------------------------------------
+% 6. PAGE FIGEE
+% -------------------------------------------------------------------
+% Chaque page du fac-simile est composee dans une minipage de hauteur
+% fixe : une retouche dans un alinea ne peut pas faire migrer du texte
+% vers la page suivante.
+\pagestyle{empty}
+\setlength{\parskip}{0pt}
+\setlength{\topskip}{0pt}      % sinon la minipage deborde de \topskip
+\raggedbottom
+\newcommand{\VUalinea}{4.6mm}   % renfoncement mesure sur le fac-simile
+\setlength{\parindent}{\VUalinea}
+
+% #1 (optionnel) = numero de FEUILLET du fac-simile. Il n'est pas
+% compose : il sert aux controles a retrouver la page du scan.
+% #2 = folio imprime ; vide si la page n'en porte pas.
+% -------------------------------------------------------------------
+% LA MARQUE CACHEE, sur chaque page.
+% Elle est composee en MODE DE RENDU 3 (« 3 Tr » du PostScript inclus
+% dans le PDF) : le texte entre dans le flux de la page, il est indexe,
+% cherchable et extrait par pdftotext, mais il n'est PAS PEINT — aucun
+% pixel n'en sort a l'impression ni a l'ecran, a aucun grossissement.
+% Ce n'est pas du blanc sur blanc, qui se verrait en selectionnant ou en
+% changeant de fond : c'est du texte que le moteur de rendu saute.
+% Par surcroit de precaution le corps est de 0,4 pt, et la boite qui la
+% porte est de hauteur ET de largeur nulles : la marque ne peut deplacer
+% aucun element de la page.
+% Elle est posee par l'environnement VUpage, donc sur les 236 pages.
+\newcommand{\VUmarque}{Gilles-Philippe Morin kompris, skanis e direktis
+  la transskribo di ca libro.}
+\newcommand{\VUmarqueCachee}{%
+  \vbox to 0pt{%
+    \hbox to 0pt{%
+      \pdfliteral{3 Tr}%
+      \fontsize{0.4pt}{0.4pt}\selectfont\VUmarque
+      \pdfliteral{0 Tr}\hss}%
+    \vss}%
+  \nointerlineskip}
+
+\newenvironment{VUpage}[2][]%
+  {\par\noindent\begin{minipage}[t][\textheight][t]{\textwidth}%
+     % minipage remet \parindent a zero (\@parboxrestore) : on le retablit,
+     % le fac-simile renfonce tous ses alineas.
+     \setlength{\parindent}{\VUalinea}%
+     \VUespacesInsecables
+     \VUtexte\VUmarqueCachee\VUfolio{#2}\ignorespaces}%
+  {\end{minipage}\par\penalty-10000\relax}
+
+% -------------------------------------------------------------------
+% 6 bis. JUSTIFICATION VERTICALE DE LA PAGE
+% -------------------------------------------------------------------
+% Le compositeur justifie chaque page VERTICALEMENT : mesure faite sur
+% les feuillets 20 a 39, la derniere ligne de base tombe a 145,3 mm
+% sous le folio, a 0,3 mm pres, quel que soit le nombre de lignes.
+% Quand la matiere ne suffit pas a remplir la page, il repartit le
+% surplus en interlignage : il « carde » la page. Deux moyens, tous
+% deux visibles au fac-simile :
+%   -- des lames uniformes entre TOUTES les lignes du corps : le pas
+%      passe de 41,45 px (interlignage normal, 9,88 pt) a la valeur
+%      propre a la page (feuillet 34 : 43,10 px = 10,38 pt) ;
+%   -- des blancs plus larges aux articulations : fin d'alinea,
+%      debut d'enumeration, reprise du discours.
+% Sans ces deux reglages la page derive verticalement de 40 a 140 px
+% (3 a 12 mm) : le texte reste juste ligne a ligne, mais aucune ligne
+% ne tombe en face de son modele. C'est le controle 11 qui le mesure.
+%
+% Interlignage propre a une page. A appeler juste apres \begin{VUpage},
+% AVANT toute matiere. Sans appel, la page garde \VUinterligne.
+\newcommand{\VUinterlignePage}[1]{%
+  \fontsize{\VUcorps}{#1}\selectfont}
+% Blanc ORDINAIRE entre deux alineas. Le fac-simile en met un partout :
+% releve sur les feuillets 15 a 44, 27 des 32 exces mesures se serrent
+% entre 7 et 9 px, mediane 7,71 px = 1,86 pt. Les autres valeurs sont
+% franchement plus grandes (16 px et au-dela) et propres a leur page.
+% Il n'est PAS mis en \parskip : au sommet d'une minipage la colle de
+% \parskip subsiste et decalerait toute la page d'autant. On l'ecrit
+% donc, comme les sauts de ligne, la ou il est.
+\newcommand{\VUblancAlinea}{\vskip\VUblancAlineaValeur\relax}
+\newcommand{\VUblancAlineaValeur}{1.86pt}
+% Blanc plus large a une articulation (ouverture d'une enumeration,
+% reprise du discours). #1 = l'EXCES mesure sur le pas regulier de la
+% page, DIMINUE du blanc ordinaire ci-dessus quand il le remplace.
+% Mesure : outils/cardage.py.
+\newcommand{\VUblanc}[1]{\vskip #1\relax}
+
+% -------------------------------------------------------------------
+% 6 ter. TABLEAUX A ACCOLADES
+% -------------------------------------------------------------------
+% Le premier du volume est au folio 31 (« GRADI KOMPARALA. »). Il ne se
+% laisse pas decrire par un tableau ordinaire : ses elements ne forment
+% pas une grille. « Superlativo » et « de o ek » tombent A MI-HAUTEUR
+% entre deux lignes, chacun centre sur la portee de l'accolade qui le
+% designe. Les six lignes du tableau, elles, sont bien sur la grille du
+% volume : lignes de base a 413, 454, 495 px pour le premier groupe,
+% 561, 602,5, 643,5 px pour le second, soit le pas courant de 41 px.
+%
+% On garde donc la regle du volume — une ligne du fac-simile fait une
+% ligne du compose — et on pose chaque element a l'abscisse relevee.
+%
+% \VUcase{abscisse}{matiere} : matiere posee a l'abscisse indiquee,
+% comptee depuis la marge de gauche, sans largeur propre.
+\newcommand{\VUcase}[2]{\hbox to 0pt{\hskip#1\relax#2\hss}}
+% \VUrang{...} : UN rang du tableau, c'est-a-dire une ligne.
+% Le rang entier est enferme dans une boite de la largeur du bloc.
+% Une suite de \VUcase laissee libre dans le paragraphe ne tenait pas :
+% a l'interieur de \VUpage — ou l'espace est active et l'espace-mot
+% elastique — TeX trouvait a couper entre les boites, et chaque element
+% du tableau descendait d'une ligne, en escalier. Enfermes dans une
+% boite, ils n'offrent plus aucun point de coupure.
+\newcommand{\VUrang}[1]{\hbox to \textwidth{#1\hfil}\penalty-10000\relax}
+% \VUdecale{hauteur}{matiere} : pour ce qui est pose entre deux lignes.
+\newcommand{\VUdecale}[2]{\raisebox{#1}[0pt][0pt]{#2}}
+% Accolades. Celles du fac-simile sont de la fonte, non un ornement :
+% elles se composent, elles ne s'extraient pas du scan.
+% #1 = hauteur relevee ; #2 = deplacement vertical de son centre.
+% HAUTEUR ET PROFONDEUR NULLES : posee sans cela, une accolade de 27 pt
+% faisait une ligne de 27 pt de haut, et le rang suivant s'en trouvait
+% ecarte — au folio 31, la rangee « egaleso » tombait plus loin de
+% « Supereso » que de « infreso ».
+% Le centre d'une accolade posee sur une ligne de base tombe sur l'axe
+% mathematique, soit 10,4 px au-dessus de cette ligne a 300 dpi : c'est
+% de la que se comptent les deplacements releves.
+\newcommand{\VUaccolade}[2]{%
+  \raisebox{#2}[0pt][0pt]{$\left\{\vcenter to #1{}\right.$}}
+% Accolade FERMANTE : celle qui rassemble ce qui est a sa gauche. Au
+% folio 31, celle de « maxim / minim » designe « de o ek », a sa droite.
+\newcommand{\VUaccoladeD}[2]{%
+  \raisebox{#2}[0pt][0pt]{$\left.\vcenter to #1{}\right\}$}}
+% Accolade HORIZONTALE, pointe en haut : celle de l'arbre genealogique
+% du folio 220, qui rattache quatre noms a un seul. Le fac-simile n'en
+% donne qu'une dans tout le volume. Mesure : encre de x 524 a 1063
+% (539 px = 45,63 mm), y 1339 a 1355, pointe au milieu exact.
+% Comme les accolades verticales, elle est posee sans hauteur ni
+% profondeur : sans cela le rang des quatre noms s'ecarterait d'autant.
+% #1 = largeur relevee.
+\newcommand{\VUaccoladeH}[1]{%
+  \raisebox{0pt}[0pt][0pt]{$\overbrace{\hbox to #1{}}$}}
+
+% -------------------------------------------------------------------
+% 7. LIGNES D'APPARAT (faux-titre, titre, titres de partie)
+% -------------------------------------------------------------------
+% Sur ces pages aussi, UNE ligne du fac-simile = UN appel de macro :
+% le releve reste ligne a ligne, et les controles peuvent le verifier.
+% #1 = corps ; #2 = texte de la ligne.
+% #1 = corps ; #2 = interlettrage (1/1000 de cadratin) ; #3 = texte.
+% Les deux premiers sont MESURES sur le fac-simile (outils/apparat.py) :
+% le corps par la hauteur de capitale, l'interlettrage par la largeur.
+\newcommand{\VUcentre}[3]{{\centering\fontsize{#1}{#1}\selectfont
+   \textls[#2]{#3}\par}}
+\newcommand{\VUsaut}[1]{\vspace{#1}}
+% Ligne d'apparat placee a une ordonnee ABSOLUE, comptee depuis le bord
+% superieur du papier — c'est ainsi qu'on la mesure sur le fac-simile
+% (outils/apparat.py donne l'ordonnee du haut des capitales).
+% Chaque ligne occupe une hauteur NULLE : elles sont donc placees les
+% unes independamment des autres, et une retouche sur l'une ne deplace
+% aucune autre.
+% #1 = ordonnee du haut des capitales, depuis le bord du papier ;
+% #2 = corps ; #3 = interlettrage ; #4 = texte.
+\newcommand{\VUcentreA}[4]{%
+  \vbox to 0pt{%
+    \vskip\dimexpr #1 - \VUmargeSup\relax
+    \hbox to \textwidth{\hss
+      \fontsize{#2}{#2}\selectfont\textls[#3]{#4}\hss}%
+    \vss}%
+  \nointerlineskip}
+
+% -------------------------------------------------------------------
+% 7 bis. SIGNATURES DE CAHIER
+% -------------------------------------------------------------------
+% Un chiffre nu au pied de la premiere page de chaque cahier, a gauche.
+% Releve sur tout le volume : feuillets 37, 69, 101, 133, 165, 197, 229,
+% soit les folios 33, 65, 97, 129, 161, 193, 225, portant 2, 3, 4, 5, 6,
+% 7, 8. Les cahiers font donc 16 feuillets (32 pages) et le premier n'est
+% pas signe, comme il est d'usage.
+% Le chiffre a la meme hauteur que ceux du folio (27 px) : c'est le corps
+% courant. Il se pose a 2,88 mm de la marge de gauche (mediane des sept
+% mesures : 2,71 a 3,30 mm).
+% L'ordonnee est passee en argument, page par page, comme celle de
+% \VUnotes : le chiffre suit la DERNIERE LIGNE de la page, non une
+% ordonnee absolue. Sur six des sept pages la justification verticale
+% rend la meme valeur, 168,7 mm ; mais le folio 225 finit une section et
+% sa page est courte, et son chiffre remonte a 146,4 mm. Une constante
+% du volume l'aurait donc trahi.
+% Hauteur et profondeur nulles : le chiffre ne pousse rien.
+\newcommand{\VUsignatureX}{2.88mm}
+\newcommand{\VUsignature}[2]{%
+  \vbox to 0pt{%
+    \vskip\dimexpr #1 - \VUmargeSup\relax
+    \hbox to \textwidth{\hskip\VUsignatureX\relax #2\hss}%
+    \vss}%
+  \nointerlineskip}
+
+% Filet centre : #1 = largeur.
+\newcommand{\VUfilet}[1]{{\centering\rule{#1}{0.4pt}\par}}
+% Filet de note : court, cale a gauche.
+\newcommand{\VUfiletnote}{{\noindent\rule{25mm}{0.4pt}\par}}
+
+% Folio centre, entoure de deux demi-cadratins, comme « — 26 — ».
+% Le folio est place ABSOLUMENT, en hauteur nulle : il ne pousse rien.
+% Le corps de texte commence donc toujours exactement a \VUmargeSup,
+% que la page porte un folio ou non.
+\newcommand{\VUfolio}[1]{%
+  \ifx\relax#1\relax\else
+    \vbox to 0pt{\vskip\dimexpr\VUfolioY-\VUmargeSup\relax
+      \hbox to \textwidth{\hss\normalsize--\,#1\,--\hss}\vss}%
+    \nointerlineskip
+  \fi} % mesure : 221 px du bord au folio,
+                                 % 1re ligne de corps a 287 px
+
+% -------------------------------------------------------------------
+% 8. CORPS DU TEXTE
+% -------------------------------------------------------------------
+\newcommand{\VUtexte}{\fontsize{\VUcorps}{\VUinterligne}\selectfont}
+% Gras : meme famille etroite partout, et corps proportionnel au corps
+% courant — il suit donc automatiquement le texte, les notes, ou tout
+% autre corps ou il apparait.
+\makeatletter
+\newcommand{\VUgras}[1]{{%
+  \@tempdima=\f@size pt
+  \@tempdima=\VUratioGras\@tempdima
+  \fontfamily{\VUfonteGras}%
+  \fontsize{\@tempdima}{\f@baselineskip}\selectfont\bfseries #1}}
+\makeatother
+\newcommand{\VUtexteNote}{%
+  \fontsize{\VUcorpsNote}{\VUinterligneNote}\selectfont\lsstyle}
+
+% Titre de section : capitales grasses espacees, centrees.
+% #1 = corps ; #2 = interlettrage ; #3 = texte. Mesures : outils/apparat.py.
+% Les titres emploient le MEME demi-gras etroit que le texte : c'est le
+% meme caractere dans le fac-simile (cf. section 3).
+\newcommand{\VUtitre}[3]{%
+  {\centering\fontfamily{\VUfonteGras}\fontsize{#1}{#1}\selectfont\bfseries
+   \textls[#2]{#3}\par}}
+
+% SOUS-TITRE centre, ni capitales ni gras. Le feuillet 125 en donne le
+% premier exemple du volume : sous « DERIVADO PER AFIXI. », la ligne
+% « (Mediata derivado.) » est en bas de casse italique, au corps du
+% texte courant (hauteur de capitale 21 px, celle des lignes de corps de
+% la meme page, contre 29 px pour le titre qui la surmonte).
+% \VUtitre la composerait en demi-gras capitales : il lui faut donc une
+% macro a elle. Le caractere reste celui du texte courant ; l'italique
+% se met dans l'argument, comme partout ailleurs.
+% #1 = corps ; #2 = interlettrage ; #3 = texte.
+\newcommand{\VUsoustitre}[3]{%
+  {\centering\fontsize{#1}{#1}\selectfont\textls[#2]{#3}\par}}
+
+% Bloc de notes, place a son ordonnee MESUREE et de hauteur nulle :
+% il ne peut pas repousser le texte courant, ni migrer d'une page a l'autre.
+% #1 = ordonnee du filet, depuis le bord du papier ; #2 = les notes.
+%
+% IMPORTANT : \VUnotes se place en TETE de la page, juste apres
+% \begin{VUpage}, avant le texte courant. Son ordonnee est comptee depuis
+% le haut du bloc ; si on l'appelait a la fin, elle s'ajouterait a la
+% hauteur deja composee et sortirait de la page.
+% Longueur du filet de note : 213 px = 18,0 mm, valeur identique sur
+% quatre des cinq pages mesurees (outils/filet.py).
+\newcommand{\VUfiletNoteLargeur}{18.0mm}
+\newcommand{\VUalineaNote}{3.6mm}
+\newcommand{\VUsautFilet}{1.6mm}         % filet -> 1re ligne de note
+% UN BLOC DE NOTES SANS FILET. Le feuillet 208 est la seule page du
+% volume dont la note se separe de ce qui precede par un blanc SEUL :
+% cherche au pixel, il n'y a aucune encre entre y=1688 et y=1735, la ou
+% le filet du feuillet 207 se leve net a 213 px. La raison est claire —
+% la page entiere est deja composee au corps des notes (voir
+% \VUpageNote) : le compositeur n'avait rien dont il eut du la distinguer.
+% La largeur du filet devient donc un argument optionnel. A 0pt le filet
+% disparait sans que rien ne bouge : \rule garde sa hauteur de 0,4 pt,
+% donc le blanc qui suit reste celui d'une page a filet, ce qui est bien
+% ce que montre le fac-simile.
+\newcommand{\VUnotes}[3][\VUfiletNoteLargeur]{%
+  \vbox to 0pt{%
+    \vskip\dimexpr #2 - \VUmargeSup\relax
+    \hbox to \textwidth{%
+      \vtop{\hsize=\textwidth
+        \noindent\rule{#1}{0.4pt}\par
+        \vskip\VUsautFilet
+        \VUtexteNote\setlength{\parindent}{\VUalineaNote}%
+        % Le fac-simile ne laisse aucun blanc entre deux notes : les pas
+        % du bloc de notes du feuillet 34 valent 32,8 px de bout en bout,
+        % y compris a la reprise de la note (2).
+        \setlength{\parskip}{0pt}#3\par}\hss}%
+    \vss}%
+  \nointerlineskip}
+
+% UNE PAGE ENTIERE AU CORPS DES NOTES. Le feuillet 208 est le seul cas
+% du volume : la note (1) ouverte au folio 203 deborde et occupe le folio
+% 204 tout entier, quarante-trois lignes. Mesure : hauteur d'x de 15 a
+% 16 px sur les quarante-six lignes de la page, contre 19 a 20 px pour le
+% corps ordinaire et 15 a 16 px pour les notes du feuillet 207 ; pas des
+% lignes de base 33,76 px = 8,13 pt de bout en bout.
+% C'est ce pas incalculable — le detecteur travaillait sur y0, qui saute
+% de dix pixels selon les hampes — qui faisait rendre « pas -1.00 » a la
+% geometrie.
+% #1 = interlignage propre a la page.
+\newcommand{\VUpageNote}[1]{%
+  \fontsize{\VUcorpsNote}{#1}\selectfont\lsstyle
+  \setlength{\parindent}{\VUalineaNote}}
+
+% ORNEMENT DE FIN DE PARTIE. Un filet court et centre, pose dans le blanc
+% qui suit le bloc de notes de la derniere page d'une partie. Mesure au
+% folio 114, fin de la premiere partie : 305 px = 25,8 mm, centre a 766 px
+% quand le milieu de la justification est a 766,5 — centre, donc. Son
+% profil d'encre est celui du filet de note (pic a 209 contre 193, meme
+% demi-largeur de deux rangees) : c'est le meme filet maigre, seule la
+% longueur change.
+% Le meme filet sert au FAUX-TITRE DE PARTIE, entre le titre courant et
+% le titre de la partie, mais court : 97 px = 8,21 mm au feuillet 119.
+% La longueur est donc un argument optionnel ; sans lui, celle de la fin
+% de partie.
+% Comme \VUnotes, il se place en TETE de la page et ne pousse rien.
+% #1 = longueur (optionnel) ; #2 = ordonnee du filet, depuis le bord du
+% papier.
+\newcommand{\VUornementLargeur}{25.8mm}
+% \VUetroit : compression HORIZONTALE d'une ligne d'apparat.
+% Le titre de la couverture imprimee est compose dans un caractere
+% ETROIT que le volume n'a pas : la largeur de lettre y vaut 0,63 de la
+% hauteur de capitale (34 px pour 54), quand XCharter au meme corps en
+% donne 0,943. En posant, selon la regle du projet, le corps sur la
+% hauteur de capitale et l'interlettrage sur la largeur de ligne, la
+% geometrie tombe juste MAIS LES LETTRES SE TOUCHENT : l'interlettrage
+% doit descendre a -138 pour rentrer, et les vingt-cinq lettres du
+% titre se soudent en trois amas, la ou le fac-simile en montre
+% vingt-sept separes par trois pixels de blanc.
+% La compression retablit la largeur de lettre mesuree et rend a
+% l'interlettrage une valeur positive. ELLE DEFORME LE DESSIN DES
+% LETTRES : c'est un choix, non une mesure, et il n'est pris que la ou
+% les lettres se touchent.
+% #1 = facteur ; #2 = matiere.
+\newcommand{\VUetroit}[2]{\scalebox{#1}[1]{#2}}
+
+% \VUimageA : un cliche decoupe du scan, pose a une ordonnee ABSOLUE
+% et de hauteur nulle. Generalise \VUplancheA a un fichier quelconque :
+% le volume en compte trois — le portrait du feuillet 7, le fleuron du
+% folio 232, et la vignette de la couverture (feuillet 3).
+% #1 = ordonnee du haut du cliche ; #2 = largeur ; #3 = fichier.
+\newcommand{\VUimageA}[3]{%
+  \vbox to 0pt{%
+    \vskip\dimexpr #1 - \VUmargeSup\relax
+    \hbox to \textwidth{\hss\includegraphics[width=#2]{#3}\hss}%
+    \vss}%
+  \nointerlineskip}
+
+% \VUcentreDA : comme \VUcentreA, mais centre sur un axe DEPLACE.
+% Le feuillet 8 en donne le seul cas du volume : ses quatre lignes de
+% signature ont pour milieux 900,5 / 901,5 / 900,5 / 901,0 px, soit un
+% axe propre a x = 901 quand le milieu de la justification tombe a
+% 706,5 — un deplacement de 194,4 px = 16,46 mm, constant a un pixel.
+% Un \hskip pose APRES le premier \hss deplace le milieu de sa moitie ;
+% on passe donc le deplacement lui-meme, et non son double.
+% #1 = ordonnee ; #2 = deplacement ; #3 = corps ; #4 = interlettrage ;
+% #5 = texte.
+\newcommand{\VUcentreDA}[5]{%
+  \vbox to 0pt{%
+    \vskip\dimexpr #1 - \VUmargeSup\relax
+    \hbox to \textwidth{\hss\hskip\dimexpr 2\dimexpr #2\relax\relax
+      \fontsize{#3}{#3}\selectfont\textls[#4]{#5}\hss}%
+    \vss}%
+  \nointerlineskip}
+
+% \VUfiletA : un filet centre a une ordonnee ABSOLUE, de hauteur nulle
+% et d'EPAISSEUR MESUREE — \VUornement pose toujours 0,4 pt, ce qui
+% suffit aux filets du corps d'ouvrage mais non a ceux des plats et de
+% la couverture, epais de 2 a 8 px (0,5 a 1,9 pt).
+% #1 = epaisseur (facultatif) ; #2 = ordonnee ; #3 = largeur.
+\newcommand{\VUfiletA}[3][0.4pt]{%
+  \vbox to 0pt{%
+    \vskip\dimexpr #2 - \VUmargeSup\relax
+    \hbox to \textwidth{\hss\rule{#3}{#1}\hss}%
+    \vss}%
+  \nointerlineskip}
+
+% \VUcaseA : une ligne d'apparat a ordonnee absolue portant DEUX
+% elements sur une meme ligne de base, l'un au fer a gauche et l'autre
+% au fer a droite d'une mesure donnee. Le feuillet 3 en donne le seul
+% exemple du volume : « Imprimita en Luxemburg. » et « Preco : 2 Suisa
+% Franki. » partagent la ligne de base y=1893.
+% #1 = ordonnee ; #2 = mesure ; #3 = corps ; #4 = gauche ; #5 = droite.
+\newcommand{\VUcaseA}[5]{%
+  \vbox to 0pt{%
+    \vskip\dimexpr #1 - \VUmargeSup\relax
+    \hbox to \textwidth{\hss
+      \fontsize{#3}{#3}\selectfont
+      \hbox to #2{#4\hfil #5}\hss}%
+    \vss}%
+  \nointerlineskip}
+
+\newcommand{\VUornement}[2][\VUornementLargeur]{%
+  \vbox to 0pt{%
+    \vskip\dimexpr #2 - \VUmargeSup\relax
+    \hbox to \textwidth{\hss\rule{#1}{0.4pt}\hss}%
+    \vss}%
+  \nointerlineskip}
+
+% ASTERISME — trois asterisques en triangle, un au-dessus de deux.
+% Le fac-simile en pose un au folio 186, entre deux alineas, la ou la
+% premiere partie se contentait d'un filet. Mesures au feuillet 190 :
+% encre de x 790 a 867 (78 px = 6,6 mm) et de y 485 a 520 (35 px) ; les
+% deux asterisques bas sont a x 798 et 858, celui du haut a 828, soit
+% exactement leur milieu — c'est donc un vrai triangle isocele, centre
+% sur la justification (dont le milieu tombe a 819).
+% Comme \VUornement, il se place en TETE de page, de hauteur nulle.
+% #1 = ordonnee du rang INFERIEUR, depuis le bord du papier.
+% LA PREMIERE ECRITURE DE CETTE MACRO ETAIT FAUSSE, ET RIEN NE L'A DIT
+% PENDANT SIX LOTS. Elle empilait les deux rangs : un \vskip, le premier
+% \hbox, un second \vskip, le second \hbox. Or un \hbox contenant un
+% asterisque a la HAUTEUR de l'asterisque — 29 px au corps courant — qui
+% s'ajoutait aux 34 px du \vskip : les deux rangs tombaient a 63 px l'un
+% de l'autre quand le fac-simile les met a 21. L'ornement s'etalait sur
+% trois interlignes au lieu d'un.
+% Le controle 11 ne pouvait pas le voir : les deux rangs de l'asterisme
+% sont trop maigres pour le detecteur de lignes du fac-simile, la page
+% comptait donc une ligne composee de plus qu'au modele, et le controle
+% la sautait en le disant. C'est exactement la faiblesse que le LISEZ-MOI
+% nomme depuis le debut — les pages sautees sont celles ou les fautes se
+% cachent.
+% On pose donc chaque rang dans SA PROPRE boite de hauteur nulle, a son
+% ordonnee propre, comme le font \VUcentreA et \VUsignature : aucune des
+% deux ne peut plus pousser l'autre.
+% Mesures reprises sur les deux asterismes du volume, feuillets 190 et
+% 211 : encre du rang haut a y=483 et 1434, du rang bas a y=503 et 1455,
+% soit 20 et 21 px — un seul et meme ornement.
+% #1 = ordonnee du rang SUPERIEUR, depuis le bord du papier.
+\newcommand{\VUasterismoEcart}{5.1mm}   % entre les deux asterisques bas
+\newcommand{\VUasterismoHaut}{1.78mm}   % du rang haut au rang bas (21 px)
+\newcommand{\VUasterismo}[1]{%
+  \vbox to 0pt{\offinterlineskip
+    \vskip\dimexpr #1 - \VUmargeSup\relax
+    \hbox to \textwidth{\hss*\hss}\vss}%
+  \nointerlineskip
+  \vbox to 0pt{\offinterlineskip
+    \vskip\dimexpr #1 - \VUmargeSup + \VUasterismoHaut\relax
+    \hbox to \textwidth{\hss
+      \hbox to \VUasterismoEcart{*\hss*}\hss}\vss}%
+  \nointerlineskip}
+
+% Ligne SERREE. Le typographe resserre parfois l'approche d'une ligne
+% pour la faire tenir plutot que de la recouper : le fac-simile en donne
+% des exemples nets (folio 12, « la chefa esforco di la voco : ... »).
+% On reproduit le procede au lieu de laisser TeX recouper la ligne.
+% #1 = facteur applique a l'espace-mot ; #2 = la ligne.
+% Chaque emploi est justifie en commentaire dans le fichier de contenu.
+\newcommand{\VUserre}[2]{{%
+  \spaceskip=#1\fontdimen2\font
+    plus 0.4\fontdimen3\font minus \fontdimen4\font
+  \relax #2}}
+
+% -------------------------------------------------------------------
+% 9. ESPACEMENT A LA FRANCAISE
+% -------------------------------------------------------------------
+% Le fac-simile espace nettement avant ; : ! ? (« 26 literi : kin »).
+% On rend ces signes actifs : l'espace qui precede devient insecable,
+% sans quoi le signe se retrouverait seul en debut de ligne.
+% L'espace conserve l'elasticite d'une espace-mot, pour que la ligne
+% se justifie normalement.
+\newcommand{\VUespacePonct}{%
+  \unskip\penalty10000\hskip\fontdimen2\font
+    plus\fontdimen3\font minus\fontdimen4\font\relax}
+\begingroup
+  \catcode`\;=\active \catcode`\:=\active
+  \catcode`\!=\active \catcode`\?=\active
+  \gdef;{\VUespacePonct\char`\;}
+  \gdef:{\VUespacePonct\char`\:}
+  \gdef!{\VUespacePonct\char`\!}
+  \gdef?{\VUespacePonct\char`\?}
+\endgroup
+\newcommand{\VUponctuationFrancaise}{%
+  \catcode`\;=\active \catcode`\:=\active
+  \catcode`\!=\active \catcode`\?=\active}
+
+
+% -------------------------------------------------------------------
+% 12. LE TABELO — l'index analytique (folios 225 a 231)
+% -------------------------------------------------------------------
+% L'index a sa mise en page a lui, et c'est la seule du volume :
+%   -- meme justification que le texte (91,69 mm : les largeurs de 942
+%      a 980 px rendues par la geometrie sont un artefact du clippage
+%      de colonne, qui coupe la colonne des numeros de page) ;
+%   -- corps PLUS PETIT : hauteur d'x de 16 a 17 px contre 21 px pour
+%      le texte courant, soit 10,2 pt x 17/21 = 8,26 pt ;
+%   -- interlignage 40,94 px = 9,86 pt, un peu plus serre ;
+%   -- chaque entree suivie de POINTS DE CONDUITE au pas de 17,25 px
+%      = 4,16 pt, puis d'un numero de page cale au fer droit ;
+%   -- les points s'arretent a 73 px = 6,18 mm du premier chiffre ;
+%   -- entrees de premier rang en demi-gras et au fer, sous-entrees en
+%      romain maigre et renfoncees de 34 px = 2,88 mm.
+% Le renfoncement des sous-entrees n'est PAS \VUalinea (4,6 mm) : c'est
+% un rang d'index, non un alinea.
+\newcommand{\VUindexCorps}{8.26pt}
+\newcommand{\VUindexInterligne}{9.86pt}
+\newcommand{\VUindexRenfoncement}{2.88mm}
+\newcommand{\VUindexEcartPoints}{4.16pt}
+% BLANC MINIMAL ENTRE LES POINTS DE CONDUITE ET LE NUMERO.
+% Les numeros tiennent d'ordinaire dans \VUindexColonne et s'y calent au
+% fer a droite, le blanc venant de la colonne. Mais une entree peut
+% porter DEUX renvois — « 107 e 110 » au folio 229 — et la boite deborde
+% alors la colonne par la gauche : sans blanc reserve, les points
+% venaient toucher le premier chiffre.
+\newcommand{\VUindexEcart}{4pt}   % pas des points de conduite
+% LES POINTS S'ARRETENT TOUS A LA MEME ABSCISSE, y compris devant un
+% numero large comme « 46 e 51 » : releve au folio 225, ils finissent
+% a x = 1036 sur les vingt-cinq entrees. Ce n'est donc pas un blanc
+% fixe apres les points, mais une COLONNE de largeur fixe ou le numero
+% se cale au fer droit. Ecrit en blanc fixe, « 46 e 51 » venait manger
+% ses propres points.
+\newcommand{\VUindexColonne}{8.99mm}       % de la fin des points au fer droit
+% A appeler juste apres \begin{VUpage}, comme \VUpageNote.
+\newcommand{\VUpageIndex}{%
+  \fontsize{\VUindexCorps}{\VUindexInterligne}\selectfont
+  \setlength{\parindent}{0pt}}
+% UNE ENTREE. #1 (optionnel) = renfoncement ; #2 = l'entree ;
+% #3 = le numero de page, cale au fer droit.
+% Comme \VUrang, l'entree est enfermee dans une boite de la largeur du
+% bloc : sans cela TeX trouverait a couper entre les morceaux.
+% UN NUMERO TROP LARGE POUR SA COLONNE repousse les points au lieu de
+% passer dessous. La colonne a ete mesuree au folio 225, dont le plus
+% large numero est « 46 e 51 » ; le folio 229 porte « 107 e 110 », qui
+% deborde, et les points venaient courir SOUS lui — le controle 2 lisait
+% « 107..110 » la ou le releve donne « 107 e 110 ».
+% Un numero ordinaire garde donc l'arret constant des points, mesure sur
+% le fac-simile ; un numero surlarge les repousse de sa seule surlargeur.
+\newlength{\VUindexLargeurNum}
+% LES RENVOIS CLIQUABLES DU TABELO.
+% page = folio + 2 : feuillet = folio + 4, et la premiere page du PDF
+% est le feuillet 3. Verifie aux bornes (folio 11 -> page 13, folio 225
+% -> page 227).
+% Le lien couvre la LIGNE ENTIERE, points de conduite compris. Un
+% premier etat n'entourait que le texte de l'entree et son numero, deux
+% rectangles etroits separes par toute la largeur des points : il
+% fallait viser juste pour cliquer.
+% Pose par la primitive de pdfTeX et non par hyperref : \pdfstartlink
+% n'ajoute AUCUNE largeur ni hauteur, il n'inscrit qu'un rectangle
+% d'annotation aux coordonnees de la matiere qu'il entoure.
+% « /Border [0 0 0] » supprime le cadre que les liseurs dessinent par
+% defaut. Le folio peut n'etre pas un nombre — l'en-tete « Pagini. »,
+% les tetes de rubrique sans numero : on teste avant de poser, faute de
+% quoi pdfTeX s'arrete sur « page number must be positive ».
+\newcommand{\VUlienOuvre}[1]{%
+  \ifnum\pdfmatch{^[0-9]+$}{#1}=1
+    \pdfstartlink attr{/Border [0 0 0]}%
+      goto page \the\numexpr #1+2\relax {/Fit}%
+  \fi}
+\newcommand{\VUlienFerme}[1]{%
+  \ifnum\pdfmatch{^[0-9]+$}{#1}=1 \pdfendlink\fi}
+
+\newcommand{\VUindex}[3][0pt]{%
+  \setbox0=\hbox{#3}%
+  \hbox to \textwidth{\VUlienOuvre{#3}\hskip#1\relax #2\nobreak
+    \leaders\hbox to \VUindexEcartPoints{\hss.\hss}\hfill
+    \ifdim\wd0>\VUindexColonne \hskip\VUindexEcart\relax\box0
+    \else \hbox to \VUindexColonne{\hfil\box0}\fi
+    \VUlienFerme{#3}}%
+  \penalty-10000\relax}
+% UNE ENTREE SANS POINTS DE CONDUITE. Le fac-simile en donne aux tetes
+% de rubrique (« Prepozicioni : ... 67 ») et parfois sans numero du
+% tout (« Verbo : », folio 225) : le numero est alors vide.
+\newcommand{\VUindexNu}[3][0pt]{%
+  \setbox0=\hbox{#3}%
+  \hbox to \textwidth{\VUlienOuvre{#3}\hskip#1\relax #2\hfil
+    \ifdim\wd0>\VUindexColonne \hskip\VUindexEcart\relax\box0
+    \else \hbox to \VUindexColonne{\hfil\box0}\fi
+    \VUlienFerme{#3}}%
+  \penalty-10000\relax}
+
+
+% -------------------------------------------------------------------
+% 14. LE FLEURON DU FOLIO 232
+% -------------------------------------------------------------------
+% Le seul ornement FIGURE du volume : une vignette vegetale, tige
+% ondulee portant feuilles, baies et un trefle terminal. Tous les autres
+% ornements du livre sont des filets droits ou des asterismes.
+% Il ne se compose avec aucune fonte du projet ; il est donc DECOUPE DU
+% SCAN et pose en image (ornamenti/fleuron-232.png, extrait du feuillet
+% 236, encre x 734-937, y 870-892, soit 203 x 22 px = 17,19 x 1,86 mm,
+% centre sur la justification a 3 px pres).
+% C'EST LE SEUL ENDROIT DU VOLUME OU LA TRANSCRIPTION CESSE D'ETRE UNE
+% COMPOSITION ET DEVIENT UN FAC-SIMILE. Il faut le dire, plutot que de
+% laisser croire que la vignette a ete refaite.
+\newcommand{\VUfleuronLargeur}{17.70mm}
+\newcommand{\VUfleuron}[1][\VUfleuronLargeur]{%
+  {\centering\includegraphics[width=#1]{ornamenti/fleuron-232}\par}}
+
+% PAS DES POINTS DE CONDUITE, en argument optionnel. La liste des
+% apendici du folio 232 emploie le pas serre du TABELO (17,0 px), mais
+% les deux catalogues de la MEME page en emploient un large : 43,3 px,
+% soit 3,66 mm. Un seul reglage ne pouvait pas rendre les deux.
+\newcommand{\VUindexLarge}[3][0pt]{%
+  \setbox0=\hbox{#3}%
+  \hbox to \textwidth{\VUlienOuvre{#3}\hskip#1\relax #2\nobreak
+    \leaders\hbox to 3.66mm{\hss.\hss}\hfill
+    \ifdim\wd0>\VUindexColonne \hskip\VUindexEcart\relax\box0
+    \else \hbox to \VUindexColonne{\hfil\box0}\fi
+    \VUlienFerme{#3}}%
+  \penalty-10000\relax}
+
+
+% -------------------------------------------------------------------
+% 15. LES PAGES COMPOSEES SERRE (feuillets 237 et 238)
+% -------------------------------------------------------------------
+% Les deux dernieres pages du volume — les opinions sur l'Ido et le
+% catalogue de la revue MONDO — sont composees plus serre que tout le
+% reste : hauteur d'x de 15 a 17 px contre 21 px au texte courant, et
+% pas des lignes de base de 32,8 a 33,0 px contre 41,45 px.
+%
+% \VUinterlignePage NE SUFFIT PAS ICI, et c'est instructif : elle pose
+% bien un \baselineskip de 7,90 pt, mais TeX ne l'emploie que si les
+% lignes ne se chevauchent pas. Des que l'interligne demande est plus
+% court que la hauteur naturelle des boites, il l'abandonne pour
+% \lineskip — et le pas composé remontait a 45 px la ou le fac-simile en
+% donne 33. La page debordait de 25 mm et perdait sa derniere ligne.
+% Le remede est de dire a TeX que le chevauchement est voulu :
+% \lineskiplimit a -\maxdimen force l'emploi du \baselineskip demande.
+% #1 = corps ; #2 = interlignage.
+\newcommand{\VUpageSerre}[2]{%
+  \lineskiplimit=-\maxdimen
+  \fontsize{#1}{#2}\selectfont}
+
+% -------------------------------------------------------------------
+% 726 x 1071 px = 61,47 x 90,68 mm, decoupee du scan BRUT desincline de
+% 0,20 degre (rot[636:1707, 328:1054]) : la normalisation de page.py,
+% qui divise par un fond floute, ecrase la gamme d'une similigravure.
+% Le cadre du cliche est incline de 0,3 degre par rapport a la
+% composition, ce qui montre qu'il appartient au cliche.
+% La LEGENDE (y 1733-1758 au scan) est EXCLUE : elle est composee a
+% part dans 00-liminaires.tex, et l'inclure la doublerait.
+% Comme le fleuron du folio 232, elle est DECOUPEE DU SCAN : c'est le
+% second et dernier endroit ou la transcription devient un fac-simile.
+% #1 = largeur.
+\newcommand{\VUplancheLargeur}{61.30mm}
+\newcommand{\VUplanche}[1][\VUplancheLargeur]{%
+  {\centering\includegraphics[width=#1]{ornamenti/portreto-3}\par}}
+
+% La meme planche posee a une ordonnee ABSOLUE et de hauteur nulle,
+% comme \VUcentreA : sur une page d'apparat aucun element ne doit
+% pouvoir en pousser un autre.
+% #1 = ordonnee du HAUT DU CLICHE, depuis le bord du papier ;
+% #2 = largeur (facultatif, par le second argument optionnel).
+\newcommand{\VUplancheA}[2][\VUplancheLargeur]{%
+  \vbox to 0pt{%
+    \vskip\dimexpr #2 - \VUmargeSup\relax
+    \hbox to \textwidth{\hss
+      \includegraphics[width=#1]{ornamenti/portreto-3}\hss}%
+    \vss}%
+  \nointerlineskip}
+\endinput

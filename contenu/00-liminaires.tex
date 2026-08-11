@@ -1,0 +1,588 @@
+% ===================================================================
+%  LE VOLUME COMMENCE ET FINIT A LA COUVERTURE IMPRIMEE, papier vert
+%  (feuillets 3 et 4 en tete, 237 et 238 en queue). La RELIURE n'est
+%  pas transcrite : les feuillets 1 et 240 sont les deux plats d'un
+%  cartonnage d'editeur en percaline brune a titre dore, les feuillets
+%  2 et 239 les gardes qui les doublent. Ils ont ete releves — le
+%  premier plat porte trois lignes dorees et un filet maigre, le second
+%  est nu — mais ils appartiennent a l'exemplaire, non a l'edition, et
+%  la transcription s'arrete a ce que l'imprimeur a compose.
+%  Le papier de la couverture se reconnait a la mesure : RVB median
+%  177/163/139 aux feuillets 3 et 4, 177/169/152 et 176/175/161 aux
+%  237 et 238, contre 237/210/184 au papier du corps d'ouvrage.
+% ===================================================================
+
+% ===================================================================
+%  FEUILLET 3 — LA COUVERTURE IMPRIMEE (premiere page de couverture).
+%  Le volume porte donc a la fois une reliure d'editeur (feuillets 1 et
+%  240) ET la couverture imprimee, conservee a la reliure.
+%
+%  CALIBRATION : le BORD SUPERIEUR DU PAPIER, pris au milieu de la
+%  rampe d'ombre du scan — y = 38 px, +- 4 px — puis la constante
+%  C = 5,84 mm du feuillet 7. Incertitude totale +- 1,6 mm sur la
+%  position d'ensemble ; les ecarts internes, eux, sont mesures au
+%  pixel. Desinclinaison -1,60 degre.
+%
+%  LE BORD GAUCHE EST ROGNE PAR LA NUMERISATION : a x=0 la luminance
+%  vaut 213 et DECROIT vers l'interieur — il n'y a pas de rampe
+%  d'ombre, donc le papier continue hors champ. Il manque environ 33 px
+%  = 2,8 mm a gauche, et la largeur mesurable n'est que de 108 mm pour
+%  les 116 du volume. L'AXE DE CENTRAGE EST DONC ESTIME, NON MESURE.
+%
+%  « LINGUO INTERNACIONA » DEBORDE LA JUSTIFICATION : 1148 px pour les
+%  1083 du volume, soit 5,6 mm de trop. C'est le meme debordement que
+%  la page de titre, et \VUcentreA le laisse deborder au lieu de le
+%  replier, la ligne etant posee dans une \hbox et non dans un alinea.
+%
+%  LA VIGNETTE est l'embleme de l'Ido — une etoile a six branches
+%  portant IDO, cerclee de la legende LINGUO INTERNACIONA DI LA
+%  DELEGITARO. Comme le portrait du feuillet 7 et le fleuron du folio
+%  232, elle est DECOUPEE DU SCAN : rot[1207:1456, 482:723], 241 x 249
+%  px = 20,40 x 21,08 mm.
+%
+%  LES DEUX DERNIERES LIGNES N'EN FONT QU'UNE : « Imprimita en
+%  Luxemburg. » et « Preco : 2 Suisa Franki. » partagent la ligne de
+%  base y=1893, l'une au fer a gauche, l'autre au fer a droite. D'ou
+%  \VUcaseA, qui pose les deux sur une mesure donnee.
+%
+%  DEUX GRAISSES NON TRANCHEES, et dites comme telles :
+%   -- « DI LA » : rapport fut/capitale 0,250, aussi haut que le IDO
+%      gras, mais sur une capitale de 20 px ou un pixel de fut deplace
+%      le rapport de 0,05. Agrandi x6, c'est un romain ordinaire un peu
+%      engraisse par l'etalement. Compose en romain, non prouve.
+%   -- « 1925 » : 0,174, entre le romain (0,154) et le demi-gras
+%      (0,192) de la meme page. Compose en romain, sans certitude.
+% ===================================================================
+\begin{VUpage}[3]{}
+\VUcentreA{16.25mm}{10.63pt}{109}{\VUgras{L. de BEAUFRONT}}
+\VUfiletA[1.92pt]{23.79mm}{12.70mm}
+\VUcentreA{37.51mm}{19.13pt}{112}{\VUetroit{0.668}{KOMPLETA GRAMATIKO DETALOZA}}
+\VUcentreA{50.29mm}{7.09pt}{276}{DI LA}
+\VUcentreA{61.04mm}{23.74pt}{29}{LINGUO INTERNACIONA}
+\VUcentreA{76.54mm}{41.09pt}{4}{\VUgras{IDO}}
+\VUimageA{104.72mm}{22.38mm}{ornamenti/vinieto-3}
+\VUcentreA{147.32mm}{8.86pt}{0}{\VUgras{Editerio : MEIER-HEUCKE}}
+\VUcentreA{152.23mm}{9.21pt}{0}{\VUgras{Esch-Alzette} \VUgras{\textit{(Luxemburgia)}}}
+\VUfiletA[0.96pt]{156.97mm}{2.62mm}
+\VUcentreA{160.10mm}{8.15pt}{80}{1925}
+\VUcaseA{164.84mm}{102.53mm}{9.21pt}{Imprimita en Luxemburg.}{Preco : 2 Suisa Franki.}
+\end{VUpage}
+
+% ===================================================================
+%  FEUILLET 4 — LA DEUXIEME PAGE DE COUVERTURE : « QUO ESAS IDO? »
+%  Ce n'est pas un verso blanc, comme le disait le LISEZ-MOI : c'est
+%  une page PLEINE, 45 lignes, justification 1080 px = 91,44 mm, soit
+%  a 0,25 mm pres celle du volume.
+%
+%  LE PAS DES LIGNES EST DE 33 px (2,79 mm), NON 41 : c'est
+%  l'interlignage des NOTES du volume, et exactement celui des
+%  feuillets 237-238, les annonces de l'editeur, deja composes avec
+%  \VUpageSerre{8.26pt}{7.95pt}. Hauteur de capitale du corps 23-24 px.
+%  Le renfoncement d'alinea vaut 34 px = 2,88 mm, non les 4,6 mm de
+%  \VUalinea : il est pose dans la page.
+%
+%  DEUX BLANCS D'ALINEA DISTINCTS, et c'est la mesure la plus utile de
+%  la page : dans la section haute, exces 7-8 px = 1,69 a 1,93 pt,
+%  c'est-a-dire \VUblancAlinea (1,86 pt) ; dans la section « Opinioni »,
+%  exces 12 px = 2,89 pt.
+%
+%  CONVENTION D'ENRICHISSEMENT INVERSEE, et conservee telle quelle :
+%  la section 3.3 du LISEZ-MOI donne gras = forme ido en vedette,
+%  italique = mot d'une autre langue. Ici les mots IDO en vedette —
+%  Komitato, Delegitaro, Progreso, un, Ido — sont composes en
+%  ITALIQUE. C'est coherent : cette page n'est pas du corps du volume,
+%  c'est un texte d'editeur.
+%
+%  « 1,250 » avec la virgule des milliers est bien ce qui est imprime.
+%
+%  LA PAGE S'ARRETE AU MILIEU D'UNE PHRASE — « ...ta principi aplikesis
+%  kun rigoro » — et la suite n'est nulle part dans le scan : la
+%  troisieme page de couverture n'a pas ete reliee. La derniere ligne
+%  porte donc \nl et non \parplein : ce n'est pas une fin d'alinea.
+% ===================================================================
+\begin{VUpage}[4]{}
+\VUcentreA{16.04mm}{14.17pt}{45}{\VUgras{QUO ESAS IDO?}}
+\VUfiletA[1.44pt]{23.66mm}{8.13mm}
+\VUcentreA{118.57mm}{9.92pt}{73}{\VUgras{Opinioni pri Ido.}}
+\vspace*{4.61mm}
+\VUpageSerre{8.26pt}{7.95pt}
+\setlength{\parindent}{2.88mm}
+
+Ido esas l'idiomo internaciona, helpanta e neutra, qua rezultas\nl
+de la selekto e labori dil « \textit{Délégation} » (delegitaro).
+
+\VUblanc{1.86pt}\textit{La Délégation pour l'adoption d'une langue auxiliaire interna}\cc
+\textit{tionale}, fondita en 1901 (januaro), esis ensemblo de personi delegita\nl
+da 310 kongresi o societi omnalanda ed omnaskopa, por examenar la\nl
+multa projeti o sistemi di linguo internaciona, e por adoptar la\nl
+maxim bona. Til 1907 ol recevabis 1,250 aprobanta signaturi de\nl
+membri di Akademii od Universitati, qui tale montris sua intereso\nl
+al entreprezo.
+
+\VUblanc{1.86pt}Lore ol elektis (junio 1907) internaciona \textit{Komitato} di ciencisti e\nl
+linguisti partikulare kompetenta, qui, pos exameno di omna projeti\nl
+ancien o recenta di Linguo internaciona ante e dum 18 kunsidi,\nl
+adoptis fine Esperanto kun diversa modifiki. Ta modifiki studiita,\nl
+kompletigita per laboro komuna, publik ed internaciona, de 1908 til\nl
+1914, en la revuo \textit{Progreso}, havis kom rezultanto la nuna « Ido ».\nl
+Ica konseque ne esas, quale Esperanto, la simpla produkturo di \textit{un}\nl
+homo.
+
+\VUblanc{1.86pt}Esas notenda, ke la Komitato dil \textit{Delegitaro} kontenis Esperantisti\nl
+e mem la Prezidero ipsa di la « Lingva Komitato » esperantista.\nl
+Or la decido adoptanta Esperanto « \textit{kun la rezervo di ula modifiki} »,\nl
+esis unanima. Se, pose, skismo eventis, la responso ne esas imputebla\nl
+a l'Idistaro, ma ad ilti qui obliviis promisi, voti o signaturo.
+
+\VUblanc{1.86pt}La Komitato dil Delegitaro (la maxim kompetenta e maxim sen\cc
+partisa qua ultempe kunvenis pri linguo internaciona) tale judi\cc
+kesas da S\textsuperscript{ro} \textsc{Gaston Moch}, qua supleis en lu rektoro \textsc{Emile Boirac},\nl
+tre eminenta chefo Esperantista : « La lingui Germana e Franca\nl
+havis ibe tri reprezentanti, la Angla du, e la lingui Dana, Hispana,\nl
+Greka e Hungariana, un; la maxim diversa konocaji reprezentesis,\nl
+ed on remarkis en lu nome quar reputata filologi, S\textsuperscript{ri} \textsc{Baudouin}\nl
+\textsc{de Courtenay}, \textsc{Jespersen}, \textsc{Lambros} e \textsc{Schuchardt}. »
+
+\VUblanc{18.32pt}« \textit{La gramatiko di Ido satisfacas plu bone la postuli di linguo}\nl
+\textit{internaciona kam la gramatiko di Esperanto...} » (A. \textsc{Meillet}, pro\cc
+fesoro pri linguistiko en Collège de France, \textit{Revue Critique}, 11 di\nl
+marto 1911.)
+
+\VUblanc{2.89pt}« Esas eroro nepardonebla institucar, quale agis Esperanto,\nl
+distingo pri l'akuzativo e la nominativo, distingo qua jenos omna\nl
+individui di linguo romanal od Angla, e qua esas neutila a la ceteri. »\nl
+(La sam autoro, \textit{Revue Critique}, 11 di marto 1911.)
+
+\VUblanc{2.89pt}« Cetere, esas facila procedar plu logikoze e, konseque plu satis\cc
+facante e klare, en la vortifado kam agas lo Esperanto.
+
+\VUblanc{2.89pt}« Icon montris la kreinti di \textit{Ido}, linguo fondita sur la sama\nl
+principi kam Esperanto, ma ube ta principi aplikesis kun rigoro\nl
+\end{VUpage}
+
+% ===================================================================
+%  Feuillets 5 et 6 — pieces liminaires (folios 1 et 2)
+%
+%  Pages d'apparat : chaque ligne est placee a son ORDONNEE MESUREE et
+%  occupe une hauteur nulle ; aucune ligne n'en deplace une autre.
+%  Mesures par outils/apparat.py (feuillet 5) :
+%    ligne       y (px)  y (mm)  cap (mm)  largeur (mm)  corps    interl.
+%    KOMPLETA...    754   63,84    2,540      60,20      10,63pt      2
+%    DI LA          919   77,79    1,439       7,03       6,02pt    224
+%    LINGUO...     1063   89,98    3,852      89,15      16,12pt    117
+% ===================================================================
+
+% --- Feuillet 5 (folio 1) : faux-titre -----------------------------
+\begin{VUpage}[5]{}
+\VUcentreA{63.84mm}{10.63pt}{-5}{KOMPLETA GRAMATIKO DETALOZA}
+\VUcentreA{77.79mm}{6.02pt}{264}{DI LA}
+\VUcentreA{89.98mm}{16.12pt}{102}{LINGUO INTERNACIONA IDO}
+\end{VUpage}
+
+% --- Feuillet 6 (folio 2) : blanc ----------------------------------
+\begin{VUpage}[6]{}
+\end{VUpage}
+
+% -------------------------------------------------------------------
+%  FEUILLET 7 (folio 3) — LA PAGE DE TITRE, et la planche.
+%  Dix elements, tous d'apparat : pas une ligne de texte courant.
+%  Le releveur les a trouves centres sur un meme axe optique a moins de
+%  deux pixels pres, et a montre que le detecteur en avait perdu deux
+%  (LINGUO INTERNACIONA IDO, dont les capitales de 77 px depassent le
+%  filtre de hauteur, et DA, large de 41 px) tout en en inventant six,
+%  qui sont des artefacts de la trame de la similigravure.
+%
+%  LA PAGE N'A NI FOLIO NI LIGNE DE CORPS : la regle ordinaire — poser
+%  l'ordonnee relativement a la premiere ligne de corps — n'a rien a
+%  quoi s'accrocher. Le premier etat de cette page etait donc pose en
+%  FLUX, avec un blanc de tete choisi a l'oeil. Il etait faux : la
+%  comparaison du rendu au fac-simile a montre que CHAQUE blanc y etait
+%  trop court, la page se comprimant de 139 px du haut vers le bas.
+%
+%  Elle est reprise ici en ordonnees ABSOLUES, mesurees sur le scan
+%  desincline de 0,20 degre :
+%    ordonnee = (haut_des_capitales - bord_du_papier) x 25,4/300 + C
+%  ou C = 5,84 mm est la part de la marge de tete que la numerisation
+%  rogne. C n'est pas un chiffre libre : il est mesure sur 33 pages de
+%  texte ou la premiere ligne de corps tombe, par construction, a
+%  \VUmargeSup ; C = 24,30 - (y_ligne - y_papier) x 25,4/300. La
+%  mediane vaut 5,84 mm, l'ecart-type 1,5 mm hors trois pages de titre.
+%  C'EST LA SEULE GRANDEUR APPROCHEE DE CETTE PAGE, et elle porte sur
+%  la position d'ensemble du bloc, non sur ses ecarts internes, qui
+%  sont mesures exactement.
+%
+%  Le haut des capitales du fac-simile est corrige de l'etalement de
+%  l'encre : (hauteur_fac - hauteur_compose)/2, soit 0,5 a 6 px.
+%
+%  LA LIGNE « LINGUO INTERNACIONA IDO » DEBORDE LA JUSTIFICATION :
+%  1164 px pour les 1083 du volume. C'est mesure trois fois, ce n'est
+%  pas la tranche du feuillet voisin. \VUcentreA la pose dans une
+%  \hbox et non dans un paragraphe : elle deborde comme au fac-simile
+%  au lieu de se replier.
+% -------------------------------------------------------------------
+\begin{VUpage}[7]{}
+\VUcentreA{10.71mm}{18.68pt}{0}{\VUetroit{0.702}{KOMPLETA GRAMATIKO DETALOZA}}
+\VUcentreA{20.36mm}{6.30pt}{362}{DI LA}
+\VUcentreA{27.94mm}{24.10pt}{-79}{LINGUO INTERNACIONA IDO}
+\VUcentreA{40.00mm}{5.90pt}{242}{DA}
+\VUcentreA{45.17mm}{8.80pt}{282}{\VUgras{L. de BEAUFRONT}}
+\VUcentreA{49.06mm}{5.90pt}{222}{PREZIDERO DI LA FRANC-IDISTA SOCIETO}
+\VUplancheA{55.88mm}
+\VUcentreA{148.76mm}{5.90pt}{124}{Markezo L. \textsc{de Beaufront}, precipua autoro di \textit{Ido}}
+\VUcentreA{157.31mm}{7.60pt}{148}{Imprimerie SOLIMPA, Luxembourg et Esch/Alzette}
+\VUcentreA{160.99mm}{7.60pt}{-21}{1925}
+\end{VUpage}
+
+% ===================================================================
+%  FEUILLET 8 (folio 4) — LE VERSO DE LA PAGE DE TITRE : la KONSTATO
+%  de l'Akademio Idista, et sa signature.
+%
+%  Les 266 473 px d'encre annonces au seuil 140 sont trompeurs : 54 934
+%  seulement sont de l'encre typographique, le reste est le fond noir
+%  du scanner autour du papier (papier : y 37-2109, x 34-1310).
+%
+%  LA PAGE EST DELIBEREMENT AEREE : pas des lignes de base 57,667 px =
+%  13,89 pt, contre 9,99 pt au corps courant, a CORPS INCHANGE (hauteur
+%  d'x 20-21 px, celle du feuillet 10). D'ou \VUinterlignePage.
+%
+%  CALIBRATION : la page n'a ni folio ni ligne de corps a \VUmargeSup —
+%  son corps commence a 54,27 mm parce qu'un titre et une marge de tete
+%  profonde le precedent. C'est donc la calibration du feuillet 7 qui
+%  sert : (y - bord_du_papier) x 25,4/300 + C, bord a y=37, C=5,84 mm.
+%  RESERVE DU RELEVEUR : son propre echantillon local (feuillets 10, 12
+%  et 16, les seuls voisins ou le detecteur rende folio ET premiere
+%  ligne) donne C = 6,27 mm. Le bloc entier peut donc etre 0,43 mm trop
+%  haut. Trois echantillons contre trente-trois : la constante du
+%  projet est gardee, et l'ecart est dit.
+%
+%  LE BLOC DE SIGNATURE N'EST PAS CENTRE SUR LA JUSTIFICATION : ses
+%  quatre lignes ont pour milieux 900,5 / 901,5 / 900,5 / 901,0 px pour
+%  un milieu de justification a 706,5 — un axe propre, deplace de
+%  16,46 mm a droite, constant a un pixel pres. D'ou \VUcentreDA.
+%  La date, elle, est calee a GAUCHE, a 80 px = 6,77 mm de la marge.
+%
+%  GRAISSE : le titre est demi-gras (fut du K 5,94 px contre 4,78 au K
+%  romain de « Komitato »), mais sa hauteur de capitale, 29 px, est
+%  celle du CORPS COURANT et non celle d'un titre de section (44 px au
+%  feuillet 9). Dans le corps, seul le titre cite « Kompleta Gramatiko
+%  detaloza di la linguo internaciona Ido » est gras : futs 4,39 a 4,62
+%  px contre 3,64 a 3,95 au romain de la meme ligne. Le mot « naciona »
+%  etait le seul cas douteux — densite de gras, fut de romain : agrandi
+%  x6 il est de la meme graisse que « quala » qui le suit, sa densite
+%  etant gonflee par l'absence d'ascendante et de descendante dans la
+%  bande de mesure. Il est donc ROMAIN.
+%
+%  PARTICULARITE CONSERVEE : le meme syntagme parait deux fois de
+%  suite avec deux traitements opposes — en gras et bas de casse comme
+%  TITRE D'OUVRAGE, puis en romain a capitale initiale comme NOM DE
+%  LANGUE. Ce n'est pas une coquille, c'est la distinction voulue.
+%  Le renfoncement d'alinea de cette page vaut 42 px = 3,56 mm, et non
+%  les 4,6 mm de \VUalinea ; il n'est pas force.
+% ===================================================================
+\begin{VUpage}[8]{}
+\VUinterlignePage{13.89pt}
+\VUcentreA{44.53mm}{10.06pt}{119}{\VUgras{\VUetroit{0.793}{KONSTATO.}}}
+\VUcentreDA{91.52mm}{16.46mm}{10.2pt}{-13}{\textit{La prezidanto :}}
+\VUcentreDA{96.43mm}{16.46mm}{10.2pt}{-66}{F. \textsc{Schneeberger.}}
+\VUcentreDA{102.70mm}{16.46mm}{10.2pt}{-13}{\textit{La vice-sekretario :}}
+\VUcentreDA{107.61mm}{16.46mm}{10.2pt}{-86}{J. \textsc{Guignon.}}
+{\renewcommand{\VUsignatureX}{6.77mm}%
+ \VUsignature{117.43mm}{\fontsize{10.2pt}{10.2pt}\selectfont\textls[-16]{\textit{15 julio 1925.}}}}
+\vspace*{29.97mm}
+
+L'Akademio Idista konstatas, ke la linguala formo pri\cc
+zentita en ica \VUgras{Kompleta Gramatiko detaloza di la linguo}\nl
+\VUgras{internaciona Ido} esas la oficala formo di la Linguo inter\cc
+naciona \VUgras{Ido}, quala ol rezultis de la labori di la Linguala\nl
+Komitato di la Delegitaro por l'adopto di Linguo Interna\cc
+ciona, di lua konstanta komisitaro e la decidi dil Akademio\nl
+Idista.
+\end{VUpage}
+
+% -------------------------------------------------------------------
+%  FEUILLETS 9 a 12 (folios 5 a 8) — L'AVERTO.
+%  Quatre pages relevees et verifiees separement, une par releveur.
+%  Aucun gras dans le corps ni dans les notes des quatre pages :
+%  l'italique y est partout plus MAIGRE que le romain voisin, mesure
+%  fut par fut contre un mot romain de la MEME ligne.
+% -------------------------------------------------------------------
+
+% --- Feuillet 9 (folio 5) : le titre AVERTO ------------------------
+%  AUCUN FOLIO IMPRIME sur cette page : cherche au seuil 165 sur toute
+%  la largeur, a \VUfolioY comme au pied. L'argument reste vide.
+%  AUCUN FILET sous le titre : cherche entre y=471 et y=557 aux seuils
+%  150, 170, 185 et 200 — rien que le grain du papier.
+%  Le titre « Averto » est en BAS DE CASSE demi-gras, capitale initiale,
+%  hauteur de capitale 44 px (3,73 mm) : c'est le seul titre du volume
+%  qui ne soit pas en capitales. Fut 8 px pour une hauteur d'x de 27 px
+%  (0,296) contre 4 px pour 21 px au romain de la page (0,190).
+%  Son appel « (1) » est MAIGRE, au corps du texte, remonte de 13 px.
+%  Filet de note : y=1613, 213 px, cale sur la marge (x0=90 pour une
+%  premiere ligne de note a x0=89) — 123,36 mm.
+%  ATTENTION : l'ordonnee est calculee sur le TITRE, non sur une ligne
+%  de corps. Recalculee sur la premiere ligne de corps elle donnerait
+%  113,54 mm, soit 10 mm trop haut.
+%  Le bloc de la note (2) est pose 23 px (2 mm) plus a droite que celui
+%  de la note (1) et que le filet — verifie sur l'image BRUTE, ce n'est
+%  pas un artefact de desinclinaison. Signale, non reproduit.
+% -------------------------------------------------------------------
+\begin{VUpage}[9]{}
+\VUnotes{122.78mm}{%
+(1) L'unesma parto di ca averto esas nur la vortopa tradukuro\nl
+di olta qua aparis France en 1908, lor l'edito di \textit{Grammaire complète}.
+
+(2) \textit{La Délégation pour l'adoption d'une Langue auxiliaire inter}\cc
+\textit{nationale}, fondita en 1901 (januaro), recevabis til 1907 la adhero\nl
+di 310 societi omnalanda, e la aprobo di 1250 membri di Akademii\nl
+ed Universitati. Ol elektis internaciona Komitato di ciencisti e lin\cc
+guisti, qua pos exameno di omna projeti anciena e nova di mondo\cc
+linguo, facis la decido quan on raportas hike.%
+}
+
+\VUtitre{15.66pt}{-8}{\VUetroit{0.822}{Averto}\VUtitreAppel[1.83mm]{(1)}}
+\VUsaut{5.0mm}
+
+Ica verko esas ri-imprimuro grande modifikita di la\nl
+\textit{Grammaire complète} qua, imprimita nur ye 200 exempleri\nl
+e ne publikigita, livresis al dispono dil Komitato di la Dele\cc
+gitaro en la 15-ma dio di oktobro 1907, kun \textit{Exercaro} e\nl
+\textit{Vortaro} specimena, sub la pseudonimo « Ido » (2).
+
+On savas, ke, pos 18 kunsidi, ek qui 5 konsakresis al dis\cc
+kuto komparanta di ta laboruro e di Esperanto, unanime\nl
+la Komitato decidis « adoptar Esperanto principe... kun la\nl
+rezervo di ula modifiki exekutenda dal permananta Komi\cc
+sitaro, segun la sinso determinita dal konkluzi di la Raporto\nl
+dil sekretarii e dal projeto da Ido ». Ja la Komisitaro indi\cc
+kabis ula modifiki facenda en ta projeto. Sualatere la Komi\cc
+sitaro permananta submisis lu a detaloza revizo, egardante\nl
+plura emendi propozita; e la rezultajo di ta laboro men\cc
+cionesis en Raporto publikigita en l'unesma numero di la\nl
+revuo \textit{Progreso} (marto 1908).
+
+La \textit{Grammaire complète} quan ni publikigas prezente esas\nl
+strikte konforma al decidi di la Komitato e dil Komisitaro\nl
+permananta; do ol ne plus esas, same kam la linguo ipsa,\nl
+verko pure individuala; ol esas la final ed oficala rezultajo\nl
+di la deliberi dil Komitato elektita reguloze dal \textit{Delegitaro},\nl
+pos sep yari de propagado por l'ideo di linguo internaciona\nl
+en la maxim diversa landi e medii. Ni kun fido prizentas\nl
+lu al publiko pro la alta kompetenteso di la ciencozi qui\nl
+partoprenis en lua kompozo.
+\end{VUpage}
+
+% --- Feuillet 10 (folio 6) -----------------------------------------
+%  Filet de note : y=1527, 213 px, x0=196 pour une marge a 195-199.
+%  Le detecteur a bien pris la premiere ligne de CORPS (y=247) et non
+%  le folio (y=171, qui aurait donne 139,10 mm).
+%  Les dix lignes de note sortaient du profil SOUDEES en quatre plages ;
+%  separees aux lignes de base, pas d'apres le profil.
+% -------------------------------------------------------------------
+\begin{VUpage}[10]{6}
+\VUnotes{133.14mm}{%
+(1) Kontante segun la maniero dil Esperantisti, ni povus dicar,\nl
+ke Ido havas nur 10 e mem 9 reguli, ne min kompleta. (Videz\nl
+« Lexique-manuel », p. V-VIII.) --- \textit{Noto adjuntita.}
+
+(2) En la realeso la gramatiko \textit{elementala} di Esperanto kontenas\nl
+adminime 64 reguli e plu kam 10 ecepti. (Videz la konto detalizita\nl
+ye la fino dil broshuro « \textit{La science et l'Esperanto} ».)
+
+(3) Hike ni abandonas la Franca texto, qua deskriptas l'aranjeso\nl
+di \textit{Grammaire complète}, e ni substitucas ad olu to, quo propre\nl
+koncernas la « \textit{Kompleta Gramatiko detaloza} » quan ni prizentas\nl
+ad omna amiki di helpolinguo.%
+}
+
+La kritiki, di qui ca gramatiko esos kredeble l'objekto,\nl
+ne falios opozar ad olu la mikrega gramatiko primitiva di\nl
+Esperanto, kun lua dek e sis reguli tante laudata (1). Ma,\nl
+sen diskutar pri la numerizo di ta reguli, o plu \textit{vere para}\cc
+\textit{grafi}, di qui un sola kontenas la konjugo (minus la formi\nl
+kompozita per qui on mustis kompletigar lu pose), on darfas\nl
+asertar sen ul paradoxo ke, se Esperanto havabus origine\nl
+plu multa reguli, ol nun posedus quanto min granda de\nl
+oli (2). Nam pro ta gramatiko vere tro kurta e nesuficanta,\nl
+fakte a l'uzado Dro Zamenhof komisis la sorgo fixigar la\nl
+formi di la linguo, ed ica uzado genitis multega partikularaji\nl
+ed anomalaji, quin la gramatikisti di Esperanto kolektas e\nl
+pie mencionas en lia verki, quale se traktesus linguo natu\cc
+rala. E singla de ta partikularaji, singla de ta anomalaji\nl
+efektigas un « regulo » quan la novici esas obligata lernar.\nl
+Do esas tre vera dicar, ke se Esperanto havabus origine sat\nl
+multa reguli generala e preciza, ol ne havus nun tro multa\nl
+partikulara reguli, fondita sur « uzi » disparata e kontre\cc
+logika. Pro to on obligesis kompozar fine grosa gramatiki,\nl
+de qui un prizentas plu kam 400 paragrafi. A ca verki ya\nl
+on devas equitatoze komparar nia \textit{Grammaire complète}. Lore\nl
+on ne povos neagnoskar la supera simpleso e regulozeso di\nl
+la linguo quan ni prizentas (3).
+
+Certe ni povabus kondensar e multe plukurtigar ica verko,\nl
+nome ne enduktar en lu kozi advere utila ma ne necesa, e\nl
+qui ne esas strikte gramatikala. Ma lore ni agabus kontre\nl
+nia intenci e l'explicita deziro di multa samideani. Cetere\nl
+on dicernos facile la reguli lernenda del kozi nur lektebla\nl
+o lektinda.
+
+Kompreneble, en la gramatiko sancionita dal permananta
+\parplein
+\end{VUpage}
+
+% --- Feuillet 11 (folio 7) -----------------------------------------
+%  Filet de note : y=1726, 212 px, x0=124 pour un corps a x0=121-126.
+%  Aucun filet centre, aucun ornement : rien entre 224 et 277, entre
+%  1686 et 1726, ni entre 1916 et 2122.
+% -------------------------------------------------------------------
+\begin{VUpage}[11]{7}
+\VUnotes{147.07mm}{%
+(1) Ica vorti di nia unesma averto divenas partikulare vera pri\nl
+la \textit{Kompleta Gramatiko detaloza,} en qua la multa pruntaji ek \textit{Pro}\cc
+\textit{greso} e citaji di Sro \textsc{Couturat} posibligos ta profunda studiado.\nl
+Danke oli, ni darfas dicar : mortinta, il parolas ankore, la granda\nl
+kalumniato.%
+}
+
+\VUcontinue Komisitaro ni permisis a ni chanjar od adjuntar, pri la\nl
+reguli, nur la kelka punti chanjita od adjuntita dal Ido-\nl
+Akademio, legitima e yurizita sucedinto di olta. Ma la formo\nl
+ed aranjeso necese diferas de olti, quin havis la verko pri\cc
+mitiva, haste facita en tri monati e nur destinita al membri\nl
+dil Komitato dil \textit{Delegitaro,} por utiligo eventuala. Certe la\nl
+permananta Komisitaro ja emendabis ed igabis lu plu bona,\nl
+ma vizante la linguo ipsa e ne olua docado specale. Or la\nl
+publiko tre diferas de komitato di ciencisti, por qua multa\nl
+kozi bezonis nek detali nek justifiko. Cetere la tempo mankis\nl
+al Komisitaro por rilaborar detale la verko, nam adversi\nl
+ed amiki ja esis incitanta a la propagado, iti kun intenco\nl
+maligna, ici en sua fervoro difuzor lo plu bona. Rezulte, la\nl
+primitiva gramatiko bezonis ankore plu kompleta riaranjo\nl
+ed expliki plu longa. Ni esforcis en ica satisfacar ta duopla\nl
+bezono e preferis donar tro multe kam ne sufice.
+
+On permisez ad ni atraktar la atenco a kozo quan multi\nl
+ne vidas sat bone. Pri la helpolinguo existas facileso trom\cc
+panta, qua vizas nur o precipue \textit{lerno rapida} per nesuficanta\nl
+reguli e nesuficanta radiki o vorti. Nu, ica facileso \textit{di lerno}\nl
+ne povas konkordar e koincidar kun la facileso \textit{di apliko,} nek\nl
+kun l'exakta e klara expresado dil pensi. Or on lernas la\nl
+L. I. dum kelka hori, kelka jorni, ed on aplikas lu dum yari.\nl
+Altraparte, quon valoras facileso e simpleso qui reale ne\nl
+atingas la skopo? Mezurar la supereso, pri la helpolinguo,\nl
+segun la minmulteso di la reguli e dil vorti, forsan esas\nl
+habila trompilo por la maso, ma eroro deplorinda por omni,\nl
+eroro qua produktas en la aplikado detrimenti maxim grava.\nl
+Ido evitis fortunoze ta rifo mortigiva, kontre qua mult altri\nl
+ja venis ed ankore venos ruptar su.
+
+Nun ni finos, durante la traduko quan ni interruptis :
+
+« Cetere, ica \textit{Kompleta Gramatiko} destinesas precipue al\nl
+personi qui volas profundigar la studiado di la linguo (1).\nl
+Ol esforcas solvar omna desfacilaji quin on povas renkontrar\parplein
+\end{VUpage}
+
+% --- Feuillet 12 (folio 8) : la fin de l'AVERTO --------------------
+%  AUCUN BLOC DE NOTES : « filet non trouve » est ici la bonne reponse.
+%  Le seul trait de la page part de x=648 et mesure 197 px : c'est
+%  l'ORNEMENT DE FIN, centre (milieu 746 pour une justification centree
+%  a 755), pose a 149,01 mm.
+%  DEUX SIGNATURES au fer a droite, mais reculees de 41 et 43 px
+%  (3,47 et 3,64 mm) : le meme cadratin aux deux — d'ou \VUauFer.
+%  « L. B. » AVAIT ECHAPPE AU DETECTEUR : 769 px d'encre contre 6882
+%  pour une ligne pleine, soit 0,112 pour un seuil pose a 0,12. La page
+%  porte 31 rangees d'encre, non 30.
+%  « Sro » est en PETITES CAPITALES sur cette page, non en superieure
+%  comme partout ailleurs dans le volume (temoin : feuillet 123).
+%  « Chandelliez » est imprime avec deux L : conserve.
+% -------------------------------------------------------------------
+\begin{VUpage}[12]{8}
+\VUornement[16.68mm]{149.01mm}
+
+\VUcontinue en l'uzado di ca linguo, e qui venas ne de ol ipsa, ma del\nl
+neregulozaji e del idiotismi di nia lingui. Ta desfacilaji ren\cc
+kontresas en omna traduko, e mem duopligita, kande on\nl
+traktas naturala lingui, nam generale on esas obligata\nl
+expresar l'idiotismi di un linguo per l'idiotismi di altra. Ma\nl
+precize ta desfacilaji facas ek la L. I. bonega intelektal\nl
+exerco, analoga (egardite omna proporciono) a la studio di\nl
+la Latina o di la stranjera lingui :
+
+Nam li kustumigas la spirito analizar la penso e liberigar\nl
+ol del vesto plu o min trompiva, per qua nia lingui vesti\cc
+zachas olu. Ma, vice quik impozar a lu nova travestio, la L. I.\nl
+tendencas furnisar a lu l'expresuro maxim direta, maxim\nl
+logikala e maxim klara. E, malgre l'opozata dici, logiko\nl
+ya vere igas la L. I. supera a nia lingui « naturala ». Logiko\nl
+ya sekurigas ad olu la palmo en lua aplikeso a la cienci;\nl
+logiko donas ad olu l'astonanta facileso, kun qua omna\nl
+populi ed omna klasi sociala povas komprenar olu, aquirar\nl
+olu ed uzar olu.
+
+\VUblanc{1.95mm}
+\VUauFer{3.47mm}{\textsc{L. de Beaufront.}}
+\VUblanc{3.13mm}
+
+Me falius devo di yusteso e gratitudo, se me ne dankus\nl
+hike \textsc{Sro Camille Chandelliez}, ex-docero dil grupo Espe\cc
+rantista en \textit{Troyes}, Francia. Konvertita ad Ido per plur\cc
+monata lekto e studio di \textit{Progreso}, il ofris a me sua serchi e\nl
+noti, sua remarki e kritiki sagaca. Il helpis me tre efike\nl
+klarigar ula punti, nome l'adjektivi-pronomi nedefinita. Ad\nl
+ilu komplete debesas l'apendico pri la puntizado, la letri e\nl
+adresi, segun \textit{Progreso}. Il esis mea unesma lektero e kon\cc
+stanta kritikero. Ica gramatiko debas multo a lua helpado.\nl
+Ton me joyas dicar publike e gratitudoze.
+
+\VUblanc{1.95mm}
+\VUauFer{3.64mm}{\textsc{L. B.}}
+\end{VUpage}
+
+% ===================================================================
+%  FEUILLET 13 (folio 9) — FAUX-TITRE DE LA PREMIERE PARTIE.
+%  Le precedent exact est le feuillet 119, faux-titre de la deuxieme
+%  partie : memes corps (14,17 pt a la grande ligne dans les deux cas),
+%  memes intervalles a 0,25 mm pres, moins la ligne de sous-titre.
+%
+%  La page n'a ni folio ni ligne de corps. Calibration employee : celle
+%  du feuillet 7 — (haut_des_capitales - bord_du_papier) x 25,4/300 + C,
+%  avec C = 5,84 mm. Le releveur a RECALCULE C sur 34 pages a bord
+%  visible : mediane 5,82 mm, ecart-type 1,15 — la constante du projet
+%  est confirmee.
+%  CONTRE-EPREUVE INDEPENDANTE : le feuillet 12 sort du MEME scan brut
+%  (moitie gauche de la meme prise) et porte, lui, folio et texte. En
+%  passant par sa premiere ligne de corps (y=275), la regle ordinaire
+%  du volume donne 72,31 / 81,79 / 90,76 mm. Les deux calibrations
+%  s'accordent a 0,21 mm. Ce sont les premieres qui sont retenues.
+%
+%  LES DEUX LIGNES SONT ROMAINES, non grasses : fut median 5 px pour
+%  une capitale de 29 (0,172) et 7 px pour 40 (0,175), quand le
+%  demi-gras compose en donne 10. Il n'y a aucun romain sur ces lignes
+%  pour servir de temoin — elles sont seules sur la page — de sorte que
+%  la comparaison porte sur le romain COMPOSE au meme corps. La methode
+%  a ete controlee en la reappliquant au feuillet 119, ou elle redonne
+%  les chiffres deja consignes.
+%
+%  Les interlettrages sont CORRIGES SUR LE COMPOSE, non pris de la
+%  regle nue d'apparat.py, qui rendait 111 pour la grande ligne (2,5 mm
+%  trop court). Les valeurs posees rendent 216 et 813 px, soit les
+%  mesures du fac-simile au pixel pres.
+%
+%  RESERVE PORTANT SUR UNE AUTRE PAGE : le releveur soutient, mesures a
+%  l'appui, que le FEUILLET 119 est pose 7,7 mm trop haut, ses
+%  ordonnees etant les y x 25,4/300 bruts d'apparat.py, ce qui suppose
+%  que la premiere rangee du recadrage soit le bord du papier — faux
+%  sur cette prise-la. Voir le LISEZ-MOI, section des controles
+%  ouverts : la reserve est enregistree, elle n'est pas encore
+%  verifiee, et le feuillet 119 n'a pas ete touche.
+% ===================================================================
+\begin{VUpage}[13]{}
+\VUcentreA{72.09mm}{10.27pt}{182}{I\textsuperscript{a} PARTO}
+\VUfiletA{81.57mm}{8.30mm}
+\VUcentreA{90.55mm}{14.17pt}{134}{MORFOLOGIO E SINTAXO}
+\end{VUpage}
+
+% --- Feuillet 14 (folio 10) : blanc --------------------------------
+%  225 px d'encre au seuil 140 : la page est vierge.
+\begin{VUpage}[14]{}
+\end{VUpage}

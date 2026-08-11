@@ -1,0 +1,8 @@
+Classifieur d'enrichissement, mesure sur les pages relevees a la main
+  mots compares : 1214
+  exactitude    : 74.6 %
+
+  matrice (attendu -> predit) :
+    rom      806    157     92     (colonnes : rom gras ital)
+    gras      31     32      7     (colonnes : rom gras ital)
+    ital      15      6     68     (colonnes : rom gras ital)
