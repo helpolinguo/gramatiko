@@ -3484,3 +3484,24 @@ garder positive.
 À retenir : le même procédé — l'alpha en masque — sert deux objets de
 natures différentes. Pour le trait, la couleur suit l'encre ; pour la
 demi-teinte, elle ne le doit pas.
+
+### Publier sur GitHub Pages : le fichier `.nojekyll`
+
+GitHub Pages fait par défaut passer le dépôt par **Jekyll**, qui rend les
+`.md` et interprète au passage la syntaxe de gabarits **Liquid**. Or
+Liquid analyse le texte **avant** Markdown, donc **y compris dans les
+blocs de code** : le `{%` de `\VUnotes{<ordonnée>mm}{%`, cité en exemple
+dans `outils/CONSIGNE-RELEVE.md`, y passe pour l'ouverture d'une balise
+et fait échouer la publication entière.
+
+Le remède n'est pas d'échapper ce `{%` — le dépôt n'a rien à faire de
+Jekyll. Il ne publie pas un site de billets : il publie **un seul fichier
+HTML autonome**. Un fichier vide nommé **`.nojekyll`** à la racine du
+dépôt suffit à désactiver toute la chaîne, et GitHub Pages sert alors les
+fichiers tels quels.
+
+    touch .nojekyll && git add .nojekyll && git commit -m ".nojekyll"
+
+Le fichier est versé au dépôt. Conséquence à connaître : `LISEZ-MOI.md`
+ne sera plus rendu en page web — ce qui est bien, `index.html` étant la
+page du volume.
