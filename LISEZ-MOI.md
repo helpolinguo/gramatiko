@@ -3490,12 +3490,12 @@ demi-teinte, elle ne le doit pas.
 GitHub Pages fait par défaut passer le dépôt par **Jekyll**, qui rend les
 `.md` et interprète au passage la syntaxe de gabarits **Liquid**. Or
 Liquid analyse le texte **avant** Markdown, donc **y compris dans les
-blocs de code** : le `{%` de `\VUnotes{<ordonnée>mm}{%`, cité en exemple
-dans `outils/CONSIGNE-RELEVE.md`, y passe pour l'ouverture d'une balise
-et fait échouer la publication entière.
+blocs de code** : l'accolade ouvrante suivie d'un pour-cent qui termine la ligne
+`\VUnotes{<ordonnée>mm}{` dans `outils/CONSIGNE-RELEVE.md` y passe pour
+l'ouverture d'une balise et fait échouer la publication entière.
 
-Le remède n'est pas d'échapper ce `{%` — le dépôt n'a rien à faire de
-Jekyll. Il ne publie pas un site de billets : il publie **un seul fichier
+Le remède n'est pas d'échapper cette séquence — le dépôt n'a rien à
+faire de Jekyll. Il ne publie pas un site de billets : il publie **un seul fichier
 HTML autonome**. Un fichier vide nommé **`.nojekyll`** à la racine du
 dépôt suffit à désactiver toute la chaîne, et GitHub Pages sert alors les
 fichiers tels quels.
