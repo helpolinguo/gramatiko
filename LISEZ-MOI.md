@@ -3269,197 +3269,218 @@ l'image — `titres.py`, `etroitesse.py`, tout ce qui passe par
 
 ---
 
-## Le portrait était de travers, et il l'était pour de bon
+## La page de lecture (`index.html`)
 
-Le cliché du feuillet 7 penchait. Un commentaire du préambule le disait
-depuis longtemps — « le cadre du cliché est incliné de 0,3 degré par
-rapport à la composition, ce qui montre qu'il appartient au cliché » —
-et j'en avais tiré la mauvaise conclusion : qu'étant un fait du cliché,
-il fallait le laisser. La mesure dit deux choses de plus.
+Le volume a maintenant, à côté du PDF, une page de lecture autonome sur
+le modèle de celle du *Dicionario* : même palette, même fonte, même
+bouton de téléchargement, interface en ido. Elle est produite par
+`outils/html.py`, rejouable — deux exécutions donnent le même md5 — de
+sorte qu'elle se régénère après chaque recomposition du volume.
 
-**L'inclinaison n'est pas de 0,3 degré mais de 0,76.** Elle se mesure en
-ajustant une droite sur le bord supérieur puis sur le bord inférieur du
-cadre, colonne par colonne : −0,626° en haut, −0,745° en bas, moyenne
-**−0,76°** une fois la page elle-même désinclinée de 0,20°. À cette
-valeur-là, sur une planche haute de 90 mm, le coin gauche et le coin
-droit ne sont pas à la même hauteur de plus d'un millimètre — l'œil le
-voit.
+**Ce qu'elle contient** : 49 chapitres, 1 231 alinéas, 408 notes toutes
+rattachées à leur appel, 322 vedettes, 454 403 signes. Aucune ressource
+réseau : un seul fichier de 780 ko, données comprises.
 
-**Un cliché penché n'est pas la même chose qu'un texte penché.** Le
-composeur de 1925 a collé sa similigravure de travers dans la forme ;
-c'est un accident de fabrication de l'exemplaire, non une intention
-typographique, et rien dans la page ne s'y accorde — le portrait est
-seul de son espèce. Le redresser ne détruit aucune information : le
-cliché reste ce qu'il est, seule son assiette change.
+**La mise en page** : trois volets sur ordinateur — table des matières à
+gauche, texte au centre, vedettes du chapitre à droite —, un seul volet
+et deux tiroirs sur téléphone, barre de recherche collante en tête. Les
+notes sont repliées et s'ouvrent au clic ; le folio paraît en marge et
+ouvre `gramatiko.pdf` à la bonne page (page = folio + 2).
 
-La planche est donc **tournée de +0,76° autour de son centre**, sur le
-scan brut déjà désincliné, puis recoupée. Vérifié au rendu : les bords du
-cadre composé donnent **+0,12° et −0,15°** au lieu de −0,63 et −0,75.
-La découpe fait 724 × 1066 px = 61,30 × 90,25 mm ; `\VUplancheLargeur`
-passe de 61,47 à 61,30 mm et l'ordonnée de 55,71 à 55,88 mm, le bord
-supérieur redressé tombant deux pixels plus bas que le coin gauche du
-cliché penché.
+**Le texte est reflué, non fac-similé** : `\nl` devient une espace, `\cc`
+recolle le mot coupé. C'est le contraire exact de ce que fait le PDF, et
+c'est voulu — l'un sert à consulter le livre, l'autre à le lire.
 
-**C'est un écart assumé au fac-similé**, le seul du volume avec la
-compression des titres, et il est dit ici comme tel : la transcription
-redresse ce que la reliure de 1925 avait posé de travers.
+### Trois pièges de l'extraction, notés pour la prochaine fois
 
----
+**`\parplein` ne veut pas dire « l'alinéa continue ».** Sur ses 114
+emplois, 65 sont en cours de page et suivis d'un nouvel alinéa : la
+macro justifie la dernière ligne, elle ne dit rien de la suite. La marque
+qui fait foi est `\VUcontinue` en tête de la page suivante.
 
-## Les deux autres clichés sont droits — mesuré, non supposé
+**Le folio ne s'interpole pas « au dernier connu ».** Le feuillet 8
+précède le premier folio imprimé du volume ; la règle naïve lui donnait 8.
+On prend donc le folio imprimé le plus proche, avant **ou après**.
 
-Le volume ne contient que trois images découpées du scan. Après le
-redressement du portrait, les deux autres ont été mesurées de la même
-manière, sur le scan brut désincliné de la page :
+**Les mots coupés d'une page à l'autre** — dix-neuf dans le volume — ne
+se recollent qu'en appliquant la règle TeX d'avalement des blancs après
+un mot de contrôle, et en jetant le saut de ligne qui suit
+`\begin{VUpage}`.
 
-**Le fleuron du folio 232** — une vignette végétale horizontale. On ne
-peut pas y ajuster un bord, elle n'en a pas ; on prend donc le
-**centroïde vertical de l'encre, colonne par colonne**, et l'on ajuste
-une droite sur les 180 colonnes qui en portent. Pente 0,0012, soit
-**+0,068 degré**. Droit.
+Le fichier `gramatiko.pdf` est une copie de `main.pdf` sous le nom que la
+page attend.
 
-**La vignette de la couverture** — l'emblème circulaire de l'Ido. Un
-disque n'a pas d'orientation, et ma première tentative — repérer les six
-pointes de l'étoile et regarder leur écart au multiple de 60° — a échoué :
-le seuillage n'en isolait que deux. Le repère utile est ailleurs, dans
-les trois lettres du mot au centre de l'étoile : on les isole comme
-composantes sombres à l'intérieur d'un disque de 52 px autour du centre,
-et l'on ajuste une droite sur leurs lignes de base. Pente −0,0017, soit
-**−0,096 degré**. Droit.
+### Le téléphone : un seul tiroir, et l'accolade rendue par ce qu'elle veut dire
 
-Les deux valeurs sont dix fois plus petites que celle du portrait
-(−0,76°) et sous le seuil de ce que l'œil distingue à cette taille. **Il
-n'y a rien à redresser ailleurs.**
+Deux reprises après essai sur iPhone.
 
-Méthode à retenir : un objet sans bord droit se mesure par son centroïde,
-un objet circulaire par le texte qu'il porte. Chercher un bord là où il
-n'y en a pas fait rendre n'importe quoi au détecteur.
+**Le bouton « Vedeti » est retiré du DOM sur téléphone**, non pas masqué :
+il occupait une deuxième rangée dans l'en-tête. Les vedettes du chapitre
+courant sont désormais dépliées **dans le tiroir « Materio »**, sous le
+lien de ce chapitre. L'en-tête du téléphone ne porte plus qu'une rangée,
+mesurée à 43 px au lieu de 85. Il y fallait une correction de plus : le
+`flex-basis` de 260 px du champ de recherche, hérité du *Dicionario*,
+poussait encore le champ sous le bouton.
 
----
+**Les tableaux à accolades étaient illisibles à 390 px** — colonnes
+dispersées, accolades seules dans leur case, points de conduite occupant
+des cases vides. Le remède tient à ce que l'accolade *signifie* : un
+groupement. Et ce groupement se **mesure** — `\VUaccolade{hauteur}{décalage}`
+donne la hauteur de l'accolade et le déplacement de son centre ; divisée
+par le pas des lignes, la hauteur livre le nombre de rangs rassemblés.
+Le tableau est donc écrit deux fois dans la page, le CSS n'en montrant
+qu'une : colonnes au-dessus de 900 px, groupes emboîtés en dessous.
 
-## La vignette penchait aussi, et mon premier contrôle l'avait manquée
+Deux bogues sont tombés à cette occasion : les points de conduite se
+collaient à l'accolade au folio 220 et y faisaient disparaître une
+rangée, et l'arbre généalogique du même folio, marqué comme les autres,
+se trouvait **masqué sur ordinateur** — il avait disparu sans que rien le
+signale.
 
-J'avais conclu que la vignette de la couverture était droite, sur la foi
-des **lignes de base des trois lettres au centre de l'étoile** : pente
-−0,096 degré. Le repère était mauvais. Ces trois lettres sont petites,
-gravées, et leurs empattements ne définissent pas une ligne de base au
-dixième de degré près ; la mesure ne mesurait que son propre bruit.
+Restent deux imperfections, dites : l'accolade fermante du folio 31 reste
+un glyphe en ligne sur téléphone, sa portée croisant celle de l'accolade
+ouvrante ; et sur ordinateur l'accolade ne s'étire pas sur les rangs
+qu'elle couvre — les colonnes sont justes, le groupement n'y est que
+suggéré.
 
-Le repère juste est celui que le commanditaire a nommé : **les pointes
-supérieure et inférieure de l'étoile**. Un hexagramme régulier a une
-pointe exactement en haut et une exactement en bas ; l'axe qui les joint
-doit être vertical. Deux méthodes indépendantes, sur le cliché détouré :
+### L'adresse d'une section : une règle fondée sur le contenu
 
-- **axe pointe haute → pointe basse** : +1,13 degré ;
-- **phase de la sixième harmonique** du profil radial `r(θ)` — un
-  hexagramme a une symétrie d'ordre 6, et la phase de cette harmonique
-  donne l'orientation de la figure sans dépendre d'aucun point
-  particulier : une pointe à 89,03 degrés au lieu de 90, soit
-  −0,97 degré.
+Chaque titre de chapitre et chaque vedette porte désormais, à sa droite,
+un **bouton en chaîne** qui copie l'URL absolue de la section. Discret —
+couleur `--sub`, révélé au survol sur ordinateur ; sur écran tactile
+(`@media (hover:none)`) il reste visible et sa cible est portée à 44 px
+par un pseudo-élément, qui grossit la zone sensible sans toucher à
+l'interligne. Sur ordinateur le bouton est **absolu, dans la marge de
+droite**, en vis-à-vis du folio qui est dans celle de gauche : il ne
+prend donc aucune place dans le texte. En ligne, il aurait laissé un
+trou de 21 px après chacune des 322 vedettes, visible même invisible,
+puisque la justification l'aurait montré. *(Piège au passage : un
+`inline-block` hérite du `text-indent` de l'alinéa et se l'applique à
+lui-même — d'où le `text-indent:0` obligatoire.)*
 
-Les deux s'accordent : environ **un degré dans le sens des aiguilles**.
-La vignette est donc tournée de +1,05 degré autour du centre du disque,
-puis recoupée et détourée comme avant. Contrôle visuel avec une verticale
-tracée par le centre : elle passe par les deux pointes.
+La copie se fait en trois paliers, parce que la page s'ouvre souvent en
+`file://`, où l'API du presse-papiers manque ou refuse :
+`navigator.clipboard.writeText`, puis un champ temporaire avec
+`document.execCommand('copy')`, puis, en dernier recours, l'affichage de
+l'URL sélectionnée pour copie manuelle. La confirmation, « Kopiita »,
+s'efface au bout d'une seconde et demie. Le bouton reste un **vrai
+lien** : sans JavaScript il mène quand même à l'ancre, et le menu
+contextuel du navigateur y offre « copier l'adresse du lien ».
 
-La découpe passe de 241 × 249 à 257 × 251 px, le disque restant à
-249 × 243 ; la largeur composée passe de 20,40 à 22,38 mm et l'ordonnée
-de 105,06 à 104,72 mm, pour que le disque retrouve sa taille. Vérifié au
-rendu : 250 × 250 px composés, haut à 1241 comme au fac-similé.
+**LA RÈGLE D'IDENTIFIANT — c'est le point qui compte.** Une ancre est
+une adresse : elle est citée, mise en signet, collée dans une note. Elle
+doit survivre à la recomposition du volume. **Rien de positionnel n'y
+entre donc** — ni le rang de l'alinéa, ni l'ordre du fichier, ni le
+numéro du chapitre : insérer un paragraphe au folio 12 les décalerait
+tous. Elle se déduit du seul **contenu** :
 
-**Bilan des trois clichés** : le portrait penchait de 0,76 degré, la
-vignette de 1,05 ; le fleuron du folio 232 est droit à 0,068 degré près.
-Les deux premiers sont redressés.
+1. **chapitre** → `ardoise(titre du chapitre)` ;
+2. **vedette** → `ardoise(titre du chapitre)` + `-` + `ardoise(vedette)` ;
+3. **collision** → suffixe `-2`, `-3`… attribué **dans l'ordre du
+   texte**, la première occurrence restant sans suffixe.
 
-Leçon, la quatrième de ce genre : **un repère doit être choisi pour sa
-précision, non pour sa commodité.** Les lettres au centre étaient faciles
-à isoler ; les pointes de l'étoile portaient l'information. Il en allait
-de même du bord droit qu'on cherche sur une vignette qui n'en a pas, et
-du titre qu'on cherche par une sous-chaîne qui figure aussi dans le
-texte.
+`ardoise()` — le slug — fait ceci, et rien d'autre : minuscules,
+diacritiques déposés (NFKD, plus une table pour `æ œ ß ø đ ł þ ð`), tout
+ce qui n'est pas `[a-z0-9]` rendu en tiret, tirets fusionnés et rognés
+aux deux bouts, coupure à 40 signes **sur un mot entier** — jamais au
+milieu d'un mot, ce qui rendrait l'adresse indevinable. Ainsi
+`PREPOZICIONI.` → `#prepozicioni`, et sa vedette `Til` →
+`#prepozicioni-til`. Un **hachage** ferait aussi bien contre les
+collisions, mais il donnerait une adresse illisible et, surtout, il
+changerait entièrement à la moindre coquille corrigée ; le suffixe
+numérique, lui, ne bouge que pour les entrées qui portent vraiment le
+même nom. Les identifiants de note (`nt<feuillet>-<numéro>`) sont
+**réservés d'abord**, pour qu'aucune ardoise ne vienne les leur prendre.
 
----
+**Le contrôle d'unicité est programmatique**, et il se fait sur la page
+**écrite**, non sur le registre : c'est le document qui porte les
+adresses. `controle_ancres()` relit tous les `id="…"` du fichier produit
+et l'outil s'arrête en erreur si l'un se répète. Il dit aussi, sans
+échouer, ceux qu'une URL devrait encoder. Au dernier passage : **790
+identifiants, aucun doublon**, quatre homonymes départagés par un
+suffixe (`prepozicioni-til`, `adverbi-proxime`, `prefixi-des`,
+`sufixi-il`). Deux exécutions rendent le même md5.
 
-## La vignette, troisième mesure : j'avais tourné du mauvais côté
+### Le portrait ouvre la page — et l'alpha sert de masque, non d'image
 
-La correction précédente était fausse de son signe. J'avais conclu à un
-degré **dans le sens des aiguilles** et tourné d'autant dans l'autre — ce
-qui a porté l'écart de 1,27 à 2,32 degré au lieu de l'annuler. Deux
-mesures concordantes m'avaient rassuré : elles concordaient en valeur
-absolue, et je n'ai pas vérifié le sens sur le résultat.
+La page s'ouvre sur le portrait de l'auteur, planche du feuillet 7, avec
+la légende du fac-similé et son folio en marge ; il paraît dans la table
+des matières comme un chapitre, avant la KONSTATO.
 
-**Le remède, tiré du commanditaire : se fonder sur les douze sommets.**
-L'étoile n'est pas régulière — gravée à la main, elle a des pointes qui
-s'écartent de leur place de 1,1 à 2,9 degré et des creux de 0,02 à 4,0.
-Un seul point, ou même deux points opposés, mesure surtout son propre
-défaut. On relève donc les **six pointes et les six creux** sur le profil
-radial du contour, chaque sommet étant affiné par interpolation
-parabolique, puis on en prend la **moyenne circulaire à l'harmonique 12**
-— les pointes tombant sur θ₀+k·60 et les creux sur θ₀+30+k·60, les douze
-y contribuent à parts égales et l'irrégularité se moyenne au lieu de
-peser sur un point.
+**Le piège, et il ne se voit pas tant qu'on ne regarde pas :** le PNG du
+scan est une similigravure à couche alpha — l'encre y est **noire**, le
+papier **transparent**. Une balise `<img>` l'aurait rendu **noir sur
+noir en mode sombre**. On n'en garde donc **aucune couleur** : le PNG
+incorporé ne porte que l'**alpha**, et le CSS le pose en `mask-image` /
+`-webkit-mask-image` sur un bloc dont le fond est `var(--enk)`. Le
+portrait est alors de l'encre, comme le reste de la page, et suit le
+thème. Vérifié sur capture dans les deux modes.
 
-    POINTES :  27,64   92,59  152,89  208,68  271,10  332,76
-    CREUX   :  62,51  123,04  180,02  244,00  299,77  359,93
-    θ₀ = 91,27°  (concentration 0,92)
+Deux mesures pour le poids, la page devant rester autonome : **650 px**
+de large (le fac-similé en fait 726, et sa trame ne supporte pas d'être
+réduite beaucoup plus) et **8 niveaux d'alpha** — la trame est un
+*grain*, non un dégradé ; huit niveaux en sont indiscernables à l'œil et
+divisent par quatre le poids du PNG, 194 ko au lieu de 730. Le PNG sort
+en palette, les huit niveaux tenant dans un `tRNS` de huit octets. La
+`data:` URI est écrite **une seule fois**, dans une variable CSS : la
+répéter pour la propriété préfixée et la propriété nue coûtait 260 ko.
+La page pèse 1,15 Mo.
 
-La pointe haute est donc à 91,27 degré et non à 88,7 : l'étoile penche
-**dans le sens inverse des aiguilles**. Rotation de −1,10 degré, résidu
-**+0,003 degré** — et cette fois le résidu est mesuré après coup, sur le
-fichier produit, avec le même estimateur.
+*Conséquence assumée, et qui se voit :* la planche est une photographie
+en demi-teinte, non un trait. En mode sombre, l'encre s'éclaircissant
+comme celle du texte, le portrait se lit en **négatif**. C'est la suite
+exacte du principe « le portrait est de l'encre » ; le retour au positif
+demanderait de traiter la planche non comme de l'encre mais comme une
+photographie sur papier, avec un fond clair maintenu dans les deux
+modes. Le choix est ouvert.
 
-Contrôle visuel : la verticale tracée par le centre du disque passe par
-les deux pointes.
+### Le folio 224 était un addendum : il est remis à sa place
 
-**Ce qu'il fallait faire dès la première fois** : ne pas conclure d'un
-estimateur sans vérifier son signe sur le résultat. Une rotation se teste
-en trois lignes — on l'applique, on remesure, et si l'écart a grandi, le
-signe est faux. Je m'en étais dispensé parce que deux méthodes
-s'accordaient ; elles s'accordaient sur l'amplitude, et toutes deux
-étaient muettes sur le sens.
+Le folio 224 (feuillet 228) ne porte qu'une phrase et deux articles.
+L'original y annonce qu'il place là les deux prépositions **tra** et
+**trans**, omises, et **qu'elles vont après *til*, p. 82**. Ce n'est pas
+une section : c'est un rattrapage d'imprimeur, et **le livre dit
+lui-même où son contenu appartient**. La page de lecture l'y porte.
 
-`/tmp/etoile.py` — versé au dépôt sous `outils/etoile.py` — fait ce
-relevé et rend l'écart à la verticale.
+Les deux articles gardent leur **folio 224** et son renvoi au PDF —
+`gramatiko.pdf#page=226`, la règle du volume restant page = folio + 2 —
+et paraissent **à leur rang dans le volet des vedettes** de PREPOZICIONI,
+juste après les deux entrées `Til`. Le folio 224 ne forme plus de
+section à part : le compte rendu de l'outil le vérifie et affiche
+« 3 blocs remis après *Til signifikas…*, 0 bloc resté au feuillet 228 ».
+Aucun texte ne s'y perd — la phrase de l'original est conservée telle
+quelle, en tête du groupe déplacé ; la comparaison des mots de la page
+avant et après ne montre aucune perte.
 
----
+La page ne peut pas déplacer du texte sans le dire. Elle le dit en ido,
+et **entre crochets**, comme toute intervention d'éditeur : « *La
+originalo omisis ca du artikli e pozis li ye la fino dil volumo, sur la
+folio 224 ; ca pagino redonas li al loko quan la libro ipsa indikas.* »
 
-## Troisième perte du dépôt, et la parade
+**Rien n'est en dur dans le déplacement** : la cible se retrouve par le
+contenu — le chapitre qui porte le titre voulu, la **dernière** entrée
+qui porte la vedette voulue (`til` court sur trois alinéas, et c'est
+après le troisième que le volume renvoie). Si le volume est recomposé et
+que le folio 224 disparaît, la fonction ne trouve rien à déplacer et ne
+fait rien.
 
-Le conteneur a de nouveau reculé, et cette fois de façon **partielle et
-silencieuse** : l'historique gardait les commits récents (le portrait, la
-vignette) mais avait perdu quatre commits plus anciens, et le contenu des
-fichiers ne correspondait plus à l'historique — `\VUindexEcart` était
-employé deux fois dans `preambule.tex` sans y être défini nulle part.
-Un dépôt qui compile n'est donc pas une preuve d'intégrité.
+L'outil demande désormais **Pillow**, pour réduire le portrait et n'en
+tirer que la couche alpha.
 
-Sept correctifs ont dû être reposés à partir du dossier de session, tous
-vérifiés à nouveau par la mesure :
+### Le portrait en mode sombre : une photographie n'est pas de l'encre
 
-| ce qui était perdu | vérification après reprise |
-|---|---|
-| blancs du folio 21 | composé 126/106, relevé 126/106 |
-| blancs du folio 122 (`PREFIXI.`) | 117/94 pour 117/94 |
-| blanc du folio 168 | 90 pour 90 |
-| blanc du folio 172 | 99 pour 99 |
-| `PUNTIZADO` élargi | 228 px pour 228 |
-| titre du folio 3 | 877 px pour 874, capitale 54 pour 54 |
-| renvois du Tabelo | 256 liens, 259,9 pt de large pour une mesure de 259 |
-| signets : groupe `APENDICI` | 10 enfants, entrée à la page 181 |
-| signet `TABELO` | page 227 |
+Le premier état donnait au masque la couleur du texte, `var(--enk)`, pour
+que le portrait « suive l'encre » dans les deux modes. Le principe est
+juste pour un trait — le fleuron, la vignette — et **faux pour une
+demi-teinte** : en mode sombre le portrait paraissait **en négatif**,
+cheveux et veston clairs, visage sombre.
 
-### Ce que cette troisième perte enseigne
+La planche est donc traitée comme ce qu'elle est : une photographie
+**posée sur du papier**. Le carton garde son fond clair et l'encre son
+noir dans les deux modes ; en mode sombre la planche se détache sur la
+page comme un tirage collé dans un livre. C'est la seule façon de la
+garder positive.
 
-**Un contrôle d'intégrité ne peut pas se fonder sur `git log`.** Les deux
-premières fois, l'historique était tronqué net et le dire suffisait.
-Cette fois il était incohérent avec les fichiers. Le contrôle qui a
-fonctionné est une **liste de témoins** : une dizaine de chaînes
-caractéristiques, une par correctif, cherchées dans les fichiers où elles
-doivent être. `grep -c VUlienOuvre preambule.tex` rendant 0 dit en une
-seconde ce que la lecture de l'historique ne disait pas.
-
-Cette liste vaut d'être tenue à jour à chaque lot. Elle est le seul
-contrôle qui ait detecté la panne, et elle coûte une ligne.
-
-**Et le dépôt sur le disque du commanditaire reste le filet.** Il a servi
-trois fois. La règle ne change pas : après chaque lot, l'archive part
-ailleurs.
+À retenir : le même procédé — l'alpha en masque — sert deux objets de
+natures différentes. Pour le trait, la couleur suit l'encre ; pour la
+demi-teinte, elle ne le doit pas.

@@ -1,26 +1,17 @@
 % ===================================================================
 %  LES SIGNETS DU PDF — la table des matieres logicielle.
 %  Ecrits avec la primitive \pdfoutline de pdfTeX, et NON avec hyperref :
-%  hyperref redefinit \parindent, \baselineskip et la mise en boite, et
-%  ce volume a sa pagination gelee au dixieme de millimetre.
+%  hyperref redefinit \parindent, \baselineskip et la mise en boite des
+%  flottants, et ce volume a sa pagination gelee au dixieme de
+%  millimetre. La primitive, elle, n'ecrit que dans le catalogue du PDF
+%  et ne touche a rien de la composition. Verifie : 236 pages avant,
+%  236 apres, aucune ligne deplacee.
 %  « goto page N » vise la page par son rang, sans ancre a poser dans le
-%  texte. « count -n » ouvre une entree fermee portant n enfants.
-%
-%  LES APENDICI FORMENT LEUR PROPRE GROUPE, et non une queue de la
-%  deuxieme partie. Un premier etat les y laissait, et donnait pour
-%  entree « APENDICI » de premier niveau le TITRE DE RUBRIQUE DU TABELO
-%  (folio 232) — la page ou le Tabelo les enumere, non les appendices
-%  eux-memes : cliquer dessus menait a la table. Les dix sections des
-%  folios 179 a 223 sont detachees et rangees sous un « APENDICI » qui
-%  vise le premier d'entre eux. Le titre de rubrique du Tabelo est
-%  retire : ce n'est pas une section du livre.
-%
-%  LE TABELO OUVRE AU FEUILLET 229, page 227 — non 226. Un premier etat
-%  cherchait le feuillet en remontant depuis la premiere ligne
-%  contenant « TABELO », qui est un COMMENTAIRE du fichier source.
-%
-%  Le texte des signets est reduit a l'ASCII, le catalogue PDF
-%  n'acceptant que PDFDocEncoding ou l'UTF-16.
+%  texte — donc sans le moindre objet ajoute a la page.
+%  « count -n » ouvre une entree fermee portant n enfants.
+%  Le texte des signets est reduit a l'ASCII : le catalogue PDF
+%  n'accepte que PDFDocEncoding ou l'UTF-16, et les titres du volume
+%  n'ont d'accents qu'aux chevrons, remplaces par des guillemets droits.
 % ===================================================================
 \pdfoutline goto page 1 {/Fit} count 0 {Kovrilo}
 \pdfoutline goto page 5 {/Fit} count 0 {Titulo}
@@ -50,7 +41,7 @@
   \pdfoutline goto page 96 {/Fit} count 0 {NOMBRI}
   \pdfoutline goto page 102 {/Fit} count 0 {SINTAXO}
   \pdfoutline goto page 108 {/Fit} count 0 {TEMPI E MODI}
-\pdfoutline goto page 117 {/Fit} count -14 {Duesma parto - VORTIFADO}
+\pdfoutline goto page 117 {/Fit} count -24 {Duesma parto - VORTIFADO}
   \pdfoutline goto page 119 {/Fit} count 0 {ELEMENTI DI VORTO}
   \pdfoutline goto page 119 {/Fit} count 0 {PROCEDI DI VORTIFADO}
   \pdfoutline goto page 120 {/Fit} count 0 {REGULI DI DERIVADO *}
@@ -65,7 +56,6 @@
   \pdfoutline goto page 171 {/Fit} count 0 {REGULO DI ANALIZO O DESKOMPOZO}
   \pdfoutline goto page 174 {/Fit} count 0 {KOMPOZADO PER PREPOZICIONI}
   \pdfoutline goto page 175 {/Fit} count 0 {LA KOMPOZAJI E LA SUFIXI}
-\pdfoutline goto page 181 {/Fit} count -10 {APENDICI}
   \pdfoutline goto page 181 {/Fit} count 0 {L'ACENTIZO EN IDO}
   \pdfoutline goto page 185 {/Fit} count 0 {LA PLURALO EN IDO}
   \pdfoutline goto page 190 {/Fit} count 0 {GENRO E MASKULISMO}
@@ -76,6 +66,7 @@
   \pdfoutline goto page 219 {/Fit} count 0 {PUNTIZADO}
   \pdfoutline goto page 224 {/Fit} count 0 {NOMI. ADRESI}
   \pdfoutline goto page 225 {/Fit} count 0 {FORMULI DI POLITESO EN LETRI}
-\pdfoutline goto page 227 {/Fit} count 0 {TABELO DI LA MATERIO}
+\pdfoutline goto page 226 {/Fit} count 0 {TABELO DI LA MATERIO}
+\pdfoutline goto page 234 {/Fit} count 0 {APENDICI}
 \pdfoutline goto page 234 {/Fit} count 0 {MONDO-BIBLIOTEKO}
 \pdfoutline goto page 234 {/Fit} count 0 {RADIO-LEXIKI}
