@@ -407,7 +407,7 @@ def controle_1(pages, r):
                 fh.write('%3d. %s\n' % (i, h.strip()))
     else:
         r.ok('aucun « Overfull \\hbox »')
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if os.path.exists(pdf):
         out = subprocess.run(['pdfinfo', pdf], capture_output=True, text=True).stdout
         npages = int(re.search(r'Pages:\s+(\d+)', out).group(1))
@@ -478,7 +478,7 @@ def _norm(s):
 
 def lignes_pdf():
     """Lignes du PDF compose, page par page, via pdftotext -layout."""
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
         return None
     out = subprocess.run(['pdftotext', '-layout', '-enc', 'UTF-8', pdf, '-'],
@@ -531,7 +531,7 @@ def lignes_pdf():
 def controle_2(pages, r):
     got = lignes_pdf()
     if got is None:
-        r.ko('main.pdf absent')
+        r.ko('gramatiko.pdf absent')
         return
     ecarts = 0
     for i, pg in enumerate(pages):
@@ -915,9 +915,9 @@ def controle_6(pages, r):
 # Controle 7 — marge effective minimale
 # --------------------------------------------------------------------
 def controle_7(pages, r):
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf absent')
+        r.ko('gramatiko.pdf absent')
         return
     out = subprocess.run(['pdftotext', '-bbox', pdf, '-'],
                          capture_output=True, text=True).stdout
@@ -963,9 +963,9 @@ def controle_8(pages, r, premiere=1, combien=None):
     import numpy as np
     import cv2
     import page as PG
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf absent')
+        r.ko('gramatiko.pdf absent')
         return
     dst = os.path.join(P, 'controle', 'juxta')
     os.makedirs(dst, exist_ok=True)
@@ -1062,9 +1062,9 @@ def controle_9(pages, r, seuil=0.12):
     """
     import numpy as np
     import page as PG
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf absent')
+        r.ko('gramatiko.pdf absent')
         return
     dst = os.path.join(P, 'controle', 'encre')
     os.makedirs(dst, exist_ok=True)
@@ -1220,9 +1220,9 @@ def controle_10(pages, r, tol_px=12):
     """
     import numpy as np
     import cv2
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf absent')
+        r.ko('gramatiko.pdf absent')
         return
     dst = os.path.join(P, 'controle', 'encre')
     os.makedirs(dst, exist_ok=True)
@@ -1432,9 +1432,9 @@ def controle_11(pages, r, tol_px=14):
     100 px et plus quand le cardage n'est pas reproduit.
     """
     import numpy as np
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf absent')
+        r.ko('gramatiko.pdf absent')
         return
     comp = cache.compose(pdf, len(pages))
     pire = 0.0; pire_page = None; examinees = 0

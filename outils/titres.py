@@ -97,7 +97,7 @@ def image_composee(pdfpage):
     d = tempfile.mkdtemp()
     subprocess.run(['pdftoppm', '-r', '300', '-f', str(pdfpage), '-l',
                     str(pdfpage), '-gray', '-png',
-                    os.path.join(P, 'main.pdf'), os.path.join(d, 'p')],
+                    os.path.join(P, 'gramatiko.pdf'), os.path.join(d, 'p')],
                    check=True, stdout=subprocess.DEVNULL,
                    stderr=subprocess.DEVNULL)
     g = cv2.imread(glob.glob(os.path.join(d, 'p*.png'))[0], 0)
@@ -116,7 +116,7 @@ def lignes_composees(pdfpage):
     x = os.path.join(P, 'outils', '.tmp', 'titres.xml')
     os.makedirs(os.path.dirname(x), exist_ok=True)
     subprocess.run(['pdftotext', '-f', str(pdfpage), '-l', str(pdfpage),
-                    '-bbox-layout', os.path.join(P, 'main.pdf'), x],
+                    '-bbox-layout', os.path.join(P, 'gramatiko.pdf'), x],
                    check=True, stdout=subprocess.DEVNULL,
                    stderr=subprocess.DEVNULL)
     s = open(x, encoding='utf-8').read()

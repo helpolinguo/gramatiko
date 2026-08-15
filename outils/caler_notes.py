@@ -33,7 +33,7 @@ SEUIL_PX = 4.0
 def ecarts():
     """{folio: (ecart_px, fichier)} pour les pages a notes mesurables."""
     pages = C.lire_releve()
-    comp = cache.compose(os.path.join(P, 'main.pdf'), len(pages))
+    comp = cache.compose(os.path.join(P, 'gramatiko.pdf'), len(pages))
     out = {}
     for i, pg in enumerate(pages, 1):
         fo = pg['folio']

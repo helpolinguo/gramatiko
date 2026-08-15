@@ -3505,3 +3505,87 @@ fichiers tels quels.
 Le fichier est versé au dépôt. Conséquence à connaître : `LISEZ-MOI.md`
 ne sera plus rendu en page web — ce qui est bien, `index.html` étant la
 page du volume.
+
+### « Chefa vorto », non « vedeto »
+
+L'interface disait « Vedeti dil chapitro ». C'était un faux ami de ma
+part : j'avais transposé en ido le terme typographique français
+*vedette* — le mot en tête d'un article — sans vérifier qu'en ido
+**`vedeto` a le sens de sentinelle**, du français *vedette* militaire et
+non de la vedette d'imprimerie. Le mot juste est **`chefa vorto`**.
+
+Les libellés visibles et la prose des commentaires sont corrigés. Les
+identifiants internes (`#vede`, `#vedlist`, `.ved`) sont laissés tels
+quels : ce n'est pas de l'ido, et les renommer décrocherait le
+JavaScript sans rien gagner. **Les URL ne sont pas touchées** : elles
+sont bâties sur le titre du chapitre et le mot lui-même, jamais sur le
+nom de la catégorie — aucun lien déjà copié ne se rompt.
+
+À retenir pour la suite : le vocabulaire de l'interface est en ido, et
+un terme technique français ne s'y transporte pas par simple suffixe.
+
+### La marge de défilement doit se mesurer, non se supposer
+
+Les ancres portaient une `scroll-margin-top` fixée en dur : 112 px, et
+215 px sous la règle du téléphone. Elle mentait dès que l'en-tête collant
+changeait de hauteur. **Sur iPad, le titre passe sur deux lignes sans que
+la règle du téléphone s'applique** : l'en-tête y mesure 133 px, et le
+haut de la section visée disparaissait sous la barre de recherche.
+
+La hauteur est désormais mesurée et déposée dans `--kapo` — au
+chargement, au redimensionnement, au changement d'orientation, et **après
+le chargement des fontes**, une fonte à empattements plus haute que la
+fonte de secours pouvant faire passer le titre sur une ligne de plus. Les
+valeurs en dur ne servent plus que de secours avant que le script ait
+tourné. Vérifié à 1500, 1024, 768 et 390 px : la section visée tombe
+toujours à 12 px sous la barre.
+
+### Si « Deskargar » rend un fichier nommé `gramatiko.pdf.html`
+
+Ce nom est la signature d'une **page d'erreur HTML téléchargée sous le
+nom du PDF** : l'attribut `download` enregistre les octets reçus, et le
+navigateur ajoute l'extension correspondant au type renvoyé par le
+serveur. Autrement dit, `gramatiko.pdf` n'est pas à l'adresse demandée —
+le lien est juste, le fichier manque. À vérifier en ouvrant l'adresse du
+PDF directement dans le navigateur.
+
+### Le PDF porte désormais son nom de publication
+
+Le volume se compilait en `main.pdf`, du nom de sa source, alors que la
+page de lecture et ses 1 441 renvois de folio demandent tous
+`gramatiko.pdf` — d'où un bouton « Deskargar » qui rendait une page
+d'erreur.
+
+Le remède n'est pas de copier le fichier après coup : une copie se
+périme, et le dépôt porterait deux fois 1,7 Mo. `pdflatex` prend un
+`-jobname` :
+
+    pdflatex -interaction=nonstopmode -jobname=gramatiko main.tex
+
+La source garde son nom, le produit porte le sien. `komp.mk` est à jour,
+ainsi que les dix-huit références des outils (`controles.py`,
+`titres.py`, `caler_notes.py`).
+
+Le champ de recherche dit maintenant « Serchez en la tota **libro** » et
+non « volumo ».
+
+### Deux restes du même défaut : la hauteur d'en-tête supposée
+
+La mesure de `--kapo` avait corrigé les ancres, mais deux endroits
+gardaient la valeur en dur.
+
+**Les volets latéraux** se collaient à `top:97px`. Sur iPad, où l'en-tête
+mesure 133 px, le haut du volet passait donc sous la barre — d'où le
+premier intitulé, `Introdukto`, à demi caché. Ils suivent maintenant
+`--kapo`.
+
+**L'ouverture d'une URL à ancre** défilait avant que le script ait
+mesuré : le navigateur emploie la valeur de secours, et la section visée
+se logeait sous la barre. Le défilement est donc **refait** une fois la
+mesure prise, puis encore après le chargement des fontes.
+
+Vérifié à 1500, 1024 et 390 px, en arrivant par `#prepozicioni` : la
+section tombe à 12 px sous la barre, le volet commence à son bord exact,
+et le premier intitulé est entièrement visible.
+
+Le groupe s'intitule désormais **`Introdukto`** et non `Liminari`.

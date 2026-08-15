@@ -85,7 +85,7 @@ ADDENDUM_AVIS = (
 # deuxieme partie, mais ce sont dix etudes autonomes, listees comme
 # telles au folio 232, et non la queue du chapitre sur la composition.
 PARTIES = [
-    (8,   'Liminari'),
+    (8,   'Introdukto'),
     (13,  'Unesma parto \u2014 MORFOLOGIO E SINTAXO'),
     (119, 'Duesma parto \u2014 VORTIFADO'),
     (183, 'APENDICI'),
@@ -1129,12 +1129,17 @@ input[type=search]:focus{outline:2px solid var(--acc);outline-offset:-1px}
  padding:9px 11px;cursor:pointer}
 .tir:hover{background:var(--lin)}
 
-/* --- Tri panelo. Sur komputoro: tabelo dil materio, texto, vedeti.
+/* --- Tri panelo. Sur komputoro: tabelo dil materio, texto, chefa vorti.
    La du lateral paneli ruliras aparte de la texto : la lekto dil texto
    ne movas li. --- */
 main{display:grid;grid-template-columns:250px minmax(0,1fr) 230px;
  max-width:1360px;margin:0 auto;gap:0}
-nav,aside{position:sticky;top:97px;height:calc(100vh - 97px);overflow-y:auto;
+/* Les volets lateraux se collent SOUS l'en-tete, dont la hauteur varie
+   (deux lignes de titre sur iPad). Fixee a 97 px, la valeur cachait le
+   haut du volet — le premier intitule passait sous la barre. Elle suit
+   maintenant --kapo, mesuree par le script. */
+nav,aside{position:sticky;top:var(--kapo,97px);
+ height:calc(100vh - var(--kapo,97px));overflow-y:auto;
  padding:16px 14px 60px;font-family:system-ui,sans-serif;font-size:13px}
 nav{border-right:1px solid var(--lin)}
 aside{border-left:1px solid var(--lin)}
@@ -1157,7 +1162,16 @@ aside a{font-size:12.5px;color:var(--sub)}
 .tit{font-weight:700;text-align:center;letter-spacing:.08em;font-size:15px;
  margin:2.2em 0 1em;position:relative}
 /* La baro esas glutinoza : irga ancero devas haltar sub ol. */
-.tit,.p,.rangi,.cen,.sub2,.noto,.avizo,.fig{scroll-margin-top:112px}
+/* La marge de defilement doit valoir la hauteur REELLE de l'en-tete
+   collant. Fixee en dur — 112 px ici, 215 px sur telephone — elle
+   mentait des que l'en-tete changeait de hauteur : sur iPad, le titre
+   passe sur deux lignes sans que la regle du telephone s'applique, et
+   le haut de la section visee disparaissait sous la barre de recherche.
+   La hauteur est donc mesuree au chargement et a chaque redimension,
+   et deposee dans --kapo ; les valeurs en dur ne servent plus que de
+   secours avant que le script ait tourne. */
+.tit,.p,.rangi,.cen,.sub2,.noto,.avizo,.fig{
+ scroll-margin-top:calc(var(--kapo,112px) + 12px)}
 .sub2{text-align:center;font-style:normal;margin:-.6em 0 1em;color:var(--sub);
  position:relative}
 .cen{text-align:center;margin:.9em 0;position:relative}
@@ -1226,7 +1240,7 @@ b{font-weight:700}
    ol esas sempre videbla, kun celo di 44 px. --- */
 /* Ol stacas en la marjeno DEXTRA, quale la folio en la sinistra : tale
    ol prenas NULA spaco en la texto -- un chenulo en-lineala lasus
-   truo de 21 px pos singla del 322 vedeti, mem kande ol es nevidebla,
+   truo de 21 px pos singla del 322 chefa vorti, mem kande ol es nevidebla,
    e la justifikuro montrus lu. `text-indent:0` esas necesa : un
    inline-block heredas la retreto dil alineo ed aplikas ol a su ipsa. */
 .lig{color:var(--sub);text-decoration:none;line-height:0;text-indent:0;
@@ -1309,13 +1323,14 @@ mark{background:rgba(214,154,106,.34);color:inherit;border-radius:2px}
  input[type=search]{flex:1 1 120px;min-width:0}
  .larja{display:none}
  .grupi{display:block}
- /* Un sol tirado sur telefono : la vedeti dil chapitro nuna montresas
+ /* Un sol tirado sur telefono : la chefa vorti dil chapitro nuna montresas
     en la tabelo dil materio ipsa, sub la chapitro. */
  aside{display:none}
  #vednav{display:block;margin:2px 0 6px 12px;border-left:2px solid var(--lin);
   padding-left:8px}
  #kont{padding:20px 18px 120px}
- .tit,.p,.rangi,.cen,.sub2,.noto,.avizo,.fig{scroll-margin-top:215px}
+ .tit,.p,.rangi,.cen,.sub2,.noto,.avizo,.fig{
+  scroll-margin-top:calc(var(--kapo,215px) + 12px)}
  .p>.fol:first-child,.tit>.fol:first-child,.cen>.fol:first-child,
  .rangi>.fol:first-child,.sub2>.fol:first-child,.avizo>.fol:first-child,
  .fig>.fol:first-child{position:static;border-bottom:1px dotted var(--lin);
@@ -1341,18 +1356,40 @@ mark{background:rgba(214,154,106,.34);color:inherit;border-radius:2px}
 <div class="sub">L. de Beaufront &middot; Esch-Alzette, Meier-Heucke, 1925 &middot; __SUB__</div>
 <div class="bar">
  <button class="tir" id="tirL" aria-label="Tabelo di la materio">&#9776; Materio</button>
- <input type="search" id="q" placeholder="Serchez en la tota volumo&hellip;" autocomplete="off">
+ <input type="search" id="q" placeholder="Serchez en la tota libro&hellip;" autocomplete="off">
 </div>
 </header>
 <main>
 <nav id="nav">__NAV__<div id="vednav"></div></nav>
 <div><div id="kont">__KONT__</div><div id="rez"></div></div>
-<aside id="vede"><div class="kapo">Vedeti dil chapitro</div><div id="vedlist"></div></aside>
+<aside id="vede"><div class="kapo">Chefa vorti dil chapitro</div><div id="vedlist"></div></aside>
 </main>
 <div id="vualo"></div>
 <div id="kopito" role="status" aria-live="polite"></div>
 <script>
-var VED=__VED__;            // chapitro -> [id, vedeto]
+var VED=__VED__;            // chapitro -> [id, chefa vorto]
+/* Hauteur reelle de l'en-tete collant, deposee dans --kapo. On la
+   remesure au redimensionnement ET apres le chargement des fontes :
+   une fonte a serif plus haute que la fonte de secours peut faire
+   passer le titre sur une ligne de plus. */
+function mezurKapo(){var h=document.querySelector('header');
+ if(h)document.documentElement.style.setProperty('--kapo',h.offsetHeight+'px');}
+mezurKapo();
+/* A l'ouverture d'une URL a ancre, le navigateur defile AVANT que le
+   script ait mesure l'en-tete : il emploie la valeur de secours, et la
+   section visee se loge sous la barre. On refait donc le defilement une
+   fois la mesure prise — et encore apres les fontes, qui peuvent
+   changer la hauteur du titre. */
+function viziAncro(){var h=location.hash;
+ if(h.length<2)return;
+ var el=null; try{el=document.querySelector(h)}catch(e){}
+ if(el)el.scrollIntoView();}
+mezurKapo(); viziAncro();
+addEventListener('load',function(){mezurKapo();viziAncro();});
+addEventListener('resize',mezurKapo);
+addEventListener('orientationchange',mezurKapo);
+if(document.fonts&&document.fonts.ready)
+ document.fonts.ready.then(function(){mezurKapo();viziAncro();});
 var kont=document.getElementById('kont'), rez=document.getElementById('rez');
 
 /* --- La noti. Un sola askoltilo por la tota volumo : 700 apeli ne
@@ -1429,7 +1466,7 @@ document.getElementById('tirL').onclick=function(){
  var o=nav.classList.contains('ap');
  if(o) klozar(); else {nav.classList.add('ap');vualo.classList.add('ap')}};
 vualo.onclick=klozar;
-/* Delegita askoltilo : la vedeti dil tabelo di materio kreesas e
+/* Delegita askoltilo : la chefa vorti dil tabelo di materio kreesas e
    rikreesas ye singla chanjo di chapitro, do li ne povus recevar sua
    propra askoltilo. */
 nav.addEventListener('click',function(e){
@@ -1454,13 +1491,13 @@ function chapitro(c){
  var liens=v.map(function(x){
    return '<a href="#'+x[0]+'" title="'+x[2]+'">'+x[1]+'</a>'}).join('');
  document.getElementById('vedlist').innerHTML=liens||
-   '<div style="color:var(--sub)">(nula vedeto en ca chapitro)</div>';
- /* Sur telefono la vedeti sequas sua chapitro en la tabelo dil materio :
+   '<div style="color:var(--sub)">(nula chefa vorto en ca chapitro)</div>';
+ /* Sur telefono la chefa vorti sequas sua chapitro en la tabelo dil materio :
     la listo transportesas sub la ligilo dil chapitro nuna. */
  var nv=document.getElementById('vednav');
  nv.innerHTML=liens;
  if(a) a.insertAdjacentElement('afterend',nv);
- /* La listo jus rifacesis : la marko dil nuna vedeto perdesis kun ol,
+ /* La listo jus rifacesis : la marko dil nuna chefa vorto perdesis kun ol,
     e nula nova intersekto venos ripozar ol. On ripozas ol quik. */
  marqueVed(null);
 }
@@ -1555,7 +1592,7 @@ function perAncero(){
  if(el.classList.contains('noto')){el.classList.add('ap');
   el.scrollIntoView({block:'center'});}
  /* Salto ad ancero ne sempre chanjas quo intersekas : on marfas
-    direte la chapitro e la vedeto vizata. */
+    direte la chapitro e la chefa vorto vizata. */
  if(el.dataset.ch) chapitro(el.dataset.ch);
  if(el.dataset.vd) marqueVed(el.dataset.vd);
 }
@@ -1838,7 +1875,7 @@ def ecrire(rel, parties, stats):
         if b.ved:
             base = ardoise(b.ved)
             b.ident = ancres.neuf('%s-%s' % (cid, base) if cid else base,
-                                  b.ved, 'vedeto')
+                                  b.ved, 'chefa vorto')
             # L'etiquette du volet est TRONQUEE, non filtree : le volume
             # ouvre aussi des alineas par une phrase entiere en gras
             # (des exemples), et ce sont des sous-entrees comme les
