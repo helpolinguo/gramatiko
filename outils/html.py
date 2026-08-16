@@ -75,9 +75,9 @@ ADDENDUM_VEDETTE = 'Til'
 # L'avis au lecteur. Une page qui deplace du texte doit le dire ; on le
 # dit en ido, et entre crochets, comme toute intervention d'editeur.
 ADDENDUM_AVIS = (
-    'La originalo omisis ca du artikli e pozis li ye la fino dil '
-    'volumo, sur la folio 224 ; ca pagino redonas li al loko quan la '
-    'libro ipsa indikas.')
+    'La originalo omisis ca du prepozicioni e pozis li ye la fino di '
+    'la libro, p. 224 ; ca pagino ridonas li a la loko quan la verko '
+    'ipsa indikas.')
 
 # Les quatre groupes du volume, par feuillet de debut. Les bornes sont
 # celles du releve de structure (LISEZ-MOI, 3.1). Les APENDICI forment
@@ -232,6 +232,71 @@ def saute_blancs(s, i):
     return j
 
 
+# ------------------------------------------------------------------
+# 2 bis. UNE ACCOLADE QUI S'ETIRE
+# ------------------------------------------------------------------
+# Le glyphe { d'une fonte NE S'ETIRE PAS : il vaut une ligne, et rien de
+# plus. Pose entre les trois rangees de points du folio 220 il ne coiffe
+# rien -- c'est la premiere des deux plaintes du commanditaire.
+#
+# Trois voies s'offraient : etirer le glyphe par scaleY, dessiner
+# l'accolade avec des bords arrondis en CSS, ou tracer un SVG en ligne.
+#   -- scaleY allonge le fut mais etire aussi les courbes : la pointe
+#      d'une accolade triplee de hauteur devient une tache, et la forme
+#      depend de la fonte que le lecteur a. Ecarte.
+#   -- les bords arrondis demandent quatre quarts de cercle et deux
+#      futs, donc plusieurs elements par accolade, dont les raccords se
+#      disjoignent des que le navigateur arrondit une demi-decimale ;
+#      et tout serait a refaire pour l'horizontale. Ecarte.
+#   -- LE SVG EN LIGNE : un seul trace, aucun raccord, la meme
+#      mecanique dans les deux sens. `preserveAspectRatio="none"` etire
+#      le dessin sur la boite exacte qu'on lui donne, si haute ou si
+#      large soit-elle, et `vector-effect:non-scaling-stroke` garde au
+#      trait son epaisseur -- sans quoi le fut d'une accolade triplee
+#      serait trois fois plus gras que le texte. Retenu.
+#
+# Les traces suivent le fac-simile du folio 220 (scan/pages/f0224.jpg,
+# encre x 786-796 y 877-995 pour la verticale, x 524-1063 y 1339-1355
+# pour l'horizontale) : une accolade maigre a pointe peu saillante, et
+# une horizontale presque plate a spicule central.
+AKOLADI = {
+    # Ouvrante : pointe a gauche, au milieu ; boite haute et etroite.
+    'akol': ('0 0 10 100',
+             # LES EXTREMITES S'INCURVENT A L'OPPOSE DE LA POINTE.
+             # Le premier trace les ramenait vers elle : les trois bouts
+             # regardaient du meme cote, ce qu'aucune accolade ne fait.
+             # Dans le dessin ordinaire, la pointe centrale saille d'un
+             # cote et les deux bouts se retournent de l'autre, au-dela
+             # de l'aplomb des epaules.
+             'M8.6 1C5.8 5 6 12 6 22L6 40C6 46 4 49 .8 50'
+             'C4 51 6 54 6 60L6 78C6 88 5.8 95 8.6 99',
+             'akv'),
+    # Fermante : la meme, retournee (x devient 10-x).
+    'akolD': ('0 0 10 100',
+              'M1.4 1C4.2 5 4 12 4 22L4 40C4 46 6 49 9.2 50'
+              'C6 51 4 54 4 60L4 78C4 88 4.2 95 1.4 99',
+              'akd'),
+    # Horizontale : pointe en haut, au milieu ; boite large et basse.
+    'akolH': ('0 0 100 10',
+              'M.8 9C16 5.9 30 5.7 47 5.7C48.4 5.7 49.2 4.2 50 1.2'
+              'C50.8 4.2 51.6 5.7 53 5.7C70 5.7 84 5.9 99.2 9',
+              'akh'),
+}
+
+
+def akolo(genre):
+    """L'accolade `genre` en SVG, prete a etre etiree par le CSS."""
+    vb, trace, classe = AKOLADI[genre]
+    # `vector-effect` est pose en ATTRIBUT et non en CSS : tous les
+    # navigateurs lisent l'attribut de presentation, la propriete CSS du
+    # meme nom est plus recente -- et c'est sur un iPad que le defaut a
+    # ete vu.
+    return ('<span class="akol %s" aria-hidden="true">'
+            '<svg viewBox="%s" preserveAspectRatio="none">'
+            '<path vector-effect="non-scaling-stroke" d="%s"/>'
+            '</svg></span>' % (classe, vb, trace))
+
+
 def inline(s):
     """Convertir en HTML une suite d'inline TeX. Ne coupe jamais une
     ligne : c'est tout le propos de la page de lecture."""
@@ -263,11 +328,10 @@ def inline(s):
                 out.append(' ' + inline(args[0]))
             elif nom in ('VUaccolade', 'VUaccoladeD'):
                 _, args, i = lire_args(s, i, 2)
-                out.append('<span class="akol">%s</span>'
-                           % ('{' if nom == 'VUaccolade' else '}'))
+                out.append(akolo('akol' if nom == 'VUaccolade' else 'akolD'))
             elif nom == 'VUaccoladeH':
                 _, args, i = lire_args(s, i, 1)
-                out.append('<span class="akol">\u23de</span>')
+                out.append(akolo('akolH'))
             elif nom in LITTERAUX:
                 out.append(LITTERAUX[nom] or '')
             elif nom in ('fontsize', 'selectfont', 'normalfont', 'bfseries',
@@ -321,6 +385,70 @@ def typographie(t):
 def texte_nu(h):
     """Le texte seul d'un fragment HTML (pour les titres et les vedettes)."""
     return desechappe(re.sub(r'<[^>]+>', '', h)).strip()
+
+
+# ------------------------------------------------------------------
+# 3 bis. LA VEDETTE D'UN ALINEA
+# ------------------------------------------------------------------
+# Un alinea qui S'OUVRE par un passage en gras est une sous-entree, et
+# c'est ce que liste le volet de droite : les 4 000 autres passages en
+# gras du volume n'en sont pas. La regle est bonne, mais elle lisait
+# l'ouverture trop etroitement, et manquait deux facons qu'a le
+# fac-simile d'ecrire une vedette comme les autres.
+#
+#   -- LE NUMERO D'ALINEA NE COMPTE PAS. « 3. --- B = b en l'Italiana »
+#      ouvre l'article B exactement comme « c = c Germana » ouvre celui
+#      de c : le volume ne numerote que le premier alinea d'une suite.
+#      Le chapitre des consonnes y perdait sa vedette B, et celui des
+#      prepositions ses quarante-deux entrees, de Ad a Ye.
+#   -- UNE VEDETTE PEUT ETRE DOUBLE. Au folio 11 l'article traite les
+#      deux voyelles ensemble : « e, o apertita o klozita ». Les deux
+#      lettres sont en gras, la virgule entre elles ne l'est pas ; la
+#      vedette est « e, o », et non « e ».
+#
+# Rien n'est ajoute au texte : on lit seulement plus loin dans la ligne
+# que le fac-simile a composee.
+# Pas d'ancre `^` dans ces deux motifs : `Pattern.match(s, pos)` cale
+# deja la lecture sur `pos`, mais `^` n'y suit pas -- il ne vaut qu'au
+# vrai debut de la chaine. Avec lui, tout alinea precede d'une espace
+# ou du renvoi de folio echappait a la lecture.
+FOLIO_TETE = re.compile(r'<a class="fol"[^>]*>[^<]*</a>')
+# « 3. --- », « 93. -- », « 16. — » : le numero, son point, son tiret.
+NUMERO_ALINEA = re.compile(r'\d+(?:\s*bis)?\.\s*[\u2014\u2013-]?\s*')
+GRAS_TETE = re.compile(r'<b>(.*?)</b>')
+
+
+def vedette(h):
+    """(texte de la vedette, offset apres son dernier `</b>`).
+
+    Rend (None, -1) quand l'alinea n'en porte pas. L'offset sert au
+    bouton en chaine : il se pose contre la vedette ENTIERE, non apres
+    son premier morceau -- sans quoi il se glisserait entre le « e » et
+    le « o » du folio 11.
+    """
+    i = 0
+    m = FOLIO_TETE.match(h)
+    if m:
+        i = m.end()
+    while i < len(h) and h[i] in ' \t\n':
+        i += 1
+    m = NUMERO_ALINEA.match(h, i)
+    if m:
+        i = m.end()
+    m = GRAS_TETE.match(h, i)
+    if not m:
+        return None, -1
+    bouts, fin = [m.group(1)], m.end()
+    # Une vedette double, et pas davantage : la virgule qui lie les
+    # morceaux doit etre NUE -- « e, o » se lit, « <b>a</b>, e <b>b</b> »
+    # non.
+    while h[fin:fin + 2] == ', ':
+        m = GRAS_TETE.match(h, fin + 2)
+        if not m:
+            break
+        bouts.append(m.group(1))
+        fin = m.end()
+    return texte_nu(', '.join(bouts)) or None, fin
 
 
 # ------------------------------------------------------------------
@@ -419,12 +547,7 @@ class Releve(object):
             return
         self.suite = False
         b = Bloc('p', frags)
-        prem = frags[0][2].lstrip()
-        if prem.startswith('<b>'):
-            # Un alinea qui S'OUVRE par une vedette en gras : c'est une
-            # sous-entree, et c'est ce que liste le volet de droite. Les
-            # 4051 autres passages en gras du volume n'en sont pas.
-            b.ved = texte_nu(prem[:prem.index('</b>') + 4])
+        b.ved = vedette(frags[0][2])[0]
         self.blocs.append(b)
 
     # -- tableaux ---------------------------------------------------
@@ -472,7 +595,21 @@ class Releve(object):
                 # Tete de bloc sans appel : la note de la page precedente
                 # se poursuit, et la phrase se recolle.
                 cible = self.derniere_note
-                self.notes[cible]['paras'][-1] += h
+                # UNE NOTE QUI ENJAMBE DEUX PAGES ne se recolle sans
+                # espace que si elle finit sur une COUPURE DE MOT. Sans
+                # ce test, « ... esas sempre » et « plu sekura ... »
+                # donnaient « sempreplu » : le fragment finissait sur un
+                # mot entier, et il y fallait une espace. Le recollage
+                # muet reste juste quand la marque est un \cc, que
+                # l'extraction a deja resolu en soudant les deux moities.
+                self.n_recol = getattr(self, 'n_recol', 0)
+                _av = self.notes[cible]['paras'][-1]
+                if _av and not _av.endswith(('-', '\u2011')) \
+                        and not _av.rstrip().endswith('-') \
+                        and h[:1] not in ('', ' '):
+                    _av = _av.rstrip() + ' '
+                    self.n_recol += 1
+                self.notes[cible]['paras'][-1] = _av + h.lstrip()
                 courante = cible
             elif courante is not None:
                 self.notes[courante]['paras'].append(h.strip())
@@ -490,6 +627,13 @@ class Releve(object):
         if self.parplein:
             self.suite = True
             self.parplein = False
+        if getattr(self, 'aster', False):
+            # aucun grand saut n'a paru : mieux vaut l'asterisme mal place
+            # que perdu. On le pose avant de changer de page.
+            self.ferme()
+            self.blocs.append(Bloc('orn', [(self.feuillet, self.folio,
+                                            '\u2042')]))
+        self.aster = False
         self.page_note = False
         self.apparat = []
         # Le saut de ligne qui suit \begin{VUpage} n'est pas du texte :
@@ -537,6 +681,17 @@ class Releve(object):
     def macro_bloc(self, nom, s, i, deverse):
         """Rend (traitee, position). Les macros inline sont laissees au
         convertisseur de texte."""
+        # AVANT les macros muettes : sans cela \VUsaut est avale ici et
+        # l'asterisme en attente ne trouve jamais son saut.
+        if nom == 'VUsaut' and getattr(self, 'aster', False):
+            _, args, i = lire_args(s, i, 1)
+            v = re.match(r'\s*(-?[\d.]+)\s*mm', args[0] or '')
+            if v and float(v.group(1)) >= 5.0:
+                self.ferme()
+                self.blocs.append(Bloc('orn', [(self.feuillet, self.folio,
+                                                '\u2042')]))
+                self.aster = False
+            return True, i
         if nom in MUETTES:
             _, _, i = lire_args(s, i, MUETTES[nom])
             return True, i
@@ -606,10 +761,18 @@ class Releve(object):
                                             typographie(inline(args[1])))]))
             return True, i
         if nom == 'VUasterismo':
+            # L'ASTERISME EST POSE A UNE ORDONNEE ABSOLUE, et declare en
+            # tete de page comme tous les elements de hauteur nulle : le
+            # prendre ou il est ecrit le placerait au haut de la page.
+            # Au folio 209 il tombait entre « c) » et « d) » quand le
+            # fac-simile le pose bien plus bas, au-dessus de « On dicis ».
+            # La regle du volume donne ou le remettre : un element pose a
+            # une ordonnee absolue N'OUVRE PAS SON PROPRE BLANC, il lui
+            # faut un \VUsaut correspondant dans le flux. C'est donc a ce
+            # saut-la que l'asterisme appartient. On le met en attente et
+            # on le pose au premier grand saut de la meme page.
             _, _, i = lire_args(s, i, 1)
-            self.ferme()
-            self.blocs.append(Bloc('orn', [(self.feuillet, self.folio,
-                                            '\u2042')]))
+            self.aster = True
             return True, i
         if nom == 'VUrang':
             deverse()
@@ -724,16 +887,26 @@ def fusionne_conduite(rangs):
 # 31 : 27,2 pt = 3 rangs centres sur le deuxieme, 15,7 pt = 2 rangs,
 # 17,4 pt = 2 rangs. C'est le fac-simile qui le dit, non l'outil qui le
 # suppose.
+def etendue(c, r, total):
+    """Les rangs qu'une accolade posee au rang `r` coiffe : (premier,
+    nombre). Sa hauteur relevee divisee par le pas des lignes donne le
+    nombre de rangs, le deplacement de son centre dit ou ils commencent.
+    C'est la meme mesure qui sert au rendu en groupes et a la grille :
+    la case d'une accolade traverse ses rangs (rowspan), et le trace s'y
+    etire."""
+    n = max(1, int(round(c['haut'] / PAS_LIGNE)))
+    centre = r - c['ecart'] / PAS_LIGNE
+    a = int(round(centre - (n - 1) / 2.0))
+    return max(0, min(a, total - n)), n
+
+
 def groupes(rangs):
     """Les groupes que les accolades ouvrantes rassemblent."""
     gs = []
     for r, ligne in enumerate(rangs):
         for c in ligne:
             if c['k'] == 'akol':
-                n = max(1, int(round(c['haut'] / PAS_LIGNE)))
-                centre = r - c['ecart'] / PAS_LIGNE
-                a = int(round(centre - (n - 1) / 2.0))
-                a = max(0, min(a, len(rangs) - n))
+                a, n = etendue(c, r, len(rangs))
                 gs.append({'rangs': list(range(a, a + n)), 'x': c['x'],
                            'brace': c, 'titre': None, 'enfants': []})
             elif c['k'] == 'akolH':
@@ -788,8 +961,15 @@ def rangs_couverts(g):
 
 
 def rendu_groupe(g, rangs, pris):
-    """Un groupe : son titre, puis ses membres en retrait derriere un
-    filet -- ce que l'accolade dessine, dit autrement."""
+    """Un groupe : son titre, l'accolade, puis ses membres.
+
+    L'accolade n'est plus remplacee par un filet : c'est le trace du
+    fac-simile lui-meme qui est pose entre le titre et les membres, et
+    le CSS l'etire sur toute leur hauteur. Le groupe a pointe en haut --
+    l'arbre genealogique du folio 220 -- empile les trois memes pieces
+    de haut en bas au lieu de les ranger de gauche a droite : titre,
+    accolade horizontale, membres.
+    """
     pris.add(id(g['brace']))
     pris.add(id(g['titre']))
     membres = []
@@ -811,9 +991,10 @@ def rendu_groupe(g, rangs, pris):
         if cells:
             membres.append('<div class="gr-m">%s</div>' % ECART.join(
                 c['h'] for c in cells))
-    return ('<div class="gr"><div class="gr-t">%s</div>'
+    return ('<div class="gr%s"><div class="gr-t">%s</div>%s'
             '<div class="gr-l">%s</div></div>'
-            % (g['titre']['h'], ''.join(membres)))
+            % (' grh' if g.get('haut') else '', g['titre']['h'],
+               g['brace']['h'], ''.join(membres)))
 
 
 def rendu_grupi(rangs, gs, sola=False):
@@ -878,20 +1059,78 @@ def tableau(rangs, feuillet, folio):
     gs = groupes(propres)
     horizontale = any(c['k'] == 'akolH' for r in propres for c in r)
 
-    xs = sorted({c['x'] for r in propres for c in r})
-    cols, prec = [], None
-    for x in xs:
+    # Les colonnes. Les abscisses proches se regroupent (5 mm de proche
+    # en proche), ce qui est large devant le jeu de la mesure et etroit
+    # devant l'ecart des colonnes du volume.
+    #
+    # MAIS une accolade ne partage plus la case du texte. Tant qu'elle
+    # la partageait -- collee a gauche de « egaleso » au folio 31, des
+    # points de conduite au folio 220 -- aucune case ne lui appartenait
+    # en propre, donc rien ne pouvait s'etendre sur les rangs qu'elle
+    # coiffe. Elle se detache donc de son groupe et prend une colonne A
+    # SA GAUCHE : au folio 31 comme au folio 220 l'accolade precede
+    # toujours ce qu'elle rassemble. Le reste du groupe demeure UNE
+    # colonne -- sans quoi « Komparativo » et « relatanta », que
+    # l'accolade separe de 5,7 mm, se seraient rangees dans deux
+    # colonnes et le tableau du folio 31 aurait bee.
+    AK = ('akol', 'akolD', 'akolH')
+    axes = sorted({(c['x'], c['k'] in AK) for r in propres for c in r})
+    paquets, prec = [], None
+    for x, ak in axes:
         if prec is None or x - prec > 5.0:
-            cols.append(x)
+            paquets.append([])
+        paquets[-1].append((x, ak))
         prec = x
+    cols = []
+    for p in paquets:
+        prec = None
+        for x, ak in p:
+            if ak and (prec is None or x - prec > 5.0):
+                cols.append((x, True))
+            if ak:
+                prec = x
+        texte = [x for x, ak in p if not ak]
+        if texte:
+            cols.append((min(texte), False))
+
+    def colonne(c):
+        """La colonne d'une case : la plus proche DE MEME NATURE."""
+        ak = c['k'] in AK
+        cand = [j for j in range(len(cols)) if cols[j][1] == ak]
+        return min(cand or range(len(cols)),
+                   key=lambda j: abs(cols[j][0] - c['x']))
+
+    # La case d'une accolade traverse les rangs qu'elle coiffe : elle
+    # est portee au premier d'entre eux, avec le rowspan que la mesure
+    # donne, et les rangs suivants n'ouvrent plus de case dans cette
+    # colonne. C'est cette case-la, haute de trois rangs au folio 220,
+    # que le trace remplit.
+    grille = [[[] for _ in cols] for _ in propres]
+    portee, sous = {}, set()
+    for r, ligne in enumerate(propres):
+        for c in ligne:
+            j = colonne(c)
+            if c['k'] in ('akol', 'akolD'):
+                a, n = etendue(c, r, len(propres))
+                if n > 1 and all(not grille[q][j] and (q, j) not in sous
+                                 for q in range(a, a + n)):
+                    grille[a][j].append(c['h'])
+                    portee[(a, j)] = n
+                    sous.update((q, j) for q in range(a + 1, a + n))
+                    continue
+            grille[r][j].append(c['h'])
     lignes = []
-    for r in propres:
-        cells = [''] * len(cols)
-        for c in r:
-            k = min(range(len(cols)), key=lambda j: abs(cols[j] - c['x']))
-            cells[k] = (cells[k] + ' ' + c['h']).strip()
-        lignes.append('<tr>' + ''.join('<td>%s</td>' % c for c in cells)
-                      + '</tr>')
+    for r in range(len(propres)):
+        tds = []
+        for j in range(len(cols)):
+            if (r, j) in sous:
+                continue
+            n = portee.get((r, j), 1)
+            tds.append('<td%s%s>%s</td>'
+                       % (' class="ak"' if cols[j][1] else '',
+                          ' rowspan="%d"' % n if n > 1 else '',
+                          ' '.join(grille[r][j])))
+        lignes.append('<tr>' + ''.join(tds) + '</tr>')
     table = '<table class="tab">' + ''.join(lignes) + '</table>'
 
     if not gs:
@@ -1156,7 +1395,15 @@ aside a{font-size:12.5px;color:var(--sub)}
 #vednav{display:none}
 #vednav a{font-size:12px;color:var(--sub)}
 
-#kont{padding:26px 34px 140px;max-width:680px;margin:0 auto;position:relative}
+/* La folio se pose EN DEHORS du texte, 3,6 em a gauche de lui -- 3,6 em
+   de SON corps a elle, 11 px, soit 40 px. Le blanc de gauche n'en
+   mesurait que 34 : des que la colonne centrale cessait d'etre plus
+   large que le bloc -- sous 1160 px, donc sur tout iPad -- la folio
+   sortait du bloc et mordait de 6 px sur le volet de la table des
+   matieres. Le blanc de gauche loge desormais la folio et son air ; la
+   largeur maximale grandit d'autant, pour que la JUSTIFICATION du texte
+   ne change pas d'un point sur ordinateur. */
+#kont{padding:26px 58px 140px 58px;max-width:728px;margin:0 auto;position:relative}
 .p{margin:0 0 .62em;text-align:justify;text-indent:1.3em;position:relative;
  hyphens:auto;-webkit-hyphens:auto}
 .tit{font-weight:700;text-align:center;letter-spacing:.08em;font-size:15px;
@@ -1179,19 +1426,87 @@ aside a{font-size:12.5px;color:var(--sub)}
 .orn{text-align:center;color:var(--sub);margin:1.4em 0;letter-spacing:.3em}
 .rango{margin:.1em 0;text-indent:0}
 .rangi{margin:.8em 0;position:relative}
+/* --- L'ACCOLADE. Le glyphe { d'une fonte ne s'etire pas ; ce trace-ci,
+   oui : preserveAspectRatio="none" le plaque sur la boite exacte que le
+   CSS lui donne -- trois rangs de haut, ou toute la largeur d'une
+   fratrie -- et vector-effect:non-scaling-stroke garde au trait
+   l'epaisseur d'un plein de la fonte, quel que soit l'etirement.
+   La regle ci-dessous est la mesure par defaut : une accolade EN
+   LIGNE, haute d'une ligne, pour celles qui n'ouvrent aucun groupe --
+   le « } » de « de o ek », au folio 31, sur ecran etroit. Les trois
+   contextes qui l'etirent la surchargent plus bas. --- */
+.akol{display:inline-block;vertical-align:-.28em;width:.34em;height:1.2em;
+ color:var(--sub)}
+.akol.akh{width:2.2em;height:.6em;vertical-align:.1em}
+.akol svg{display:block;width:100%;height:100%;overflow:visible}
+.akol path{fill:none;stroke:currentColor;stroke-width:.085em;
+ stroke-linecap:round;stroke-linejoin:round}
+
 .tab{border-collapse:collapse;margin:.9em 0 .9em 1em;font-size:.97em}
 .tab td{padding:1px 10px 1px 0;vertical-align:middle}
+/* La case d'une accolade traverse les rangs qu'elle coiffe (rowspan) :
+   le trace s'y cale en absolu, du haut du premier rang au bas du
+   dernier -- seule maniere sure d'obtenir la hauteur exacte d'un
+   groupe de rangs, qu'aucune mesure en em ne connait.
+   MAIS un contenu en position absolue ne compte pour rien dans la
+   largeur d'une colonne : `width` n'y etant qu'un voeu, la case tombait
+   a ZERO des que le tableau du folio 31 se serrait -- entre 900 et
+   1000 px de fenetre -- et l'accolade disparaissait. La largeur est
+   donc portee par les BLANCS de la case, que la mise en table ne peut
+   pas reduire : le blanc de gauche fait la largeur du trace, celui de
+   droite l'ecart a la colonne suivante. */
+.tab td.ak{position:relative;padding:0 .4em 0 .75em}
+.tab td.ak>.akol{position:absolute;top:1px;right:.4em;bottom:1px;left:0;
+ width:auto;height:auto}
+/* Une colonne de plus par accolade, c'est le tableau du folio 31 plus
+   large de 50 px : sous 1000 px de fenetre il debordait sur le volet
+   de droite. Le seuil du rendu en groupes est donc remonte a 1200 px
+   (voir plus bas) ; ce garde-fou-ci ne sert plus que si le lecteur
+   grossit assez le corps pour qu'un tableau passe encore -- il defile
+   alors dans sa colonne plutot que d'en sortir. */
+.larja{max-width:100%;overflow-x:auto}
 /* Le meme tableau, dit deux fois : en colonnes pour l'ecran large, en
    groupes pour l'ecran etroit. Un seul des deux parait a la fois. */
 .grupi{display:none;text-indent:0;margin:.9em 0}
 .grupi.sola{display:block;margin-left:1em}
-.gr{display:flex;align-items:center;gap:9px;margin:.1em 0;min-width:0}
+.gr{display:flex;align-items:center;gap:7px;margin:.1em 0;min-width:0}
 .gr-t{flex:none}
-.gr-l{flex:1 1 auto;min-width:0;border-left:2px solid var(--lin);padding-left:11px}
+/* Le filet qui tenait lieu d'accolade a cede la place a l'accolade
+   elle-meme : etiree par align-self:stretch sur toute la hauteur des
+   membres, pointe en face du titre. */
+.gr-l{flex:1 1 auto;min-width:0;padding-left:3px}
+.gr>.akol{flex:none;align-self:stretch;width:.55em;height:auto}
 .gr-m,.gr-x{margin:.12em 0}
 .ec{display:inline-block;width:.75em}
 .gr-x{text-indent:0}
-.akol{color:var(--sub);font-size:1.5em;line-height:0}
+/* Le groupe A POINTE EN HAUT -- l'arbre genealogique du folio 220 :
+   les trois memes pieces, empilees au lieu d'etre rangees. La boite est
+   dimensionnee par son contenu (inline-flex), donc l'accolade, etiree
+   en travers, prend exactement la largeur des noms qu'elle coiffe ; les
+   marges negatives lui rendent le leger debord du fac-simile (45,63 mm
+   d'encre pour 42 mm de noms). */
+.gr.grh{display:inline-flex;flex-direction:column;align-items:center;
+ gap:1px;text-align:center;vertical-align:top}
+.grh>.gr-l{padding-left:0;width:100%}
+.grh>.akol{align-self:stretch;width:auto;height:.62em;margin:0 -.4em}
+/* LE SEUIL ENTRE LES DEUX RENDUS. Il ne se choisit pas au juge : il se
+   calcule. Le plus large tableau du volume -- « GRADI KOMPARALA », au
+   folio 31 -- veut 430 px pour tenir sans qu'aucune case se brise, plus
+   son retrait de 16 px. La colonne centrale en offre
+   min(728, largeur - 480) - 116. Il y faut donc 1042 px de fenetre,
+   au strict.
+   Au strict, c'est-a-dire avec la fonte d'essai. Le lecteur peut en
+   avoir une plus large -- la page va chercher Iowan, Palatino puis
+   Georgia -- et un tableau qui deborde ne deborde pas un peu : les
+   rangees se brisent, les termes tombent sous les termes, et l'accolade
+   ne coiffe plus les rangs qu'elle vise puisque ces rangs ont double de
+   hauteur. C'est exactement ce que le commanditaire a vu sur son iPad.
+   Le seuil est donc pose a 1200 px, avec 150 px de marge : AUCUN iPad en
+   mode paysage n'atteint cette largeur -- 1194 px pour le plus grand des
+   11 pouces -- et tous recoivent donc le rendu en groupes, qui se plie a
+   toute largeur. La grille reste ce qu'elle doit etre : un supplement
+   d'ecran large, jamais un pis-aller. */
+@media (max-width:1200px){.larja{display:none}.grupi{display:block}}
 .kond{color:var(--sub);letter-spacing:.28em}
 .pk{font-variant:small-caps}
 b{font-weight:700}
@@ -1321,8 +1636,8 @@ mark{background:rgba(214,154,106,.34);color:inherit;border-radius:2px}
  /* Une SOLA rangeo d'utensili sur telefono : la baza flex-bazo di
     260 px pulsus la kampo sub la butono. */
  input[type=search]{flex:1 1 120px;min-width:0}
- .larja{display:none}
- .grupi{display:block}
+ /* Le passage des colonnes aux groupes ne se fait plus ici : il se fait
+    a 1000 px, un cran plus haut. */
  /* Un sol tirado sur telefono : la chefa vorti dil chapitro nuna montresas
     en la tabelo dil materio ipsa, sub la chapitro. */
  aside{display:none}
@@ -1380,13 +1695,39 @@ mezurKapo();
    section visee se loge sous la barre. On refait donc le defilement une
    fois la mesure prise — et encore apres les fontes, qui peuvent
    changer la hauteur du titre. */
+/* Une ancre qui ne resout plus doit etre rattrapee, non perdue. Six
+   adresses ont change le jour ou la detection des chefa vorti a ete
+   corrigee : « ...-vokali-e » est devenu « ...-vokali-e-o », et les
+   entrees nouvelles ont pris le rang sans suffixe en repoussant celles
+   qui l'occupaient. Un lien copie avant ce jour-la ne trouvait plus sa
+   cible, et la page s'ouvrait en tete SANS RIEN DIRE.
+   On ne fige pas une table des anciennes adresses : elle vieillirait a
+   son tour, et il faudrait la tenir a chaque correction. On cherche la
+   cible par PARENTE — l'ancre allongee d'un membre (e -> e-o), ou le
+   meme nom a un suffixe de rang pres. Ce qui n'a pas de parent laisse
+   la page ou elle est, comme avant. */
+function trovAncro(h){
+ var id=h.slice(1).replace(/^#/,''), el=null, i, x;
+ try{el=document.getElementById(id)}catch(e){}
+ if(el)return el;
+ var t=[].slice.call(document.querySelectorAll('[id]'));
+ for(i=0;i<t.length;i++){x=t[i].id;
+  if(x.indexOf(id+'-')===0&&!/^\d+$/.test(x.slice(id.length+1)))return t[i];}
+ var nu=id.replace(/-\d+$/,'');
+ for(i=0;i<t.length;i++){x=t[i].id;
+  if(x===nu||x.replace(/-\d+$/,'')===nu)return t[i];}
+ return null;}
 function viziAncro(){var h=location.hash;
  if(h.length<2)return;
- var el=null; try{el=document.querySelector(h)}catch(e){}
+ var el=trovAncro(h);
  if(el)el.scrollIntoView();}
 mezurKapo(); viziAncro();
 addEventListener('load',function(){mezurKapo();viziAncro();});
-addEventListener('resize',mezurKapo);
+addEventListener('resize',function(){var av=margoObs();mezurKapo();
+ /* Si la hauteur de l'en-tete a change, la bande de l'observateur est
+    perimee : rootMargin ne se modifie pas apres coup, il faut le
+    refaire. */
+ if(margoObs()!==av&&window.refarObservilo)window.refarObservilo();});
 addEventListener('orientationchange',mezurKapo);
 if(document.fonts&&document.fonts.ready)
  document.fonts.ready.then(function(){mezurKapo();viziAncro();});
@@ -1502,7 +1843,18 @@ function chapitro(c){
  marqueVed(null);
 }
 var vidata={};
-var obs=new IntersectionObserver(function(es){
+/* La bande de decision de l'observateur commencait a -100px : encore une
+   hauteur d'en-tete supposee. Sur iPad, ou l'en-tete mesure 133 px, elle
+   s'ouvrait AU-DESSUS de la barre, si bien qu'un bloc long encore
+   visible en haut — « -eg- », haut de 442 px — l'emportait sur celui
+   qu'on venait d'atteindre. Le volet designait donc l'entree du dessus.
+   La bande suit maintenant la hauteur mesuree, et l'observateur est
+   refait quand elle change. */
+function margoObs(){
+ var h=parseInt(getComputedStyle(document.documentElement)
+        .getPropertyValue('--kapo'),10)||100;
+ return (-(h+14))+'px 0px -55% 0px';}
+function fObs(es){
  es.forEach(function(e){if(e.isIntersecting)vidata[e.target.dataset.i]=e.target;
                         else delete vidata[e.target.dataset.i]});
  var ks=Object.keys(vidata).map(Number).sort(function(a,b){return a-b});
@@ -1516,10 +1868,17 @@ var obs=new IntersectionObserver(function(es){
  }
  chapitro(top.dataset.ch);
  marqueVed(top.dataset.vd||nunVed(ks[0]));
-},{rootMargin:'-100px 0px -55% 0px'});
+}
+var obs=new IntersectionObserver(fObs,{rootMargin:margoObs()});
 function nunVed(i){for(var k=i;k>=0;k--){var b=blokii[k];
   if(b&&b.dataset.vd) return b.dataset.vd;} return ''}
 blokii.forEach(function(b,i){b.dataset.i=i;obs.observe(b)});
+/* Refaire l'observateur avec la bande a jour : rootMargin est fige a la
+   creation. Appele quand la hauteur de l'en-tete change. */
+window.refarObservilo=function(){
+ obs.disconnect();
+ obs=new IntersectionObserver(fObs,{rootMargin:margoObs()});
+ blokii.forEach(function(b){obs.observe(b)});};
 chapitro(blokii.length?blokii[0].dataset.ch:null);
 
 /* --- La sercho. La indexo konstruktesas ye la kargo de la DOM ipsa :
@@ -1652,10 +2011,15 @@ def bloc_html(b, indice_chap, notes):
         corps += lien_ancre(b.ident, PORTRAIT_TITRE)
     elif b.ved:
         # Contre la vedette, non en bout d'alinea : la vedette EST le
-        # titre de l'entree, et c'est elle que l'adresse designe.
-        coupe = corps.find('</b>')
+        # titre de l'entree, et c'est elle que l'adresse designe. La
+        # coupe se relit par la meme fonction que la detection : posee
+        # au premier `</b>` venu, elle tombait entre le « e » et le
+        # « o » d'une vedette double.
+        coupe = vedette(corps)[1]
+        if coupe < 0:
+            coupe = corps.find('</b>')
+            coupe = coupe + 4 if coupe >= 0 else -1
         if coupe >= 0:
-            coupe += 4
             corps = corps[:coupe] + lien_ancre(b.ident, b.ved) + corps[coupe:]
     if b.avis:
         corps += ('<span class="edit">[&#8239;%s&#8239;]</span>'
@@ -2045,6 +2409,7 @@ def main():
                   % ', '.join(gauches))
         if doubles:
             sys.exit('identifiants repetes : la page n\'est pas adressable')
+        print('notes recollees avec espace  %d' % getattr(rel,'n_recol',0))
         print('ecrit %s (%d ko)' % (SORTIE, len(doc.encode('utf-8')) // 1024))
 
 

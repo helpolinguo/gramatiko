@@ -719,7 +719,11 @@
 \newcommand{\VUindexCorps}{8.26pt}
 \newcommand{\VUindexInterligne}{9.86pt}
 \newcommand{\VUindexRenfoncement}{2.88mm}
-\newcommand{\VUindexEcartPoints}{4.16pt}   % pas des points de conduite
+\newcommand{\VUindexEcartPoints}{4.16pt}
+% Blanc minimal entre les points de conduite et le numero. Sans lui, une
+% entree a deux renvois — « 107 e 110 » au folio 229 — deborde la colonne
+% par la gauche et les points viennent toucher le premier chiffre.
+\newcommand{\VUindexEcart}{4pt}   % pas des points de conduite
 % LES POINTS S'ARRETENT TOUS A LA MEME ABSCISSE, y compris devant un
 % numero large comme « 46 e 51 » : releve au folio 225, ils finissent
 % a x = 1036 sur les vingt-cinq entrees. Ce n'est donc pas un blanc
@@ -743,19 +747,38 @@
 % Un numero ordinaire garde donc l'arret constant des points, mesure sur
 % le fac-simile ; un numero surlarge les repousse de sa seule surlargeur.
 \newlength{\VUindexLargeurNum}
+% LES RENVOIS CLIQUABLES DU TABELO. page = folio + 2 (feuillet = folio
+% + 4, et la premiere page du PDF est le feuillet 3). Le lien couvre la
+% LIGNE ENTIERE, points de conduite compris : entourer separement
+% l'entree et son numero laissait deux rectangles etroits, et il fallait
+% viser juste. Pose par la primitive de pdfTeX et non par hyperref :
+% \pdfstartlink n'ajoute aucune largeur ni hauteur. Le folio peut n'etre
+% pas un nombre (l'en-tete « Pagini. ») : on teste avant de poser.
+\newcommand{\VUlienOuvre}[1]{%
+  \ifnum\pdfmatch{^[0-9]+$}{#1}=1
+    \pdfstartlink attr{/Border [0 0 0]}%
+      goto page \the\numexpr #1+2\relax {/Fit}%
+  \fi}
+\newcommand{\VUlienFerme}[1]{%
+  \ifnum\pdfmatch{^[0-9]+$}{#1}=1 \pdfendlink\fi}
+
 \newcommand{\VUindex}[3][0pt]{%
   \setbox0=\hbox{#3}%
-  \hbox to \textwidth{\hskip#1\relax #2\nobreak
+  \hbox to \textwidth{\VUlienOuvre{#3}\hskip#1\relax #2\nobreak
     \leaders\hbox to \VUindexEcartPoints{\hss.\hss}\hfill
-    \ifdim\wd0>\VUindexColonne \hskip 4pt\relax \box0
-    \else \hbox to \VUindexColonne{\hss\box0}\fi}%
+    \ifdim\wd0>\VUindexColonne \hskip\VUindexEcart\relax\box0
+    \else \hbox to \VUindexColonne{\hfil\box0}\fi
+    \VUlienFerme{#3}}%
   \penalty-10000\relax}
 % UNE ENTREE SANS POINTS DE CONDUITE. Le fac-simile en donne aux tetes
 % de rubrique (« Prepozicioni : ... 67 ») et parfois sans numero du
 % tout (« Verbo : », folio 225) : le numero est alors vide.
 \newcommand{\VUindexNu}[3][0pt]{%
-  \hbox to \textwidth{\hskip#1\relax #2\hfil
-    \hbox to \VUindexColonne{\hss #3}}%
+  \setbox0=\hbox{#3}%
+  \hbox to \textwidth{\VUlienOuvre{#3}\hskip#1\relax #2\hfil
+    \ifdim\wd0>\VUindexColonne \hskip\VUindexEcart\relax\box0
+    \else \hbox to \VUindexColonne{\hfil\box0}\fi
+    \VUlienFerme{#3}}%
   \penalty-10000\relax}
 
 
@@ -782,10 +805,11 @@
 % soit 3,66 mm. Un seul reglage ne pouvait pas rendre les deux.
 \newcommand{\VUindexLarge}[3][0pt]{%
   \setbox0=\hbox{#3}%
-  \hbox to \textwidth{\hskip#1\relax #2\nobreak
+  \hbox to \textwidth{\VUlienOuvre{#3}\hskip#1\relax #2\nobreak
     \leaders\hbox to 3.66mm{\hss.\hss}\hfill
-    \ifdim\wd0>\VUindexColonne \hskip 4pt\relax \box0
-    \else \hbox to \VUindexColonne{\hss\box0}\fi}%
+    \ifdim\wd0>\VUindexColonne \hskip\VUindexEcart\relax\box0
+    \else \hbox to \VUindexColonne{\hfil\box0}\fi
+    \VUlienFerme{#3}}%
   \penalty-10000\relax}
 
 
@@ -821,7 +845,7 @@
 % Comme le fleuron du folio 232, elle est DECOUPEE DU SCAN : c'est le
 % second et dernier endroit ou la transcription devient un fac-simile.
 % #1 = largeur.
-\newcommand{\VUplancheLargeur}{61.47mm}
+\newcommand{\VUplancheLargeur}{61.30mm}
 \newcommand{\VUplanche}[1][\VUplancheLargeur]{%
   {\centering\includegraphics[width=#1]{ornamenti/portreto-3}\par}}
 

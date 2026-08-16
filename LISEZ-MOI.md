@@ -3278,7 +3278,7 @@ bouton de téléchargement, interface en ido. Elle est produite par
 sorte qu'elle se régénère après chaque recomposition du volume.
 
 **Ce qu'elle contient** : 49 chapitres, 1 231 alinéas, 408 notes toutes
-rattachées à leur appel, 322 vedettes, 454 403 signes. Aucune ressource
+rattachées à leur appel, 367 vedettes, 454 403 signes. Aucune ressource
 réseau : un seul fichier de 780 ko, données comprises.
 
 **La mise en page** : trois volets sur ordinateur — table des matières à
@@ -3337,11 +3337,174 @@ rangée, et l'arbre généalogique du même folio, marqué comme les autres,
 se trouvait **masqué sur ordinateur** — il avait disparu sans que rien le
 signale.
 
-Restent deux imperfections, dites : l'accolade fermante du folio 31 reste
-un glyphe en ligne sur téléphone, sa portée croisant celle de l'accolade
-ouvrante ; et sur ordinateur l'accolade ne s'étire pas sur les rangs
-qu'elle couvre — les colonnes sont justes, le groupement n'y est que
-suggéré.
+### L'accolade s'étire enfin — un tracé, deux orientations
+
+Les deux imperfections que la reprise précédente laissait derrière elle
+n'en faisaient qu'une, et le commanditaire l'a vue sur iPad, au
+folio 220 : **l'accolade ne coiffait rien**. Le `{` du schéma de
+l'`embracilo` était un glyphe d'une ligne posé à côté de trois rangées de
+points de conduite — lesquelles sont ici le *contenu*, le livre
+schématisant des lignes de texte par des points. Et l'accolade
+horizontale de l'arbre généalogique — `Ludovikus` au-dessus de
+`Petrus Paulus Ioannes Maria` — sortait en simple barre verticale entre
+le premier nom et les autres, alors que le texte vient d'annoncer qu'elle
+peut s'employer aussi horizontalement, dans les arbres généalogiques.
+
+**Le glyphe d'une fonte ne s'étire pas.** Trois voies étaient ouvertes :
+
+| voie | pourquoi elle a été écartée, ou retenue |
+|---|---|
+| `scaleY` sur le glyphe | allonge le fût mais étire aussi les courbes ; la pointe d'une accolade triplée de hauteur devient une tache, et la forme dépend de la fonte du lecteur |
+| bords arrondis en CSS | quatre quarts de cercle et deux fûts, donc plusieurs éléments par accolade, dont les raccords se disjoignent dès que le navigateur arrondit une demi-décimale — et tout serait à refaire pour l'horizontale |
+| **SVG en ligne** | **retenu** : un seul tracé, aucun raccord, la même mécanique dans les deux sens |
+
+Le SVG porte `preserveAspectRatio="none"` — le dessin se plaque sur la
+boîte exacte que le CSS lui donne, trois rangs de haut ou toute la
+largeur d'une fratrie — et `vector-effect="non-scaling-stroke"`, sans
+quoi le fût d'une accolade triplée serait trois fois plus gras que le
+texte. L'attribut est posé **dans le balisage et non en CSS** : la
+propriété CSS du même nom est plus récente que l'attribut de
+présentation, et c'est sur un iPad que le défaut a été vu. Les deux
+tracés suivent le fac-similé du folio 220 (`scan/pages/f0224.jpg`, encre
+x 786-796 y 877-995 pour la verticale, x 524-1063 y 1339-1355 pour
+l'horizontale) : une accolade maigre à pointe peu saillante, une
+horizontale presque plate à spicule central.
+
+**Ce qui donne sa boîte à l'accolade** est la mesure déjà relevée, non une
+estimation : `\VUaccolade{hauteur}{décalage}` sert désormais aux deux
+rendus, par une seule fonction `etendue()`.
+
+* En **colonnes**, la case de l'accolade traverse ses rangs — un
+  `rowspan` calculé — et le tracé s'y cale en absolu, du haut du premier
+  rang au bas du dernier. C'est la seule manière sûre d'obtenir la
+  hauteur exacte d'un groupe de rangs, qu'aucune mesure en `em` ne
+  connaît.
+* En **groupes**, le filet qui tenait lieu d'accolade a cédé la place à
+  l'accolade elle-même, étirée par `align-self:stretch` sur toute la
+  hauteur des membres, pointe en face du titre.
+* Le groupe **à pointe en haut** — l'arbre généalogique — empile les
+  trois mêmes pièces au lieu de les ranger : titre, accolade
+  horizontale, membres. La boîte étant dimensionnée par son contenu
+  (`inline-flex`), l'accolade prend exactement la largeur des noms
+  qu'elle coiffe, et deux marges négatives lui rendent le léger débord du
+  fac-similé — 45,63 mm d'encre pour 42 mm de noms.
+
+**Trois pièges rencontrés en chemin**, tous vus à l'écran et non devinés :
+
+1. **Une accolade ne peut pas partager sa case avec du texte.** Tant
+   qu'elle la partageait — collée à gauche de « egaleso » au folio 31,
+   des points de conduite au folio 220 — aucune case ne lui appartenait
+   en propre, donc rien ne pouvait s'étendre. Elle prend donc une
+   colonne, **à sa gauche** : dans tout le volume l'accolade précède ce
+   qu'elle rassemble. Mais le reste du groupe demeure **une** colonne,
+   sans quoi « Komparativo » et « relatanta », que l'accolade sépare de
+   5,7 mm, se seraient rangés dans deux colonnes et le tableau du
+   folio 31 aurait béé.
+2. **Un contenu en position absolue ne compte pour rien dans la largeur
+   d'une colonne.** `width` n'y étant qu'un vœu, la case tombait à
+   **zéro** dès que le tableau du folio 31 se serrait, et l'accolade
+   disparaissait entre 900 et 1000 px de fenêtre. La largeur est donc
+   portée par les **blancs** de la case, que la mise en table ne peut pas
+   réduire : le blanc de gauche fait la largeur du tracé, celui de droite
+   l'écart à la colonne suivante.
+3. **Une colonne de plus par accolade, c'est le tableau du folio 31 plus
+   large de 50 px** — 404 px au lieu de 354. Sous 1000 px de fenêtre il
+   débordait sur le volet de droite. Le seuil du passage aux groupes a
+   donc été remonté de 900 à 1000 px — puis à **1200 px**, la marge
+   s'étant révélée trop courte : voir plus bas, « le seuil se calcule ».
+   `.larja` reste par sûreté un conteneur défilant, pour le lecteur qui
+   grossirait assez le corps pour qu'un tableau passe encore.
+
+**Vérifié par capture**, en clair et en sombre, à 1400, 1024 et 390 px,
+plus un balayage de 320 à 1400 px : l'accolade a partout une taille
+réelle, aucun tableau ne sort de sa colonne, et les trois seuls blocs du
+volume qui changent sont les deux schémas du folio 220 et le tableau du
+folio 31 — les 1 726 autres sont identiques à l'octet près.
+
+Reste une imperfection, dite : l'accolade **fermante** du folio 31 —
+celle de « de o ek » — n'ouvre aucun groupe, sa portée croisant celle de
+l'accolade ouvrante ; sur écran étroit elle demeure donc une accolade en
+ligne, haute d'une ligne. Elle est tracée par le même SVG, mais la boîte
+d'une seule ligne est trois fois moins élancée que le dessin, qui s'y
+écrase un peu.
+
+### Six retours d'iPad : la marge, le seuil, et deux vedettes manquantes
+
+Sixième passage de relecture, six points relevés par le commanditaire sur
+son iPad. Le troisième est un changement de texte demandé ; les autres
+sont des défauts.
+
+**La folio mordait sur le volet de gauche.** Elle se pose *en dehors* du
+texte, 3,6 em à sa gauche — 3,6 em de son corps à elle, 11 px, soit 40 px.
+Le blanc de gauche du bloc n'en mesurait que 34 : dès que la colonne
+centrale cessait d'être plus large que le bloc — sous 1 160 px, donc sur
+tout iPad — la folio sortait du bloc et empiétait de 6 px sur la table des
+matières. Le blanc de gauche loge maintenant la folio **et son air**
+(58 px, soit 18 px de jeu), et la largeur maximale du bloc grandit
+d'autant, 680 → 728 px, pour que la **justification du texte ne change pas
+d'un point** sur ordinateur : 612 px de mesure avant comme après. C'est le
+texte qui cède la place, non le volet — et seulement là où la place
+manque.
+
+**Le seuil entre les deux rendus se calcule, il ne se choisit pas.** Le
+passage précédent l'avait posé à 1 000 px, mesure prise sur la largeur
+*minimale* du tableau du folio 31. C'était trop court : ce qu'il faut,
+c'est sa largeur **naturelle**, celle où aucune case ne se brise, et elle
+vaut 430 px, plus 16 px de retrait. La colonne centrale offre
+`min(728, largeur − 480) − 116`, d'où 1 042 px de fenêtre au strict —
+*avec la fonte d'essai*. Le lecteur peut en avoir une plus large (la page
+cherche Iowan, puis Palatino, puis Georgia), et un tableau qui déborde ne
+déborde pas un peu : les rangées se brisent, les termes tombent sous les
+termes, et l'accolade ne coiffe plus les rangs qu'elle vise puisque ces
+rangs ont doublé de hauteur. C'est exactement ce que montrait la capture
+reçue. Le seuil est donc porté à **1 200 px**, avec 150 px de marge :
+aucun iPad en mode paysage n'atteint cette largeur — 1 194 px pour le plus
+grand des onze pouces — et tous reçoivent donc le rendu en groupes, qui se
+plie à toute largeur. **La grille redevient ce qu'elle doit être : un
+supplément d'écran large, jamais un pis-aller.**
+
+**Deux façons d'écrire une vedette que la détection ne lisait pas.** La
+règle — « un alinéa qui s'ouvre par un passage en gras est une
+sous-entrée » — est bonne ; elle lisait l'ouverture trop étroitement.
+
+| ce qui manquait | ce que le fac-similé compose | ce qu'on lisait |
+|---|---|---|
+| le **numéro d'alinéa** ne compte pas | « 3. — **B** = *b* en l'Italiana » | rien |
+| une vedette peut être **double** | « **e**, **o** apertita o klozita » | `e` |
+
+Le volume ne numérote que le premier alinéa d'une suite : `3. — B` ouvre
+l'article B exactement comme `c = c Germana` ouvre celui de c. Et
+l'article du folio 11 traite les deux voyelles ensemble, les deux lettres
+en gras, la virgule entre elles nue. Rien n'a été ajouté au texte : on lit
+seulement plus loin dans la ligne que le fac-similé a composée. Le bouton
+en chaîne se pose désormais contre la vedette **entière** — posé au
+premier `</b>` venu, il se glissait entre le « e » et le « o ».
+
+Le gain dépasse les deux cas signalés, et c'est le même défaut :
+**367 vedettes au lieu de 322**. Le chapitre des prépositions, qui
+numérote chacune de ses entrées, n'en listait aucune ; il rend maintenant
+ses quarante-deux articles, de `Ad` à `Ye`.
+
+**Le prix à payer, et il faut le dire : six ancres changent d'adresse.**
+`#pronunco-dil-vokali-e` devient `#pronunco-dil-vokali-e-o`,
+`…-konsonanti-e-digrami-m` devient `…-m-n` ; et comme le suffixe de
+collision s'attribue *dans l'ordre du texte*, les nouvelles entrées `De`,
+`Til`, `Ultre` prennent la place sans suffixe et repoussent d'un rang
+celles qui l'occupaient. C'est le seul cas où la règle d'identifiant a
+bougé depuis qu'elle est écrite, et la raison en est légitime — le
+contenu dont l'ancre se déduit était mal lu — mais un lien copié vers
+l'une de ces six adresses ne résout plus.
+
+**Ce qui ne s'est pas reproduit.** Le surlignage du volet de droite était
+donné pour décalé au chapitre des consonnes : cliquer `ch`, voir `z`
+surligné. **Le défaut ne se reproduit pas sur le fichier courant**, dans
+aucun des quatre chemins essayés — clic dans le volet, lien profond
+`#…-ch`, tiroir du téléphone, défilement continu — pour les vingt-deux
+vedettes du chapitre, à 1 400 comme à 1 024 px. La cause supposée ne peut
+d'ailleurs pas jouer : le surlignage compare des **identifiants**
+(`href === '#' + vedNun`), jamais des textes, et la brièveté des vedettes
+n'y change rien. La capture venait donc, selon toute vraisemblance, d'une
+version antérieure — ce que le commanditaire soupçonnait lui-même.
 
 ### L'adresse d'une section : une règle fondée sur le contenu
 
@@ -3353,7 +3516,7 @@ par un pseudo-élément, qui grossit la zone sensible sans toucher à
 l'interligne. Sur ordinateur le bouton est **absolu, dans la marge de
 droite**, en vis-à-vis du folio qui est dans celle de gauche : il ne
 prend donc aucune place dans le texte. En ligne, il aurait laissé un
-trou de 21 px après chacune des 322 vedettes, visible même invisible,
+trou de 21 px après chacune des 367 vedettes, visible même invisible,
 puisque la justification l'aurait montré. *(Piège au passage : un
 `inline-block` hérite du `text-indent` de l'alinéa et se l'applique à
 lui-même — d'où le `text-indent:0` obligatoire.)*
@@ -3589,3 +3752,158 @@ section tombe à 12 px sous la barre, le volet commence à son bord exact,
 et le premier intitulé est entièrement visible.
 
 Le groupe s'intitule désormais **`Introdukto`** et non `Liminari`.
+
+### La quatrième hauteur d'en-tête supposée : l'observateur
+
+Cliquer `-em-` dans le volet des chefa vorti menait bien au bon endroit —
+le lien était juste — mais le volet **désignait ensuite l'entrée du
+dessus**, `-eg-`. Le lien n'était pas en cause : le surlignage l'était.
+
+`IntersectionObserver` décide de l'entrée courante sur une bande définie
+par `rootMargin:'-100px 0px -55% 0px'`. Encore une hauteur d'en-tête en
+dur. Sur iPad, où l'en-tête mesure 133 px, la bande s'ouvrait **au-dessus
+de la barre** : un bloc long encore visible en haut — `-eg-` fait 442 px
+— y entrait, et l'emportait sur celui qu'on venait d'atteindre.
+
+La bande suit maintenant la hauteur mesurée. Comme `rootMargin` est figé
+à la création, l'observateur est **refait** quand la hauteur change.
+Vérifié à 1500 et 1024 px : `-eg-`, `-em-` et `-er-` désignent chacun
+leur propre entrée, sans erreur JavaScript.
+
+**C'est la quatrième occurrence du même défaut** — après les ancres, les
+volets latéraux et l'arrivée par URL. La leçon vaut d'être répétée :
+quand une valeur est écrite en dur, il faut chercher **toutes** ses
+occurrences, pas seulement celle qui a fait mal. J'ai corrigé les trois
+premières en croyant chaque fois avoir fini.
+
+---
+
+## Quatrième perte, et la première où la sauvegarde venait du commanditaire
+
+Le conteneur a perdu `outils/html.py`, `index.html`, `.nojekyll`,
+`outils/etoile.py`, les macros de renvoi du préambule et le `-jobname` de
+`komp.mk`. La transcription LaTeX, elle, a tenu.
+
+Aucune copie n'était joignable : le pont vers le disque du commanditaire
+était coupé depuis plusieurs lots, et les dépôts avaient donc échoué en
+silence. **C'est le commanditaire qui a renvoyé l'archive**, depuis les
+fichiers que la conversation lui avait livrés.
+
+Ce qu'il a fallu reprendre à la main après la restauration, l'archive
+étant antérieure de quelques minutes à deux correctifs :
+
+- la correction du folio 82 (`Ultre` seul en gras) ;
+- les trois macros de renvoi du Tabelo, absentes du préambule restauré ;
+- `\VUindexEcart`, employé deux fois et défini nulle part — la même
+  incohérence qu'à la troisième perte, et le même symptôme :
+  « Undefined control sequence » sur un fichier qui *semblait* complet.
+
+État vérifié : 236 pages, 256 renvois dans le Tabelo, aucune erreur de
+compilation ; page de lecture régénérée à 1 179 ko, `Introdukto`,
+« Chefa vorti », « en la tota libro » et la mesure de l'en-tête tous
+présents.
+
+**Reste perdu** : `outils/etoile.py`, le relevé des douze sommets de
+l'étoile. Le résultat qu'il a produit — la vignette redressée — est dans
+`ornamenti/`, mais l'outil qui permettrait de refaire la mesure est à
+réécrire.
+
+**La leçon, quatre fois payée** : une sauvegarde qui échoue en silence
+n'est pas une sauvegarde. Le dépôt sur le disque du commanditaire doit
+être *vérifié* à chaque lot, et son échec traité comme un incident, non
+comme une gêne à mentionner en fin de réponse.
+
+### L'astérisme se pose à son blanc, non là où il est déclaré
+
+Au folio 207 l'astérisme paraissait entre `c)` et `d)`, alors que le
+fac-similé le pose bien plus bas, au-dessus de « On dicis… ». La cause
+est celle qui court dans tout ce volume : **un élément posé à une
+ordonnée absolue est déclaré en tête de page**, et l'extracteur le
+prenait là où il est écrit.
+
+La règle du volume dit où le remettre : un élément de hauteur nulle
+**n'ouvre pas son propre blanc**, il lui faut un `\VUsaut` correspondant
+dans le flux. C'est donc à ce saut-là qu'il appartient. L'astérisme est
+mis en attente et posé au premier `\VUsaut` d'au moins 5 mm de la même
+page ; s'il n'en paraît aucun, un filet de sécurité le pose avant la
+page suivante — mieux vaut mal placé que perdu.
+
+**Un piège d'ordre de dispatch a coûté un essai** : la branche ajoutée
+était placée après le tableau des macros muettes, qui avale `\VUsaut`.
+Elle n'était donc jamais atteinte, et l'astérisme partait sur le filet de
+sécurité, en tête de page. Déplacée avant ce tableau, elle fonctionne.
+
+Les trois astérismes tombent maintenant devant « Nun ni videz… »
+(folio 186), « On dicis… » (207) et « Pro quo ne… » (212).
+
+### Les deux points restés ouverts
+
+**Les anciennes adresses d'ancre résolvent de nouveau.** Six avaient
+changé le jour où la détection des chefa vorti a été corrigée, et un lien
+copié avant ce jour-là ne trouvait plus sa cible : la page s'ouvrait en
+tête, sans rien dire. Plutôt que de figer une table des anciennes
+adresses — qui vieillirait à son tour et serait à tenir à chaque
+correction — la cible se cherche par **parenté** : l'ancre allongée d'un
+membre (`…-e` → `…-e-o`), ou le même nom à un suffixe de rang près. Ce
+qui n'a pas de parent laisse la page où elle est, comme avant. Vérifié
+sur les trois adresses connues et sur une adresse inventée.
+
+**Les notes recollées sans espace étaient deux.** Le générateur les
+compte désormais et l'affiche à chaque exécution : « notes recollées avec
+espace — 2 ». C'était la réponse manquante à la question posée avec
+« sempreplu ». Le chiffre est petit, mais il n'était pas connu ; il l'est
+maintenant à chaque régénération, et une remontée signalerait une
+régression.
+
+### `outils/etoile.py`, réécrit — et une réserve sur sa seconde voie
+
+L'outil perdu est réécrit. Il relève les **douze sommets** de l'étoile —
+six pointes, six creux —, affine chacun par interpolation parabolique sur
+le profil radial du contour, puis en prend la moyenne circulaire à
+l'harmonique 12, où les douze contribuent à parts égales. Le préambule du
+fichier raconte les trois essais qui ont mené à cette méthode, dont les
+deux ratés : la mesure sur les lettres du centre, qui ne mesurait que son
+bruit, et la rotation appliquée dans le mauvais sens faute d'avoir
+vérifié le résultat.
+
+Il offre pour cela `--essai <angle>` : on pose la rotation, on remesure,
+et si l'écart a grandi le signe est faux. C'est la leçon du deuxième
+raté, transformée en commande.
+
+**Réserve, et elle compte.** L'outil a deux voies d'entrée, et **une
+seule est fiable** :
+
+- sur le **scan** (`--scan`, `--essai`), il est cohérent : +1,101 degré
+  au brut, −0,149 après rotation de −1,101 ;
+- sur le **cliché détouré**, il a rendu +13,8 degrés sur une vignette que
+  la voie du scan donne droite. Le masque circulaire rogne
+  vraisemblablement la pointe des branches, ce qui déstabilise le choix
+  des six extrêmes.
+
+**Ne pas se fier à la lecture du cliché tant que ce point n'est pas
+repris.** La voie du scan, elle, a servi à refaire le redressement.
+
+La restauration avait d'ailleurs ramené la vignette **d'origine**, non
+redressée : le travail de redressement avait été perdu avec le reste et a
+dû être refait.
+
+### Le redressement des clichés avait été perdu, lui aussi
+
+La restauration avait ramené les clichés **d'origine**, non redressés, et
+rien ne le signalait : une planche penchée d'un degré a l'air normale
+tant qu'on ne la mesure pas. Il a fallu que le commanditaire s'en doute.
+
+Refaits, tous deux par la voie du scan :
+
+| cliché | inclinaison mesurée | après |
+|---|---|---|
+| portrait (feuillet 7) | −0,760° | +0,134 / −0,059 sur les deux bords |
+| vignette (feuillet 3) | +1,101° | −0,149° |
+
+Le fleuron du folio 232, lui, était droit et l'est resté (209 × 25 px,
+inchangé).
+
+**Contrôle rapide après toute restauration** : les tailles suffisent à
+dire si le redressement est là. Portrait redressé 724 × 1066 px, non
+redressé 726 × 1071 ; vignette redressée 256 × 251, d'origine 241 × 249.
+Une taille est plus vite lue qu'un angle.
