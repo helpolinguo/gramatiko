@@ -696,12 +696,27 @@ class Releve(object):
             h = typographie(inline(para))
             if not texte_nu(h):
                 continue
-            m = re.match(r'\((\d+|\*)\)', texte_nu(h).lstrip())
+            # La marque d'une note, telle que le fac-simile l'ecrit :
+            # « (1) », « (*) » -- ou une ASTERISQUE NUE, aux feuillets 74
+            # et 122. Cette derniere n'etait pas lue : l'alinea, n'ayant
+            # aucune marque reconnue, passait pour la suite de la note
+            # precedente et s'y soudait. Au feuillet 122 la note
+            # « Bibliografio » se retrouvait ainsi collee a la note (2)
+            # de la page d'avant, et l'asterisque du titre « REGULI DI
+            # DERIVADO * » n'appelait plus rien.
+            #
+            # L'appel a chercher dans le texte est retenu TEL QUEL : une
+            # note marquee « (*) » (feuillets 166, 191, 208) s'appelle
+            # par « (*) », une note marquee d'une asterisque nue par une
+            # asterisque nue. Les confondre aurait casse les premieres.
+            nu = texte_nu(h).lstrip()
+            m = re.match(r'\((\d+|\*)\)', nu) or re.match(r'(\*)', nu)
             if m:
                 num = m.group(1)
                 cle = (f, num)
                 self.notes[cle] = {'paras': [h.strip()], 'id': 'nt%d-%s' % (f, num),
-                                   'feuillet': f, 'num': num, 'bloc': None}
+                                   'feuillet': f, 'num': num, 'bloc': None,
+                                   'apel': m.group(0)}
                 self.notes_page[f].append(num)
                 courante = cle
             elif premier and courante is None and self.derniere_note:
@@ -1459,7 +1474,8 @@ def rattache_notes(rel):
         neuf = []
         for (f, fo, h) in b.frags:
             for num in list(attente.get(f) or ()):
-                h, trouve = marque(h, '(%s)' % num, rel.notes[(f, num)])
+                note = rel.notes[(f, num)]
+                h, trouve = marque(h, note['apel'], note)
                 if trouve:
                     pose((f, num), b)
             neuf.append((f, fo, h))
@@ -1471,8 +1487,8 @@ def rattache_notes(rel):
             continue
         for autre in list(attente.get(cle[0]) or ()):
             for k, para in enumerate(note['paras']):
-                para2, trouve = marque(para, '(%s)' % autre,
-                                       rel.notes[(cle[0], autre)])
+                nautre = rel.notes[(cle[0], autre)]
+                para2, trouve = marque(para, nautre['apel'], nautre)
                 if trouve:
                     note['paras'][k] = para2
                     pose((cle[0], autre), note['bloc'])

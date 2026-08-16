@@ -4198,3 +4198,63 @@ la racine. `outils/arkivo.py` la fabrique, pour que le format ne dépende
 pas de ce dont je me souviens :
 
     python3 outils/arkivo.py        # verifie les temoins, puis ecrit le ZIP
+
+## L'astérisque nue est une marque de note
+
+Signalé : l'astérisque après « REGULI DI DERIVADO » devrait ouvrir la
+note qui lui répond. Elle n'ouvrait rien — et la note, elle, avait
+disparu dans une autre.
+
+### Deux façons d'appeler une note, dont une seule était lue
+
+Le volume marque ses notes de trois manières, et le relevé les
+transcrit telles quelles :
+
+| marque | feuillets | lue |
+| --- | --- | --- |
+| `(1)`, `(2)`, … | partout | oui |
+| `(*)` | 166, 191, 208 | oui |
+| `*` **nue** | 74, 122 | **non** |
+
+`note()` ne reconnaissait qu'une marque entre parenthèses. Un alinéa
+sans marque reconnue est, par construction, la **suite de la note
+précédente** : c'est ce qui recolle les notes qui débordent d'une page
+sur l'autre. L'alinéa `*Bibliografio.` tombait donc dans cette règle et
+se soudait à la note (2) du feuillet 121, à la fin de laquelle on le
+retrouvait. N'existant pas comme note, il n'avait pas d'identifiant, et
+l'astérisque du titre n'avait rien à appeler.
+
+Le feuillet 74 avait le même défaut, non signalé : sa note (2) faisait
+1 399 signes au lieu de 463, ayant avalé la note à l'astérisque qui la
+suit.
+
+### Ce qu'il ne fallait pas casser
+
+Chercher l'appel d'une note « astérisque » sous la forme `*` aurait
+détruit les trois notes `(*)` des feuillets 166, 191 et 208, dont
+l'appel porte ses parenthèses. **L'appel se cherche donc sous la forme
+même que le fac-similé emploie**, retenue avec la note (`apel`) au
+moment où on la lit — non reconstruite à partir de son numéro.
+
+Le volume porte par ailleurs cinq astérisques qui **ne sont pas** des
+appels, et qu'il fallait laisser en repos :
+
+* feuillet 65 — `« on » * never`, l'astérisque du linguiste, qui marque
+  une forme fautive ;
+* feuillet 121 — `Ni nomizas * morfemo`, de même ;
+* feuillet 134 — `*equi-.` et `*ko-.`, deux appels **auxquels ne répond
+  aucune note** : coquille de l'original, déjà relevée et conservée ;
+* feuillet 225 — `steleti (*) o kruci (†)`, où le texte *parle* des
+  astérisques au lieu d'en porter une.
+
+Aucune ne devient un lien : la recherche n'a lieu que pour une note
+effectivement présente au pied de **cette** page, et aucune de ces
+pages n'en porte à l'astérisque. Vérifié une à une.
+
+### Contrôle
+
+Les notes passent de 408 à 410, et le recollage abusif d'un alinéa
+disparaît (2 → 1). Les cinq notes à l'astérisque ont chacune exactement
+un appel, les trois `(*)` ayant gardé leurs parenthèses. Le corps de la
+page change en quinze fragments, tous aux feuillets 74, 121 et 122.
+Deux témoins s'ajoutent (49 en tout).

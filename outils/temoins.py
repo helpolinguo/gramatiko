@@ -78,6 +78,14 @@ T = [
   '\\VUtabloCentrita', 2),
  ('folio 220 : centrage rendu', 'outils/html.py',
   '.centrita{display:flex', 1),
+ # L'ASTERISQUE NUE est une marque de note (feuillets 74 et 122), et
+ # l'appel se cherche sous la forme meme que le fac-simile emploie --
+ # « (*) » aux feuillets 166, 191, 208, l'asterisque nue aux deux
+ # autres. Les confondre casserait les premiers.
+ ('note a asterisque nue lue', 'outils/html.py',
+  "re.match(r'(\\*)', nu)", 1),
+ ('appel cherche sous sa forme propre', 'outils/html.py',
+  "note['apel']", 1),
  # La vedette se juge sur ce qu'elle EST, non sur sa graisse : une
  # phrase d'exemple n'ouvre pas une section, une entree en italique en
  # ouvre une. Cinq temoins, un par piece de la regle.
