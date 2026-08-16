@@ -4304,3 +4304,49 @@ lien — de part et d'autre du numéro d'alinéa. Les vedettes passent de
 aucun autre chapitre du volume ne bougeant. Le corps de la page change
 en vingt fragments, tous dans ces deux alinéas. Un témoin s'ajoute
 (50 en tout).
+
+## L'accolade fermante rejetée contre le bord, et le balayage des vedettes
+
+### 1. Aucun autre chapitre n'a le défaut du folio 130
+
+Le défaut n'était pas « une vedette manquante » mais une classe précise :
+**la tête détachée précédée d'un appel de note**. Balayage du volume —
+pour chaque alinéa, ce qui sépare le renvoi de folio (et le numéro) de
+la première tête en gras, italique ou petites capitales :
+
+* **150 alinéas** ont quelque chose devant leur tête ; dans tous les cas
+  sauf deux, ce quelque chose est **du texte** — « La », « L' », « On
+  uzas », « Ni vidis »… Ce sont des phrases ordinaires contenant un mot
+  en italique, non des vedettes. Élargir la règle pour les prendre
+  fabriquerait des vedettes fausses par centaines : « La *demonstrativ
+  adjektivi*… » n'est pas une entrée, c'est une phrase.
+* **2 alinéas** ont devant leur tête un préfixe qui ne contient **aucune
+  lettre** — un appel seul : `*equi-` et `*ko-`, au folio 130, déjà
+  corrigés.
+
+Le volume n'en porte pas d'autre. Le critère est reproductible : un
+préfixe fait uniquement d'un appel (astérisque, croix, appel déjà mis en
+lien, numéro entre parenthèses).
+
+### 2. L'accolade fermante était rejetée contre le bord droit
+
+`.gr-l` — le bloc des membres — portait `flex:1 1 auto`, donc il
+**s'étirait** jusqu'au bord du volet. L'accolade fermante et « de o ek »,
+placés après lui, s'en trouvaient poussés tout à droite : à 1 150 px,
+« de o ek » se retrouvait à une demi-colonne de « maxim », alors que le
+fac-similé les sépare de **3,3 mm sur 92** — un voisinage, non un
+alignement à droite.
+
+Pourquoi les vérifications précédentes ne l'avaient pas vu : le rendu en
+groupes n'avait été regardé qu'à 390 et 950 px, deux largeurs où le volet
+est **exactement** aussi large que le tableau. Sans jeu à distribuer,
+l'étirement ne produit rien. Il fallait une largeur **intermédiaire**
+pour que le défaut paraisse — et c'est désormais la leçon retenue pour
+tout ce qui touche à ces deux rendus : mesurer aussi entre les bornes,
+non seulement aux bornes.
+
+Le groupe qui porte une fermante à son bout reçoit la classe `gf`, et son
+bloc de membres ne s'étire plus. L'accolade suit le dernier membre à
+1–3 px près, à **toutes** les largeurs de 360 à 1 200 px, et rien ne
+déborde. Un seul fragment change dans le corps de la page : une classe.
+Un témoin s'ajoute (51 en tout).

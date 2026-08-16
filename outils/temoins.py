@@ -90,6 +90,10 @@ T = [
  # Le TABELO nomme lui-meme les trois du chapitre : equi-, ko-, mono-.
  ('appel avant la tete : vedette lue', 'outils/html.py',
   'APEL_TETE', 3),
+ # Folio 31 : le groupe qui porte une fermante ne s'etire pas, sans quoi
+ # l'accolade est rejetee contre le bord droit du volet.
+ ('fermante contre ses membres', 'outils/html.py',
+  '.gr.gf>.gr-l{flex:0 1 auto}', 1),
  # La vedette se juge sur ce qu'elle EST, non sur sa graisse : une
  # phrase d'exemple n'ouvre pas une section, une entree en italique en
  # ouvre une. Cinq temoins, un par piece de la regle.

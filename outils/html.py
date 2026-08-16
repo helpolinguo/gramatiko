@@ -1230,9 +1230,10 @@ def rendu_groupe(g, rangs, pris):
         return ('<div class="gr gd"><div class="gr-l">%s</div>%s'
                 '<div class="gr-t">%s</div></div>'
                 % (''.join(membres), g['brace']['h'], g['titre']['h']))
+    classe = ' grh' if g.get('haut') else (' gf' if suffixe else '')
     return ('<div class="gr%s"><div class="gr-t">%s</div>%s'
             '<div class="gr-l">%s</div>%s</div>'
-            % (' grh' if g.get('haut') else '', g['titre']['h'],
+            % (classe, g['titre']['h'],
                g['brace']['h'], ''.join(membres), suffixe))
 
 
@@ -1782,6 +1783,15 @@ aside a{font-size:12.5px;color:var(--sub)}
    membres ne s'etire pas (flex:0 1 auto), sinon le nom serait rejete
    contre le bord droit au lieu de suivre la pointe. */
 .gr.gd>.gr-l{flex:0 1 auto;padding-left:0;padding-right:3px}
+/* Le groupe qui porte une accolade fermante A SON BOUT. Le bloc des
+   membres ne doit pas s'etirer : etire, il pousse l'accolade et son nom
+   contre le bord droit du volet, et « de o ek » se retrouvait a une
+   demi-colonne de « maxim », alors que le fac-simile les separe de
+   3,3 mm sur 92. Ce que la mesure enonce est un VOISINAGE, non un
+   alignement a droite. Le defaut ne parait qu'aux largeurs
+   INTERMEDIAIRES : a 390 et 950 px le volet est exactement aussi large
+   que le tableau, et sans jeu a distribuer l'etirement ne produit rien. */
+.gr.gf>.gr-l{flex:0 1 auto}
 /* Un groupe pris dans un autre resserre ses intervalles : au folio 31
    le groupe interieur en compte quatre -- titre, accolade, membres,
    accolade, titre --, et a 7 px chacun ils prenaient au texte la place
