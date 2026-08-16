@@ -4258,3 +4258,49 @@ disparaît (2 → 1). Les cinq notes à l'astérisque ont chacune exactement
 un appel, les trois `(*)` ayant gardé leurs parenthèses. Le corps de la
 page change en quinze fragments, tous aux feuillets 74, 121 et 122.
 Deux témoins s'ajoutent (49 en tout).
+
+## L'appel posé avant la tête cachait la vedette (folio 130)
+
+Demandé : que `*equi-` et `*ko-` soient des « chefa vorti » au chapitre
+PREFIXI TEKNIKALA. Le chapitre n'en portait qu'une, `mono-`.
+
+### Pourquoi deux des trois manquaient
+
+`vedette()` lit la tête d'un alinéa après avoir sauté ce qui n'est pas
+elle : le renvoi de folio, puis le numéro d'alinéa. Ce qui suit doit
+être la tête détachée — gras, italique ou petites capitales. Au folio
+130 les deux alinéas s'ouvrent ainsi :
+
+    130 *<b>equi-.</b> — Ol signifikas egala…
+    130 *<b>ko-.</b>   — Ol renkontresas en kosinuso…
+
+L'astérisque tombe **entre** le renvoi de folio et le gras. La tête ne
+s'y trouvait donc pas là où on la cherchait, et l'alinéa passait pour
+du texte courant. `mono-`, qui n'en porte pas, était lu sans peine —
+d'où une entrée au lieu de trois.
+
+Cette astérisque est un appel de note **auquel ne répond aucune note** :
+c'est la coquille de l'original, relevée de longue date au feuillet 134
+et conservée. Elle reste donc visible dans le texte ; elle cesse
+seulement d'empêcher la lecture de la tête.
+
+### Que le volume nomme lui-même les trois
+
+Ce n'est pas une appréciation : l'entrée du TABELO l'écrit,
+
+    Prefixi teknikala (equi-, ko-, mono-) . . . 130
+
+et les trois alinéas ont exactement la même facture — un préfixe en
+gras, suivi du tiret de définition et de la glose. Les traiter
+autrement revenait à laisser une marque typographique décider à la
+place de la structure, ce que la règle des « chefa vorti » a
+précisément pour objet d'éviter.
+
+### Portée
+
+`APEL_TETE` saute un appel — asterisque nue, ou appel déjà transformé en
+lien — de part et d'autre du numéro d'alinéa. Les vedettes passent de
+384 à 386 : **exactement les deux attendues**, dans l'ordre du TABELO,
+aucun autre chapitre du volume ne bougeant. Le corps de la page change
+en vingt fragments, tous dans ces deux alinéas. Un témoin s'ajoute
+(50 en tout).

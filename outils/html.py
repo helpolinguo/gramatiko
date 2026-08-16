@@ -446,6 +446,15 @@ def texte_nu(h):
 FOLIO_TETE = re.compile(r'<a class="fol"[^>]*>[^<]*</a>')
 # « 3. --- », « 93. -- », « 16. — » : le numero, son point, son tiret.
 NUMERO_ALINEA = re.compile(r'\d+(?:\s*bis)?\.\s*[\u2014\u2013-]?\s*')
+# L'APPEL DE NOTE POSE AVANT LA TETE. Au folio 130 « equi- » et « ko- »
+# en portent un -- une asterisque a laquelle ne repond aucune note, la
+# coquille de l'original que nous conservons --, et il tombe AVANT le
+# gras. L'appel n'est pas la vedette ; il ne doit pas non plus
+# l'empecher d'etre lue, sans quoi le chapitre PREFIXI TEKNIKALA n'avait
+# qu'une entree sur les trois que le TABELO lui-meme lui donne :
+# « Prefixi teknikala (equi-, ko-, mono-) ».
+APEL_TETE = re.compile(r'(?:<a class="apelo"[^>]*>.*?</a>|\*)'
+                       r'[\s\u00a0\u202f]*')
 # Les trois facons dont le volume detache une tete. Le drapeau dit si la
 # graisse suffit a elle seule (voir 5 ci-dessus).
 TETE_DETACHEE = ((re.compile(r'<b>(.*?)</b>'), True),
@@ -506,7 +515,13 @@ def vedette(h):
         i = m.end()
     while i < len(h) and h[i] in ' \t\n':
         i += 1
+    m = APEL_TETE.match(h, i)
+    if m:
+        i = m.end()
     m = NUMERO_ALINEA.match(h, i)
+    if m:
+        i = m.end()
+    m = APEL_TETE.match(h, i)
     if m:
         i = m.end()
     for motif, seule in TETE_DETACHEE:

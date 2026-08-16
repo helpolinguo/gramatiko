@@ -86,6 +86,10 @@ T = [
   "re.match(r'(\\*)', nu)", 1),
  ('appel cherche sous sa forme propre', 'outils/html.py',
   "note['apel']", 1),
+ # Folio 130 : l'appel pose AVANT la tete ne doit pas cacher la vedette.
+ # Le TABELO nomme lui-meme les trois du chapitre : equi-, ko-, mono-.
+ ('appel avant la tete : vedette lue', 'outils/html.py',
+  'APEL_TETE', 3),
  # La vedette se juge sur ce qu'elle EST, non sur sa graisse : une
  # phrase d'exemple n'ouvre pas une section, une entree en italique en
  # ouvre une. Cinq temoins, un par piece de la regle.
