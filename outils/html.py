@@ -390,41 +390,115 @@ def texte_nu(h):
 # ------------------------------------------------------------------
 # 3 bis. LA VEDETTE D'UN ALINEA
 # ------------------------------------------------------------------
-# Un alinea qui S'OUVRE par un passage en gras est une sous-entree, et
-# c'est ce que liste le volet de droite : les 4 000 autres passages en
-# gras du volume n'en sont pas. La regle est bonne, mais elle lisait
-# l'ouverture trop etroitement, et manquait deux facons qu'a le
-# fac-simile d'ecrire une vedette comme les autres.
+# CE QU'EST UNE VEDETTE, ET NON DE QUOI ELLE A L'AIR.
 #
-#   -- LE NUMERO D'ALINEA NE COMPTE PAS. « 3. --- B = b en l'Italiana »
-#      ouvre l'article B exactement comme « c = c Germana » ouvre celui
-#      de c : le volume ne numerote que le premier alinea d'une suite.
-#      Le chapitre des consonnes y perdait sa vedette B, et celui des
-#      prepositions ses quarante-deux entrees, de Ad a Ye.
-#   -- UNE VEDETTE PEUT ETRE DOUBLE. Au folio 11 l'article traite les
-#      deux voyelles ensemble : « e, o apertita o klozita ». Les deux
-#      lettres sont en gras, la virgule entre elles ne l'est pas ; la
-#      vedette est « e, o », et non « e ».
+# La regle precedente disait : « un alinea qui s'ouvre par du gras est
+# une sous-entree ». Elle etait typographique, et la typographie de 1925
+# ne separe pas ce qu'il faut. Le volume compose en gras ses vedettes
+# (`anti.`, `-em-`, `Tra`, `B`) MAIS AUSSI ses phrases d'exemple tout
+# entieres -- d'ou, dans le volet, des entrees comme « El mortis, tri
+# monati ante nun, pos longa sufri… ». Et a l'inverse il ecrit de
+# vraies entrees SANS gras : les seize articles du chapitre PUNTIZADO
+# (`Punto`, `Komo`, `Bi-punto`…) sont en italique, et le chapitre
+# n'avait aucune entree.
 #
-# Rien n'est ajoute au texte : on lit seulement plus loin dans la ligne
-# que le fac-simile a composee.
-# Pas d'ancre `^` dans ces deux motifs : `Pattern.match(s, pos)` cale
-# deja la lecture sur `pos`, mais `^` n'y suit pas -- il ne vaut qu'au
-# vrai debut de la chaine. Avec lui, tout alinea precede d'une espace
-# ou du renvoi de folio echappait a la lecture.
+# La regle retenue lit donc ce que la ligne FAIT, non ce qu'elle porte :
+#
+#   1. TETE. Apres le renvoi de folio et le numero de regle facultatifs
+#      (« 96. --- »), l'alinea doit s'ouvrir par un passage detache :
+#      gras, italique ou petites capitales. C'est la tete.
+#   2. COUPE A LA MARQUE DE DEFINITION. Si la tete porte elle-meme
+#      « = », « : » ou un tiret cadratin, la vedette est CE QUI PRECEDE
+#      -- le volume compose « Dum ke : dum ke il esis malada », entree
+#      puis exemple, d'une seule graisse. Encore faut-il qu'une PHRASE
+#      suive la marque : sans phrase, la ligne n'est pas une definition
+#      mais une enumeration (« Pose : milion; miliard »), et elle
+#      n'ouvre rien.
+#   3. UNE VEDETTE EST COURTE : 80 signes et 12 mots au plus. C'est un
+#      garde-fou et non le critere -- la plus longue du volume en fait
+#      63 (« Cadie, camatine, cavespere, casemane, canokte, camonate,
+#      cayare »), et les deux bornes ne rejettent seules aucun alinea.
+#   4. UNE VEDETTE N'EST PAS UNE PHRASE. C'est le test qui porte tout le
+#      travail, et l'ido le rend sur : un verbe conjugue s'y termine par
+#      -as, -is, -os, -us ou -ez, sans exception. « La tero movas »,
+#      « Me turnas la roto », « Notez bone, ke… » sont donc des
+#      exemples, quelle que soit leur graisse. Une rupture de phrase au
+#      milieu de la tete (« … pos longa sufri. Qua pensabus… ») dit la
+#      meme chose.
+#   5. HORS DU GRAS, IL FAUT LA MARQUE. Le gras ne sert dans ce volume
+#      qu'a la vedette ou a l'exemple, et le 4 ecarte l'exemple ; mais
+#      l'italique sert a TOUT mot cite -- il y en a cinq mille. Une tete
+#      qui n'est pas en gras ne vaut donc que si une marque de
+#      definition la suit : « = », « : », un point, un tiret, ou
+#      l'ouverture d'une glose « ( [ { « ». C'est ce qui distingue
+#      « Punto (.) uzesas… », article, de « Polko, valso, e. c., esas
+#      dansi », exemple.
+#
+# Ce que la regle laisse passer, et qu'on dit plutot que de le taire :
+# « Nula -n » et « Anke nula -n en » (SINTAXO) sont des morceaux de
+# phrase, courts et sans verbe ; rien de mecanique ne les distingue
+# d'une vedette.
+#
+# Pas d'ancre `^` dans ces motifs : `Pattern.match(s, pos)` cale deja la
+# lecture sur `pos`, mais `^` n'y suit pas -- il ne vaut qu'au vrai
+# debut de la chaine. Avec lui, tout alinea precede d'une espace ou du
+# renvoi de folio echappait a la lecture.
 FOLIO_TETE = re.compile(r'<a class="fol"[^>]*>[^<]*</a>')
 # « 3. --- », « 93. -- », « 16. — » : le numero, son point, son tiret.
 NUMERO_ALINEA = re.compile(r'\d+(?:\s*bis)?\.\s*[\u2014\u2013-]?\s*')
-GRAS_TETE = re.compile(r'<b>(.*?)</b>')
+# Les trois facons dont le volume detache une tete. Le drapeau dit si la
+# graisse suffit a elle seule (voir 5 ci-dessus).
+TETE_DETACHEE = ((re.compile(r'<b>(.*?)</b>'), True),
+                 (re.compile(r'<i>(.*?)</i>'), False),
+                 (re.compile(r'<span class="pk">(.*?)</span>'), False))
+# GARDE-FOU, ET NON CRITERE : c'est le test de phrase (4) qui ecarte les
+# exemples. La plus longue vedette du volume fait 63 signes -- « Cadie,
+# camatine, cavespere, casemane, canokte, camonate, cayare » -- et la
+# plus fournie 10 mots ; a 80 signes et 12 mots, ces deux bornes ne
+# rejettent aujourd'hui aucun alinea a elles seules.
+VEDETTE_SIGNES = 80
+VEDETTE_MOTS = 12
+# La marque de definition qui SUIT la tete : « = », « : », un point, un
+# tiret, ou l'ouverture d'une glose.
+MARQUE_DEF = re.compile(r'[\s\u00a0\u202f]*[=:.\u2013\u2014(\[{\u00ab]')
+# La meme marque, mais A L'INTERIEUR de la tete : elle y coupe.
+COUPE_DEF = re.compile(r'[\s\u00a0\u202f][=:\u2013\u2014][\s\u00a0\u202f]')
+# LE VERBE CONJUGUE D'IDO. Cinq desinences, aucune exception : la langue
+# a ete construite pour cela. Deux lettres de racine au moins, pour ne
+# pas lire un verbe dans le morpheme « -as » du chapitre du verbe.
+VERBE_IDO = re.compile(r'(?<![-\w\u2011])(\w{2,}(?:as|is|os|us|ez))\b')
+# Les mots d'ido qui portent une desinence verbale sans etre des verbes.
+# Tous sont de la classe fermee -- adverbes et prepositions.
+NON_VERBI = {'plus', 'minus', 'depos', 'bis', 'gratis'}
+# Une phrase qui en finit une autre au milieu de la tete.
+RUPTURE = re.compile(r'[.!?]\s+[A-Z\u00c0-\u00de]')
+
+
+def est_phrase(t):
+    """Vrai si `t` est une PHRASE et non un nom.
+
+    Le verbe conjugue en est la preuve. Un nom propre rencontre au fil
+    du texte -- « Paris », « Adolfus » -- porte la meme finale sans etre
+    un verbe ; on ne l'ecarte que s'il n'ouvre pas la tete, car un verbe
+    a l'imperatif, lui, l'ouvre bel et bien (« Notez bone, ke… »).
+    """
+    for m in VERBE_IDO.finditer(t):
+        mot = m.group(1)
+        if mot.lower() in NON_VERBI:
+            continue
+        if m.start() > 0 and mot[:1].isupper():
+            continue
+        return True
+    return bool(RUPTURE.search(t))
 
 
 def vedette(h):
-    """(texte de la vedette, offset apres son dernier `</b>`).
+    """(texte de la vedette, offset apres la tete detachee).
 
     Rend (None, -1) quand l'alinea n'en porte pas. L'offset sert au
-    bouton en chaine : il se pose contre la vedette ENTIERE, non apres
-    son premier morceau -- sans quoi il se glisserait entre le « e » et
-    le « o » du folio 11.
+    bouton en chaine : il se pose contre la tete ENTIERE, non apres son
+    premier morceau -- sans quoi il se glisserait entre le « e » et le
+    « o » du folio 11.
     """
     i = 0
     m = FOLIO_TETE.match(h)
@@ -435,20 +509,56 @@ def vedette(h):
     m = NUMERO_ALINEA.match(h, i)
     if m:
         i = m.end()
-    m = GRAS_TETE.match(h, i)
-    if not m:
+    for motif, seule in TETE_DETACHEE:
+        m = motif.match(h, i)
+        if m:
+            break
+    else:
         return None, -1
     bouts, fin = [m.group(1)], m.end()
-    # Une vedette double, et pas davantage : la virgule qui lie les
-    # morceaux doit etre NUE -- « e, o » se lit, « <b>a</b>, e <b>b</b> »
-    # non.
-    while h[fin:fin + 2] == ', ':
-        m = GRAS_TETE.match(h, fin + 2)
-        if not m:
+    # LA TETE EST CE QUE LE FAC-SIMILE A COMPOSE D'UN SEUL TENANT, non
+    # ce que le releve a coupe en bouts. Deux passages de meme graisse ne
+    # se rejoignent que si RIEN de nu ne les separe : la fin de ligne
+    # (`\nl`, une espace), la coupure de mot (`\cc`, rien du tout), ou la
+    # virgule d'une vedette double -- « e, o » se lit, « <b>a</b>, e
+    # <b>b</b> » non. Sans cela l'article « Ante ke; pos ke; depos ke o
+    # de kande », que le volume compose sur deux lignes, perdait son
+    # exemple et paraissait n'etre qu'une enumeration.
+    while True:
+        for joint in (', ', ' ', ''):
+            if not h.startswith(joint, fin):
+                continue
+            m = motif.match(h, fin + len(joint))
+            if m:
+                bouts.append(joint + m.group(1))
+                fin = m.end()
+                break
+        else:
             break
-        bouts.append(m.group(1))
-        fin = m.end()
-    return texte_nu(', '.join(bouts)) or None, fin
+    t = texte_nu(''.join(bouts))
+    if not t:
+        return None, -1
+    # 2. La marque de definition portee par la tete elle-meme.
+    coupee = False
+    m = COUPE_DEF.search(t)
+    if m:
+        avant, apres = t[:m.start()].strip(), t[m.end():].strip()
+        if not est_phrase(apres) or not avant:
+            return None, -1
+        t, coupee = avant, True
+    # 3. Une vedette est courte.
+    if len(t) > VEDETTE_SIGNES or len(t.split()) > VEDETTE_MOTS:
+        return None, -1
+    # 4. Une vedette n'est pas une phrase.
+    if est_phrase(t):
+        return None, -1
+    # 5. Hors du gras, il faut la marque -- sauf si la tete portait deja
+    #    la sienne, auquel cas elle est prouvee.
+    if not seule and not coupee:
+        suite = desechappe(re.sub(r'<[^>]+>', '', h[fin:]))
+        if not MARQUE_DEF.match(suite):
+            return None, -1
+    return t, fin
 
 
 # ------------------------------------------------------------------
@@ -1716,7 +1826,20 @@ function trovAncro(h){
  var nu=id.replace(/-\d+$/,'');
  for(i=0;i<t.length;i++){x=t[i].id;
   if(x===nu||x.replace(/-\d+$/,'')===nu)return t[i];}
- return null;}
+ /* L'ancre RACCOURCIE. Le jour ou la detection des chefa vorti a cesse
+    de prendre les phrases d'exemple pour des entrees, vingt-quatre
+    adresses ont disparu, et trois se sont raccourcies :
+    « ...-dum-ke-dum-ke-il-esis-malada » est devenu « ...-dum-ke ». La
+    parente se lit alors dans l'autre sens : on cherche le PLUS LONG
+    identifiant existant dont l'ancienne adresse soit le prolongement,
+    coupe sur un tiret. Les trois raccourcies retrouvent ainsi leur
+    entree ; les vingt et une autres, qui designaient un exemple que le
+    volet ne liste plus, retrouvent au moins l'article ou le chapitre
+    qui les portait -- « #verbo-la-tero-movas » mene a VERBO. */
+ var lg=null;
+ for(i=0;i<t.length;i++){x=t[i].id;
+  if(id.indexOf(x+'-')===0&&(!lg||x.length>lg.id.length))lg=t[i];}
+ return lg;}
 function viziAncro(){var h=location.hash;
  if(h.length<2)return;
  var el=trovAncro(h);
@@ -2240,11 +2363,12 @@ def ecrire(rel, parties, stats):
             base = ardoise(b.ved)
             b.ident = ancres.neuf('%s-%s' % (cid, base) if cid else base,
                                   b.ved, 'chefa vorto')
-            # L'etiquette du volet est TRONQUEE, non filtree : le volume
-            # ouvre aussi des alineas par une phrase entiere en gras
-            # (des exemples), et ce sont des sous-entrees comme les
-            # autres -- simplement leur vedette ne tient pas dans une
-            # colonne de 230 px.
+            # Le FILTRE est en amont, dans `vedette()` : aucune phrase
+            # d'exemple n'arrive plus jusqu'ici. Ce qui reste ici n'est
+            # qu'une mesure de colonne : les quelques vedettes en liste
+            # -- « Cadie, camatine, cavespere… », 63 signes -- ne
+            # tiennent pas dans 230 px. Le titre entier est conserve
+            # dans l'infobulle.
             lab = b.ved.rstrip(' .,;:')
             court = lab if len(lab) <= 42 else lab[:41].rsplit(' ', 1)[0] + '\u2026'
             ved_par_chap.setdefault(cid, []).append(

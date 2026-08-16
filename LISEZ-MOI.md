@@ -3278,7 +3278,7 @@ bouton de téléchargement, interface en ido. Elle est produite par
 sorte qu'elle se régénère après chaque recomposition du volume.
 
 **Ce qu'elle contient** : 49 chapitres, 1 231 alinéas, 408 notes toutes
-rattachées à leur appel, 367 vedettes, 454 403 signes. Aucune ressource
+rattachées à leur appel, 384 vedettes, 454 403 signes. Aucune ressource
 réseau : un seul fichier de 780 ko, données comprises.
 
 **La mise en page** : trois volets sur ordinateur — table des matières à
@@ -3516,7 +3516,7 @@ par un pseudo-élément, qui grossit la zone sensible sans toucher à
 l'interligne. Sur ordinateur le bouton est **absolu, dans la marge de
 droite**, en vis-à-vis du folio qui est dans celle de gauche : il ne
 prend donc aucune place dans le texte. En ligne, il aurait laissé un
-trou de 21 px après chacune des 367 vedettes, visible même invisible,
+trou de 21 px après chacune des 384 vedettes, visible même invisible,
 puisque la justification l'aurait montré. *(Piège au passage : un
 `inline-block` hérite du `text-indent` de l'alinéa et se l'applique à
 lui-même — d'où le `text-indent:0` obligatoire.)*
@@ -3776,6 +3776,120 @@ quand une valeur est écrite en dur, il faut chercher **toutes** ses
 occurrences, pas seulement celle qui a fait mal. J'ai corrigé les trois
 premières en croyant chaque fois avoir fini.
 
+### Une vedette se reconnaît à ce qu'elle est, non à sa graisse
+
+La règle précédente — « un alinéa qui s'ouvre par du gras est une
+sous-entrée » — était **typographique, et la typographie de 1925 ne
+sépare pas ce qu'il faut**. Le volume compose en gras ses vedettes
+(`anti.`, `-em-`, `Tra`, `B`) *et* ses phrases d'exemple tout entières ;
+le volet listait donc des phrases, `El mortis, tri monati ante nun, pos
+longa sufri. Qua pen…`. Et il écrit de vraies entrées **sans gras** : les
+dix-sept articles de PUNTIZADO — `Punto`, `Komo`, `Bi-punto`,
+`Cito-hoketi` — sont en italique, et le chapitre n'avait **aucune**
+entrée.
+
+**La règle retenue lit ce que la ligne fait, non ce qu'elle porte.** Cinq
+pièces, dans `vedette()` :
+
+| | |
+|---|---|
+| **1. la tête** | après le renvoi de folio et le numéro de règle facultatifs (« 96. — »), l'alinéa doit s'ouvrir par un passage détaché : **gras, italique ou petites capitales**. Deux passages de même graisse se rejoignent si rien de nu ne les sépare — fin de ligne (`\nl`), mot coupé (`\cc`), ou la virgule d'une vedette double (`e, o`) |
+| **2. la coupe** | si la tête porte elle-même `=`, `:` ou un tiret cadratin, **la vedette est ce qui précède** : le volume compose « *Dum ke : dum ke il esis malada* » d'une seule graisse, entrée puis exemple. Encore faut-il qu'une **phrase** suive la marque ; sans phrase, la ligne est une énumération (« *Pose : milion; miliard* ») et n'ouvre rien |
+| **3. la brièveté** | 80 signes, 12 mots. **Garde-fou et non critère** : la plus longue vedette du volume en fait 63 (`Cadie, camatine, cavespere, casemane, canokte, camonate, cayare`), et ces deux bornes ne rejettent aujourd'hui aucun alinéa à elles seules |
+| **4. ce n'est pas une phrase** | **le test qui porte tout le travail**, et l'ido le rend sûr : un verbe conjugué s'y termine par **-as, -is, -os, -us, -ez**, sans exception. `La tero movas`, `Me turnas la roto`, `Notez bone, ke…` sont donc des exemples, quelle que soit leur graisse. Une rupture de phrase au milieu de la tête (`… pos longa sufri. Qua pensabus…`) dit la même chose |
+| **5. hors du gras, il faut la marque** | le gras ne sert dans ce volume qu'à la vedette ou à l'exemple, et le 4 écarte l'exemple ; mais l'**italique sert à tout mot cité** — il y en a cinq mille. Une tête qui n'est pas en gras ne vaut donc que si une marque de définition la suit : `=`, `:`, un point, un tiret, ou l'ouverture d'une glose `( [ { «`. C'est ce qui distingue « *Punto* (.) uzesas… », article, de « *Polko, valso*, e. c., esas dansi », exemple |
+
+Deux exceptions étaient nécessaires au test du verbe, et elles sont de
+classe fermée : `plus` (dans `Ne plus`) et `depos` portent une désinence
+verbale sans être des verbes. Un nom propre rencontré au fil de la
+phrase — `Paris`, `Adolfus` — porte la même finale ; on ne l'écarte que
+s'il **n'ouvre pas** la tête, car un verbe à l'impératif, lui, l'ouvre
+bel et bien (`Notez bone, ke…`).
+
+**Le compte : 367 vedettes avant, 384 après** — 27 perdues, 44 gagnées.
+
+*Les 27 perdues.* Vingt-quatre sont des **phrases d'exemple**, et c'est
+tout le propos : `Lo facenda postulos longa tempo e multa lukti` et `Il
+esas mortinta de tri monati, e vu ne savas lo!` (les deux seules entrées
+de PRONOMO « LO », qui n'en a donc plus) ; six de VERBO (`La tero movas`,
+`Me turnas la roto`, `Paris komunikas telefone kun Lyon`, `Me chanjis
+depos mea yuneso…`, `Mea chapelo pendis an arboro…`, `Natante la fisho
+movas…`) ; six de PREPOZICIONI (`El mortis, tri monati ante nun…`, `De
+lua nasko il sempre montris…`, `On bone remarkez, ke de esas neutila…`,
+`La konquesto di Anglia da la Normandi igis…`, `Ido povas distingar tote
+certe l'autori…`, `Ek darfas uzesar metafore…`) ; quatre de SINTAXO
+(`Quon vu dicas? Quan vu vidas?…`, `Quala vu judikas`, `Mem pos kom n ne
+esas uzenda…`, et `Anke nula -n en : Me nomizis Adolfus mea filiulo`,
+raccourcie en `Anke nula -n en`) ; `Notez bone, ke la Franca vorto
+« fois »…` et `Pose : milion; miliard` de NOMBRI ; `No, me ne povas
+asentar, ke la hipopotamo havas boko` de SUFIXI ; `Me recevis letro
+skribita en linguo ne konocata da me` — la seule entrée de VORTORDINO,
+qui n'en a donc plus. **Les trois autres ne sont pas des pertes mais des
+raccourcissements** : `Ante ke; pos ke; depos ke o de kande : depos ke,
+de kande` → `Ante ke; pos ke; depos ke o de kande`, `Dum ke : dum ke il
+esis malada` → `Dum ke`, `Segun quante : segun quante me povos…` →
+`Segun quante` ; et `Cadie, camatine, cavespere, casemane, canokte,
+camonate` retrouve son dernier membre, `cayare`.
+
+*Les 44 gagnées.* **Dix-sept à PUNTIZADO**, qui n'avait rien : `Punto`,
+`Mayuskuli`, `Komo`, `Punto-komo`, `Bi-punto`, `Puntaro`, `Parentezi`,
+`Kramponi`, `Streketo`, `Seko di la Vorti`, `Streko`, `Cito-hoketi`,
+`Noto-referi`, `Klamo-punto`, `Question-punto`, `Apostrofo`, `Generala
+remarko`. **Seize à VERBO**, le paradigme que le volume met en italique
+et que les désinences en gras encadraient déjà : `antea pasinto`, `antea
+futuro`, `antea kondicionalo`, `antea volitivo`, `Indikativo prezenta /
+pasinta / futura`, `Kondicionalo prezenta`, `Volitivo prezenta`,
+`Infinitivo prezenta / pasinta / futura`, `Antea pasinto / futuro /
+kondicionalo / volitivo`. Puis six titres de section que l'italique ou
+les petites capitales portaient seuls — `Adverbi di quanteso`,
+`Prepozicioni kun verbi`, `Direta questioni`, `Nedireta questioni`,
+`Remarki` (NOMBRI, en petites capitales) — et les cinq raccourcies
+ci-dessus.
+
+**Ce que la règle laisse passer, et qu'on dit plutôt que de le taire.**
+`Nula -n` et `Anke nula -n en` (SINTAXO, qui n'a plus qu'elles) sont des
+morceaux de phrase, courts et sans verbe : **rien de mécanique ne les
+distingue d'une vedette**. À l'inverse, six topiques de VORTORDINO
+(`L'atributo`, `L'adjektivo`, `L'adverbo`, `La questionanta vorti`, `La
+participo`) et `Adjektivo` de SINTAXO sont en italique **sans marque de
+définition** : la règle 5 les écarte, et le chapitre VORTORDINO se
+retrouve sans entrée. C'est le prix de la règle 5, et il est assumé —
+sans elle, `Polko, valso`, `Kruela` et `Treege`, qui sont des mots cités
+dans une discussion, entreraient au volet.
+
+Les chapitres de prose continue restent vides, comme il se doit :
+KONJUGO-SISTEMO DI IDO affiche « *nula chefa vorto en ca chapitro* » — ses
+alinéas `a)`, `b)`, `c)`, `d)` en italique sont suivis d'une parenthèse
+fermante, non d'une marque de définition.
+
+**Vingt-quatre ancres disparaissent, et il faut le dire** : toutes
+désignaient une phrase d'exemple, sauf trois qui se raccourcissent
+(`#konjuncioni-dum-ke-dum-ke-il-esis-malada` →
+`#konjuncioni-dum-ke`, `#konjuncioni-segun-quante-segun-quante-me-povos-me`
+→ `#konjuncioni-segun-quante`,
+`#sintaxo-anke-nula-n-en-me-nomizis-adolfus-mea` →
+`#sintaxo-anke-nula-n-en`). Aucun suffixe de collision ne bouge : les
+quatre homonymes départagés le restent à l'identique. Le repli
+`trovAncro` ne jouait pas ici — il cherchait une ancre **allongée**, et
+c'est l'inverse qui s'est produit. Il cherche donc aussi, en dernier
+recours, **le plus long identifiant existant dont l'adresse demandée soit
+le prolongement**, coupé sur un tiret : les trois raccourcies retrouvent
+leur entrée, et les vingt et une autres retrouvent au moins l'article ou
+le chapitre qui les portait — `#verbo-la-tero-movas` mène à VERBO,
+`#prepozicioni-de-lua-nasko-il-sempre-montris-extrema` à l'article `De`.
+Vérifié dans le navigateur sur les cinq cas, plus l'ancienne
+`#pronunco-dil-vokali-e`, qui continue de trouver `…-e-o` par l'autre
+repli.
+
+**Vérifié par capture**, en clair et en sombre, à 1400 et 390 px :
+PUNTIZADO porte ses dix-sept entrées, PREPOZICIONI n'en a plus une seule
+qui soit une phrase, VERBO range son paradigme dans l'ordre du texte,
+KONJUGO-SISTEMO reste vide, le tiroir « Materio » du téléphone déplie les
+dix-sept entrées sous le lien du chapitre, et le surlignage du volet suit
+le clic (`Streko`, `Cito-hoketi`, `Apostrofo`). La page pèse 1 206 ko,
+porte 852 identifiants sans doublon, et deux exécutions rendent le même
+md5.
+
 ---
 
 ## Quatrième perte, et la première où la sauvegarde venait du commanditaire
@@ -3907,3 +4021,27 @@ inchangé).
 dire si le redressement est là. Portrait redressé 724 × 1066 px, non
 redressé 726 × 1071 ; vignette redressée 256 × 251, d'origine 241 × 249.
 Une taille est plus vite lue qu'un angle.
+
+### `outils/temoins.py` — la liste de témoins, enfin écrite
+
+Cinq pertes de conteneur ont montré que **`git log` ne prouve rien** : à
+la dernière, l'historique était cohérent et les fichiers ne l'étaient
+pas. Ce qui détecte la panne, c'est de chercher, pour chaque correctif,
+une chaîne qui ne peut se trouver que s'il est en place.
+
+L'outil vérifie **34 témoins** : trente chaînes caractéristiques, les
+trois tailles de cliché — qui disent d'un coup d'œil si le redressement
+est là — et le nombre de pages du PDF. Il sort en erreur si l'un manque.
+
+    python3 outils/temoins.py
+
+Il a immédiatement trouvé **six régressions** que rien d'autre ne
+signalait, et que le volume compilait sans se plaindre : le titre du
+folio 3 et `PUNTIZADO` revenus à leur composition trop large, les blancs
+des folios 21 et 122, et — celle que le commanditaire avait vue — le
+groupe `APENDICI` des signets, avec le renvoi du Tabelo à la mauvaise
+page.
+
+**À passer après chaque restauration, et avant chaque livraison.** Il
+coûte une seconde. Quand un correctif s'ajoute, son témoin s'ajoute avec
+lui : c'est la seule discipline qui ait résisté à ces cinq pertes.
