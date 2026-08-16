@@ -55,6 +55,29 @@ T = [
  ('page : bouts des accolades', 'outils/html.py', 'M8.6 1C5.8', 1),
  ('page : avis sur les deux prepozicioni', 'outils/html.py',
   'ridonas li a la loko', 1),
+ # Folio 31 : l'accolade FERMANTE. Faute d'etre lue, elle ne rattachait
+ # que « maxim » a « de o ek », et le nom retombait un demi-interligne
+ # trop haut. Trois temoins : la lecture de la fermante, sa fusion dans
+ # le groupe qu'elle couvre, et le decalage de mi-hauteur en colonnes.
+ ('folio 31 : accolade fermante lue', 'outils/html.py',
+  'def fermantes', 1),
+ ('folio 31 : fermante fondue au groupe', 'outils/html.py',
+  "ferme_brace", 3),
+ ('folio 31 : case a mi-hauteur en colonnes', 'outils/html.py',
+  'mezo', 3),
+ ('folio 31 : membre insecable', 'outils/html.py',
+  '.gr-m{white-space:nowrap}', 1),
+ ('folio 31 : bord gauche d\'un groupe', 'outils/html.py',
+  'def bord', 1),
+ # Folio 220 : les deux schemas sont centres sur la justification. La
+ # marque se pose d'apres le scan (marges gauche et droite egales), non
+ # d'apres l'oeil ; trois temoins, un par piece.
+ ('folio 220 : marque de centrage', 'preambule.tex',
+  '\\newcommand{\\VUtabloCentrita}', 1),
+ ('folio 220 : les deux schemas marques', 'contenu/20-parto2.tex',
+  '\\VUtabloCentrita', 2),
+ ('folio 220 : centrage rendu', 'outils/html.py',
+  '.centrita{display:flex', 1),
  # La vedette se juge sur ce qu'elle EST, non sur sa graisse : une
  # phrase d'exemple n'ouvre pas une section, une entree en italique en
  # ouvre une. Cinq temoins, un par piece de la regle.

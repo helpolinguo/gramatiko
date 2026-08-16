@@ -611,6 +611,7 @@ class Releve(object):
         self.derniere_note = None
         self.page_note = False    # page entiere composee au corps des notes
         self.rangs = []           # tableau en cours de constitution
+        self.centre = False       # ... et s'il est centre sur la mesure
         self.apparat = []
         self.parties_vues = []
 
@@ -665,7 +666,9 @@ class Releve(object):
         if not self.rangs:
             return
         rangs, self.rangs = self.rangs, []
-        self.blocs.append(tableau(rangs, self.feuillet, self.folio))
+        centre, self.centre = self.centre, False
+        self.blocs.append(tableau(rangs, self.feuillet, self.folio,
+                                  centre))
 
     # -- notes ------------------------------------------------------
     def note(self, corps):
@@ -884,6 +887,13 @@ class Releve(object):
             _, _, i = lire_args(s, i, 1)
             self.aster = True
             return True, i
+        if nom == 'VUtabloCentrita':
+            # Ne compose rien : elle dit seulement que le tableau qui
+            # suit est centre sur la justification. Elle precede les
+            # rangs, donc elle ne doit pas fermer le tableau en cours.
+            deverse()
+            self.centre = True
+            return True, i
         if nom == 'VUrang':
             deverse()
             # Sans `vider=False`, chaque rang fermerait le tableau que le
@@ -945,8 +955,18 @@ def cases(s):
         if a:
             genre = {'': 'akol', 'D': 'akolD', 'H': 'akolH'}[a.group(1) or '']
             haut, ecart = mm(a.group(2)), mm(a.group(3) or '0pt')
+        # Le decalage vertical d'une case ORDINAIRE. Au folio 31 « de o
+        # ek » et « Superlativo » ne sont pas sur une ligne du tableau :
+        # le fac-simile les pose A MI-HAUTEUR entre deux, et le releve le
+        # dit par \VUdecale. Le nombre etait jusqu'ici perdu -- la case
+        # retombait sur le rang du dessus, loin de la pointe de son
+        # accolade. Celui d'une accolade ne se lit pas ici : elle a deja
+        # son propre ecart (folio 220).
+        d = re.search(r'\\VUdecale\{([^{}]*)\}', brut)
+        decal = mm(d.group(1)) if (d and genre is None) else 0.0
         out.append({'x': mm(args[0]), 'h': typographie(inline(brut).strip()),
-                    'k': genre, 'haut': haut, 'ecart': ecart})
+                    'k': genre, 'haut': haut, 'ecart': ecart,
+                    'decal': decal})
     return out
 
 
@@ -1060,6 +1080,69 @@ def groupes(rangs):
     for g in gs:
         if g['pere'] is not None:
             g['pere']['enfants'].append(g)
+    return fermantes(rangs, gs)
+
+
+def fermantes(rangs, gs):
+    """Les accolades FERMANTES, et la place qu'elles prennent dans l'arbre.
+
+    Une ouvrante nomme A GAUCHE ce qu'elle rassemble a droite ; une
+    fermante fait l'inverse. Le volume n'en porte qu'une, au folio 31 :
+    elle rattache « maxim » et « minim » a « de o ek ». Faute d'etre
+    lue, elle n'ouvrait aucun groupe et restait une accolade EN LIGNE,
+    haute d'un seul rang, posee contre « maxim » seul -- ce que le
+    fac-simile ne dit pas.
+
+    Sa portee se mesure comme celle des autres (`etendue`). Ce qu'elle
+    enferme, ce sont les groupes ouvrants dont TOUS les rangs tombent
+    dans les siens : au folio 31 le groupe « relatanta ». Elle se
+    glisse alors entre eux et leur pere -- « Superlativo » --, de sorte
+    que l'arbre reste un arbre et que les rangs couverts ne changent
+    pas.
+    """
+    total = len(rangs)
+    for r, ligne in enumerate(rangs):
+        for c in ligne:
+            if c['k'] != 'akolD':
+                continue
+            a, n = etendue(c, r, total)
+            g = {'rangs': list(range(a, a + n)), 'x': c['x'], 'brace': c,
+                 'titre': None, 'enfants': [], 'pere': None, 'ferme': True}
+            # Son titre est a DROITE, et c'est le plus proche.
+            cands = [d for q in g['rangs'] for d in rangs[q]
+                     if d['x'] > g['x'] and d['k'] is None]
+            if not cands:
+                continue
+            g['titre'] = min(cands, key=lambda d: d['x'])
+            g['rang_titre'] = [q for q in g['rangs']
+                               if g['titre'] in rangs[q]][0]
+            dedans = [h for h in gs if not h.get('ferme')
+                      and rangs_couverts(h) <= set(g['rangs'])]
+            # Les plus englobants d'entre eux : ceux dont le pere est
+            # hors de la fermante. Ce sont eux qui deviennent ses
+            # enfants ; elle prend leur place aupres de leur pere.
+            sommets = [h for h in dedans if h['pere'] not in dedans]
+            # QUAND ELLE COUVRE EXACTEMENT UN GROUPE, elle ne fait pas
+            # un etage de plus : elle se pose au bout du meme. Le
+            # fac-simile ne montre pas deux bandes emboitees mais UNE
+            # bande de deux rangs, prise entre une ouvrante a gauche et
+            # une fermante a droite -- et l'etage superflu coutait, sur
+            # un ecran de tablette, les quelques pixels par lesquels le
+            # « k » de « de o ek » sortait du volet.
+            if len(sommets) == 1 \
+                    and rangs_couverts(sommets[0]) == set(g['rangs']):
+                h = sommets[0]
+                h['ferme_brace'], h['ferme_titre'] = c, g['titre']
+                continue
+            g['pere'] = sommets[0]['pere'] if sommets else None
+            for h in sommets:
+                if h['pere'] is not None:
+                    h['pere']['enfants'].remove(h)
+                h['pere'] = g
+                g['enfants'].append(h)
+            if g['pere'] is not None:
+                g['pere']['enfants'].append(g)
+            gs.append(g)
     return gs
 
 
@@ -1082,7 +1165,18 @@ def rendu_groupe(g, rangs, pris):
     """
     pris.add(id(g['brace']))
     pris.add(id(g['titre']))
+    # L'accolade fermante posee au bout du meme groupe : reservee des
+    # maintenant, sinon le releve la compterait parmi les membres.
+    suffixe = ''
+    if g.get('ferme_brace') is not None:
+        pris.add(id(g['ferme_brace']))
+        pris.add(id(g['ferme_titre']))
+        suffixe = ('%s<div class="gr-t">%s</div>'
+                   % (g['ferme_brace']['h'], g['ferme_titre']['h']))
     membres = []
+    # La fermante est la meme piece retournee : ce qu'elle rassemble est
+    # a sa GAUCHE, et le nom qu'elle leur donne a sa droite.
+    ferme = g.get('ferme', False)
     couverts = sorted(rangs_couverts(g))
     for r in couverts:
         enfant = None
@@ -1094,17 +1188,40 @@ def rendu_groupe(g, rangs, pris):
             if r == min(rangs_couverts(enfant)):
                 membres.append(rendu_groupe(enfant, rangs, pris))
             continue
-        cells = [c for c in rangs[r] if c['x'] > g['x']
+        cells = [c for c in rangs[r]
+                 if (c['x'] < g['x'] if ferme else c['x'] > g['x'])
                  and id(c) not in pris and c is not g['titre']]
         for c in cells:
             pris.add(id(c))
         if cells:
             membres.append('<div class="gr-m">%s</div>' % ECART.join(
                 c['h'] for c in cells))
+    if ferme:
+        return ('<div class="gr gd"><div class="gr-l">%s</div>%s'
+                '<div class="gr-t">%s</div></div>'
+                % (''.join(membres), g['brace']['h'], g['titre']['h']))
     return ('<div class="gr%s"><div class="gr-t">%s</div>%s'
-            '<div class="gr-l">%s</div></div>'
+            '<div class="gr-l">%s</div>%s</div>'
             % (' grh' if g.get('haut') else '', g['titre']['h'],
-               g['brace']['h'], ''.join(membres)))
+               g['brace']['h'], ''.join(membres), suffixe))
+
+
+def bord(g, rangs):
+    """L'abscisse la plus a gauche qu'un groupe occupe.
+
+    Ce qui, sur un rang, tombe A GAUCHE d'un groupe sans lui appartenir
+    -- le numero « 28. » au folio 31 -- se reconnait a cela. Le comparer
+    a l'abscisse de l'ACCOLADE suffisait tant que toutes ouvraient a
+    droite : le titre etait alors la piece la plus a gauche. Une
+    fermante range ses membres a gauche de son trait ; les mesurer
+    contre lui les aurait mis dehors, puis dedans, donc deux fois.
+    """
+    xs = [g['titre']['x'], g['x']]
+    if g.get('ferme'):
+        xs += [c['x'] for r in rangs_couverts(g) for c in rangs[r]
+               if c['x'] < g['x']]
+    xs += [bord(e, rangs) for e in g['enfants']]
+    return min(xs)
 
 
 def rendu_grupi(rangs, gs, sola=False):
@@ -1125,8 +1242,9 @@ def rendu_grupi(rangs, gs, sola=False):
         # titre : au folio 31, le numero « 28. » du paragraphe.
         g = couvert.get(r)
         if g is not None:
-            avant = [c for c in rangs[r] if c['x'] < g['x']
-                     and c is not g['titre'] and c['k'] != 'akol']
+            avant = [c for c in rangs[r] if c['x'] < bord(g, rangs)
+                     and c is not g['titre'] and c['k'] != 'akol'
+                     and id(c) not in pris]
             for c in avant:
                 pris.add(id(c))
                 out.append('<div class="gr-x">%s</div>' % c['h'])
@@ -1143,7 +1261,7 @@ def rendu_grupi(rangs, gs, sola=False):
                                               ''.join(out))
 
 
-def tableau(rangs, feuillet, folio):
+def tableau(rangs, feuillet, folio, centre=False):
     """Rendre une suite de \\VUrang.
 
     Trois sorties possibles, selon ce que le releve contient :
@@ -1216,7 +1334,7 @@ def tableau(rangs, feuillet, folio):
     # colonne. C'est cette case-la, haute de trois rangs au folio 220,
     # que le trace remplit.
     grille = [[[] for _ in cols] for _ in propres]
-    portee, sous = {}, set()
+    portee, sous, mezo = {}, set(), set()
     for r, ligne in enumerate(propres):
         for c in ligne:
             j = colonne(c)
@@ -1228,6 +1346,23 @@ def tableau(rangs, feuillet, folio):
                     portee[(a, j)] = n
                     sous.update((q, j) for q in range(a + 1, a + n))
                     continue
+            # La case que le fac-simile pose A MI-HAUTEUR entre deux
+            # rangs. En colonnes elle ne peut pas flotter : elle prend
+            # les deux rangs qu'elle chevauche et s'y centre -- ce qui
+            # la remet en face de la pointe de son accolade, laquelle
+            # couvre les memes deux rangs. Sans cela « de o ek » restait
+            # collee au rang de « maxim », un demi-interligne trop haut.
+            if c['decal']:
+                pos = r - c['decal'] / PAS_LIGNE
+                a = int(pos)
+                if abs(pos - a - 0.5) < 0.25 and 0 <= a < len(propres) - 1 \
+                        and all(not grille[q][j] and (q, j) not in sous
+                                for q in (a, a + 1)):
+                    grille[a][j].append(c['h'])
+                    portee[(a, j)] = 2
+                    mezo.add((a, j))
+                    sous.add((a + 1, j))
+                    continue
             grille[r][j].append(c['h'])
     lignes = []
     for r in range(len(propres)):
@@ -1236,20 +1371,30 @@ def tableau(rangs, feuillet, folio):
             if (r, j) in sous:
                 continue
             n = portee.get((r, j), 1)
+            kl = (['ak'] if cols[j][1] else []) \
+                + (['mez'] if (r, j) in mezo else [])
             tds.append('<td%s%s>%s</td>'
-                       % (' class="ak"' if cols[j][1] else '',
+                       % (' class="%s"' % ' '.join(kl) if kl else '',
                           ' rowspan="%d"' % n if n > 1 else '',
                           ' '.join(grille[r][j])))
         lignes.append('<tr>' + ''.join(tds) + '</tr>')
     table = '<table class="tab">' + ''.join(lignes) + '</table>'
 
+    # Le tableau que le fac-simile centre sur la justification (marque
+    # par \VUtabloCentrita, d'apres le scan) doit l'etre aussi dans une
+    # colonne dont la largeur n'est pas celle du volume : c'est le rapport
+    # a la mesure qui se transporte, non le retrait en millimetres.
+    def rendu(x):
+        return ('<div class="centrita">%s</div>' % x) if centre else x
+
     if not gs:
-        return Bloc('tab', [(feuillet, folio, table)])
+        return Bloc('tab', [(feuillet, folio, rendu(table))])
     if horizontale:
         return Bloc('tab', [(feuillet, folio,
-                             rendu_grupi(propres, gs, sola=True))])
-    return Bloc('tab', [(feuillet, folio, '<div class="larja">%s</div>%s'
-                         % (table, rendu_grupi(propres, gs)))])
+                             rendu(rendu_grupi(propres, gs, sola=True)))])
+    return Bloc('tab', [(feuillet, folio,
+                         rendu('<div class="larja">%s</div>%s'
+                               % (table, rendu_grupi(propres, gs))))])
 
 
 def table_folios(pages):
@@ -1554,6 +1699,8 @@ aside a{font-size:12.5px;color:var(--sub)}
 
 .tab{border-collapse:collapse;margin:.9em 0 .9em 1em;font-size:.97em}
 .tab td{padding:1px 10px 1px 0;vertical-align:middle}
+/* La case a cheval sur deux rangs (voir la grille) : centree entre eux. */
+.tab td.mez{vertical-align:middle}
 /* La case d'une accolade traverse les rangs qu'elle coiffe (rowspan) :
    le trace s'y cale en absolu, du haut du premier rang au bas du
    dernier -- seule maniere sure d'obtenir la hauteur exacte d'un
@@ -1575,18 +1722,48 @@ aside a{font-size:12.5px;color:var(--sub)}
    grossit assez le corps pour qu'un tableau passe encore -- il defile
    alors dans sa colonne plutot que d'en sortir. */
 .larja{max-width:100%;overflow-x:auto}
+/* Le tableau centre sur la justification. Le retrait de gauche des deux
+   rendus (1 em) cesse alors d'avoir un sens : c'est la symetrie qui
+   porte la mesure, non l'ecart au bord. */
+.centrita{display:flex;flex-direction:column;align-items:center}
+.centrita .tab{margin-left:0;margin-right:0}
+.centrita .grupi.sola{margin-left:0}
 /* Le meme tableau, dit deux fois : en colonnes pour l'ecran large, en
    groupes pour l'ecran etroit. Un seul des deux parait a la fois. */
-.grupi{display:none;text-indent:0;margin:.9em 0}
+/* Le meme garde-fou que pour les colonnes (.larja) : si malgre tout un
+   groupe passe la largeur du volet, il y defile au lieu d'en sortir. */
+.grupi{display:none;text-indent:0;margin:.9em 0;max-width:100%;
+ overflow-x:auto}
 .grupi.sola{display:block;margin-left:1em}
 .gr{display:flex;align-items:center;gap:7px;margin:.1em 0;min-width:0}
 .gr-t{flex:none}
 /* Le filet qui tenait lieu d'accolade a cede la place a l'accolade
    elle-meme : etiree par align-self:stretch sur toute la hauteur des
    membres, pointe en face du titre. */
-.gr-l{flex:1 1 auto;min-width:0;padding-left:3px}
+/* Le bloc des membres ne descend pas sous la largeur du plus large
+   d'entre eux : c'est ce qui garde « Supereso  maxim » d'un seul tenant.
+   Si le volet n'y suffit pas, c'est .grupi qui defile. */
+.gr-l{flex:1 1 auto;min-width:0}
+.gr:not(.grh)>.gr-l{min-width:min-content}
 .gr>.akol{flex:none;align-self:stretch;width:.55em;height:auto}
+/* Le groupe A ACCOLADE FERMANTE -- le folio 31 : les memes trois pieces
+   dans l'ordre inverse, membres puis accolade puis titre. Le bloc des
+   membres ne s'etire pas (flex:0 1 auto), sinon le nom serait rejete
+   contre le bord droit au lieu de suivre la pointe. */
+.gr.gd>.gr-l{flex:0 1 auto;padding-left:0;padding-right:3px}
+/* Un groupe pris dans un autre resserre ses intervalles : au folio 31
+   le groupe interieur en compte quatre -- titre, accolade, membres,
+   accolade, titre --, et a 7 px chacun ils prenaient au texte la place
+   par laquelle le « k » de « de o ek » sortait du volet. */
+.gr .gr{gap:4px}
+/* Une case de tableau ne se brise pas. Tant que le groupe le plus
+   profond du folio 31 n'avait que deux etages, la place ne manquait
+   jamais ; la fermante en ajoute un troisieme, et « Supereso maxim »
+   se coupait en deux sur un iPad -- alors que « infreso minim », d'un
+   cheveu plus court, tenait. Deux lignes de membres reglees
+   differemment ne veulent plus rien dire. */
 .gr-m,.gr-x{margin:.12em 0}
+.gr-m{white-space:nowrap}
 .ec{display:inline-block;width:.75em}
 .gr-x{text-indent:0}
 /* Le groupe A POINTE EN HAUT -- l'arbre genealogique du folio 220 :
@@ -1617,6 +1794,14 @@ aside a{font-size:12.5px;color:var(--sub)}
    toute largeur. La grille reste ce qu'elle doit etre : un supplement
    d'ecran large, jamais un pis-aller. */
 @media (max-width:1200px){.larja{display:none}.grupi{display:block}}
+/* Sur un telephone etroit le groupe le plus profond du volume -- « GRADI
+   KOMPARALA », trois etages et deux accolades -- ne tient plus dans la
+   colonne. On lui rend ce qu'on peut en resserrant les intervalles et
+   le corps ; ce qui depasse encore defile, plutot que d'etre coupe. */
+@media (max-width:420px){
+ .grupi{font-size:.93em}
+ .gr{gap:5px}.gr .gr{gap:3px}
+ .grupi .ec{width:.5em}}
 .kond{color:var(--sub);letter-spacing:.28em}
 .pk{font-variant:small-caps}
 b{font-weight:700}

@@ -339,6 +339,14 @@
 % du tableau descendait d'une ligne, en escalier. Enfermes dans une
 % boite, ils n'offrent plus aucun point de coupure.
 \newcommand{\VUrang}[1]{\hbox to \textwidth{#1\hfil}\penalty-10000\relax}
+% \VUtabloCentrita : marque le tableau qui suit comme CENTRE sur la
+% justification. Elle ne compose rien -- dans le volume les abscisses
+% sont absolues, donc le centrage y est deja fait par la mesure. Elle
+% n'existe que pour la page de lecture, ou une colonne de largeur
+% quelconque doit savoir ce que la mesure du fac-simile enonce. Elle se
+% pose d'apres le scan, jamais d'apres l'oeil : marge gauche et marge
+% droite egales, et toutes deux notables (voir les releves au folio 220).
+\newcommand{\VUtabloCentrita}{}
 % \VUdecale{hauteur}{matiere} : pour ce qui est pose entre deux lignes.
 \newcommand{\VUdecale}[2]{\raisebox{#1}[0pt][0pt]{#2}}
 % Accolades. Celles du fac-simile sont de la fonte, non un ornement :

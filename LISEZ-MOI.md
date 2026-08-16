@@ -3428,6 +3428,8 @@ ligne, haute d'une ligne. Elle est tracée par le même SVG, mais la boîte
 d'une seule ligne est trois fois moins élancée que le dessin, qui s'y
 écrase un peu.
 
+> **Levée.** Voir « L'accolade fermante du folio 31 » ci-dessous.
+
 ### Six retours d'iPad : la marge, le seuil, et deux vedettes manquantes
 
 Sixième passage de relecture, six points relevés par le commanditaire sur
@@ -4045,3 +4047,154 @@ page.
 **À passer après chaque restauration, et avant chaque livraison.** Il
 coûte une seconde. Quand un correctif s'ajoute, son témoin s'ajoute avec
 lui : c'est la seule discipline qui ait résisté à ces cinq pertes.
+
+## L'accolade fermante du folio 31
+
+Signalée sur iPad : « la petite accolade qui devrait relier *minim* et
+*maxim* à *de o ek* ne relie finalement que *maxim*, et le positionnement
+de *de o ek* est un peu difficile à lire ». Les deux défauts tiennent au
+même oubli, et le second existait aussi en colonnes.
+
+### Ce que le relevé disait déjà
+
+Le fac-similé porte quatre accolades au folio 31. Trois ouvrent à droite,
+la quatrième ferme à gauche :
+
+| accolade | abscisse | hauteur | décalage | rangs |
+| --- | --- | --- | --- | --- |
+| Komparativo | 37,68 mm | 27,2 pt | +1,23 pt | 0 – 2 |
+| relatanta | 36,83 mm | 15,7 pt | −3,71 pt | 3 – 4 |
+| Superlativo | 19,39 mm | 17,4 pt | −3,71 pt | 4 – 5 |
+| **de o ek** | **77,30 mm** | **16,6 pt** | **−6,48 pt** | **3 – 4** |
+
+16,6 pt valent 1,66 interligne, donc **deux rangs** — la mesure disait
+depuis toujours que cette accolade couvre *maxim* **et** *minim*. Ce qui
+manquait n'était pas la mesure : c'était sa lecture. `groupes()` ne
+construisait de groupe que pour `\VUaccolade` et `\VUaccoladeH` ;
+`\VUaccoladeD` ne tombait dans aucun cas et restait une accolade **en
+ligne**, haute d'un rang, posée contre le seul terme de son propre rang.
+
+### La règle, et pourquoi elle est symétrique
+
+Une ouvrante nomme à **gauche** ce qu'elle rassemble à droite ; une
+fermante fait l'inverse. C'est la même pièce retournée, et `fermantes()`
+la lit comme telle : portée par `etendue()`, titre au plus proche voisin
+**de droite**, membres à **gauche** du trait.
+
+Restait à la placer dans l'arbre. Les rangs 3 – 4 sont exactement ceux du
+groupe « relatanta » ; deux boîtes emboîtées auraient dit ce qu'une seule
+dit mieux, et le fac-similé ne montre pas deux bandes gigognes mais **une**
+bande de deux rangs, prise entre une ouvrante à gauche et une fermante à
+droite. Quand une fermante couvre exactement un groupe, elle se pose donc
+**au bout de celui-ci** plutôt que par-dessus. Le cas général — une
+fermante qui couvre plusieurs groupes, ou aucun — garde son propre étage
+(`.gr.gd`, membres puis accolade puis titre) ; il ne se présente nulle
+part dans ce volume et n'est vérifié que par deux essais montés à la main.
+
+### Le demi-interligne, en colonnes aussi
+
+`\VUdecale{-4,82 pt}` abaisse « de o ek » d'un **demi-interligne** : le
+fac-similé le pose à mi-hauteur entre deux rangs, en face de la pointe de
+son accolade. La page de lecture ignorait ce nombre depuis toujours, et
+le nom retombait sur le rang de « maxim » — un demi-interligne trop haut,
+d'où le « difficile à lire ». En colonnes une case ne peut pas flotter :
+elle prend donc les **deux rangs** qu'elle chevauche et s'y centre
+(`rowspan`, `td.mez`), ce qui la remet en face de la pointe. La règle vaut
+pour toute case ainsi décalée : « Superlativo », qui a le même défaut au
+même endroit, est corrigé du même coup.
+
+### Ce que la place a coûté
+
+Un étage de plus, c'est quatre intervalles de plus, et le tableau du
+folio 31 est le plus profond du volume. Trois réglages en découlent, tous
+mesurés plutôt que devinés :
+
+* **une case de tableau ne se brise pas** (`.gr-m{white-space:nowrap}`,
+  et un bloc de membres qui ne descend pas sous `min-content`) — sans
+  quoi « Supereso maxim » se coupait en deux quand « infreso minim »,
+  d'un cheveu plus court, tenait, ce qui ne veut plus rien dire ;
+* **les groupes emboîtés resserrent leurs intervalles** (7 px → 4 px) ;
+* sous 420 px, corps et intervalles se resserrent encore, et ce qui
+  dépasse malgré tout **défile** au lieu d'être coupé.
+
+Balayage de 360 à 1 366 px : **plus rien ne dépasse à aucune largeur**,
+alors que le « k » de « de o ek » sortait du volet de 4 px à 390 et à
+950 px — la largeur même de l'iPad d'où venait le signalement.
+
+### Un effet de bord, corrigé au passage
+
+Ce qui, sur un rang, tombe à gauche d'un groupe sans lui appartenir — le
+numéro « 28. » — se reconnaissait en le comparant à l'abscisse de
+l'**accolade**. C'était juste tant que toutes ouvraient à droite : le
+titre était alors la pièce la plus à gauche. Une fermante range ses
+membres à gauche de son trait ; les mesurer contre lui les mettait
+dehors, puis dedans — donc **deux fois**. `bord()` compare désormais à
+l'abscisse la plus à gauche que le groupe occupe réellement. Le folio 31
+en sort **identique à l'octet près** ; ce sont les deux essais montés à
+la main qui montraient le doublon.
+
+### Contrôle
+
+Le seul bloc du volume qui change est le tableau du folio 31 : 22
+fragments, dont deux cases de la version en colonnes. Cinq témoins
+s'ajoutent (44 en tout).
+
+## Les deux schémas du folio 220, centrés sur la justification
+
+Demandé : que le « dots table » soit centré sur la page HTML. Il l'était
+déjà dans le volume — mais pour une raison qui ne se transporte pas
+telle quelle.
+
+### Ce que le scan dit
+
+Relevé sur `scan/r0224.png`, bloc de texte x 41 – 1123, justification
+1082 px :
+
+| bande | marge gauche | marge droite | écart |
+| --- | --- | --- | --- |
+| schéma à points | 449 px (41,5 %) | 458 px (42,3 %) | 9 px |
+| « Ludovikus » | 449 px (41,5 %) | 450 px (41,6 %) | 1 px |
+| accolade horizontale | 270 px (25,0 %) | 274 px (25,3 %) | 4 px |
+| *(ligne de texte pleine)* | 0 px | 1 px | 1 px |
+
+Les deux schémas sont donc centrés, à un pixel près pour l'arbre, à neuf
+sur 1 082 pour les points. Le tableau du folio 31, lui, ne l'est pas :
+ses marges sont nulles, il **remplit** la mesure. La différence est
+mesurable, et c'est elle qui décide — non l'allure.
+
+### Pourquoi le volume n'avait rien à corriger
+
+Dans le volume les abscisses sont **absolues** : `\VUcase{38,10 mm}` pose
+le premier point à 38,10 mm du bord du bloc, et comme la mesure fait
+91,69 mm le centrage en découle. Rien à faire, donc, du côté du PDF.
+
+Sur la page de lecture la colonne n'a **pas** la largeur du volume : elle
+varie de 324 à 692 px selon l'appareil. Un retrait de 38,10 mm converti
+en pourcentage y donnerait n'importe quoi, et le retrait fixe de 1 em des
+deux rendus collait les schémas à gauche. **Ce qui se transporte d'une
+mesure à l'autre, c'est le rapport — ici la symétrie**, non l'écart au
+bord.
+
+### La marque
+
+`\VUtabloCentrita` précède les rangs. Elle ne compose rien — elle est
+définie comme vide, et le volume sort **identique** (236 pages, 0 erreur).
+Elle n'existe que pour dire à la page de lecture ce que la mesure du
+fac-similé énonce. Elle se pose d'après le scan, jamais d'après l'œil :
+marges gauche et droite égales, et **toutes deux notables** — sans cette
+seconde condition, un bloc qui remplit la mesure (marges nulles, donc
+égales) serait déclaré centré, et le folio 31 aurait basculé avec.
+
+Le rendu suit les deux sorties, colonnes et groupes : à 390, 950 et
+1 500 px, les deux schémas ont désormais **exactement** la même marge de
+part et d'autre. Le seul changement dans le corps de la page est
+l'ajout de deux `<div class="centrita">` ; les 1 726 autres blocs sont
+identiques à l'octet près.
+
+### Livraison
+
+À partir d'ici l'archive est un **ZIP**, et `gramatiko.pdf` s'y trouve à
+la racine. `outils/arkivo.py` la fabrique, pour que le format ne dépende
+pas de ce dont je me souviens :
+
+    python3 outils/arkivo.py        # verifie les temoins, puis ecrit le ZIP
