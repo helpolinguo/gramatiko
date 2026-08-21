@@ -503,12 +503,14 @@ def est_phrase(t):
 
 
 def vedette(h):
-    """(texte de la vedette, offset apres la tete detachee).
+    """(texte de la vedette, offset apres la tete detachee, tete en gras).
 
-    Rend (None, -1) quand l'alinea n'en porte pas. L'offset sert au
-    bouton en chaine : il se pose contre la tete ENTIERE, non apres son
-    premier morceau -- sans quoi il se glisserait entre le « e » et le
-    « o » du folio 11.
+    Rend (None, -1, False) quand l'alinea n'en porte pas. L'offset sert
+    au bouton en chaine : il se pose contre la tete ENTIERE, non apres
+    son premier morceau -- sans quoi il se glisserait entre le « e » et
+    le « o » du folio 11. Le troisieme rang dit si le fac-simile a
+    compose la tete EN GRAS ; c'est ce qui separe le mot cite du titre
+    de rubrique (voir 3 ter).
     """
     i = 0
     m = FOLIO_TETE.match(h)
@@ -530,7 +532,7 @@ def vedette(h):
         if m:
             break
     else:
-        return None, -1
+        return None, -1, False
     bouts, fin = [m.group(1)], m.end()
     # LA TETE EST CE QUE LE FAC-SIMILE A COMPOSE D'UN SEUL TENANT, non
     # ce que le releve a coupe en bouts. Deux passages de meme graisse ne
@@ -553,91 +555,117 @@ def vedette(h):
             break
     t = texte_nu(''.join(bouts))
     if not t:
-        return None, -1
+        return None, -1, False
     # 2. La marque de definition portee par la tete elle-meme.
     coupee = False
     m = COUPE_DEF.search(t)
     if m:
         avant, apres = t[:m.start()].strip(), t[m.end():].strip()
         if not est_phrase(apres) or not avant:
-            return None, -1
+            return None, -1, False
         t, coupee = avant, True
     # 3. Une vedette est courte.
     if len(t) > VEDETTE_SIGNES or len(t.split()) > VEDETTE_MOTS:
-        return None, -1
+        return None, -1, False
     # 4. Une vedette n'est pas une phrase.
     if est_phrase(t):
-        return None, -1
+        return None, -1, False
     # 5. Hors du gras, il faut la marque -- sauf si la tete portait deja
     #    la sienne, auquel cas elle est prouvee.
     if not seule and not coupee:
         suite = desechappe(re.sub(r'<[^>]+>', '', h[fin:]))
         if not MARQUE_DEF.match(suite):
-            return None, -1
-    return t, fin
+            return None, -1, False
+    return t, fin, seule
 
 
 # ------------------------------------------------------------------
 # 3 ter. LA CASSE DE LA VEDETTE
 # ------------------------------------------------------------------
-# LA MAJUSCULE DU FAC-SIMILE N'EST PAS CELLE DU MOT, C'EST CELLE DE
-# L'ALINEA. Le volume compose ses entrees au fil du texte : celle qui
-# ouvre un alinea prend la capitale de phrase, celles qui suivent dans
-# le meme alinea gardent leur minuscule. Le mot, lui, n'a pas change.
+# DEUX CLASSES D'ENTREES, ET UNE CASSE POUR CHACUNE.
 #
-# Le volet n'est pas le texte : c'est une LISTE DE MOTS -- il s'intitule
-# « Chefa vorti dil chapitro » --, et il rangeait cote a cote les deux
-# casses du meme volume. Trois preuves, prises au releve :
+# 1. LE MOT CITE -- « ube », « anti- », « -ul », « kam ». L'entree EST
+#    la forme de l'ido dont l'article traite ; sa casse est celle du
+#    mot. LA MAJUSCULE DU FAC-SIMILE N'EST PAS CELLE DU MOT, C'EST
+#    CELLE DE L'ALINEA : le volume compose ses entrees au fil du texte,
+#    celle qui ouvre un alinea prend la capitale de phrase, celles qui
+#    suivent gardent leur minuscule. Le mot, lui, n'a pas change.
+#    Trois preuves, prises au releve :
 #
-#   -- folio 12, les consonnes. L'article de la premiere est numerote
-#      (« 3. --- B = b en l'Italiana »), les vingt-et-un autres ne le
-#      sont pas : le volet listait « B, c, d, f, g, h... ». Une seule
-#      capitale, et c'est la lettre qui la porte.
-#   -- folio 62-63, les adverbes de lieu. « Interne » ouvre son alinea,
-#      « extere, supre, infre, avane, dope, latere, dextre, sinistre,
-#      proxime, fore, cirkume » suivent le leur : une capitale pour onze
-#      minuscules, dans UNE SEULE enumeration du fac-simile.
-#   -- le meme mot, deux fois, dans les deux casses. « antea pasinto »
-#      au folio 48 et « Antea pasinto » au folio 49 ; « des- » au folio
-#      124 et « Des- » au folio 125. Rien ne les distingue que la place
-#      dans l'alinea.
+#      -- folio 12, les consonnes. L'article de la premiere est
+#         numerote (« 3. --- B = b en l'Italiana »), les vingt-et-un
+#         autres ne le sont pas : le volet listait « B, c, d, f, g,
+#         h... ». Une seule capitale, et c'est la lettre qui la porte.
+#      -- folios 62-63, les adverbes de lieu. « Interne » ouvre son
+#         alinea, « extere, supre, infre, avane, dope, latere, dextre,
+#         sinistre, proxime, fore, cirkume » suivent le leur : une
+#         capitale pour onze minuscules, dans UNE SEULE enumeration.
+#      -- le meme mot, deux fois, dans les deux casses : « des- » au
+#         folio 124 et « Des- » au folio 125. Rien ne les distingue que
+#         la place dans l'alinea.
 #
-# La vedette est donc rendue a la casse du MOT. Chacun de ses mots
-# commence par une minuscule, sauf le nom propre -- que le volume ecrit
-# avec sa capitale ou qu'il le pose. Le releve n'en porte que cinq, et
-# la liste se verifie : de 235 vedettes capitalisees, 18 seulement ne
-# sont JAMAIS attestees en minuscule ailleurs dans le volume, et 16 de
-# ces 18 sont des mots communs dont l'unique emploi est la vedette
-# elle-meme (« Tarde », « Posmorge », « Puntaro »...). Restent ces cinq.
+#    Ces entrees passent donc en minuscule, mot par mot -- « Seko di la
+#    Vorti » n'aurait rien gagne a garder sa capitale du milieu --,
+#    SAUF LE NOM PROPRE. Le releve n'en porte que cinq, et la liste se
+#    verifie : de 235 vedettes capitalisees, 18 seulement ne sont
+#    JAMAIS attestees en minuscule ailleurs dans le volume, et 16 de
+#    ces 18 sont des mots communs dont l'unique emploi est la vedette
+#    elle-meme (« Tarde », « Posmorge », « Puntaro »...).
 #
-# CE QUI NE BOUGE PAS. Les ADRESSES : `ardoise()` passe deja tout en
-# minuscules, `#pronunco-dil-konsonanti-e-digrami-b` etait deja ce qu'il
-# est. Aucun lien depose, aucun signet, aucun renvoi de note ne change.
-# Et LE TEXTE moins encore : le corps de la page reste la lettre du
-# fac-simile, capitale d'alinea comprise. Seul change ce que l'outil
-# FABRIQUE -- l'intitule du volet, son infobulle, et le libelle du
-# bouton en chaine.
+# 2. LE TITRE DE RUBRIQUE -- « Punto », « Indikativo prezenta »,
+#    « Adverbi di quanteso », « Remarki ». L'entree ne cite rien : elle
+#    NOMME ce dont l'article traite, en metalangue. Un titre porte la
+#    capitale, et il la garde.
+#
+# CE QUI SEPARE LES DEUX : LA GRAISSE. Le volume reserve le gras aux
+# formes de l'ido -- c'est deja ce que dit la regle 5 de `vedette()` --
+# et compose en ITALIQUE ou en PETITES CAPITALES ce qui n'est pas cite
+# mais nomme : les seize articles de PUNTIZADO, le paradigme de VERBO,
+# les topiques de VORTORDINO. Les 38 entrees ainsi composees sont
+# toutes des titres, sans exception.
+#
+# CE QUE LA REGLE NE LIT PAS, ET QU'ON NOMME PLUTOT QUE DE LE TAIRE :
+# six titres que le fac-simile compose EN GRAS, a la place et sous la
+# forme exactes d'un mot cite -- « Radiki. --- Li esas verbala o
+# nomala » ne se distingue en rien de « anti. --- Ta prefixo esis
+# l'objekto di la decido ». Aucune marque mecanique ne les separe ; on
+# les nomme donc un par un.
+RUBRIKI_GRASA = {
+    'La plaso dil komplemento di irga prepoziciono',
+    'Radiki.', 'Dezinenci.', 'Konsequo.', 'Praktikal moyeno.',
+    'Konsequi.',
+}
 NOMI_PROPRA = {'Europa', 'Afrika', 'Amerika', 'Azia', 'Usa'}
-# La regle vaut pour CHAQUE mot de la vedette, non pour le seul premier :
-# le fac-simile compose « Seko di la Vorti » (folio 220), capitale au
-# milieu du titre, et la laisser seule dans un volet en minuscules ne
-# ferait que deplacer l'inegalite. Ce qui borne un mot : l'espace et la
-# ponctuation de liste. Le point est du lot -- « Radiki. » se lit
-# « Radiki » --, et le tiret n'y est pas : « Duadek-e-ok » est un mot.
+# Ce qui borne un mot : l'espace et la ponctuation de liste. Le point
+# est du lot -- « Radiki. » se lit « Radiki » --, et le tiret n'y est
+# pas : « Duadek-e-ok » est un mot.
 MOT_VEDETTE = re.compile(r'[^\s,;:.()\[\]\u00ab\u00bb]+')
 
 
-def casse_vedette(t):
-    """La vedette rendue a la casse du mot, non a celle de l'alinea."""
+def casse_vedette(t, gras):
+    """La casse de la classe : celle du mot, ou celle d'un titre.
+
+    Le titre de rubrique prend la capitale et la garde -- le volume la
+    lui donne partout, sauf aux quatre lignes du folio 48 qu'il ecrit
+    en bas de casse et que le folio 49 reprend en capitale (« antea
+    pasinto » / « Antea pasinto ») : une entree du volet ne peut pas
+    dependre de la place d'un alinea, ni le meme titre y paraitre deux
+    fois de deux facons.
+    """
+    if not t:
+        return t
+    if not gras or t in RUBRIKI_GRASA:
+        return t[:1].upper() + t[1:]
+
     def bas(m):
         mot = m.group(0)
         if mot in NOMI_PROPRA:
             return mot
         return mot[:1].lower() + mot[1:]
-    return MOT_VEDETTE.sub(bas, t) if t else t
+
+    return MOT_VEDETTE.sub(bas, t)
 
 
-# ------------------------------------------------------------------
 # 4. LE PARCOURS DU RELEVE
 # ------------------------------------------------------------------
 # Macros de bloc dont l'argument est jete : elles ne posent que du blanc,
@@ -734,7 +762,8 @@ class Releve(object):
             return
         self.suite = False
         b = Bloc('p', frags)
-        b.ved = casse_vedette(vedette(frags[0][2])[0])
+        t, _, gras = vedette(frags[0][2])
+        b.ved = casse_vedette(t, gras)
         self.blocs.append(b)
 
     # -- tableaux ---------------------------------------------------

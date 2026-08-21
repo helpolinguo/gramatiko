@@ -4351,15 +4351,15 @@ bloc de membres ne s'étire plus. L'accolade suit le dernier membre à
 déborde. Un seul fragment change dans le corps de la page : une classe.
 Un témoin s'ajoute (51 en tout).
 
-## La casse des « chefa vorti » : celle du mot, non celle de l'alinéa
+## La casse des « chefa vorti » : deux classes d'entrées, une casse pour chacune
 
-Le volet de droite listait côte à côte les deux casses du même volume :
+Le volet de droite rangeait côte à côte les deux casses du même volume :
 `B, c, d, f, g, h…` pour les consonnes, `Interne` suivi de `extere,
 supre, infre, avane…` pour les adverbes de lieu. Sur 386 vedettes, **235
 portaient une capitale**, 90 une minuscule, 61 commençaient par un tiret
 ou une parenthèse (`-ul`, `-ez`, `O(d)… o(d)`).
 
-### La capitale du fac-similé n'est pas celle du mot
+### 1. Le mot cité : la capitale du fac-similé n'est pas la sienne
 
 Elle est celle de l'**alinéa**. Le volume compose ses entrées au fil du
 texte : celle qui ouvre un alinéa prend la capitale de phrase, celles qui
@@ -4370,57 +4370,69 @@ changé. Trois preuves prises au relevé :
 | --- | --- |
 | `B`, puis `c`, `d`, `f`, `g`… | folio 12 : l'article de la première consonne est **numéroté** (« 3. — **B** = *b* en l'Italiana »), les vingt-et-un autres ne le sont pas |
 | `Interne`, puis `extere`, `supre`, `infre`… | folios 62-63 : **une seule énumération**, une capitale pour onze minuscules — `Interne` ouvre son alinéa, les onze autres suivent le leur |
-| `antea pasinto` **et** `Antea pasinto` ; `des-` **et** `Des-` | folios 48/49 et 124/125 : **le même mot, deux fois, dans les deux casses**. Rien ne les distingue que la place dans l'alinéa |
+| `des-` **et** `Des-` | folios 124 et 125 : **le même morphème, deux fois, dans les deux casses**. Rien ne les distingue que la place dans l'alinéa |
 
-Le volet n'est pas le texte : c'est une **liste de mots** — il s'intitule
-« Chefa vorti dil chapitro ». Il range donc désormais ses entrées à la
-casse du mot : minuscule initiale, **sauf le nom propre**.
+Ces entrées passent donc à la casse du mot, **mot par mot** — `Seko di la
+Vorti` n'aurait rien gagné à garder la capitale de son milieu —, **sauf
+le nom propre** : `NOMI_PROPRA = {Europa, Afrika, Amerika, Azia, Usa}`.
 
-### Les cinq noms propres, et comment la liste se vérifie
+La liste ne se juge pas mot à mot, elle se contrôle sur le volume
+entier : des 235 vedettes capitalisées, **18 seulement ne sont jamais
+attestées en minuscule ailleurs dans le texte** ; et sur ces 18, **16
+sont des mots communs dont l'unique emploi du volume est la vedette
+elle-même** — `Tarde`, `Posmorge`, `Ulube`, `Irgequale`, `Konsente`,
+`Puntaro`, `Klamo-punto`… Restent `Europa, Afrika, Amerika, Azia` (folio
+25) et `Usa` (folio 26). Le contrôle est rejouable : recomposer le volume
+et recompter suffit à savoir si la liste doit s'allonger.
 
-`NOMI_PROPRA = {Europa, Afrika, Amerika, Azia, Usa}`. La liste n'est pas
-un jugement porté mot à mot : elle se contrôle sur le volume entier. Des
-235 vedettes capitalisées, **18 seulement ne sont jamais attestées en
-minuscule ailleurs dans le texte** ; et sur ces 18, **16 sont des mots
-communs dont l'unique emploi du volume est la vedette elle-même** —
-`Tarde`, `Posmorge`, `Ulube`, `Irgequale`, `Konsente`, `Puntaro`,
-`Klamo-punto`… Restent `Europa, Afrika, Amerika, Azia` (folio 25) et
-`Usa` (folio 26). Le contrôle est rejouable : recomposer le volume et
-recompter suffit à savoir si la liste doit s'allonger.
+### 2. Le titre de rubrique : il porte la capitale, et il la garde
 
-La règle vaut pour **chaque mot** de la vedette, non pour le seul
-premier : `Seko di la Vorti` (folio 220) porte une capitale au milieu du
-titre, et l'y laisser seule dans un volet en minuscules n'aurait fait que
-déplacer l'inégalité — le volet lit `seko di la vorti`, le corps de la
-page garde la lettre du fac-similé. `Europa, Afrika, Amerika, Azia` garde
-au contraire ses quatre capitales : chaque mot est jugé pour lui-même.
+`Punto`, `Komo`, `Bi-punto` (PUNTIZADO), `Indikativo prezenta` et le
+paradigme de VERBO, `Adverbi di quanteso`, `Prepozicioni kun verbi`,
+`Direta questioni`, `Remarki` : ces entrées ne **citent** rien, elles
+**nomment** ce dont l'article traite, en métalangue. Un titre porte la
+capitale. **44 vedettes** sont de cette classe.
+
+**Ce qui sépare les deux classes, c'est la graisse.** Le volume réserve
+le gras aux formes de l'ido — c'est déjà ce que dit la règle 5 de
+`vedette()`, à laquelle les entrées en italique doivent une marque de
+définition pour être lues — et compose en **italique** ou en **petites
+capitales** ce qu'il ne cite pas mais nomme. Les **38 entrées ainsi
+composées sont toutes des titres, sans exception**. `vedette()` rend donc
+un troisième rang, la graisse de la tête, et `casse_vedette()` s'y règle.
+
+**Ce que la règle ne lit pas, et qu'on nomme plutôt que de le taire** :
+**six titres que le fac-similé compose en gras**, à la place et sous la
+forme exactes d'un mot cité — `Radiki. — Li esas verbala o nomala` ne se
+distingue en rien de `anti. — Ta prefixo esis l'objekto di la decido`.
+Aucune marque mécanique ne les sépare ; ils sont donc nommés un par un
+dans `RUBRIKI_GRASA` : `La plaso dil komplemento di irga prepoziciono`,
+`Radiki.`, `Dezinenci.`, `Konsequo.`, `Praktikal moyeno.`, `Konsequi.`
+
+**Un titre reçoit sa capitale même là où le fac-similé ne la lui donne
+pas.** Le folio 48 écrit `antea pasinto, antea futuro, antea
+kondicionalo, antea volitivo` en bas de casse, et le folio 49 reprend les
+quatre mêmes titres en capitale : c'est encore la place dans l'alinéa qui
+décide. Le volet ne peut pas faire dépendre une entrée de cet accident,
+ni afficher deux fois le même titre de deux façons — il lit `Antea
+pasinto` aux deux folios.
 
 ### Ce qui ne bouge pas : les adresses et le texte
 
-* **Les 856 ancres sont identiques, une à une.** `ardoise()` passait
-  déjà tout en minuscules : `#pronunco-dil-konsonanti-e-digrami-b` était
-  déjà ce qu'il est. Aucun lien déposé, aucun signet, aucun renvoi ne
-  change — ce qui est la raison pour laquelle ce correctif pouvait être
-  fait tard.
+* **Les 856 ancres sont identiques, une à une.** `ardoise()` passait déjà
+  tout en minuscules : `#pronunco-dil-konsonanti-e-digrami-b` était déjà
+  ce qu'il est. Aucun lien déposé, aucun signet, aucun renvoi ne change —
+  ce qui est la raison pour laquelle ce correctif pouvait être fait tard.
 * **Le corps de la page est octet pour octet le même.** La lettre du
   fac-similé n'est jamais corrigée, capitale d'alinéa comprise. Ne
-  changent que les **233 intitulés du volet** (et leurs infobulles) et
-  les **233 libellés `aria-label`** du bouton en chaîne, qui nomment
-  l'entrée à copier. Le diff de `index.html` ne contient rien d'autre.
+  changent que les **197 intitulés du volet** (et leurs infobulles) et
+  les **197 libellés `aria-label`** du bouton en chaîne, qui nomment
+  l'entrée à copier. Le diff de `index.html` ne contient rien d'autre,
+  vérifié balise par balise.
 
-### Le choix qui reste discutable, et il est dit
+Après correctif, **46 vedettes portent une capitale** : les 44 titres de
+rubrique, et les deux entrées de noms propres.
 
-Une quarantaine d'entrées ne sont pas des mots cités mais des **titres de
-rubrique** : `Punto`, `Komo`, `Bi-punto`… (PUNTIZADO, en italique),
-`Indikativo prezenta` et le paradigme de VERBO, `Adverbi di quanteso`,
-`Direta questioni`, `La plaso dil komplemento di irga prepoziciono`. Elles
-passent à la minuscule comme le reste, pour deux raisons : le volet est
-annoncé comme une liste de mots, et **les épargner rendrait à PUNTIZADO
-et à VERBO un chapitre entier de capitales au milieu d'un volet en
-minuscules** — c'est-à-dire exactement l'inégalité qu'on corrige. Le
-fac-similé, du reste, ne les traite pas autrement : `antea pasinto` et
-`Antea pasinto` sont deux rubriques du même paradigme, à une page
-d'intervalle.
-
-Deux témoins s'ajoutent — la règle (`casse_vedette`) et la liste qui
-l'excepte (`NOMI_PROPRA`) —, **53 en tout**.
+Quatre témoins s'ajoutent — la règle, la graisse rendue par `vedette()`,
+la liste des noms propres, celle des six titres composés en gras —,
+**55 en tout**.
