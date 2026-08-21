@@ -4350,3 +4350,77 @@ bloc de membres ne s'étire plus. L'accolade suit le dernier membre à
 1–3 px près, à **toutes** les largeurs de 360 à 1 200 px, et rien ne
 déborde. Un seul fragment change dans le corps de la page : une classe.
 Un témoin s'ajoute (51 en tout).
+
+## La casse des « chefa vorti » : celle du mot, non celle de l'alinéa
+
+Le volet de droite listait côte à côte les deux casses du même volume :
+`B, c, d, f, g, h…` pour les consonnes, `Interne` suivi de `extere,
+supre, infre, avane…` pour les adverbes de lieu. Sur 386 vedettes, **235
+portaient une capitale**, 90 une minuscule, 61 commençaient par un tiret
+ou une parenthèse (`-ul`, `-ez`, `O(d)… o(d)`).
+
+### La capitale du fac-similé n'est pas celle du mot
+
+Elle est celle de l'**alinéa**. Le volume compose ses entrées au fil du
+texte : celle qui ouvre un alinéa prend la capitale de phrase, celles qui
+suivent dans le même alinéa gardent leur minuscule. Le mot, lui, n'a pas
+changé. Trois preuves prises au relevé :
+
+| ce qu'on lit au volet | ce que fait le fac-similé |
+| --- | --- |
+| `B`, puis `c`, `d`, `f`, `g`… | folio 12 : l'article de la première consonne est **numéroté** (« 3. — **B** = *b* en l'Italiana »), les vingt-et-un autres ne le sont pas |
+| `Interne`, puis `extere`, `supre`, `infre`… | folios 62-63 : **une seule énumération**, une capitale pour onze minuscules — `Interne` ouvre son alinéa, les onze autres suivent le leur |
+| `antea pasinto` **et** `Antea pasinto` ; `des-` **et** `Des-` | folios 48/49 et 124/125 : **le même mot, deux fois, dans les deux casses**. Rien ne les distingue que la place dans l'alinéa |
+
+Le volet n'est pas le texte : c'est une **liste de mots** — il s'intitule
+« Chefa vorti dil chapitro ». Il range donc désormais ses entrées à la
+casse du mot : minuscule initiale, **sauf le nom propre**.
+
+### Les cinq noms propres, et comment la liste se vérifie
+
+`NOMI_PROPRA = {Europa, Afrika, Amerika, Azia, Usa}`. La liste n'est pas
+un jugement porté mot à mot : elle se contrôle sur le volume entier. Des
+235 vedettes capitalisées, **18 seulement ne sont jamais attestées en
+minuscule ailleurs dans le texte** ; et sur ces 18, **16 sont des mots
+communs dont l'unique emploi du volume est la vedette elle-même** —
+`Tarde`, `Posmorge`, `Ulube`, `Irgequale`, `Konsente`, `Puntaro`,
+`Klamo-punto`… Restent `Europa, Afrika, Amerika, Azia` (folio 25) et
+`Usa` (folio 26). Le contrôle est rejouable : recomposer le volume et
+recompter suffit à savoir si la liste doit s'allonger.
+
+La règle vaut pour **chaque mot** de la vedette, non pour le seul
+premier : `Seko di la Vorti` (folio 220) porte une capitale au milieu du
+titre, et l'y laisser seule dans un volet en minuscules n'aurait fait que
+déplacer l'inégalité — le volet lit `seko di la vorti`, le corps de la
+page garde la lettre du fac-similé. `Europa, Afrika, Amerika, Azia` garde
+au contraire ses quatre capitales : chaque mot est jugé pour lui-même.
+
+### Ce qui ne bouge pas : les adresses et le texte
+
+* **Les 856 ancres sont identiques, une à une.** `ardoise()` passait
+  déjà tout en minuscules : `#pronunco-dil-konsonanti-e-digrami-b` était
+  déjà ce qu'il est. Aucun lien déposé, aucun signet, aucun renvoi ne
+  change — ce qui est la raison pour laquelle ce correctif pouvait être
+  fait tard.
+* **Le corps de la page est octet pour octet le même.** La lettre du
+  fac-similé n'est jamais corrigée, capitale d'alinéa comprise. Ne
+  changent que les **233 intitulés du volet** (et leurs infobulles) et
+  les **233 libellés `aria-label`** du bouton en chaîne, qui nomment
+  l'entrée à copier. Le diff de `index.html` ne contient rien d'autre.
+
+### Le choix qui reste discutable, et il est dit
+
+Une quarantaine d'entrées ne sont pas des mots cités mais des **titres de
+rubrique** : `Punto`, `Komo`, `Bi-punto`… (PUNTIZADO, en italique),
+`Indikativo prezenta` et le paradigme de VERBO, `Adverbi di quanteso`,
+`Direta questioni`, `La plaso dil komplemento di irga prepoziciono`. Elles
+passent à la minuscule comme le reste, pour deux raisons : le volet est
+annoncé comme une liste de mots, et **les épargner rendrait à PUNTIZADO
+et à VERBO un chapitre entier de capitales au milieu d'un volet en
+minuscules** — c'est-à-dire exactement l'inégalité qu'on corrige. Le
+fac-similé, du reste, ne les traite pas autrement : `antea pasinto` et
+`Antea pasinto` sont deux rubriques du même paradigme, à une page
+d'intervalle.
+
+Deux témoins s'ajoutent — la règle (`casse_vedette`) et la liste qui
+l'excepte (`NOMI_PROPRA`) —, **53 en tout**.
