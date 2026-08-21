@@ -107,16 +107,22 @@ T = [
   'COUPE_DEF', 2),
  ('page : ancre raccourcie rattrapee', 'outils/html.py',
   "if(id.indexOf(x+'-')===0", 1),
- # La casse de la vedette est celle du MOT, non celle de l'alinea : le
- # fac-simile capitalise l'entree qui OUVRE un alinea et laisse en
- # minuscule celles qui suivent (« Interne » folio 62, « extere, supre,
- # infre... » folio 63). Le volet est une liste de mots ; il les range
- # donc a la casse du mot, les cinq noms propres exceptes. Deux temoins :
- # la regle, et la liste qui l'excepte.
+ # DEUX CLASSES D'ENTREES, ET UNE CASSE POUR CHACUNE. Le mot cite prend
+ # la casse du mot -- le fac-simile capitalise l'entree qui OUVRE un
+ # alinea et laisse en minuscule celles qui suivent (« Interne » folio
+ # 62, « extere, supre, infre... » folio 63) --, les cinq noms propres
+ # exceptes ; le titre de rubrique garde sa capitale. La graisse les
+ # separe : le gras cite, l'italique et les petites capitales nomment.
+ # Quatre temoins : la regle, la graisse rendue par `vedette()`, la
+ # liste des noms propres, celle des six titres composes en gras.
  ('page : vedette a la casse du mot', 'outils/html.py',
   'casse_vedette', 3),
+ ('page : graisse de la tete rendue', 'outils/html.py',
+  'return t, fin, seule', 1),
  ('page : noms propres capitalises', 'outils/html.py',
   "NOMI_PROPRA = {'Europa'", 1),
+ ('page : titres de rubrique en gras', 'outils/html.py',
+  'RUBRIKI_GRASA', 2),
  ('publication : .nojekyll', '.nojekyll', None, 0),
 ]
 TAILLES = [('ornamenti/portreto-3.png', 724, 1066),
