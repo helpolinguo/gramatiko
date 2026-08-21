@@ -107,6 +107,16 @@ T = [
   'COUPE_DEF', 2),
  ('page : ancre raccourcie rattrapee', 'outils/html.py',
   "if(id.indexOf(x+'-')===0", 1),
+ # La casse de la vedette est celle du MOT, non celle de l'alinea : le
+ # fac-simile capitalise l'entree qui OUVRE un alinea et laisse en
+ # minuscule celles qui suivent (« Interne » folio 62, « extere, supre,
+ # infre... » folio 63). Le volet est une liste de mots ; il les range
+ # donc a la casse du mot, les cinq noms propres exceptes. Deux temoins :
+ # la regle, et la liste qui l'excepte.
+ ('page : vedette a la casse du mot', 'outils/html.py',
+  'casse_vedette', 3),
+ ('page : noms propres capitalises', 'outils/html.py',
+  "NOMI_PROPRA = {'Europa'", 1),
  ('publication : .nojekyll', '.nojekyll', None, 0),
 ]
 TAILLES = [('ornamenti/portreto-3.png', 724, 1066),

@@ -71,7 +71,8 @@ PORTRAIT_TITRE = 'Portreto dil autoro'
 # remet, avec leur folio 224 et le renvoi au PDF qui va avec.
 ADDENDUM_FEUILLET = 228
 ADDENDUM_CHAPITRE = 'PREPOZICIONI.'
-ADDENDUM_VEDETTE = 'Til'
+# La vedette telle que `casse_vedette` la pose : en minuscule.
+ADDENDUM_VEDETTE = 'til'
 # L'avis au lecteur. Une page qui deplace du texte doit le dire ; on le
 # dit en ido, et entre crochets, comme toute intervention d'editeur.
 ADDENDUM_AVIS = (
@@ -577,6 +578,66 @@ def vedette(h):
 
 
 # ------------------------------------------------------------------
+# 3 ter. LA CASSE DE LA VEDETTE
+# ------------------------------------------------------------------
+# LA MAJUSCULE DU FAC-SIMILE N'EST PAS CELLE DU MOT, C'EST CELLE DE
+# L'ALINEA. Le volume compose ses entrees au fil du texte : celle qui
+# ouvre un alinea prend la capitale de phrase, celles qui suivent dans
+# le meme alinea gardent leur minuscule. Le mot, lui, n'a pas change.
+#
+# Le volet n'est pas le texte : c'est une LISTE DE MOTS -- il s'intitule
+# « Chefa vorti dil chapitro » --, et il rangeait cote a cote les deux
+# casses du meme volume. Trois preuves, prises au releve :
+#
+#   -- folio 12, les consonnes. L'article de la premiere est numerote
+#      (« 3. --- B = b en l'Italiana »), les vingt-et-un autres ne le
+#      sont pas : le volet listait « B, c, d, f, g, h... ». Une seule
+#      capitale, et c'est la lettre qui la porte.
+#   -- folio 62-63, les adverbes de lieu. « Interne » ouvre son alinea,
+#      « extere, supre, infre, avane, dope, latere, dextre, sinistre,
+#      proxime, fore, cirkume » suivent le leur : une capitale pour onze
+#      minuscules, dans UNE SEULE enumeration du fac-simile.
+#   -- le meme mot, deux fois, dans les deux casses. « antea pasinto »
+#      au folio 48 et « Antea pasinto » au folio 49 ; « des- » au folio
+#      124 et « Des- » au folio 125. Rien ne les distingue que la place
+#      dans l'alinea.
+#
+# La vedette est donc rendue a la casse du MOT. Chacun de ses mots
+# commence par une minuscule, sauf le nom propre -- que le volume ecrit
+# avec sa capitale ou qu'il le pose. Le releve n'en porte que cinq, et
+# la liste se verifie : de 235 vedettes capitalisees, 18 seulement ne
+# sont JAMAIS attestees en minuscule ailleurs dans le volume, et 16 de
+# ces 18 sont des mots communs dont l'unique emploi est la vedette
+# elle-meme (« Tarde », « Posmorge », « Puntaro »...). Restent ces cinq.
+#
+# CE QUI NE BOUGE PAS. Les ADRESSES : `ardoise()` passe deja tout en
+# minuscules, `#pronunco-dil-konsonanti-e-digrami-b` etait deja ce qu'il
+# est. Aucun lien depose, aucun signet, aucun renvoi de note ne change.
+# Et LE TEXTE moins encore : le corps de la page reste la lettre du
+# fac-simile, capitale d'alinea comprise. Seul change ce que l'outil
+# FABRIQUE -- l'intitule du volet, son infobulle, et le libelle du
+# bouton en chaine.
+NOMI_PROPRA = {'Europa', 'Afrika', 'Amerika', 'Azia', 'Usa'}
+# La regle vaut pour CHAQUE mot de la vedette, non pour le seul premier :
+# le fac-simile compose « Seko di la Vorti » (folio 220), capitale au
+# milieu du titre, et la laisser seule dans un volet en minuscules ne
+# ferait que deplacer l'inegalite. Ce qui borne un mot : l'espace et la
+# ponctuation de liste. Le point est du lot -- « Radiki. » se lit
+# « Radiki » --, et le tiret n'y est pas : « Duadek-e-ok » est un mot.
+MOT_VEDETTE = re.compile(r'[^\s,;:.()\[\]\u00ab\u00bb]+')
+
+
+def casse_vedette(t):
+    """La vedette rendue a la casse du mot, non a celle de l'alinea."""
+    def bas(m):
+        mot = m.group(0)
+        if mot in NOMI_PROPRA:
+            return mot
+        return mot[:1].lower() + mot[1:]
+    return MOT_VEDETTE.sub(bas, t) if t else t
+
+
+# ------------------------------------------------------------------
 # 4. LE PARCOURS DU RELEVE
 # ------------------------------------------------------------------
 # Macros de bloc dont l'argument est jete : elles ne posent que du blanc,
@@ -673,7 +734,7 @@ class Releve(object):
             return
         self.suite = False
         b = Bloc('p', frags)
-        b.ved = vedette(frags[0][2])[0]
+        b.ved = casse_vedette(vedette(frags[0][2])[0])
         self.blocs.append(b)
 
     # -- tableaux ---------------------------------------------------
