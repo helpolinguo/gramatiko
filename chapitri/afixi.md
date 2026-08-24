@@ -1,0 +1,18 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# AFIXI
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+La afixi esas partikuli, elementi tre kurta, quin on uzas por modifikar la koncepto expresata dal radiko. Exemple, en **bo-frat-in-o** la partikuli *bo*, *in* esas afixi e modifikas la koncepto **frat.**
+
+Se li unionesas a la radiko avane (quale *bo*) on nomizas li *prefixi* e, se li unionesas a la radiko dope, on nomizas li *sufixi.*
+
+En Ido, la afixi esas nur to, quo li esas nature e gramatike : elementi (preske sempre monosilaba), partikuli modifikanta, quale ni dicis. Konseque *li generale ne darfas* *uzesar kom radiki* (1).
+
+> (1) Grande eroras Esperanto uzante sua afixi kom radiki : 1e to duopligas neutile la vorto por la sama koncepto (pro quo *ilo* apud *instrumento*, od inverse?); 2e to konstante ruptas por profani la kompreno di texto. *Ema, eblo, inde, eta, aro* e. c. esas por ili tam misterioza kam *edzo, fraulo* e. c. e la famoza korelativi : *chiam, kie,* *iom, ia, iel, chiu* e. c., qui ja per su ruptas la kompreno sat freque.
+
+Advere pri kelka vorti o radiki, quale l'adverbo **ne-**, la radiko **-es**, ula prepozicioni, on kustumas dicar, ke li uzesas kom afixi. Ma to ne signifikas, ke li reale e gramatike esas *afixi.* Restas tote justa, ke ti, quin ni studios sube, ne darfas uzesar kom radiki, exter kazi sorge indikota.

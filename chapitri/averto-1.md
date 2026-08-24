@@ -1,0 +1,42 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# Averto (1)
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+> (1) L'unesma parto di ca averto esas nur la vortopa tradukuro di olta qua aparis France en 1908, lor l'edito di *Grammaire complète*.
+
+Ica verko esas ri-imprimuro grande modifikita di la *Grammaire complète* qua, imprimita nur ye 200 exempleri e ne publikigita, livresis al dispono dil Komitato di la Delegitaro en la 15-ma dio di oktobro 1907, kun *Exercaro* e *Vortaro* specimena, sub la pseudonimo « Ido » (2).
+
+> (2) *La Délégation pour l'adoption d'une Langue auxiliaire inter**nationale*, fondita en 1901 (januaro), recevabis til 1907 la adhero di 310 societi omnalanda, e la aprobo di 1250 membri di Akademii ed Universitati. Ol elektis internaciona Komitato di ciencisti e linguisti, qua pos exameno di omna projeti anciena e nova di mondolinguo, facis la decido quan on raportas hike.
+
+On savas, ke, pos 18 kunsidi, ek qui 5 konsakresis al diskuto komparanta di ta laboruro e di Esperanto, unanime la Komitato decidis « adoptar Esperanto principe... kun la rezervo di ula modifiki exekutenda dal permananta Komisitaro, segun la sinso determinita dal konkluzi di la Raporto dil sekretarii e dal projeto da Ido ». Ja la Komisitaro indikabis ula modifiki facenda en ta projeto. Sualatere la Komisitaro permananta submisis lu a detaloza revizo, egardante plura emendi propozita; e la rezultajo di ta laboro mencionesis en Raporto publikigita en l'unesma numero di la revuo *Progreso* (marto 1908).
+
+La *Grammaire complète* quan ni publikigas prezente esas strikte konforma al decidi di la Komitato e dil Komisitaro permananta; do ol ne plus esas, same kam la linguo ipsa, verko pure individuala; ol esas la final ed oficala rezultajo di la deliberi dil Komitato elektita reguloze dal *Delegitaro*, pos sep yari de propagado por l'ideo di linguo internaciona en la maxim diversa landi e medii. Ni kun fido prizentas lu al publiko pro la alta kompetenteso di la ciencozi qui partoprenis en lua kompozo.
+
+La kritiki, di qui ca gramatiko esos kredeble l'objekto, ne falios opozar ad olu la mikrega gramatiko primitiva di Esperanto, kun lua dek e sis reguli tante laudata (1). Ma, sen diskutar pri la numerizo di ta reguli, o plu *vere para**grafi*, di qui un sola kontenas la konjugo (minus la formi kompozita per qui on mustis kompletigar lu pose), on darfas asertar sen ul paradoxo ke, se Esperanto havabus origine plu multa reguli, ol nun posedus quanto min granda de oli (2). Nam pro ta gramatiko vere tro kurta e nesuficanta, fakte a l'uzado Dro Zamenhof komisis la sorgo fixigar la formi di la linguo, ed ica uzado genitis multega partikularaji ed anomalaji, quin la gramatikisti di Esperanto kolektas e pie mencionas en lia verki, quale se traktesus linguo naturala. E singla de ta partikularaji, singla de ta anomalaji efektigas un « regulo » quan la novici esas obligata lernar. Do esas tre vera dicar, ke se Esperanto havabus origine sat multa reguli generala e preciza, ol ne havus nun tro multa partikulara reguli, fondita sur « uzi » disparata e kontrelogika. Pro to on obligesis kompozar fine grosa gramatiki, de qui un prizentas plu kam 400 paragrafi. A ca verki ya on devas equitatoze komparar nia *Grammaire complète*. Lore on ne povos neagnoskar la supera simpleso e regulozeso di la linguo quan ni prizentas (3).
+
+> (1) Kontante segun la maniero dil Esperantisti, ni povus dicar, ke Ido havas nur 10 e mem 9 reguli, ne min kompleta. (Videz « Lexique-manuel », p. V-VIII.) — *Noto adjuntita.*
+
+> (2) En la realeso la gramatiko *elementala* di Esperanto kontenas adminime 64 reguli e plu kam 10 ecepti. (Videz la konto detalizita ye la fino dil broshuro « *La science et l'Esperanto* ».)
+
+> (3) Hike ni abandonas la Franca texto, qua deskriptas l'aranjeso di *Grammaire complète*, e ni substitucas ad olu to, quo propre koncernas la « *Kompleta Gramatiko detaloza* » quan ni prizentas ad omna amiki di helpolinguo.
+
+Certe ni povabus kondensar e multe plukurtigar ica verko, nome ne enduktar en lu kozi advere utila ma ne necesa, e qui ne esas strikte gramatikala. Ma lore ni agabus kontre nia intenci e l'explicita deziro di multa samideani. Cetere on dicernos facile la reguli lernenda del kozi nur lektebla o lektinda.
+
+Kompreneble, en la gramatiko sancionita dal permananta Komisitaro ni permisis a ni chanjar od adjuntar, pri la reguli, nur la kelka punti chanjita od adjuntita dal Ido- Akademio, legitima e yurizita sucedinto di olta. Ma la formo ed aranjeso necese diferas de olti, quin havis la verko primitiva, haste facita en tri monati e nur destinita al membri dil Komitato dil *Delegitaro,* por utiligo eventuala. Certe la permananta Komisitaro ja emendabis ed igabis lu plu bona, ma vizante la linguo ipsa e ne olua docado specale. Or la publiko tre diferas de komitato di ciencisti, por qua multa kozi bezonis nek detali nek justifiko. Cetere la tempo mankis al Komisitaro por rilaborar detale la verko, nam adversi ed amiki ja esis incitanta a la propagado, iti kun intenco maligna, ici en sua fervoro difuzor lo plu bona. Rezulte, la primitiva gramatiko bezonis ankore plu kompleta riaranjo ed expliki plu longa. Ni esforcis en ica satisfacar ta duopla bezono e preferis donar tro multe kam ne sufice.
+
+On permisez ad ni atraktar la atenco a kozo quan multi ne vidas sat bone. Pri la helpolinguo existas facileso trompanta, qua vizas nur o precipue *lerno rapida* per nesuficanta reguli e nesuficanta radiki o vorti. Nu, ica facileso *di lerno* ne povas konkordar e koincidar kun la facileso *di apliko,* nek kun l'exakta e klara expresado dil pensi. Or on lernas la L. I. dum kelka hori, kelka jorni, ed on aplikas lu dum yari. Altraparte, quon valoras facileso e simpleso qui reale ne atingas la skopo? Mezurar la supereso, pri la helpolinguo, segun la minmulteso di la reguli e dil vorti, forsan esas habila trompilo por la maso, ma eroro deplorinda por omni, eroro qua produktas en la aplikado detrimenti maxim grava. Ido evitis fortunoze ta rifo mortigiva, kontre qua mult altri ja venis ed ankore venos ruptar su.
+
+Nun ni finos, durante la traduko quan ni interruptis :
+
+« Cetere, ica *Kompleta Gramatiko* destinesas precipue al personi qui volas profundigar la studiado di la linguo (1). Ol esforcas solvar omna desfacilaji quin on povas renkontrar en l'uzado di ca linguo, e qui venas ne de ol ipsa, ma del neregulozaji e del idiotismi di nia lingui. Ta desfacilaji renkontresas en omna traduko, e mem duopligita, kande on traktas naturala lingui, nam generale on esas obligata expresar l'idiotismi di un linguo per l'idiotismi di altra. Ma precize ta desfacilaji facas ek la L. I. bonega intelektal exerco, analoga (egardite omna proporciono) a la studio di la Latina o di la stranjera lingui :
+
+> (1) Ica vorti di nia unesma averto divenas partikulare vera pri la *Kompleta Gramatiko detaloza,* en qua la multa pruntaji ek *Pro**greso* e citaji di Sro Couturat posibligos ta profunda studiado. Danke oli, ni darfas dicar : mortinta, il parolas ankore, la granda kalumniato.
+
+Nam li kustumigas la spirito analizar la penso e liberigar ol del vesto plu o min trompiva, per qua nia lingui vestizachas olu. Ma, vice quik impozar a lu nova travestio, la L. I. tendencas furnisar a lu l'expresuro maxim direta, maxim logikala e maxim klara. E, malgre l'opozata dici, logiko ya vere igas la L. I. supera a nia lingui « naturala ». Logiko ya sekurigas ad olu la palmo en lua aplikeso a la cienci; logiko donas ad olu l'astonanta facileso, kun qua omna populi ed omna klasi sociala povas komprenar olu, aquirar olu ed uzar olu.
+
+Me falius devo di yusteso e gratitudo, se me ne dankus hike Sro Camille Chandelliez, ex-docero dil grupo Esperantista en *Troyes*, Francia. Konvertita ad Ido per plurmonata lekto e studio di *Progreso*, il ofris a me sua serchi e noti, sua remarki e kritiki sagaca. Il helpis me tre efike klarigar ula punti, nome l'adjektivi-pronomi nedefinita. Ad ilu komplete debesas l'apendico pri la puntizado, la letri e adresi, segun *Progreso*. Il esis mea unesma lektero e konstanta kritikero. Ica gramatiko debas multo a lua helpado. Ton me joyas dicar publike e gratitudoze.

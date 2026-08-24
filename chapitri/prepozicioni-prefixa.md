@@ -1,0 +1,14 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# PREPOZICIONI PREFIXA
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Quale **sen-**, vidita en antea chapitro, altra prepozicioni pleas la rolo di prefixi : **adportar, cirkumpola, cirkum****skribo** (geom.), **ekirar, enirar** (1), **foreso, kontredicar, kun****voko, preterirar, subjacanta, vice-prezidero,** e. c.
+
+> (1) « Nia kunfrato ne prizas la regulo, qua igas *transitiva* la verbi kompozita ek verbo *netransitiva* e prepoziciono, quale *en-irar,* *ek-irar*; ed il preferas repetar la prepoziciono. To esas ya permisata, sed (ma) tote superflua, nam en : *me eniras en la chambro*, l'ideo esas dufoye expresata. Tote logike, *me eniras la chambro* = *me iras* *en la chambro*. L' « equivalo » esas « perfekta »; to ne esas « subtilajo »; la verbo divenis transitiva, *absorbante* la prepoziciono ipsa, qua « regas » la komplemento. (Komparez *travidar, trairar*, e. c.) *Progreso*, II, 304, noto.
+
+Nultempe atribuez a prepoziciono, kompozante derivajo, senco altra kam ita, quan ol havas aparte. Exemple, **eklernar** nule povas signifikar **parlernar** = lernar komplete; **ektrovar** o **ekpensar** nule povas recevar la senco di **inventar,** nek **ekparolar** (Germana aus-sprechen) ta di **pronuncar**; same **ekportar** = *portar extere* ne povas signifikar o **suportar** o **tolerar.**

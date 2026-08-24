@@ -1,0 +1,72 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# L'ACENTIZO EN IDO
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Quale dicesas tre juste en *Progreso*, I, 383, « La questiono di l'acento esas un ek le maxim desfacila, quan on devas solvar en L. I. artificala, se on volas konciliar maxim bone posible la regulozeso e la naturaleso. Unlatere, on devas havar regulo generala e simpla pri acentizo, e ne, quale en omna lingui, fidar a l'uzado kom sola regulo o guidilo. Altralatere, on devas respektar maxim ofte posible la « natural » acentizo di la vivanta lingui, por ne ofensar la fonetikal kustumi di lia adepti, ed igar la L. I. leda e desaminda ad li. »
+
+En I, 479, on remarkigis, ke « l'ortografio di l'internaciona vorti restas generale la sama en plura lingui, dum ke l'acentizo multafoye varias : ex. I. *ortografîa*, R. *ortho**grâphiya*, E. *orthôgraphy*; Hungara : *ôrtografia*.
+
+D. *Agonîe*; I. *agonîa*; R. *agôniya*; E. *âgony*.
+
+D. *Geologîe*; I. *geologîa*; R. *geolôgiya*; E. *geôlogy*; Hungara : *gêologia*.
+
+Pos altra exempli, on propozis fixigar, ke : l'acento ne povos falar sur la i, mem ne en la vorti : *agonio*, *alegorio*, *amfibio*, e. c. Ed on adjuntis : « Por enduktar to, on devus establisar aparta regulo, nome, ke on ne povas acentizar la i en la songrupi **io**, **ia** (anke **ie**). »
+
+En II, 8, pri la regulo dil acentizo en *neutral* (acento sur la vokalo avan la lasta konsonanto) on igis atencar, ke ta regulo, se ni adoptus lu, devus aplikesar anke ad altra finali kam **ia**, **io**, nome ad omna radiki qui finas per vokalo : *aleo*, *ideo*, *lineo*, *livreo*, *tineo*, *manuo*, *sexuo*, *rituo*, *precipue*; ed ol transportus, en ta omna vorti, l'acento sur la *prelasta* silabo di la radiko.
+
+Pluse la regulo esas kelke ambigua : « la lasta konsonanto » ... kad *di la radiko*, o *di la vorto*? Se : « di la vorto », to chanjus la loko di l'acento en l'akuzativo (*homôn* vice *hómo*) e precipue en la verbal formi : *amâs, amîs, amôs*... Nur l'infinitivi esus lore konforma a la general regulo. Se : « di la radiko », on devas definar la radiko, plu juste la *radi**kalo* di singla vorto : ex. en *amanta, amesos, am* esus la radiko, e *amant, ames*, la radikalo; en *lumizo, lumiziva, lumi**ziveso, lum* esus la radiko, e *lumiz, lumiziv, lumizives* la radikali. Kad to ne esus komplikajo e desfacilajo por la lernanti?
+
+En II, 583, Sro Otto Jespersen, per fundamental e detaloza artiklo klarigis admirinde la questiono. Il dicis :
+
+La exempli alegata da Sro de Janko tre bone demonstras, ke esus komplete neposibla trovar acentizo naturala por omna populi, pro ke omna imaginebla sistemi esas reprezentata en nia lingui, ed ultree, omna speci de nesistemo o de to quo aparas adminime tala, exemple l'Angla. Mem la maxim internaciona vorti ofte prizentas variiva acento, quale E. *châracter*, D. *Charâkter*, F. *caractêre*; isl., hung., e finl. *fîlosofi(a)*, E. *philôsophy*, R. *filosôfiya*, F. D. *philosophîe*; e mem en geografial nomi ni trovas simila diferi, ex. : isl., hung. e finl. *Amerika*, D. E. *Amêrika*, F. *Amérîque*...
+
+En linguo havanta strukturo simila a nia, on ne povas strikte e sole aplikar la unesala principo, acentizante sempre la lasta silabo, pro ke ol esas, en preske omna vorti, senvalora finalo (vokalo di nura gramatikala valoro), e tamaniere on ruptus komplete la valorprincipo.
+
+Pezigante la prelasta silabo, on kontentigas grandaparte la unesala tendenco, ed en granda nombro de vorti anke la valorprincipo, pro ke *nul* esas la maxim grava parto di *nule*; tale anke *kâra, vôrto, mûlti, sêmblas, atrâkto*, e. c. En altra vorti, quankam la prelasta ne povas dicesar la maxim valoranta od importanta por la signifiko, la sama acentizo esas tote ne evitebla pro la karaktero esence romanika quan la linguo posedas; nulu propozus altra pronunco kam *acênto*, *detrimênto, exêmplo, hiacînto, exâkta, krokodîlo, pelikâno* e sennombra altri.
+
+Esas do naturala, ke la maxim multi favoras acento sur la prelasta; la questiono esas nur, kad on devas establisar ecepti. »
+
+Citinte 34 vorti havanta per ica regulo acento « sur silabo qua aparas nenaturala a multa homi », Sro Jespersen *ques**tionas* :
+
+« Kad on devus modifikar la regulo ed acentizar la triesma de la fino? Me respondas : no. Unesme pro ke to komplikus la linguo. Duesme, pro ke omni ti qui savas la Franca konocas ja acentizi quale consûl, gondôle, publîc, Amerîque, lyrîque, splendîde; e. c., sen esar shokata per oli. Triesme, pro ke en multa kazi vorti derivata de ca vorti aquiras naturale duesmagrada acento sur la silabo « qua devas portar l'acento » : pôpulôza, sîmulânta, sîmilêso, pûblikîgo, Amêrikâno, spîritîsmo; e. c. »
+
+Pri la acento il indikas plura reguli inter qui on povus selektar. Ma il judikas la sequanta kom la maxim bona :
+
+La prelasta vokalo, ecepte ke en *plursilaba* radiki, *i* e *u* nemediate avan altra vokalo ne povas portar acento...
+
+La vorto « plursilaba » esas necesa, pro ke sen ol on havus nula regulo pri *pîa, nîa*, e. c...
+
+Ta regulo « konkordas en maxim multa kazi kun la valorprincipo. Ol evitas acento sur *patrôn, niân, amâs*.
+
+Ol esas facile memorenda e aplikenda sen presupozar ula ciencala konoci pri « mivokali » o pri latina od altra acentoreguli. Esas vera ke en klaso 3 (*irônio, akadêmio, sim**fônio, filosôfio, melôdio, teôrio*, e. c.) ni havas acento qua semblas nenaturala, ma on devas memorar, ke on havas kelka nenaturalaji, irge qua regulo adoptesas, ed anke, ke per ca regulo la ritmo konservas acento (miforta) sur la sama silabo kande on adjuntas finalo :
+
+melôdio : melôdiôza.
+
+sôcio, sôciâla, sôciêto.
+
+irônio, irôniâla.
+
+gênio, gêniâla.
+
+sêxuo, sêxuâla.
+
+Multa ek ta derivaji konkordas kun la acentizo en naturala lingui, kp. E. *melôdious*, D. *melôdisch*; E. *sôcial*, D. *sôcial*; E. *irônic*, D. *irônisch*; E. *ceremônious, sêxual, mânual*, e. c. Notez anke ke *filozôfo, filolôgo* e *filolôgio* ligesas per acento, e ke *philosôphia, ceremônia, litûrgia*, e. c., esas la latina acentizo, quan la Franci e segun lia exemplo anke kelka altra nacioni chanjis...
+
+Pos tante bona demonstro l'Akademio povis nur adoptar la regulo quan Sro Jespersen indikis klare kom preferinda. Ol agis lo unanime minus un voco per la decido 57 : L'acento esas sur la lasta silabo di l'infinitivi e sur la prelasta silabo di la cetera vorti. Ma en plursilaba radiki, i e u nemediate avan vokalo ne povas ricevar (recevar) l'acento. Konseque omna radiki finanta nun per y pos konsonanto chanjos ol ad i. (*Progreso*, III, 322.)
+
+Pose aparis en III, 392, la sequanta konsideri :
+
+« Unu de nia amiki astonesis pri la nuva (nova) regulo di acentizo, qua semblas ad il komplikita; il preferus regulo tote uniforma, exemple : l'acento sempre sur la prelasta silabo, ed il qualifikas *ecepti* omna deviaco de ta simplega regulo. Altru remarkas nur, ke la nova regulo donas a kelka vorti acentizo ne « naturala ».
+
+A to ni respondos : 1e ke la regulo di acentizo esis longe diskutata hike, ante la decido di l'Akademio, qua rezultis de ta diskuto ipsa; 2e ke nula *regulo* di acentizo povas sequar la naturala acentizo, pro ke ca acentizo esas *senregula* (t. e. senuniforma regulo); 3e ke nula regulo di acentizo povas kontentigar omna populi, pro ke l'acento varias, por la sama vorti, segun la lingui. On devas agnoskar, ke la nova regulo konstitucas granda simpligo en l'ortografio, per ke ol unigas la finali **-io**, **-yo**, inter qui on ofte hezitis e dubis, segun l'atesto di multi. Ol esas do reala simpligo ed uniformigo.
+
+Ti qui dezirus simpligar ed uniformigar « komplete » la regulo di acentizo esas Franci, e quale Franci nule komprenas l'importo di l'acento por la cetera populi. Semblas a li indiferenta acentizar ca o ta silabo, pro ke li reale acentizas nula, o (nekoncie) acentizas *sempre la lasta*. Ico esas grava kulpo e danjeroza eroro. L'acentizo maxime importas, ne nur a la beleso e harmonio di nia linguo, ma a lua komprenebleso por omna (o maxim multa) populi. Or de l'internaciona vidpunto, esas nule indiferenta, ke la finali *-ar*, *-ir*, *-or* dil infinitivo esez acentizata o senacenta. Simile, esas tote *neposibla*, fonetike, acentizar *aqûo* e *lingûo*, *filîo* o *familîo*, *sekretarîo* e *notarîo* (quankam Esperanto facas la lasta kulpo) ankore (mem) min *qûa*, *qûo*. Ne esas arbitriala regulo, ma fonetikal fakto universala, ke la vokali *i* e *u* avan altra vokali divenas generale mi-konsonanti, ne nur en la finali, ma interne di la vorti (ex. : *koliaro*, *kuliero*, *buli**ono*, *liuto*) (1). La nova regulo simple konstatas ica fakto, nur kelke generaligante ol, pro ke omna regulo devas esar generala.
+
+> (1) Pro to, en la linguistiko indo-europana, li esas la sola vokali, qui genitas diftongi. Per to li distingesas esence de la ceteri.
+
+On ne devas parolar pri « ecepti », pro ke ni adoptas regulo diversa por diversa speci de vorti o de vokali, qui esas reale diferanta. Existas nula neceseso, mem nula motivo, por ke l'acentizo esez « simpla ed uniforma », t. e. falez sempre sur la sama silabo *en omna vorti*; tala acentizo meritus prefere la nomo di « arbitriala regulo ». Se Zamenhof adoptis tala regulo por Esperanto, to ne venas de irga profunda intenco o misterioza sajeso; il simple imitis l'acentizo di sua linguo, la Polona. Se ulu havas la yuro reprochar, ke nia regulo ne esas « simpla », to certe ne esas l'Esperantisti, qui, fanfaronante pri la simpleso di lia gramatiko en « 16 reguli », kontas kom un sola regulo... la tota konjugado! »

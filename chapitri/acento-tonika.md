@@ -1,0 +1,44 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# ACENTO TONIKA
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+4. — En Ido, la *acento tonika* ne esas plualtigo o plulongigo dil sono, ma plufortigo di la voco sur un silabo dil vorti. On pozas lu « sur la lasta silabo dil infinitivi e sur la prelasta silabo di la cetera vorti » : **amâr, venîr,** **skribôr; fenêstro, bovîno, malâda, trôno, mêa, puêri** opi**niôno**, e. c.
+
+« Ma en plursilaba radiki, **i** e **u** nemediate avan vokalo ne darfas recevar l'acento » : **Kâspia, râdie, fîlii, mistêrio;** **tênua; îlua, êlua, sêxuo, stâtui, lînguo** (1).
+
+> (1) La cirkonflexo indikas nur la *tonika acento*, ne la longeso di la silabo. Yen la texto ipsa dil decido (57), koncernanta ica acento : « L'acento esas sur la lasta silabo dil infinitivi, e sur la prelasta silabo di la cetera vorti. Ma en plursilaba radiki, **i** e **u** nemediate avan vokalo ne povas recevar l'acento. » — *Progreso*, III, 322.En la Hispana, Italiana, Portugalana lingui, l'infinitivo **en-ar** recevas la acento. Ido imitas ta lingui e, pro analogeso, extensas ta acentizo a sua cetera infinitivi : **-ir**, **-or**.
+
+Pro ke la finali *ia, ie, ii, io*, e *ua, ue, ui, uo* di ca lasta vorti formacas nur un silabo, la *prelasta* esas reale ta, qua preiras li, ed ol portas la acento tote konforme al regulo (2).
+
+> (2) Kad on esas obligata pronuncar **i** e **u** quale **y** e **w** rispektive avan vokalo ? Nule : on darfas pronuncar indiferente *naci-ono* o *nacyono, mu-elar* o *mwelar. La sola kozo importanta, do obligala,* *esas la justa pozo di l'acento; on pronuncez do quiete :* **âlio** o **âlyo**, **mânuo** o **mânwo** (*Progreso*, IV, 142).
+
+En **dio, pia, duo, gluo** ed altri simila, **i** e **u** esas vere la prelasta silabo. Li konseque recevas la acento, segun la regulo. Nam li kontenas ne plursilaba, ma *unsilaba* radiko : *di, pi, du, glu.*
+
+Se *monosilaba* (unsilaba) radiko divenas lasta parto di kompozajo o derivajo, la vokali **i**, **u** portas la acento, quale kande li trovesas en simpla vorto. Ex. : **butontrûo, arbor****glûo, despîa, cadîe.**
+
+Ma, pro ke la nomi di la sep dii semanala ne esas kompozaji (quale *festo-dio, ca-die*) li recevas la acento sur la silabo qua preiras *di* e qua esas reale la prelasta. On do pronuncas : **sûndio, lûndio, mârdio, jôvdio, venêrdio, satûrdio** (3).
+
+> (3) Evidente *mardio* ne esas *mar*(o)*dio, saturdio satur*(o)*dio*, e per la 5 *sundio, lundio. merkurdio, jovdio, venerdio*, ni ne intencas dicar : la dio dil suno, dil luno, di Merkurius, di Jupiter, di Venus. (Segun *Progreso*, VI, 135.)
+
+Kande **au**, **eu** formacanta diftongo (4) renkontresas kom silabo prelasta, la acento restas sur ta diftongo, kun la chefa esforco dil voco sur *a*, *e*. Ex. : **lâubo, kâuzo, lâuro, nêutra,** **psêudo**. Evitez sorgoze facar ek *au*, *eu* du silabi en ta vorti ed altri simila.
+
+> (4) Videz p. 12, ye la 2-ma alineo,
+
+En la nombri, inter 20 e 100, la acento restas sur la radiko *du*, *tri*, *quar* e. c. Ex. : **dûa-dek** (o **dûadek**), **trîa-dek** (o **trîadek**), **quâra-dek** (o **quâradek**), e. c. — Komprenebla en **dek-e-un, dek-e-du, dek-e-tri**, e. c. ne la konjunciono *e*, ma la nombro *dek* esas acentizata.
+
+La monosilabi darfas esar acentizata o ne (tam en prozo kam en poezio) segun la kuntexto e l'intenco dil autoro (1).
+
+> (1) On bone remarkez, ke la regulo fakte inkluzas mem la monosilaba adjektivi, t. e. l'adjektivi elizionita, havanta monosilabo kom radiko : *tal', nul', bel', pur', irg', grand'*, e. c.
+
+Por eufonio e mem por bona interkompreno, l'acento tonika havas en Ido tre granda importo. Konseque omna Idisti devas tre atencar olu, e la populi qui pozas la acento sur la lasta silabo devas merkar e memorar bone, ke en Ido nur l'infinitivi *-ar*, *-ir*, *-or* (qui esas lasta silabi) darfas kom tala recevar olu.
+
+Ma, kontraste, altri devas atencar, ke l'aplikado dil acento ne incitez li ad engluto dil silabi finala ed a neklara pronunco di olia vokali. Nam to genitus grava erori pri la tempi en la verbo, o pri la speco gramatikala dil vorti e lia rolo. Kun atenco e sorgo (or mem plu kam linguo naciona la helpolinguo postulas la du), on tre bone povas konciliar justa acentizo e klara pronunco.
+
+Sentiginte la acento sur la silabo prelasta, evitez sentigar quaze duesma acento sur la dezinenco : *Esperântô, harmôniô*. Certe la dezinenco devas audesar klare, ma por ico ne esas necesa, ke on acentizez lu anke. L'Italiani pruvas lo konstante en sua linguo; ni imitez li pri co en Ido (2).
+
+> (2) Okazione di « Profilaktol », *metan, formol, amin*, qui recevas internacione la acento sur la lasta silabo, on trovas en *Progreso*, II, 679, la konsidero sequanta :« On devas distingar du kazi o klasi : la *propra nomi*, quale *Profi**laktol*, qui esas stranjera vorti en nia linguo e konseque havas specala ortografio ed anke acentizo; e la *komuna nomi*, qui apartenas a nia linguo e devas sequar la generala reguli, sive pri la gramatikal finali, sive pri l'acentizo. »Ta remarkigo esas guido pri ta nomi stranjera relate Ido. Samtempe ol furnisas respondo por la distraktita kritikeri qui objecionasa ni ta vorti, quale se oli apartenus a la linguo e devus havar la dezinenci e la acento dil nomi komuna. Per quo *Profilaktol*, *etil* ed altra vorti kemiala apartenas a Ido plu multe kam *Kashmir*, *Kamerun, Bengal, Portugal, Tonkin* e. c. qui havas nek la acentizo, nek la dezinenci dil Ido vorti komuna ?Pri la decido koncerne la tonika acento en Ido e la studiado qua preparis lu, videz l'apendico unesma, ye la fino dil gramatiko. L'acentizo en Espo esas pura imito dil acentizo Polona.

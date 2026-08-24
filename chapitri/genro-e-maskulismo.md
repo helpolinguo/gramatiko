@@ -1,0 +1,100 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# GENRO E MASKULISMO
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Maxim ofte la genro indikesas, en la lingui posedanta olu, da gramatikal formo partikulara, ma ulfoye, mem en ta lingui, ol esas expresata dal vortolibro, altradice dal nomo ipsa dil anmoza ento (ex. : F. *père, mère; oncle, tante;* *bœuf, vache, cheval, jument*). Sioro A. Meillet lo remarkigis en sua kurso pri Gramatiko generala, che la *Sorbonne*. Il anke memorigis, ke multa lingui ignoras la genro. Exemple, la Angla posedas lu nur en la pronomi *he, she, it*. La genro ne existas en la grupo (Finno-ugriana), en la Turka. Ula lingui perdis lu, qui lu posedis, exemple la lingui Iraniana, l'Armeniana, qua ne mem havas feminal sufixo por formacar *rej-ino*, me supozas (1). « Do, konkluzas Sro Meillet, la genro *gramatikala* nule esas universala e necesa kategorio... ». « L'Europani tendencas atribuar a la genro tro granda importo, pro ke en lia lingui l'artiklo konstante akompanas la substantivo e memorigas lua genro (ecepte en E.). » (2).
+
+> (1) Esas utila remarkigar, ke la nov-Latina lingui havas nur *du* *genri* : la maskulalo e la feminalo, kontre ke lia matro, la Latina, pluse havis la neutro. E la Angla, qua nun preske ne plus havas genro, venas de lingui posedanta la *tri genri*.
+
+> (2) *Progreso*, IV, 572.
+
+En Indo-Europana, la genro ne indikesas en la substantivo, ma en l'adjektivo : la substantivo posedas nur genro latenta (*pater, mater* havas simila formo), quan revelas l'adjektivo akompananta (*bonus, bona*) (3). Do nur l'akordo indikas la genro.
+
+> (3) Fakto simila ne indijas exemplo mem en la Franca : *de bons* *pères, de bonnes mères*. La genro aparas nur en *bons, bonnes*.
+
+« La klasifiko dil genro maxim konocata da ni, ma ne la maxim importanta, esas la *sexuo*. Ol uzesas preske nur en la min multa lingui, nome le Indo-Europana e le Semidala. Ol esas do multe min importanta kam semblas a ni kom Europani. Mem en ta lingui ol aplikesas nur a parto di la nomi, a la nomi di l'enti sexuoza; e mem por multa animali on ne distingas maskulo e femino, adminime per chanjo di formo. Exemple en la Franca, por indikar la sexuo en : *elefanto, hieno, strucho, buvrelo, skarabeo,* *heliko*, e. c., e. c., on koaktesas adjuntar sive « maskula », sive « femina ». Tale ke, se on kontus, on trovus, ke nur ecepte la genro esas markizata, mem en la Franca.
+
+Semblis a ni esar utila memorigar, kun la susteno di linguistikal autoritato :
+
+1e ke la genro *gramatikala* nule esas universala e necesa kategorio;
+
+2e ke la klasifiko dil sexuo esas multe min importanta kam semblas ad ni.
+
+Pos agir ico, esos plu facil ad ni expozar la procedo di Ido por la genro, o plu juste por la sexuo e konocigar olua motivi.
+
+Unesme la questiono dil maskulalo o feminalo povas koncernar en Ido nur *la nomi di enti anmoza pri qui on volas* *indikar la sexuo*. Or, maxim ofte, esas nek necesa, nek mem utila indikar olu. De ico konsequas : la dezinenco **-o** dil substantivo suficas tam bone por la enti anmoza kam por la kozi. Nula special dezinenco esas necesa por l'uni o por l'altri. On ya ne povas vidar animalo en vorto indikanta kozo. Konseque, pro quo ni havus du dezinenci, kande un suficas?
+
+Altra konsequo : substantivo di ento anmoza qua havas nul special marko di sexuo ne esas plu multe maskula kam femina, ol indikas nur la *speco*, quale F. *enfant, conjoint* e mem *homme*, qui ne implikas plu multe un sexuo kam l'altra, quale *bous* Greka, *bos* Latina e mem *agnus* en l'antiqua Latina, ube on dicis *agnus femina* por F. *agnelle*, ante dicar *agna* (1).
+
+> (1) Ni bone remarkez, ke en ica frazo : « *La hundo esas la amiko* *di la homo* », nek *hundo*, nek *amiko*, nek *homo* implikas la sexuo,mem en la Franca. Ni remarkez anke, en la Franca, ta stranja fakto : *enfant* ne implikas sexuo, e *père* esas maskula, adminime en la singularo! Nam, en la plurala, ol kontenas mem la *matri*, quale *homme* kontenas la homini : *nos pères nous ont appris* (nia patri docis ad ni); *l'homme est mortel* (la homo esas mortiva). — La Madyara, plu logikoza, donas nula genro a *père* (patro) nek a *frère* (frato).L'Angla lasas sen genro *kuzo* ed *amiko*. Pro to lu dicas : *male* *cousin, female cousin; male friend, female friend.*La Rusa havas multa sengenra nomi, inter altri : *sirota* (orfano). Ulkaze ol havas tri nomi diversa : 1 por la sengenra substantivo (di speco) : *sobaka* (hundo), 1 por la maskulo : *kobel* (hundulo), 1 por la femino : *suka* (hundino); *chelovek* (homo), *mujchina* (homulo), *jenschina* (homino).On atencez ico : se *patro*, *frato* e. c. esus maskula (homuli), *ge-patri* e. c. esus absurdajo, nam on ne povas unionar la du sexui, kande existas nur una.
+
+Ne sen fundamental studiado di la questiono Ido adoptis sua nuna sistemo por la enti anmoza. Nam ol heredabis de Esperanto la eroro pri *maskulismo*, qua konfundas implicite la nomo di speco kun ta dil maskulo (1) e formacas la feminalo ek ta lasta. Ica procedo stranja « evas de ta prehistoriala tempi, en qui la homulo dominacis per la violento e teroro lua kompatinda kompanino, o plu juste lua sklavino », remarkigis Sro Couturat (1). Ni liberigas ni *en* *Ido*, de ta tiranatra prejudiko e de ta obsedanta konsidero di la genri, qua imprimis a nia omna lingui neefacebla karaktero (2). Nam ni repetas lo ed insistas pri lo : la nova sistemo ne tendencas impozar a ni la konstanta e penoza distingo di la genri e konseque la selekto inter *-ul* e *-in*, ma, inverse, dispensar ni de ta neutila e jenanta konsidero o selekto, en omna kazi en qui ol ne esas necesa ed esencala. La linguistiko montras, ke l'evoluciono di la lingui tendencas sempre simpligar la gramatikala kategorii : or inter li la minim necesa ed esencala esas certe ta di la genro. Nu, Ido anticipas nun la rezultajo finala di ca evoluciono, ed atingis per un stroko la sola solvo logikala e definitiva. Ico konstitucas granda pazo ad avane en l'evoluciono di la lingui, e decidigiva avantajo por nia linguo kompare a la ceteri, natural od artificala (3) .
+
+> (1) *Omna* maskula nomi en nia lingui esas dusenca : oli signifikas, lore maskula enti, lore (e maxim ofte) la du sexui sen distingo. La exempli esas sennombra; ni citez nur du. Kande ni parolas pri nia *parenti* e nia *amiki*, kad ni komprenas per to nur *maskula* parenti ed amiki, o kad ni inkluzas anke nia *parentini* ed *amikini*? Certe la duesma senco esas preske sempre la justa. Do ca plurali esas dusenca en nia lingui : ni ne povas distingar klare, gramatikale nia parentuli ed amikuli inter nia parenti ed amiki generale.Ma, se *parento*, *amiko* esas preske sempre sengenra en la pluralo, li devas evidente esar sengenra anke en la singularo; nam altre li *chanjus sua senco* pasante del singularo al pluralo! Esas do absolute necesa, se ni volas parolar pri parento, amiko *maskula*, ke ni indikez lo irgamaniere. Pro to, vice uzar la tota vorto *maskula*, ni uzas la sufixo *-ul* qua esas lua abreviuro, same kam *-in* esas l'abreviuro di *femino*. Do ni parolas pri *parentulo*, *amikulo*, same kam ni parolas pri *parentino*, *amikino*, e pro la sama motivo : a la *sengenra* nociono di *parent*, *amik*, ni devas adjuntar, lore la nociono di maskulo (*-ul*), lore la nociono di femino (*-in*), ma **nur kande ni bezonas li**, t. e. kande ni havas li en la mento, e deziras expresar li : *on nultempe* *obliviez ica grava restrikto!* Nam se, quale ni dicis, 95 foyi ek 100 *amiko* (en nia lingui) signifikas egale *amikulo* od *amikino*, 95 foyi ek cent ni devas uzar simple *amiko*, e ne *amikulo* nek *amikino*. La suprega lego di la L. I. esas : « Expresez vua tota penso, ma nur vua penso. » (*Progreso*, VI, 588.)
+
+> (1) *Progreso*, VI, 592.
+
+> (2) On remarkez bone, ke ca sistemo esas tote analoga e konforma a la sistemo di nia pronomi personala : same kam ni havas sengenra *lu* apud ed exter *il*, *el*, *ol*, ni devas havar *homo* exter *homulo* e *homino*, e. c. : nam ta formi devas necese korespondar e harmoniar inter su. L'Angla ipsa ne havas la sengenra pronomo e mustas dicar : *he or she* (il od el), quo esas inkombranta e tedanta.
+
+> (3) Sro Couturat finas per ica noto :Lasta vorto. Se la fanatiki di la « Zamenhofa lingvo », qui kustumas uzar kontre ni omnaspeca argumenti, bona o ne, sincera o ne, esus tentata kritikar la sistemo di Ido, esus facila klozar lia boko per la sequanta deklaro di la Maestro ipsa (*Pri reformoj en* *Esperanto*, p. 13-14; texto aparinta en *Esperantisto*, marto 1894, p. 37) :« Kelkaj amikoj proponis, ke ni enkonduku apartan sufikson por substantivoj speciale viraj » (Remarkez la ridinda uzo di *vira* *virina* vice *maskula, femina* : ica uzo duras ankore nun : *bovo-viro!*) « Pripensinte tiun chi proponon, mi trovis ke *ghi estas ne sole tre* *logika sed ankaù tre oportuna.* **Fratiro** ekzemple signifus tiam speciale fraton, kaj **fratino** speciale fratinon, dum **frato** signifus simple infanon de tiuj samaj gepatroj (au frato, au fratino). »Do ni povas gratular ni (kun legitima fiereso!) ke ni havas l'aprobo mem di la « kara Maestro », quan la « fideluloj » blinde veneracas. Ti qui objecionas, ke ni riprenas nun la sufixo *-ul*, quan ni tante kritikis e mokis en Esperanto, ne atencas, ke ni nulekritikis lua formo, ma lua *absurda uzo* : *blindulo* ne esas persono « karakterizata da *blind* », ma « qua esas blind », do *blindo*. La sufixo *-ul* signifikis nulo en Esp., ma por ni ol signifikas *maskulo* : do kande ni dicas *blindulo*, *richulo*, ni donas a ca vorti senco quan li ne havis en Esp. (opozante li a *blindino*, *richino*). Por komprenar la difero, suficas komparar la feminala nomi : Esp. *blindulino*, *vir**gulino* ad Ido : *blindino*, *virgino*. (*Progreso*, VI, 593.)
+
+Ni bone remarkez, ke la konservo dil maskulismo en Ido esabus kontrea al *principo dil unasenceso*. Nam, se *homo* opozesas a *homino*, to venas evidente de ke ol havas du senci : 1e *homa ento*. 2e *homa ento maskula*. Ta du senci, de ube ol recevas li? Certe ne de la dezinenco *-o*, simpla karakterizivo di la substantivo e quan ni ritrovas en hom-*in*-o (homo femina) (1). Pro ke nul altra marko uzesis por *homo* (kontraste a hom-*in*-o), la kauzo esas evidente, ke on donas a *homo* la du senci supere indikita por la radiko *hom*; on do konseque atribuas reale du valori ad ica : ol reprezentas samtempe la homo *speco* e la homo *maskulo*, ek qua on facas *homino*. Do tal procedo esas nekontesteble la maskulismo en sua kompleta nelogikaleso. Esperanto havas lu, e Ido havus lu ankore (sen la sufixo *-ul* dil maskuli) por omna nomi di enti anmoza.
+
+> (1) Doktoro Zamenhof uzis ipsa plurfoye *homino*, vice *virino*, to quo supozas en *homo* la duopla valoro segun qua ni rezonas.
+
+Altraparte ka la raciono komuna ne dicas ke, se la radiko ne povas sen adjunto, expresar la ento femina, ol ne povas plu multe, sen adjunto, expresar la ento maskula.
+
+Pluse, *homo* signifikante homo maskula, kad on ne darfas dicar, ke on obtenas de olu « androgino, hermafrodito », kande on derivas *homino* de olu? Nam lore on unionas lua feminal valoro a la maskulal valoro di *homo*.
+
+Ma pro quo la du sufixi *-ul* e *-in* por markizar la sexuo, prefere kam dezinenci? Pro du motivi :
+
+1e. Genro e sexuo, quale ni vidis, nule havas l'importo quan ni inklinesas atribuar ad oli. Do esas plu racionala expresar per sufixo la sexual ideo qua adjuntesas a la radiko di speco e rezervar al dezinenci ofico plu importanta. Nam, se la formi gramatikala havas kom esencal skopo « indikar la rolo dil vorti en la frazo » (ka la sexuo esas rolo?), lia uzo maxim utila certe esas karakterizar la diversa speci di vorti (substantivo, adjektivo, verbo, e. c.), nam to esas l'indiko maxim utila por la « konstrukto » di la frazo e por lua kompreno quika e certa.
+
+2e Qua dezinencin on adoptus?
+
+— Nu, *-a*, exemple por la feminal nomi.
+
+— Ne pro la Latina, me pensas; nam me trovas en lu sennombra neutri plurala ed anke multa maskuli : *conviva*, *geometra*, *collega*, *agricola*, *homicida*, *poeta*, e. c. (1). Ido multe plu preferas la dezinenco *-a* por l'adjektivo, pro ke ta vokalo finas la plumulto dil feminal *adjektivi* en la Latina, l'Italiana, e. c., e mult adjektivi en la Sueda. Ol valoras tre certe plu multe kam *-i* (marko di pluralo en tanta lingui) e quan malgre co ula sistemi adoptis kom karakterizivo dil adjektivo.
+
+> (1) Reale la Latina havis por sua substantivi nur dezinenci kazala. Ol nultempe havis sexual marki por ta vorti.
+
+— Kad on ne povus adoptar *o* por la maskulalo?
+
+— Co esus certe posibla. Ma, pro la dicita motivi, esas preferinda atribuar specal sufixo al nomi maskulala, quale on agas (per *-in*) por la nomi feminala, ed atribuar *-o*, kom dezinenco pure gramatikala, ad *omna* substantivo (2).
+
+> (2) Ni memorigez, ke la Provencala havas multega *feminala* nomi ed adjektivi finanta per *-o*. E kad l'Italiana ne dicas : *la mia mano* (mea manuo)?Ne esas sen utileso remarkigar, ke povas esar nur *neutra* la substantivo qua havas nek la karakterizivo dil maskuli *-ul*, nek la karakterizivo dil femini *-in*, se per naturo, quale *matro*, o mestiere quale *maristo*, lua sexuo ne indikesas.
+
+— Ma *-e* por la substantivi indikanta kozo, *scientie*, exemple?
+
+— Se me ne eroras, scien*tia* impozesas da la Latina por la fideli di ca linguo. Omnakaze, substantivo esas substantivo, sive ol indikas ento anmoza, sive ol indikas kozo, e lua senco ipsa impedas omna konfundo. Sive me uzos *scientia*, *scientie* o mem *cienco*, nulu konfundos la vorto ad ento anmoza. Lore pro quo du etiketi, du karakterizivi, kande un sola tote suficas? Pluse, kad la vokalo *-e* ne konvenas perfekte por l'adverbo? *Forte*, *dolce*, tante konocata kom muzikal vorti, donas quik la valoro di *-e* e semblas adminime tam bona kam *fortiter*, *fortim*, *fortemen*, *forti*, e. c.
+
+— E *-u*?
+
+— Quaresma vokalo (ek 5) nur por la substantivo! Kad ico ne esas troa? Vice facar ek olu la marko di irga genro (segun ula autoro) o la signo dil akuzativo (segun altra), ka ne esas plu bona uzar *-u* por markizar la pronomi individuala : *ulu*, *nulu*, *omnu*, e. c.?
+
+Ni do lasez la dezinenci a lia vera rolo, precizigita supere. La sexuo esas gramatikala, en ula lingui, nur misuze; ni omna sentas lo ed ofte pruvas per la vorti « maskula » e « femina », quin ni tante freque juntas al nomo di speco, vice o apud dezinenci partikulara. Se ni kelke reflektos, ni asentos, ke esar *maskula* od esar *femina* ne plu multe klasifikas nomo di animalo en kategorio gramatikala kam esar *yuna* od esar *olda*. To esas nociono partikulara qua devas esar expresata per vorto partikulara, sive kompleta (*maskulo*, *femino*) sive abreviita en sufixo (*-ulo*, *-ino*). Certe min racionala e min praktikala esas, por expresar ol dezinence, uzar 4 vokali ek 5, quale propozesis, precipue se li esas multe plu necesa od utila por vera kategorii gramatikala.
+
+Rezume, Ido solvas la questiono dil genro ed emendas la maskulismo di nia lingui en la maniero sequanta :
+
+1e Radiko di speco, konvenanta egale bone por la maskuli kam por la femini : *elefanto* (maskula o femina), *homo* (ento homa, sive maskula, sive femina), *filio* (la genitito sive maskula, sive femina) (1).
+
+> (1) Ni pasante remarkigez, ke la Franca ed altra lingui ne povas simple e sen ambigueso expresar ica ideo : *Mea filii ne plus esas* *infanti.*
+
+2e Sufixo *-ul* preiranta la dezinenco ed indikanta la sexuo maskulala, se oportas enuncar olu : *elefant-ulo* (elefanto maskula); *hom-ulo* (homa ento maskula); *fili-ulo* (genitito maskula).
+
+3e Sufixo *-in* preiranta la dezinenco ed indikanta la sexuo feminala, se oportas enuncar olu : *elefant-ino* (elefanto femina); *hom-ino* (homa ento femina), *fili-ino* (genitito femina).
+
+Kompreneble, se altra vorto, exemple pronomo personala, ja indikas la sexuo, la radiko di speco suficas : *mea filiulo* *ne plus esas infanto* (1); *el esas sekretario* (2) *di ministro* (3).
+
+> (1) E ne *infantulo*, pro ke la sexuo ja indikesas en *filiulo*.
+
+> (2) E ne *sekretariino*, pro ke la sexuo ja indikesas dal pronomo *el*.
+
+> (3) Til nun la *ministri*, la *soldati* ed altra profesionani apartenas al forta sexuo; do nul konfundo esas timebla e *ministro*, *soldato* suficas. Ma supozez, ke divenus necesa indikar la sexuo, nu, ni havus : *ministrulo*, *soldatulo* e *ministrino*, *soldatino*.La Franca proverbo : « La paresse est la mère de tous les vices » implikas nula sexuo e *mère* hike = genitanto, patro (sive maskula, sive femina). Konseque on tradukas : *L'ociereso esas la genitanto* (o : *la patro*) *di omna vicii*. Genitantulo, genintantino, o patrulo, patrino esus hike groteska, nam *ociereso* esas nek homulo, nek homino.
+
+Semblas a ni, ke ta sistemo sustenesas da la raciono, e ke ol havas la merito esar tam logikala e simpla kam praktikala.

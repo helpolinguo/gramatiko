@@ -1,0 +1,114 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# NOMBRI
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+113. — La *nombri kardinala* esas : **zero** (1), **un, du,** **tri, quar, kin** (2), **sis, sep, ok, non, dek; cent; mil;** le maxim uzita.
+
+> (1) Nomizar *nulo* la cifro **o** esabus ridindajo; nam *nulo* = nula kozo. Ma kad **o** ne esas ulo, cifro? Kad ol ne pleas importanta rolo? Kad, kande me skribas la cifro **o**, me skribas nulo? Se vice : skribez « zero », ni dicus : skribez « nulo », omni komprenus, ke on devas skribar *nula kozo*, do ne skribar?
+
+> (2) *Kin* ne povis esar *quin*, pro ke ica lasta esas la plural akuzativo di *qua*. Ni do havabus okazione : *la quin, quin il donis ad vu,* *esas plu bela kam la quin, quin il donis ad me.* O : *le quin* (5) *quin* *vu skribis sur ta pagino esas omni tre male desegnita.* Nia skopo ne esas konkordar maxim posible kun la Latina *quin-que*, ma donar formi sat dicernebla de altri. Plu importas por ni certa dicernebleso dil diversa formi, kam sklavatra imito di vorti o formi latina efektiganta al vera koncernati di L. I. konfundi e miskompreni.
+
+**Pose : milion; miliard** (*mil milioni*); **bilion** (1,000,0002); **trilion** (1,000,0003); **quadrilion** (1,000,0004); **quintilion,** **sextilion, septilion, oktilion, nonilion, decilion** (singla de ta nombri egalesante la preirinta multipliko per un milion (3).
+
+> (3) **Milion, miliard, bilion** e. c. recevas *-i* dil pluralo, se to esas necesa : **on spensis milioni por ta edifico.** — Ma : **il recevis plura** **milion,** pro ke plura sat indikas la pluralo.Ta nombri (kande on ne adjuntas *-o*, quo ne esas *necesa*) havas la acento sur la final silabo, pro ke li esas reale abreviuro di *miliono,* *miliardo* e. c.
+
+Ni devas explikar, pro quo ni adoptis por **biliono**, **tri****liono**,... la senco *Germana* prefere kam la senco E. F. I. S. plu internaciona.
+
+e. c. On vidas, ke en l'unesma kolumno existas nula koincido inter la *nombro* implikita en la *nomo* (*bi, tri, quadri*,...) e la exponento di la potenco (la relato esas : l'exponento = *n* + *1*, *n* esante la nombro implikita en la nomo); dum ke en la duesma (kolumno) ta nombri esas konstante egala. Esas do plu natural e komoda, konsiderar **biliono**, **tri****liono**, e. c., quale la sucedanta potenci di **miliono**. Plue, on ne bezonas **biliono** por 1,0003, pro ke on havas ja la vorto plu vulgara **miliardo**. Fine la Germana metodo furnisas la moyeno expresar plu granda nombri (quo povos esar tre utila en la cienci) : **decilion** signifikas 1,00011 en l'unesma sistemo, ma 1,00020 en la duesma. (*Progreso*, I, 710.)
+
+Omna altra nombri, quin on nomizas kompozita, esas expresata per la moyeno di la simpla nombri, segun la maniero sequanta :
+
+1e Se li konstitucas adiciono, on indikas olu per *e* : **dek****e-un, dek-e-du, dek-e-tri, dek-e-quar**, e. c., o **dek e un, dek** **e du, dek e tri**, e. c. (1).
+
+> (1) Komprenebla la acento tonika esas nek sur *e*, nek sur *a*, ma sur la nombral silabo (*un, du, tri, dek* e. c.) dil unesma elemento.
+
+2e Se li konstitucas multipliko on indikas olu per *a* ye la fino dil unesma nombro : **dua-dek** (20); **tria-dek** (30); **quara-dek** (40); **kina-dek** (50), e. c., o **duadek, triadek,** **quaradek**, e. c.
+
+**Duadek-e-ok** (28); **sepadek-e-du** (72); o **duadek e ok,** **sepadek e du; mil e okacent e nonadek e ok** (1898) (2).
+
+> (2) Semblas, ke la streketo utilesas por montrar plu klare l'uniono dil nombri adicionata.L'uniformeso konsilas uzar *e* sempre (e ne *ed*) en ta nombri. Do *dek-e-un, dek-e-ok* quale *dek-e-du, dek-e-tri*.
+
+Praktike on ne expresas **un** avan **cent, mil**, e. c.
+
+Remarki : 1a. Super la mili, on sequos la kustumo enuncar la nombri dil mili, dil milioni, dil bilioni, e. c., kom aparta nombri. Ex. : 345,000 ne enuncesos : *triacentamil e quara**deka mil e kina mil*, ma : *triacent e quaradek e kinamil*. To esas videbla simpligo.
+
+2a. Por enuncar granda nombri e diktar li, suficos enuncar la sucedanta cifri, quo esas nur simpligo di la normala enuncado. Vice dicar : *triacent e quaradek e kinamil, sisacent* *e sepadek e non*, on dicos : supresante le mil, cent, dek : *tri,* *quar, kin, sis, sep, non*. Ico esas la maxim klara, simpla e kurta procedo, qua konsistas en diktar la sucedanta cifri vice la nombro (quale se on espelus nomo). On povos ankore enuncar tale la nombri di tri cifri, enuncante nur mil, milion, bilion. Ex. : *tri-quar-kin-mil, sis-sep-non*. (So v. Pfaundler, IV, 345.)
+
+La sama procedo uzesos por enuncar o diktar la decimala nombri, enuncate nur lia sucedanta cifri. Ol konvenas precipue por la decimala nombri longa o senfina, exemple :
+
+= 3,14159... : *tri, komo, un, quar, un, kin, non*... Kompreneble, on ne omisos enuncar insiste la komo, ed anke la zero.
+
+3a. On povos sempre, quale nun, substantivigar la nombro-nomi, tam en pluralo kam en singularo : *dekeduo, deke**dui; duadeko, duadeki* (1).
+
+> (1) Ta remarki, en *Progreso*, VII, 39, finas per : « E l'aranjo propozita evitos ankore ula dusencesi : on povos distingar facile (mem aude) : *du deki* e *duadeki*. »Cetere sur la 38 pagino dil sama numero trovesas la *motivi* qui inspiris la sistemo propozita al Akademio ed aceptita da olu :I. Ica aranjo konservas la perfekta regulozeso di nia nombrosistemo, e la kurteso di la simpla nombri, qui restas unsilaba. Ma ol augmentas multe l'eufonio e konseque la klareso, sen longigar remarkeble la enunco (komparez *okdekquar* a *okadek* e *quar*); ol igas la nombri plu facile pronuncebla, audebla e komprenebla.2. Ol impedas omna (mem semblanta) dusencesi quin on objecionis a la nuna sistemo : mem ti qui esus tentata intermixar *tri dek* e *dektri* ne povos miskomprenar *triadek* e *dek e tri*.3. Ta procedo impedas miskompreni di plura sucedanta nombri : *cent ok dek tri* povas komprenesar : 108, 13; od : 100, 83; od : 183. Ma on distingos klare : *cent e ok, dek e tri; (una)cent, okadek e tri;* *cent e okadek e tri* (*Progreso*, II, 353).
+
+114. — Quale on ja vidis en la 3-ma remarko, la nombri darfas esar substantivigata per **-o** (pluralo **-i**): **duo; trio;** **dekeduo; cento; milo.** En ica kazo la unajo kompozanta juntesas a ta substantivo per la prepoziciono **de** : **dekeduo de** **ovi** (ma : **dek e du ovi**).
+
+**Milion, miliard, bilion**, e. c., quale la cetera nombri, devas ne sequesar dal prepoziciono **de** : on dicas **milion homi, du** **milion homi**, quale **mil homi**.
+
+115. — La nombri kardinala anke povas plear la rolo di adjektivi prenante la dezinenco **a** : **dua kanto, dua pro****meno** (exekutata da du personi); **tria atako** (facata da tri individui, homa o bestia) (1).
+
+> (1) Tre diferanta de : *Duopla kanto, promeno, triopla atako*, e tre diferanta anke de *duesma kanto, promeno, triesma promeno*.
+
+116. — Fine li anke povas produktar nombro-manieral adverbi, prenante la dezinenco **e** : **li promenas due; li pro****menas ne kune, ma singlu aparte; li atakis ni trie.**
+
+**Un** genitas la pronomo **unu** (pl. **uni**). Ex. : **unu postulas** **ico, altru ito. Li nocis l'uni l'altri.**
+
+On darfas dicar : **omni du, omni tri, omni quar**, e. c.; ma anke : **omna du, omna tri**, e. c. (quale on dicas *omna* *homi*), la pluralo esante ja indikata dal nombri *du*, *tri*, e. c.
+
+117. — La *nombri ordinala* obtenesas soldante al kardinal nombri la sufixo **-esm** e la dezinenco **o, a, e** segun ke on bezonas substantivo, adjektivo o adverbo : **la unesmo,** **duesma, triesme.** Kande la nombro esas kompozita, nur la lasta elemento recevas la sufixo e la dezinenco : **duacent** **e quaradek e triesma** = 243ma (2).
+
+> (2) Segun la procedo di enunco indikita p. 96 por 679 : (*sis, sep,* *non*), 243 darfus esar enuncata : *du, quar, tri;* konseque por kurtigar l'enunco o la dikto di 243ma, on darfus dicar : *du, quar, tri-esma.* E tale por omna nombro ordinala.
+
+**Quantesma** relatas la ordino e konseque postulas nombro ordinala, quale l'adjektivo **quanta** relatas nombro kardinala (o quanto) : **quantesma dio di la monato esas? la sepesma,** **la duadekesma.**
+
+118. — La *nombri fracionala* obtenesas soldante al kardinal nombri la sufixo **-im** e la dezinenco **o, a, e** segun la kazi : **la centimo** (1/100), **la duimo** (1/2), **la quarima** **parto; centime, duime, quarime** (3).
+
+> (3) Dicez: *la du unesma literi dil alfabeto* — *la tri unesma monati* *di la yaro*, e ne : *la unesma du literi..., la unesma tri monati...* (*Progreso*, II, 32.)
+
+On uzas **de** avan la komplemento di fraciono, quale avan la komplemento di integra nombro substantivigita : **(la) du** **triimi de sis esas quar** analoge a : **dekeduo de ovi.**
+
+Por enuncar fraciono komplikita, on obtenas plu granda klareso uzante la prepoziciono **sur** inter la du nombri kardinala, qui esas la termini di la fraciono : 15/273 = **dekekin** **sur duacent e sepadek e tri** o : **dekekin sur du, sep, tri** (1). **Dek triacentimi** tote ne povas konfundesar a : **deketri cen****timi.** L'unesma esas 10/300, la duesma 13/100; l'unesma lektesos : **dek sur triacent**, e la duesma : **deketri sur cent.**
+
+> (1) Videz pag. 95 ye la 2-ma remarko. (2) Evitez sorge uzar la sufixo distributiva **op** en senco kolektala por qua ol esas neutila, la kardinal adverbo suficante. Dicar : **Ta du** **amiki promenas sempre duope** esus tam kontrelogika kam dicar France ...*se promènent toujours deux à deux*. Quale li povus facar ico, nam *li esas nur du?*
+
+119. — La *nombri multiplikera* obtenesas per la sufixo **opl**, a qua on soldas **o, a, e** segun la kazi : **la duoplo** (la nombro multiplikata *per du*); **quaropla** (qua esas multiplikata *per quar*); **triople** : *la nombro 12 esas triople granda* *kam 4.*
+
+120. — La *nombro dil foyi* indikesas per la radiko **foy** generale sequata dal adverbal dezinenco **e** : **dufoye**; o, se konvenas, dal dezinenco **a** : **trifoya voko** = *voko repetita* *3 foyi.*
+
+**Notez bone, ke la Franca vorto « fois » ne tradukesas** **per** *foy* **ma per** *opl* **en la senco multiplikanta : triople quar** **esas dekedu** (*3 fois 4 font 12*). On darfas anke uzar la prepoziciono **per**, precipue kande la nombri esas kelke komplikita: **okadek e tri per duacent a quaradek e sis**=83×246. Plu simpla enunco : *ok, tri per du, quar, sis*.
+
+121. — L'expresuri **distributiva** obtenesas per la sufixo **op**, sequata dal dezinenco konvenanta : **duope** = per rangi o serii de *du*; **triope** = per rangi o serii de *tri*, e. c. **Unope,** un separite, aparte, **single. La soldati marchas quarope.** — **Se li formacos rangi duopa e ne quaropa, lia defilo duros** **duople plu longe.** — **Marchez unope.**
+
+La questional adverbo korespondanta esas **quantope :** **quantope vu vendas la nuci** (quantanombre per un foyo?) **centope o micentope** (dek e kinope). On darfas anke dicar : **pokope, multope** = *ye mikra quanti, ye granda quanti* (2).
+
+122. — Nula prepoziciono e nula sufixo esas necesa en frazi tal quala ici : **Por mea infanti me kompris dekedu** **pomi, ed a singla de li me donis tri pomi.** — **Ta libro havas** **sisadek pagini; se do me lektos en singla jorno dek e kin** **pagini, me finos la tota libro en quar jorni. La vorto singla** **suficas por indikar la distributo.**
+
+123. — Por l'enunco di la hori, l'Akademio adoptis explicite **kloko, kloki**. Ca du vorti indikas do propre la diala dividuro markizata da la cifri di horlojo. Ex. : **il departis** **pos du kloki**, to esas : pos la dividuro II di la horlojo. Ma **horo** indikas (exter omna cifroplako, e per su) la duro, l'ensemblo dil 60 minuti konstitucanta un horo. Ex : **il** **departis pos du hori**, t. e. pos 120 minuti, pos restir dum 120 minuti.
+
+Existas nur un maniero internaciona dicar la horo, to esas enuncar ol quale on skribas lu : **esas du kloki; du kloki** **e quarimo; du kloki e duimo; du kloki e tri quarimi; du** **kloki dek** (minuti); **du kloki duadek; du kloki kinadek;** **du kloki kinadek e non** (minuti).
+
+On devas nultempe sustracionar, se on volas esar komprenata certe ed evitar konfundi. Do sempre *adjuntez* a horo la duimo, quarimi, minuti, e. c. (1).
+
+> (1) Pri la *horo* dil nasko o morto di ulu, pri la 60 minuti dum qui lu naskis o mortis, kompreneble on ne darfas uzar *kloko*. Ma on dicos tre reguloze : **la horo di lua morto eventis ye kin kloki** **di mea horlojeto.**Esas dezirinda, ke on adoptez la kontado di la hori de *0* a *24*, por evitar la distingo jenanta dil matino e dil vespero per *matine,* *vespere.*
+
+Por questionar pri la horo, fakte existas en Ido du manieri, quale en la Angla : **qua kloko esas** e *qua tempo esas?* Se forsan on agus tro severe interdiktante l'unesma, ne esas dubebla, ke la duesma (*qua tempo esas?*) meritas la prefero, pro ke ol esas plu justa. On ya ne questionas nur pri la *horo*, ma reale anke pri la minuti e mem ulfoye sekundi qui adjuntesas a ta horo, do fakte on questionas *pri la tempo,* on deziras *konocar qua tempo esas* (2).
+
+> (2) L'expresuro Angla « qua tempo esas », por questionar pri la horo, certe meritas preferesar. Cetere mem en F. on uzas *temps* en ica senco, precipue en la tekniko : *connaissance des temps; équation**du temps; temps sidéral, temps solaire vrai* ou *moyen*. (*Progreso*, VII, 399.)Samloke *Progreso* dicas : « On ne povas uzar ordinala nombro (ex. : *quantesma horo o kloko*) pro la motivi expozita olim en la diskuto. » (III, 26-28, 218, 353, 703-4; IV, 378.)
+
+Quankam : *la duesma, la triesma kloko*, e. c., ne esas *en su* kontrelogika, ni agos plu bone, se ni sempre konservos la nombri kardinala *pri la hori*. Tale ya ni evitos mixar le ordinala kun le kardinala, quale en : **esas la duesma e dek** **minuti.**
+
+Do ni dicez sempre kun la nombri kardinala : *esas* *du kloki dek, du kloki e tri quarimi*, e. c.; e ni nultempe uzez la formo adverbala *kloke*, quan l'Akademio explicite repulsis.
+
+En matematiko, on tradukas reguloze la signi +, —, × e : **per plus, minus, per e sur**; 23 = **du potenco tria;** **3/2** = **radiko tria di du** (1).
+
+> (1) Remarkez **tria**, ne **triesma**. Nam ta ideo ne esas reale ordinala : la potenco 3a esas la potenco di qua l'exponento esas *tri*.
+
+124. — Por l'enunci relatanta la yari, monati, e. c., travivita, on uzas la radiko **ev(ar), ev(o)**. Ex. : **Quante vu** **evas? me evas duadek yari**, o : **me esas duadek-yara; quante** **evas l'infanto di vua fratino? ol evas nur kin monati**, o : **ol esas nur kinmonata; ol evabis nur du semani** o : **ol esis** **nur dusemana, kande ol mortis; ta viro semblas grandeva** o : **tre evoza; yes il esas preske centyara. Kad vua patrulo** **esas grandeva? No, il esas mezeva, il atingis nur mezevo** (2).
+
+> (2) Ma **Mezepoko** (meza epoko, ne evo) por la tempo iranta de la historio antiqua a la moderna.

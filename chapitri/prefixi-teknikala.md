@@ -1,0 +1,30 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# PREFIXI TEKNIKALA
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Ni vidis *anti-*, *auto-* (1), *bi-*, *quadri-*; restas studienda le sequanta pure teknikala.
+
+> (1) Same kam pri *anti*, on devas en la komuna linguo admisar vorti integra, tote pronta, qui kontenas *auto*, kande li esas internaciona : *automobilo, autografo, autobiografio, autodidakta* e. c.Kompreneble restas tote exter ico la uzo di *su* en vorti quale *su-levo, su-kusho, su-tenado* (on vere tenas su per la ago di la muskuli), *su-ocido, su-amo, su-admiro* e. c.« Same kam ni substantivigas sen skrupulo, e mem kun granda komodeso, la pasiva verbi (*konstrukteso, konvinkeso*, e. c.), ni povas e devas substantivigar la reflektiva verbi, kun la reflektiva pronomo. Do on darfas uzar vorti quale *su-levo, su-kusho*, por l'ago *levar,* *kushar su* (komparez *su-ocido* a *hom-ocido*). Remarko : Esperanto uzis *kushi* en ne transitiva senco (la senco di *jacar*), tale ke ol povis expresar *kushar* nur per *kushigi*, e *kushar su* per *kushighi!* Ed on ne havis la necesa analogeso inter *levar* e *kushar* (la du transitiva). *Progreso*, V, 284.
+
+***equi-.** — Ol signifikas *egala* (plu o min evidente) : **equi****angula, equiaxa, equilaterala,** e. c., sen parolar pri **equilibro,** **equinoxo, equipolo, equivalo.** On ne povis uzar *egal-* en ta omna vorti, qui esas maxim ofte internaciona.
+
+***ko-.** — Ol renkontresas en **kosinuso, kolatitudo, kosekanto,** **kofunciono, kotangento, kovarianto, konormala,** sen parolar pri **kolineara, korelato** e **korelativa, korespondo,** qui esas por ni primitiva vorti. En ta vorti, la prefixo *ko-* ne havas la senco di kun, sed (ma) la senco : « komplemento di... » o « di komplemento ».
+
+Ol esas do tote necesa. Ma ni rezervis ol a ta specala senco, ed uzis *kun* o *sam* en la kazi, en qui la senco postulis ta elementi : *kun-junto, kun-kurar, kun-mezurebla; sam-axa,* *sam-centra, sam-foka, sam-tempa, sam-plana...* (*Progreso*, III, 2.)
+
+**mono-.** — Ol signifikas : *un*. Ex. : **monosilabo, monoko****tiledona, monokordo.** La linguo komuna uzas *un-* : **unlatera,** **unnoma, unpersona,** ma ol admisas la vorti internaciona qui komencas per *mono* : **monogramo, monotona,** e. c.
+
+Pro analogeso, e pro la sama motivi qui impozis **mono-,** **bi-,** l'Akademio (1) adoptis : **tri-, quadri-, quinqua-, sexa-,** **septua-, okto-, nona-** (*Progreso*, IV, 567).
+
+> (1) Plu precize : la teknikala subkomitato.
+
+L'Akademio repulsis (2) la serio de prefixi : **di-, tetra-,** **penta-, hexa-, hepta-, okto-, ennea-** (*Progreso*, IV, 567).
+
+> (2) N. B. : Kom generala *prefixi* aplikebla ad irga radiko, nam lore on devus selektar e hezitar en singla kazo inter du prefixi. Ma on ne exkluzas la posibleso adoptar, kom integra radiki, vorti kompozita per ta greka prefixi.
+
+Kompreneble on sequas la generala reguli di nia linguo omnube li esas suficanta a la justa expreso dil idei : mi- vice la tri prefixi : *hemi-*, *semi-* e *demi-*, quo liberigas ni tre fortunoze de lia jenanta konkuro e de multa heziti (*mi-axo,* *mi-cirklo, mi-ombro, mi-plano, mi-sekanto, mi-sfero*. Same *ne-* vice la Latina *in-* o la D. E. *un-* : *nesimila, nevarianta*).

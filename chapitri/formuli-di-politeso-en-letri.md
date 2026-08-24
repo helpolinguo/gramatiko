@@ -1,0 +1,18 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# FORMULI DI POLITESO EN LETRI
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Ta formuli esas afero di nacionala kustumo e stilo, e la simpla traduko di tala nacionala formuli genitus ne nur senfina diverseso, ma frazi stranja, nekomprenebla o miskomprenebla. Semblis do necesa fixigar, per konvenciono, to quo devas konsideresar kom *polita* formuli.
+
+Ye la komenco di letro, ni uzez nur *Sioro*, e se la korespondanto havas ula titulo, funciono o profesiono, qua konsideresas en nia korespondado, ni skribez : *Sioro Prezidero,* *Sioro Profesoro,* e. c. Por iti, qui havas funciono o situeso, por qua la simpla *Sioro* ne semblas suficanta, ni havas la vorto *Sinioro* : *Sinioro Episkopo, Sinioro Ministro*.
+
+Ye la fino di letro, ni generale uzez : *Kun sincera saluto*. Por siorini e la personi, quin ni qualifikas « sinioro » ni dicez : *Kun respektoza saluto*.
+
+Komprenende ta reguli ne koncernas la korespondado kun amiki, kamaradi, parenti, qua admisas tre granda diverseso en ta formuli.
+
+[Segun *Progr.*, II, 679; IV, 470].

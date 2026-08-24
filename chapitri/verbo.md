@@ -1,0 +1,204 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# VERBO
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+41. — Duspeca verbi existas en Ido : la *transitivi* e la *netransitivi.*
+
+La transitivi (qui povas havar « objekto » o komplemento direta) posedas du voci (1) : l'aktiva e la pasiva; la netransitivi posedas nur un voco, l'aktiva.
+
+> (1) En gramatiko e pri verbi, la *voco* esas l'ensemblo dil formi indikanta, kad la subjekto facas (voco aktiva) o subisas (voco pasiva), la ago expresata dal verbo.
+
+L'aktiva voco esas formacata per la verbal radiko, a qua on adjuntas la sequanta dezinenci :
+
+**-ar** por l'infinitivo prezenta : **am-ar.**
+
+**-ir** por l'infinitivo pasinta : **am-ir.**
+
+**-or** por l'infinitivo futura : **am-or** (2).
+
+> (2) Remarkez ke en la tota konjugo, la vokali *a*, *i*, *o* indikas rispektive : *prezento, pasinto, futuro.*
+
+**-as** por l'indikativo prezenta : **am-as.**
+
+**-is** por l'indikativo pasinta : **am-is** (3).
+
+> (3) L'Idal *preterito* expresas omna indikatival tempi pasinta qui ne esas antea pasinti : *imparfait, passé défini, passé indéfini* di la Franca. Ica lasta linguo havas, pri la pasinta tempi dil indikativo, distingo qua ne korespondas a ta dil cetera lingui. Esabus eroro imitar lu en Ido, e tante plu ke ol ne esas reale necesa. Se stranjero dicas a Franco : « je *voyais* votre mère hier, o : je *vis*, vice j'*ai vu* votre mère hier : me vidis vua matro hiere » kad ta Franco ne komprenas perfekte, ke la stranjero dicas *vidir* lua matro? To komprenigas, ke Ido povas kunfuzar la 3 tempi di la Franca en la tempo **-is** (preterito) sen ula detrimento por l'ideo expresenda.Tamen, kande to esas utila, la Franca « imparfait » (imperfekto) povas tradukesar per la preterito (*esis*) di la verbo *esar* e la participo prezenta dil uzata verbo : *me esis manjanta, kande vu* *arivis.*
+
+**-os** por l'indikativo futura : **am-os.**
+
+**-us** por la kondicionalo prezenta : me **am-us** (4).
+
+> (4) Pri **s** en *as, is, os, us* videz la 7-ma apendico : « Verbal rolo di **s** en la helpolinguo. »« L'akademio repulsis chanjar la tri tempi di l'indikativo : e ton lu facis bone. En nia konjugo la regulozeso dil tri vokali *amas*, *amis*, *amos* esas preferinda kam ula naturala formi (internaciona ne existas) pro ke per ta unika regulo on lernas anke la tri tempi di la cetera modi : *amar, amir, amor; amanta, aminta, amonta; amata,**amita, amota*... Ta formi esas komoda e mem necesa. Pri la pasinta infinitivo *amir* cadie on ne plus dubas; pri la futura formi *amor*, *amonta, amota* on semblas ankore havar dubi, ma tote neyuste. Se me dicas : *Me konjektas ke me vidos il* (t. e. en futuro), lore esas postulo di la logiko, ke on povez dicar : *Me konjektas vidor il*, por expresar futuro kontraste kun la prezento : *vidar il.* — Se me dicas: « *En la publikigota artiklo mencionez to* », me indikas, ke on certe publikigos artiklo, ed esas mala helpilo dicar, quale plura vivanta lingui : *la publikigenda artiklo*, nam ne traktesas artiklo qua *devas* esar publikigata, ma ula qua *esos* publikigata. Esus regretinda kulpo imitar, sub pretexto di internacioneso, caregarde la nacionala lingui, qui ne havas tala formo, e koaktar ni dicar ulo altra kam ni pensas, ed expektar ke l'audanto divinos quon ni vizas : vere plu importanta kam l'internacioneso (propre dicite hike nur la nacionaleso) esas furnisar per nia linguo a la homi qui pensas logikale *ula instrumento apta expresar lia idei klare e precize.* E ton nia konjugo kun lua tri tempi facas admirinde. Ni do konservez lua sistemo ». — (P. de Janko, *Progreso*, *IV*, aprilo, 1911.)
+
+**-ez** por l'imperativo prezenta : ni **am-ez** (1).
+
+> (1) L'*imperativo* (o, plu juste, *volitivo*) **-ez** atingas quik lekte irgu qua savas kelke la Franca : *venez, dormez*, e. c., kontre ke **-es** atingus nulu : *venes, dormes.* Ma, se ulu ne povas pronuncar facile *-ez* finala, lu pronuncez ol quale *-es*, sen hezito. La avantajo di **-ez** ne perdesos, same kam la avantajo di *j* ne perdesas, se uli pronuncas ol quale *dj*, segun explicita permiso di nia gramatiko. — Esperantisti blamis **-ez** por la volitivo, obliviante ke **-u** dil sama modo en lia linguo komprenesas da nulu : *venu, dormu*, e ritrovesas en *iu, tiu,* *chiu, neniu* (mem en *chu, morgau, kontrau, lau, antau* e. c.) quo forsan ne esas kolmo di logiko.
+
+La distingo dil personi esas indikata dal personal pronomi o dal substantivo subjekta. Ma ye la duesma persono singulara o plurala dil imperativo, on darfas tacar la subjekto : **amez**, vice *vu* o *vi* amez.
+
+La *participi aktiva* esas formacata per la sequanta sufixi, a qui on adjuntas la dezinenco (*-a*) dil adjektivi :
+
+**-ant** por la participo prezenta : **am-ant-a** (qua amas).
+
+**-int** por la participo pasinta : **am-int-a** (qua amis).
+
+**-ont** por la participo futura : **am-ont-a** (qua amos).
+
+La verbo **esar** ipsa recevas la diversa dezinenci quin ni jus vidis : **es-ar, es-ir, es-or; es-as, es-is, es-os, es-ez; es-ant-a,** **es-int-a, es-ont-a.**
+
+42. — L'*antea tempi* di la voco aktiva esas formacata per la verbo **esar** kombinata kun la pasinta participo aktiva, o per **-ab-** quan on pozas inter la radiko e la dezinenco :
+
+*antea pasinto* : **me esis aminta** o **me amabis.**
+
+*antea futuro* : **me esos aminta** o **me amabos.**
+
+*antea kondicionalo* : **me esus aminta** o **me amabus.**
+
+*antea volitivo* : **esez fininta** o **finabez** (1).
+
+> (1) La formi kun **-ab-** unesme refuzita, pose admisita por probo, fine sancionita unanime dal Akademio (decido 748), sempre plu praktikesas en Ido kom plu kurta, plu lejera e plu facile docebla.Memorez bone, ke la formo **-abas** ne darfas uzesar, nam l'Akademio ne adoptis lu, pro ke ol ne esas necesa.Praktike on ne havas l'okaziono dicar : *esez aminta o amabez.* Ma on povas tre bone dicar : **esez fininta o finabez** (ica laboro ante mea retroveno).
+
+On darfas formacar altra tempi sekundara, sive en l'aktivo, sive en la pasivo (quan ni vidos sube) per la kombino dil verbo **esar** kun la cetera participi : **il esis lektanta; me** **esis departonta** (2); **il ne esas mortinta** (3).
+
+> (2) **Me esis departonta** signifikas : « me (lore) preparis me, o me esis ja pronta por departar quik », granda difero kun la simpla: me departos.
+
+> (3) **Il ne esas mortinta** dicas, ke il ne *esas en la stando* di homo qua *mortis.* Simile : *nun ni esas arivinta* dicas altro kam ni *arivis* : ol montras la stando rezultanta de *arivir.* Komparante : **il ne esas** **mortinta, nun ni esas arivinta** a : *il ne mortis, ni arivis*, on vidas la granda difero existanta inter l'unesmi e la duesmi. Per ici on quaze konstatas ed enuncas la rezulto di iti : *il ne esas mortinta,* pro ke il ne mortis, e *ni esas arivinta*, pro ke ni arivis.(En la 6-ma apendico on trovos la motivi gravega e decidigiva pro qui la verbo *havar* nultempe servas kom helpanto en la Idala konjugo, malgre l'exemplo di lingui romanala e di E. D.)
+
+43. — La *participi pasiva* esas formacata per la sequanta sufixi, a qui on adjuntas la dezinenco (*-a*) dil adjektivi :
+
+**-at** por la participo prezenta : **am-at-a** (qua esas amata).
+
+**-it** por la participo pasinta : **am-it-a** (qua esis amata).
+
+**-ot** por la participo futura : **am-ot-a** (qua esos amata).
+
+La *voco pasiva* formacas lua chefa tempi per la verbo **esar** sequata nemediate dal prezenta participo pasiva. Tale on obtenas la yena tempi e modi :
+
+*Indikativo prezenta* : **me esas amata** (on amas me).
+
+*Indikativo pasinta* : **me esis amata** (1) (on amis me).
+
+> (1) La *perfekto* propre dicata (qua expresas *nuna stando* rezultanta de ago tote pasinta) logike tradukesas per : **me esas amita** (olim).— L'exempli : **Il ne esas mortinta; nun ni esas arivinta** di la noto 3-ma, pag. 48, korespondas, en la voco aktiva, a **me esas amita** di la voco pasiva. En ta omna exempli, l'uzo dil *perfekto* expresas *nuna* *stando* pro ago *facita* dal subjekto o *subisita* da olu.La pasinta participo pasiva (**-ita**) indikas, ke la ago subisita dal subjekto esas nun tote finita : **l'imprimo di ta libro duris tre longe;** **ol esis imprimata dum sis monati ed erste de 8 dii ol esas imprimita.** — **Tam longe kam on serchas la solvo di problemo, ta problemo** *esas* *solvata;* **ma venas instanto pos qua ol** *esas solvita.* — **La domo esis** **konstruktata dum un yaro; ma depos du monati ol esas konstruk****tita.**« Por savar, kande vu hezitas, *qua tempo devas uzesar en la pasivo,* *tradukez per l'aktivo.* Kad on arestas e kondamnas nun persono? Se yes, lu esas *arestato, kondamnato.* Se ne, se on ja arestis o kondamnis lu, on devas uzar la pasinto : *arestito, kondamnito;* ne importas kad l'efekto di la ago ankore duras o ne. Mem liberigita, l'arestito restos arestito; mem indulgita, la kondamnito restos kondamnito (t. e. ulu, quan on kondamnis ultempe). Per ta facila procedo (qua divenas balde mashinala ed instintala per kustumo) *on ne povas erorar.* « La pordo esas klozata » (on klozas ol nun); « la pordo esas klozita » (ol esas nun en la stando qua rezultas de ke on *klozis* olu). — Du participi preske sempre postulas la sama tempo : *konocata* devas generale esar en la prezento, nam : « Me esas konocata » signifikas : « on konocas me » (same *reputata*, konsiderata, e. c.). — Kontraste, *fatigita, konvinkita* devas generale esar en la pasinto. Nam, kande on dicas : me esas fatigita, konvinkita, la efekto ne esas *nun* produktata, ma *ja* produktita. « Me fatigesis promenante e nun me esas fatigita. » — « Me konvinkesis da omno, quon me audis o vidis, pro to me ne plus dubas; me esas konvinkita » (segun *Progreso*, III, 396.)
+
+*Indikativo futura* : **me esos amata** (on amos me).
+
+*Kondicionalo prezenta* : **me esus amata** (on amus me).
+
+*Volitivo prezenta* : **esez amata** (on amez vu).
+
+*Infinitivo prezenta* : **esar amata.**
+
+*Infinitivo pasinta* : **esir amata.**
+
+*Infinitivo futura* : **esor amata.**
+
+L'*antea tempi* dil voco pasiva esas formacata per la sama helpo-verbo (esar) sequata dal *pasinta* participo pasiva :
+
+*Antea pasinto* : **me esis amita** (on amabis me).
+
+*Antea futuro* : **me esos amita** (on amabos me).
+
+*Antea kondicionalo* : **me esus amita** (on amabus me).
+
+*Antea volitivo* : (to) **esez finita** (on finabez to) (1).
+
+> (1) Ultre lia funciono en la konjugo, la participi (aktiva o pasiva) pleas la rolo di adjektivi, sive kom epiteto : *vazo ruptita,* sive kom atributo : *il esas erudita.* Li anke povas formacar substantivi : *la mortanto, la vivanti.* Fine per **-e** li povas divenar adverbi : *mortante il dicis. Sendez omno afrankite.*Irgu qua examenis sen prejudiko nia sis participi, en lia funcioni diversa, povas nur gratular ni havar per li, e sen kompliko, richeso tante utila por la facila e justa expresado dil pensi.
+
+Ma per la sufixo **-ab**, quan la verbo **esar** recevas en : **esabis** (antea pasinto), **esabos** (antea futuro), **esabus** (antea kondicionalo), **esabez** (antea volitivo) (2) on tre bone povas indikar l'anteeso en la quar supera tempi, konservante la participo **-ata** di la chefa tempi :
+
+> (2) En Espo la korespondanti esas ica charmanta formi : *estis* *estinta, estos estinta, estus estinta.* La frazo : *kande ni esabis tre* *obediera li rekompensis ni* tradukesas ad Espo per : *kiam ni estis* *estinta tre obediema ili rekompencis ni.* Esperanto regretinde tro ofte oblivias la oreli sentema.
+
+Tale la tota konjugo pasiva postulas nur un sola participo (*-ata*), quo esas plu simpla e ne min preciza.
+
+44. — On povas obtenar por la voco pasiva *sintezal* (exakte : *kunjuntal*) formi plu kurta, kunjuntante, por abreviar, la verbal radiko e la verbo **esar** :
+
+> (3) La lerno dil regulo : *amesar* = *esar amata* ne esas jenanta; tote kontree, ta formi esas vere tre komoda. (E. Ferrand, *Progreso*, IV, 210.) Til nun (aprilo 1911) nulu plendis pri reala dusenceso di *ameso* e simila vorti. (*Progreso*, IV, 90.)
+
+On darfas unionar al verbal radiko (en pasivo) mem la tempi **esabis, esabos, esabus, esabez.** Ma ta uniono o kunjunto esas deskonsilata por radiki *plursilaba*, pro ke lore la vorto divenas longa ed ofte min klara kam en analizal formo. Exemple : **interpretesabus** o mem **destruktesabus**, kelke longa, ne havas la klareso di : **esabus interpretata, esabus** **destruktata.**
+
+Do, praktike, uzez *esabis, esabos, esabus, esabez* nur kun monosilaba radiko.
+
+La kunjuntal formi (1), tre komoda pro lia kurteso (kun radiko monosilaba) precipue utilesas por tradukar la falsa verbi reflektiva (§ 49).
+
+> (1) Por ta pasivi ni preferas l'expresuro « kunjuntal formi » pro ke li esas la *kunjunturo* di « esar » e di verbal radiko. Ta formi esus *vere* sintezala, nur se li prezentus dezinenci segun la modelo Latina : *am-or, am-aris* e. c. Ma en *am-esar, am-esas, am-esis* e. c. ne existas dezinenci : existas radiko e kompleta verbo (**esar**) kunjuntita, **unionita.**
+
+45. — Malgre l'exemplo di lingui nacionala (qui agas pri la transitiveso dil verbi deskonkorde ed arbitrie) verbo esas *transitiva* en Ido, se ol expresas faco, ago povanta atingar *direte* ula objekto : **dankar, mokar, nocar, obediar,** **repugnar** *ulu*, nam vere e logike *ulu* povas esar direte l'objekto dil *danko*, dil *moko, noco, obedio, repugno.* Ico nekontesteble pruvesas dal fakto, ke l'objekto povas divenar la subjekto en voco pasiva : *Dankez Deo, Deo esez dankata* o *Deo dankesez; il mokis ta povrulo, ta povrulo esis mokata* *o mokesis da ilu; el nocos vu, vu esos nocata o nocesos da* *elu; fine la filio obediis la matro, la matro esis obediata dal* *filio*; **ta procedo repugnas me**, *me esas repugnata o repu**gnesas da ta procedo.*
+
+Konseque, esas *netransitiva* en Ido nur la verbi qui logike, nature, quale **naskar** e **mortar** ne povas havar « objekto » (komplemento direta). **Restar, sejornar, repozar, kreskar,** **dekadar, degenerar, falar, irar, marchar, venar, arivar, de****partar**, exemple, ne esas transitiva, ma tre certe *netransitiva.* En ica lasta verbi, la subjekto facas la ago totsame kam en verbo transitiva : en **venar, arivar, kreskar** la subjekto agas, quale en la transitivi **frapar, donar, lektar**; ma en li, netransitiva, nul « objekto » povas existar, nul « objekto » povas recevar la ago dil subjekto; ol restas en lu : on ne dicas *venar ulu, arivar ulu, kreskar ulu*, quale on dicas : **frapar** **ulu, donar ulo, lektar ulo.** Konseque la *netransitivi* nultempe darfas havar participo pasiva. Do nultempe dicez : *venata,* *venita* o *venota; arivata, arivita, arivota; kreskata, kreskita* o *kreskota*, ma nur, segun la kazo : *venanta, veninta, venonta;* *arivanta, arivinta, arivonta; kreskanta, kreskinta, kreskonta.* E tale pri omna verbo netransitiva. Cetere, merkez e memorez bone, ke *nul formo pasiva darfas donesar en Ido a verbo* *netransitiva.*
+
+46. — *Mixita* on nomizas en Ido ula verbi quin la linguo traktas kom transitiva e netransitiva. Nul ambigueso povas rezultar de to, nam se li uzesas transitive, li havas « objekto » : **il turnis e riturnis sua chapelo**; e, se li uzesas netransitive, li ne havas « objekto » : **la tero turnas sur** **sua axo e jiras cirkum la suno.**
+
+Ta procedo supresas fonto di desfacilaji quaze nevinkebla; altraparte ol esas konforma al kustumo di multa lingui, ed ici pruvas, ke ta dualeso di senco havas nula detrimento por la klareso.
+
+Exempli : **komencar, durar, finar, cesar : mea laboro** **komencas, duras, finas, cesas** (senco *netransitiva*); **me** **komencas, duras, cesas, finas mea laboro** (o laborar) senco *transitiva* (1).
+
+> (1) Reale, to esas *me*, mea agiveso qua komencas, duras, finas o cesas. (Noto 1, pag. 21, *Grammarie Complète*.)
+
+Ma, se parolesas pri ulu quan me igas laborar, me dicos : **me komencigas, durigas, cesigas, finigas lua laboro.** Exemple : **la pueri cesis ludar** (o : sua ludo); ma : **cesigez** **la pueri ludar** (o : la ludo dil pueri), o : **igez ke la pueri** **cesez ludar** (o : cesez sua ludo). Quale on vidas, la Franca verbo *continuer* (ne cesar to quon on agas), tradukesas per **durar** (2). Lasta exemplo : **Ne povante durar ipsa ta laboro,** **me durigos olu da mea fratulo.**
+
+> (2) « Letro *duras* dum skribesar, ed anke dum lektesar); e mem plu juste, nam *durar* nule implikas kontinueso. Cetere, quo esas plu naturala kam : *Me duras parolar, skribar?* Ma analoge, on devas dicar : *Me durigas mea diskurso o letro* (*Progreso*, IV, 594).Decido 1615 : On decidas, ke *durar*, *durigar* suficas, repulsante*kontinuacar*, qua obtenis un voco. — Kom noto pri ca decido trovesas : « *Grammaire Complète* (sancionita dal komisitaro konstanta dil *Delegitaro*) fixigas pri durar, durigar, pag. 35, regulo 32.Kontinuigar = igar kontinua, sen ula rupto di kontinueso. Ex. : *Durez ta laboro e, se vu ne povos ipsa durar lu, durigez lu da altru.* *Ma ol esez kontinuigata til parfino sen la maxim kurta interrupto.*
+
+Lo sama esas praktikata pri la verbi **chanjar, movar, tur****nar, pendar,** e. c. (Videz la lexiko).
+
+**Me chanjis depos mea yuneso; me chanjis mea vesti;** — **el chanjigis** (da ulu) **la kolumo di sua peliso** (*desfidante* *a sua propra habileso*).
+
+**Mea chapelo pendis an arboro; me pendis mea chapelo** **an arboro;** — **vu pendigos me.**
+
+**La tero movas** (jiras) **cirkum la suno** (on do parolos pri la movo (jiro) di la tero.
+
+**Natante la fisho movas sua flosi e kaudo; ta navo movesas** **da** (o **per**) **vaporo.**
+
+**Me turnas la roto;** — **me turnigas la roto** (da altru).
+
+**Paris komunikas telefone kun Lyon;** — **on komunikis a** **me interesanta informi** (1).
+
+> (1) Ta omna verbi mixita, e nome : *komencar, finar* havas, quale *durar*, senco netransitiva e senco transitiva. Or, nur pri *durar* til nun on pensis a special radiko por la senco transitiva. Tamen *durar* esas nek plu frequa, nek plu importanta kam *finar* o *komencar.* Ma ula lingui havas vorto specala por olua senco transitiva, e kredeble pro to on judikis tala vorto kom necesa en Ido. Kad en ta lingui existas anke special radiko por la senco transitiva di *komencar,* *finar, cesar, turnar, movar* e. c.? Do, nur pri la senco transitiva di *durar* li facas ecepto. L'akademio esis justa opinionante, ke 16 yari de praktiko montris ico sat bone : *durar* ne bezonas ecepto partikulara; ol povas havar, quale la cetera verbi mixita, la du senci transitiva e ne transitiva en un sola formo.
+
+47. — La *verbi reflektiva* esas formacata per la pronomi dil unesma e dil duesma personi (*me, ni; vu, vi; tu*) por ta personi, e per la pronomo **su** (nevariebla) por la triesma persono : **me lavas me, tu lavas tu, ni lavas ni, vi lavas vi,** **vu lavas vu, il lavas su, el lavas su, lu lavas su, li lavas su,** **ili lavas su, eli lavas su** (o **su lavas**) (2).
+
+> (2) La slavi devas do atencar por ne falar en l'idiotismo di sua lingui, qui uzas **su** mem por l'unesma e la duesma personi; li ne dicez : *me lavas su, vi lavas su*, e. c. ma bone : **me lavas me, vi** **lavas vi.**
+
+48. — La *verbi reciproka* esas formacata per adjuntar al verbo *transitiva* la vorti **l'una l'altra** (o **una altra**), kande parolesas pri du subjekti, e per adjuntar **l'uni l'altri** (o **uni** **altri**), kande parolesas pri subjekti plu multa kam du : **li batas l'una l'altra; amez l'uni l'altri.**
+
+On anke uzas la adverbo **reciproke** (sen **su**) : **li helpez e** **sustenez reciproke.**
+
+Kande la verbo esas *netransitiva* e lua komplemento bezonas prepoziciono, on pozas ica inter **una** ed **altra** : **li iras** **una kun altra; li falis una sur altra; li kuris una kontre** **altra; la du peci fricionas una sur altra.**
+
+Fine on darfas uzar en ula kazi verbo kompozita kun **inter-** kom prefixo, kande nul dubo povas existar, ke la subjekti facas inter su la ago : **li interparolas; ni interkonsentis;** **pro que vi interdisputas ed interkombatas?** **La homi devus** **ne internocar ed interodiar, ma interhelpar e mem inter****amar** (1).
+
+> (1) « On ne obliviez d'uzo tre komoda di la prefixo *inter* por formacar la verbi reciproka. » (*Progreso*, IV, 147 : Remarki, 1a). — Ta verbi reciproka nature genitas substantivi reciproka : *inter**konsento, internoco, interhelpo, interodio, interamo* e. c.
+
+49. — La *falsa reflektivi*, to esas la verbi reflektiva per la formo, ma *pasiva per la senco* quin on uzas ofte en nia lingui, kontrelogike, devas tradukesar per la pasivo (kunjuntala prefere) (2) : **to trovesas hike; to videsas ofte; ta** **libro lektesas facile; to manjesas plezure; la vazo ruptesis** **dal shoko; ta vorto uzesas tre rare; la fenestro apertesis dal** **vento; la aernavo elevesas desfacile.**
+
+> (2) La senco esas pasiva, on do uzas pasivo, segun la principo tante ofte memorigita por Ido : tradukez, ne sklavatre segun la vorti (di vua linguo), ma segun l'ideo (expresenda en Ido).
+
+Ma, pro ke esas permisata omna metafori klara e naturala, on darfas uzar la verbo reflektiva, kande on personigas l'objekto e konsideras lu kom facanta la ago sur su ipsa; exemple on dicas : **la suno levas su majestoze**, quale on dicas : **Petrus levas su frue.**
+
+50. — La *verbi unpersona* ne havas aparanta subjekto : **oportas, importas, konvenas, decas, suficas, pluvas, ventas,** **nivas, pruinas, frostas** e. c.
+
+En la realeso por frazi tal quala : **importas departar frue,** la subjekto esas : **departar frue.** Pro to, en la kazi analoga on devas uzar l'adjektivo kom atributo (e ne la adverbo quale en Esperanto) : *necesa esas* o : **esas necesa departar** **frue** (1).
+
+> (1) Vice **oportas** uzez prefere la verbo **mustar** kun subjekti : *mea* *patrulo mustas departar. Me, tu il, vu* e. c. *mustas departar frue.***Mustar** implikas neceseso absoluta, neeskartebla : *ni mustas* *mortar; vu mustas repozar.***Devar** implikas obligo : *ni devas respektar* ed *obediar nia gepatri.***Povar** implikas posibleso, e **darfar**, yuro, permiso : *me povus venjar* *me, ma me ne darfas, nam omno interdiktas lo ad me.*
+
+Quante sorgoze la konjugo-sistemo di Ido esis longatempe diskutata en *Progreso* pruvas konvinkive la numeri sequanta : 10 — 11 — 13 — 14 — 15 — 18 — 19 — 22 — 23 — 24 — 26 — 28 — 31-32 — 33 — 36 — 37 — 38 — 40.
+
+Pos ta diskuti l'Akademio decidis :
+
+Decido 671 : « On replusas la konjugo-sistemi propozita : I, 377 e III, 510; — I, 705; — II, 399; — II, 400; — II, 587 e 593; — II, 722; — II, 723; — III, 611; — IV, 208; en apendico IV di cirkularo 10 (e ca lasta sistemo citesas en noto 3, p. 691, dil sama numero kontenanta la supera decido : *Progreso*, IV, februaro 1912).
+
+La decido dil Akademio judikesas kom tre saja e praktikala, kande on konsideras, ke la konjugo di Ido esas tante simpla ke ol konsistas nur ek ico :
+
+**a, i, o, u** por *prezento, pasinto, futuro, kondicionalo* e sequata da **s** en la personal modi (**-as, -is, -os, -us**), da **r** en l'infinitivi (**-ar, -ir, -or**), dal grupo **-nt** en la participi aktiva (**-ant, -int, -ont**), da **t** en la participi pasiva (**-at, -it, -ot**), plus **-ez** por l'imperativo (o voltivo).
+
+Vere, kad on povas trovar konjugo-sistemo plu koheranta, plu reguloza, plu simpla? E kad ol ne valoras irga naturaleso *nacionala* (ne plu ciencoza) arbitrial e hibrida?
+
+(Videz en la 6-ma apendico : « La konjugo-sistemo di Ido » e « Verbal dezinenci Idala ».)
+
+On reprochis ad *-as, -is, -os, -us*, e. c., diferar inter su nur per vokalo. Ma kad en la Angla, la Germana, la Franca, e. c., ula verbal formi diferas per altro? Ka nun ankore la diversa populi dil mondo ne perceptas e bone dicernas en la Latina : *legis, legas, leges; amabas, amabis; bibo, bibi;* *lego, legi; amant, ament; amantur, amentur; amabat, amabit;* *amabant, amabunt; erant, erunt; sunt, sint,* e. c.? Pri ca linguo Latina, ankore nun tante uzata en la medii katolika, ed olim la maxim uzata e parolata de la lingui, kad on ultempe dicis, ke ta difero di formi verbala per un sol vokalo jenas o jenis la kompreno? Kad on reprochis lo al naturala lingui che qui ta fakto existas?
+
+Pro quo supozar, ke en la helpolingo, stranjera ad omni, on esos min atencema pri bona pronunco, kam en altra linguo stranjera? Cetere, en qua linguo esas permisata pronuncar tante sensorge, ke l'audanto povas konfundar *as* ad *os, us* ad *as, is* ad *es, a* ad *e* o *e* ad *i*? En qua linguo on esas dispensata pronuncar klare, por esar bone komprenata?

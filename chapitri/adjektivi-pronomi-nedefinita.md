@@ -1,0 +1,92 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# ADJEKTIVI-PRONOMI NEDEFINITA
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+37. — L'*adjektivi-pronomi nedefinita* esas : **ula, nula,** **irga, altra, kelka, singla, omna, multa, poka, plura, tanta,** **quanta, cetera, ipsa** (2).
+
+> (2) **Tala, quala, sama,** qui pozesis en l'antea listo (Franca) di la « Grammaire Complète », inter l'adjektivi-pronomi nedefinita,esas plu reale *qualifikanta*. Ni do eliminis li ek la listo dil adjektivi nedefinita en ica edituro.**Sama** relatas e la qualeso e l'individueso. Ex. : *La sama qualeso* = la qualeso nediferanta. *La sama homo* = la homo ne altra. Se on reflektas, on komprenas, ke homo povas divenar diferanta, ma lu ne povas divenar altra, *altru*, to esas : perdar sua individueso. — **La samo** = la sama homo; **lo sama** = la sama kozo, fakto. Ex. : *Al samo eventis lo sama* = al sama homo eventis la sama kozo, aventuro, fakto e. c.
+
+Kande to esas posibla, li produktas individual pronomi, quale sube, per la simpla substituco di **-u** (pluralo **-i**) a la dezinenco **-a** (1).
+
+> (1) *Individual pronomi* (**-u**) havas senco multe plu ampla kam *personal pronomi*. Ci lasta implikas nur la persono (gramatikala), kontre ke l'unesmi implikas l'individuo. Or l'individuo kontenas omna ento organizita, persono, animalo o planto, relate lia speco. Konseque, se la pronomi en **-u** reprezentas ordinare persono, homo, li tote darfas, ye l'okaziono, reprezentar anke bestio o planto. Ex. : *omna individui di la hundo-speco ne prezentas la sama tipo. Li* *diferas inter su, plu multe kam l'individui dil kavalo-speco.*
+
+**Ula** (L. *ullus*), pronomo : **ulu** (*ula individuo*), plur. **uli,** donas indiko nepreciza, nedefinita.
+
+**Nula** (L. *nullus*), pronomo : **nulu** (*ne mem un indi**viduo*), plur. **nuli**, esas la negativo di **ula.**
+
+**Irga** (D. *irgend ein*), pronomo : **irgu**, plur. **irgi**, donas l'indiko maxim ne preciza, maxim nedefinita.
+
+**Altra** (E. F. I. S.), pronomo : **altru**, plur. **altri**, indikas chanjo pri l'individueso, kontre ke « diferanta » chanjas la qualeso (2).
+
+> (2) Videz la noto 2 dil pagino 40.
+
+**Kelka** (F.), pronomo : **kelku**, plur. **kelki**, donas indiko ne preciza pri mikra quanteso o nombro : **kelka pano; yen** **fragi; prenez kelki** (de oli) (3).
+
+> (3) **Kelka** indikas nombro min granda kam **multa** e plu granda kam **plura**, qua povas indikar mem nur du, okazione.
+
+**Singla** (L. *singuli*, E. I.), pronomo : **singlu**, plur. **singli,** indikas konsiderante la unaji aparte. Ol havas senco distributiva e signifikas : *un po un, unope*, sive on uzas lu singulare, sive on uzas lu plurale. Ex. : **singla soldato** o soldati recevis duopla porciono. — **Il parolis a singlu.**
+
+**Omna** (L. *omnis*; omnibus), pronomo : **omnu**, plur. **omni,** indikas konsiderante l'ensemblo. Ol havas senco kolektiva, sive on uzas lu singulare, sive on uzas lu plurale. Ex. : **Omna homo** o **omna homi esas mortiva**, signifikas egale : **la homi senecepte esas mortiva** (1).
+
+> (1) En l'expresuri : ni *omna*, vi *omna*, li *omna*, ili *omna*, eli *omna*, la vorto « omna » esas duesma. En : ti *sama*, ti *altra*, ti *kelka* qui pretendas, la vorti « *sama*, *altra*, *kelka* » esas anke duesma. Konseque on ne vidas pro quo « omna » esus unesma en : *omna* ti qui pretendas o : *omni* ti qui pretendas.Simile en : to *poka* quon vu povas, agez lo por me, la vorto *poka* esas duesma. Pro quo do *omna*, od *omno* esus unesma en : *omna* to quon vu povas, *omno* to quon vu povas, agez lo por me? Pro quo vere ica e nura ecepto pri la plaso koncerne *omna*, *omno?* Esperanto esas tante min imitinda pri ca punto, ke dicinte *chiuj tiuj (kiuj)*, ol kontredicas su ipsa, dicante : *tiuj kelkaj (kiuj)*.Ni do pozez *omna*, *omno* ye la duesma plaso, dicante : ti *omna* (qui o quin), to *omna* (quo o quon). Ex. : **ti omna qui vidis lu; ti** **omna quin lu vidis.** — **To omna quo plezos a vu. Il prenis to omna** **quon il volis.** — **Co omna eventis ante to, quon on rakontis a vu.**
+
+**Multa** (L. *multus*, E. F. I. S.), pronomo : **multi**, indikas kun ideo di granda quanteso o nombro. Ex. : **multa vino;** **multa homi.** Pro lua signifiko, ta adjektivo ne povas genitar pronomo en **-u**. Un individuo ya ne povas esar « multu », kontre ke lu povas esar « kelku » e « singlu ».
+
+**Poka** (L. *paucum*, I. *poco*), pronomo : **poki**. Ol esas la kontreajo di **multa** e konseque indikas kun ideo di mikra quanteso o nombro. Ex. : **poka vino; poka homi.** Pro lua signifiko, **poka** ne povas genitar pronomo singulara en **-u**, nam ica signifikus : individuo en mikra quanteso, poka individuo : senco absurda.
+
+**Plura** (L. **Plures**, D. E. F. I. S.), pronomo : **pluri** (*plura* *individui*) indikas kun ideo di plureso (adminime du). Pro lua signifiko, ol kompreneble ne povas genitar pronomo en **-u**.
+
+**Tanta** (L. *tantus*, F. I. S.), pronomo : **tanti**, indikas kun ideo ocilanta inter granda nombro e granda forteso. Ex. : **tanta esforci; tanta laboro.** Ica valoro interdiktas « tantu ».
+
+**Quanta** (L. *quantus*, D. E. F. I. S.), pronomo : **quanti**. Ol esas korelativo di **tanta**. Ol indikas kun ideo pri la stando grandesala o nombrala dil indikato. Ex. : **Il havas tanta** **enemiki quanta amiki. Quanta penon to kustis!** Same kam pri **tanta**, singularo en **-u** ne esas posibla por **quanta.**
+
+**Cetera** (la) (L. *caetera*), pronomo : (la) **ceteri**. Konocata da omni, adminime per *et caetera*, ol indikas la lasta parto restanta di la enti o kozi quin on mencionas. Ex. : **de mea** **kin amiki quar livis me; la cetera restis e vartis mea risa****nesko.** Quale montras ta exemplo, la *ceteru*, ne uzata, esus neutila.
+
+**Ipsa** (L. *ipse*) juntesas a nomo o pronomo por indikar, ke lu agis, agas, agos od agus sen ul mediaco. Ex. : **mea** **kuzino ipsa responsos, se la afero ne sucesos.**
+
+38. — Per substituco dil vokalo **-o** al vokalo **-a**, ta adjektivi produktas (segun lia signifiko) pronomi kozala o quantesala. Ma, pro lia naturo esence singulara, li nultempe recevas la marko (**-i**) dil pluralo :
+
+**ulo**, ula kozo; **nulo**, nula kozo; **irgo**, irga kozo; **kelko,** kelka kozo; **singlo**, singla kozo; **omno**, omna kozo (1); **multo, poko, tanto, quanto** (2). Ex. : **Ta afero ne produktis** **multo; vere la quanto dil rezultaji ne kompensas la tanto** **dil esforci.**
+
+> (1) « Kozo » havas hike la tota ampleso di lua intima e naturala signifiko; ol nule restriktesas ad objekto determinita e materiala. (Videz la noto 2, pag 37.)
+
+> (2) Ni povas explikar mem **multo, poko, tanto, quanto** per: *multa* (abundanta) *kozo, poka kozo, tanta kozo, quanta kozo, la cetera* *kozo*. Kad ni ne dicas : **multa** (abundanta) **pano, poka pano, quanta** **pano, tanta pano, la cetera pano?**Pro ke **irgo, kelko** e. c. indikas, quale ni dicis, ulo tam ne definita o plu juste, ulo tam ne determinita (mem spece) kam on povas supozar, on uzas kun li la relativo **quo** (ne *qua*) same kam kun **to** e **co**. Ta omna vorti ya implikas nedefiniteso (nedetermineso) kompleta. Kande me dicas : **la homo quan me odias**, on savas, ke me odias homo, on konocas l'objekto di mea odio. Ma, se me dicas : **to quon me odias** o : **to omna quon me odias**, on ne konocas l'objekto di mea odio; ol restas tote nedefinita. Esas do logikala, ke nedefinita antecedento (*co, to, ulo, nulo, omno*, e. c.) postulas relativo nedefinita : **quo** e ne la relativo definita : **qua**. L'atencoza lektero vidas, ke en nia expliko, la vorti « nedefinita », « nederminita » koncernas, ne la stando gramatikala, ma la signifiko ipsa dil vorto.On lektas en *Progreso*, IV, 651 : « *Quo* nule equivalas *olqua* : *ol-qua* koncernas objekto di speco determinata o konocata (ex. : *domo, libro, chapelo*, ...); *quo* koncernas objekto nedeterminita o di speco nedefinita. La formi *co, to, quo* **ne esas propre neutra, ma exter** **la tri genri**; li esas vera substantivi, ed expresas altra distingo kamla genri, plu importanta kam la distingo di la genri. Kande on dicas: « quon vu serchas? », on nule pensas : « *ol-quan*, t. e. qua libron, qua chapelon », ma : « qua kozon », tote generale. »
+
+(La) **cetero** = la lasta parto restanta dil kozo mencionata.
+
+La naturo ipsa dil adjektivo-pronomo **ipsa** ne plu permisas *ipso* kam **ipsu** (1).
+
+> (1) **Pluro** (de plura) ne semblis formacenda, pos explorado e probi.« La distingo di la personi (per **-u**) e di la kozi (per **-o**) esas utila nur en la adjektivi, e ne en la substantivi; nam la senco ipsa di substantivo indikas persono o kozo, ed adjektivo sempre referas substantivo expresita o tacita. Cetere, ta distingo esas nule logikal, ma pure gramatikala : la logiko ne distingas personi e kozi, omni esas logike « objekti » od « enti ». Pro to la finalo **o** di la substantivo ne signifikas plu kozo kam persono, ma simple « objekto » od « ento »... Ma, *praktike*, en la maxim multa kazi, la senco ipsa dil adjektivo indikas a la « komuna raciono », ke ta ento esas persono o kozo : *avaro, blindo, klaudikero* (unesme *lamo*), *strabo* povas esar nur personi; *vakuo, dezerto, acido*, povas esar nur kozi. » (*Progreso*, I, 555.)
+
+39. — Per substituco dil vokalo **-e** al vokalo **-a** la nedefinita adjektivi produktas adverbi manierala o quantesala, segun sua signifiko :
+
+**Ule, nule, irge, altre** = en *ula, nula, irga maniero*; — **cetere** = *egardante la cetero*; — **ipse** = *de su ipsa, per su* *ipsa*; — **kelke** = *en kelka grado o quanteso*; — **multe** = *en alta grado o granda quanteso* : **Il multe laboras, ma il** **ganas multe.**
+
+**Poke** = *en basa grado o mikra quanteso* : **Il poke laboras,** **ma il ganas poke.**
+
+**Tante** = *en tanta grado o quanteso* : **Il tante amoras elu!** **Ni tante produktas ke ni ne povas vendar nia omna pro****dukturi.**
+
+**Quante** = *en quanta grado o mezuro, ye qua preco* : **Quante il amoras elu! Vu tante pagesos quante vu laboros.** **Po quante vu vendas ico?**
+
+**Single** = *singla, singlu aparte* : **Cigari po 25 centimi** **single.**
+
+**Plure** = *pluri kune.*
+
+**Omne** = *omni kune* : **Unesme li venis single, pose plure,** **fine omne** (1).
+
+> (1) Erore la vorto « omne » trovesas kun la signifiko « omnamaniere ». Nur ica lasta adverbo kompozita esas justa por expresar la ideo « en omna maniero ». Nam, per sua naturo ipsa, la radiko *omn* implikas ideo di nombro, quale *singl* e *plur*.
+
+40. — La vorti **irga, irgu (irgi), irgo, irge** devas esar uzata sole, kande li trovesas en propoziciono nedependanta e kompleta : **donez a me irgo; irgu komprenos to; venez** **irge, ma venez.**
+
+Ma li devas esar sequata dal vorti **qua, qui, quo, quale,** **quante,** se li esas ligata kun subordinal propoziciono. Ex. : **Ad irgu, qua venos, vu dicos, ke me ne esas en la hemo** **(o heme);** — **irgo quon vu donacos ad ilu, to ne kon****tentigos lu;** — **irge quale vu procedos, il blamos vu;** — **irge quante li laboros, li ne povos finar tante balde.**
+
+Komprenende la adverbo **irge** darfas ligesar a la cetera relativi, exemple a **qua, quala, quanta,** e. c. por donar a li la senco nedeterminita. Ex. : **irge qua mulieron o yuninon** **il vidas, il desprizas elu;** — **irge quala instrumenton vi uzos,** **vi ne sucesos facar ta laboro;** — **irge quanta librin il havas,** **il deziras ankore plu multi.**
+
+N. B. — Notez bone, ke la derival regulo, segun qua on obtenas *ento* (praktike *homo*, maxim ofte) substitucante **-o** al **-a** dil adjektivo, koncernas nur *l'adjektivo qualifikanta*, qua venas de nomal radiko : **avara, avaro.** Or en la 38-ma paragrafo (p. 43), ni vidis, ne l'adjektivo qualifikanta, ma *l'adjektivi-pronomi nedefinita*, qui nule venas de nomal radiko e konstitucas special kategorio gramatikala. Pro to la regulo dil renversebleso ne atingas li, quale ol ne atingas la propra nomi, tote exter ta regulo. *Altra* kam l'adjektivo qualifikanta, per sua naturo e rolo, l'adjektivi-pronomi nedefinita sequas *altra* e propra derivo. On do ne darfas objecionar pri li regulo koncernanta nur l'adjektivo qualifikanta e la participo adjektiva.
+
+(En la apendico 4-ma trovesas fundamental studiuro pri ca punto).

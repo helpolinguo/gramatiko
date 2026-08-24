@@ -1,0 +1,32 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# VORTORDINO
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Quale ni ja vidis en la sintaxo, la *normala vortordino* esas : 1e subjekto, 2e verbo, 3e komplemento direta, singla ek oli esante akompanata da sua omna komplementi. La komplementi nedireta povas esar lokizata irgaplase, ma li prefere sequas la verbo. Ex. : **La filiulo di nia olda vicini** **retrovenis de Paris, ube il kompris multa ludili por sua in****fantino.**
+
+Omna rupto dil ordino normala nomizesas *inversigo*, sive pro ke la komplemento direta preiras la verbo : **elun ne ilun** **me vokis,** sive pro ke la subjekto sequas lu : **venez, venez,** **klameskis l'instruktisto.** L'inversigi povas esar postulata dal bezono insistar sur vorto, pozante lu avane, quale *elun* en l'unesma exemplo, o dal deziro (en la traduki) sequar l'ordino dil texto originala.
+
+*La questionanta vorti* sempre komencas la propoziciono e ne diplasas la subjekto : **Kad vu venos; dicez kad vu venos.** **— Quo eventis? Quon vu vidas? — Quantin me kontis?** **me ne plus memoras.**
+
+*L'atributo* devas quik sequar la verbo esar : **Esez mizerikor****dioza por omni,** e ne : *esez por omni mizerikordioza.* — Il *ne* toleras to, quo esas erora segun sua konvinkeso, e ne : *il ne* *toleras to, quo esas segun sua konvinkeso erora,* en qua *erora* semblas relatar *konvinkeso*. E tale kun omna verbo havanta atributo : **Il mortis tre povra de pekunio, ma richa de vertui,** e ne : *il mortis de pekunio tre povra, ma de vertui richa.*
+
+*L'adjektivo* avan o dop lua substantivo (Videz en la gramatiko, ye adjektivo). Ma ne sistematre avan la substantivo, quale en la Germana e l'Angla,
+
+*L'adverbo* preiras o sequas nemediate la vorto quan ol modifikas. *Ne, tre, nur* sempre avan olu. Ofte l'adverbo bone lokizesas inter la subjekto e la verbo : **Il sempre plendas** **pri omno.**
+
+*La participo,* en la kompozita tempi dil verbo (aktiva o pasiva), sempre devas sequar la helpanto *esar,* e darfas separesar de olu nur da adverbo relanta la verbo : **Ni esas** **arivinta de du hori,** e ne : *ni esas de du hori arivinta.* — **El esas tre amata da omni,** e ne : **el esas da omni tre amata.** — **Ta soldato esis grave vundata.**
+
+*La participo* o *l'adjektivo* devas sempre *sequesar* da sua komplementi, direta o ne direta, e ne separesar de sua substantivo : **La homo estimata da omni,** e ne : *la da omni* *estimata homo,* o : *la homo da omni estimata.* — **La fervoyi** **formacas reto kovranta la mondo,** e ne : ... *reto la mondo* *kovranta,* e mem mine : *la mondo kovranta reto.*
+
+**Me recevis letro skribita en linguo ne konocata da me,** e ne : *me recevis letro en da me ne konocata linguo,* e mem mine : *me recevis en da me ne konocata skribita letro.* — **El esas laudata ed amata da ti omna qui prizas la beleso** **ed afableso,** e ne : *el esas da ti omna qui prizas la beleso* *ed afableso amata è laudata.* — **Ta urbo esas abunde provi****zita ye omna kozi utila por la vivo,** e ne : *ta urbo esas ye* *omna por la vivo utila kozi abunde provizita.* — **La mastro,** **ebria de furio, bastonagis l'asno ne volanta avancar,** e ne : *la de furio ebria mastro bastonagis la avancar ne volanta* *asno.* — **Ni refutis omna objecioni prizentita da nekompe****tenta personi ed ofte genitita da nesuficanta konoco di nia** **linguo,** e ne : *ni refutis omna da nekompetenta personi* *prizentita ed ofte da nesuficanta konoco di nia linguo geni**tita objecioni.* — **Tablo kovrita per ancien reda tapiso ma****kulizita,** e ne : *tablo per ancien reda makulizita tapiso* *kovrita.* — **Me propagas la linguo helpanta Ido, konstruktita** **sur logikal principi e sencese developata per ciencal dis****kutado,** e ne : *me propagas la helpanta, sur logikal principi* *konstruktita e per ciencal diskutado sencese developata linguo* *Ido.* — **La linguo helpanta esas l'inventuro maxim utila por** **la developo di l'internaciona relati e maxim fekunda de** **grava konsequi por la profito di la homaro futura,** e ne : *la helpanta linguo esas la por la developo di l'internaciona* *relati maxim utila e por la profito di la futura homaro de* *grava konsequi maxim fekunda inventuro.* — **Vu esas ne****justa segun mea opiniono,** e ne : *vu esas segun mea opiniono* *nejusta* (1).
+
+> (1) Multi ek ta exempli prenesis de la XXVI exerco di « Exercaro ». Ica finas per konsilo quan Sro Couturat judikis, quale me, kom importanta e *konform a l'evoluciono* di nia lingui : preferar la voco aktiva a la pasiva. Ex. : « Dicez per la formo aktiva : « On (*o* ni) sequis la voyo, acensis la kolino, vizitis la kastelo, ed admiris la bela panoramo, quan on vidas del somito », prefere kam per la formo pasiva : « La voyo sequesis, la kolino acensesis, la kastelo vizitesis, e la panoramo admiresis, qua videsas del somito. »
+
+Ek *Progreso*, VII, 161 : « *Quo esas verajo decidar nur* *povas intelekto.* » Yen bela exemplo di kompleta inversigo di la natural ordino di la pensi. Unlatere, oportis pozar *decidar* ante lua komplemento « quo esas verajo ». Altralatere, oportis pozar *nur* nemediate ante *intelekto*, quan ol referas On povis do uzar un de la sequanta frazordini : « Decidar quo esas verajo, nur intelekto povas. » — « Quo esas verajo, nur intelekto povas decidar. » — « Nur intelekto povas decidar, quo esas verajo. » E la triesma formo semblas a ni la maxim klara por omni, do preferinda. » (2).
+
+> (2) Okazione ni volas refutar un foyo pluse ti qui asertas, ke l'akuzativo esas necesa por posibligar l'inversigi, quin ula lingui tante prizas. Yen exemplo di D. frazo hazarde prenita : « *Das* *Wissen eignet sich das Kind* bereits in allerfrühester Jugend an... » Ube esas l'akuzativo? *Das Wissen* o *das Kind?* Nur la senco e la komuna raciono indikas ol, e posibligas komprenar ta frazo. E to eventas tre ofte en D., nam l'akuzativo esas identa a la nominativo en la pluralo, ed en la feminal e neutra singularo, do mezvalore 5 foyi ek 6! Esas do multe plu simpla e plu sekura sequar sempre la normala vortordino, e dicar ex. en Ido : « L'infanto aquiras la savo ja en la maxim frua yuneso. »

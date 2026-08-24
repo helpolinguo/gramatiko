@@ -1,0 +1,32 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# PERSONAL PRONOMI
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+29. — La personal pronomi esas :
+
+> (1) L'esperantista pronomo *mi* havas la praktikal desavantajo tre grava, ke la orelo povas facile konfundar lu a *ni*, aparte en telefono. Do lu esis forjetenda. Pluse, la pronomo *me* di Ido, qua remplasas lu, donas la posedali *mea*, *mei*, certe plu komprenebla sen lerno da multa homi, nome dal latinisti, kam *mia*, *miaj* di Espo.
+
+Por la duesma persono singulara existas anke formo familiara : **tu**, quan on darfas uzar nur ad amiki tre intima, a frati o parenti kun qui on uzas, en sua linguo matrala, formo familiara korespondanta.
+
+**Lu** (quale **li**) esas uzata *por la 3 genri* (2). Ma, se esas necesa (o se on volas) distingar la genri, on uzas singulare : **ilu** (mask.), **elu** (fem.), **olu** (neut.), quin maxim ofte on kurtigas per **il, el, ol**; e plurale : **ili, eli, oli.**
+
+> (2) Ke **lu** servas la tri genri, segunvole, en la singularo, ne esas en su plu astonanta kam vidar **li** servar la tri genri, segunvole, en la pluralo. Ma, kontraste, ni ulkaze bezonas distingar la pronomo « li » per *ili, eli, oli*, totsame kam ni distingas la pronomo « lu » per *ilu, elu, olu*. La Angla e la Germana lingui pri co pruvas nur un kozo : ke li ulkaze jenesas por expresar distingo pronomala quan altra lingui expresas facile en frazi tala kam ici : *Ili* arivis plu frue kam *eli*. *Eli* meritis la sama puniso kam *ili*. Vu departos unesme kun *ili*, e me rajuntos vu kun *eli*. L'Esperantisti eroras grande, kande li laudas pri sua linguo, e relate ca punto, simpleso *tro granda*.Per decido (1558) l'akademio Idista repulsis omna restrikto pri la uzo di *lu*. On darfas do uzar ta pronomo totsame por kozo e porpersono di sexuo evidenta, kam por animali di sexuo nekonocata e persono qua havas nomo sensexua, quale *infanto*, *puero*, *homo* e. c., tam vere maskula kam femina.La motivi di la decido donesis en « Mondo », XI, 68 : « Lu » por la singularo esas exakte lo sama kam « li » por la pluralo. Logiko, simetreso e facileso postulas ico. Konseque, same kam « li » darfas uzesar por personi, animali, kozi, omnafoye kande nulo obligas expresar la sexuo, tale « lu » darfas uzesar por personi, animali, kozi en la sama kondiciono. La distingo propozita esus subtilajo jenanta. Simila subtilajo rezultus pri la posedala pronomi, qui freque devus esar : *ilua, elua, olua, ilia, elia, olia*, vice la simpla *lua, lia.*
+
+En Ido, la distingo dil genri esas *naturala* : on uzas la maskulal genro por la maskuli, la feminal genro por la femini, la neutra por la kozi, ed anke por la enti di qui la sexuo esas nedeterminita : *infanti, pueri, homi, yuni, oldi,* *personi, individui, kavali, bovi, kati,* e. c.
+
+La triesma persono havas *pronomo reflektiva* : **su** por la singularo e la pluralo. Nultempe ol esas subjekto, e sempre ol referas la subjekto dil propoziciono en qua ol trovesas, kande ta subjekto reprezentas la triesma persono. Ex. : **Il parolis pri su** (sama persono kam **il**, subjekto); **eli parolas** **pri su** (sama personi kam **eli**, subjekto dil propoziciono). Ma : **Il parolas pri ilu** (1) (altra persono kam **il**, subjekto); **li parolas pri li** (altra personi kam **li**, subjekto).
+
+> (1) Kande **il, el, ol** trovesas ye la fino di frazo-membro (quale *ilu*, hike) esas plu eufonioza uzar **ilu, elu, olu,** kompleta (sen eliziono) kam *il*, *el*, *ol* qui lore, sen la susteno di vokalo, restas quaze suspendata en la aero.
+
+Infinitivo, o participo havanta komplemento, konstitucas propoziciono : **me vidis li lavar su** o : **me vidis li lavanta** **su** = **me vidis li qui lavis su.**
+
+30. — Existas en Ido personal pronomo nedefinita : **onu,** qua preske sempre trovesas en la formo kurtigita **on** (segun *ilu, elu, olu,* divenanta *il, el, ol*). Ma nulo interdiktas uzar anke por olu la formo kompleta.
+
+La « me » filozofiala tradukesas exakte per la substantivo : la **ego**, qua ritrovesas en la vorti internaciona : *ego**ism(o)*, *egoist(a)*, *egoist(o)* (1).
+
+> (1) Pro ke « la ego » esas vera substantivo, nulo impedas donar a lu la **-i** dil pluralo, se to esas necesa. Forme e sone « egi » ne esas plu stranja kam « eki », pluralo di *eko*.
