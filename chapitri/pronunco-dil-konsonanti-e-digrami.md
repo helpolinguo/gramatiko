@@ -1,0 +1,68 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# PRONUNCO DIL KONSONANTI E DIGRAMI
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+3. — **B** = *b* en l'Italiana e la Franca.
+
+**c** = *c* Germana en *Ceres* o *z* Italiana en *zio*, o *ts*. Konseque **ca, ce, ci, co, cu** = *tsa, tse, tsi, tso, tsu.*
+
+**d** = *d* en l'Italiana e la Franca. Ol sempre devas esar tre klare dicernebla de *t*.
+
+**f** = *f* en l'Italiana, la Franca, l'Angla. Ol sempre devas esar tre klare dicernebla de *v*.
+
+**g** = *g* sempre guturala, quale en la Germana *geben*, en la Angla *give*, od en la Franca *gant;* nultempe quale *g* Franca en *gens*. Konseque **ga, ge, gi, go, gu** = *ga, ghe, ghi, go, gu* dil Italiana, o *ga, gué, gui, go, gou* di la Franca.
+
+**h** = *h* sempre *vere* aspirata, quale en la Germana e l'Angla *hand*. Per olu tre diferas en Ido la vorti *horo* e *oro*, *hosto* e *osto* e. c. La Franci, l'Italiani e ti omna qui ne havas la *h* aspirata en sua lingui devas tre atencar ta litero. Altre li ne nur pronuncus ne juste, ma en kazi pasable frequa li ne komprenesus bone.
+
+**j** = *j* en la Franca, o *s* en la vorto Angla *vision*. Ma, se on ne povas pronuncar ol tale, on darfas donar a ta konsonanto la sono di *g* en la Angla *gin*, o di *g* en l'Italiana *giardino* (1).
+
+> (1) Segun la decido 646 : « On fixigas kom normala sono di la litero **j**, la *j* Franca; nur per tolero (por ti qui ne povas pronuncar ol tale) on admisas la pronunco di la *j* Angla (quan ni reprezentos per *dj*). »Yen la motivi di ca decido : 1e un litero devas havar un sono; or *tolero* di pronuncado ne violacas ta principo; 2e per ta metodo on povas transskribar exakte propra nomi, quon on ne povus facar kun **j** havanta du soni, nek kun **j** havanta duopla sono (*dj*). — Ek *Progreso*, IV, 689.On remarkez, ke **j** esas necese pronuncata quale *j* Franca en plura Ido-vorti kontenanta *dj : adjuntar, adjutanto, adjudikar, budjeto* ec. — Kande *j* sequas *n*, on preske koakte sonigas *d* inter la du konsonanti (ex. : en *manjar : man-*(d)*-jar*).
+
+**k** = *k* en la Germana, Franca, Angla (*keck, képi, keep*, e. c.) e generale en la lingui uzanta ica konsonanto.
+
+**l** = *l* en la Angla, Franca, Germana, Italiana lingui e. c.
+
+**m**, **n** = *m*, *n* en l'Italiana, to esas sempre artikulata, nultempe kun nazal sono. Konseque **am, an; em, en; im, in;** **om, on; um, un** klare audigas **m**, **n**, quale se li esus skribita *amm, ann; emm, enn; imm, inn; omm, onn; umm, unn.* To esas la rezulto naturala di la principo, ke nula litero esas muta en Ido. Singla sempre sonas, sive en la komenco, sive en la mezo o fino dil silabi, kun sua sono alfabetala. — **Gn**, konseque ta principo, audigas sua du literi, **g** quale indikesis supere, e **n** quale ni jus dicis. Ex. : **regno** = *reg-no*; **digna** = *dig-na* (2).
+
+> (2) Altre pronuncar **gn** esus violacar la principo generala dil Idopronunco. Pluse, kontre ke omni povas pronuncar ta grupo *g-n*, milioni de homi ne sucesus pronuncar ol unsone, quale la Franca en *agneau* o l'Italiana en *ogni*.
+
+**p** = *p* en l'Italiana, la Franca, la Hispana e. c. Ol devas esar tre klare dicernebla de **b**.
+
+**q** sempre sequesas da **u**, quale en la Latina ed en la lingui uzanta ta letro, qua sonas *k* (1).
+
+> (1) Videz la prelasta alineo koncernanta **u**, p. 12.— La adopto di la litero **q** liberigas de multa **k** e lasas al vorti la formo internaciona : *equilibro, equinoxo, equatoro, equaciono* ec. certe plu bona kam : *ekvilibro, ekvinoxo, ekvatoro, ekvacio.*
+
+**r** = *r* Italiana. Se uli pronuncos lu kun kartavo, co ne havos en Ido efekto plu mala kam en la Franca linguo, che qua preske omna nordani kartavas pronuncante ta litero.
+
+**s** sempre sisas forte, sive en la komenco, sive en la mezo, sive en la fino dil vorti, e mem inter du vokali. Konseque ol nultempe recevas la sono di **z** Franca od Angla. Per to la vorti **roso, friso** e **sono**, exemple, diferas de **rozo, frizo, zono.** Do tre atencez pronuncar en Ido nultempe **s** kun la sono di **z** (2).
+
+> (2) Autori qui admisas du soni por **s** en la Linguo internaciona, ne volante chanjetar l'etimologial ortografio, obligas per la fakto ipsa la adepti lernar ne nur duopla regulo di pronunco, ma anke general ecepto, por imitar ula lingui nacionala, e mem ecepti dil ecepto. Tale **s** duras sisar forte en *asymptoto* (asimptoto), *prae**sentir* (presentar), exemple, quankam l'ecepto generala dicas, ke **s** sonas **z** inter du vokali. Konkluze, por pronuncar **s** konvene, en simila kazi, on mustas konocar l'etimologio dil vorto, o konsultar specala repertorio.
+
+**t** = *t* dil Italiana, dil Angla, dil Franca e. c. en la silabo *ta*. Ol konservas ica sono mem en la silabi *tio, tia,* quin ula lingui pronuncas *sio, sia* o *tsio, tsia,* se li sonas pos altra silabo.
+
+**v** = *v* en l'Italiana, l'Angla, la Franca, e *w* en la Germana. La Hispani devas atencar aparte ta litero e ne pronuncar ol quale **b**, quo konfundigus *volo* a *bolo*, *valo* a *balo*, *voko* a *boko* e. c.
+
+**w** = *w* en la Angla vorti *west, well, wist*. Ol adoptesis por konservar kun plu justa formo ula vorti diveninta internaciona : *westo, wato* (elektr.), *warfo, wiskio* e. c.
+
+**x** esas pronuncata *ks* o *gz* segunvole, sen ula detrimento. Ca litero diminutas grandege la nombro dil *k* quin on bezonus sen olu; pluse, ol lasas al vorti lia aspekto ed ortografio internaciona (1).
+
+> (1) En Esperanto « Doktoro Zamenhof skribas lore *ks*, lore *kz* (eksplodi, ekzameni). To esas un del kazi en qui, dicas la granda linguisto Otto Jespersen, il regardas nia lingui ocidentala tra sua Rusa binokli, l'ortografio Rusa ne posedante **x** e skribante lore *ks*, lore *kz* (quin la Rusi pronuncas *gz*). Similajo eventas por *oi* F., quan la Doktoro reprezentas per *ua* omnafoye, kande la Rusa adoptis la vorto ed uzas ica ortografio (*trotuaro, tualeto, vualo*), e per *oi* o *oj* en omna altra kazo (*foiro, fojo, fojno*) ». — Prefaco F. dil « Dictionnaire international français », p. IX (1908).
+
+**y** = *y* en *yeux* F., *yes* E. En Ido ta litero nultempe divenas vokalo, quale en altra lingui. Pro fonetikal motivi tre grava, nultempe ol sequas *a*, *e*, *o*, *u* en la sama silabo, quale agas erore pri *j*, olua korespondanto, la linguo Esperanto (2).
+
+> (2) To demonstresis en « Phonétique de l'Esperanto », p. 299, *Bulletin Français-Ido*, nos 77-78.
+
+**z** = *z* en la Franca, l'Angla, la Portugalana lingui, o **s** en *Rose* Germana, *rosa* Italiana.
+
+**ch** = *ch* en la Angla *church*, en la Hispana *macho*, o *tch* en la Franca : *tchèque*, o *c* en l'Italiana *cibo*.
+
+**sh** = *sh* en la Angla *fish*, o *sch* en la Germana *Fisch*, o *ch* en la Franca *chat*, o *sc* en l'Italiana *asceta*.
+
+Ma, se la du literi **s-h** apartenas a du radiki diversa, en kompozita vorto, on separas li per streketo en la skribo ed on pronuncas konseque : **chas-hundo**, ne *cha-shundo*. On darfus anke uzar la formo : *chaso-hundo*.
+
+La nomi di la literi esas, por la vokali, lia sono ipsa : **a, e, i, o, u**, e por la konsonanti, lia *sono* sequata da e (*é* F.) : **bé, ce, de, fe, ge, he, ke... que... we, xe, ye, ze.**

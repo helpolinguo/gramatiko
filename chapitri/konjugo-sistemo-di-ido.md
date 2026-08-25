@@ -1,0 +1,126 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# KONJUGO-SISTEMO DI IDO
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Pri **-r** por l'infinitivo, **-nt** por la participo aktiva, e **-t** por la participo pasiva, nula kontesto esas posibla, ye la nomo dil linguistiko. Altraparte, ne pri oli kontestas nia adversi, ma pri **s** di nia modi personala, pro ke li generale prenis ta letro por la pluralo.
+
+Ni devas do montrar pro quo Ido havas **s** kom karakterizivo di sua modi personala :
+
+1e Ta konsonanto esas la sol verbal litero quan ofras por l'organo internaciona kelka lingui naturala.
+
+*a*) **S**, en la Greka e Latina lingui, renkontresas (artikulata) ye omna duesma personi dil singularo, se on eceptas *-isti* di la perfekto; la Latina lu prizentas (artikulata) anke ye l'unesma e la duesma personi dil pluralo.
+
+*b*) Ta konsonanto renkontresas (artikulata) ye la duesma persono, ne nur dil singularo, ma anke dil pluralo en omna verbo Hispana; l'unesma persono dil pluralo anke prizentas lu (artikulata).
+
+*c*) Ni anke trovas lu (artikulata *z*, ligante al vokalo sequanta), ye la duesma persono dil singularo, e ye l'unesma dil pluralo, en la verbo Franca.
+
+*d*) Ol esas, on darfas dicar, l'unika dezinenco dil tota Angla konjugo, en la modo personala. La homi qui su apogas sur l'Angla por postular **s** kom plural-marko di la L. I. devus vere ne obliviar ca lasta fakto.
+
+Ni do vidas la Hispana ed Angla lingui ipsa, qui uzas **s** kom plural-marko, unionar su al lingui supere citita por apogar **s** kom verbal finalo. Koram to, on bezonas linguala sentimento tre specala por konsiderar kom pure arbitriala la dezinenci *-as, -is, -os, -us* di Esperanto e Ido (1). Ma, se **s** atribuesas al verbo, on ne povas atribuar ol pluse al pluralo : ta kumuli darfas toleresar nur en nia lingui. En la L. I. li absolute violacus la principo di l'unasenceso.
+
+> (1) En qui la liganta vokali *a, i, o, u* reprezentas rispektive la prezento, la pasinto, la futuro, la kondicionalo.
+
+2e La sisanta **s**, tre facile pronuncebla ed audebla, konvenas tre bone kom tala por la verbo, qua pleas rolo tante importanta en la frazo, e mem rolo plu grava kam la pluralo, se on ponderas bone la kozi.
+
+3e Altraparte, pro ke la siso di la konsonanto **s** facile tedas, kande ol multafoye repetesas sucede, ol esabus quaze netolerebla, se on selektabus lu kom plural-marko. Nam multa substantivi intersequas plu freque kam verbi (2). To esis un plusa motivo por lasar a **s** lua rolo verbala. L'Italiana montras eloquente, ke multa *i* intersequanta fluas sen tedar : *i miei buoni amici*, kontre ke le tro multa **s** finala di la Hispana certe detrimentas l'eufonio di ca bela linguo. Or me sempre opinionis, ke la belsoneso importas en la L. I., ed esas atraktilo. Ido montras, ke me ne eroris pri ca punto
+
+> (2) En special artiklo « Verbala rolo dil **s** en la helpo-linguo » ni pluse citis la susteno quan la Sanskrita linguo, la Zenda, l'Armeniana, la Gotika e l'ancien alta Germana donas a **s** kom verbal finalo, en la modi personala : *-asi, -as, ats, -ais, -mas* e. c. (Videz *Bulletin français-Ido de la Langue auxiliaire* no 69-70, p. 266,
+
+On dicis, ke la finali **-as**, **-is**, **-os**, **-us** meritas la reprocho esar adminime kelke arbitriala. Oportus remplasigar li per altra finali *pure romanala*, e komprenebla da un o du populi adminime. Ma on obliviis, ke por la cetera populi li ne esus min arbitriala, e forsan li esus min facile rikonocebla e memorebla. Altraparte la finali propozita koincidus kun altra gramatikal finali, o plu juste dezinenci (**-o**, **-a**, **-e**, **-i**), e konseque esus ne konciliebla kun la sistemo di la gramatikal finali, indikanta quaze per etiketi la naturo dil vorti e lia kategorio o rolo gramatikala. Do la chanjo di ta verbal dezinenci necesigus la *total* reformo di la finali karakteriziva di Ido, qui esas tante utila kom amortisanti eufoniala, e kom indikili por la lernanti e novici, qui esas ed esos ankore dum longa yari la maxim multi. Ica konsideri potente influis la Komitato dil Delegitaro pri la konservo dil finali supere citita, ed oli ne esis min konvinkanta pose che l'Akademio Idista.
+
+Al verbal dezinenci di Ido on reprochis esar nek *naturala* nek *ciencala*. Ni darfus saciesar da ca respondo : multe plu importas, ke li esez koheranta, simpla, facile merkebla ed aplikebla. Ma ni examenez la reprocho.
+
+Pro ke ni ne savas (e kredeble anke vu, lektero) quo esas dezinenci ciencala por la konjugo, ni okupos ni nur pri *le* *naturala*.
+
+Do, la konjugo-dezinenci di Ido ne esas naturala.
+
+Se la aserto esas justa, ni certe ne trovos uli tala en la Latina ed en la Hispana, exemple, pro ke ta lingui esas nekontesteble naturala.
+
+On bone remarkez, ke ni examenas la verbal dezinenci nur pri la *formo* naturala, nule pri lia korespondo kun olti di la Latina o di la Hispana relate modo, persono o tempo.
+
+Se *-as, -is, -os, -us* (ni vidos *-ez* plu fore) ne esas konjugofinali naturala, tote certe ni ne trovos li, nek en la verbo Latina, nek en la verbo Hispana.
+
+Tamen, kad la Latina ne posedas, en l'unesma konjugo : *am-as*, stranje simila a (tu) *am-as* di Ido? E kad la Hispana ne havas anke (tu) *am-as*? Kad en altra tempi li ne posedas : *amabas* (L. S.), (tu) *habras, amaras, habias* (S.), *legas, audias,* *amaveras* (L.)?
+
+Do **-as**, agnoskez lo, esas vere final sono verbal *naturala*.
+
+E pri **-is**, ka ne existas en la Latina, ye la duesma persono singulara; *audis* (1), *capis*, *amabis*, e. c., ed en la Hispana, ye la duesma plurala persono, kad on ne trovas : *amais*, *amabais, amesteis, habais, habiais, amarais, temiais, temis**teis, partiais, partis*.
+
+> (1) Kad **audis** L. ne esas identa a *audis* di Ido? Ma on respondas : « *audis* L. esas prezento, e vu facas barbarismo, uzante lu por indikar pasinto ». Ne koaktez me, kara kritikeri, respondar a vi per cito di barbarismi multe plu grosa, quin vi facas en konjugo asertita kom Latina, kom natural e ciencala. Ma kad me ne precizigis, ke me parolas nur pri la *formo*. Nu, kad *audis, dormis, venis, sentis* ne esas, en Ido, *forme* simila ad *audis, dormis, venis, sentis* di la Latina?Relate **i,** karakterizivo dil pasinto en Ido, kad ol ne havas bela defenso en omna perfekti Latina, che qui ta vokalo uzesas kinfoyi ek sis? (*Amavi, amavisti* e. c.)E kad **a** por la prezento ne bone defensesas dal infinitivo prezenta dil unesma konjugo Latina, Italiana, Hispana (*-are, -ar*), dal indikativo prezenta (*amas, amat* e. c., *ama, parla, aman*), fine dal participo prezenta (*amant...., amando, aimant* F.)?
+
+Do **-is** esas vere final sono verbal *naturala*.
+
+Nun ni videz la dezinenco **-us.**
+
+La questiono esas ed esas nur : kad **-us** trovesas en la Latina kom final sono di konjugo, identa (sone) a la verbal dezinenci **-us** di Ido?
+
+Negar lo esus negar l'evidenteso ipsa. Nam, de la verbo *sum* (esar) til la lasta di sua verbi, la Latina prezentas ta sono en omna unesma personi di la pluralo.
+
+Do **-us** esas vere final sono verbal *naturala*, pro ke on trovas lu dek foyi en omna verbo Latina.
+
+Ma **-os,** kad on darfas dicar lu final sono verbal naturala?
+
+Yes, certe; nam la finalo *mus* dil verbo Latina divenis *mos* en la Hispana, ye la sama persono, en singla tempo. De to rezultas, ke la verbo Hispana, ecepte eroro, audigas dek e non foyi la final sono **os** en sua konjugo. Konseque la dezinenco **os** di Ido esas vere final sono verbal naturala.
+
+On forsan alegos objecione, ke ta finalo, en la Hispana, pluse markas substantivo plurala.
+
+Ma kad ol agas lo en Ido? E juste pro ke *os* en la Hispana renkontresas 19 foyi kom final sono en la verbi, esas eroro selektar **s** kom plural signo di substantivi, citante la Hispana kom susteno. Nam fakte la verbi, en ica linguo, prezentas *os* kom final sono plu ofte kam la substantivi.
+
+Ma on questionas : pro quo la vokalo o kom karakterizivo dil futuro?
+
+Pro ke, se ni atribuas karakteriziva vokalo al prezento (*a*), **altra** (*i*) al pasinto, ne esas kontrelogika o nekoheranta atribuar anke specal vokalo (*o*) a la futuro. Facar ek ta vokalo la simbolo dil futuro en la tota konjugo ne esas plu arbitriala, ed alteras mine la Latina kam selektar (quale ula Latinisti) la partikulo *pos* kom signo di ta tempo, o transportar sur la finalo la acento dil infinitivo latina por facar ek lu kondicionalo : *amarè, audirè*, e. c., kande on povabus evitar omna barbarismo, uzante *amarem, audirem*, e. c. Stranja maniero, vere, restar ciencoza e naturala!
+
+E la dezinenco **-ez** dil imperativo? Unesme ni questionos, kad ol esas naturala od artificala? Me opinionas, ke la Franca linguo sate pruvas lua « naturaleso » per omna duesma personi plurala di sua verbo, ed aparte di sua imperativo. Ica fakto, pro ke nulo plu bona existis, igis me propozar ol vice **-u** di Esperanto (markizanta anke pronomi : *kiu, chiu*, e. c.) e qua, se me ne eroras, posedas kom apogo nur imperativo Hebrea, nekonocata da preske omni. Remarkez ke **-ez** reale apartenas al sistemo *-as, -is, -os, -us* (per la substituco di la febla *z* a la forta *s*). Se me ne propozis *-es*, la kauzo esas, ke *venez, rakontez, dormez, preparez,* *pensez, pardonez, donez, manjez*, e. c., e. c., esas quik komprenata da irgu qua savas kelkete la Franca, e certe plu facile e bone kam *venes, rakontes, dormes*, e. c. (1).
+
+> (1) L'imperativo (o plu bone *volitivo*) *tale formacata* *(ven-ez)* semblas a ni nek min ciencala (nam on sempre alegas la cienco) nek min naturala, nek min klara kam le *venidum* o *ples venir* di altra sistemi,
+
+Irge quon opinionas kontrediceri, fakto esas nekontestebla : la Franca linguo pruvas, ke **-ez**, por l'imperativo, esas vere verbal finalo naturala. Pri la sono, le *venez a ni, rakontez* *ankore*, e. c., esas la preske kompleta riprodukturo di F. *venez* *à nous, racontez encore.*
+
+Justifikinte *-as, -is, -os, -us, -ez*, restas justifikenda **-ir**, **-or** dil infinitivi pasinta e futura.
+
+Fakte nia kontrediceri *chikanas* nur pri l'infinitivo futura, nam generale li ipsa uzas infinitivo pasinta (1) kun infinitivo prezenta. Li anke ne kontestas pri -r kom karakterizivo dil modo infinitiva. Do reale kontestesas nur la vokalo simbolizanta la tempo (*-i, -o*) e la bezono ipsa di futura infinitivo.
+
+> (1) Che li ta infinitivo esas kompozita per la verbo *havar* o *esar* e pasinta participo; che ni ol esas simpla do plu kurta : *-ir*, quale la prezenta *-ar*. Yen la tota difero. Kad on volus donar solid expliko pro quo l'infinitivo prezenta devas esar simpla, ma la pasinta, kompozita.
+
+Ma, se on aceptas ke **a** simbolizas la prezento : *amas, amar,* pro quo **i** ne simbolizus la pasinto : *amis, amir* e **o** la futuro : *amos, amor*? Kad ica tri karakterizivi tempala (qui en omna modi pleas la sama rolo) esas kompliko o simpligo? Kad to ne esas simpla, praktikal e homogena? Kontraste, kad esas tala konjugo-sistemo sintezala en un parto, ed analizala en l'altra parto, quale olti di nia kontrediceri? Ka tal konjugo esas tre koheranta, tre homogena e tre ciencala, por parolar quale li?
+
+Altraparte *-ar, -ir* en Ido semblas a me tam natural sono verbala kam en la infinitivi Latina, Italiana, Hispana, Franca en *-ire, -ir*, od en l'infinitivi Germana en *-ieren*, ankore tante produktiva (2).
+
+> (2) Pri l'infinitivo futura, ni remarkigos ke ol trovas kelka susteno en la Latina : *fore* = *esor*, di qua l'*e* finala audesas apene pro la tonika acento.
+
+Ma on objecionas, ke li esas prezenta en la lingui supere mencionita. Me agnoskas lo; ma li restas adminime infinitivi, en Ido; e ke *i* simbolizas en li la pasinto, quale en la tota konjugo, certe ne povas jenar la adepto, nek supercharjar lua memorado. Kad esus por lu plu facila memorar, ke *du* simbolizas la pasinto, *pos* la futuro, *fe* l'imperfekto, *vell* la kondicionalo, *dum* (pos-pozita) l'imperativo, quale en altra sistemi plu o min laborita? Kad vere Ido ne darfas, kun adminime yuro tam granda e cienco egala, donar ica principo : en *omna* dezinenco verbala, **a** simbolizas la prezento, **i** la pasinto, **o** la futuro? Kad ol esas per to min simpla o min koheranta kam altri?
+
+Ma, on objecionas ankore, pro quo *sis* participi, kande *2* suficas a multa lingui? On ne dicas, kompreneble, ke pro la jus mencionita principo pri *a*, *i*, *o* en dezinenco verbala, la lerno e memoro pri la participi reduktesas a *2* kozi : nt participo aktiva, t participo pasiva. Yen fakte la *sis* participi! On ne dicas, ke la participi futura (*-ont, -ot*), multe min frequa, lernesas pos la ceteri, okazione. On ne dicas de quanta dubi, miskompreni o perifrazi liberigas ta participi. On ne dicas ke li genitas multega substantivi tre preciza, quin nia lingui kareas nur koakte e kun multa desavantaji. Ton omna on tacas por blamar mokante kun semblanta justeso e yusteso. Ma bone ridos, qua laste ridos. Yes; e kande Ido vere sucesabos, on laudos me ne propozir lu *tro* simpla, e ne sakrifikir la just expreso dil pensi a simpleso exajerita.
+
+La nuna Greka kareas omna infinitivo. Ka ni devus imitar olu? No, tre certe. La Angla e la Germana havas nur *1* personal pronomo : *they, sie* por la triesma persono plurala, e ni havas *tri*. Ka ni esas pro to blaminda? Certe no. La Franca posedas nur *son, sa, ses* kom posedal adjektivo por la triesma persono. Ka ni devus imitar lu, quale agis granda kritikero? Ha certe no, nam ico esas ne simpleso, ma deplorinda mizero. En « Les vrais principes de la Langue Auxiliaire » me pozis la limito netranspasebla dil simpleso por ta linguo : *la* *klara e justa expreso dil pensi.*
+
+Ca punto di nia konjugo meritas exameno aparta.
+
+Unesme ni konstatez ico : Judikata dal komuna raciono, la verbo *havar* kom helpanto konjugala en la kompozita tempi esas *absurdajo*. Nam verbo, qua esence indikas la posedo, quale *havar*, ne darfas, mem ne povas logike divenar simpla marko di tempo, e fakte analoga a dezinenco, por indikar l'anteeso : j'*avais* aimé (lore), j'*aurai* aimé (lore), o **simple** la pasinto : j'*ai* aimé (me amis). Esas neposibla komprenigar ed admisigar ta gramatikal idiotismo dal populi qui ne havas lu; or li esas nekontebla. La L. I. qua destinesas ad omni, devas konseque evitar ta eroro (nule naturala reale, pro ke ol esas absurda); pro to Ido evitis lu.
+
+Artiklo aparinta, dum aprilo di 1910, en *Progreso*, expozas tre bone la questiono. Ol debesas a M. J. Kovacic, instruktisto en *St. Veit i. Jauntal* (Karintia). Yen olu :
+
+« On propozis (no 19, p. 398) formacar la kompozita tempi di l'aktivo per la verbo *havar* e la pasinta participo, pro ke la lingui D. E. F. I. S. uzas kune la helpanta verbo *havar*. Sed (ma), kad la mencionita lingui formacas la kompozita tempi di l'aktivo tute (tote) e sen ecepto per *havar?* No, nam oli havas multa ecepti, ex. : D. por *mortar*, *vekar*, *venar*, *irar*, *saltar*, di qui la tempi kompozita formacesas per *esar*. On devus do admisar en Ido ecepti qui esas, quale on savas, granda malfacileso (desfacileso) por omna lernanto.
+
+Pluse, quale on devus tradukar D. *Ich habe geschlafen,* *Wir haben uns gefreut, Du bist tapfer gewesen?* Frazi quale : *Me havas dormita, Ni havas joyita, Tu havas brava esita,* semblas certe nelogikala ad omnu. Sed (ma) on ne darfus uzar *esar* vice *havar* en la alegita frazi, pro ke *esar* esus definota (destinota) nur por formacar la tempi di la pasivo.
+
+Ankore, quale on tradukus D. *der gefallene Soldat, die* *verflossene Nacht, der verstorbene Vater?* Dicar : *la falita* *soldato, la pasita nokto, la mortita patro,* esus tote nelogikala!
+
+Ni videz quale altra Indogermana lingui, quin ni devas konsiderar pri ca questiono, formacas la kompozita tempi di l'aktivo. La Slava lingui formacas oli per la helpanta verbo *esar* e la aktiva participo, exakte same kam en Ido. Konseque Ido en la formaco di la komp. tempi ne agas arbitriale, sed (ma) ol apogas su sur granda parto di l'Indogermana linguaro, nome sur la Slava lingui. Pluse la nuna participi esas tre aplikebla e praktikala quale atributi, kozo, quan on devas bone konsiderar ante enduktar altra konjugo!
+
+Fine, kad on inventos plu bona, plu internaciona e min artificala konjugo, kam esas la nuna? Me dubas. La konjugo propozita en no 22 semblas nulkaze esar facila, precipue en la pasivo. Ni videz nur quanta sufixi esas por ol necesa : *-as, -avas, -iras, -it, -avit, -irit, -olas, avolas, -irolas,* do triople multa kam en nuna Ido! Mem se ta sufixi igus omna nuna analizala verbformi superflua, la konjugo esus malgre to min facila kam la nuna. *Amesavolas* o *amesirolas* ne esas plu simpla kam : *esos amita* o *esos amota*. E quala longa rubandatra vorti! *Amesavolas* ed *amesirolas* ankore konvenas, ma ne plus la vorti : *diminutesavolas, kalum**niesavolas* o mem *familiarigesirolas*. On sentas justa angoro en pronuncar tala longaji! (1).
+
+> (1) L'akademio repulsis ta ed altra chanji. Videz ye la fino di la chapitro pri « *verbo* », pag. 55.
+
+Kelka kritikanti anke propozas chanjar la verbal finali : *-as, -is, -os, -us, -ez,* dicante, ke oli ne esas sufice distingebla (dicernebla). Me opinionas, ke ta aserto ne esas justa. La finali alegita diferas inter su per la bone audebla vokali multe plu bone kam en multa nacionala lingui. Exemple : en D. *er lernt -lernte, wir erwachen -erwachten* diferas per un litero facile misaudebla (2).
+
+> (2) Kad, en la Germana, *fiel* e *fiele,* *fällt* e *fielt,* *werde* e *würde,* *waren* e *wären,* *sprecht* e *spricht* e. c., diferas inter su, por la orelo, plu forte kam *amas, amis, amos, amus, amez* o *amar, amir, amor?*Kad, en l'Angla, *drink, drank, drunk* — *ring, rang, rung* — *sing,* *sang, sung* diferas per altro kam per vokalo, o kad la difero audesas plu bone kam en *esanta, esinta, esonta?*Kad, en la Franca, e por l'orelo, *fais* e *fis,* *lus* e *lis,* *marcha,* *marchait, marché, serai* e *serais* e. c. diferas plu dicerneble kam *esus, esez* o *amita, amata?*Kad, en la Latina, olim internaciona ed uzita, parolita dal maxim diversa nacioni, on ne dicernis e nun ankore ne dicernas aude *leges* de *legis, audiunt* de *audiant, audies* de *audias, sunt* de *sint, erant* de *erunt, fueras* de *fueris, ames* de *amas, amabas* de *amabis* e. c.? Kad on plendis o plendas pro ke li diferas inter su nur per un sola vokalo quale *amos, amus* o *aminte, amante* en Ido?Se en linguo patriala, plu o min neglijata dal nacionani, pri la pronuncado, on dicernas e komprenas vorti o verbal formi diferanta nur per un vokalo, pro quo on ne atingus sama rezultajo en Ido, linguo stranjera a l'uzanti e kom tala plu atence pronuncata?Cetere, ka nia renkontri e kongresi ne sat konvinkive respondis?
+
+Me finas do kun la propozo : « Nia estimata Akademio konservez la nuna, facila e tre praktikala konjugo! »
+
+L'artiklo esis sequata da la yena remarko : « Ne nur D. ed F. havas verbi qui formacas la kompozita tempi per *esar* vice *havar,* ma inter la korespondanta verbi di la du lingui, sat (pasable) multi uzas *havar* en un linguo ed *esar* en l'altra, exemple : *esar, kurar, saltar,* e. c. Do ne nur l'adepti di singla linguo hezitus ofte inter *esar* e *havar,* sed (ma) la Franci ne uzus la sama helpanta verbo en la sama kazi kam la Germani. Adjuntez ke, en la reflektiva verbi, la F. vicigas (remplasigas) absurde *havar* per *esar*, dum ke la D. uzas (logike) ankore *havar* : *ich habe mich gewaschen* = *je me* suis *lavé* : altra frequa kauzo di erori, di heziti, di miskompreni. Tale en ta sola punto questionesas pri la logikala karaktero di nia linguo, do pri sa (lua) vera internacioneso.

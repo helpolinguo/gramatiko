@@ -1,0 +1,60 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# LA PLURALO EN IDO
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Ta punto esas dominacata da du kozi : 1e la verbal rolo di **s** (2), unesma motivo decidiganta por ne adoptar ta konsonanto kom plural-marko; 2e ne posibleso (adjuntante *n* a **s**) obtenar finalo facile pronuncebla ed eufonioza, duesma motivo decidiganta por eskartar **s** kom pluralmarko (3).
+
+> (2) Videz l'Apendico « Konjugo-sistemo di Ido ».
+
+> (3) Vere kad esus tolerebla e facile pronuncebla : *quasn vu* *prenos?* vice : *quin vu prenos?*O : *la homos quasn me renkontris?* O fine : *mokosn, persekutosn,* *mem tormentosn dum yaros il subisis...* vice : *mokin, persekutin,* *mem tormentin dum yari il subisis...?*Or la **n** inversigala esas necesa, nome por *qua*, *qui*, *quo*, quale on vidis en la gramatiko. Senco klara, nedubebla povas obtenesar nur per olu, en ula kazi. Do ol devas esar konservata, ed ol ne esas admisebla pos *s* en finalo,
+
+Un del argumenti uzata kontre Ido esas opozar a lua pluralo per -i, la pluralo per -s dil Angla, di la Hispana e di la Franca. Tre rapide on deduktas ica konkluzo : Ido violacas l'internacioneso, formacante sua pluralo per -i.
+
+Pri ta reprocho un del maxim eminenta partisani dil naturaleso en L. I. ed anke dil pluralo per -i (1), Sro Rosenberger, mortinta, suflas a ni la respondo : « On devas ne regardar unike l'internacioneso (en la gramatiko), ma anke la regulozeso, simpleso e komodeso. Or la finalo -i esas plu komoda kam -s (-es), qua postulas komplikita regulo ».
+
+> (1) Quan havis *Neutral* e *Reform-Neutral*.
+
+Ni adjuntez, ke nur ta finalo plurala posibligas l'akuzativo (*-n* inversigala) e co esas decidiganta niaopinione. Se la homo poke instruktita sucesas nur tre desfacile aplikar l'akuzativo (lon montras l'Esperantisti ed ante li la plebeyi Latina), ta homo komprenas frazo qua aplikas ol saje. En la vivo omnadia, ta kazo esas kompliko neutila, e jenanta, quale omna kompliko. Ibe l'inversigo di la subjekto povas e devas proxime reduktesar al kazo ube *qua, qui, quo* divenas komplemento direta e preiras la subjekto : *quan* me vidas? evidente diferanta de *qua* vidas me? o : *qua* me vidas?
+
+Ma, exter la domeno omnadia, ne esas certa ed on ne pruvis, ke l'akuzativo esas neutila por unionar plu rapide e plu evidente la du parti di rezono filozofiala, teologiala, o mem matematikala, e. c. Yen pro quo Ido ne forjetis tote l'akuzativo. Or, ni lo dicis e repetas, l'akuzativo esas posibla nur kun la pluralo per -i, ecepte se on inventus ula subtilajo qua fakte pruvus nia aserto (2).
+
+> (2) On reprochis a Ido (por justifikar Esperanto) formacar sua pluralo per *substituco*. **O**, on dicas, esas la marko distingiva di la substantivo. Konseque on devas konservar ol en la pluralo.Unesme **o** ne esas nur la marko dil substantivo : ol esas anke la marko dil substantivo *singulara*. On do havas nul motivo por adjuntar la marko dil pluralo ad olta dil singularo; kontree, on devas remplasigar ica per ita; nam l'ideo dil pluralo ne *adjuntesas* al ideo dil singularo : ol kontredicas lu absolute. La marko dil pluralo konseque devas remplasar olta dil singularo e ne adjuntesar ad olu.Altraparte, se **o** esus la marko generala di la substantivo, on devus adjuntar *un* specal marko por la singularo, ed *un altra* markospecala por la pluralo. Tal esas la konsequo di ta postulo superlogika. Ma lore la kritiko atingas tam Esperanto kam Ido.Altraparte, se **o** esas la marko di la substantivo generale, qua do esas la marko dil verbo generale? Qua esas la komuna elemento en ta omna finali *as, is, os, us, u, i* di Esperanto? Nula, ne mem un litero! On certe respondos ke suficas savar, ke ta omna finali esas finali *verbala* e karakterizas la verbo. Tre bone! ma same suficas savar, ke **o** e **i** esas finali substantivala e karakterizas rispektive la substantivi singulara e la substantivi plurala. La rezono esas rigoroze identa en la du kazi. Se l'objeciono havus la maxim mikra justeso, on devus konservar la marko dil verbo (**i** dil infinitivo en Esperanto, exemple) en omna modi e tempi, e dicar : *amias,* *amiis, amios..., amianta...* Fakte, por defensar la pluralo di Esperanto, on kondamnas lua tota konjugo! On do koaktesas admisar, ke se la konjugo di Esperanto ne pekas kontre logiko, la pluralo per **i** ne pekas, anke lu, kontre logiko. O l'objeciono ne valoras, od ol atingas la kara linguo quale « la pavo dil urso »!Finante, ni donez la decidiganta motivo di la substituco dil Idopluralo ad olta di Espo; ta motivo esas, ke l'Ido-pluralo esas tam facile pronuncebla da omni (ye la nominativo o ye l'akuzativo) kam ne esas tala por tota populi la pluralo di Espo, precipue ye l'akuzativo. Ex. : *Me amas chiujn tiujn, kiujn vi amas, kaj mi malamas* *chiujn tiujn, kiujn vi malamas.* En Ido : *me amas ti omna quin vu* *amas, e me odias ti omna quin vu odias.*
+
+Pos dicir to, ni examenez la susten-punti dil pluralo per **-s** (**-es**).
+
+Fakte *du*, ne *tri* existas. On alegas *tri* por plufortigar l'argumento, o pro distrakteso.
+
+Nam la Franca devas esar sustracionata pro la sequanta motivi : 1e **s** en ta linguo finas pasable granda nombro de vorti *singulara* : **corps, puits, temps, fils, remords, mors,** **buis, pus, pouls, pas, tas, os, dos, cas, jus, bris, accès, succès,** *décès, procès*, e. c.; 2e **x** esas kun olu tre ofte la pluralmarko : **émaux, agneaux, beaux, baux, rideaux, caveaux,** **cerceaux, marteaux, tombeaux,** e. c.; **jeux, cheveux, vœux,** **bijoux, cailloux, choux, genoux, joujoux, hiboux, poux,** **creux,** e. c.; 3e on skribas **s**, ma on ne pronuncas lu : **clous,** **sous, livres, tables, récits, pages, mers, mères, pères, sœurs,** e. c. e. c. Do on ne darfas kontar la Franca, od on devas pozar kom principo : quale en la Franca, on skribos **s** por la pluralo, ma on ne pronuncos lu. Or ta principo esas posibla en la Franca pro la determinanti *les, mes, tes, ses*, e. c., ma la L. I. ne indikas la pluralo en sua determinanti : *la* (homi), *mea* (frati). Do on ne darfas kontar la Franca kom susteno (por la helpo-linguo) dil pluralo per **s**, ca **s** ne sonante en la vorti plurala di ta linguo.
+
+Restas vere por la pluralo per **-s** nur *du* susteni : la Angla e la Hispana (1). Nam esas quaza joko alegar altra lingui, en qui **s** renkontresas preske tam ofte en la singularo kam en la pluralo.
+
+> (1) On ne audacis til nun alegar la Portugalana. Ma ni ne desesperez. Pro quo ne? Quale en ta linguo, ni skribus *actos* e pronuncus *à 'tush.*Ma on ne obliviis citar kom susteno, por **s** plurala, linguo klasika, la Latina, en qua ta vokalo finas omnainstante nominativo o genitivo *singulara*, tante vere ol esas marko di *pluralo!*
+
+Nun ni videz la susteno dil pluralo per -i.
+
+La Slava lingui (susteno extreme importanta) e la Rumaniana kun l'Italiana (2).
+
+> (2) Ol ne esas nekonocato en la Greka moderna.
+
+En ica lasta linguo, -i havas ne nur la maskuli, ma mem femini : *madri* (matri). E, fakto remarkinda, **s** qua desaparis en la paso dil Gotika al Germana, transformesis a i (kun *e* di *es*) pasante de la Latina al Italiana : *uomini* = *homines*; *madri* = *matres*; *cani* = *canes*.
+
+Fine, la pluralo per -i esas konocata da omna Latinisti (kad on negus lo?), tale ke *boni, mali* di Ido esas exakte *boni, mali* di la Latina (kad en ta linguo on dicas : *bones,* *males?*); ol esas konocata da multega altra homi per Italiana plurali quin on darfas dicar internaciona por omna Europano od Amerikano kelke lerninta la gramatiko di sua linguo : *carbonari, ciceroni, condottieri, dilettanti, lazzaroni,* *quintetti*.
+
+Ka do ni exajeras dicante : la pluralo per -i esas preferinda por la linguo helpanta, e Ido saje agis adoptante lu (3).
+
+> (3) Zamenhof adoptis lu en sua reformo di 1894, e lore il dicis, ke ta pluralo esas plu harmonianta kun la fizionomio di Esperanto. Il chanjis a *a* sua infinitivo **-i**, e donis **-e** kom karakterizivo a l'adjektivo ed a l'adverbo.
+
+L'Italiana qua facis *uomini* de *homines*, *duca* de *dux* (ducis), *mano* de *manus*, e. c., inspiras ta reflekto : se ula sistemo di helpolinguo agas plu o min tale, la diletanti di naturaleso e di latineso plendas pro barbarismi, klozante la okuli pri olti quin li facas, ed energioze li rimemorigas la prototipo Latina. Ni do ne trublesez da lia kritiki e ni ne shamez pri tala chanji en Ido, qua ne vizas neutil eruditeso, ma praktikala simpleso. Kun ta exkuzo, ni forsan darfas uzar tanta libereso kam l'*evoluciono naturala* en vivanta linguo, e tante plu, ke ica tro ofte uzas blinde ta libereso, kontre ke L. I. bone konstitucita havas kom freno la simpleso e facileso necesa, e kom guidilo la koncio dil skopo vizita.
+
+Ni lasez nia kontrediceri skandalesar en Ido pri kozi quin li admiras en vivanta lingui. Li unesme laboras por su, en la realeso, por havar *sua* linguo internaciona propre individuala e partikulara. Nur ica povas satisfacar lia sentimento e gusto linguala, quin li ne povas sakrifikar a l'interesto di la homaro. On asertas, ke ta marcho diverganta donos fine la konvergo e helpolinguo unika. Ni kontraste laboras por la maso homala, en la diciplino e obediado linguala; kompreneble la procedi ne povas esar identa e sama.
+
+La tempo e la homaro facos la selekto, e me esas tre certa ke fine li decidos e rezolvos por ni (1).
+
+> (1) On reprochis a *-as*, *-is*, *-os*, *-us* dil konjugo produktar tro ofta sisi, obliviante ke li esas nekompareble plu multa en la Hispana, per olua pluralo, quan on asertas esar la maxim bona por L. I. Cetere ni komparez : *omnasorta legumos, terpomos, karotos, napos,* *kaulos, pizos, fazeolos, artichokos e diversa fruktos : pomos, piros,* *vitberos, nucos* e. c., a : *omnasorta legumi : terpomi, karoti, napi,* *kauli, pizi, fazeoli, artichoki e diversa frukti : pomi, piri, vitberi,* *nuci,* e. c. (*). Forsan mea orelo esas trompata da l'Italiana, ma me preferas kom dezinenci le i sucedanta a le *os* tante sika e tante desagreable sisanta di la Hispana pluralo.Ne esas sen utileso remarkigar la regulozeso dil pluralo per **-i** en Ido. Olua personal pronomi ipsa revelas sua pluralo per **i** : *ni, vi,*
+
+> (*) En Espo : *chiuspecaj legomoj : terpomoj, karotoj, napoj,* *brasikoj, pizoj, artishokoj, kaj diversaj fruktoj : pomoj, piroj,* *vinberoj, juglandoj* k. t. p. Akuzative : *chiuspecajn legomojn : ter**pomojn, karotojn, napojn, brasikojn, pizojn, artishokojn, kaj diver**sajn fruktojn; pomojn, pirojn, vinberojn, juglandojn* e. c. Uf!Ka, koram tal exempli e centi de altri posibla, la pluralo per **-i** ne semblas la maxim bona?*li, ili, eli, oli*; lua posedali anke : *mei, tui, sui* e. c., lua relativo questionanta : *qui*, pluralo di *qua*; lua demonstrativi : *(i)ci*, *(i)ti*, pluralo di *(i)ca*, *(i)ta*; lua nedefiniti : *uli, nuli, kelki, pluri,* *multi*, e. c.; lua substantivi : *homi, viri, mulieri, infanti*; lua adjektivi : *yen grosa e mikra pomi; prenez la grosi e lasez la mikri,* tam klara e reguloza kam *le grosa, le mikra*.En Espo la *j* plurala ne trovesas *en ni, vi, ili*, tamen plurala; e *li,* *shi, ghi* qui rimifas kun *ni, vi, ili* ne esas plurala, ma singulara.

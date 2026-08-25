@@ -1,0 +1,10 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# REMARKO PRI LA AFIXI
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Ula prefixi o sufixi ed ula prepozicioni neeviteble kolizionas kun kelka existanta radiki, exemple *par-* kun *pardonar*, *par**fumo, partero, parturo*. On videz en nia vortolibri la radiki komencanta per *de-, des-, ge-, mi-, mis-, per-, ri-, tra-, trans-.* Nula konfundo eventas praktike, pro ke on konocas ta radiki ed on komprenas li segun lia senco, e pro ke la semblanta kompozajo havus nula senco, o senco evidente falsa en la kuntexto. Quon signifikus *de-parto, des-tinar, ge-nitar,* *mi-tologio, mis-tifikar, per-driko, ri-goro, trans-formo*? Mem kande dusenceso esus teorie posibla, ol ne eventas praktike, pro ke la kuntexto determinas klare la senco, e fakte on ne mem pensas ad altra senco, on ne hezitas mem dum un instanto. Mem pri *pardonar*, qua homo komprenos lu kom « komplete o fine donar » en : *pardonez me, il pardonis lu,* o mem : *il pardonis omno a sua filio*? Adjuntez, ke pri *donaco* o *legaco*, on devus dicar : *il donacis* o *il legacis omno* *a sua filio.*

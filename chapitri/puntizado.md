@@ -1,0 +1,74 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# PUNTIZADO
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+*Punto* (.) uzesas por separar la *frazi*, t. e. expresuri di integra e kompleta pensi tote nedependanta. Bona precepto di stilo esas ta, quan Sro Peus recevis de ula sua maestro : *Uzez multa punti*, t. e. facez kurta frazi. En matematiko, la punto uzesas : 1e en longa nombri por separar la mili, ex. : 9.365.724 plu klara kam 9365724; 2e en algebro lu havas la sama signifiko kam × (1).
+
+> (1) Pro to en Germania on separas per lakuni : 9 365 724.
+
+*Mayuskuli*. — Okazione la punto, on devas regulizar l'uzo di la mayuskuli. On uzas komencal litero mayuskula :
+
+1e por la propra nomi, inkluzante en ici la nomi di landi, monti, fluvii, riveri, la nomi di populi, societi od institucuri, qui nature kontenas la religii e lia praktikanti. On lasas al derivaji di ta nomi la mayuskulo di la radiko. Ex. : *la Franco, la Franci, la Franca* (*linguo*); *la Kristanismo* (de *Kristo*), *la Kristani; Alpala, Alpano* (de *Alpi*). Co evitas la dicerno a qua obligas ula lingui pri la kazo en qua on konservas la mayuskulo od on remplasigas lu per minuskulo.
+
+2e por l'unesma vorto di singla frazo, e konseque, pos omna punto.
+
+3e pro politeso, en ula kazi, en tituli. Ex. : *Sioro Pro**fesoro. En la nomo dil Rejo.*
+
+On atencez la skribo di kelka mayuskuli :
+
+1e On evitez skribar I quale J, quale ofte eventas en Germania. On skribez Ido, ne Jdo.
+
+2e On distingez, skribante, la mayuskuli K e R.
+
+3e On distingez F e T : l'infra parto di T flexesas ad dextre; ta di F ad sinistre.
+
+*Komo* (,) uzesas por separar la *propozicioni* qui kompozas frazo. Pos la relativa pronomi, on adoptas la franca uzo di la komo (D. 1062) : On distingas du uzi tre diversa di la relativa pronomi, qui konstitucas preske du diversa senci.
+
+La frazo : « Me ne amas la infanti, qui facas bruiso » povas havar du senci : 1e Me ne amas ti de la infanti, qui facas bruiso; 2e Me ne amas la infanti, pro ke li (konocate e generale) facas bruiso. En l'unesma kazo, la relativo esas *determinanta* : il *determinas* la speco de infanti, quin me ne amas. En la duesma ol esas *qualifikanta* od *explikanta* : ol qualifikas generale omna infanti. On uzas la komo (avan *qua*) en la duesma kazo, ne en l'unesma.
+
+Altra exempli : « La homo qua lektas la jurnali devas ne kredar omno quon lu lektas. — Regardez ta homo, qua lektas jurnalo : lu audas tamen omno quon ni dicas. » « La amiko qua ne audacas dicar la verajo ne esas vera amiko. — Mea olda amiko, qua kustumis dicar la verajo, ne audacis takaze dicar ol a me. » « La unesma soldato qua vidis l'enemiki hastis avertar la generalo. — Napoléon, qua vidis l'enemiki avancar, sendis kontre li sua olda guardo. » Ica exempli sugestas utila remarko. Omnafoye kande la substantivo esas determinita, la *qua* esas nur explikanta, do postulas komo. Or ico eventas : 1e kande la substantivo esas propra nomo : evidente ne existas plura Napoléon, do nulo *qua* povus determinar lu plu komplete; 2e kande ol esas akompanata da *determinanta* adjektivo, sive demonstrativa, sive posedala : « ta homo » esas ja suficante e komplete determinita per la demonstrativo (o per la gesto, qua akompanas ol); « mea olda amiko » anke esas determinita per ica epiteti.
+
+Komprenende, la regulo valoras anke, se *qua* esas preirita da prepoziciono : « La amiko de qua me demandis konsilo aprobis mea penso-maniero. — Mea patro, de qua me demandis konsilo, aprobis mea penso-maniero. »
+
+En matematiko, en la nombri decimala, la *integri* separesas de la *decimali* per *komo* (ne per punto, qua havas altra uzo, V. p. 217). Ex. : 3, 14.
+
+*Punto-komo* (;) uzesas por separer propozicioni o frazi gramatikale nedependanta, ma ligita per la senco.
+
+*Bi-punto* (:) uzesas por anuncar expliko : ol dikas, ke la sequanta frazo explikas la preiranta. Ol anuncas anke citajo, ma lore sequesas da *cito-hoketi*.
+
+*Puntaro* (...) indikas interrupto di la frazo, sive da altra parolanto, sive da la parolanto ipsa, qua haltas por retenar o chanjar l'expreso di sua penso. La Germani uzas vice to la *Gedankenstrich* (vortope : *penso-streko*) ma to esas mala uzado, nam la *streko* havas altra senco e necesa uzado. (Vid. p. 221).
+
+*Parentezi* () uzesas por inkluzar frazo, propoziciono o vorto, qua esas aparta, e devas separesar de la cetera texto. To esas generale remarko laterala, quan on insertas, e qua interruptas la rekta ordino di la penso. De to konsequas konsilo : on ne trouzez la parentezo, pro ke ol riskas trublar la kompreno.
+
+Pro ke la parentezi esas esence destinata ad *inkluzar*, on darfas nultempe uzar una sen l'altra, quale on facas ofte kun la nombri. Vice « 1) », on devas skribar, o « (1) », o simple « 1e » o 1-e (abreviuro di *unesme*). La uzado « 1) » havas grava detrimento : kande on vidas tala parentezo *klozanta*, on serchas spontane la parentezo *apertanta*, ed on ne trovas ol. Pluse, eventas ofte ke ta parentezo « vidva » trovesas en od apud altra vera (duopla) parentezo, e lore on havas, sive : « 1) ) », sive « )1) », du dispozuri egale absurda. Do : *nultempe uzez un parentezo sola!*
+
+*Kramponi* [] ed *Embracili* {} uzesas, en matematiko, kom parentezi di duesma o triesma grado, ex. : { ...[...(...)...]...}. En la « prozo », on povas uzar la *kramponi* en simila kazo, o kom aparta parentezi. On uzas l'*embracilo* (unika) por korespondigar un lineo (unlatere) a plura linei (altralatere), tale :
+
+La *pinto* devas turnesar ad l'unika lineo, e la *branchi* (la konkaveso) ad la plura linei (e ne inverse!) Ni konsilas uzar minim ofte l'embracilo, pro ke ol komplikas e desfaciligas la kompostado. Ol esas utila nur en sinoptikala tabeli. Ol povas uzesar anke horizontale, ex. en genealogikal arbori :
+
+*Streketo* (-) esas ortografiala signo, e funcionas kom ligilo. Ol unionas la parti di vorto kompozita (V. ye *Kompozado*). Ol indikas anke la seko di vorto de un lineo ad altra, pri qua ni quik parolos.
+
+*Seko di la Vorti*. [D. 485]. On admisas kompleta libereso en la seko di la vorti de lineo a lineo, ecepte ke singla parto devas kontenar vokalo, e ke la digrami o diftongi devas ne dividesar. Ex. on darfas sekar tale la vorto *mustar* : *mu-star*, *mus-tar*, o *must-ar*. Ma *neutro*, *mashino* sekesas *neu-tro*, *ma-shino*, e ne *ne-utro*, *mas-hino*. *On nultempe uzez duopla* *streko* (=) rezervenda a la signo di egaleso, nek iterez la streketo ye komenco di la lineo sequanta.
+
+*Streko* (—), plu longa kam streketo, esas, tote kontree, *separilo*, e la maxim grava. Ol indikas, sive chanjo di parolanto (t. e. separas la dici, respondi, di diversa parolanti), sive chanjo di temo. Ol separas do multe plu kam la punto. Ma en la lasta kazo esas preferinda uzar la *alineo*, qua indikas plu klare ta separo; ol havas l'avantajo insertar en la texto « blankaji », vakuaji, qui repozas la okulo e furnisas ad ol halto-punto.
+
+*Cito-hoketi* (« »). La cito-hoketi indikas ed inkluzas la paroli o vorti, quin on citas. Li devas turnar sua konkaveso ad interne, t. e. ad la texto inkluzata, same kam la parentezi. Omna altra uzado esas mala, pro ke ol esas konfuziganta.
+
+*Noto-referi*. Por indikar la noti (ped-noti), nula moyeno esas tam simpla e komoda kam la *numeri* : nam li esas la maxim bona e klara signo, e li esas en senlimita provizuro. Se on uzas steleti (*) o kruci (†), quale ula populi, e se on havas multa noti en un sama pagino, on ne plus savas quale helpar su : la procedo, iterar la steleti o la kruci, esas vere « sovaja », t. e. apartenas a la primitiva stando di civilizeso, en qua on ne posedis la cifri e reprezentis la nombri per streki; od on esas obligata rekursar anke ad altra signi, qui havas altra senci od uzi (ex. §, qua signifikas paragrafo). Pluse, on bezonas ofte la steleto e la kruco por altra signifiki : la steleto indikas en linguistiko formo konjektita, ne atestita; en Ido, formo ne oficala, o teknikala; la kruco indikas generale mortinto, o dato di morto, ed en filologio, arkaika formo. To omna pruvas, ke ol esas nur remediacho, e ke nur la *numeri* esas uzenda por la noto-referi.
+
+*Klamo-punto* (!) uzesas pos klamo o frazo klamanta o klamata. Kelka populi uzas ol pos omna voko od interpelo, mem pos *Sioro* en komenco di letri, unvorte, pos omna vokativo. Ico esas forsan exajero, nam kande on parolas od ulu, on ne klamas : « Sioro! »
+
+*Question-punto* (?) uzesas pos frazo *direte* questionanta, ne pos subordinala propoziciono questionanta, Ex. : « Qua venas? », ma : « Me questionas, qua venas. »
+
+Pri ca du lasta signi, on propozis sequar l'exemplo di la Hispana, t. e. pozar li, renversita, ante la frazo klamanta o questionanta. La motivo esas : avertar la lektanto pri la karaktero di tala frazo, por ke lu konforme modifikez sua pronunco. Esas vera ke, pro manko di tala averto, on kelkafoye eroras pri la karaktero di la frazo e pronuncas ol male, o mem devas repetar ol kun la justa pronunco. Ta propozo esas do konsiderinda; la unika kontrea argumento esas, ke l'altra uzado esas plu internaciona. Se on adoptus ol, la signi ! e ? divenus *duopla* ed inkluzanta, same kam la parentezi e cito-hoketi. Ed on vidas ke, pro la sama motivo di klareso, li devas prizentar du formi inversa, quale la *ques**tion-punti* en la Hispana.
+
+*Apostrofo* (') uzesas por indikar eliziono (V. § 6).
+
+*Generala remarko*. — On devas ne mis-evaluar l'importo di la puntizado, e desprizar la koncernanta reguli kom superflua o minucioza. La puntizado esas necesa por la klareso, do por la perfekta e sekura interkomprenado; ol havas signifiko por la pronuncado. La punto reprezentas halto pasable granda; la bi-punto e la punto-komo, halto min granda; la komo, halto plu mikra, ma sentebla. Egardar ta signi e facar la korespondanta pauzi, esas l'unesma regulo di la diciono, e la maxim importanta.
+
+[Segun *Progr.*, IV, 531 (L. Couturat) e VI, 380]. Decido, 866 : On adoptas la reguli propozita por la puntizado (IV, 531). Decido 1062 pri la komo (VI, 211).

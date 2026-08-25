@@ -1,0 +1,326 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# PREPOZICIONI
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+56. — Kun e pro sua rolo di relato-signi e ligili, la prepozicioni esas renkontrata omnainstante che la helpolinguo. Quale la adverbi, li esas nevariebla.
+
+Ni studios aparte singla prepoziciono primitiva, indikante lua senco propra e specala, e lumizante lu per mult exempli. Nam, por la just interkompreno, tre importas, ke nia prepozicioni uzesez kun lia senco tre exakta, malgre l'exemplo kontrea di lingui natural, pri ta gramatikal kategorio, en qua li esas vere tro richa de nelogikaji ed idiotismi.
+
+57. — **Ad** (o **a**, kande eufonio permisas, ma nultempe en kompozajo) (1), uzesas por indikar la skopo di la ago, la loko quan on volas atingar, la destinario, la persono a qua on donas od atribuas ulo :
+
+> (1) « Kande on decidis, pro eufonio, elizionar la tri vorti *ad,* *ed, od*, on decidis, ke on ne elizionos li (t. e. fakte nur *ad*) en la kompozado, pro ke on timis, ke en la kompozaji **a** ne esus sat rikonocebla o sat dicernebla.Ol povus intermixesar, sive kun la prepoziciono **a**, sive kun la finalo **a** di l'artiklo o di l'adjektivo preiranta. » (Progreso, II, 165.)
+
+Ex. : **me iras a la rivero; me sendas to ad amiko; Hen****rikus donis a me multa flori; on imputis ad ilu ta ago** **abomininda; la patrulo imperis a sua filii sequar ilu; el** **agis a sua matro, ne quale filio, ma quale enemiko.**
+
+Konseque, **ad** indikas logike l'objekto di ula penso o sentimento, per opozo a la « subjekto » qua havas li : **pensar a** **la futuro; la amo a Deo** (komparez : **la amo di Deo**, por la homi, exemple); **la envidio a la richi.**
+
+Se to postulesas da la klareso, **ad** darfas esar unionita al prepozicioni *en, sur, sub*. Ex. : **l'infanto iris aden la gar****deno; la kato saltis adsur la tablo; la muso kuris adsub** **la lito. Sen ad** on ne savus kad la subjekti, « infanto, kato, muso » iris, saltis, kuris, per chanjo di loko, *aden la gar**deno, adsur la tablo, adsub la lito*, o kad li iris, saltis, kuris ibe, esante ja *en, sur* o *sub* la kozi nomata.
+
+58. — **Alonge** = D. *entlang*; E. *along*; F. *le long de*; I. *lungo; lunghesso*. Ex. : **Irez alonge la hego e vu trovos** **ye lua pedo multa violi.**
+
+59. — **An** expresas relato di kontigueso o di apogo, tale ke la kozo kontaktas o preske : **Ne restez nur apud la tablo,** **ma sideskez an lu. Prenez la skalo qua jacas apud la muro** **ed apogez ol an lu. La urbo stacas an la rivero, qua humi****digas lua muri. Me preferas lojar en domo situita an monto** **o mem sur monto. An la parieti pendis desegnuri e pikturi.** **La fenestri an la korto esas kelke mikra, ma la fenestri an** **la placo esas tre granda. Ne marchez an la maro se vu ne** **volas humidigar vua pedi.**
+
+Remarkez, ke en la lasta exemplo, **alonge** expresus ideo tre altra. On povas ya marchar *alonge* la maro, ye kelka metri de olu, e konseque sen ula risko di humidigo por la pedi.
+
+60. — **Ante** = en tempo preirinta. Ex. : **To eventis ante** **vua departo, du monati ante nun. Il departis ante me, e** **tamen il arivis pos me. Me esas certa, ke me arivos longe** **ante vu. To eventis ante tri monati** (1).
+
+> (1) L'expresuri « *ante tri monati* » — « *tri monati ante nun*, od altri simila, expresas du idei tre diferanta inter su. La sequanta exempli lo komprenigos bone :**On videskis la danjero ante tri monati** = ante ke pasis tri monati, on videskis la danjero; ma : **on videskis la danjero tri monati ante** **nun** = pasis tri monati depos ke on vidis la danjero.**Lu skribis a me ante ok dii** = lu ne vartis ok dii por skribar a me; ma : **lu skribis a me ok dii ante nun** = pasis ok dii depos ke lu skribis a me.**Li konvinkis ni pri lia yuro ante un duimo de horo** = li ne bezonis un duimo de horo por konvinkar ni; ma : **li konvinkis ni pri lia yuro** **un duimo de horo ante nun** = pasis un duimo de horo depos ke li konvinkis ni.**El naskis ante 9 monati** = el ne vartis 9 monati por naskar; ma : **el naskis 9 monati ante nun** = pasis 9 monati depos ke el naskis.Do, se on parolas pri tempo pasinta depos la ago o fakto aludata, on devas uzar **ante nun**, pos expresir ta tempo, quale en singla duesma frazo supere.En *Progreso* VII, 2, trovesas : « *Me naracos epizodo di mea voyajo* *en Amerika*, **quar yari ante nun** » (ye la 7-ma lineo). Sis linei plu infre : « **Duadek yari ante nun** *me esis samskolano...* » Sep linei plu infre : « *Anke me okupis me pri la ideo* **duadek yari ante nun**. » Itere sur la sama pagino. (Final diskurso da Pro Otto Jespersen al Idista lernanti di sua kurso pri nia linguo, en l'Universitato di *Köbenhavn*.)La granda linguisto, qua posedas admirinde la lingui Angla e Franca, tre certe konocas : *sometime ago* e *il y a quelque temps* di ta du lingui, ed anke *vor einiger Zeit* di la Germana. Do il agas kun plena konoco e ni esos kun ilu en bona societo por dicar : *Kelka tempo ante nun, du yari ante nun* e. c.
+
+**El mortis, tri monati ante nun, pos longa sufri. Qua pen****sabus, du yarcenti ante nun, ke la homi esos konkurencanta** **la uceli per aeroplani e direktebli?**
+
+Remarkez ankore la uzo di **ante** en la frazi sequanta :
+
+Me ne savas precize kande me departos, forsan erste pos un monato, ma forsan ante tri semani : to dependas de la retroveno di mea spozo. — **La mediko dicabis, ke il duros** **vivar adminime un yaro, ma il mortis multe plu balde, pos** sis dii, ok monati ante nun. — **Vu certe ruinos vu ante** **longe, forsan mem ante un yaro, se vu duros spensar fole** **quale vu agas.**
+
+61. — **Apud** = tre proxime (ma ne tam grande kam indikas **an**; videz ica). Ex. : **la kirko trovesas apud nia** **hemo. Sideskez apud me. Qua stacas apud la pordo, an la** **muro? Qua glutinis afisho an la pordo, apud nia nomal** **plako.**
+
+62. — **Avan** relatas la loko, la plaso (1) quan okupas en la spaco la enti o kozi, kontre ke **ante** (ja vidita) relatas la tempo (2). Ol signifikas : D. *vor* (örtl.); E. *be**fore* (in space); F. *devant*; I. *avanti, davanti, dinanzi* (di luogo).
+
+> (1) La plaso di ulu od ulo esas, en loko, la parto destinita, atribuita ad oli, od okupata da oli. Ex. : **En ta cirko imensa la** **asistanti esis tante multa, ke on ne trovabus dek plusa plasi, sive** **por sideskar, sive mem por stacar.** — **La ordino konsistas en donar** **un plaso determinita a singla kozo, ed en konstante pozar singla** **kozo en lua plaso.**
+
+> (2) Decido 1611 : Vizante super omno la facila aplikebleso e distingi necesa, l'akademio decidas unanime, ke **ante** e **pos** uzesez nur pri la sucedo di eventi e fakti, ed **avan, dop** pri omno cetera. Pri la *linguala unaji* on uzez **ante, pos**, se on vizas la linguo parolata, pro ke lore la tempo koncernesas nedubeble, ma se on vizas la linguo skribata, on uzez la prepozicioni **avan** e **dop** (e la adverbi **avane** e **dope**) pro ke lore la reprezentata linguo esas en la spaco *.
+
+> * « Yen kelka frazi motivizanta la decido 1611 : Quankam ta cifri esas **avan** la nomi dil vari, me tre kredas, ke li skribesis **pos** ici. Nam, se la cifri esus skribita **ante** la nomi dil vari, e ne **pose**, li ne esus tante mikra. Ma, pro ke restis, **avan** la nomi, kelka spaco libera, on profitis lo por insinuar pose la cifri avan la nomi. — Vu transskribos ta du kolumni de cifri, ica **ante** ed **avan** l'altra. Kad vu komprenis bone? Yes, me devas skribar ica **ante** skribar ita, ma tale ke ol esez **avane**. — Quankam sur la listo dil rekompensoti la prenomi skribesis avan la nomi familiala, vu sorgos lektar li quale se li esus dop ici. Do vu pronuncos la prenomi pos l'altri, ed ici ante iti. »En la multa serchi quin il facis por ica gramatiko en la 6 e duima yari di *Progreso*, l'autoro sempre trovis la prepozicioni *ante, avan* e *pos, dop* uzata quale indikesas dal decido 1611.Decido 1624 : On refuzas unanime apertar nova diskuto pri decido 1611.
+
+Ex. : **vu konstruktos la paviliono avan la domo ed ante** ica. — **Lokizez la homini unesme, do ante la homuli, e pla****sizez eli avan ili.** — **La artiklo uzesas avan la substantivo** **min ofte en Ido kam en la Franca.**
+
+63. — **Che** = en la domo, habiteyo, lando, domeno (materiala o spiritala) di... Ex. : **Me lojas che mea patrulo. Me** **esis che mea onklino, nun me iras (ad) che mea kuzi. Irez** **quik che la mediko. Che la Angli la veturi pasas sinistre** **e che la Franci dextre. Me kompris ta mikra poshlexiko che** **Isaac Pitman en London.**
+
+64. — **Cirkum** = D. *um, herum*; E. *around, about*; F. *autour de..., environ*; I. *intorno, all'intorno, vicino,* *circa*; S. *alreador, en contorno, cerca de* (en omna senci : loko, tempo e quanteso). Ex. : **la hundo kuris cirkum ilu,** **cirkum la urbo esas granda preurbi; to eventis cirkum mea** **duadekesma yaro.**
+
+65. — **Cis** = sur ica latero (ne trans olu). Ex. : **cis la** **rivero la tereno esas pasable sika, ma trans olu la tereno** **esas marshoza. Venez cis la hego, ni konversos plu facile.** (Komp. *trans*.)
+
+66. — **Da** indikas la facanto, facinto o faconto di la ago. Konseque 1e la komplemento dil verbo pasiva, 2e l'autoro. Ex. : **il esas** (*esis, esos, esus*) **amata da omni.** **La pikturi da Murillo. La poemi da Victor Hugo.** En ta exempli, « omni, Murillo, Victor Hugo » esas la *aganti*, la produktanti dil ago; pro to li indikesas kom tala dal prepoziciono rezervita a la *aganti* : « **da** ». (Komp. *de, di, per*). Vice : **la amo di Deo a la homi** (videz *ad*) on tre legitime darfus dicar : *la amo da Deo a la homi*.
+
+67. — **De** indikas la punto di *de-veno* (en la spaco e tempo), l'origino, la dependo, la departal punto. Ex. : **Ta** **juvelo venas de mea matro. De ube vu adportas ico? de mea** **rur-domo. La persiko esas importacita de Persia. To ne de****pendas de me. La treno de Paris a Lyon. De supre e de infre,** **de omna lateri, de omna rangi sociala venas ad ilu kurajigi.** **Me sufras de** (o *pro*) **nevralgio dentala. Li mortis single** **de hungro** (o *pro*).
+
+**De lua nasko il sempre montris extrema sentemeso. El** esas malada de tri semani. **Me savas to de longe. El havis** **grava morbilo, tri yari ante nun, e de lore el restis tre febla.** **De nun vu ne plus ekiros sen me. Ni ne vidis li de un yaro.**
+
+Kande on volas parolar pri la komencal punto di ulo eventinta pos dato, pos epoko indikata, on uzas **depos** (facita ek *de* e *pos*). Ex. : **El esis ofte malada depos sua mariajo.** **Depos sua kronizo, nia suvereno livas rare la chefurbo.**
+
+**De** uzesas anke kun la substantivi signifikanta mezuro, quanto, kontenanto : **un metro de drapo; turbo de civili e** **de soldati; taso de kafeo.**
+
+Nulu povas konfundar a : **un metro** (venanta) **ek drapo,** **taso** (venanta) **ek kafeo.** (Videz **ek** plu fore.) (1).
+
+> (1) On darfas supresar, sen detrimento, **de** pos la substantivo di quanteso : **taso teo, metro drapo**, dicas la « Grammaire Complète » ma, segun mea konoco, on ne uzis ta darfo.
+
+On uzas **de** kun l'adjektivi *plena* (2), *longa, larja, alta,* *profunda, dika*, e. c., qui fakte relatas mezuro, dimensiono : **plena de vino, longa de sis metri, dika de kin centimetri**, e. c.
+
+> (2) Same kam on dicas : **botelo de vino**, tale on havas la darfo dicar : **botelo plena de vino (botelo de vino, plena)**. Remarkez, ke **botelo de vino** ne equivalas **botelo por vino, vinbotelo**; nam l'unesma povas esar okazione **birbotelo**, quan on plenigis per vino.
+
+Fine on uzas **de** kun titulo di nobeleso : **duko de Richelieu,** **markezo de La Fayette.**
+
+**On bone remarkez, ke de esas neutila e devas ne uzesar** **kun la quantesal adjektivi ed adverbi. Ex. : multa homi;** **poka vorti; quanta invititi?** (L'expresuri *multe de homi,* *poke de vorti, quante de invititi?* esus galicismi tam kontrelogika kam *tri de homi*.)
+
+La prepoziciono **de** darfas kombinesar kun altri por indikar la loko de qua on venas : **la muso saltis desub la** **tablo adsub la lito, e desub la lito ol fugis aden la kameno.** (Komp. **da, di.**)
+
+Esas remarkenda la tre preciza distingo per **da** e **de**, quan on obtenas kun la verbi signifikanta *recevar, komprar,* *aquirar* ed altri analoga : **Me recevis ta libro de Alexander,** **or ta libro esas di Ioannes; do me recevis la libro di** **Ioannes de Alexander.** — **Ta varo esis komprata da me** (*me* *kompris lu*); **komprata de me** (*me vendis lu*). — **Ta kavalo** **esis komprata da mea patrulo de mea amiko** (t. e. *mea* *patrulo kompris lu de mea amiko*).
+
+De co konsequas, ke on devas uzar de (nultempe *ad*, quale en la Franca) por indikar la komercisto o vendinto, la persono de qua on kompris o recevis ulo : **Me kompris de** **ta libristo** (ne : *a ta libristo*) **amuzanta libro a** (o *por*) **mea** **filiineto.** — **Me kompris a** (o *por*) **mea filii voyajal naraci** **de la libristo** (1) **quan vu indikis a me.**
+
+> (1) Remarkez, ke se la libristo esus l'autoro di la naraci, on dicus: **da** e ne **de.**
+
+68. — **Di** indikas nur la posedo, la aparteno, o la relato generala di ul objekto (quan la genitivo expresas en la lingui flexionale) : **la libro di Petrus; di qua esas ta domo? Di** **mea patrulo.** (*La domo di me* = *mea domo*.)
+
+Remarkez, en l'exempli sequanta, quale **di** unionesas a **da** por distingar tre klare du diversa relati, qui sen ta du prepozicioni restus konfuza e konfundebla :
+
+**La konquesto di Anglia da la Normandi igis la duki** **di Normandia rivala kun la reji di Francia.** — **La sendo** **di ta letro da Petrus a Ioannes efektigis la deskonkordo qua** **nun regnas inter li.** — **La religial libri di la Kristani omna****eklezia konstante parolas pri la amo di** (o **da**) **Deo a la** **homi e pri la amo di** (o **da**) **la homi a Deo ed al proximo.** — **La konkordato obtenita del papo da la rejo dil Franci** **stipulis to tre explicite** (2).
+
+> (2) Sen plajiar Ido, la linguo da Zamenhof (se ni dicus : *di* Zamenhof, ol esus la Polona) nultempe povus per sua unika **de** tradukar klare e naturale ta exempli ed altri, quin ni ja donis e povus donar ankore. Tria-dek-e-ok yari de existo e la tota evoluciono di lua lexikografi e skripteri ne ja donis ad olu ica posibleso! Ol esas ankore kondamnita, pri omna analoga kazi, ad aranji plu o min stranja ed obskura, qui sakrifikas la ideo expresenda. Quon signifikas : **la sklavo liberigita de sia mastro?** Kad : *la sklavo* *liberigita* **de** *sua mastro?* o : *la sklavo liberigita* **da** *sua mastro?* Nul vortal ordino povas destruktar l'ambigueso esperantala en ica kazo ed en multega altri analoga. Bela produkturo di blinda e hazardala evoluciono : 38 yari ne emendis la linguo mem pri ta punto grava e tote ne rara!Yen ica frazo : *The governement of the people by the people*. Espo necese tradukos : la regado de la popolo **per** *la popolo!* Ma hike **per** esas tote ne justa, nam E, dicas *by*, ne *through*. E la tota frazotradukenda esas : « ...ke la guvernado *di* l'populo *da* l'populo e por la populo ne perisos sur la tero ». Se on turnos altre ta frazo, quo restos de l'ideo? Vere quon valoras linguo nekapabla tradukar idei tante simpla sen alterar oli?
+
+**Ido povas distingar tote certe l'autori, la modeli e la pro****prieteri di artal verko, di portreti, statui, e. c. Ex. : la por****treti da Rafaël** (il facis li); **la portreti de Napoléon** (il esis la modelo, oli reprezentas lu); **la portreti di siorulo X...** (il esas lia proprietero, il posedas li kom kolektero od altre).
+
+« Quankam la tri (prepozicioni *da, de, di*) esas necesa, existas por li, quale por mult altra propozicioni, kazo-limiti, en qui on povas tre juste hezitar inter du. Por levar ta dubi, ni povas donar la praktikal regulo sequanta.
+
+« Se la senco postulas klare l'ideo di l'aganto od autoro, uzez *da*; — se ol postulas klare l'ideo di *de*veno, o di konteno o di quanto, uzez *de*; — en la cetera kazi (do en omna dubebla kazi) uzez audace *di*; nam olca esas la maxim *generala* de la tri, korespondanta a la genitivo; do, se vu hezitas inter la tri, vu povas uzar ol prefere; tale vu riskos minime erorar, e vu esos komprenata » (*Progreso*, II, 33).
+
+69. — **Dop** relatas nur la spaco, quale **avan** (videz ica) di qua ol esas la justa kontreajo : **Il departis avan me, me** **sequis e balde preterpasis lu, tale ke il arivis dop me. Iosef** **iris al tribunalo por prizentar su avan la judiciisto; ma il** **arivis longe ante ica e mustis vartar.** — **En lineo de soldati** **qui marchas ad ni, l'unesma esas avan la duesma ed ica** **dop l'unesma; la duesma esas avan la triesma ed ica dop** **la duesma, e. c.** — **Se me lektas, irante de sinistre ad dextre** **quale en l'ocidental lingui, la vorto** *l'infanto*, **l'artiklo esas** *avan* **i ed ica** *dop* **l'artiklo; la i esas** *avan* **n ed ica** *dop* **i, e. c.** **Kontraste, se me lektus ta vorto** (quale en la Hebrea) **de** **dextre ad sinistre, la o esus** *avan* **i ed ica** *dop* **o, la t esus** *avan* **n ed ica** *dop* **t, e. c.** (Videz, ye **avan**, la decido 1611).
+
+70. — **Dum** indikas la duro di tempo en qua ulo eventas od esas facata, agata : **il dormis dum la koncerto; il esis** **absenta dum tri yari; il sucesis fugar dum la masakro; el** **esis malada dum sua infanteso** (1).
+
+> (1) Kompreneble, se on volas dicar ke el ne cesis esar malada tam longe kam duris elua infanteso, on dicas : *dum sua* **tota** *infanteso*,
+
+Nultempe tacez ta prepoziciono, malgre l'exemplo di ula lingui, di la Franca exemple, qua tre logikale dicas : *il* *guvernis* **dum** *kin yari la kolonio* e *il studiis* **dum** *tri yari* *filozofio*, ma qua dicas anke, e kontrelogike : *il guvernis kin* *yari la kolonio*, e : *il studiis tri yari filozofio*. Ma kad on guvernas yari o lando e homi? Kad on studias yari, o cienco, arto, mestiero? Por ne dicar absurdajo, kompromisar la justa kompreno, on mustus avertar (quale agas nacionala gramatiki) ke en ta expresuri e le analoga, « kin yari » e « tri yari » esas nule direta komplimenti, ma cirkonstancal komplementi tempala, pro ke **dum** esas tacita. Ka ne esas preferebla, kom plu sekura, nultempe tacar la prepoziciono e dicar kun olu : *la kin yari* **dum** *qui il guvernis la kolonio* *esis le maxim prosperanta por olu; me studiis filozofio* **dum** *tri yari e la general historio* **dum** *quar yari; il retromarchis* *o marchis retroe* **dum** *un mi-horo pro pario stupida quan* *il facabis?*
+
+Nultempe uzez *durante* vice **dum**; nam *durante* ne esas prepoziciono. Ex. : **la diskurso durante tre longe ol certe** **tedos l'askoltanti.**
+
+71. — **Ek** = de interne ad extere di... Ex. : **la hundo** **saltis ek la barelo** (lu esis en la barelo); **la hundo saltis** **de la barelo** (lu esis nur *an* la barelo). Do atencez ne konfundar ek a de; nam, quale vu vidas, *ek* supozas, ke on esis *en* la loko, kontre ke *de* supozas, ke on esis nur *an* od *apud* olu.
+
+Per extenso naturala **ek** uzesas anke por indikar la materio di ula kozo (ek qua on imaginas, ke ol esas extraktita) : **vazo** **ek oro**; ma esas preferinda dicar : **ora vazo. Domo kon****struktita ek petro. Quon vu facas ek ico? Quon vu facas ek** **vua pekunio?** Ne konfundez **ek** al punto di *de*veno. Dicez : **Me recevis letro** *de* **Paris**, ne *ek Paris*.
+
+Atencez bone la difero inter : **botelo ek...** (materio), **botelo de...** (kontenajo), **botelo por...** (destineso). Ex. : **botelo ek vitro, botelo de vino, botelo por oleo.**
+
+Pos la verbo *konsistar*, on uzas **en** o **ek**. Ex. : **La kurajo** **ne konsistas en ne sentar ula timo, ma plu juste en ne egardar** **la danjero. Ek quo konsistas la afero?**
+
+**Ek darfas uzesar metafore por indikar objekto o mem** ento apartenanta ad ensemblo, kolektajo (e quin on supozas *extraktita* ek olu), exemple pri relatanta superlativo : **la** **maxim richa ek omni.** Ma on darfas anke uzar **de**, quale ni vidis ye : *gradi komparala*. Mem **inter** anke konvenas en ta kazo.
+
+72. — **En** = ye l'internajo di (loko, o di to quon metafore on komparas a loko). Ta prepoziciono relatas la spaco e la tempo. Ex. : **Il marchas en la chambro. En printempo** **l'arbori florifas. En la jorno il dormas** (1). **Jetez ico en la** **fosato.** Dicar « *aden* la fosato » ne esus erora, ma vere tote neutila, pro ke « jetez » indikas sat bone per su, ke « ico » ne ja esis en la fosato; konseque la chanjo di loko ne bezonas indikesar duesmafoye per « aden ».
+
+> (1) Esas kazi ube plura prepozicioni povas expresar logike la relato. Do tote senyure e nejuste la helpolinguo impozus ica prefere kam ita. Ex. : **sufrar de** (o *pro*) **dursto; en** o **dum la jorno.**
+
+73. — **Erste** = ne plu balde (kam). Ica defino montras, ke ta vorto esas adverbo. Pro to ol trovesas inter l'adverbi tempala. Ma, pro ke ol semblas a kelki quaza prepoziciono, ni repetas lu hike kun exempli : **Me venos erste** **morge** (2). **Ja en la lasta yaro me suspektis ilu; ma erste** **dum la somervakanco di ca yaro me havis la konfirmo di** **mea suspekto. Komencez erste pos ni, nam vu laboras plu** **rapide** (kam ni).
+
+> (2) Remarkez la difero inter : **me venos erste morge** e *me venos* *nur morge*. L'unesma dicas : **me venos ne plu balde kam morge;** la duesma dicas : *me venos* (unike) *morge* e *ne en altra dio*.
+
+74. — **Exter** = ye l'exterajo di... (sen chanjo di loko). Ex. : **Pro quo vu restas exter la domo? Enirez e venez apud** **ni. Il habitas exter hike, che sua gepatri. Exter konkurso.** **Exter** metafore uzesas kun la senco « *ecept(it)e* » : **exter** **ta legi ne existas altri.**
+
+75. — **For** indikas eskarto plu o min granda (3); ol esas la kontreajo di *proxim*. Ex.: **Il habitas pasable for** hike. **Ne restez tale for ni, ma venez proxim ni, e sideskez** **apud me, an la tablo.**
+
+> (3) Quale nia omna nocioni, la nociono di *for* esas relativa, totsame kam la nociono di *proxim*. Exemple, *forirar* povas okazione signifikar nur *eskartar su* (de) : **forirez del tablo.**
+
+Esas remarkenda, ke *de*, qua per su indikas nur separo e departal punto, plu bone konvenas, kom prefixo, kam *for*, kande on ne intencas indikar *foreso* o *foriro* striktasence. Exemple, por indikar nur la departo-punto, *deirar, deflugar,* *detranar*, e. c., esas plu bona kam *for*-. E mem *forprenar* esas ne uzenda (1), nam on prenas *de* o *ek* ma ne *for*, adminime en la senco quan expresas *deprenar, ekprenar*. La vorto *for**prenar* povas signifikar nur, ke on prenas (ulo) fore, e ne proxime.
+
+> (1) Videz *Progreso*, V, 723, noto 2. La *forpreni* di Espo esas nur imito di *weg-* Germana, en la realeso.
+
+76. — **Inter** = en la spaco o tempo qua separas du o plu multa personi, kozi. Ex. : **Inter Francia e Rusia esas** **Germania. Il pozis su inter ni du. El venis inter ok e dek** **matine** (2).
+
+> (2) **Inter** supozas plura personi o kozi. Ne dicez do : **inter ilua** **amikaro** (nomo singulara gramatike), ma : **inter ilua amiki.** *Du* *personi o kozi* adminime esas necesa por ke on darfez uzar « inter ».
+
+Metafore **inter** uzesas por indikar partigo, kambio o reciprokeso : **li dividis inter su dek e du pomi; li kambiis inter** **su lia vesti; li luktis, parolis inter su** (prefere : **li interluktis,** **interparolis**, e. c.). (Videz ye la *verbi reciproka*.)
+
+On devas ne konfundar *inter* a *ek* qua expresas ideo tre diferanta. (Vid. ica lasta.)
+
+77. — **Kontre** = opoze a (3). Ex. : **Kad vu votas por** **o kontre la propozo? La Hispani kombatis longe kontre la** **Mauri. La domo esas shirmata kontre la nordal vento. Lua** **fenestri esas kontre (la) mei.**
+
+> (3) En noto, p. 32 di « Grammaire complète », France lektesas : **Kontre** sempre kontenas la ideo di opozo materiala od etikala.
+
+Ma on devas ne uzar **kontre** por la senco *apud, an, ad* (F. *envers*), *kun*. Ex. : **La fenestri apud** (plu bone : **an**) **la** **strado. Il agis ad me tre amikale.** Se on dicus *kun me*, la senco esus : *il e me agis*.
+
+78. — **Koram** = en la asisto, prezenteso di... Ex. : **koram ulu; koram me; koram notario; koram la judiciisti.** **Il dicis to ante me, avan vu e koram vua gepatri; me do nur** **repetis to quon il dicis l'unesma e koram ni omna.**
+
+79. — **Kun** = akompanate da..., juntite a... **Il promenas** **kun amiki; restar kun leono esas danjeroza** (1).
+
+> (1) En la netushebla *Fundamento* da Zamenhof : *resti kun leono* *esas danghere.*
+
+Nultempe uzez **kun** vice **per**, nam la duesma indikas instrumento, kontre ke **kun**, quale ni vidis, indikas akompano, uniono. Do ne dicez (imitante ula lingui) : **il frapis me kun** **bastono**, ma : **il frapis me per bastono.**
+
+Memorez bone, ke la verbo *konfundar* postulas **kun** o **ad** por sua nedireta komplemento, segun la decido 1205. Specala noto akompananta la decido fixigas la selekto tavorte :
+
+« Se ek plura kozi on facas pelmelo per mala o ne suficanta distingo mentala, qua mixas iti kun ici, lore la prepoziciono uzenda esas *kun*. Ex. : **Nun il konfundas en sua** **odio, la kulpozi kun l'inocenti, la boni kun la mali.** »
+
+« Se la spirito transportas erore la qualesi od individueso di ulu od ulo ad altra, lore la prepoziciono uzenda esas *ad*. Ex. : **Vu konfundis manekino a homo. Ne konfundez lam****piro a lanterno.** » (2).
+
+> (2) *Progreso*, VI, 513, noto 2.
+
+Ne dicez « kune kun » quale l'Esperantisti. Ta stranja expresuro ne uzesas en Ido. *Kun*, simple, o *samtempe kam* *kune, unionite, solidare* expresas certe plu bone, segun la kazo, la idei quin l'Esperantisti inkluzas en « kune kun ».
+
+80. — **Lor** = en la tempo di, samtempe kam : **Lor vua** **nasko; lor mea mariajo; lor la tertremo di...; en la realeso,** **la homi esas egala nur lor sua nasko e lor sua morto** (3).
+
+> (3) Ta prepoziciono genitas l'adjektivo lora : **Ti qui vivis en ta** **epoko savas quante teroriganta esis la lora eventi.** — Ol genitas anke la adverbo **lore, de lore, til lore. Se me esus avan la morto,** **mem lore me atestus lo.**En *Progreso*, V, 28 trovesas ico : « Kelkafoye on uzas la prepoziciono lor kun vorti qui indikas *dato* o tempo, t. e. kun nomi di dio, monato, yaro. To esas nejusta : en omna tala kazi on devas uzar *ye* (por preciza indiko), *en* o *dum* (por intervali), ex. : *ye la unesma* *di januaro, ye du kloki; en la printempo; dum la venonta yaro*. — Lor povas (darfas) aplikesar nur a konkreta eventi, nam ol signifikas exakte : « en la tempo di, samtempe kam ». Ex. : *lor mea**mariajo; lor* la nasko di mea unesma filio; *lor* la lasta aparo di la kometo di Halley, *lor* l'explozo di la kurasnavo *Liberté*. On darfas anke dicar : « dum la milito Ruso-Turka », nam hike on parolas pri ulo, qua duris kelka tempo. »
+
+81. — **Malgre** = sen impedesar da..., sen cedar a... Ex. : **Il sucesis malgre omna obstakli; il departis malgre sua** **matro o : malgre la impero di sua patrulo.** Quale on vidas, **malgre** povas havar kom komplemento persono o kozo (1).
+
+> (1) Uli ne dicernas bone la difero di *malgre* e *tamen*.Ica lasta ne esas prepoziciono e havas nula komplemento konseque; ol pleas la rolo di adverbo kun ideo di kontrasto, di opozo : **il esas povra e tamen** (il esas) **jeneroza. Il esas malada, tamen il** **volas laborar.** — *Tamen* = malgre to.
+
+82. — **Per** indikas l'instrumento di la ago, to quo uzesas por produktar olu, la moyeno : **skribar per plumo, per** **krayono; sendar per posto; mortigar per hungro; li inter****batis per pugni; il suocidis per revolvero; persuadar per** **dolceso; vu kovros la amasi de betravi per palio.**
+
+Precize pro ke **per** indikas instrumento, moyeno, lu ne darfas uzesar avan la aganto en la komplemento dil verbo pasiva, sive ta aganto esas persono od animalo, sive ol esas kozo; nur **da** uzesas takaze : **lu esas tote kovrita da nivo.** Se vu hezitos inter *da* e *per*, chanjez la formo pasiva a formo aktiva : **la nivo tote kovris la tekti.** Do la nivo esas la aganto en la frazo pasiva; konseque on devas uzar *da* (ne *per*) avan olu.
+
+83. — **Po** preiras la kozo kambie donata; ol indikas equivalo : **me kompris la domo po quaradek mil franki** = *me pagis quaradek mil franki po la domo*; **sigari po dek cen****timi.** — **Me kompris dek sigari po un franko** (*sume*). Se on volas dicar : *sigari di qui singla kustas un franko*, on dicas : **sigari po un franko single. Silko po kin franki (singla)** **metro; me kambiis mea biciklo po un plu nova. Il pagis** **la glorio po sua vivo. Me defensus ta afero mem po mea** **sango. Po quante vu vendas ta flori?** to esas : **po quanta** **preco.** Se on dicus : **quante vu vendas ta flori?** la senco esus : **kad vu vendas li grandaquante, mikraquante, grose o** **detale?**
+
+Por indikar l'unajo kun qua relatas la preco on uzas la prepoziciono **por**. Ex. : **On abonas ta revuo po dek e du** **franki por yaro. On darfas anke dicar : po dek e du franki** **yare.**
+
+Esus neutila uzar **po** (od irg altra prepoziciono) avan komplemento direta : **omna (o singla) libro kustas tri** **franki** (e ne : **po tri franki**).
+
+84. — **Por** indikas la skopo, la koncernato, la profitanto o nur destinario. Ex. : **Por quo vu volas havar pekunio?** **por komprar to quon me bezonas. On manjas por vivor, on** **ne vivas por manjor. Me kompris ludili por mea infanti.** **Ica letropapero esas por tu e ta kuverti por me. La evento** **esas fortunoza por ilu, ma desfortunoza por vi. Me havas** **nulo por skribar, nek plumo, nek krayono** (1).
+
+> (1) Atencez la granda difero inter : *me havas nulo por skribar* e : *me havas nulo skribenda*. Forsan nun Esperantisti plajianta Ido facas la distingo dil du idei; ma ti qui ne ja adoptis nia *end* esas tote nekapabla facar ta distingo : li konocas nur : *me havas nulo* *por skribar.*
+
+On uzas **por** avan l'unajo kun qua relatas la preco. (Videz **po** pri ca punto.)
+
+85. — **Pos** relatas nur la tempo. Ol esas juste la kontreajo di **ante**. (Videz ica.) Ol signifikas « plu fore kam... » (en la tempo). Ex. : **To eventis pos mea departo. Me certe** **arivos pos elu. Quon li agos pos mea morto?**
+
+Me atestas, ke il dicis to **ante** tua fratulo ed **avan** tu, nule **pos** ilu, quale il asertas; e me savas lo tre certe, nam omno eventis **koram** me.
+
+86. — **Preter** = pasante apud (ulu od olu) ed irante plu fore kam (li). Ex. : **Ni rajuntis li ye la halteyo, ma iris** **preter li e preter omni quin ni renkontris, til ke ni atingis** **la portuo.** — **Ni iris preter lia fenestri, malgre lia signi e** **voki.** — **Li preter-vehis ni, ma salutis ni afable, pasante.** — **Pro quo camatine vu iris preter mea pordo, sen haltar** **dum kelk instanti?**
+
+87. — **Pri** = koncerne, relate. Ex. : **libri pri filozofio.** **Il esas tre erudita pri historio. Parolez a ni pri la linguo** **internaciona e pri vua voyaji.**
+
+Nultempe uzez, vice **pri**, sive **de**, malgre l'exemplo di la Latina, sive **sur** malgre l'exemplo di ula lingui vivanta.
+
+Ma tre reguloze vu darfas uzar *koncerne*, *relate* qui expresas la sama ideo kam *pri*, ma en formo triople plu longa.
+
+88. — **Pro** = per efiko od efekto di... Ex. : **Il mortis** **pro hungro; me tremas, ne pro timo, ma pro koldeso; el** **agas tale pro jaluzeso. Pro quo tu ploras? pro ke Petrus** **batis me.**
+
+Se on atencos, ke ta prepoziciono fakte konocigas *de quo* venas la efekto produktita (exemple « hungro » en : **il mortis** **pro hungro**) on komprenos, ke ol havas kelka afineso kun *de*. Co explikas, ke en ul okazioni, ol povas esar remplasata dal prepoziciono *de*. Ex. : **il mortis de hungro ex****presas la kauzo dil morto** (*hungro*) **tam juste kam : il mortis** **pro hungro. Same : el esas malada pro o de febro.**
+
+89. — **Proxim** = ye mikra disto de la punto indikata, ne for olu. Ex. : **Me plantacigis kelka florarbusti proxim** **la domo. Kande il sentis su proxim la morto.**
+
+Ta prepoziciono esas la kontreajo di **for**. Kun olu la vicineso restas min granda kam kun **apud**. (Videz ica e **an**, qua indikas ne nur vicineso, ma kontigueso o kontrakto.)
+
+90. — **Segun** = sen eskartar de..., konforme a... Ex. : **ni vivez segun la nova precepto : « amez l'una l'altra, quale** **me amis vi » e ne segun l'anciena : « okulo po okulo e** **dento po dento. — Il agis segun sua opiniono. To ne esas** **permisata segun la lego. Arkitekturo segun la gusto di Re****nesanco. Pikturo (kopiuro) segun Rafael. Nultempe uzez** **segun vice per. Do dicez : el esis la perfekta portreto di sua** **patrulo per** (e ne : *segun*) **sua boneso e honesteso** (1).
+
+> (1) Ne imitez Esperanto dicanta en « La feino » : « *kiu estis la* *plena portreto de sia patro laù* (vice *per*) *sia boneco kaj honesteco* », nam vi alterus l'ideo tradukenda.
+
+91. — **Sen** esas la kontreajo di **kun**. (Videz ica.) **Ol in****dikas l'absenteso, la manko dil persono o kozo nomata :** **Il arivis sen sua amiko; me ne povus vivar sen tu.**
+
+92. — **Sub** indikas la situeso di ulo (od ulu) relate to quo esas supere ed en la sama vertikal direciono : **la kato** **dormas sub la tablo. Me refujis sub la hangaro pro la pluvo** **qua faleskis. La muso kuris (ad) sub la armoro.** (Komp. *sur*).
+
+93. – **Super** (sen kontakto kun la objekto) = D. *über,* *oberhalb*; E. *over, above*; F. *au-dessus de*; I. *sopra, al disopra*; S. *por encima de sobre*. Ex. : **qua nombrizos la steli qui** **brilas en la cielo super ni? La vento pulsis l'aeroplano** **super la maro** (o, se to esas necesa por indikar translaco, *adsuper* la maro). **La muevi flugas super la maro ed ofte** **pozas su lejere sur olua ondi.**
+
+Atencez ne uzar *super* o *sur* vice *pri*.
+
+94. — **Sur** indikas la situeso di ulo (od ulu) relate to quo esas plu infre, en kontakto kun olu ed en la sama direciono : **La navi vehigas sur l'oceano homi, bagaji e vari.** **La kato saltis adsur la tablo por kaptar olu.**
+
+Metafore : **havar autoritato sur judiciisti; havar yuri sur** **la krono; prenar afero sur su** (1). (Komp. *sub*.)
+
+> (1) O « asumar afero » egale bona, se mem ne plu bona. (2) Segun *Progreso*, IV, 661. — Videz, p. 224, **tra** e **trans**, omisita pos **til.**
+
+95. — **Til** indikas la termino en la spaco o tempo. Ex. : **Ni irez til la frontiero; vartez til mea retroveno.**
+
+**Til** uzesas kun **de** por indikar spacal o tempal intervalo : **de lundio til jovdio; de Calais til Dover.** Ol indikas anke minimo : **il spensis de cent til duacent franki**, o simple : **il spensis til duacent franki.**
+
+**Til** signifikas, ke on atingas la limito indikata. Kande la limito indikata esas, ne punto, ma ula intervalo, on devas kompletigar l'indiko, dicante precize : « til la komenco o fino di... » od : « til la yaro 1912 *exkluzite* o *inkluzite* (od *exkluzita, inkluzita*) » (2).
+
+**Tra** = de un latero od extremajo a l'altra, interne. Ex. : **Li pasis tra la foresto. Il sinkis sua espado tra ilua pektoro.**
+
+**Trans** = adsur l'altra latero. Ex. : **On pasas tra la rivero** **per vadeyo e trans olu per ponto. Ne irez trans la lago, nam** **ibe vu jenesus dal turisti.**
+
+96. — **Ultre** = adjunte ad : **Ultre mea matrala linguo,** **me savas la Germana. Me esis tre charjita, nam ultre mea** **valizo, me portis du grosa paki.**
+
+**Ultre** esas nur prepoziciono. Ni donez un plusa exemplo : « **Ultre mea repasto, me prenis kafeo kun glaseto de bran****dio** » (1).
+
+> (1) *Ultre* diferas de *plus*. Advere de la matematikal vidpunto la difero ne esas granda, pro ke A + B = B + A (e mem ne sempre!). Ma, en la komuna vivo, l'ordino ne esas indiferenta, sive pro la tempo, sive pro l'importo relativa e tre neegala di l'adicionendi. Exemple, la supera frazo equivalas : « Me prenis mea repasto *plus* mea kafeo. » Esus ridinda dicar : « Me prenis kafeo *plus* mea repasto », kontre ke on povas dicar tre bone : « Me prenis kafeo *ultre* mea repasto. »De to konsequas, ke nultempe on bezonas adverbigar *ultre* : la adverbo uzenda esas sempre *pluse*, qua anuncas l'adjunto di *altra* kozo a l'unesma e predicita. Exemple, F. *en outre* devas sempre tradukesar per *pluse*. Do on ne bezonas desquietesar, kad *ultre* povas uzesar kom adverbo e tale divenar kelkafoye dusenca. Exemple : « Ultre la festino eventis gaya balo. » Ula kritikemi kredas, ke la frazo esas bisenca til la streko. No, nam en l'altra senco on devus dicar : *Pluse*, la festino eventis... » (e o *kun gaya balo*). On havas nul ambigueso timenda, se on uzas la justa prepoziciono. (*Progreso*, VI, 481.)
+
+Ne konfundez *ultre* a *exter, trans* o *ecepte*.
+
+97. — **Vice** = remplase...; od indikas ago kontrea, quan on opozas ad altra. Ex. : **Il parolis vice la prezidero; il ludas** **vice laborar.**
+
+Ta prepoziciono uzesas kom prefixo, en sua senco internaciona : **vice-administrero, vice-prezidero, vice-sekretario,** **vice-rejo, vice-rejeso**, e. c.
+
+Ol ludas anke la rolo di adverbo. Ex. : **Pro ke la prezi****dero esis absenta, me parolis vice** (lu). **Il devus skribar** **sua letri, vice** (to) **il babilas.**
+
+98. — **Ye** esas prepoziciono di senco nedeterminita, quan on uzas nur en la kazi ube nul altra prepoziciono postulesas da la senco. Ol indikas nome la loko o la dato exakta di evento, di fakto. Ex. : **Ye l'angulo di la strado;** **ye la dekesma kilometro; ye dimezo; ye la lasta foyo.**
+
+Pro ke ol indikas la loko, on uzas lu por precizigar la koncernata parto di la korpo : **me doloras ye la kapo; il** **prenis elu ye la tayo; il kaptis la kavalo per lazo ye la kolo.** Esus tote ne justa dicar, quale la Franca : *per* la tayo, *per* la kolo, nam nek la tayo, nek la kolo esas l'instrumento di la ago; or ni vidis ke *per* indikas sempre l'instrumento, la moyeno uzata.
+
+99. — Kande la prepoziciono uzata ne indikas per su la chanjo di loko e nulo altra komprenigas la translaco, *ma nur lore*, on montras ta chanjo adjuntante *ad* a la prepoziciono : *ad-en, ad-sur, ad-sub, ad-super*, e. c., quale ni ja vidis. On darfas uzar o ne la streketo, do skribar *ad-en* o *aden*, e. c. Ex. : **Il kuris de la salono aden la koqueyo.** Kun *ad* sola on ne savus kad il eniris o ne en la koqueyo. Ma me dicos : **pozez la lampo sur la tablo** (sen *ad*), nam videble la lampo ne esis antee sur la tablo, altre me ne dicus pozar lu sur ta moblo. Agez tale en omna kazi analoga.
+
+100. — La prepozicioni formacas derivaji (per **-a, -e, -o**) se la signifiko lo permisas (1). Ex. : **avana, avane, avano;** **dopa, dope, dopo** (2); **apuda, apude; cisa, cise; transa,** **transe; fora, fore; proxima, proxime; suba, sube; sura, sure;** **supera, supere; extera, extere; dume; antea, antee; kontrea,** **kontree; retroa, retroe**, e. c.
+
+> (1) Nula prepoziciono formacas verbo direte, pro ke ol ne kontenas en su l'ideo verbala. Mem **cirkumar** esas forjetita dal Akademio pro ta motivo. Nun vice lu on uzas **cirkondar**. Ma co ne supresis **cirkumajo** tote analoga a *exterajo, internajo* e. c.
+
+> (2) La difero inter *avano, dopo* e *avanajo, dopajo* (od altri simila) esas ke per **-o** en ta vorti on indikas nur la punto avana, dopa e. c., kontre ke per *-ajo* on indikas parto plu vasta o grosa.
+
+Quale on vidis per la supera exempli, nula prepoziciono (mem ti qui finas per *e*) darfas uzesar kom adverbo sen adjuntar l'adverbal dezinenco **-e** (kontree, antee).
+
+101. — On ne dicas **ene** ma **interne** (de l'adjektivo *in**terna*); nek **eke**, ma **extere**, nek **pere**, ma *mediace* (*di*); pro ke la vorti *interne, extere, mediace* expresas l'ideo adminime tam bone ed esas quik komprenata da milioni de homi, quin *ene, eke, pere* astonus e trublegus.
+
+Ne konfundez **supere** a **supre**, nek **sube** ad **infre** o **base**.
+
+**Supre** ed **infre** havas senco *absoluta*, ed indikas loki o parti en determinita objekto : la *supro* (o suprajo), la *infro* (o *in**frajo*) (3).
+
+> (3) On uzas prefere *suprajo, infrajo* por indikar la geometrial extremajo, surfaco o pinto. Ex. : *la supro di la komodo esas hori**zontala; la suprajo di la komodo esas marmora* (o : **ek marmoro**). To esas nur nuanco.
+
+**Supere** ed **sube** havas senco *relativa*, ed indikas nur situeso o direciono relate punto determinita : t. e. nivelo plu o min alta. Exemple, konsiderante domo kun sis etaji e parolante de la vidpunto di ta, qua lojas sur la triesma, la *supera* etaji esas la quaresma, la kinesma e la sisesma, ma la *supra* etajo esas nur la sisesma; la *suba* etaji esas la duesma, l'unesma e la ter-etajo, ma l'*infra* esas nur la lasta (1). Konseque en citado, on devas dicar : *videz supere* (e ne *supre*), *videz sube* (*videz infre* signifikus : videz ye l'infro (infra parto) di la pagino, ex. en « infra noto »).
+
+> (1) *Supere* venas *de super*, quan on distingas de *sur*. (Videz ta du prepozicioni e komparez li); ma *infre* opozesas a *supre*. (*Progreso*, III, 664.) — *Sube* venas *de sub*, qua indikas la situeso relate to quo esas supere ed en la sama vertikal direciono.
+
+Fine remarkez, ke la *supro* o *suprajo* ne esas sempre nek necese la *somito*, nam ol povas esar larja e plana; on ne parolas pri la somito di moblo, di domo; la *suprajo* di la tero tote ne identeskas kun la *somiti* di la monti. On anke devas ne konfundar *infra* e *basa* : infra relatas la loko o situeso, *basa* la dimensiono. La *infra* etajo di domo povas esar *alta*, e mem la maxim alta; kontraste la *supra* etajo povas esar tre *basa*.
+
+102. — Pri la *komplemento di adverbo prepoziciona* observez ico :
+
+Existas adverbi derivita qui pleas la rolo di prepozicioni e konseque havas komplemento, quale la vera ed originala prepozicioni. Pri ta komplemento on agas quale pri la komplemento dil vorto fonta : **Koncerne, relate, ecepte** *ulu* od *ulo*, pro ke on dicas **koncernar, relatar, eceptar** *ulu* od *olu* (2).
+
+> (2) Decido 1094 : On adoptas ica regulo : « Por formacar kompozita prepoziciono, on adjuntas a l'adverbo la prepoziciono quan l'originala vorto (verbo o adjektivo) havas : simila *ad*, do : simile *ad*, diversa *de*, do : diverse *de*, koncernar *ulo*, do : koncerne *ulo* (*Progreso*, VI, 212).Decido 1183 : L'Akademio aprobas ica interpreto di la decido 1094 : Kande la verbo fonta postulas nula prepoziciono, t. e. esas transitiva, l'adverbo derivita postulas anke nula prepoziciono : koncerne *ico*, relate *ico* (*Progreso*, VI, 417).
+
+**Simile ad, konforme ad**, pro ke on dicas : *simila ad, kon**forma ad*. Do juste la prepoziciono preiranta la komplemento dil vorto fonta. Same pri : **diverse de** (o *kam*), **aparte de,** **dextre di, sinistre di, funde di, okazione di**, pro ke on dicas : *diversa de* (o *kam*), *aparta de, la dextro di, la sinistro di, la* *fundo di, l'okaziono di*, e. c.
+
+Ma preferez la propozicioni primitiva a l'adverbi prepoziciona, kande nula specal motivo konsilas ici. Exemple, **pri,** **segun, inter** esas preferinda kam, *koncerne, relate, kon**forme a, meze di*. Mem ica lasta darfas uzesar nur se la senco esas vere : *en la mezo di*, exemple : **meze di la cham****bro** = en la mezo di la chambro. Ma *meze di mea amiki* nule equivalas : *inter mea amiki*.
+
+Sempre dicez **pro** e ne *kauze di*, plu o min Franca idiotismo.
+
+103. — **La plaso dil komplemento di irga prepoziciono** (primitiva, derivita o kompozita) fixigesas da ica general regulo : ol devas sempre *sequar nemediate* la prepoziciono, sen ul ecepto.
+
+To esas tre importanta por evitar l'obskuraji ed ambiguaji, quin produktas en la Angla ed en la Germana, exemple, la prepozicioni qui *sequas* lia komplemento, o mem *preiras* e *sequas* ta komplemento.
+
+104. — Omna prepozicioni darfas uzesar avan infinitivo ed en la sama kazi por qui on uzus li avan equivalanta substantivo. Ex. : **il kantas pos drinkir** (quale : *pos drinko*); **il manjas ante departar** (quale : *ante sua departo*); **me ne** **povus facar to sen esar sustenata** (1) (quale : *sen susteno*); **vu facas ad ilu troa honoro per diskutar kun ilu** (quale : *per vua diskuto*); **il esas malada pro tro laborir** (quale : *pro troa laboro*); **mea laboro konsistos en montrar** (quale : *en montro*.
+
+> (1) *Me ne povos facar to, ne esante sustenata* inspirus la kompreno : *me ne povos... pro ke me ne esas sustenata*.
+
+Ma kande la prepoziciono indikata dal senco esas **di** o **ad**, esas ordinare plu bona ne expresar olu, nam la kuntexto sufias por sugestar lu.
+
+105. — Vice l'expresuro « la fakto di » sequata da infinitivo, on darfas uzar nur l'artiklo kun ta infinitivo. Ex. : « *Ne la fakto (di) ebriigar su konstitucas l'alkoholismo, ma* *la fakto (di) drinkar kustume alkoholo* » povas e darfas esar expresata ne min klare e plu kurte per : **Ne la ebriigar su** **konstitucas l'alkoholismo, ma la drinkar kustume alkoholo;** ed altramaniere : **la alkoholismo konsistas ne en la ebriigar** **su, ma en la drinkar kustume alkoholo.** — **Altr exemplo :** « *Ne la fakto (di) timar nulo konstitucas kurajo, ma la fakto* (*di*) *afrontar danjeri malgre la pavoro, quan on sentas pro* *li* »; plu kurte per : **Ne la timar nulo konstitucas kurajo,** **ma la afrontar danjeri malgre la pavoro quan on sentas** **pro li.**
+
+Ma ca exempli di rara kazi ne devas instigar vu ad uzar l'artiklo nediskrete e tedante avan l'infinitivo (quale se la substantivi ne plus existus), e dicar exemple : *la studiar e* *la muzikar esis lua delici*, vice : **la studio e la muziko esis** **lua delici.**
+
+106. — *Prepozicioni kun verbi*. — L'uzado di prepozicioni kun verbi esas un del maxim granda desfacilaji dil vivanta lingui.
+
+En nia linguo ica desfacilajo esas grandaparte vinkita per l'injenioz institucuro (1), ke la verbo esas transitiva en omna posibla kazi.
+
+> (1) Ol havas kom bazo ca principo logikala (quale ni vidis ye la verbi) ke malgre kontrea exempli di nia lingui, la verbo devas esar transitiva, kande lua ago povas atingar direte objekto : *mokar,* *nocar, atencar* e. c. ulu, ulo.
+
+Yen kelka exempli ube nia linguo fixigis la verbo kom transitiva : **aludar, bezonar, disponar, diletar, regnar...**
+
+(Altra avantajo di la verbi transitiva esas, ke on povas uzar li en pasivo, Ex. : se on dicas : **regnar lando, homi**, on povas dicar : **lando regnata** (da ta suvereno) e parolar pri **regnati.** Se on dicas : **plura autori laboris ica libro**, on povas dicar : **ica libro laboresis da plura autori.**
+
+Duesma moyeno faciligar l'uzado di prepozicioni, e la sola regulo sequenda en nia linguo esas : *selektar la pre**pozicioni segun lua propra senco*, tote ne segun la verbi od altra vorti, qui akompanas lu. Ex. : *absolvar ulu* de *kulpo;* *adicionar un nombro* **ad** *altra; konvinkar ulu* pri *ulo*, e. c.
+
+Fine on devas ne iterar sen neceseso la prepoziciono; generale, ne esas utila uzar lu *en* e *dop* la verbo. Suficas exemple dicar : *irar ek la chambro, portar ulo ek la chambro* (o : *forportar*, se on volas expresar l'ideo di forigo); *pozar* *lampo sur tablo* (vice : *ekirar ek..., ekportar ek..., surpozar* *sur...*).
+
+Pri la prepoziciono *ye*, pro ke ol esas tante komoda, on ne devas tro uzar olu. Exemple, on povas dicar plu bone : *abundar de* (quale *plena de, richa de*, nam *de* indikas la kon*tenajo*); *acendar de* (indikas l'origino); *konvinkar pri; kom**prenar per*, o *sub; reverencar ad* (*ad* indikas la skopo di l'ago); e forsan mem (quale agas korekte kelka samideani) : *chanjar ad, edukar ad*; nam to esas konforma a l'esencal ideo di la prepoziciono *ad*. Aparte, *chanjar ad*... esas certe plu logikala kam *chanjar en*..., malgre l'exemplo di D. F. (cetere, D. uzas anke *zu* ed E. *to*). — (Segun L. Couturat e P. de Janko, *Progreso*, II, 458).

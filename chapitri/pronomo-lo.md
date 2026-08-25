@@ -1,0 +1,26 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# PRONOMO « LO »
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+36. — « **Lo** » nule esas pronomo « neutra », aplikebla a determinata kozi o sengenra enti; ica rolo apartenas ad *olu*, e nur ad olu (2). Cetere, yen la texto ipsa di la propozo qua determinis la decido 948 dil Akademio : « De Beaufront e Couturat propozas... adoptar **lo** kom pronomo ed artiklo indikanta kozo nedeterminita analoge a **co, to** ». Sequas l'expozo dil motivi :
+
+> (2) *Progreso*, VI, 238.
+
+« Semblas a ni necesa adoptar *lo* por indikar kozo tote nedeterminita (abstraktita, quale on dicas ofte nejuste); ne nur por expresar *la belajo, la verajo* (triviala argumento), ma por mult altra kazi simila ad ici : « *Lo* grava en ica afero... Me deziras lo maxim bona. » En altra frazo-formo on dicus : « *To quo* esas grava... *to quo* esas maxim bona. » Do *lo* esas quaze abreviuro di *to quo*, e lua formo esas tote analoga, do necesa por la simetreso. Pluse, *lo* esus utila por tradukar precize D. *es*, kande ol referas, ne determinita objekto (hazarde neutra) ma integra frazo, t. e. fakto (segun la koncepto di Dro Talmey : II, 148). On povas ya uzar *co* e *to*, ma ca vorti implikas demonstrativa nuanco, qua esas superflua. Exemple : « Prenez to, me volas lo. » *Me volas to* esus dusenca; *me volas ol* semblas referar objekto, do esus anke dusenca; on ne volas l'objekto prenenda, ma « ke vu prenez to », la preno ipsa.
+
+« On bone remarkez, ke ni ne propozas *lo* vice *ol*, ma apud ed exter *ol*, exakte same kam ni havas *ico* apud *olca*, *quo* apud *olqua*. » (1).
+
+> (1) *Progreso*, VI, 238-239. — « Lo » esas nature *pronomo*. Mem en *lo bona, lo bela, lo vera, lo yusta* e. c., ol esas reale pronomo, ne artiklo, nam ol signifikas *to quo*. Ex. : **juntar lo agreabla a lo** **utila** = *juntar to quo esas agreabla a to quo esas utila.*
+
+Ni donez plusa exempli :
+
+**Lo facenda postulos longa tempo e multa lukti.** — **Me** **esforcis omnamaniere por evitar lo neremediebla.** — **Lo** **obtenita esas quaze nulo kompare a lo obtenenda.**
+
+**Il esas mortinta de tri monati, e vu ne savas lo!** (ke il esas mortinta). — **Restez e repozez me volas lo** (ke vu restez, e. c.) — **La rural domo di nia vicini esis incendiata.** **On informis me pri lo** (ke ol esis incendiata).
+
+Se on ne uzus « lo » en la tri unesma exempli, on mustus uzar la perifrazo : *to quo esas*... E se, vice « lo », on uzus **co, to,** en la du lasta, on obtenus altra nuanco, pro la signifiko demonstrativa di ca pronomi.

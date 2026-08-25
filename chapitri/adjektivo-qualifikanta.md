@@ -1,0 +1,48 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# ADJEKTIVO QUALIFIKANTA
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+24. — L'*adjektivo qualifikanta* finas per **-a** e ne varias (3).
+
+> (3) Plu exakte : a radiko *nomala* on adjuntas **-a** por igar lu gramatikale adjektivo qualifikanta.Radiko esas *nomala*, se, pro sua signifiko e natural valoro, olpovas formacar substantivi per l'adjunto di **o**, ed adjektivi per l'adjunto di **a**.Radiko esas *verbala*, se, pro sua signifiko e natural valoro, ol povas formacar verbi per l'adjunto dil dezinenci verbala : **-as, -is,** **-os** e. c.
+
+Por chanjar ol a substantivo samsenca suficas substitucar al dezinenco **a** la vokalo **o** (singulare), o la vokalo **i** (plurale) : **richa** = *qua esas richa* : homo richa; **richo** = (strikte) *ento, individuo richa* e (konvencione, praktike) *homo* *richa*; — **povra** = *qua esas povra* : homo povra; **povro** = (strikte *ento, individuo povra* e (konvencione, praktike) *homo* *povra*; — **blinda** = *qua esas blinda* : homo blinda; **blindo** = (strikte) *ento, individuo blinda* e (konvencione, praktike) *homo blinda*; — **dezerta** = *qua esas dezerta*; **dezerto** = *ulo,* *loko, spaco dezerta*; — **bona** = *qua esas bona*; **bono** = (konvencione, praktike) *homo bona*; — **mala** = *qua esas mala*; **malo** = (konvencione, praktike) *homo mala*; — **la boni** = *la homi bona*; — **la mali** = *la homi mala* (1).
+
+> (1) Pri la substantivigo e homigo dil adjektivo, videz la apendico quaresma.
+
+25. — Kande adjektivo aplikesas a substantivo tacita, on indikas la pluralo per la artiklo **le**, o per nedefinita pronomo konvenanta, o mem simple per **-i**. Ex. : **Yen pomi,** **prenez le bona e lasez le mala.** Kun ideo partitiva on dicus : **il ofris a me blanka e reda rozi, me prenis uli reda o kelki** **reda**; o plu simple : **me prenis redi**, quale on dicus : **me** **prenis kelki.** Tre certe ya **redi** e **kelki** povas relatar nur rozi, sola kozo pri qua on parolas. La lasta exemplo montras bone, ke en l'unesma ni povabus dicar : **prenez la boni** **e lasez la mali.** Nam vere quon altra kam *pomi* relatus « **la** **boni** », « **la mali** », en ica frazo? Kad on komprenus *homi*, kande traktesas nur *pomi*? (2).
+
+> (2) En la komenco, Ido rezervis, pro prudenteso, la yuro indikar (se to esus necesa) la pluralo en l'adjektivi per adjuntar **-i** a lia dezinenco **a** (do **ai**). Ma la praktiko montrinte, ke ta special pluralo povas abandonesar, decido unanima (1218) dil akademio Idista supresis lu.
+
+26. — On darfas elizionar la **a** final dil adjektivi, ma kun la kondiciono ke to ne produktos akumulo de konsonanti. On konsilas uzar ta eliziono precipue kun l'adjektivi derivita e partikulare kande li finas per **-al-(a)**. Ex. : **infantal anmo, amikal ago, kordial saluto**, e. c. (1).
+
+> (1) Decido 504 : On konservas l'eliziono di **-a** en l'adjektivi, ma restriktante ol a la kazi, en qui ne rezultos akumulo de konsonanti; per 7 voci ek 9. (*Progreso*, IV, 434.)Decido 586 : On repulsas la supreso di l'eliziono di l'artiklo; per 6 voci ek 9. (*Progreso*, IV, 561.)Decido 587 : On repulsas admisar sempre l'eliziono di l'artiklo dop vokalo ed avan konsonanto; unanime per 8 voci. Exemple : *ke l'regulo, se l'regulo*. (*Progreso*, IV, 561.)
+
+On devas ne uzar l'eliziono tro freque. Ol ne diplasas la acento; konseque ica restas sur **a** en **infantal, amikal, kor****dial**, quale en **infantala, amikala, kordiala.**
+
+Diveninte monosilaba per l'eliziono, l'adjektivi dusilaba sequas, pri l'acento, la regulo di omna monosilabi, pri qui parolesas en § 4.
+
+On ne obliviez ke l'eliziono nultempe esas obligala (2).
+
+> (2) « La finalo **-a** povas (darfas) supresesar per eliziono, ed esas konsilata uzar ta moyeno por igar la parolado min monotona ed anke plu fluanta; vice dicar : **la alerta e joyoza infanti,** on dicos tre bone : **l'alert e joyoz infanti,** e to esas tante plu naturala, ke ta senacenta finali (dezinenci) spontane malaparas (desaparas) en parolado fluanta e poke (kelke) rapida. To esas tute (tote) konforma a la linguala sentimento di la lingui qui posedas acento tonika (di intenseso). » — L. Couturat, *Progreso*, I, 492.Pro ke nur la nomala radiko darfas recevar l'eliziono, en sua formo adjektivala, nula detrimento povas naskar, por la kompreno, de ta eliziono *moderata*. Ol esas permisata, konsilata, en la kondicioni dicita supere. Ma la homi a qui ol ne plezus, havas la yuro absoluta ne praktikar olu.L'adjektivo elizionesas en nia linguo, e ne la substantivo (kontraste kun l'uzado Esperantista), pro ke l'adjektivo ne varias en Ido, kontre ke la substantivo varias. Esperanto, pro la variebleso di lua substantivo, povas elizionar lu nur en singularo e nur en nominativo, do ecepte. Ico anke indikis klare ad Ido elizionar, ne sua substantivo variebla, ma sua adjektivo nevariebla. Ma ico anke interdiktas elizionar lua substantivo, sempre en prozo, e quaze sempre en poezio. Cetere l'eliziono en substantivo povus konfundigar ica ad adjektivo, ed efektigar erori, miskompreni. Pro la praktiko esus kontrelogika permisar l'eliziono en du vorti tante parenta. Ni nultempe obliviez, ke la versi praktikesas por la linguo, ma ne la linguo por la versi. Ni do nultempe sakrifikez, quale tro ofte l'Espisti, ita ad ici. L'eliziono dil substantivo restez en nia versi ecepta licenco tre rara, ed ol nultempe sakrifikez l'exakteso dil penso a rimo nule necesa. La versi povas influar la prozo; or nia linguo povus vivar eterne sen rimi, ma se ol perdus la *just* expresiveso dil pensi, la morto kaptus ol tre balde.
+
+27. — Pri la *plaso dil adjektivo* on juas en Ido la libereso maxim kompleta. Nula logikal motivo impozas a ni la kustumo Angla e Germana pozar l'adjektivo sempre e mashinatre *avan* la substantivo, dum ke altra lingui pozas lu *dope* (1).
+
+> (1) « La reguli di nia linguo lasas tote libera la loko (plaso) di l'adjektivo, e permisas pozar ol avan o dop la substantivo, segun volo o gusto. Ta libereso esas nule « galicismo ». Tote kontree, la « regulo » pozar ol sempre avan la substantivo esus « germanajo », ofte nekomoda e mem tre jenanta; adminime, omnasupoze, restrikto tote neutila di la libereso di la vortordino. » (*Progreso*, II, 703.)Ni remarkigez ica stranjajo : Esperanto, qua mem per la plumo di Zamenhof imitas la Germanajo supere aludita, ne ordinas : *internacia lingvo*, ma : *lingvo internacia*; tale ke ol uzas l'abreviuro : *L. I.* (e nule *I. L.*) quale ni agas en Ido. Kun *o*, konseque, la rezultajo esus *Lio*, ne *Ilo*.
+
+On apene povas donar la konsili sequanta :
+
+1e Se l'adjektivo esas plu longa per du o tri silabi kam la substantivo, pozez lu dop ica : **linguo internaciona**; **rolo** **desfacila, raporto nekomunikebla.**
+
+2e Se uzesas plura adjektivi, pozez li dop la substantivo : **la homi instruktita, senpartisa e prudenta...**
+
+3e Se l'adjektivo havas komplemento, e precipue komplementi, pozez unesme la substantivo : **tablo-tapiso makulizita** **da inko e sauci diversa.**
+
+4e Se l'adjektivo esas tam longa kam la substantivo, o preske, konsultez l'eufonio, e nome evitez la hiati, se to esas posibla : **aquo pura, alno alta, alta querko, inteligenta** **pueri, argumenti konvinkiva,** plu plezas al orelo kam **pura** **aquo, alta alno, querko alta, pueri inteligenta, konvinkiva** **argumenti.**
+
+Che omna linguo, en la parolado sorgata, on selektas la maxim plezanta ordino dil vorti. Ma komprenebla, en familiara diskurso o konverso, on agos tote senjene pri la plaso dil adjektivo (o participo) qualifikanta.

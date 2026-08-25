@@ -1,0 +1,18 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# CA, TA e QUA
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+Esas eroro kredar, ke nia demonstrativi esas arbitrie selektita; sed (ma), pro ke en ta fako mankas internaciona formi, on devis serchar l'internacioneso en la primitiva (Indo-europana) formi. Or la Indo-europana demonstrativi havas la sequanta radiki : 1e **sa, ta**; 2e k, qua divenis *h* o *c*, ed indikas proxima objekto : « la preciza senco di *k* esas bone definita per la fakto, ke ol esas la demonstrativo qua, juntita kun la vorto *dio*, donas la senco di *cadie* »(1). 3e por la fora objekti, on havas tri radiki : **w**, **n**, **l**. La radiko **w** esas orientala; la radiko **n** trovesas precipue en la Slava lingui ed en D. *jene*; la radiko **l** trovesas en L. *ille*. Nu, ta tri lasta radiki ne povus uzesar, nam la sola qua esas sat internaciona, **l**, uzesas ja por l'artiklo e la pronomi (personala). La k ne povas uzesar sub ta formo, qua karakterizas la relativ-questionala pronomi, nek sub la formo h, desfacile pronuncebla e dicernebla; restas do la tri formi : *sa, ta, ca*. Ma, se on adoptas **s** por la posedala pronomo di 3a persono (qua esas pasable internaciona), restas nur la du radiki **c** e **t**, de qui **c** necese koncernas la proximeso (ex. : L. *hic* = *hi-ce*, Romanala lingui : *cil*, cist, nia *cis* (L.), e. c. (*Progreso*, II, p. 25.)
+
+> (1) A. Meillet, *Introduction à l'étude comparative des langues* *indo-européennes*, p. 293-599.Cf. Brugmann, *Abrégé de grammaire comparée*, § 495.
+
+Ni ja dicis, por justigar (justifikar) la quaze-digramo **qu**, ke ol explikesas per la Indo-europana fonetiko, ube ol reprezentas la antiqua *labio-velala* artikulado. On respondis a ni, ke ni ne devas sorgar pri la antiqua o prehistorial fonetiko, ma nur pri la moderna. To semblas tre justa, ma nur per ta « prehistorial » serchado on povas trovar l'origino komuna di ula importanta vorti di nia moderna lingui, e konseque lia formo *internaciona*. To esas aparte vera pri la pronomi questionala. La Indo-europana radiko esas (duopla formo) *quo, quei*, qua divenis en E. *what, which* (qui pronuncesas reale *hwat, hwich*), ed en D. *wer, was* (la palatal o velal elemento, ankore reprezentata en E. da *h*, tote desaparis). Quale on remarkis (1), E. *what* = L. *quod*. Tale la maxim internaciona formo di la radiko esas vere *qu*, e tote ne *ki* (Esperanto). Kompreneble, la u qua sequas q esas konsonanto, quan la fonetikisti reprezentas ofte per *w* (2).
+
+> (1) *Corespondense international* no 9 (*Progreso*, no 11, p. 681).
+
+> (2) A. Meillet, *Introduction*, p. 295; K. Brugmann, *Abrégé de* *grammaire comparée*, § 497.

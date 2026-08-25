@@ -1,0 +1,61 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# Kompleta Gramatiko — chapitri
+
+L. de Beaufront, *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, Esch-Alzette, Meier-Heucke, 1925.
+
+Transskribita de https://ido.help/gramatiko/
+
+Singla chapitro esas apartra dosiero. La grandeso esas indikata por ke on povez selektar ANTE deskargar.
+
+| chapitro | titolo | alinei | grandeso |
+| --- | --- | ---: | ---: |
+| 1 | [KONSTATO](konstato.md) | 1 | 1 Ko |
+| 2 | [Averto (1)](averto-1.md) | 17 | 8 Ko |
+| 3 | [ALFABETO](alfabeto.md) | 2 | 1 Ko |
+| 4 | [PRONUNCO DIL VOKALI](pronunco-dil-vokali.md) | 10 | 2 Ko |
+| 5 | [PRONUNCO DIL KONSONANTI E DIGRAMI](pronunco-dil-konsonanti-e-digrami.md) | 30 | 7 Ko |
+| 6 | [ACENTO TONIKA](acento-tonika.md) | 18 | 5 Ko |
+| 7 | [ARTIKLO](artiklo.md) | 24 | 7 Ko |
+| 8 | [SUBSTANTIVO](substantivo.md) | 29 | 6 Ko |
+| 9 | [PROPRA NOMI](propra-nomi.md) | 28 | 7 Ko |
+| 10 | [ADJEKTIVO QUALIFIKANTA](adjektivo-qualifikanta.md) | 20 | 7 Ko |
+| 11 | [GRADI KOMPARALA](gradi-komparala.md) | 4 | 2 Ko |
+| 12 | [PERSONAL PRONOMI](personal-pronomi.md) | 12 | 4 Ko |
+| 13 | [POSEDAL ADJEKTIVI E PRONOMI](posedal-adjektivi-e-pronomi.md) | 25 | 5 Ko |
+| 14 | [DEMONSTRATIV ADJEKTIVI-PRONOMI](demonstrativ-adjektivi-pronomi.md) | 14 | 4 Ko |
+| 15 | [RELATIVA E QUESTIONALA ADJEKTIVI-PRONOMI](relativa-e-questionala-adjektivi-pronomi.md) | 11 | 2 Ko |
+| 16 | [PRONOMO « LO »](pronomo-lo.md) | 9 | 2 Ko |
+| 17 | [ADJEKTIVI-PRONOMI NEDEFINITA](adjektivi-pronomi-nedefinita.md) | 42 | 12 Ko |
+| 18 | [VERBO](verbo.md) | 98 | 24 Ko |
+| 19 | [ADVERBI](adverbi.md) | 150 | 26 Ko |
+| 20 | [PREPOZICIONI](prepozicioni.md) | 159 | 47 Ko |
+| 21 | [KONJUNCIONI](konjuncioni.md) | 62 | 10 Ko |
+| 22 | [INTERJECIONI](interjecioni.md) | 19 | 3 Ko |
+| 23 | [NOMBRI](nombri.md) | 53 | 14 Ko |
+| 24 | [SINTAXO](sintaxo.md) | 50 | 13 Ko |
+| 25 | [TEMPI E MODI](tempi-e-modi.md) | 53 | 18 Ko |
+| 26 | [ELEMENTI DI VORTO](elementi-di-vorto.md) | 8 | 1 Ko |
+| 27 | [PROCEDI DI VORTIFADO](procedi-di-vortifado.md) | 6 | 1 Ko |
+| 28 | [REGULI DI DERIVADO *](reguli-di-derivado.md) | 22 | 7 Ko |
+| 29 | [DERIVADO PER AFIXI](derivado-per-afixi.md) | 3 | 1 Ko |
+| 30 | [AFIXI](afixi.md) | 5 | 1 Ko |
+| 31 | [PREFIXI](prefixi.md) | 65 | 17 Ko |
+| 32 | [PREFIXI TEKNIKALA](prefixi-teknikala.md) | 11 | 3 Ko |
+| 33 | [REMARKO PRI LA AFIXI](remarko-pri-la-afixi.md) | 1 | 1 Ko |
+| 34 | [PREPOZICIONI PREFIXA](prepozicioni-prefixa.md) | 3 | 1 Ko |
+| 35 | [SUFIXI](sufixi.md) | 241 | 88 Ko |
+| 36 | [KOMPOZADO](kompozado.md) | 15 | 3 Ko |
+| 37 | [REGULO DI ANALIZO O DESKOMPOZO](regulo-di-analizo-o-deskompozo.md) | 12 | 5 Ko |
+| 38 | [KOMPOZADO PER PREPOZICIONI](kompozado-per-prepozicioni.md) | 9 | 3 Ko |
+| 39 | [LA KOMPOZAJI E LA SUFIXI](la-kompozaji-e-la-sufixi.md) | 15 | 6 Ko |
+| 40 | [L'ACENTIZO EN IDO](l-acentizo-en-ido.md) | 32 | 9 Ko |
+| 41 | [LA PLURALO EN IDO](la-pluralo-en-ido.md) | 26 | 11 Ko |
+| 42 | [GENRO E MASKULISMO](genro-e-maskulismo.md) | 46 | 16 Ko |
+| 43 | [SUBSTANTIVIGO DIL ADJEKTIVO](substantivigo-dil-adjektivo.md) | 62 | 22 Ko |
+| 44 | [CA, TA e QUA](ca-ta-e-qua.md) | 5 | 2 Ko |
+| 45 | [KONJUGO-SISTEMO DI IDO](konjugo-sistemo-di-ido.md) | 59 | 19 Ko |
+| 46 | [VORTORDINO](vortordino.md) | 12 | 6 Ko |
+| 47 | [PUNTIZADO](puntizado.md) | 33 | 10 Ko |
+| 48 | [NOMI. ADRESI](nomi-adresi.md) | 4 | 1 Ko |
+| 49 | [FORMULI DI POLITESO EN LETRI](formuli-di-politeso-en-letri.md) | 5 | 1 Ko |

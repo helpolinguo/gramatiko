@@ -1,0 +1,16 @@
+<!-- Engendre par outils/robotoj.py depuis index.html. Ne pas editer. -->
+
+# NOMI. ADRESI
+
+Ek *Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront, 1925.
+Transskribita de https://ido.help/gramatiko/
+
+---
+
+[D. 1144] ... l'Akademio rekomendas enuncar la personal nomi komencante per la prenomo. (Ica decido ne koncernas la nomi en listi, adresari, e. c., ube on pozas la familial nomo unesme, por l'alfabetal ordino.)
+
+On rekomendas por l'adresi la sistemo (Franca), qua komencas per la nomo di persono e finas per l'urbo e la lando, ed on repulsas la sistemo inversa (Rusa) [*Progr.*, IV, 470; VI, 52; VII, 162].
+
+Exemplo di korekta adreso :
+
+Se on volas indikar, dop nomo di persono, ta di lua urbo o lando (ex. : nomo di delegito, en raporto pri kongreso), ni konsilas pozar ta lasta nomo *inter parentezi*, ex. : *S*ro *Martin* (*Paris*), e ne, segun la Germana kustumo, separar la du nomi per streketo : *S*ro *Martin-Paris*, qua kredigas, ke la nomo di la persono esas *Martin-Paris*.
