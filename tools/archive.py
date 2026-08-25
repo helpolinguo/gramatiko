@@ -19,9 +19,9 @@ import os, subprocess, sys, zipfile
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # At the root of the archive: the source, the composed volume, the page.
-FILES = ['main.tex', 'preamble.tex', 'build.mk', 'LISEZ-MOI.md',
+FILES = ['main.tex', 'preamble.tex', 'build.mk', 'README.md', 'LICENSE',
             '.nojekyll', 'index.html', 'gramatiko.pdf']
-FOLDERS = ['content', 'ornaments', 'tools']
+FOLDERS = ['content', 'ornaments', 'tools', 'docs']
 # What is not delivered: the leavings of compilation and the caches.
 LEAVINGS = ('.aux', '.log', '.out', '.toc', '.pyc', '.synctex.gz')
 OUTSIDE = {'__pycache__', '.git', 'scan'}

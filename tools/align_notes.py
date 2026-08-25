@@ -33,7 +33,7 @@ THRESHOLD_PX = 4.0
 def gaps():
     """{folio: (gap_px, file)} for the pages with measurable notes."""
     pages = C.read_transcription()
-    comp = cache.compose(os.path.join(P, 'main.pdf'), len(pages))
+    comp = cache.compose(os.path.join(P, 'gramatiko.pdf'), len(pages))
     out = {}
     for i, pg in enumerate(pages, 1):
         fo = pg['folio']
