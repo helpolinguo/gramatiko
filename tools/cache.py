@@ -188,10 +188,10 @@ def clear_composed_cache():
 
 if __name__ == '__main__':
     import time
-    if '--prechauffe' in sys.argv:
+    if '--warm' in sys.argv:
         # fills the facsimile cache for every leaf
-        lo = int(sys.argv[sys.argv.index('--prechauffe') + 1])
-        hi = int(sys.argv[sys.argv.index('--prechauffe') + 2])
+        lo = int(sys.argv[sys.argv.index('--warm') + 1])
+        hi = int(sys.argv[sys.argv.index('--warm') + 2])
         t = time.time()
         for n in range(lo, hi + 1):
             leaf(n)

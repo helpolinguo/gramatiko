@@ -11,7 +11,7 @@ capitals: there is no x-height to measure.
 Usage:
     python3 tools/apparatus.py <leaf>
         -> lists the page's lines with their raw measurements
-    python3 tools/apparatus.py <leaf> --regle "TEXT OF THE LINE" <index>
+    python3 tools/apparatus.py <leaf> --rule "TEXT OF THE LINE" <index>
         -> computes size and letter-spacing for that line
 """
 import os, sys, re, json, subprocess
@@ -99,7 +99,7 @@ def rule_of(text, width_px, cap_px, font='XCharter-TLF', bold=False):
 if __name__ == '__main__':
     n = int(sys.argv[1])
     lines, norm, gm2 = apparatus_lines(n)
-    if '--regle' not in sys.argv:
+    if '--rule' not in sys.argv:
         print('leaf %d — %d lines' % (n, len(lines)))
         for k, l in enumerate(lines):
             cap = cap_height(gm2, l['y0'], l['y1'])
@@ -107,11 +107,11 @@ if __name__ == '__main__':
                   % (k, l['y0'], l['x1'] - l['x0'], (l['x1'] - l['x0']) * PX2MM,
                      cap, (cap or 0) * PX2MM))
     else:
-        i = sys.argv.index('--regle')
+        i = sys.argv.index('--rule')
         text = sys.argv[i + 1]
         k = int(sys.argv[i + 2])
         l = lines[k]
         cap = cap_height(gm2, l['y0'], l['y1'])
-        bold = '--gras' in sys.argv
+        bold = '--bold' in sys.argv
         print(json.dumps(rule_of(text, l['x1'] - l['x0'], cap, bold=bold),
                          ensure_ascii=False, indent=1))

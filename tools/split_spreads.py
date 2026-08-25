@@ -55,7 +55,7 @@ def main():
         fh.write('leaf\tsource\tside\tx0\tx1\n')
         for r in rows:
             fh.write('\t'.join(str(x) for x in r) + '\n')
-    print('total feuillets:', leaf)
+    print('total leaves:', leaf)
 
 
 if __name__ == '__main__':

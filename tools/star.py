@@ -27,7 +27,7 @@ engraving averages out instead of weighing on one point.
 
     python3 tools/star.py                  # the composed vignette
     python3 tools/star.py --scan           # the raw scan of leaf 3
-    python3 tools/star.py --essai 1.05     # what +1.05 deg would give
+    python3 tools/star.py --trial 1.05     # what +1.05 deg would give
 
 THE LAST FORM IS THE MOST USEFUL: a rotation is verified by applying it,
 then measuring again. If the deviation has grown, the sign is wrong.
@@ -184,10 +184,10 @@ def vertical_gap(theta0):
 
 if __name__ == '__main__':
     args = sys.argv[1:]
-    if '--scan' in args or '--essai' in args:
+    if '--scan' in args or '--trial' in args:
         a = 0.0
-        if '--essai' in args:
-            a = float(args[args.index('--essai') + 1])
+        if '--trial' in args:
+            a = float(args[args.index('--trial') + 1])
         E = star_from_scan(_from_scan(a))
         what = 'scan of leaf %d, rotated by %+.3f deg' % (LEAF, a)
     else:

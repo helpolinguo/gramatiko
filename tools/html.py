@@ -14,7 +14,7 @@ It is REPLAYABLE: nothing is written by hand into index.html, everything
 is drawn from the transcription. Recompose the volume and replay the tool.
 
     python3 tools/html.py            # writes index.html
-    python3 tools/html.py --konto    # counts only, writes nothing
+    python3 tools/html.py --count    # counts only, writes nothing
 
 WHAT IS DELIBERATELY LEFT ASIDE
   -- leaves 3 to 7 (printed cover, half-title, title page): these are
@@ -1648,7 +1648,7 @@ def portrait_mask():
     transparent. Rendered by an `<img>`, it would be black on black in dark
     mode -- a fault one does not see until one looks. We therefore keep NO
     colour at all: the PNG produced carries only the alpha, and the CSS
-    lays it as a mask over a block whose ground is `var(--ink)`. The
+    lays it as a mask over a block whose ground is `var(--enk)`. The
     portrait is then ink, like the rest of the page, and follows the theme.
 
     The PNG comes out as a palette image: the eight levels of alpha fit in
@@ -2868,7 +2868,7 @@ def main():
         print('MACROS NOT HANDLED: %s'
               % ', '.join('%s x%d' % (k, v) for k, v in unhandled.items()))
 
-    if '--konto' not in sys.argv:
+    if '--count' not in sys.argv:
         doc, anchors = write_page(rel, parties, stats)
         # THE UNIQUENESS CHECK. It is done on the page AS WRITTEN, not on the
         # register: it is the document that carries the addresses, and so it is
