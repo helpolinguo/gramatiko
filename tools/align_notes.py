@@ -14,7 +14,7 @@ gap between the composed notes and the facsimile's notes, once the body's
 gap is taken off, is subtracted from the ordinate.
 
     python3 tools/align_notes.py            # measures, writes nothing
-    python3 tools/align_notes.py --pose     # writes
+    python3 tools/align_notes.py --write     # writes
 """
 import os, re, sys
 import numpy as np
@@ -62,7 +62,7 @@ def gaps():
 def apply_at(write_out=False):
     n = 0
     for folio, (e, file_path) in sorted(gaps().items(), key=lambda t: int(t[0])):
-        mark = '' if abs(e) < THRESHOLD_PX else '  <-- a caler'
+        mark = '' if abs(e) < THRESHOLD_PX else '  <-- to set'
         print('folio %-4s notes/body gap %+6.1f px = %+5.2f mm%s'
               % (folio, e, e * PX2MM, mark))
         if abs(e) < THRESHOLD_PX or not write_out:
@@ -85,4 +85,4 @@ def apply_at(write_out=False):
 
 
 if __name__ == '__main__':
-    apply_at('--pose' in sys.argv)
+    apply_at('--write' in sys.argv)

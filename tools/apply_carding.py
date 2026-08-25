@@ -13,7 +13,7 @@ space may be missing on either side, and matching by rank would shift every
 following value by one notch.
 
     python3 tools/apply_carding.py 30          # proposes, writes nothing
-    python3 tools/apply_carding.py 30 --pose   # writes
+    python3 tools/apply_carding.py 30 --write   # writes
 """
 import os, re, sys, glob
 
@@ -242,7 +242,7 @@ def apply_at(folio, write_out=False):
                   % (k, e, d * PX2PT, lg[i]['text'][:38]))
         replace.append((p, d))
     if not write_out:
-        print('    (nothing written; --pose to apply)')
+        print('    (nothing written; --write to apply)')
         return
     for p, d in sorted(replace, reverse=True):
         fresh = ('%% no white space in the facsimile' if d <= 0
@@ -253,7 +253,7 @@ def apply_at(folio, write_out=False):
 
 
 if __name__ == '__main__':
-    write_out = '--pose' in sys.argv
+    write_out = '--write' in sys.argv
     for a in sys.argv[1:]:
         if a.startswith('--'):
             continue

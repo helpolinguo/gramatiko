@@ -64,7 +64,7 @@ verdict "clean double, no white space" has always proved right; the "two
 readings" are to be settled by eye.
 
     python3 tools/missing_lines.py 86 87 88 89 90 91
-    python3 tools/missing_lines.py --tout        # all 240 leaves
+    python3 tools/missing_lines.py --all        # all 240 leaves
 """
 import os, sys
 import numpy as np
@@ -276,7 +276,7 @@ def ratio(leaves):
 
 
 if __name__ == '__main__':
-    if '--tout' in sys.argv:
+    if '--all' in sys.argv:
         ratio(range(5, 241))
     else:
         ratio([int(a) for a in sys.argv[1:] if not a.startswith('--')])
