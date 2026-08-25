@@ -1,13 +1,14 @@
-# Compilation du volume : « make -f build.mk ».
-# « make -f build.mk controles » relance les onze verifications (§ 8).
-# Le PDF porte le nom sous lequel il est publie, et non celui de sa
-# source : « -jobname » suffit, il n'y a donc ni copie a tenir a jour
-# ni deux fichiers de 1,7 Mo dans le depot. Le nom compte : la page de
-# lecture et ses 1441 renvois de folio pointent tous gramatiko.pdf.
+# Compiling the volume: « make -f build.mk ».
+# « make -f build.mk checks » reruns the twelve verifications (§ 8).
+# The PDF carries the name it is published under, and not that of its
+# source: « -jobname » is enough, so there is neither a copy to keep up
+# to date nor two files of 1.7 MB in the repository. The name matters:
+# the reading page and its 1441 folio references all point at
+# gramatiko.pdf.
 gramatiko.pdf: main.tex preamble.tex content/*.tex
 	pdflatex -interaction=nonstopmode -jobname=gramatiko main.tex
 
-controles: gramatiko.pdf
+checks: gramatiko.pdf
 	python3 tools/checks.py
 
-.PHONY: controles
+.PHONY: checks
