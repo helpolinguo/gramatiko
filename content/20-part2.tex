@@ -1,41 +1,41 @@
 % ===================================================================
-%  DUESMA PARTO — feuillets 119 et suivants
+%  DUESMA PARTO -- leaves 119 and following
 %
-%  Feuillet 119 : faux-titre de la deuxieme partie. Page d'apparat :
-%  chaque ligne est placee a son ORDONNEE MESUREE et occupe une hauteur
-%  nulle ; aucune ligne n'en deplace une autre.
+%  Leaf 119: half title of the second part. A page of apparatus: each
+%  line is placed at its MEASURED ORDINATE and takes up no height; no
+%  line displaces another.
 %
-%  Mesures par outils/apparat.py (feuillet 119) :
-%    ligne        y (px)  y (mm)  cap (mm)  largeur (mm)  corps    interl.
+%  Measurements by tools/apparatus.py (leaf 119):
+%    line         y (px)  y (mm)  cap (mm)  width (mm)   size    l.sp.
 %    DUESMA PARTO    726   61,47    2,413      33,78      10,10pt     219
-%    (filet)         841   71,20      —         8,21         —         —
+%    (rule)          841   71,20      —         8,21         —         —
 %    VORTIFADO       946   80,09    3,387      30,31      14,17pt      86
 %    PER DERIVO...  1058   89,58    2,117      58,93       8,86pt     261
 %
-%  Les interlettrages 219 et 261 ne sont pas ceux qu'apparat.py calcule
-%  (201 et 227) : ils les corrigent sur le COMPOSE. La regle d'apparat
-%  estime la largeur nue par une composition d'essai, et son estimation
-%  se degrade quand la ligne porte beaucoup de blancs de mot — « PER
-%  DERIVO O PER KOMPOZO » en compte quatre, et sortait 2,54 mm trop
-%  courte. Une fois corrigees, les quatre largeurs de la page tombent a
-%  0,08, 0,00, 0,08 et 0,51 mm de la mesure ; le faux-titre du volume,
-%  deja accepte, est a 0,26, 0,42 et 1,27 mm.
+%  The letterspacings 219 and 261 are not the ones apparatus.py computes
+%  (201 and 227): they correct them on the SET TEXT. The rule of
+%  apparatus estimates the bare width by a trial composition, and its
+%  estimate degrades when the line carries many word spaces -- « PER
+%  DERIVO O PER KOMPOZO » counts four, and came out 2,54 mm too short.
+%  Once corrected, the page's four widths fall within 0,08, 0,00, 0,08
+%  and 0,51 mm of the measurement; the volume's half title, already
+%  accepted, is within 0,26, 0,42 and 1,27 mm.
 %
-%  GRAISSE : les trois lignes sont en ROMAIN, y compris VORTIFADO, dont
-%  la taille donne a premiere vue l'apparence du gras. Deux mesures le
-%  refutent. Les rapports fut/capitale de la page — 0,140, 0,175, 0,160 —
-%  tombent tous dans la fourchette du faux-titre du feuillet 5, dont les
-%  trois lignes sont romaines et donnent 0,152, 0,167 et 0,146 : le fut
-%  ne separe rien, comme il est consigne au LISEZ-MOI. Et VORTIFADO,
-%  ramene a la hauteur de capitale de « LINGUO INTERNACIONA IDO », lui
-%  est superposable — memes empattements, meme O, meme R. C'est le meme
-%  romain, plus grand.
+%  WEIGHT: the three lines are in ROMAN, VORTIFADO included, which at
+%  first sight looks bold from its size. Two measurements refute it.
+%  The page's stem/capital ratios -- 0,140, 0,175, 0,160 -- all fall
+%  within the range of leaf 5's half title, whose three lines are roman
+%  and give 0,152, 0,167 and 0,146: the stem separates nothing, as is
+%  recorded in docs/journal.md. And VORTIFADO, brought back to the
+%  capital height of « LINGUO INTERNACIONA IDO », is superposable on it
+%  -- the same serifs, the same O, the same R. It is the same roman,
+%  larger.
 %
-%  Le filet est le meme filet maigre que celui des notes et celui de la
-%  fin de partie : seule la longueur change (8,21 mm ici).
+%  The rule is the same thin rule as that of the notes and that of the
+%  end of the part: only the length changes (8,21 mm here).
 % ===================================================================
 
-% --- Feuillet 119 (folio 115) : faux-titre de la deuxieme partie ----
+% --- Leaf 119 (folio 115): half title of the second part ------------
 \begin{VUpage}[119]{}
 \VUcentreA{61.47mm}{10.10pt}{219}{DUESMA PARTO}
 \VUornement[8.21mm]{71.20mm}
@@ -43,23 +43,23 @@
 \VUcentreA{89.58mm}{8.86pt}{261}{PER DERIVO O PER KOMPOZO}
 \end{VUpage}
 
-% --- Feuillet 120 (folio 116) : blanc -------------------------------
-% Le detecteur de lignes n'en trouve aucune sur ce feuillet : verso
-% blanc, comme celui du faux-titre du volume (feuillet 6).
+% --- Leaf 120 (folio 116): blank ------------------------------------
+% The line detector finds none on this leaf: a blank verso, like that
+% of the volume's half title (leaf 6).
 \begin{VUpage}[120]{}
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 121 — folio 117 : PAS DE FOLIO COURANT au fac-simile.
-%  La tete de page est nue (verifiee a l'agrandissement, y 90 a 320) :
-%  c'est la premiere page de la deuxieme partie, et l'imprimeur y omet
-%  le folio comme il est d'usage. Le champ folio reste donc vide.
-%  Deux titres centres, mesures par outils/apparat.py puis corriges sur
-%  le compose : ELEMENTI DI VORTO. (cap 2,540 mm, 37,08 mm de large) et
+%  leaf 121 -- folio 117: NO RUNNING FOLIO in the facsimile.
+%  The head of the page is bare (checked under magnification, y 90 to
+%  320): it is the first page of the second part, and the printer omits
+%  the folio there as is usual. The folio field therefore stays empty.
+%  Two centred titles, measured by tools/apparatus.py then corrected on
+%  the set text: ELEMENTI DI VORTO. (cap 2,540 mm, 37,08 mm wide) and
 %  PROCEDI DI VORTIFADO. (cap 2,455 mm, 42,84 mm).
-%  Le bloc de notes porte TROIS alineas pour deux notes : le troisieme,
-%  « La maxim multa gramatikisti docas... », est renfonce comme les deux
-%  autres mais ne porte pas de numero. Verifie a l'agrandissement.
+%  The block of notes carries THREE paragraphs for two notes: the third,
+%  « La maxim multa gramatikisti docas... », is indented like the other
+%  two but carries no number. Checked under magnification.
 % -------------------------------------------------------------------
 \begin{VUpage}[121]{}
 \VUnotes{117.69mm}{%
@@ -118,18 +118,18 @@ nur \textit{nomi}, to esas \textit{substantivi} od \textit{adjektivi} (2). On fa
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 122 — folio 118.
-%  BLOC DE TITRE A TROIS ETAGES, le premier du volume : un titre en
-%  capitales demi-grasses (cap 2,455 mm) surmontant DEUX sous-titres en
-%  bas de casse italique au corps du texte (cap 1,778 mm, celle des
-%  lignes de corps de la page). Les quatre exces signales par le
-%  depisteur aux lignes 9 a 12 sont les blancs de ce bloc.
-%  Le titre porte un asterisque d'appel : la note du bas de page s'ouvre
-%  par le meme asterisque et non par un numero.
-%  IRREGULARITES DE L'ORIGINAL, conservees : capitale « E » sans accent
-%  dans un titre francais dont le reste est accentue ; et « directeur
-%  d'ecole » compose en romain quand les autres segments francais de la
-%  meme note sont en italique.
+%  leaf 122 -- folio 118.
+%  A TITLE BLOCK OF THREE TIERS, the volume's first: a title in
+%  semibold capitals (cap 2,455 mm) over TWO subtitles in lower-case
+%  italic at the size of the text (cap 1,778 mm, that of the page's
+%  lines of body). The four excesses reported by the detection at lines
+%  9 to 12 are the whites of that block.
+%  The title carries an asterisk as a reference: the footnote opens
+%  with the same asterisk and not with a number.
+%  IRREGULARITIES OF THE ORIGINAL, kept: a capital « E » without its
+%  accent in a French title whose remainder is accented; and « directeur
+%  d'ecole » set in roman when the other French segments of the same
+%  note are in italic.
 % -------------------------------------------------------------------
 \begin{VUpage}[122]{118}
 \VUnotes{132.70mm}{%
@@ -186,11 +186,11 @@ stando. Exemple, de \textit{paco} on darfas formacar la verbo \VUgras{pacar}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 123 — folio 119. Bloc de notes tres long (31 lignes pour
-%  12 de corps) : le filet remonte a 72,05 mm.
-%  COQUILLE DE L'ORIGINAL, conservee : le mot « signifikas » est en
-%  italique apres « lanjo » et en romain apres « linjo », a deux mots
-%  d'intervalle sur la meme ligne.
+%  leaf 123 -- folio 119. A very long block of notes (31 lines against
+%  12 of body): the rule rises to 72,05 mm.
+%  A TYPO OF THE ORIGINAL, kept: the word « signifikas » is in italic
+%  after « lanjo » and in roman after « linjo », two words apart on the
+%  same line.
 % -------------------------------------------------------------------
 \begin{VUpage}[123]{119}
 \VUnotes{72.39mm}{%
@@ -248,11 +248,11 @@ per la nura chanjo di dezinenco (2). L'adjektivo tale\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 124 — folio 120.
-%  COQUILLES DE L'ORIGINAL, conservees : dans la note (4), « regulo cd
-%  expliko » pour « od » (verifie a l'agrandissement, la lettre est un c
-%  ouvert a droite) ; et deux parentheses ouvrantes jamais refermees,
-%  l'une dans la note (2), l'autre a la ligne « (ma on darfas dicar ».
+%  leaf 124 -- folio 120.
+%  TYPOS OF THE ORIGINAL, kept: in note (4), « regulo cd expliko » for
+%  « od » (checked under magnification, the letter is a c open on the
+%  right); and two opening brackets never closed, one in note (2), the
+%  other at the line « (ma on darfas dicar ».
 % -------------------------------------------------------------------
 \begin{VUpage}[124]{120}
 \VUnotes{115.66mm}{%
@@ -312,15 +312,15 @@ di la dezinenco.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 125 — folio 121.
-%  PREMIER SOUS-TITRE DU VOLUME : sous « DERIVADO PER AFIXI. », la ligne
-%  « (Mediata derivado.) » est en bas de casse italique, au corps du
-%  texte courant (cap 21 px, comme les lignes de corps de la page, contre
-%  29 px pour le titre). \VUtitre la composerait en demi-gras capitales :
-%  d'ou \VUsoustitre, ajoute au preambule pour ce cas.
-%  IRREGULARITE DE L'ORIGINAL, conservee : a la derniere ligne, la glose
-%  francaise est composee en ROMAIN, alors que le livre met partout
-%  ailleurs en italique ce qui est cite d'une autre langue.
+%  leaf 125 -- folio 121.
+%  THE VOLUME'S FIRST SUBTITLE: under « DERIVADO PER AFIXI. », the line
+%  « (Mediata derivado.) » is in lower-case italic, at the size of the
+%  running text (cap 21 px, like the page's lines of body, against
+%  29 px for the title). \VUtitre would set it in semibold capitals:
+%  hence \VUsoustitre, added to the preamble for this case.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: on the last line, the French
+%  gloss is set in ROMAN, where the book everywhere else italicises
+%  what is quoted from another language.
 % -------------------------------------------------------------------
 \begin{VUpage}[125]{121}
 \VUnotes{154.43mm}{%
@@ -371,16 +371,17 @@ rant (1).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 126 — folio 122.
-%  Le detecteur de lignes n'a PAS vu le folio courant de cette page :
-%  la premiere bande du releve geometrique est le titre « AFIXI. ». Le
-%  folio est pourtant bien imprime (verifie a l'agrandissement, base a
-%  y = 147). Le champ folio est donc rempli.
-%  LIGNE INVISIBLE RETROUVEE : « prefixo. », deuxieme et derniere ligne
-%  de la note (2). Le depisteur l'annoncait « double net, aucun blanc » ;
-%  lue a l'agrandissement, elle y est. La page porte 10 lignes de note.
-%  IRREGULARITE DE L'ORIGINAL, conservee : « anti- » est en gras dans le
-%  corps et en italique dans la note (3).
+%  leaf 126 -- folio 122.
+%  The line detector did NOT see this page's running folio: the first
+%  band of the geometric survey is the title « AFIXI. ». The folio is
+%  printed all the same (checked under magnification, baseline at
+%  y = 147). The folio field is therefore filled in.
+%  AN INVISIBLE LINE RECOVERED: « prefixo. », the second and last line
+%  of note (2). The detection announced it as « a clean double, no
+%  white »; read under magnification, it is there. The page carries 10
+%  lines of note.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: « anti- » is in bold in the
+%  body and in italic in note (3).
 % -------------------------------------------------------------------
 \begin{VUpage}[126]{122}
 \VUnotes{127.25mm}{%
@@ -434,11 +435,11 @@ nikala terminaro. » (3).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 127 — folio 123.
-%  COQUILLES DE L'ORIGINAL, conservees : « ciencal » et « matematikal »
-%  pour ciencala / matematikala, alors que « teknikala » voisin garde
-%  son -a ; et un guillemet ouvrant, a l'alinea « auto. », qui n'est
-%  jamais referme.
+%  leaf 127 -- folio 123.
+%  TYPOS OF THE ORIGINAL, kept: « ciencal » and « matematikal » for
+%  ciencala / matematikala, where the neighbouring « teknikala » keeps
+%  its -a; and an opening quotation mark, at the paragraph « auto. »,
+%  that is never closed.
 % -------------------------------------------------------------------
 \begin{VUpage}[127]{123}
 \VUnotes{96.84mm}{%
@@ -498,11 +499,11 @@ heredita de Esperanto senkonteste. Ol indikas : \textit{parenteso per}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 128 — folio 124.
-%  Le depisteur annoncait une derniere ligne manquante : c'etait de la
-%  rousseur, verifiee a l'agrandissement.
-%  COQUILLE DE L'ORIGINAL, conservee : « rimarijinta » sans le a, alors
-%  que le meme mot est imprime « rimariajinta » deux lignes plus haut.
+%  leaf 128 -- folio 124.
+%  The detection announced a missing last line: it was foxing, checked
+%  under magnification.
+%  A TYPO OF THE ORIGINAL, kept: « rimarijinta » without the a, where
+%  the same word is printed « rimariajinta » two lines above.
 % -------------------------------------------------------------------
 \begin{VUpage}[128]{124}
 \VUnotes{134.15mm}{%
@@ -561,12 +562,12 @@ e \VUgras{desobediar}, pro la mezo : \VUgras{neobediar} (2); \VUgras{richa} e \V
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 129 — folio 125.
-%  Le depisteur annoncait une derniere ligne manquante : rousseur, comme
-%  au feuillet 128. Verifie a l'agrandissement.
-%  IRREGULARITE DE L'ORIGINAL, conservee : dans la note (2) l'italique
-%  englobe le « e » de liaison et court jusqu'au point final, alors que
-%  les notes (1) et (3) laissent ce meme « e » en romain.
+%  leaf 129 -- folio 125.
+%  The detection announced a missing last line: foxing, as at leaf 128.
+%  Checked under magnification.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: in note (2) the italic takes
+%  in the linking « e » and runs to the final stop, where notes (1) and
+%  (3) leave that same « e » in roman.
 % -------------------------------------------------------------------
 \begin{VUpage}[129]{125}
 \VUnotes{118.92mm}{%
@@ -625,11 +626,11 @@ internaciona (5) e pro ke \VUgras{mal} esas la tre konocata radiko\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 130 — folio 126.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « (segun la \textit{kazo}) »
-%  puis « (segun la kazo) », italique une fois et romain la suivante,
-%  a une ligne d'intervalle ; et un point la ou la ponctuation attendue
-%  est une virgule, dans la reference « (Progreso, VII, 65. e VI, 212.) ».
+%  leaf 130 -- folio 126.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « (segun la \textit{kazo}) »
+%  then « (segun la kazo) », italic once and roman the next time, one
+%  line apart; and a full stop where the punctuation expected is a
+%  comma, in the reference « (Progreso, VII, 65. e VI, 212.) ».
 % -------------------------------------------------------------------
 \begin{VUpage}[130]{126}
 \VUnotes{121.58mm}{%
@@ -688,11 +689,11 @@ on devas evitar sorgoze trouzar o misuzar olu (Videz, en\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 131 — folio 127.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « bo- » est en gras a
-%  l'alinea « mi-. » et en romain neuf lignes plus bas ; « stifa » est
-%  en italique a une ligne et en romain a la suivante ; et un point la
-%  ou la ligne parallele imprime une virgule, devant « e. c. ».
+%  leaf 131 -- folio 127.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « bo- » is in bold at the
+%  paragraph « mi-. » and in roman nine lines below; « stifa » is in
+%  italic on one line and in roman on the next; and a full stop where
+%  the parallel line prints a comma, before « e. c. ».
 % -------------------------------------------------------------------
 \begin{VUpage}[131]{127}
 \VUnotes{157.57mm}{%
@@ -749,19 +750,19 @@ indikas simpla nego, \VUgras{des-} kontreeso, \VUgras{sen-} manko : \VUgras{neri
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 132 — folio 128.
-%  LIGNE INVISIBLE RETROUVEE : « IV, 68.) », deuxieme et derniere ligne
-%  de la note (2). Le depisteur l'annoncait « double net, aucun blanc » ;
-%  verifiee a l'agrandissement par l'assembleur. Le bloc de notes porte
-%  donc 13 lignes la ou la geometrie n'en montrait que 12.
-%  COQUILLE DE L'ORIGINAL, conservee : « automooilo » pour automobilo,
-%  dans la note (4). Verifiee a l'agrandissement x 10 par l'assembleur :
-%  la lettre litigieuse n'a AUCUNE encre au-dessus de la hauteur d'x,
-%  quand la hampe du l voisin et le point du i s'impriment noirs et
-%  pleins. C'est un o, sorte cassee ou coquille de composition ; on
-%  transcrit ce qui est imprime.
-%  Autre irregularite conservee : dans la note (1), « plena » reste en
-%  romain quand pleno, pleneco, utilo, utileco et utila sont italiques.
+%  leaf 132 -- folio 128.
+%  AN INVISIBLE LINE RECOVERED: « IV, 68.) », the second and last line
+%  of note (2). The detection announced it as « a clean double, no
+%  white »; checked under magnification by the assembler. The block of
+%  notes therefore carries 13 lines where the geometry showed only 12.
+%  A TYPO OF THE ORIGINAL, kept: « automooilo » for automobilo, in note
+%  (4). Checked under magnification at x 10 by the assembler: the
+%  disputed letter has NO ink above the x-height, where the ascender of
+%  the neighbouring l and the dot of the i print black and full. It is
+%  an o, a broken sort or a compositor's slip; we transcribe what is
+%  printed.
+%  Another irregularity kept: in note (1), « plena » stays in roman
+%  where pleno, pleneco, utilo, utileco and utila are italic.
 % -------------------------------------------------------------------
 \begin{VUpage}[132]{128}
 \VUnotes{122.77mm}{%
@@ -820,12 +821,12 @@ lu. \VUgras{Previdar} = \textit{ante-vidar} (o : vidar antee); \VUgras{predicar}
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 133 — folio 129. Premiere page d'un cahier : elle porte la
-%  SIGNATURE « 5 » sous le bloc de notes, a gauche. Encre relevee de
-%  y 1865 a 1890 px, x 103 a 119.
-%  COQUILLES DE L'ORIGINAL, conservees : un guillemet ouvrant jamais
-%  referme dans la citation de la decision 1629 ; et « 647 et 648 »,
-%  avec le « et » francais au lieu du « e » ido.
+%  leaf 133 -- folio 129. The first page of a gathering: it carries the
+%  SIGNATURE « 5 » under the block of notes, on the left. Ink surveyed
+%  from y 1865 to 1890 px, x 103 to 119.
+%  TYPOS OF THE ORIGINAL, kept: an opening quotation mark never closed
+%  in the quotation of decision 1629; and « 647 et 648 », with the
+%  French « et » instead of the Ido « e ».
 % -------------------------------------------------------------------
 \begin{VUpage}[133]{129}
 \VUsignature{168.15mm}{5}
@@ -879,12 +880,12 @@ erore alterar \textit{re} a \textit{ri} ed uzar \textit{re-} kun duopla senco.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 134 — folio 130. La page OUVRE SUR UN TITRE.
-%  COQUILLES DE L'ORIGINAL, conservees : un guillemet ouvrant jamais
-%  referme dans le dernier alinea de la note ; et deux appels par
-%  asterisque, devant « equi-. » et « ko-. », auxquels ne repond aucune
-%  note en pied de page — le bas de page ne porte qu'une note numerotee.
-%  Le bloc de notes compte trois alineas dont deux sans numero.
+%  leaf 134 -- folio 130. The page OPENS ON A TITLE.
+%  TYPOS OF THE ORIGINAL, kept: an opening quotation mark never closed
+%  in the last paragraph of the note; and two asterisk references,
+%  before « equi-. » and « ko-. », to which no note at the foot of the
+%  page answers -- the foot carries only one numbered note.
+%  The block of notes counts three paragraphs, two of them unnumbered.
 % -------------------------------------------------------------------
 \begin{VUpage}[134]{130}
 \VUnotes{110.47mm}{%
@@ -940,14 +941,14 @@ Pro analogeso, e pro la sama motivi qui impozis \VUgras{mono-,}\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 135 — folio 131.
-%  Les deux exces signales par le depisteur encadrent le titre centre :
-%  91,4 px au-dessus, 52,6 px au-dessous. Aucune ligne ne manque, les
-%  deux zones ont ete agrandies et sont vierges.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « mi- » cite en ROMAIN a
-%  une ligne, quand « ne- » et tous les autres prefixes cites de la page
-%  sont en italique ; et une parenthese ouvrante qui n'est refermee que
-%  deux phrases plus loin.
+%  leaf 135 -- folio 131.
+%  The two excesses reported by the detection frame the centred title:
+%  91,4 px above, 52,6 px below. No line is missing, both zones were
+%  enlarged and are blank.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « mi- » quoted in ROMAN on one
+%  line, where « ne- » and every other prefix quoted on the page is in
+%  italic; and an opening bracket that is closed only two sentences
+%  later.
 % -------------------------------------------------------------------
 \begin{VUpage}[135]{131}
 \VUnotes{143.55mm}{%
@@ -997,19 +998,19 @@ o mem : \textit{il pardonis omno a sua filio}? Adjuntez, ke pri\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 136 — folio 132. DEUX titres centres.
-%  LE VERDICT « double net, aucun blanc » EST ICI EN DEFAUT, pour la
-%  premiere fois du volume. Le depisteur annoncait une ligne manquante
-%  a la ligne 13 ; le profil d'encre sur toute la largeur de la page
-%  donne ZERO pixel encre des rangees 768 a 819 (deux ou trois
-%  poussieres exceptees). La cause est identifiee : le blanc qui
-%  PRECEDE le titre « SUFIXI. » vaut presque exactement deux pas, ce que
-%  le depisteur lit comme un double net. Voir le LISEZ-MOI.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « lernar komplete » compose
-%  en romain ici et en italique au folio 128 pour le meme exemple ; le
-%  mot allemand « aus-sprechen » laisse en romain quand le livre italise
-%  partout ailleurs ce qui est cite d'une autre langue ; et, dans la
-%  note, « transitiva » italique puis romain a six lignes d'intervalle.
+%  leaf 136 -- folio 132. TWO centred titles.
+%  THE VERDICT « a clean double, no white » IS AT FAULT HERE, for the
+%  first time in the volume. The detection announced a missing line at
+%  line 13; the ink profile across the whole width of the page gives
+%  ZERO inked pixels from rows 768 to 819 (two or three specks apart).
+%  The cause is identified: the white that PRECEDES the title
+%  « SUFIXI. » is almost exactly two pitches, which the detection reads
+%  as a clean double. See docs/journal.md.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « lernar komplete » set in
+%  roman here and in italic at folio 128 for the same example; the
+%  German word « aus-sprechen » left in roman where the book everywhere
+%  else italicises what is quoted from another language; and, in the
+%  note, « transitiva » italic then roman six lines apart.
 % -------------------------------------------------------------------
 \begin{VUpage}[136]{132}
 \VUnotes{132.54mm}{%
@@ -1062,18 +1063,19 @@ devas remarkar, ke l'Akademio ne adoptis la formo\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 137 — folio 133.
-%  TROIS LIGNES INVISIBLES RETROUVEES, dont une que l'assembleur avait
-%  d'abord ecartee a tort :
-%    - « tempi ». » (ligne 3) et « febla. » (ligne 29), toutes deux
-%      annoncees « double net, aucun blanc » ;
-%    - « arivis. » sous la derniere ligne du bloc de notes. L'assembleur
-%      l'avait declaree jambage apres un agrandissement dont le cadrage
-%      COMMENCAIT A x = 120 alors que la marge de la page est a x = 71 :
-%      le mot etait coupe hors du cadre. Le releveur l'a mesure a
-%      x 71..160 et l'a lu ; verifie ensuite a l'agrandissement x 8.
-%  COQUILLE DE L'ORIGINAL, conservee : « dolcacha » pour dolcacho,
-%  seul de sa serie a finir en -a.
+%  leaf 137 -- folio 133.
+%  THREE INVISIBLE LINES RECOVERED, one of which the assembler had at
+%  first wrongly set aside:
+%    - « tempi ». » (line 3) and « febla. » (line 29), both announced
+%      as « a clean double, no white »;
+%    - « arivis. » below the last line of the block of notes. The
+%      assembler had declared it a descender after an enlargement whose
+%      frame BEGAN AT x = 120 when the page's margin is at x = 71: the
+%      word was cut off outside the frame. The surveyor measured it at
+%      x 71..160 and read it; checked afterwards under magnification
+%      at x 8.
+%  A TYPO OF THE ORIGINAL, kept: « dolcacha » for dolcacho, alone of
+%  its series in ending in -a.
 % -------------------------------------------------------------------
 \begin{VUpage}[137]{133}
 \VUnotes{138.77mm}{%
@@ -1128,11 +1130,11 @@ bestii, ecepte se on volas expresar repugneso : la bestii (quale\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 138 — folio 134.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « Fundamento » italique a
-%  une ligne et romain six lignes plus bas ; la meme citation « indikas
-%  duro en la ago » italique la premiere fois et romaine la seconde ;
-%  et deux deux-points successifs dans une meme phrase.
+%  leaf 138 -- folio 134.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « Fundamento » italic on one
+%  line and roman six lines below; the same quotation « indikas duro en
+%  la ago » italic the first time and roman the second; and two colons
+%  in a row in one sentence.
 % -------------------------------------------------------------------
 \begin{VUpage}[138]{134}
 \VUnotes{141.39mm}{%
@@ -1189,20 +1191,20 @@ e \textit{kron} esas ne verbal, ma \textit{nomal} radiko.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 139 — folio 135.
-%  DEUX LIGNES INVISIBLES RETROUVEES, toutes deux dans le bloc de notes
-%  et toutes deux TRES COURTES, ce qui est la faiblesse connue du
-%  detecteur : « ciono e. c. » (y 1573-1588) et « homi? » (y ~1815).
-%  Le releveur les a trouvees par le PROFIL D'ENCRE, la seconde en
-%  cadrant a 30 px a gauche de la marge ; l'assembleur les a verifiees
-%  a l'agrandissement x 5.
-%  Le verdict « double net » disait la premiere « sans blanc » : elle y
-%  etait bien, mais si courte que la somme d'encre par rangee tombe a
-%  30 px la ou une ligne pleine en donne 300.
-%  COQUILLE DE L'ORIGINAL, conservee : dans la liste des verbes formes
-%  directement sur l'instrument, « martelagar » est imprime la ou la
-%  serie appelle « martelar » — et « martelagar » est justement la forme
-%  en -ag- a laquelle le paragraphe l'oppose.
+%  leaf 139 -- folio 135.
+%  TWO INVISIBLE LINES RECOVERED, both in the block of notes and both
+%  VERY SHORT, which is the detector's known weakness: « ciono e. c. »
+%  (y 1573-1588) and « homi? » (y ~1815).
+%  The surveyor found them by the INK PROFILE, the second by framing
+%  30 px to the left of the margin; the assembler checked them under
+%  magnification at x 5.
+%  The verdict « a clean double » called the first « with no white »:
+%  it was indeed there, but so short that the sum of ink per row falls
+%  to 30 px where a full line gives 300.
+%  A TYPO OF THE ORIGINAL, kept: in the list of verbs formed directly
+%  on the instrument, « martelagar » is printed where the series calls
+%  for « martelar » -- and « martelagar » is precisely the form in -ag-
+%  that the paragraph opposes to it.
 % -------------------------------------------------------------------
 \begin{VUpage}[139]{135}
 \VUnotes{111.93mm}{%
@@ -1256,12 +1258,12 @@ novlatina lingui. Ol indikas \textit{kozo facita ek ula materio} o\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 140 — folio 136.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « meaopinione » agglutine ;
-%  « grasajo » donne sans l'equivalence « = ... » que portent tous les
-%  autres membres de sa serie ; et la meme formule composee « indikas la
-%  objekto » en italique puis « indikas la subjekto » en romain sauf le
-%  dernier mot.
+%  leaf 140 -- folio 136.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « meaopinione » run together;
+%  « grasajo » given without the equivalence « = ... » that every other
+%  member of its series carries; and the same formula set « indikas la
+%  objekto » in italic and then « indikas la subjekto » in roman apart
+%  from the last word.
 % -------------------------------------------------------------------
 \begin{VUpage}[140]{136}
 \VUnotes{151.99mm}{%
@@ -1315,12 +1317,12 @@ en verbo netransitiva : \VUgras{rezultajo} = \textit{rezult(ant)ajo, to quo}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 141 — folio 137.
-%  IRREGULARITES DE L'ORIGINAL, conservees : le titre francais du livre
-%  de Couturat, en italique ailleurs dans l'ouvrage, est ici en ROMAIN,
-%  capitale E toujours sans accent ; les citations en esperanto des
-%  lignes 4 a 8 sont egalement en romain, quand le livre italise partout
-%  ailleurs ce qui est cite d'une autre langue.
+%  leaf 141 -- folio 137.
+%  IRREGULARITIES OF THE ORIGINAL, kept: the French title of Couturat's
+%  book, in italic elsewhere in the work, is here in ROMAN, its capital
+%  E still without an accent; the Esperanto quotations of lines 4 to 8
+%  are likewise in roman, where the book everywhere else italicises
+%  what is quoted from another language.
 % -------------------------------------------------------------------
 \begin{VUpage}[141]{137}
 \VUnotes{127.08mm}{%
@@ -1380,13 +1382,13 @@ to la regulo praktikala : Por savar, kad adjektivo devas esar\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 142 — folio 138. Page a bloc de notes tres long : 29 lignes
-%  de notes pour 14 de corps, filet a 76,88 mm.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « -al » en romain dans la
-%  note (1) quand la meme note l'italise ailleurs ; « Geheimer Rat »
-%  romain a une ligne et italique deux lignes plus haut ; « poemi da
-%  Vergilius » romain quand les exemples paralleles sont en gras ; et
-%  « oz » sans tiret initial quand la meme note ecrit « -oz » et « -al ».
+%  leaf 142 -- folio 138. A page with a very long block of notes: 29
+%  lines of notes against 14 of body, the rule at 76,88 mm.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « -al » in roman in note (1)
+%  where the same note italicises it elsewhere; « Geheimer Rat » roman
+%  on one line and italic two lines above; « poemi da Vergilius » roman
+%  where the parallel examples are in bold; and « oz » without its
+%  initial hyphen where the same note writes « -oz » and « -al ».
 % -------------------------------------------------------------------
 \begin{VUpage}[142]{138}
 \VUnotes{77.96mm}{%
@@ -1444,17 +1446,17 @@ letro \textit{qua esas} respondo; \VUgras{parolo konsolaca} = parolo \textit{qua
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 143 — folio 139.
-%  LE FILET DES NOTES ECHAPPAIT A L'OUTIL : il est si pale qu'il ne
-%  devient continu qu'a un seuil de 210, la ou le detecteur seuille a
-%  185. Trouve par le profil d'encre a y = 837 px, cale a la marge
-%  (x = 69) et long de 210 px = 17,8 mm — les 212 px attendus. Ordonnee
-%  posee : 76,12 mm. Le depistage n'ayant pas pu se faire, le releveur a
-%  verifie pas a pas les lignes de base : corps 14 lignes au pas de
-%  41,4 px, notes 30 lignes au pas de 32,7 px, aucun trou.
-%  COQUILLES DE L'ORIGINAL, conservees : « mam » pour kam ou nam ;
-%  « ia vorti » pour la vorti ; un guillemet fermant sans ouvrant ; et
-%  un point-virgule la ou un deux-points serait attendu.
+%  leaf 143 -- folio 139.
+%  THE NOTE RULE ESCAPED THE TOOL: it is so pale that it becomes
+%  continuous only at a threshold of 210, where the detector thresholds
+%  at 185. Found by the ink profile at y = 837 px, set on the margin
+%  (x = 69) and 210 px = 17,8 mm long -- the 212 px expected. Ordinate
+%  laid: 76,12 mm. The detection not having been possible, the surveyor
+%  checked the baselines step by step: body 14 lines at a pitch of
+%  41,4 px, notes 30 lines at a pitch of 32,7 px, no gap.
+%  TYPOS OF THE ORIGINAL, kept: « mam » for kam or nam; « ia vorti »
+%  for la vorti; a closing quotation mark with no opening one; and a
+%  semicolon where a colon would be expected.
 % -------------------------------------------------------------------
 \begin{VUpage}[143]{139}
 \VUnotes{76.75mm}{%
@@ -1513,12 +1515,12 @@ a klaso (urbo, lando, ensemblo) homo esanta « \textit{membro}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 144 — folio 140.
-%  IRREGULARITE DE L'ORIGINAL, conservee : « Zamenhof » est compose en
-%  romain ordinaire, quand les autres noms d'auteurs du livre sont en
-%  petites capitales ; et « ossuaire », « ossuarium », « ossario »,
-%  « ossuary » restent en romain quand « formulary » et « vocabulary »,
-%  cites au meme titre deux lignes plus haut, sont en italique.
+%  leaf 144 -- folio 140.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: « Zamenhof » is set in
+%  ordinary roman, where the book's other authors' names are in small
+%  capitals; and « ossuaire », « ossuarium », « ossario », « ossuary »
+%  stay in roman where « formulary » and « vocabulary », quoted on the
+%  same footing two lines above, are in italic.
 % -------------------------------------------------------------------
 \begin{VUpage}[144]{140}
 \VUnotes{91.86mm}{%
@@ -1579,16 +1581,16 @@ On devas gardar su kontre l'ambiguaji qui povas naskar
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 145 — folio 141.
-%  DEUX LIGNES INVISIBLES RETROUVEES, toutes deux TRES COURTES : une
-%  dans le corps (y ~742) et une dans les notes (y ~1524). Le depisteur
-%  les annoncait « double net, aucun blanc » ; le releveur a montre par
-%  le profil d'encre qu'elles portent 536 et 625 px d'encre, soit 8 %
-%  d'une ligne pleine — assez pour passer pour du blanc a la somme, pas
-%  assez pour l'etre. L'assembleur les a verifiees a l'agrandissement.
-%  COQUILLES DE L'ORIGINAL, conservees : un blanc de deux cadratins
-%  entre « kazi » et son point ; « L'Espisti » pour l'Esperantisti ;
-%  et « -ul » italique quand « -ier », cinq mots plus loin, est romain.
+%  leaf 145 -- folio 141.
+%  TWO INVISIBLE LINES RECOVERED, both VERY SHORT: one in the body
+%  (y ~742) and one in the notes (y ~1524). The detection announced
+%  them as « a clean double, no white »; the surveyor showed by the ink
+%  profile that they carry 536 and 625 px of ink, that is 8 % of a full
+%  line -- enough to pass for white in the sum, not enough to be it.
+%  The assembler checked them under magnification.
+%  TYPOS OF THE ORIGINAL, kept: a white of two ems between « kazi » and
+%  its full stop; « L'Espisti » for l'Esperantisti; and « -ul » italic
+%  where « -ier », five words further on, is roman.
 % -------------------------------------------------------------------
 \begin{VUpage}[145]{141}
 \VUnotes{117.43mm}{%
@@ -1646,11 +1648,11 @@ prenebla pos reflekto ma ne evidenta. Ol indikas « \textit{persono}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 146 — folio 142.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « -atr » sans tiret final
-%  quand le meme suffixe est ecrit « -atr- » trois fois sur la page ;
-%  et, dans un meme paragraphe d'exemples, sponjatra / dolcatra /
-%  dolcacha en gras quand rezinatra / silexatra / lanatra sont romains.
+%  leaf 146 -- folio 142.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « -atr » without its final
+%  hyphen where the same suffix is written « -atr- » three times on the
+%  page; and, in one paragraph of examples, sponjatra / dolcatra /
+%  dolcacha in bold where rezinatra / silexatra / lanatra are roman.
 % -------------------------------------------------------------------
 \begin{VUpage}[146]{142}
 \VUnotes{115.55mm}{%
@@ -1705,15 +1707,15 @@ segun la kazi, da la radiki \VUgras{-form}, \VUgras{-simil}, o dal sufixo tek\cc
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 147 — folio 143.
-%  LIGNE INVISIBLE RETROUVEE que le depisteur n'avait PAS signalee :
-%  « IV. 521). », cinquieme ligne de la note (1). Elle explique l'exces
-%  de 28 px porte au compte de la ligne 36 : ce n'etait pas un blanc
-%  d'alinea mais une ligne courte non detectee.
-%  IRREGULARITE DE L'ORIGINAL, conservee : « (F. comestibles) » reste en
-%  romain quand toutes les autres citations etrangeres de la page sont
-%  en italique ; et « IV. 521 » porte un point la ou les autres renvois
-%  au Progreso portent une virgule.
+%  leaf 147 -- folio 143.
+%  AN INVISIBLE LINE RECOVERED that the detection had NOT reported:
+%  « IV. 521). », the fifth line of note (1). It explains the excess of
+%  28 px charged to line 36: it was not a paragraph white but a short
+%  line not detected.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: « (F. comestibles) » stays in
+%  roman where every other foreign quotation on the page is in italic;
+%  and « IV. 521 » carries a full stop where the other references to
+%  Progreso carry a comma.
 % -------------------------------------------------------------------
 \begin{VUpage}[147]{143}
 \VUnotes{139.87mm}{%
@@ -1769,11 +1771,11 @@ facesar) e \VUgras{posible} (en maniero posibla) (2).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 148 — folio 144.
-%  COQUILLE DE L'ORIGINAL, conservee : « pladego » dans la liste des
-%  exemples du suffixe -ed-, la ou la serie appelle « pladedo ».
-%  IRREGULARITE conservee : « boko » est en gras quand « pedi », qui le
-%  suit immediatement dans la meme enumeration, est en maigre.
+%  leaf 148 -- folio 144.
+%  A TYPO OF THE ORIGINAL, kept: « pladego » in the list of examples of
+%  the suffix -ed-, where the series calls for « pladedo ».
+%  AN IRREGULARITY kept: « boko » is in bold where « pedi », which
+%  follows it immediately in the same enumeration, is light.
 % -------------------------------------------------------------------
 \begin{VUpage}[148]{144}
 \VUnotes{130.35mm}{%
@@ -1828,14 +1830,13 @@ homi, ma proporcione a sua grandeso e tipi. Same li manjas,
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 149 — folio 145. Le bloc de notes occupe les quatre
-%  cinquiemes de la page : 35 lignes de notes pour 9 de corps, filet
-%  a 59,94 mm.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « -eg- » cite en gras a une
-%  ligne et en italique quatre lignes plus bas ; « -ug » et « -et » sans
-%  tiret final quand les memes formes le portent ailleurs sur la page ;
-%  et les gloses entre parentheses de la note (3) en romain quand les
-%  formes qu'elles glosent sont en italique.
+%  leaf 149 -- folio 145. The block of notes takes up four fifths of
+%  the page: 35 lines of notes against 9 of body, the rule at 59,94 mm.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « -eg- » quoted in bold on one
+%  line and in italic four lines below; « -ug » and « -et » without a
+%  final hyphen where the same forms carry one elsewhere on the page;
+%  and the parenthetical glosses of note (3) in roman where the forms
+%  they gloss are in italic.
 % -------------------------------------------------------------------
 \begin{VUpage}[149]{145}
 \VUnotes{62.13mm}{%
@@ -1896,16 +1897,16 @@ E nultempe uzez \textit{ege} o \textit{ega} (2).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 150 — folio 146.
-%  LIGNE INVISIBLE RETROUVEE : « lema e. c. », derniere ligne de la note
-%  en continuation. Le depisteur avait raison. Le releveur l'a etablie
-%  par le profil d'encre — amas net de 16 rangees portant 30 px chacune,
-%  soit 8 % d'une ligne pleine, entre deux blancs absolus — puis lue a
-%  l'agrandissement.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « Fundamento » en romain a
-%  une ligne quand il est en italique deux lignes avant et trois lignes
-%  apres ; et « kredemo » en italique la ou les autres occurrences de la
-%  meme vedette sont en gras.
+%  leaf 150 -- folio 146.
+%  AN INVISIBLE LINE RECOVERED: « lema e. c. », the last line of the
+%  note carried over. The detection was right. The surveyor established
+%  it by the ink profile -- a clean cluster of 16 rows carrying 30 px
+%  each, that is 8 % of a full line, between two absolute whites --
+%  then read it under magnification.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « Fundamento » in roman on one
+%  line where it is in italic two lines before and three lines after;
+%  and « kredemo » in italic where the other occurrences of the same
+%  headword are in bold.
 % -------------------------------------------------------------------
 \begin{VUpage}[150]{146}
 \VUnotes{110.24mm}{%
@@ -1963,14 +1964,14 @@ ne \VUgras{iracera, desobediera, ociera} (Videz la sufixo \VUgras{-er-}). Esas
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 151 — folio 147.
-%  LIGNE INVISIBLE RETROUVEE : « defino. », large de 117 px seulement.
-%  DOUTE CONSIGNE PAR LE RELEVEUR, non tranche : la graisse de « aj »
-%  cite en vedette. L'agrandissement le donne gras, la largeur de fut
-%  le donne romain, et la zone est delavee par la gouttiere. Compose en
-%  gras, par analogie avec les autres suffixes cites de la page.
-%  IRREGULARITE DE L'ORIGINAL, conservee : « iero » sans tiret initial
-%  quand tous les autres membres de sa liste le portent.
+%  leaf 151 -- folio 147.
+%  AN INVISIBLE LINE RECOVERED: « defino. », only 117 px wide.
+%  A DOUBT RECORDED BY THE SURVEYOR, not settled: the weight of « aj »
+%  quoted as a headword. Magnification gives it bold, the width of the
+%  stem gives it roman, and the area is washed out by the gutter. Set
+%  in bold, by analogy with the page's other quoted suffixes.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: « iero » without its initial
+%  hyphen where every other member of its list carries one.
 % -------------------------------------------------------------------
 \begin{VUpage}[151]{147}
 \VUnotes{138.35mm}{%
@@ -2027,9 +2028,9 @@ La sufixo \VUgras{-er-} soldesas a radiki nomala ed a radiki ver\cc
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 152 — folio 148.
-%  IRREGULARITE DE L'ORIGINAL, conservee : le meme suffixe est compose
-%  en gras dans la note (1) et en italique dans la note (3).
+%  leaf 152 -- folio 148.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: the same suffix is set in
+%  bold in note (1) and in italic in note (3).
 % -------------------------------------------------------------------
 \begin{VUpage}[152]{148}
 \VUnotes{99.19mm}{%
@@ -2088,11 +2089,11 @@ vala. Ex. : \VUgras{Yes, me konfesas lo, nature me esas tre iracema}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 153 — folio 149.
-%  LIGNE INVISIBLE RETROUVEE : « e. c. (1). », large de 161 px.
-%  COQUILLE DE L'ORIGINAL, conservee : « la sufixo es formacas », ou le
-%  suffixe est imprime « es » en romain nu la ou le contexte appelle la
-%  forme « -es- ».
+%  leaf 153 -- folio 149.
+%  AN INVISIBLE LINE RECOVERED: « e. c. (1). », 161 px wide.
+%  A TYPO OF THE ORIGINAL, kept: « la sufixo es formacas », where the
+%  suffix is printed « es » in bare roman where the context calls for
+%  the form « -es- ».
 % -------------------------------------------------------------------
 \begin{VUpage}[153]{149}
 \VUnotes{146.73mm}{%
@@ -2146,10 +2147,10 @@ pondanta.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 154 — folio 150.
-%  COQUILLE DE L'ORIGINAL, conservee : dans la note (2), « di 1894. en
-%  qua il lasis » — un point suivi d'une minuscule, la ou une virgule
-%  est attendue.
+%  leaf 154 -- folio 150.
+%  A TYPO OF THE ORIGINAL, kept: in note (2), « di 1894. en qua il
+%  lasis » -- a full stop followed by a lower-case letter, where a
+%  comma is expected.
 % -------------------------------------------------------------------
 \begin{VUpage}[154]{150}
 \VUnotes{90.34mm}{%
@@ -2208,7 +2209,7 @@ Pose l'Akademio per la decido 1221 remplasigis \textit{ij} (2)
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 155 — folio 151.
+%  leaf 155 -- folio 151.
 % -------------------------------------------------------------------
 \begin{VUpage}[155]{151}
 \VUnotes{137.61mm}{%
@@ -2268,14 +2269,15 @@ Ol mem darfas okazione soldesar a verbal radiko :\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 156 — folio 152.
-%  LIGNE INVISIBLE RETROUVEE : « -eri.) », derniere ligne d'un alinea.
-%  COQUILLES DE L'ORIGINAL, conservees : « distinita » pour destinita,
-%  et « religial » pour religiala, sur la meme ligne.
-%  DOUTE CONSIGNE PAR LE RELEVEUR : la graisse de « direktisto », que
-%  l'oeil donne romain et la mesure de fut donne gras, sur une ligne
-%  moins encree que ses voisines. Compose en gras, par coherence de
-%  liste.
+%  leaf 156 -- folio 152.
+%  AN INVISIBLE LINE RECOVERED: « -eri.) », the last line of a
+%  paragraph.
+%  TYPOS OF THE ORIGINAL, kept: « distinita » for destinita, and
+%  « religial » for religiala, on the same line.
+%  A DOUBT RECORDED BY THE SURVEYOR: the weight of « direktisto »,
+%  which the eye gives roman and the measurement of the stem gives
+%  bold, on a line less inked than its neighbours. Set in bold, for
+%  consistency with the list.
 % -------------------------------------------------------------------
 \begin{VUpage}[156]{152}
 \VUnotes{130.98mm}{%
@@ -2334,11 +2336,11 @@ segun la kazo : \VUgras{edifico, konstrukturo, domo, loko, agro,} e. c.,\parplei
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 157 — folio 153.
-%  COQUILLES DE L'ORIGINAL, conservees : une parenthese fermante sans
-%  ouvrante (« kun la senco) : »), la parenthese ouverte a la ligne
-%  precedente etant deja refermee ; et une rupture d'italique en plein
-%  syntagme, « e quaze » restant en romain entre deux passages italiques.
+%  leaf 157 -- folio 153.
+%  TYPOS OF THE ORIGINAL, kept: a closing bracket with no opening one
+%  (« kun la senco) : »), the bracket opened on the previous line
+%  having already been closed; and a break in the italic in mid-phrase,
+%  « e quaze » staying in roman between two italic passages.
 % -------------------------------------------------------------------
 \begin{VUpage}[157]{153}
 \VUnotes{144.16mm}{%
@@ -2395,12 +2397,12 @@ adjuntis a l'unesma senco : « \textit{karakterizata per} » (ulo extera) :\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 158 — folio 154.
-%  LIGNE INVISIBLE RETROUVEE dans le bloc de notes : « per --- ». »,
-%  qui ferme la note reportee du folio precedent.
-%  COQUILLES DE L'ORIGINAL, conservees : un deux-points colle au mot
-%  (« ol nun: ») la ou toute la page les espace ; et un deux-points
-%  redondant devant le signe d'egalite.
+%  leaf 158 -- folio 154.
+%  AN INVISIBLE LINE RECOVERED in the block of notes: « per --- ». »,
+%  which closes the note carried over from the previous folio.
+%  TYPOS OF THE ORIGINAL, kept: a colon set tight against the word
+%  (« ol nun: ») where the whole page spaces them; and a redundant
+%  colon before the equals sign.
 % -------------------------------------------------------------------
 \begin{VUpage}[158]{154}
 \VUnotes{93.81mm}{%
@@ -2462,12 +2464,12 @@ dicez : \VUgras{facar, fabrikar, produktar,} e. c., ma nultempe \VUgras{ifar.}\p
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 159 — folio 155.
-%  IRREGULARITE DE L'ORIGINAL, conservee : dans la note, « su levas »
-%  est en italique et « su kushas » en romain, a trois mots d'ecart.
-%  Le releveur signale aussi que la geometrie donne un faux alinea a
-%  l'avant-derniere ligne : elle ouvre sur un signe « = » trop plat pour
-%  le filtre de glyphes, et l'abscisse est mesuree sur le mot suivant.
+%  leaf 159 -- folio 155.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: in the note, « su levas » is
+%  in italic and « su kushas » in roman, three words apart.
+%  The surveyor also reports that the geometry gives a false paragraph
+%  at the penultimate line: it opens on an « = » sign too flat for the
+%  glyph filter, and the abscissa is measured on the next word.
 % -------------------------------------------------------------------
 \begin{VUpage}[159]{155}
 \VUnotes{104.73mm}{%
@@ -2527,13 +2529,13 @@ esus la subjekto dil verbo primitiva : \VUgras{venigar} = \textit{igar}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 160 — folio 156.
-%  DEUX COQUILLES DE L'ORIGINAL, conservees et signalees par le releveur
-%  comme non tranchables entre coquille de composition et sorte abimee :
-%  « scndar » pour sendar (un e prive de sa barre) et « Icannes » pour
-%  Ioannes (un o ouvert a droite). Deux accidents du meme type sur la
-%  meme page rendent l'hypothese du defaut de fonte plausible ; on
-%  transcrit ce qui est imprime et l'on signale.
+%  leaf 160 -- folio 156.
+%  TWO TYPOS OF THE ORIGINAL, kept, and reported by the surveyor as
+%  impossible to decide between a compositor's slip and a damaged sort:
+%  « scndar » for sendar (an e deprived of its bar) and « Icannes » for
+%  Ioannes (an o open on the right). Two accidents of the same kind on
+%  the same page make the hypothesis of a fault in the fount plausible;
+%  we transcribe what is printed and report it.
 % -------------------------------------------------------------------
 \begin{VUpage}[160]{156}
 \VUnotes{141.40mm}{%
@@ -2587,15 +2589,15 @@ diferas de : \VUgras{me facas neruptebla vitro} (o \VUgras{vitro neruptebla})\pa
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 161 — folio 157.
-%  DEUX LIGNES INVISIBLES RETROUVEES, toutes deux tres courtes : une
-%  dans le corps (~130 px) et une dans les notes (~75 px).
-%  COQUILLE DE L'ORIGINAL, conservee : « Dicernez do bone igar do
-%  facar. » — le second « do » la ou le sens appelle « de ». Verifie a
-%  l'agrandissement x 10.
-%  A NOTER : « utensilo » est compose avec sa finale en ITALIQUE (le
-%  suffixe cite dans le mot meme), et non en gras comme la vedette qui
-%  suit deux lignes plus bas.
+%  leaf 161 -- folio 157.
+%  TWO INVISIBLE LINES RECOVERED, both very short: one in the body
+%  (~130 px) and one in the notes (~75 px).
+%  A TYPO OF THE ORIGINAL, kept: « Dicernez do bone igar do facar. » --
+%  the second « do » where the sense calls for « de ». Checked under
+%  magnification at x 10.
+%  TO BE NOTED: « utensilo » is set with its ending in ITALIC (the
+%  suffix quoted within the word itself), and not in bold like the
+%  headword that follows two lines below.
 % -------------------------------------------------------------------
 \begin{VUpage}[161]{157}
 \VUnotes{135.13mm}{%
@@ -2654,16 +2656,17 @@ Nultempe uzez \VUgras{ilo} kom vorto izolita, ma selektez inter :\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 162 — folio 158.
-%  LE FILET ETAIT PERDU POUR UN PIXEL. Le releveur l'a trouve a la main
-%  a y = 1407 px, puis a diagnostique la cause dans outils/filet.py : le
-%  test « rien d'autre sur la ligne du filet » sommait jusqu'au bord de
-%  l'image, ou traine la tranche du feuillet voisin. Corrige (marge de
-%  25 px retiree a droite), l'outil rend exactement la meme ordonnee que
-%  la mesure a la main, et recupere aussi le feuillet 164.
-%  IRREGULARITE DE L'ORIGINAL, conservee : « (homulo) » en romain et
-%  « (homino) » en italique, a trois mots d'ecart ; et les memes suffixes
-%  cites en italique a une ligne, en gras a la suivante.
+%  leaf 162 -- folio 158.
+%  THE RULE WAS LOST BY ONE PIXEL. The surveyor found it by hand at
+%  y = 1407 px, then diagnosed the cause in tools/rule.py: the test
+%  « nothing else on the rule's line » summed as far as the edge of the
+%  image, where the fore-edge of the neighbouring leaf trails. Once
+%  corrected (a margin of 25 px taken off on the right), the tool gives
+%  exactly the same ordinate as the measurement by hand, and recovers
+%  leaf 164 as well.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: « (homulo) » in roman and
+%  « (homino) » in italic, three words apart; and the same suffixes
+%  quoted in italic on one line and in bold on the next.
 % -------------------------------------------------------------------
 \begin{VUpage}[162]{158}
 \VUnotes{129.07mm}{%
@@ -2717,16 +2720,16 @@ tam anciena kam ta di \VUgras{patr;} fiziologie ed etike la relato\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 163 — folio 159.
-%  FILET ENCORE PLUS PALE QU'AU FEUILLET 143 : il ne devient continu
-%  qu'a un seuil de 220, quand l'outil seuille a 185 et que le feuillet
-%  143 demandait 210. Trouve a y = 839 px, long de 216 px, cale a la
-%  marge. Ordonnee posee : 79,93 mm.
-%  COQUILLES DE L'ORIGINAL, conservees : « iaudigna » pour laudigna ;
-%  un point la ou la phrase appelle une virgule ; « la spozo » en romain
-%  quand les autres occurrences du mot sont en italique ; et un
-%  point-virgule devant deux des quatre numeros d'une enumeration dont
-%  les deux autres portent un deux-points.
+%  leaf 163 -- folio 159.
+%  A RULE PALER STILL THAN AT LEAF 143: it becomes continuous only at a
+%  threshold of 220, where the tool thresholds at 185 and leaf 143 asked
+%  for 210. Found at y = 839 px, 216 px long, set on the margin.
+%  Ordinate laid: 79,93 mm.
+%  TYPOS OF THE ORIGINAL, kept: « iaudigna » for laudigna; a full stop
+%  where the sentence calls for a comma; « la spozo » in roman where
+%  the word's other occurrences are in italic; and a semicolon before
+%  two of the four numbers of an enumeration whose other two carry a
+%  colon.
 % -------------------------------------------------------------------
 \begin{VUpage}[163]{159}
 \VUnotes{79.93mm}{%
@@ -2787,20 +2790,20 @@ darfas aplikesar a verbi netransitiva. Ma, se la verbo esas\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 164 — folio 160.
-%  L'ordonnee du filet, 124,38 mm, vient de la correction apportee a
-%  outils/filet.py apres le feuillet 162.
-%  DEUX LIGNES INVISIBLES RETROUVEES par le releveur, qu'aucun depistage
-%  n'avait signalees puisque la page n'avait pas pu etre depistee : une
-%  de 85 px dans le bloc de notes, et une derniere qui tombait hors de
-%  la plage exploree par l'outil.
-%  IRREGULARITE DE L'ORIGINAL, conservee : deux listes d'exemples de
-%  meme fonction, l'une en romain et l'autre en gras, dans le meme
+%  leaf 164 -- folio 160.
+%  The rule's ordinate, 124,38 mm, comes from the correction made to
+%  tools/rule.py after leaf 162.
+%  TWO INVISIBLE LINES RECOVERED by the surveyor, which no detection
+%  had reported since the page could not be detected at all: one of
+%  85 px in the block of notes, and a last one that fell outside the
+%  range the tool explores.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: two lists of examples of the
+%  same function, one in roman and the other in bold, in the same
 %  article.
-%  DOUTE CONSIGNE : dans la note (1), le a final de « Kristana » porte
-%  un accent grave que l'ido ne connait pas et qui ne reparait nulle
-%  part ; compose sans l'accent, faute de pouvoir distinguer la coquille
-%  du defaut d'impression.
+%  A DOUBT RECORDED: in note (1), the final a of « Kristana » carries a
+%  grave accent that Ido does not know and that appears nowhere else;
+%  set without the accent, for want of any way of telling a slip from a
+%  fault of printing.
 % -------------------------------------------------------------------
 \begin{VUpage}[164]{160}
 \VUnotes{124.38mm}{%
@@ -2861,13 +2864,13 @@ klisto (kurista), dansisto, peskisto (profesione).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 165 — folio 161. Premiere page d'un cahier : elle porte la
-%  SIGNATURE « 6 » sous le bloc de texte, a gauche. Encre relevee de
-%  y 1895 a 1920 px, x 103 a 118.
-%  COQUILLE DE L'ORIGINAL, conservee : une virgule entre sujet et verbe
-%  dans la note (5).
-%  IRREGULARITE conservee : dans la glose francaise, « le fait d'etre
-%  mortel, » est en romain quand le reste de la parenthese est italique.
+%  leaf 165 -- folio 161. The first page of a gathering: it carries the
+%  SIGNATURE « 6 » under the block of text, on the left. Ink surveyed
+%  from y 1895 to 1920 px, x 103 to 118.
+%  A TYPO OF THE ORIGINAL, kept: a comma between subject and verb in
+%  note (5).
+%  AN IRREGULARITY kept: in the French gloss, « le fait d'etre mortel, »
+%  is in roman where the rest of the parenthesis is italic.
 % -------------------------------------------------------------------
 \begin{VUpage}[165]{161}
 \VUsignature{169.50mm}{6}
@@ -2928,14 +2931,14 @@ Nultempe uzez \textit{iva, ivo} o \textit{iveso} kom izolita vorti. Dicez :\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 166 — folio 162.
-%  DOUTE CONSIGNE PAR LE RELEVEUR, en bloc : la graisse des exemples en
-%  -izar et -izo. La structure « mot ido = glose italique » appelle le
-%  gras partout ailleurs dans le corpus, mais la comparaison directe
-%  avec un gras certifie du feuillet 162 les donne romains, et la mesure
-%  de fut ne les separe pas du romain voisin. Composes en ROMAIN, comme
-%  le fac-simile les donne ; c'est le seul point du folio qui puisse
-%  basculer en bloc.
+%  leaf 166 -- folio 162.
+%  A DOUBT RECORDED BY THE SURVEYOR, wholesale: the weight of the
+%  examples in -izar and -izo. The structure « Ido word = italic gloss »
+%  calls for bold everywhere else in the corpus, but direct comparison
+%  with a certified bold from leaf 162 gives them roman, and the
+%  measurement of the stem does not separate them from the roman beside
+%  them. Set in ROMAN, as the facsimile gives them; it is the only
+%  point on the folio that could turn over wholesale.
 % -------------------------------------------------------------------
 \begin{VUpage}[166]{162}
 \VUnotes{75.45mm}{%
@@ -2993,15 +2996,15 @@ segun la senci expresenda, ma nultempe \textit{izar} od \textit{izeso}.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 167 — folio 163.
-%  IRREGULARITES DE L'ORIGINAL, conservees : « kalkoza » en italique
-%  maigre au milieu d'une enumeration dont tous les autres membres sont
-%  en gras ; « kontinue » en romain au milieu d'un exemple gras ; un
-%  point la ou la phrase appelle une virgule ; et un guillemet ouvrant
-%  jamais referme.
-%  Le releveur signale que outils/graisse.py est inexploitable sur cette
-%  page : l'ombre de reliure couvre le tiers gauche et l'outil declare
-%  gras des mots manifestement romains.
+%  leaf 167 -- folio 163.
+%  IRREGULARITIES OF THE ORIGINAL, kept: « kalkoza » in light italic in
+%  the middle of an enumeration all of whose other members are in bold;
+%  « kontinue » in roman in the middle of a bold example; a full stop
+%  where the sentence calls for a comma; and an opening quotation mark
+%  never closed.
+%  The surveyor reports that tools/weight.py is unusable on this page:
+%  the shadow of the binding covers the left third and the tool
+%  declares bold words that are plainly roman.
 % -------------------------------------------------------------------
 \begin{VUpage}[167]{163}
 \VUnotes{110.90mm}{%
@@ -3057,10 +3060,10 @@ adoptas la sufixo -ul \textit{por indikar maskula sexuo} (decido,\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 168 — folio 164.
-%  COQUILLE DE L'ORIGINAL, conservee : un guillemet ouvrant jamais
-%  referme. Le bloc de notes porte un seul appel et trois alineas, dont
-%  deux sans numero.
+%  leaf 168 -- folio 164.
+%  A TYPO OF THE ORIGINAL, kept: an opening quotation mark never
+%  closed. The block of notes carries a single reference and three
+%  paragraphs, two of them unnumbered.
 % -------------------------------------------------------------------
 \begin{VUpage}[168]{164}
 \VUnotes{96.90mm}{%
@@ -3118,21 +3121,21 @@ certe. Ex. : \VUgras{kolumo} = \textit{parto di kamizo (vesto) qua cirkondas}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 169 — folio 165.
-%  FILET PERDU POUR UNE TOUTE AUTRE RAISON QUE LE SEUIL. Aux feuillets
-%  143 et 163 il etait trop pale ; ici il passe deja le test de longueur
-%  au seuil ordinaire (186 px a 185), et c'est le TEST DU RESTE qui le
-%  rejette : deux saletes a x 1301-1335, tranche du feuillet voisin,
-%  donnent reste = 23 pour un seuil de 6. La marge BORD = 25 px posee
-%  apres le feuillet 162 ne suffit pas ici. Filet trouve a la main a
-%  y = 1791 px, long de 219 px, continu au seuil 220. Ordonnee : 157,40 mm.
-%  COQUILLES DE L'ORIGINAL, conservees : « solvor » pour solvar ; et le
-%  meme mot compose romain puis italique a la meme ligne.
-%  Le releveur etablit que la liste des derives en -uro est ROMAINE et
-%  non grasse, contrairement a l'usage du chapitre : meme fut que les
-%  mots romains voisins, quand les vedettes de la page sont visiblement
-%  plus epaisses. C'est le meme doute que le feuillet 166 avait laisse
-%  ouvert, tranche cette fois.
+%  leaf 169 -- folio 165.
+%  A RULE LOST FOR QUITE ANOTHER REASON THAN THE THRESHOLD. At leaves
+%  143 and 163 it was too pale; here it already passes the length test
+%  at the ordinary threshold (186 px against 185), and it is the TEST
+%  OF THE REMAINDER that rejects it: two specks at x 1301-1335, the
+%  fore-edge of the neighbouring leaf, give a remainder of 23 for a
+%  threshold of 6. The BORD = 25 px margin laid after leaf 162 is not
+%  enough here. Rule found by hand at y = 1791 px, 219 px long,
+%  continuous at threshold 220. Ordinate: 157,40 mm.
+%  TYPOS OF THE ORIGINAL, kept: « solvor » for solvar; and the same
+%  word set roman and then italic on the same line.
+%  The surveyor establishes that the list of derivatives in -uro is
+%  ROMAN and not bold, against the usage of the chapter: the same stem
+%  as the roman words beside it, where the page's headwords are visibly
+%  thicker. It is the same doubt leaf 166 left open, settled this time.
 % -------------------------------------------------------------------
 \begin{VUpage}[169]{165}
 \VUnotes{157.40mm}{%
@@ -3184,12 +3187,12 @@ exemple.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 170 — folio 166.
-%  IRREGULARITE DE L'ORIGINAL, conservee : « sendata » compose romain a
-%  une ligne et italique deux lignes plus bas.
-%  Le releveur signale qu'une rayure diagonale en bord de gouttiere
-%  imite un tiret de coupure en fin de ligne ; verification faite, les
-%  deux lignes concernees finissent sur un mot entier.
+%  leaf 170 -- folio 166.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: « sendata » set roman on one
+%  line and italic two lines below.
+%  The surveyor reports that a diagonal scratch at the edge of the
+%  gutter imitates a hyphen of division at the end of a line;
+%  checked, the two lines concerned end on a whole word.
 % -------------------------------------------------------------------
 \begin{VUpage}[170]{166}
 \VUnotes{149.93mm}{%
@@ -3241,11 +3244,11 @@ sono, kozo, e. c.), \textit{imprimajo} (to quo imprimesas), \textit{imitajo,}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 171 — folio 167.
-%  LIGNE INVISIBLE RETROUVEE : « tradukir. », derniere ligne de la
-%  note (1), au fer et tres courte.
-%  COQUILLES DE L'ORIGINAL, conservees : un « i » prive de son point ;
-%  et une rupture d'italique en plein syntagme dans la note (3).
+%  leaf 171 -- folio 167.
+%  AN INVISIBLE LINE RECOVERED: « tradukir. », the last line of note
+%  (1), flush left and very short.
+%  TYPOS OF THE ORIGINAL, kept: an « i » deprived of its dot; and a
+%  break in the italic in mid-phrase in note (3).
 % -------------------------------------------------------------------
 \begin{VUpage}[171]{167}
 \VUnotes{122.01mm}{%
@@ -3305,15 +3308,16 @@ Ultre \VUgras{yun} la radiki \VUgras{es,} \VUgras{ig} e \VUgras{ag} (3) uzesas k
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 172 — folio 168.
-%  LE DETECTEUR N'A PAS VU LE FOLIO COURANT : la premiere bande de la
-%  geometrie est le titre centre « KOMPOZADO. ». Le releveur l'a etabli
-%  en comparant la page a ses voisines — ligne 0 a y = 253 et large de
-%  252 px, quand les feuillets voisins ont leur folio a y 125-153 et
-%  large de 50 a 158 px. Verifie par outils/apparat.py, qui voit bien
-%  les deux lignes distinctes (folio a y = 143, titre a y = 253).
-%  LIGNE INVISIBLE RETROUVEE : « freno. », derniere ligne du deuxieme
-%  alinea de la note, longue de 90 px et tout en italique.
+%  leaf 172 -- folio 168.
+%  THE DETECTOR DID NOT SEE THE RUNNING FOLIO: the first band of the
+%  geometry is the centred title « KOMPOZADO. ». The surveyor
+%  established it by comparing the page with its neighbours -- line 0
+%  at y = 253 and 252 px wide, where the neighbouring leaves have their
+%  folio at y 125-153 and 50 to 158 px wide. Checked by
+%  tools/apparatus.py, which does see the two distinct lines (folio at
+%  y = 143, title at y = 253).
+%  AN INVISIBLE LINE RECOVERED: « freno. », the last line of the second
+%  paragraph of the note, 90 px long and entirely in italic.
 % -------------------------------------------------------------------
 \begin{VUpage}[172]{168}
 \VUnotes{114.98mm}{%
@@ -3374,16 +3378,17 @@ kun radiko igita adjektivo od adverbo : \VUgras{granda-nombra,}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 173 — folio 169.
-%  FILET TROP PALE, panne (a) : il ne devient continu qu'au seuil 210
-%  quand l'outil seuille a 185 ; au seuil ordinaire le segment partant
-%  de la marge vaut 0 a 1 px et le test de LONGUEUR echoue avant meme
-%  celui du reste. Le releveur distingue donc nettement cette panne de
-%  celle du feuillet 169. Filet a y = 1303 px, long de 210 px.
-%  DEUX LIGNES INVISIBLES RETROUVEES, absentes de la geometrie :
-%  « horlojo. » (corps) et « di vokalo. » (derniere ligne des notes).
-%  COQUILLE DE L'ORIGINAL, conservee : « l'enfonio » pour l'eufonio, le
-%  mot etant correctement compose deux lignes plus bas.
+%  leaf 173 -- folio 169.
+%  A RULE TOO PALE, failure (a): it becomes continuous only at
+%  threshold 210 where the tool thresholds at 185; at the ordinary
+%  threshold the segment starting from the margin is 0 to 1 px and the
+%  LENGTH test fails before that of the remainder even runs. The
+%  surveyor therefore distinguishes this failure clearly from that of
+%  leaf 169. Rule at y = 1303 px, 210 px long.
+%  TWO INVISIBLE LINES RECOVERED, absent from the geometry:
+%  « horlojo. » (body) and « di vokalo. » (the last line of the notes).
+%  A TYPO OF THE ORIGINAL, kept: « l'enfonio » for l'eufonio, the word
+%  being correctly set two lines below.
 % -------------------------------------------------------------------
 \begin{VUpage}[173]{169}
 \VUnotes{115.49mm}{%
@@ -3440,12 +3445,12 @@ pozajo, procedez tale :
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 174 — folio 170.
-%  IRREGULARITES DE L'ORIGINAL, conservees : la glose de « simio-kapa »
-%  est en romain quand celle de « lenso-forma », ligne au-dessus et de
-%  meme fonction, est en italique ; le meme compose est en gras au corps
-%  et en italique dans la note ; deux mots francais cites restent en
-%  romain ; et deux guillemets ouvrants ne sont jamais refermes.
+%  leaf 174 -- folio 170.
+%  IRREGULARITIES OF THE ORIGINAL, kept: the gloss of « simio-kapa » is
+%  in roman where that of « lenso-forma », one line above and of the
+%  same function, is in italic; the same compound is in bold in the
+%  body and in italic in the note; two quoted French words stay in
+%  roman; and two opening quotation marks are never closed.
 % -------------------------------------------------------------------
 \begin{VUpage}[174]{170}
 \VUnotes{117.24mm}{%
@@ -3500,16 +3505,17 @@ lingui, e pro to on komprenas li ordinare per simpla lekto.\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 175 — folio 171.
-%  FILET TROP PALE, panne (a) : au seuil ordinaire aucun pixel sombre
-%  dans la fenetre de depart, le test de LONGUEUR echoue avant celui du
-%  reste. Continu au seuil 210. Filet a y = 792 px, long de 209 px.
-%  COQUILLES DE L'ORIGINAL, conservees : « direte » pour direkte ; un
-%  double point final ; « groskapa » sans trait d'union au corps quand
-%  la note ecrit « gros-kapa » ; et un point parasite dans « (5. e
-%  6esma klasi) ».
-%  Le releveur note que les composes cites sont ici en ROMAIN alors que
-%  les memes etaient en gras au folio 170.
+%  leaf 175 -- folio 171.
+%  A RULE TOO PALE, failure (a): at the ordinary threshold not one dark
+%  pixel in the starting window, the LENGTH test fails before that of
+%  the remainder. Continuous at threshold 210. Rule at y = 792 px,
+%  209 px long.
+%  TYPOS OF THE ORIGINAL, kept: « direte » for direkte; a doubled final
+%  stop; « groskapa » without a hyphen in the body where the note
+%  writes « gros-kapa »; and a stray full stop in « (5. e 6esma
+%  klasi) ».
+%  The surveyor notes that the compounds quoted are here in ROMAN where
+%  the same ones were in bold at folio 170.
 % -------------------------------------------------------------------
 \begin{VUpage}[175]{171}
 \VUnotes{74.17mm}{%
@@ -3569,15 +3575,14 @@ En ula kazi, la relato esas la liganta konjunciono \textit{e}. Ex. :\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 176 — folio 172.
-%  LIGNE INVISIBLE RETROUVEE : « arma. », en italique, au fer, large de
-%  155 px, qui achevait le mot coupe de la ligne precedente.
-%  Le second signalement, « deux lectures » a la ligne 2, est tranche :
-%  c'est un BLANC, celui qui suit le titre centre — la zone est vierge
-%  a l'agrandissement.
-%  Le releveur signale une neuvieme confirmation de la meme regle : une
-%  liste qui paraissait grasse sur la bande est romaine a fort
-%  grossissement.
+%  leaf 176 -- folio 172.
+%  AN INVISIBLE LINE RECOVERED: « arma. », in italic, flush left,
+%  155 px wide, which completed the word broken on the previous line.
+%  The second report, « two readings » at line 2, is settled: it is a
+%  WHITE, the one that follows the centred title -- the zone is blank
+%  under magnification.
+%  The surveyor reports a ninth confirmation of the same rule: a list
+%  that looked bold on the strip is roman at high magnification.
 % -------------------------------------------------------------------
 \begin{VUpage}[176]{172}
 \VUnotes{154.60mm}{%
@@ -3628,18 +3633,18 @@ Simile on \VUgras{supervarsas aquo sur flori}; quo esas \VUgras{supervarsita}?\p
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 177 — folio 173.
-%  FILET TROP PALE, panne (a) : au seuil ordinaire la fenetre de depart
-%  ne contient aucun pixel sombre, le test de LONGUEUR rend n = 0 et le
-%  filet est ecarte avant le test du reste — que le releveur a d'ailleurs
-%  verifie : il valait 0, il n'y a pas de salete a droite. Filet a
-%  y = 1177 px, long de 207 px, continu au seuil 210.
-%  DEUX LIGNES INVISIBLES RETROUVEES, toutes deux dans les notes et
-%  toutes deux tres courtes : « p. 132. » (85 px) et « tiko. » (53 px).
-%  COQUILLES DE L'ORIGINAL, conservees : « p.497 » sans espace apres le
-%  point abreviatif, quand la meme page ecrit « p. 132. » et « p. 168 » ;
-%  et une liste composee en romain quand la liste strictement parallele
-%  de la ligne precedente est en gras.
+%  leaf 177 -- folio 173.
+%  A RULE TOO PALE, failure (a): at the ordinary threshold the starting
+%  window contains not one dark pixel, the LENGTH test returns n = 0
+%  and the rule is set aside before the test of the remainder -- which
+%  the surveyor checked in any case: it was 0, there is no speck on the
+%  right. Rule at y = 1177 px, 207 px long, continuous at threshold 210.
+%  TWO INVISIBLE LINES RECOVERED, both in the notes and both very
+%  short: « p. 132. » (85 px) and « tiko. » (53 px).
+%  TYPOS OF THE ORIGINAL, kept: « p.497 » with no space after the
+%  abbreviating stop, where the same page writes « p. 132. » and
+%  « p. 168 »; and a list set in roman where the strictly parallel list
+%  of the previous line is in bold.
 % -------------------------------------------------------------------
 \begin{VUpage}[177]{173}
 \VUnotes{105.24mm}{%
@@ -3696,13 +3701,13 @@ malgre la derivaji \textit{nacionala, kapala, folioza, haroza}. Pro quo
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 178 — folio 174.
-%  COQUILLES DE L'ORIGINAL, conservees : deux guillemets ouvrants
-%  jamais refermes ; et les initiales de l'auteur en capitales romaines
-%  ordinaires quand les autres noms d'auteurs sont en petites capitales.
-%  Le releveur signale deux fois le meme piege, tranche a
-%  l'agrandissement : des mots qui paraissent gras sur la bande sont
-%  romains, et le gras s'interrompt a l'interieur des parentheses.
+%  leaf 178 -- folio 174.
+%  TYPOS OF THE ORIGINAL, kept: two opening quotation marks never
+%  closed; and the author's initials in ordinary roman capitals where
+%  the other authors' names are in small capitals.
+%  The surveyor reports the same trap twice, settled under
+%  magnification: words that look bold on the strip are roman, and the
+%  bold breaks off inside the brackets.
 % -------------------------------------------------------------------
 \begin{VUpage}[178]{174}
 \VUnotes{138.58mm}{%
@@ -3755,17 +3760,16 @@ multa!)
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 179 — folio 175.
-%  DEUX LIGNES INVISIBLES RETROUVEES, toutes deux dans les notes :
-%  « e. c. (L. B.) » et « kalvini. ».
-%  LA SECONDE VALIDE UNE LECON DE L'OUTIL : le signalement « encre sous
-%  la derniere ligne » s'etait revele trois fois de la rousseur ; ici
-%  c'est un mot entier. Le releveur a cadre a 47 px a gauche de la marge
-%  et l'a lu sans peine — c'est exactement le cadrage que l'assembleur
-%  avait manque au feuillet 137, ou il avait pris un mot pour un jambage.
-%  PARTICULARITE DE L'ORIGINAL, conservee : le sigle « DFIS » en
-%  capitales romaines pleines, quand les autres titres cites sont en
-%  italique.
+%  leaf 179 -- folio 175.
+%  TWO INVISIBLE LINES RECOVERED, both in the notes: « e. c. (L. B.) »
+%  and « kalvini. ».
+%  THE SECOND VINDICATES A LESSON OF THE TOOL: the report « ink below
+%  the last line » had turned out three times to be foxing; here it is
+%  a whole word. The surveyor framed 47 px to the left of the margin
+%  and read it without trouble -- exactly the framing the assembler
+%  missed at leaf 137, where he took a word for a descender.
+%  A PARTICULARITY OF THE ORIGINAL, kept: the abbreviation « DFIS » in
+%  full roman capitals, where the other titles quoted are in italic.
 % -------------------------------------------------------------------
 \begin{VUpage}[179]{175}
 \VUnotes{115.57mm}{%
@@ -3819,20 +3823,21 @@ Exemple, se \textit{petrolnavo} divenas praktike dusenca, on devas
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 180 — folio 176. FIN DE LA DEUXIEME PARTIE.
-%  TROISIEME CAUSE DISTINCTE POUR « FILET NON TROUVE ». Ce n'est ni le
-%  seuil (143, 163, 173, 175, 177) ni la salete a droite (169) : ici le
-%  filet est a y = 377 px, au-DESSUS de la fenetre de recherche de
-%  filet.py, qui part de 0,25 H = 520. La page est presque vide et son
-%  bloc de notes remonte tres haut. Le filet passe les deux tests ; il
-%  n'est jamais examine. Consigne au LISEZ-MOI.
-%  Le releveur corrige aussi la lecture de la page : la ligne 4 n'est
-%  pas une ligne de corps renfoncee mais LA NOTE elle-meme.
-%  Le grand blanc qui precede « FINO. » est VIDE — pas d'ornement,
-%  contrairement a la fin de la premiere partie. Verifie au profil
-%  d'encre a quatre seuils et a l'agrandissement.
-%  PARTICULARITE DE L'ORIGINAL, conservee : pas de point apres « ideo »
-%  devant les initiales de l'auteur (blanc net de 18 px, lu au pixel).
+%  leaf 180 -- folio 176. END OF THE SECOND PART.
+%  A THIRD DISTINCT CAUSE FOR « RULE NOT FOUND ». It is neither the
+%  threshold (143, 163, 173, 175, 177) nor the speck on the right
+%  (169): here the rule is at y = 377 px, ABOVE the search window of
+%  rule.py, which starts at 0,25 H = 520. The page is almost empty and
+%  its block of notes rises very high. The rule passes both tests; it
+%  is never examined. Recorded in docs/journal.md.
+%  The surveyor also corrects the reading of the page: line 4 is not an
+%  indented line of body but THE NOTE itself.
+%  The large white before « FINO. » is EMPTY -- no ornament, unlike the
+%  end of the first part. Checked by the ink profile at four thresholds
+%  and under magnification.
+%  A PARTICULARITY OF THE ORIGINAL, kept: no full stop after « ideo »
+%  before the author's initials (a clean white of 18 px, read to the
+%  pixel).
 % -------------------------------------------------------------------
 \begin{VUpage}[180]{176}
 \VUnotes{37.85mm}{%
@@ -3847,10 +3852,10 @@ Simile, se \textit{senhari} esas dusenca, on devas uzar \textit{senhara}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillets 181 et 182 — folios 177 et 178 : BLANCS.
-%  Verifies a l'agrandissement par l'assembleur : les quelques bandes
-%  que le detecteur y releve sont des artefacts du pli et du bord de
-%  page, aucune n'est du texte.
+%  leaves 181 and 182 -- folios 177 and 178: BLANK.
+%  Checked under magnification by the assembler: the few bands the
+%  detector surveys there are artefacts of the fold and of the page's
+%  edge, none of them is text.
 % -------------------------------------------------------------------
 \begin{VUpage}[181]{}
 \end{VUpage}
@@ -3859,18 +3864,18 @@ Simile, se \textit{senhari} esas dusenca, on devas uzar \textit{senhara}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 183 — folio 179. OUVERTURE DES APPENDICES.
-%  La page ne porte PAS de folio courant : la premiere bande est le
-%  titre. Elle porte DEUX lignes centrees — un titre en capitales
-%  demi-grasses et, au-dessous, un sous-titre en bas de casse italique
-%  entre parentheses, d'un corps plus petit que le texte courant
-%  (hauteur de capitale 17 px contre 21 pour le corps).
-%  AUCUNE NOTE : le releveur a verifie le profil d'encre aux seuils 185,
-%  210 et 220 sous la derniere ligne — pas de filet. Les pages
-%  d'appendice n'en portent pas.
-%  LIGNE INVISIBLE RETROUVEE : « ad li. » », fin du premier alinea.
-%  Le second signalement, « deux lectures » a la ligne 2, est tranche :
-%  c'est le blanc qui suit le bloc de titre, la zone est vierge.
+%  leaf 183 -- folio 179. THE APPENDICES OPEN.
+%  The page carries NO running folio: the first band is the title. It
+%  carries TWO centred lines -- a title in semibold capitals and, below
+%  it, a subtitle in lower-case italic in brackets, of a smaller size
+%  than the running text (capital height 17 px against 21 for the body).
+%  NO NOTE: the surveyor checked the ink profile at thresholds 185, 210
+%  and 220 below the last line -- no rule. The appendix pages carry
+%  none.
+%  AN INVISIBLE LINE RECOVERED: « ad li. » », the end of the first
+%  paragraph.
+%  The second report, « two readings » at line 2, is settled: it is the
+%  white that follows the title block, the zone is blank.
 % -------------------------------------------------------------------
 \begin{VUpage}[183]{}
 \VUtitre{10.27pt}{-27}{L'ACENTIZO EN IDO.}
@@ -3917,13 +3922,13 @@ Pluse la regulo esas kelke ambigua : « la lasta kon\cc
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 184 — folio 180. Page d'appendice, SANS NOTES : le releveur
-%  a verifie le profil d'encre aux seuils 185, 210 et 220 sous la
-%  derniere ligne — rigoureusement nul.
-%  PARTICULARITES DE L'ORIGINAL, conservees : un mot d'une serie
-%  accentuee laisse sans accent ; l'alternance d'un accent circonflexe
-%  et d'un accent aigu sur le meme mot a deux lignes d'ecart ; et une
-%  forme cumulant l'accent orthographique francais et l'accent tonique.
+%  leaf 184 -- folio 180. An appendix page, WITH NO NOTES: the surveyor
+%  checked the ink profile at thresholds 185, 210 and 220 below the
+%  last line -- strictly nil.
+%  PARTICULARITIES OF THE ORIGINAL, kept: one word of an accented
+%  series left without its accent; the alternation of a circumflex and
+%  an acute on the same word two lines apart; and a form carrying both
+%  the French orthographic accent and the tonic accent.
 % -------------------------------------------------------------------
 \begin{VUpage}[184]{180}
 \VUcontinue
@@ -3976,13 +3981,13 @@ Citinte 34 vorti havanta per ica regulo acento « sur silabo\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 185 — folio 181. Page d'appendice, sans notes.
-%  LIGNE INVISIBLE RETROUVEE : « tionas : », tres haut dans la page,
-%  fin de l'alinea commence au folio precedent. Le releveur precise
-%  qu'il ne s'agit PAS de l'exception connue du verdict « double net »
-%  (un titre centre) : il n'y a pas de titre sur ce folio.
-%  IRREGULARITE DE L'ORIGINAL, conservee : une forme grecque en « ph »
-%  a cote de trois formes en « f », le passage citant la graphie latine.
+%  leaf 185 -- folio 181. An appendix page, with no notes.
+%  AN INVISIBLE LINE RECOVERED: « tionas : », very high in the page,
+%  the end of the paragraph begun on the previous folio. The surveyor
+%  makes clear that this is NOT the known exception to the verdict « a
+%  clean double » (a centred title): there is no title on this folio.
+%  AN IRREGULARITY OF THE ORIGINAL, kept: a Greek form in « ph » beside
+%  three forms in « f », the passage quoting the Latin spelling.
 % -------------------------------------------------------------------
 \begin{VUpage}[185]{181}
 \VUcontinue
@@ -4040,13 +4045,13 @@ kelka altra nacioni chanjis...
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 186 — folio 182. Page d'appendice, sans notes.
-%  PARTICULARITE DE L'ORIGINAL, conservee et signalee par le releveur
-%  comme voulue : sur la meme page, les finales nominales citees sont
-%  en GRAS et les finales verbales en ITALIQUE. Tranche au grossissement
-%  x 8, c'est le seul point qui demandait ce grossissement.
-%  Un guillemet ouvrant n'est referme nulle part sur ce folio : la
-%  citation court au-dela.
+%  leaf 186 -- folio 182. An appendix page, with no notes.
+%  A PARTICULARITY OF THE ORIGINAL, kept and reported by the surveyor
+%  as intended: on the same page, the nominal endings quoted are in
+%  BOLD and the verbal endings in ITALIC. Settled at magnification x 8,
+%  it is the only point that asked for that magnification.
+%  An opening quotation mark is closed nowhere on this folio: the
+%  quotation runs on beyond it.
 % -------------------------------------------------------------------
 \begin{VUpage}[186]{182}
 Pos tante bona demonstro l'Akademio povis nur adoptar\nl
@@ -4096,19 +4101,20 @@ regulo, ma fonetikal fakto universala, ke la vokali \textit{i} e \textit{u}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 187 — folio 183. OUVERTURE DE L'APPENDICE 2.
-%  Trois elements d'apparat, dans cet ordre : un ORNEMENT (filet nu de
-%  93 px = 7,9 mm, centre), puis le titre en capitales demi-grasses,
-%  puis un sous-titre italique entre parentheses, d'un corps plus petit
-%  que le texte courant.
-%  FILET DES NOTES : panne (a), trop pale. Le releveur l'a etablie en
-%  rejouant le detecteur — un grain isole a x = 95 fixe le depart, puis
-%  neuf pixels clairs que la fermeture ne soude pas, et la longueur
-%  tombe a 1 ou 2 px. Il ecarte (b) par mesure (reste = 4 et 6, sous le
-%  seuil) et (c) par position (le filet est bien dans la fenetre).
-%  PARTICULARITE DE L'ORIGINAL, conservee : les lettres citees changent
-%  d'enrichissement sur la meme page — s en gras trois fois puis en
-%  italique, n en italique puis en gras.
+%  leaf 187 -- folio 183. APPENDIX 2 OPENS.
+%  Three elements of apparatus, in this order: an ORNAMENT (a bare rule
+%  of 93 px = 7,9 mm, centred), then the title in semibold capitals,
+%  then an italic subtitle in brackets, of a smaller size than the
+%  running text.
+%  THE NOTE RULE: failure (a), too pale. The surveyor established it by
+%  replaying the detector -- an isolated speck at x = 95 fixes the
+%  start, then nine light pixels the closing does not weld, and the
+%  length falls to 1 or 2 px. He rules out (b) by measurement
+%  (remainder = 4 and 6, under the threshold) and (c) by position (the
+%  rule is indeed inside the window).
+%  A PARTICULARITY OF THE ORIGINAL, kept: the letters quoted change
+%  their enrichment on the same page -- s in bold three times and then
+%  in italic, n in italic and then in bold.
 % -------------------------------------------------------------------
 \begin{VUpage}[187]{183}
 \VUnotes{127.59mm}{%
@@ -4167,11 +4173,12 @@ marko (3).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 188 — folio 184.
-%  LIGNE INVISIBLE RETROUVEE : « olu. », au fer, fin du deuxieme alinea
-%  de la note (2). Le verdict « double net » garde son score.
-%  COQUILLES DE L'ORIGINAL, conservees : « niaopinione » agglutine et
-%  « lon » pour l'on.
+%  leaf 188 -- folio 184.
+%  AN INVISIBLE LINE RECOVERED: « olu. », flush left, the end of the
+%  second paragraph of note (2). The verdict « a clean double » keeps
+%  its score.
+%  TYPOS OF THE ORIGINAL, kept: « niaopinione » run together and
+%  « lon » for l'on.
 % -------------------------------------------------------------------
 \begin{VUpage}[188]{184}
 \VUnotes{123.11mm}{%
@@ -4226,15 +4233,15 @@ tilajo qua fakte pruvus nia aserto (2).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 189 — folio 185.
-%  FILET DES NOTES : panne (a), trop pale, etablie par le meme procede
-%  qu'au feuillet 187 — l'extremite gauche du trait tombe sous le seuil,
-%  la fermeture de 7 px ne soude pas le trou de 12 px, et la longueur
-%  retombe a 1. Filet a y = 1038 px, ordonnee 93,98 mm.
-%  COQUILLES DE L'ORIGINAL, conservees : « specala » pour speciala ;
-%  « rispektive » pour respektive ; et « e. c. e. c. » repete.
-%  PARTICULARITE conservee : dans une meme enumeration de mots francais,
-%  deux d'entre eux sont en italique quand tous les autres sont en gras.
+%  leaf 189 -- folio 185.
+%  THE NOTE RULE: failure (a), too pale, established by the same means
+%  as at leaf 187 -- the left end of the stroke falls under the
+%  threshold, the closing of 7 px does not weld the hole of 12 px, and
+%  the length falls back to 1. Rule at y = 1038 px, ordinate 93,98 mm.
+%  TYPOS OF THE ORIGINAL, kept: « specala » for speciala;
+%  « rispektive » for respektive; and « e. c. e. c. » repeated.
+%  A PARTICULARITY kept: in one and the same enumeration of French
+%  words, two of them are in italic where all the others are in bold.
 % -------------------------------------------------------------------
 \begin{VUpage}[189]{185}
 \VUnotes{93.98mm}{%
@@ -4291,17 +4298,17 @@ ma la L. I. ne indikas la pluralo en sua determinanti : \textit{la}\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 190 — folio 186.
-%  ASTERISME, ornement neuf dans le volume : trois asterisques en
-%  triangle entre deux alineas, la ou la premiere partie se contentait
-%  d'un filet. Verifie a l'agrandissement par l'assembleur ; d'ou la
-%  macro \VUasterismo, ajoutee au preambule.
-%  LIGNE INVISIBLE RETROUVEE : « à 'tush. », troisieme ligne de la
-%  note (1), large de 85 px seulement.
-%  Le releveur signale que la geometrie est fausse a une ligne : une
-%  salete isolee gonfle la boite et donne un « fin » trompeur.
-%  PARTICULARITE DE L'ORIGINAL, conservee : la meme desinence citee est
-%  tantot en gras, tantot en romain, cinq fois sur la page.
+%  leaf 190 -- folio 186.
+%  AN ASTERISM, an ornament new to the volume: three asterisks in a
+%  triangle between two paragraphs, where the first part made do with a
+%  rule. Checked under magnification by the assembler; hence the macro
+%  \VUasterismo, added to the preamble.
+%  AN INVISIBLE LINE RECOVERED: « à 'tush. », the third line of note
+%  (1), only 85 px wide.
+%  The surveyor reports that the geometry is wrong on one line: an
+%  isolated speck inflates the box and gives a misleading « fin ».
+%  A PARTICULARITY OF THE ORIGINAL, kept: the same ending quoted is now
+%  in bold, now in roman, five times on the page.
 % -------------------------------------------------------------------
 \begin{VUpage}[190]{186}
 \VUnotes{129.54mm}{%
@@ -4361,17 +4368,18 @@ L'Italiana qua facis \textit{uomini} de \textit{homines}, \textit{duca} de \text
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 191 — folio 187.
-%  FILET DES NOTES : panne (a), trop pale. Le releveur l'a etablie en
-%  rejouant le detecteur seuil par seuil — a 185 et 190 la longueur vaut
-%  1 px, a 195 elle vaut 208 et le reste 0. Il ecarte (c) par position
-%  (le filet est a 0,57 H, la fenetre part de 0,25 H) et (b) par mesure
-%  (reste = 0). Filet a y = 1184 px, ordonnee 105,16 mm.
-%  COQUILLE DE L'ORIGINAL, conservee : « diciplino » pour disciplino.
-%  Le releveur signale que outils/graisse.py est inutilisable sur le
-%  corps de cette page : il declare GRAS les vingt-deux lignes sans
-%  exception, verdict uniforme donc suspect. Tranche a l'oeil : aucun
-%  gras dans le corps.
+%  leaf 191 -- folio 187.
+%  THE NOTE RULE: failure (a), too pale. The surveyor established it by
+%  replaying the detector threshold by threshold -- at 185 and 190 the
+%  length is 1 px, at 195 it is 208 and the remainder 0. He rules out
+%  (c) by position (the rule is at 0,57 H, the window starts at 0,25 H)
+%  and (b) by measurement (remainder = 0). Rule at y = 1184 px,
+%  ordinate 105,16 mm.
+%  A TYPO OF THE ORIGINAL, kept: « diciplino » for disciplino.
+%  The surveyor reports that tools/weight.py is unusable on this page's
+%  body: it declares all twenty-two lines BOLD without exception, a
+%  uniform verdict and therefore a suspect one. Settled by eye: no bold
+%  in the body.
 % -------------------------------------------------------------------
 \begin{VUpage}[191]{187}
 \VUnotes{106.34mm}{%
@@ -4427,16 +4435,16 @@ ke fine li decidos e rezolvos por ni (1).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 192 — folio 188. OUVERTURE DE L'APPENDICE 3.
-%  Titre en capitales demi-grasses et sous-titre italique entre
-%  parentheses, sans ornement au-dessus — contrairement a l'appendice 2,
-%  qui s'ouvrait sur un filet. Verifie : l'espace entre le folio et le
-%  titre est entierement blanc.
-%  Le signalement « deux lectures » a la ligne 3 est tranche : c'est le
-%  blanc qui suit le bloc de titre, la zone est vierge.
-%  PARTICULARITE DE L'ORIGINAL, conservee : le meme nom d'auteur est
-%  introduit par « Sioro » en toutes lettres a une ligne et par
-%  l'abreviation en exposant huit lignes plus bas.
+%  leaf 192 -- folio 188. APPENDIX 3 OPENS.
+%  A title in semibold capitals and an italic subtitle in brackets,
+%  with no ornament above -- unlike appendix 2, which opened on a rule.
+%  Checked: the space between the folio and the title is entirely
+%  white.
+%  The report « two readings » at line 3 is settled: it is the white
+%  that follows the title block, the zone is blank.
+%  A PARTICULARITY OF THE ORIGINAL, kept: the same author's name is
+%  introduced by « Sioro » written out on one line and by the superior
+%  abbreviation eight lines below.
 % -------------------------------------------------------------------
 \begin{VUpage}[192]{188}
 \VUnotes{114.15mm}{%
@@ -4493,12 +4501,12 @@ indikas la genro.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 193 — folio 189.
-%  COQUILLES DE L'ORIGINAL, conservees : « special » sans -a devant un
-%  substantif, deux fois ; « a ni » puis « ad ni » dans deux tournures
-%  identiques ; et un guillemet ouvrant jamais referme.
-%  Le releveur signale deux fausses lectures evitees a l'agrandissement,
-%  toutes deux sur la meme ligature serree.
+%  leaf 193 -- folio 189.
+%  TYPOS OF THE ORIGINAL, kept: « special » without its -a before a
+%  noun, twice; « a ni » and then « ad ni » in two identical turns of
+%  phrase; and an opening quotation mark never closed.
+%  The surveyor reports two false readings avoided under magnification,
+%  both on the same tight ligature.
 % -------------------------------------------------------------------
 \begin{VUpage}[193]{189}
 \VUnotes{156.21mm}{%
@@ -4552,17 +4560,17 @@ dicar \textit{agna} (1).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 194 — folio 190.
-%  FILET DES NOTES : panne (c), trop haut — le cas le plus net du
-%  volume. Le filet est a y = 450 px quand la fenetre de recherche part
-%  de 0,25 H = 516. Le releveur a etabli par mesure que les deux autres
-%  tests passent (longueur 213 px, reste 2) et a verifie en rejouant le
-%  detecteur avec la seule fenetre elargie : il le trouve aussitot.
-%  Ordonnee 44,79 mm.
-%  LIGNE INVISIBLE RETROUVEE : « (frato). », huit signes, absente de la
-%  geometrie.
-%  COQUILLE DE L'ORIGINAL, conservee : « evas » pour esas, verifiee a
-%  l'agrandissement x 6.
+%  leaf 194 -- folio 190.
+%  THE NOTE RULE: failure (c), too high -- the clearest case in the
+%  volume. The rule is at y = 450 px where the search window starts at
+%  0,25 H = 516. The surveyor established by measurement that the other
+%  two tests pass (length 213 px, remainder 2) and checked it by
+%  replaying the detector with the window alone widened: it finds it at
+%  once. Ordinate 44,79 mm.
+%  AN INVISIBLE LINE RECOVERED: « (frato). », eight characters, absent
+%  from the geometry.
+%  A TYPO OF THE ORIGINAL, kept: « evas » for esas, checked under
+%  magnification at x 6.
 % -------------------------------------------------------------------
 \begin{VUpage}[194]{190}
 \VUnotes{44.79mm}{%
@@ -4624,13 +4632,13 @@ la feminalo ek ta lasta. Ica procedo stranja « evas de ta\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 195 — folio 191.
-%  LIGNE INVISIBLE RETROUVEE : « p. 37) : », qui clot un alinea de la
-%  note (3), large de 180 px.
-%  PARTICULARITES DE L'ORIGINAL, conservees : un blanc franc entre la
-%  parenthese et le point final a la derniere ligne du corps ; et, dans
-%  la citation en esperanto, les digrammes et l'accent grave de
-%  l'orthographe ancienne, conserves tels quels.
+%  leaf 195 -- folio 191.
+%  AN INVISIBLE LINE RECOVERED: « p. 37) : », which closes a paragraph
+%  of note (3), 180 px wide.
+%  PARTICULARITIES OF THE ORIGINAL, kept: a clear white between the
+%  bracket and the final stop on the last line of the body; and, in the
+%  Esperanto quotation, the digraphs and the grave accent of the old
+%  orthography, kept as they stand.
 % -------------------------------------------------------------------
 \begin{VUpage}[195]{191}
 \VUnotes{90.85mm}{%
@@ -4688,10 +4696,10 @@ ceteri, natural od artificala (3) .
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 196 — folio 192.
-%  PARTICULARITES DE L'ORIGINAL, conservees : le meme mot cite est en
-%  italique puis en romain dans la meme phrase ; et la particule
-%  interrogative alterne entre deux formes sur la meme page.
+%  leaf 196 -- folio 192.
+%  PARTICULARITIES OF THE ORIGINAL, kept: the same quoted word is in
+%  italic and then in roman in the same sentence; and the interrogative
+%  particle alternates between two forms on the same page.
 % -------------------------------------------------------------------
 \begin{VUpage}[196]{192}
 \VUnotes{136.06mm}{%
@@ -4746,16 +4754,16 @@ uzo maxim utila certe esas karakterizar la diversa speci di\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 197 — folio 193. Premiere page d'un cahier : elle porte la
-%  SIGNATURE « 7 » sous le bloc de notes, a gauche. Encre relevee de
-%  y 1882 a 1908 px, x 95 a 111, soit un renfoncement de +38 px — le
-%  meme que les alineas de note.
-%  Le releveur signale une lecture qui ne se voit qu'a l'agrandissement :
-%  un mot compose MOITIE ROMAIN MOITIE ITALIQUE, que la taille reelle
-%  donne pour tout italique.
-%  Il signale aussi que les « ind » de la geometrie sont trompeurs sur
-%  les lignes ouvertes par un cadratin : le detecteur accroche la
-%  capitale et non le tiret.
+%  leaf 197 -- folio 193. The first page of a gathering: it carries the
+%  SIGNATURE « 7 » under the block of notes, on the left. Ink surveyed
+%  from y 1882 to 1908 px, x 95 to 111, that is an indent of +38 px --
+%  the same as the paragraphs of note.
+%  The surveyor reports a reading that shows only under magnification:
+%  a compound set HALF ROMAN HALF ITALIC, which at actual size passes
+%  for all italic.
+%  He also reports that the « ind » of the geometry are misleading on
+%  lines opened by an em dash: the detector catches the capital and not
+%  the dash.
 % -------------------------------------------------------------------
 \begin{VUpage}[197]{193}
 \VUsignature{170.01mm}{7}
@@ -4815,15 +4823,15 @@ tam bona kam \textit{fortiter}, \textit{fortim}, \textit{fortemen}, \textit{fort
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 198 — folio 194.
-%  LIGNE INVISIBLE RETROUVEE, et c'est LA PREMIERE DU CORPS — le cas le
-%  plus consequent du volume, puisqu'une premiere ligne absente decale
-%  toute la page. Elle est courte (162 px), ouverte par un cadratin, et
-%  forme a elle seule un alinea. Aucun depistage ne l'avait signalee :
-%  le releveur l'a trouvee parce que son compte de lignes ne tombait pas
-%  juste. Verifiee a l'agrandissement x 6 par l'assembleur.
-%  PARTICULARITE DE L'ORIGINAL, conservee : une virgule la ou la phrase
-%  strictement parallele, quatre lignes plus haut, porte un point-virgule.
+%  leaf 198 -- folio 194.
+%  AN INVISIBLE LINE RECOVERED, and it is THE FIRST OF THE BODY -- the
+%  weightiest case in the volume, since a missing first line shifts the
+%  whole page. It is short (162 px), opened by an em dash, and forms a
+%  paragraph on its own. No detection had reported it: the surveyor
+%  found it because his count of lines would not come out right.
+%  Checked under magnification at x 6 by the assembler.
+%  A PARTICULARITY OF THE ORIGINAL, kept: a comma where the strictly
+%  parallel sentence, four lines above, carries a semicolon.
 % -------------------------------------------------------------------
 \begin{VUpage}[198]{194}
 \VUnotes{147.15mm}{%
@@ -4876,18 +4884,18 @@ Kompreneble, se altra vorto, exemple pronomo personala,\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 199 — folio 195. OUVERTURE DE L'APPENDICE 4.
-%  Ornement (filet de 96 px = 8,13 mm, centre), titre en capitales
-%  demi-grasses, sous-titre italique entre parentheses.
-%  DEUX LIGNES INVISIBLES RETROUVEES : « tikala. » (fin d'alinea, avant
-%  l'ornement) et « homino. » (fin de la note 3).
-%  Le releveur a tranche les QUATRE signalements de la page : la ligne 5
-%  cachait a la fois une ligne manquante ET l'ornement ; la ligne 7 est
-%  le blanc d'apres-titre ; la ligne 18 est le filet des notes.
-%  PARTICULARITES DE L'ORIGINAL, conservees : un proverbe francais et
-%  une citation latine composes en ROMAIN, quand le volume italise
-%  partout ailleurs ce qui est cite d'une autre langue ; et une
-%  metathese dans un mot repete correctement sur la meme ligne.
+%  leaf 199 -- folio 195. APPENDIX 4 OPENS.
+%  An ornament (a rule of 96 px = 8,13 mm, centred), a title in
+%  semibold capitals, an italic subtitle in brackets.
+%  TWO INVISIBLE LINES RECOVERED: « tikala. » (the end of a paragraph,
+%  before the ornament) and « homino. » (the end of note 3).
+%  The surveyor settled all FOUR reports on the page: line 5 hid both a
+%  missing line AND the ornament; line 7 is the white after the title;
+%  line 18 is the note rule.
+%  PARTICULARITIES OF THE ORIGINAL, kept: a French proverb and a Latin
+%  quotation set in ROMAN, where the volume everywhere else italicises
+%  what is quoted from another language; and a metathesis in a word
+%  repeated correctly on the same line.
 % -------------------------------------------------------------------
 \begin{VUpage}[199]{195}
 \VUnotes{107.74mm}{%
@@ -4946,13 +4954,13 @@ e ne la blindeso; konseque \VUgras{blindo} = \VUgras{ento} (praktike homo)\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 200 — folio 196.
-%  LIGNE INVISIBLE RETROUVEE : « vorti : », large de 110 px, fin
-%  d'alinea. Ce n'etait pas l'exception connue du verdict « double
-%  net » : il n'y a pas de titre a cet endroit.
-%  Le releveur signale trois fausses lectures de graisse evitees a
-%  l'agrandissement, toutes dans le meme sens : la bande faisait
-%  paraitre gras des mots romains.
+%  leaf 200 -- folio 196.
+%  AN INVISIBLE LINE RECOVERED: « vorti : », 110 px wide, the end of a
+%  paragraph. It was not the known exception to the verdict « a clean
+%  double »: there is no title at that place.
+%  The surveyor reports three false readings of weight avoided under
+%  magnification, all in the same direction: the strip made roman words
+%  look bold.
 % -------------------------------------------------------------------
 \begin{VUpage}[200]{196}
 \VUnotes{120.31mm}{%
@@ -5006,12 +5014,12 @@ tingar la kozi (3).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 201 — folio 197.
-%  Le releveur a corrige DEUX erreurs de son propre bloc avant de le
-%  rendre — une petite capitale posee a tort et un groupe de gras
-%  inutilement coupe — plutot que de les laisser passer.
-%  COQUILLE DE L'ORIGINAL, conservee : deux guillemets ouvrants de
-%  suite, dont aucun n'est ferme.
+%  leaf 201 -- folio 197.
+%  The surveyor corrected TWO errors of his own block before handing it
+%  in -- a small capital wrongly laid and a group of bold needlessly
+%  broken -- rather than let them pass.
+%  A TYPO OF THE ORIGINAL, kept: two opening quotation marks in a row,
+%  neither of which is closed.
 % -------------------------------------------------------------------
 \begin{VUpage}[201]{197}
 \VUnotes{146.56mm}{%
@@ -5063,10 +5071,10 @@ kozi; esas do tote neutila adjuntar a li la sufixo \VUgras{-aj}. Same\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  feuillet 202 — folio 198.
-%  PARTICULARITE DE L'ORIGINAL, conservee : sur la meme page, la meme
-%  desinence citee est tantot en gras, tantot en romain — le releveur
-%  l'a tranchee au grossissement 10 en comparant les delies.
+%  leaf 202 -- folio 198.
+%  A PARTICULARITY OF THE ORIGINAL, kept: on the same page, the same
+%  ending quoted is now in bold, now in roman -- the surveyor settled
+%  it at magnification 10 by comparing the hairlines.
 % -------------------------------------------------------------------
 \begin{VUpage}[202]{198}
 \VUnotes{135.38mm}{%
@@ -5381,28 +5389,29 @@ l'unesmi (1).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 208 — LA SEULE PAGE DU VOLUME ENTIEREMENT AU CORPS DES
-%  NOTES. La note (1) ouverte au folio 203 deborde et prend le folio
-%  204 tout entier : quarante-trois lignes. Trois mesures le montrent
-%  et non le supposent — hauteur d'x 15-16 px sur les quarante-six
-%  lignes (19-20 px au corps ordinaire) ; pas des lignes de base
-%  33,76 px = 8,13 pt de bout en bout ; et le raccord de sens, la
-%  derniere ligne du folio 203 s'achevant sur « ad omna » que la
-%  premiere du 204 continue par « ideo abstraktita ».
-%  C'est ce pas unique qui rendait « pas -1.00 » a la geometrie : le
-%  detecteur mesurait y0, qui saute de dix pixels selon les hampes.
+%  LEAF 208 -- THE ONLY PAGE IN THE VOLUME ENTIRELY AT THE SIZE OF THE
+%  NOTES. Note (1), opened at folio 203, overruns and takes the whole
+%  of folio 204: forty-three lines. Three measurements show this rather
+%  than suppose it -- an x-height of 15-16 px over the forty-six lines
+%  (19-20 px at the ordinary size); a pitch of the baselines of
+%  33,76 px = 8,13 pt from end to end; and the join in the sense, the
+%  last line of folio 203 ending on « ad omna » which the first of 204
+%  continues with « ideo abstraktita ».
+%  It is that unique pitch that returned « pas -1.00 » to the geometry:
+%  the detector was measuring y0, which jumps ten pixels according to
+%  the ascenders.
 %
-%  IL N'Y A PAS DE FILET. Cherche au pixel : aucune encre entre
-%  y=1688 et y=1735, quand celui du feuillet 207 se leve net a 213 px.
-%  Le compositeur n'avait rien dont il eut du distinguer sa note (*) :
-%  la page etait deja tout entiere au corps des notes. D'ou
-%  \VUnotes[0pt].  Ordonnee : le filet manquant serait a y=1685
-%  (1736 moins les 51 px qui separent filet et premiere ligne de note
-%  au feuillet 207), soit 24,30 + (1685-248) x 25,4/300 = 145,97 mm.
+%  THERE IS NO RULE. Looked for to the pixel: no ink between y=1688 and
+%  y=1735, where leaf 207's rises clean at 213 px. The compositor had
+%  nothing from which he had to distinguish his note (*): the page was
+%  already entirely at the size of the notes. Hence \VUnotes[0pt].
+%  Ordinate: the missing rule would be at y=1685 (1736 less the 51 px
+%  that separate rule from first line of note at leaf 207), that is
+%  24,30 + (1685-248) x 25,4/300 = 145,97 mm.
 %
-%  UNE LIGNE MANQUAIT A LA GEOMETRIE : « bela. », 65 px de large,
-%  sous le seuil du detecteur — c'est la panne connue des lignes tres
-%  courtes. Le compte reel est de 46 lignes, non 45.
+%  ONE LINE WAS MISSING FROM THE GEOMETRY: « bela. », 65 px wide, under
+%  the detector's threshold -- the known failure on very short lines.
+%  The true count is 46 lines, not 45.
 % -------------------------------------------------------------------
 \begin{VUpage}[208]{204}
 \VUnotes[0pt]{145.97mm}{%
@@ -5511,12 +5520,12 @@ komuna di ula importanta vorti di nia moderna lingui, e\nl
 
 \begin{VUpage}[210]{206}
 \VUnotes{150.88mm}{%
-% LE BLANC ENTRE FILET ET PREMIERE NOTE EST PLUS LARGE ICI qu ailleurs
-% dans le volume : 48 px au fac-simile, quand le feuillet 209 en donne
-% 27 et que \VUsautFilet en pose 19. Le filet, lui, est bien a sa place
-% (y=1744, 213 px, verifie a l oeil et par outils/filet.py). On ajoute
-% donc le surplus DANS le bloc, plutot que de descendre le filet de
-% 20 px pour caler le texte : le filet est visible, on ne le deplace pas.
+% THE WHITE BETWEEN RULE AND FIRST NOTE IS WIDER HERE than elsewhere
+% in the volume: 48 px in the facsimile, where leaf 209 gives 27 and
+% \VUsautFilet lays 19. The rule itself is duly in place (y=1744,
+% 213 px, checked by eye and by tools/rule.py). We therefore add the
+% surplus INSIDE the block, rather than lowering the rule by 20 px to
+% set the text: the rule is visible, and we do not move it.
 \VUblanc{1.69mm}
 (1) \textit{Corespondense international} n\textsuperscript{o} 9 (\textit{Progreso}, n\textsuperscript{o} 11, p. 681).
 
@@ -5569,16 +5578,16 @@ lu (artikulata).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 211 — L'EXCES DE L'INDICE 30 N'EST PAS LE FILET, C'EST UN
-%  ASTERISME. Le filet est a y=1626 (211 px), entre les indices 31 et
-%  32 ; le bloc des notes occupe donc les indices 32 a 38, non 30 a 38.
-%  Les trois asterisques en triangle sont a y 1434-1471, verifies a x8.
-%  Ordonnee calculee comme celle du feuillet 190, dont \VUasterismo
-%  reproduit la valeur exactement : 24,30 + (1435-243) x 25,4/300.
-%  La note (2) s'acheve sur « p. 266, », parenthese non fermee : le
-%  folio 208 ne porte AUCUNE note (verifie au pixel sur toute la
-%  hauteur, et tous ses pas valent 41 px), la note est donc coupee
-%  dans l'original. Conserve tel quel.
+%  LEAF 211 -- THE EXCESS AT INDEX 30 IS NOT THE RULE, IT IS AN
+%  ASTERISM. The rule is at y=1626 (211 px), between indices 31 and 32;
+%  the block of notes therefore occupies indices 32 to 38, not 30 to 38.
+%  The three asterisks in a triangle are at y 1434-1471, checked at x8.
+%  Ordinate computed as at leaf 190, whose value \VUasterismo
+%  reproduces exactly: 24,30 + (1435-243) x 25,4/300.
+%  Note (2) ends on « p. 266, », the bracket unclosed: folio 208
+%  carries NO note (checked to the pixel over its whole height, and all
+%  its pitches are 41 px), so the note is cut off in the original. Kept
+%  as it stands.
 % -------------------------------------------------------------------
 \begin{VUpage}[211]{207}
 \VUnotes{141.39mm}{%
@@ -5634,12 +5643,12 @@ esar adminime kelke arbitriala. Oportus remplasigar li per
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 212 — PAGE SANS AUCUNE NOTE. Cherche au pixel sur toute
-%  la hauteur, hors de la fenetre de outils/filet.py et avec un seuil
-%  de longueur abaisse a 60 px : aucun candidat. Les seuls segments
-%  longs et propres sont le bord noir du scan, 150 px au-dessus du
-%  folio. Tous les pas de ligne de base valent 41 a 45 px, jamais les
-%  ~33 px d'un bloc de notes.
+%  LEAF 212 -- A PAGE WITH NO NOTE AT ALL. Looked for to the pixel over
+%  the whole height, outside the window of tools/rule.py and with the
+%  length threshold lowered to 60 px: no candidate. The only long and
+%  clean segments are the black edge of the scan, 150 px above the
+%  folio. Every pitch of the baselines is 41 to 45 px, never the ~33 px
+%  of a block of notes.
 % -------------------------------------------------------------------
 \begin{VUpage}[212]{208}
 \VUcontinue
@@ -5695,16 +5704,17 @@ E pri \VUgras{-is}, ka ne existas en la Latina, ye la duesma per\cc
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 213 — CINQUIEME CAUSE DE « FILET INTROUVABLE ». Le filet
-%  est parfait : y=1372, 214 px, cale sur la marge, franc a l'oeil.
-%  Dix pixels de crasse a x = 1073-1082, AU MILIEU de la colonne,
-%  portaient le « reste » a 10 pour un seuil de 6. La marge BORD, posee
-%  pour la tranche du feuillet voisin, ne protege que du bord droit.
-%  Corrige dans outils/filet.py : on juge desormais sur la taille du
-%  plus gros amas, non sur le seul total.
-%  Ordonnee : 24,30 + (1372-227) x 25,4/300 = 121,24 mm.
-%  Le bloc de notes est UNE note (1) en trois alineas : le corps
-%  n'appelle qu'un seul « (1) ».
+%  LEAF 213 -- A FIFTH CAUSE OF « RULE NOT FOUND ». The rule is
+%  perfect: y=1372, 214 px, set on the margin, clean to the eye.
+%  Ten pixels of dirt at x = 1073-1082, IN THE MIDDLE of the column,
+%  carried the « remainder » to 10 for a threshold of 6. The BORD
+%  margin, laid for the neighbouring leaf's fore-edge, protects only
+%  against the right edge.
+%  Fixed in tools/rule.py: we now judge on the size of the largest
+%  cluster, not on the total alone.
+%  Ordinate: 24,30 + (1372-227) x 25,4/300 = 121,24 mm.
+%  The block of notes is ONE note (1) in three paragraphs: the body
+%  calls only one « (1) ».
 % -------------------------------------------------------------------
 \begin{VUpage}[213]{209}
 \VUnotes{120.56mm}{%
@@ -5767,16 +5777,16 @@ zentas \textit{os} kom final sono plu ofte kam la substantivi.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 214 — LA GEOMETRIE DIT « exces : aucun » ET C'EST FAUX :
-%  146 px separent l'indice 34 de l'indice 35, et le filet est a
-%  y=1698 entre les deux. Le detecteur d'exces a manque le saut ; ce
-%  sont les y0 qui font foi.
+%  LEAF 214 -- THE GEOMETRY SAYS « excess: none » AND IT IS WRONG:
+%  146 px separate index 34 from index 35, and the rule is at y=1698
+%  between the two. The excess detector missed the jump; it is the y0
+%  that are authoritative.
 % -------------------------------------------------------------------
 \begin{VUpage}[214]{210}
 \VUnotes{148.00mm}{%
-% Meme blanc large qu au folio 206 : 52 px du filet a la premiere
-% note, quand le feuillet 209 en donne 27. Le filet est bien a sa
-% place (y=1698, 212 px) ; le surplus va DANS le bloc.
+% The same wide white as at folio 206: 52 px from the rule to the
+% first note, where leaf 209 gives 27. The rule is duly in place
+% (y=1698, 212 px); the surplus goes INSIDE the block.
 \VUblanc{2.12mm}
 (1) L'imperativo (o plu bone \textit{volitivo}) \textit{tale formacata} \textit{(ven-ez)}\nl
 semblas a ni nek min ciencala (nam on sempre alegas la cienco) nek\nl
@@ -5826,11 +5836,11 @@ Fakte nia kontrediceri \textit{chikanas} nur pri l'infinitivo futura,\parplein
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 215 — LIGNE INVISIBLE RETROUVEE : « nitivo. », 106 px de
-%  large, entre les indices 4 et 5 de la geometrie. L'exces de 41,6 px
-%  qu'annoncait le detecteur n'etait pas un blanc mais un interligne
-%  entier : la ligne y etait, sous le seuil d'encre. Verifiee a x7.
-%  Le corps compte donc 32 lignes, non 31.
+%  LEAF 215 -- AN INVISIBLE LINE RECOVERED: « nitivo. », 106 px wide,
+%  between indices 4 and 5 of the geometry. The excess of 41,6 px the
+%  detector announced was not a white but a whole leading: the line was
+%  there, under the ink threshold. Checked at x7.
+%  The body therefore counts 32 lines, not 31.
 % -------------------------------------------------------------------
 \begin{VUpage}[215]{211}
 \VUnotes{139.28mm}{%
@@ -5885,19 +5895,19 @@ Ma, on objecionas ankore, pro quo \textit{sis} participi, kande\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 216 — TROISIEME ASTERISME DU VOLUME, apres les feuillets
-%  190 et 211. Le detecteur ne l'a pas signale : l'intervalle qui le
-%  porte vaut exactement quatre pas (166,9 px pour 4 x 41,40), si bien
-%  qu'aucun « exces » n'en sortait. Mesure : rang haut y 1232-1247,
-%  rang bas y 1254-1269, ecart 22 px, asterisques bas a 61 px l'un de
-%  l'autre, centre x 750 quand le milieu de la justification tombe a
-%  749,5. Au pixel les memes valeurs que les deux autres.
-%  Ordonnee : 24,30 + (1232-248) x 25,4/300 = 107,61 mm.
-%  PAGE SANS NOTE, la deuxieme du volume apres le feuillet 212 : les
-%  trois segments qu'un balayage grossier signalait (y 639, 764, 1629)
-%  sont des lignes de texte soudees par la fermeture morphologique,
-%  longues de 106 a 127 px quand un filet en mesure 213 ; celle de
-%  y=1629 a ete lue a l'agrandissement et porte du texte.
+%  LEAF 216 -- THE VOLUME'S THIRD ASTERISM, after leaves 190 and 211.
+%  The detector did not report it: the interval that carries it is
+%  exactly four pitches (166,9 px for 4 x 41,40), so that no « excess »
+%  came out of it. Measurements: upper row y 1232-1247, lower row
+%  y 1254-1269, gap 22 px, lower asterisks 61 px apart, centre x 750
+%  where the middle of the measure falls at 749,5. To the pixel, the
+%  same values as the other two.
+%  Ordinate: 24,30 + (1232-248) x 25,4/300 = 107,61 mm.
+%  A PAGE WITH NO NOTE, the volume's second after leaf 212: the three
+%  segments a coarse sweep reported (y 639, 764, 1629) are lines of
+%  text welded by the morphological closing, 106 to 127 px long where a
+%  rule measures 213; the one at y=1629 was read under magnification
+%  and carries text.
 % -------------------------------------------------------------------
 \begin{VUpage}[216]{212}
 \VUasterismo{107.61mm}
@@ -5948,12 +5958,12 @@ pro ke ol esas absurda); pro to Ido evitis lu.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 217 — TROISIEME PAGE SANS NOTE, et une ligne invisible de
-%  plus : « jugo! », 90 px de large, entre les indices 30 et 31. Elle
-%  ne porte que 8 % de l'encre d'une ligne pleine — la signature
-%  connue. Le corps compte 41 lignes, non 40.
-%  Aucun segment horizontal de 90 px ou plus sur toute la page : ici
-%  « filet non trouve » est la bonne reponse, non une panne.
+%  LEAF 217 -- A THIRD PAGE WITH NO NOTE, and one more invisible line:
+%  « jugo! », 90 px wide, between indices 30 and 31. It carries only
+%  8 % of the ink of a full line -- the known signature. The body
+%  counts 41 lines, not 40.
+%  No horizontal segment of 90 px or more anywhere on the page: here
+%  « rule not found » is the right answer, not a failure.
 % -------------------------------------------------------------------
 \begin{VUpage}[217]{213}
 Artiklo aparinta, dum aprilo di 1910, en \textit{Progreso}, expozas\nl
@@ -6004,11 +6014,11 @@ ne esas plu simpla kam : \textit{esos amita} o \textit{esos amota}. E quala\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 218 — le bloc de notes prend plus de la moitie de la page :
-%  vingt-deux lignes en sept alineas. Le filet, lu a y=1142 par le
-%  releveur ET par outils/filet.py, long de 212 px : les deux lectures
-%  concordent, ce qui n'etait pas le cas au folio 195. Blanc filet ->
-%  premiere note : 26 px, le regime ordinaire.
+%  LEAF 218 -- the block of notes takes more than half the page:
+%  twenty-two lines in seven paragraphs. The rule, read at y=1142 by
+%  the surveyor AND by tools/rule.py, 212 px long: the two readings
+%  agree, which was not the case at folio 195. White from rule to first
+%  note: 26 px, the ordinary regime.
 % -------------------------------------------------------------------
 \begin{VUpage}[218]{214}
 \VUnotes{100.67mm}{%
@@ -6070,13 +6080,13 @@ mani. Adjuntez ke, en la reflektiva verbi, la F. vicigas (rem\cc
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 219 — OUVERTURE DE L'APENDICO 7, « VORTORDINO ». Page sans
-%  note : les deux segments qu'un balayage grossier signalait (y 932 et
-%  989, 151 et 122 px) sont des lignes de texte soudees, lues a
-%  l'agrandissement. C'est la troisieme page du volume sans note.
-%  LE FILET COURT DE SECTION ECHAPPE AU DETECTEUR comme il echappait au
-%  feuillet 187 : 91 px de large, 5 px d'epais, a y 485-489, x 583-674,
-%  centre a 628,5 pour un milieu de justification a 631,5.
+%  LEAF 219 -- APENDICO 7 OPENS, « VORTORDINO ». A page with no note:
+%  the two segments a coarse sweep reported (y 932 and 989, 151 and
+%  122 px) are welded lines of text, read under magnification. It is
+%  the volume's third page with no note.
+%  THE SHORT SECTION RULE ESCAPES THE DETECTOR as it did at leaf 187:
+%  91 px wide, 5 px thick, at y 485-489, x 583-674, centred at 628,5
+%  for a middle of the measure at 631,5.
 % -------------------------------------------------------------------
 \begin{VUpage}[219]{215}
 \VUcontinue
@@ -6129,14 +6139,14 @@ quale en la Germana e l'Angla,\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 220 — quatrieme page du volume sans note. Les quatre
-%  segments du balayage grossier (y 528, 861, 1540, 1664) ont ete lus a
-%  l'agrandissement : ce sont des lignes de texte soudees.
-%  COQUILLE DE L'ORIGINAL, conservee : « è » pour « e » a la ligne 22,
-%  accent grave de plomb et non salissure (noir plein, pente
-%  descendante a droite, verifie a x14).
-%  PARTICULARITE conservee : a la ligne 9 le contre-exemple est compose
-%  en GRAS, alors que les douze autres de la page sont en italique.
+%  LEAF 220 -- the volume's fourth page with no note. The four segments
+%  of the coarse sweep (y 528, 861, 1540, 1664) were read under
+%  magnification: they are welded lines of text.
+%  A TYPO OF THE ORIGINAL, kept: « è » for « e » at line 22, a grave
+%  accent in metal and not a smudge (solid black, sloping down to the
+%  right, checked at x14).
+%  A PARTICULARITY kept: at line 9 the counter-example is set in BOLD,
+%  where the page's twelve others are in italic.
 % -------------------------------------------------------------------
 \begin{VUpage}[220]{216}
 \textit{L'adverbo} preiras o sequas nemediate la vorto quan ol\nl
@@ -6185,18 +6195,16 @@ mine : \textit{me recevis en da me ne konocata skribita letro.} ---\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 221 — OUVERTURE DE L'APENDICO 8, « PUNTIZADO ». Le filet
-%  court de section echappe encore au detecteur : 100 px de large,
-%  5 px d'epais, a y 830-834, x 590-689 — meme abscisse de depart qu'au
-%  feuillet 187, ou l'homologue mesure 92 px.
-%  Le filet de NOTE, lui, a ete verifie a la main : y=1191, 213 px,
-%  cale sur la marge (x=101 pour une marge a 103). L'ordonnee de
-%  l'outil est confirmee.
-%  COQUILLES conservees : point final absent apres « quan ol referas »
-%  (le titre suivant ouvre pourtant sur une capitale) ; titre
-%  « PUNTIZADO » sans point final, seul du volume dans ce cas ; et
-%  italique interrompue au milieu de la citation allemande de la
-%  note (2).
+%  LEAF 221 -- APENDICO 8 OPENS, « PUNTIZADO ». The short section rule
+%  escapes the detector again: 100 px wide, 5 px thick, at y 830-834,
+%  x 590-689 -- the same starting abscissa as at leaf 187, where its
+%  counterpart measures 92 px.
+%  The NOTE rule was checked by hand: y=1191, 213 px, set on the margin
+%  (x=101 for a margin at 103). The tool's ordinate is confirmed.
+%  TYPOS kept: no final stop after « quan ol referas » (the next title
+%  opens on a capital all the same); the title « PUNTIZADO » without a
+%  final stop, alone in the volume in that; and the italic broken off
+%  in the middle of the German quotation of note (2).
 % -------------------------------------------------------------------
 \begin{VUpage}[221]{217}
 \VUnotes{108.12mm}{%
@@ -6253,15 +6261,15 @@ di stilo esas ta, quan S\textsuperscript{ro} \textsc{Peus} recevis de ula sua ma
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 222 — LE FILET DE NOTE EST ATYPIQUEMENT LONG : 226 px la ou
-%  huit feuillets temoins en donnent 210 a 214. Verifie a l'oeil et a
-%  la main (y 1828-1830, x 260-505, seul sur sa rangee, cale sur la
-%  marge) : il est bien reel, seulement plus long de 6 %. Ni l'echelle
-%  du scan ni le pas des lignes n'expliquent l'ecart. On garde la
-%  largeur reglementaire du volume, faute de savoir si le compositeur
-%  a change de fer ou si le trait a bave.
-%  Le blanc filet -> premiere note ne vaut ici que 18 px : la note
-%  s'ouvre sur une parenthese, qui monte plus haut qu'une capitale.
+%  LEAF 222 -- THE NOTE RULE IS ATYPICALLY LONG: 226 px where eight
+%  witness leaves give 210 to 214. Checked by eye and by hand
+%  (y 1828-1830, x 260-505, alone on its row, set on the margin): it is
+%  quite real, only 6 % longer. Neither the scan's scale nor the pitch
+%  of the lines explains the discrepancy. We keep the volume's standard
+%  width, for want of knowing whether the compositor changed his rule
+%  or the stroke bled.
+%  The white from rule to first note is only 18 px here: the note opens
+%  on a bracket, which rises higher than a capital.
 % -------------------------------------------------------------------
 \begin{VUpage}[222]{218}
 \VUnotes{159.09mm}{%
@@ -6321,12 +6329,12 @@ kredar omno quon lu lektas. --- Regardez ta homo, qua\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 223 — cinquieme page du volume sans note. Les trois
-%  segments du balayage grossier (y 364, 1525, 1774) ont ete lus a
-%  l'agrandissement : ce sont des suites de lettres du texte courant.
-%  Aucun run horizontal continu de 60 px sur toute la page, hors bord
-%  de scan. COQUILLE conservee : « separer » pour « separar », alors
-%  que la meme page donne « separesas » et « separesar ».
+%  LEAF 223 -- the volume's fifth page with no note. The three segments
+%  of the coarse sweep (y 364, 1525, 1774) were read under
+%  magnification: they are runs of letters from the running text.
+%  No continuous horizontal run of 60 px anywhere on the page, the edge
+%  of the scan apart. A TYPO kept: « separer » for « separar », where
+%  the same page gives « separesas » and « separesar ».
 % -------------------------------------------------------------------
 \begin{VUpage}[223]{219}
 \VUcontinue
@@ -6380,25 +6388,25 @@ Pro ke la parentezi esas esence destinata ad \textit{inkluzar}, on\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 224 — DEUX HORS-TEXTE, et TROIS RANGEES DE POINTS que le
-%  detecteur a manquees. La geometrie n'annonce que 34 lignes la ou la
-%  page en porte 37 : les trois rangees de points qui accompagnent
-%  l'accolade verticale ne portent chacune que six points de 5 px.
-%  La preuve est arithmetique : lignes de base 828,2 — 911 — 952 — 993
-%  — 1075,8, soit des ecarts de 2, 1, 1, 2 pas exactement.
+%  LEAF 224 -- TWO PLATES, and THREE ROWS OF DOTS the detector missed.
+%  The geometry announces only 34 lines where the page carries 37: the
+%  three rows of dots that accompany the vertical brace carry only six
+%  dots of 5 px each.
+%  The proof is arithmetical: baselines 828,2 — 911 — 952 — 993 —
+%  1075,8, that is gaps of exactly 2, 1, 1, 2 pitches.
 %
-%  L'ACCOLADE VERTICALE est OUVRANTE, pointe a gauche vers l'unique
-%  rangee : c'est ce que la page enonce trois lignes plus bas, « la
-%  pinto devas turnesar ad l'unika lineo ». Encre x 786-796, y 877-995.
+%  THE VERTICAL BRACE is an OPENING one, its point to the left towards
+%  the single row: that is what the page states three lines below, « la
+%  pinto devas turnesar ad l'unika lineo ». Ink x 786-796, y 877-995.
 %
-%  L'ACCOLADE HORIZONTALE de l'arbre genealogique est la seule du
-%  volume ; d'ou \VUaccoladeH, ajoutee au preambule. Encre x 524-1063,
-%  y 1339-1355, pointe au milieu exact.
+%  THE HORIZONTAL BRACE of the family tree is the volume's only one;
+%  hence \VUaccoladeH, added to the preamble. Ink x 524-1063,
+%  y 1339-1355, its point at the exact middle.
 %
-%  COQUILLES conservees : « (e ne inverse!) Ni konsilas » sans point
-%  apres la parenthese ; « 1) ) » avec son blanc, qui est la
-%  demonstration meme de l'auteur ; et les accolades soudees « {} » de
-%  la ligne 10, que la ligne 11 separe pourtant.
+%  TYPOS kept: « (e ne inverse!) Ni konsilas » with no stop after the
+%  bracket; « 1) ) » with its white, which is the author's very
+%  demonstration; and the welded braces « {} » of line 10, which
+%  line 11 nonetheless separates.
 % -------------------------------------------------------------------
 \begin{VUpage}[224]{220}
 \VUcontinue
@@ -6419,12 +6427,12 @@ o kom aparta parentezi. On uzas l'\textit{embracilo} (unika) por\nl
 korespondigar un lineo (unlatere) a plura linei (altra\cc
 latere), tale :
 
-% CENTRE sur la justification. Releve sur scan/r0224.png (bloc de texte
-% x 41-1123, justification 1082 px) : l'encre du schema court de 490 a
-% 665, soit 449 px a gauche (41,5 %) et 458 a droite (42,3 %) -- ecart
-% 9 px sur 1082. Les abscisses ci-dessous le disent deja au composeur ;
-% la marque le dit a la page de lecture, dont la colonne n'a pas la
-% largeur du volume.
+% CENTRED on the measure. Surveyed on scan/r0224.png (block of text
+% x 41-1123, measure 1082 px): the diagram's ink runs from 490 to 665,
+% that is 449 px on the left (41,5 %) and 458 on the right (42,3 %) --
+% a difference of 9 px in 1082. The abscissae below already say so to
+% the compositor; the mark says it to the reading page, whose column
+% is not the width of the volume.
 \VUtabloCentrita
 \VUblanc{3.50mm}
 \VUrang{\VUcase{48.77mm}{.}\VUcase{50.63mm}{.}\VUcase{52.49mm}{.}}
@@ -6441,9 +6449,10 @@ faciligas la kompostado. Ol esas utila nur en sinoptikala\nl
 tabeli. Ol povas uzesar anke horizontale, ex. en genealogikal\nl
 arbori :
 
-% CENTRE lui aussi, et par la meme mesure : « Ludovikus » court de 490 a
-% 673 (449 px a gauche, 450 a droite) et l'accolade horizontale de 311 a
-% 849 (270 et 274). L'arbre est donc centre a un pixel pres sur 1082.
+% CENTRED likewise, and by the same measurement: « Ludovikus » runs
+% from 490 to 673 (449 px on the left, 450 on the right) and the
+% horizontal brace from 311 to 849 (270 and 274). The tree is
+% therefore centred to within one pixel in 1082.
 \VUtabloCentrita
 \VUrang{\VUcase{38.10mm}{Ludovikus}}
 \VUblanc{2.58mm}
@@ -6466,13 +6475,13 @@ dividesar. Ex. on darfas sekar tale la vorto \textit{mustar} : \textit{mu-star},
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 225 — septieme page du volume sans note. Les cinq segments
-%  du balayage grossier tombent tous a trois ou quatre pixels sous une
-%  ligne de base annoncee : ce sont des empattements soudes.
-%  COQUILLE conservee : la virgule apres « questionanta » la ou le sens
-%  appelle un point (ligne 37).
-%  Le fac-simile porte ici la CROIX de renvoi de note, sans precedent
-%  dans le volume.
+%  LEAF 225 -- the volume's seventh page with no note. The five
+%  segments of the coarse sweep all fall three or four pixels below an
+%  announced baseline: they are welded serifs.
+%  A TYPO kept: the comma after « questionanta » where the sense calls
+%  for a full stop (line 37).
+%  The facsimile here carries the CROSS as a note reference, with no
+%  precedent in the volume.
 % -------------------------------------------------------------------
 \begin{VUpage}[225]{221}
 \VUcontinue
@@ -6525,15 +6534,15 @@ Hispana, t. e. pozar li, renversita, ante la frazo klamanta\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 226 — FIN DE L'APENDICO 8, OUVERTURE DE L'APENDICO 9.
-%  Le filet court de fin de section echappe au detecteur pour la
-%  troisieme fois du volume : 96 px de large, 5 px d'epais, a y
-%  1288-1293, x 754-849, centre a 801,5 pour un milieu de bloc a 804,5.
-%  Il tombe entre les indices 24 et 25, dans un intervalle que la liste
-%  d'exces ne signalait pas du tout (188,8 px, soit 4,5 pas).
-%  Huitieme page du volume sans note : les deux segments de y 1764-1765
-%  sont les empattements de « komencas per la no... », soudes par le
-%  seuil grossier trois pixels au-dessus de leur ligne de base.
+%  LEAF 226 -- APENDICO 8 ENDS, APENDICO 9 OPENS.
+%  The short rule at the end of a section escapes the detector for the
+%  third time in the volume: 96 px wide, 5 px thick, at y 1288-1293,
+%  x 754-849, centred at 801,5 for a middle of the block at 804,5.
+%  It falls between indices 24 and 25, in an interval the list of
+%  excesses did not report at all (188,8 px, that is 4,5 pitches).
+%  The volume's eighth page with no note: the two segments at
+%  y 1764-1765 are the serifs of « komencas per la no... », welded by
+%  the coarse threshold three pixels above their baseline.
 % -------------------------------------------------------------------
 \begin{VUpage}[226]{222}
 \VUcontinue
@@ -6586,19 +6595,19 @@ lando, ed on repulsas la sistemo inversa (Rusa) [\textit{Progr.}, IV,\nl
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 227 — QUATRIEME FILET COURT MANQUE PAR LE DETECTEUR, et un
-%  cinquieme filet, plus long, qui clot l'apendico 10.
-%  Le court : x 575-673 (99 px), y 766-768, centre 624 pour un milieu de
-%  bloc a 626. Il se loge dans un intervalle de 178,4 px que la liste
-%  d'exces ne signalait pas du tout, comme au folio 222.
-%  Le long : x 525-726 (202 px), y 1793-1797, centre 625,5, a 64 px sous
-%  la derniere ligne. Il fait le DOUBLE des filets de section ; c'est une
-%  division plus forte, non un filet de note (qui se pose au fer a
-%  gauche, et sous lequel il y aurait du texte).
-%  Le bloc en escalier des indices 2 a 5 est un modele d'adresse : les
-%  bords droits ne s'alignent pas (838, 853, 809, 767), donc ce n'est pas
-%  un bloc centre mais quatre lignes a renfoncement croissant.
-%  Dixieme page du volume sans note.
+%  LEAF 227 -- A FOURTH SHORT RULE MISSED BY THE DETECTOR, and a fifth
+%  rule, longer, which closes apendico 10.
+%  The short one: x 575-673 (99 px), y 766-768, centre 624 for a middle
+%  of the block at 626. It lodges in an interval of 178,4 px that the
+%  list of excesses did not report at all, as at folio 222.
+%  The long one: x 525-726 (202 px), y 1793-1797, centre 625,5, 64 px
+%  below the last line. It is TWICE the length of the section rules; it
+%  is a stronger division, not a note rule (which is laid flush left,
+%  and under which there would be text).
+%  The stepped block of indices 2 to 5 is a model address: the right
+%  edges do not align (838, 853, 809, 767), so it is not a centred
+%  block but four lines of increasing indent.
+%  The volume's tenth page with no note.
 % -------------------------------------------------------------------
 \begin{VUpage}[227]{223}
 \VUornement[17.10mm]{159.09mm}
@@ -6654,14 +6663,14 @@ en ta formuli.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 228 — DERNIERE PAGE DES APENDICI. Sept lignes, puis
-%  l'ORNEMENT DE CLOTURE : 296 px = 25,06 mm, le plus long filet du
-%  volume, a y 1122-1125, centre a 806,5 pour un milieu de bloc a 809,5
-%  — le meme decalage de 3 px que celui du folio 222. Sa longueur est
-%  celle de \VUornementLargeur (25,8 mm), l'ornement de fin de partie.
-%  Ordonnee : 24,30 + (1123-210) x 25,4/300 = 101,60 mm.
-%  Onzieme page du volume sans note ; balayage complet a trois seuils,
-%  rien d'autre sur la page que le texte et cet ornement.
+%  LEAF 228 -- THE LAST PAGE OF THE APENDICI. Seven lines, then the
+%  CLOSING ORNAMENT: 296 px = 25,06 mm, the volume's longest rule, at
+%  y 1122-1125, centred at 806,5 for a middle of the block at 809,5 --
+%  the same 3 px offset as that of folio 222. Its length is that of
+%  \VUornementLargeur (25,8 mm), the ornament at the end of a part.
+%  Ordinate: 24,30 + (1123-210) x 25,4/300 = 101,60 mm.
+%  The volume's eleventh page with no note; a full sweep at three
+%  thresholds, nothing on the page but the text and this ornament.
 % -------------------------------------------------------------------
 \begin{VUpage}[228]{224}
 \VUornement[25.06mm]{101.60mm}
@@ -6680,20 +6689,20 @@ til p. 82.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 229 — OUVERTURE DU TABELO, l'index analytique. Mise en page
-%  nouvelle : corps plus petit (hauteur d'x 17 px contre 21), points de
-%  conduite au pas de 17,25 px, numeros de page au fer droit. D'ou
-%  \VUpageIndex, \VUindex et \VUindexNu, ajoutees au preambule.
-%  LA JUSTIFICATION EST CELLE DU VOLUME : les 976 a 980 px rendus par la
-%  geometrie sont un artefact de text_region, qui coupe la colonne des
-%  numeros, separee des points par un blanc de 73 px.
-%  LA PAGE NE PORTE PAS DE FOLIO — d'ou l'argument vide.
-%  LIGNE INVISIBLE RETROUVEE : « Pagini. », 88 px de large, sous le seuil
-%  du detecteur. La page compte 30 lignes, non 29.
-%  FILET CENTRE de 155 px a y 510-513 : une cinquieme longueur, apres
-%  90-100, 202 et 296 px.
-%  L'ORDONNEE DE NOTE RENDUE PAR L'OUTIL (117,35 mm) EST FAUSSE : elle
-%  tombe au milieu d'une ligne de texte. Cette page n'a aucune note.
+%  LEAF 229 -- THE TABELO OPENS, the analytical index. A new layout: a
+%  smaller size (x-height 17 px against 21), leader dots at a pitch of
+%  17,25 px, page numbers flush right. Hence \VUpageIndex, \VUindex
+%  and \VUindexNu, added to the preamble.
+%  THE MEASURE IS THE VOLUME'S: the 976 to 980 px the geometry returns
+%  are an artefact of text_region, which cuts off the column of
+%  numbers, separated from the dots by a white of 73 px.
+%  THE PAGE CARRIES NO FOLIO -- hence the empty argument.
+%  AN INVISIBLE LINE RECOVERED: « Pagini. », 88 px wide, under the
+%  detector's threshold. The page counts 30 lines, not 29.
+%  A CENTRED RULE of 155 px at y 510-513: a fifth length, after 90-100,
+%  202 and 296 px.
+%  THE NOTE ORDINATE THE TOOL RETURNS (117,35 mm) IS WRONG: it falls in
+%  the middle of a line of text. This page has no note at all.
 % -------------------------------------------------------------------
 \begin{VUpage}[229]{}
 \VUsignature{168.70mm}{8}
@@ -6739,13 +6748,13 @@ til p. 82.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 230 — suite du TABELO. La page PORTE un folio, contrairement
-%  a la precedente. Le detecteur de filet se trompe une seconde fois de
-%  suite : les 45,81 mm qu'il annonce tombent sur le MENEUR DE POINTS de
-%  l'entree « an », une ligne d'encre horizontale de x 300 a 1233 qu'il
-%  prend pour un filet. Aucune note sur cette page non plus.
-%  « Prepozicioni : » est une tete de rubrique, avec son propre numero
-%  et SANS points de conduite : ce n'est pas un titre, il ne passe pas a
+%  LEAF 230 -- the TABELO continues. The page DOES carry a folio,
+%  unlike the previous one. The rule detector is wrong a second time
+%  running: the 45,81 mm it announces fall on the LEADER DOTS of the
+%  entry « an », a horizontal line of ink from x 300 to 1233 which it
+%  takes for a rule. No note on this page either.
+%  « Prepozicioni : » is the head of a rubric, with its own number and
+%  WITHOUT leader dots: it is not a title, and it does not go to
 %  \VUtitre.
 % -------------------------------------------------------------------
 \begin{VUpage}[230]{226}
@@ -6794,16 +6803,16 @@ til p. 82.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 231 — TROISIEME MENSONGE DU DETECTEUR DE FILET SUR LE
-%  TABELO. Il rendait 74,08 mm ; a cette hauteur se trouve la LIGNE DE
-%  BASE de la vedette demi-grasse « Konjuncioni : », dont la fermeture
-%  morphologique soude les empattements en une plage continue de 185 px
-%  partant de la marge. Deux indices suffisaient a la recuser : 185 px
-%  au lieu des 201-246 reglementaires, et une hauteur d'empattement.
-%  outils/filet.py resserre desormais sa fenetre de longueur.
-%  LA POSITION N'EMPORTE PAS LA GRAISSE : six lignes au fer sur dix sont
-%  ici en romain maigre. On ne deduit donc jamais l'une de l'autre.
-%  Douzieme page du volume sans note.
+%  LEAF 231 -- THE RULE DETECTOR'S THIRD LIE ON THE TABELO. It returned
+%  74,08 mm; at that height is the BASELINE of the semibold headword
+%  « Konjuncioni : », whose morphological closing welds the serifs into
+%  a continuous range of 185 px starting from the margin. Two clues
+%  were enough to reject it: 185 px instead of the standard 201-246,
+%  and the height of a serif.
+%  tools/rule.py now narrows its window of length.
+%  POSITION DOES NOT SETTLE WEIGHT: six flush-left lines out of ten are
+%  here in light roman. We therefore never deduce one from the other.
+%  The volume's twelfth page with no note.
 % -------------------------------------------------------------------
 \begin{VUpage}[231]{227}
 \VUpageIndex
@@ -6858,14 +6867,14 @@ til p. 82.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 232 — page du TABELO. « Filet non trouve » est ici exact :
-%  le seul candidat est la soudure d'empattements de la vedette
-%  « shamo », 65 px, calee sur le renfoncement des sous-entrees et non
-%  sur le fer. Treizieme page du volume sans note.
-%  UN SECOND EXCES ECHAPPAIT A LA GEOMETRIE : le blanc de +15,2 px qui
-%  precede « Nombri : », manque parce que le detecteur n'a pas su lire
-%  la ligne de base de « yen » (bas = -1,0 dans la geometrie). Les deux
-%  blancs de la page sont de meme nature et de meme calibre.
+%  LEAF 232 -- a page of the TABELO. « Rule not found » is exact here:
+%  the only candidate is the weld of serifs of the headword « shamo »,
+%  65 px, set on the indent of the sub-entries and not flush left. The
+%  volume's thirteenth page with no note.
+%  A SECOND EXCESS ESCAPED THE GEOMETRY: the white of +15,2 px that
+%  precedes « Nombri : », missed because the detector could not read
+%  the baseline of « yen » (bottom = -1,0 in the geometry). The page's
+%  two whites are of the same nature and the same size.
 % -------------------------------------------------------------------
 \begin{VUpage}[232]{228}
 \VUpageIndex
@@ -6913,17 +6922,17 @@ til p. 82.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 233 — LE TABELO PASSE A LA DEUXIEME PARTIE. Le filet centre
-%  qui l'annonce mesure 178 px : une SIXIEME longueur, apres 90-100,
-%  155, 202 et 296. Il est a y 1069-1071, x 533-710, centre a 621,5
-%  pour un centre de justification de 618 a 628. Le detecteur l'a
-%  manque comme les cinq autres, et il ne figurait dans AUCUN exces :
-%  l'intervalle qui le porte vaut 186,5 px, et la liste des exces
-%  n'annoncait que les deux blancs des titres, plus bas.
-%  Les deux gros exces de 47 et 44 px sont les blancs qui encadrent
-%  « VORTIFADO » ; rien n'y est cache, verifie a trois seuils.
-%  Le numero de « indikativo » s'imprime « 1(6 » — le zero n'a pris
-%  l'encre que sur sa moitie gauche. Compose 106, ce qu'impose la suite.
+%  LEAF 233 -- THE TABELO PASSES TO THE SECOND PART. The centred rule
+%  that announces it measures 178 px: a SIXTH length, after 90-100,
+%  155, 202 and 296. It is at y 1069-1071, x 533-710, centred at 621,5
+%  for a centre of the measure between 618 and 628. The detector missed
+%  it as it missed the other five, and it appeared in NO excess: the
+%  interval that carries it is 186,5 px, and the list of excesses
+%  announced only the two whites of the titles, lower down.
+%  The two large excesses of 47 and 44 px are the whites that frame
+%  « VORTIFADO »; nothing is hidden there, checked at three thresholds.
+%  The number of « indikativo » prints as « 1(6 » -- the zero took the
+%  ink on its left half only. Set as 106, which what follows requires.
 % -------------------------------------------------------------------
 \begin{VUpage}[233]{229}
 \VUpageIndex
@@ -6977,20 +6986,20 @@ til p. 82.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 234 — LA GEOMETRIE N'EN VOYAIT QUE VINGT-SIX LIGNES SUR
-%  QUARANTE. Le bloc detecte s'arretait a y = 1300 : les treize
-%  dernieres entrees, de « -ad- » a « -em- », tombaient hors de lui, et
-%  les bandes scan/H234_*.png ne les montrent meme pas. Une quatorzieme
-%  ligne, « ri- », manquait au milieu du bloc.
-%  C'est la panne la plus grave du detecteur a ce jour : non plus une
-%  ligne courte perdue, mais UN TIERS DE LA PAGE. L'exces de 52,4 px
-%  qu'elle annoncait a l'indice 21 etait la somme d'une ligne entiere
-%  sautee (40 px) et du blanc de rubrique (12 px).
-%  Les prefixes et suffixes cites sont en ITALIQUE, non en gras.
-%  Coquilles conservees : « anti » et « auto » sans tiret final quand
-%  tous leurs voisins en portent un ; « sen- » entre « ne- » et « par- »,
-%  hors de l'ordre alphabetique ; « -ebl.- » avec un point avant le
-%  tiret fermant.
+%  LEAF 234 -- THE GEOMETRY SAW ONLY TWENTY-SIX OF ITS FORTY LINES.
+%  The detected block stopped at y = 1300: the last thirteen entries,
+%  from « -ad- » to « -em- », fell outside it, and the strips
+%  scan/H234_*.png do not even show them. A fourteenth line, « ri- »,
+%  was missing from the middle of the block.
+%  It is the detector's gravest failure to date: no longer one short
+%  line lost, but A THIRD OF THE PAGE. The excess of 52,4 px it
+%  announced at index 21 was the sum of a whole line skipped (40 px)
+%  and the rubric's white (12 px).
+%  The prefixes and suffixes quoted are in ITALIC, not in bold.
+%  Typos kept: « anti » and « auto » without a final hyphen where all
+%  their neighbours carry one; « sen- » between « ne- » and « par- »,
+%  out of alphabetical order; and « -ebl.- » with a full stop before
+%  the closing hyphen.
 % -------------------------------------------------------------------
 \begin{VUpage}[234]{230}
 \VUpageIndex
@@ -7039,16 +7048,16 @@ til p. 82.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 235 — QUATRE LIGNES MANQUAIENT A LA GEOMETRIE : « -i- »,
-%  « -if- », « -il- » et « -iz- ». Les quatre exces d'un interligne
-%  entier qu'elle annoncait leur correspondent un pour un.
-%  QUATRIEME MENSONGE DU DETECTEUR DE FILET SUR LE TABELO : il rendait
-%  122,43 mm, ordonnee qui tombe A L'INTERIEUR de la vedette grasse
-%  « Kompozado : », dont la fermeture soude les empattements sur 181 px.
-%  La fenetre de longueur resserree l'ecarte desormais, et le detecteur
-%  rend enfin « filet non trouve », qui est la bonne reponse.
-%  UN FILET CENTRE DE 143 px clot la page (x 531-673, y 1835-1837) :
-%  septieme longueur du volume, apres 90-100, 155, 178, 202 et 296.
+%  LEAF 235 -- FOUR LINES WERE MISSING FROM THE GEOMETRY: « -i- »,
+%  « -if- », « -il- » and « -iz- ». The four excesses of a whole
+%  leading that it announced correspond to them one for one.
+%  THE RULE DETECTOR'S FOURTH LIE ON THE TABELO: it returned
+%  122,43 mm, an ordinate that falls INSIDE the bold headword
+%  « Kompozado : », whose closing welds the serifs over 181 px.
+%  The narrowed window of length now sets it aside, and the detector at
+%  last returns « rule not found », which is the right answer.
+%  A CENTRED RULE OF 143 px closes the page (x 531-673, y 1835-1837):
+%  the volume's seventh length, after 90-100, 155, 178, 202 and 296.
 % -------------------------------------------------------------------
 \begin{VUpage}[235]{231}
 \VUpageIndex
@@ -7099,21 +7108,21 @@ til p. 82.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 236 — LE FLEURON. Seul ornement FIGURE du volume : une
-%  vignette vegetale, tige ondulee portant feuilles, baies et un trefle
-%  terminal (encre x 734-937, y 870-892). Il ne se compose avec aucune
-%  fonte du projet ; il est DECOUPE DU SCAN et pose en image. C'est le
-%  seul endroit ou la transcription cesse d'etre une composition et
-%  devient un fac-simile — il faut le dire.
-%  Le detecteur avait manque TROIS objets : le folio (qu'il prend
-%  pourtant partout ailleurs), le fleuron, et le filet de PLEINE
-%  JUSTIFICATION (1084 px) — trop long pour son test, qui cherche un
-%  trait de 195 a 260 px cale sur la marge.
-%  L'intervalle de 349 px qui porte le fleuron ne figurait dans AUCUN
-%  exces : le seul blanc de la page que la liste ne signalait pas est
-%  celui qui portait quelque chose.
-%  DEUX PAS DE POINTS DE CONDUITE sur la meme page : 17,0 px pour la
-%  liste des apendici, 43,3 px pour les deux catalogues.
+%  LEAF 236 -- THE FLEURON. The volume's only FIGURATIVE ornament: a
+%  vegetal vignette, a waving stem carrying leaves, berries and a
+%  terminal trefoil (ink x 734-937, y 870-892). It is set with no font
+%  of the project; it is CUT FROM THE SCAN and laid as an image. It is
+%  the only place where the transcription stops being a composition and
+%  becomes a facsimile -- and that must be said.
+%  The detector had missed THREE objects: the folio (which it takes
+%  everywhere else), the fleuron, and the FULL-MEASURE rule (1084 px)
+%  -- too long for its test, which looks for a stroke of 195 to 260 px
+%  set on the margin.
+%  The interval of 349 px that carries the fleuron appeared in NO
+%  excess: the page's only white the list did not report is the one
+%  that carried something.
+%  TWO PITCHES OF LEADER DOTS on the same page: 17,0 px for the list of
+%  apendici, 43,3 px for the two catalogues.
 % -------------------------------------------------------------------
 \begin{VUpage}[236]{232}
 \VUtitre{10.63pt}{60}{APENDICI}
@@ -7167,30 +7176,31 @@ til p. 82.
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 237 — MA CONJECTURE DE STRUCTURE ETAIT FAUSSE. J'avais
-%  annonce au releveur une annonce d'editeur, d'apres le releve de
-%  structure du § 3 ; la page porte en realite la fin des « Opinioni
-%  pri Ido », puis le titre « Difuzeso di Ido. », puis le bloc U. L. I.
-%  Le releveur a mesure au lieu de me croire, et l'a dit.
-%  L'INTERLIGNE EST PLUS SERRE QUE PARTOUT AILLEURS : 33 px = 7,95 pt
-%  entre lignes d'un meme alinea, contre 41,45 px au corps ordinaire.
-%  Le CORPS, lui, ne change pas : hauteur d'x de 16-17 px, celle du
-%  texte courant. La page est composee serree, non en petit oeil.
-%  Ni filet, ni ornement, ni folio imprime.
-%  Coquilles conservees : « esor » pour esar ; « Kobenhavn » avec trema
-%  la ou le danois ecrit Kobenhavn ; « Schrijen » pour Schrijnen ;
-%  « College » avec accent grave sur un nom anglais.
+%  LEAF 237 -- MY CONJECTURE ABOUT THE STRUCTURE WAS WRONG. I had
+%  announced a publisher's advertisement to the surveyor, going by the
+%  structural survey of § 3; the page in fact carries the end of the
+%  « Opinioni pri Ido », then the title « Difuzeso di Ido. », then the
+%  U. L. I. block. The surveyor measured instead of believing me, and
+%  said so.
+%  THE LEADING IS TIGHTER THAN ANYWHERE ELSE: 33 px = 7,95 pt between
+%  lines of one paragraph, against 41,45 px at the ordinary size. The
+%  SIZE itself does not change: an x-height of 16-17 px, that of the
+%  running text. The page is set tight, not in a smaller face.
+%  No rule, no ornament, no printed folio.
+%  Typos kept: « esor » for esar; « Kobenhavn » with a diaeresis where
+%  Danish writes Kobenhavn; « Schrijen » for Schrijnen; « College »
+%  with a grave accent on an English name.
 % -------------------------------------------------------------------
 \begin{VUpage}[237]{}
-% LE BLOC DE CETTE PAGE MONTE PLUS HAUT QUE \VUmargeSup. Ses 46 lignes
-% au pas de 33 px, plus les blancs des deux titres, demandent 1614 px
-% quand \VUtexteHauteur n'en offre que 1564 : la page deborde de 9 mm
-% par le bas si on la cale comme les autres. Les deux dernieres pages
-% du volume sont composees hors du cadre ordinaire — elles n'ont pas
-% de folio non plus, ce qui va de pair.
-% Faute de folio pour caler la page, la valeur est prise sur le
-% debordement mesure et non sur une lecture : c'est un ajustement, et
-% il faut le dire.
+% THE BLOCK OF THIS PAGE RISES HIGHER THAN \VUmargeSup. Its 46 lines
+% at a pitch of 33 px, plus the whites of the two titles, ask for
+% 1614 px where \VUtexteHauteur offers only 1564: the page overruns by
+% 9 mm at the foot if it is set like the others. The volume's last two
+% pages are set outside the ordinary frame -- they have no folio
+% either, which goes with it.
+% For want of a folio to set the page by, the value is taken from the
+% measured overrun and not from a reading: it is an adjustment, and
+% that must be said.
 \vspace*{-9.0mm}
 \VUpageSerre{8.26pt}{7.95pt}
 
@@ -7258,26 +7268,26 @@ e \textit{Torino} (1925).
 \end{VUpage}
 
 % -------------------------------------------------------------------
-%  FEUILLET 238 — CATALOGUE DE PRESSE ET DE LIBRAIRIE IDISTE. Ni points
-%  de conduite, ni filet, ni ornement, ni folio imprime.
-%  L'INTERLIGNE EST SERRE : 32,8 px = 7,90 pt a l'interieur d'une
-%  notice, contre 41,45 px au corps ordinaire ; entre deux notices,
-%  15 a 17 px de blanc en plus. Le « pas 41,28 px » de la geometrie
-%  n'est l'ecart que d'un seul intervalle, celui des deux lignes
-%  centrees du haut : le vrai pas est le contraire.
-%  Coquilles conservees : « Ofical » a un seul f ; « Chekoslovakian »
-%  sans -a ; et « L. de Beaufront » en romain a une notice, « L. DE
-%  BEAUFRONT » en petites capitales a une autre.
+%  LEAF 238 -- A CATALOGUE OF THE IDIST PRESS AND BOOKSELLERS. No
+%  leader dots, no rule, no ornament, no printed folio.
+%  THE LEADING IS TIGHT: 32,8 px = 7,90 pt inside a notice, against
+%  41,45 px at the ordinary size; between two notices, 15 to 17 px of
+%  white more. The « pitch 41,28 px » of the geometry is the gap of one
+%  interval only, that of the two centred lines at the head: the true
+%  pitch is the opposite.
+%  Typos kept: « Ofical » with one f; « Chekoslovakian » without its
+%  -a; and « L. de Beaufront » in roman in one notice, « L. DE
+%  BEAUFRONT » in small capitals in another.
 % -------------------------------------------------------------------
-% LA COUVERTURE N'EST PAS COMPOSEE PLUS LARGE QUE LE VOLUME, contre ce
-% que j'avais conclu. Les 1172 a 1210 px que j'avais mesures venaient du
-% GRAIN DU PAPIER VERT, qu'un simple seuillage compte pour de l'encre :
-% le bord des lignes s'en trouvait gonfle de cent pixels. Repris avec
-% PG.lines_of, qui travaille sur un masque de glyphes, ce feuillet donne
-% une largeur maximale de 1108 px et une mediane de 1047, pour une
-% justification du volume de 1083. Les deux lignes qui suivent le titre
-% n'ont donc aucune raison de deborder : leur interlettrage est cale sur
-% les 1079 et 1046 px mesures.
+% THE COVER IS NOT SET WIDER THAN THE VOLUME, against what I had
+% concluded. The 1172 to 1210 px I had measured came from the GRAIN OF
+% THE GREEN PAPER, which a plain thresholding counts as ink: the edge
+% of the lines was inflated by a hundred pixels. Taken up again with
+% PG.lines_of, which works on a mask of glyphs, this leaf gives a
+% maximum width of 1108 px and a median of 1047, for a measure of the
+% volume of 1083. The two lines that follow the title therefore have no
+% reason to overrun: their letterspacing is set on the 1079 and 1046 px
+% measured.
 \begin{VUpage}[238]{}
 \VUpageSerre{8.26pt}{7.90pt}
 \VUcentre{11.0pt}{80}{\VUgras{MONDO}}
