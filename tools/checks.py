@@ -34,18 +34,18 @@ RED, GREEN, YELLOW, RESET = '\033[31m', '\033[32m', '\033[33m', '\033[0m'
 class Report:
     def __init__(self):
         self.lines = []
-        self.echecs = 0
-        self.avertis = 0
+        self.failures = 0
+        self.warnings = 0
 
     def ok(self, msg):
         self.lines.append((GREEN + 'OK  ' + RESET, msg))
 
     def ko(self, msg):
-        self.echecs += 1
-        self.lines.append((RED + 'ECHEC' + RESET, msg))
+        self.failures += 1
+        self.lines.append((RED + 'FAILED' + RESET, msg))
 
-    def before_val(self, msg):
-        self.avertis += 1
+    def warn(self, msg):
+        self.warnings += 1
         self.lines.append((YELLOW + 'NOTE' + RESET, msg))
 
     def print_out(self, title):
@@ -392,7 +392,7 @@ def check_1(pages, r):
     else:
         r.ok('no « Overfull \\vbox »')
     if hbox:
-        r.before_val('%d « Overfull \\hbox » — inventory in tools/hbox.txt'
+        r.warn('%d « Overfull \\hbox » — inventory in tools/hbox.txt'
              % len(hbox))
         with open(os.path.join(P, 'tools', 'hbox.txt'), 'w') as fh:
             for i, h in enumerate(re.findall(
@@ -582,7 +582,7 @@ def check_2(pages, r):
                 expected[k] = _without_short_tokens(expected[k])
         weak_rows = sum(1 for l in lg if l.get('rang'))
         if weak_rows:
-            r.before_val('folio %s: %d table row(s) compared without their '
+            r.warn('folio %s: %d table row(s) compared without their '
                  'one-letter tokens (the braces come out of pdftotext '
                  'en caracteres isoles)'
                  % (pg['folio'] or ('f%s' % pg.get('leaf')), weak_rows))
@@ -700,21 +700,21 @@ def check_12(pages, r):
         # written for check 10, and declare the page not judged rather than
         # accuse it.
         if any(_fold(leaf, b) for b in bands):
-            r.before_val('folio %s: a stray trace is lying in the margin of the '
+            r.warn('folio %s: a stray trace is lying in the margin of the '
                  'block of notes — abscissas not measurable, page not judged'
                  % (pg['folio'] or ('f%s' % pg.get('leaf'))))
             continue
         top = [b['y1'] - b['y0'] for b in bands]
         med = sorted(top)[len(top) // 2]
         if med > 0 and max(top) >= 1.7 * med:
-            r.before_val('folio %s: one note band welds two — the '
+            r.warn('folio %s: one note band welds two — the '
                  'block\u2019s abscissas cannot be measured, page not judged'
                  % (pg['folio'] or ('f%s' % pg.get('leaf'))))
             continue
         xs = sorted(b['x0'] for b in fl[dec:])
         margin = xs[len(xs) // 10]
         if margin - xs[0] > MARGIN_SPREAD:
-            r.before_val('folio %s: a band leaves the measure on the left '
+            r.warn('folio %s: a band leaves the measure on the left '
                  '(%d px before the margin) — page not judged'
                  % (pg['folio'] or ('f%s' % pg.get('leaf')),
                     margin - xs[0]))
@@ -792,7 +792,7 @@ def check_3(pages, r):
             if not rest:
                 # The next page is not yet transcribed: we cannot verify the
                 # break, but it is not at fault.
-                r.before_val('folio %s: the word « %s- » breaks at the foot of the page; '
+                r.warn('folio %s: the word « %s- » breaks at the foot of the page; '
                      'verification deferred to the next page\u2019s transcription'
                      % (pg['folio'], g.group(1) if g else '?'))
                 continue
@@ -921,7 +921,7 @@ def check_7(pages, r):
         left, right = min(xs), pw - max(x_max)
         worst_ones.append((min(left, right), i, left, right))
     if not worst_ones:
-        r.before_val('no text extracted: check 7 has no object')
+        r.warn('no text extracted: check 7 has no object')
         return
     worst_ones.sort()
     mm = 25.4 / 72.0
@@ -964,7 +964,7 @@ def check_8(pages, r, first_one=1, how_many=None):
         try:
             leaf = int(pg['leaf']) if pg.get('leaf') else int(pg['folio']) + 4
         except (ValueError, TypeError):
-            r.before_val('page %d: neither leaf nor folio usable, juxtaposition skipped' % i)
+            r.warn('page %d: neither leaf nor folio usable, juxtaposition skipped' % i)
             continue
         if i not in comp:
             continue
@@ -1072,13 +1072,13 @@ def check_9(pages, r, threshold=0.12):
         pairs_of, sf, sc = pair_up.matched(
             [(l['y0'], l['y1']) for l in fl], [(a, b) for a, b, _ in cl])
         if len(pairs_of) < 0.6 * min(len(fl), len(cl)):
-            r.before_val('folio %s: line matching too uncertain '
+            r.warn('folio %s: line matching too uncertain '
                  '(%d pairs for %d/%d lines) — weight not compared'
                  % (pg['folio'] or ('f%s' % leaf), len(pairs_of),
                     len(fl), len(cl)))
             continue
         if sf or sc:
-            r.before_val('folio %s: %d line(s) of the facsimile and %d of the composed page '
+            r.warn('folio %s: %d line(s) of the facsimile and %d of the composed page '
                  'unmatched — the rest of the page is compared all the same'
                  % (pg['folio'] or ('f%s' % leaf), len(sf), len(sc)))
         txt = [l['text'] for l in pg['lines'] if l['text']]
@@ -1107,7 +1107,7 @@ def check_9(pages, r, threshold=0.12):
         # crashes verifies nothing any more, and it did so in silence for a
         # whole batch.
         if larg.size == 0:
-            r.before_val('folio %s: blank page in the composed volume — weight not judged'
+            r.warn('folio %s: blank page in the composed volume — weight not judged'
                  % (pg['folio'] or ('f%s' % pg.get('leaf'))))
             continue
         enough = larg > 0.45 * larg.max()
@@ -1126,7 +1126,7 @@ def check_9(pages, r, threshold=0.12):
                             "probablement oublie" if e > 0 else
                             "less ink in the facsimile: emphasis "
                             "probably in excess")
-                    r.before_val('folio %s line %d (%+.0f %%, size « %s ») — %s\n'
+                    r.warn('folio %s line %d (%+.0f %%, size « %s ») — %s\n'
                          '        %s'
                          % (pg['folio'] or ('f%s' % leaf), k + 1, e * 100,
                             name, what, (txt[k][:64] if k < len(txt) else '')))
@@ -1263,7 +1263,7 @@ def check_10(pages, r, tol_px=12):
                 _fac = _fl[_dec]['x0'] - _cx
                 _comp = start_pos[0][0] - margin
                 if abs(_fac - _comp) > 2 * tol_px and _fold(_f, _fl[_dec]):
-                    r.before_val('folio %s: the left edge of the first line '
+                    r.warn('folio %s: the left edge of the first line '
                          'falls on a FOLD in the paper — the indent cannot be '
                          'measured on this leaf, the line is not '
                          'verifiee' % (pg['folio'] or ('f%s' % pg.get('leaf'))))
@@ -1309,7 +1309,7 @@ def check_10(pages, r, tol_px=12):
                  % (pg['folio'] or ('f%s' % pg.get('leaf')), k + 1,
                     gap, PARA_INDENT_PX, NOTE_INDENT_PX, t))
         if rows:
-            r.before_val('folio %s: %d table row(s) set aside from the check on line '
+            r.warn('folio %s: %d table row(s) set aside from the check on line '
                  'openings — their abscissas are surveyed one by one'
                  % (pg['folio'] or ('f%s' % pg.get('leaf')), rows))
         # Verification of line ENDINGS, WITHOUT going through the facsimile.
@@ -1345,7 +1345,7 @@ def check_10(pages, r, tol_px=12):
         start_pos = start_text
         lgv = [l for l in pg['lines'] if l['text']]
         if len(lgv) != len(start_pos):
-            r.before_val('folio %s: %d composed lines for %d transcribed — '
+            r.warn('folio %s: %d composed lines for %d transcribed — '
                  'line endings not verified'
                  % (pg['folio'] or ('f%s' % pg.get('leaf')),
                     len(start_pos), len(lgv)))
@@ -1380,7 +1380,7 @@ def check_10(pages, r, tol_px=12):
                 # therefore only a remark, not a fault -- unlike the converse case,
                 # where a line the transcription gives as full turns out short, which
                 # is always a defect.
-                r.before_val('folio %s line %d: end of paragraph running '
+                r.warn('folio %s line %d: end of paragraph running '
                      'to the margin (%.0f %%) — to be verified'
                      '\n        %s'
                      % (pg['folio'] or ('f%s' % pg.get('leaf')), k + 1,
@@ -1426,7 +1426,7 @@ def check_11(pages, r, tol_px=14):
         cl = comp[i]['lines']
         fl = cache.leaf(leaf)['lines']
         if len(cl) != len(fl) or len(cl) < 6:
-            r.before_val('folio %s: %d composed lines for %d surveyed in the '
+            r.warn('folio %s: %d composed lines for %d surveyed in the '
                  'facsimile — vertical drift not measured'
                  % (pg['folio'] or ('f%s' % leaf), len(cl), len(fl)))
             continue
@@ -1498,8 +1498,8 @@ def main():
         except Exception as e:
             r.ko('the check raised an exception: %r' % (e,))
         r.print_out(TITLES[c])
-        total_e += r.echecs
-        total_a += r.avertis
+        total_e += r.failures
+        total_a += r.warnings
     print('\n%s%d failure(s)%s, %d note(s).'
           % (RED if total_e else GREEN, total_e, RESET, total_a))
     return 1 if total_e else 0
