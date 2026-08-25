@@ -1,25 +1,24 @@
 #!/usr/bin/env python3
-"""ETROITESSE DES TITRES : le caractere compose est-il trop large ?
+"""NARROWNESS OF THE TITLES: is the composed face too wide?
 
-Le volume pose le corps sur la hauteur de capitale et l'interlettrage
-sur la largeur de ligne. Cette regle donne toujours la bonne geometrie
-d'ensemble -- mais elle est MUETTE sur le dessin des lettres. Quand le
-caractere du fac-simile est plus etroit que XCharter, l'interlettrage
-doit devenir negatif pour que la ligne rentre, et les lettres se
-soudent : la ligne a la bonne largeur et devient illisible.
+The volume sets the type size from the cap height and the letter-spacing
+from the line width. That rule always gives the right overall geometry --
+but it is SILENT on the drawing of the letters. When the facsimile's face
+is narrower than XCharter, the letter-spacing has to go negative for the
+line to fit, and the letters weld together: the line has the right width
+and becomes illegible.
 
-C'etait le cas de « KONSTATO. » (folio 4), compose en UN SEUL amas de
-174 px pour 216 px et sept amas au fac-simile, et d'« Averto »
-(folio 5). Ni l'un ni l'autre n'aurait ete vu par un controle de
-largeur : leur largeur etait « juste ».
+That was the case of "KONSTATO." (folio 4), composed as a SINGLE cluster
+of 174 px for 216 px and seven clusters in the facsimile, and of "Averto"
+(folio 5). Neither would have been caught by a check on width: their
+width was "right".
 
-On mesure donc, des deux cotes, la LARGEUR DE LETTRE rapportee a la
-hauteur de capitale, et le nombre d'amas -- deux lettres qui se touchent
-n'en font qu'un. Le facteur a passer a \\VUetroit est le rapport des deux
-rapports.
+We therefore measure, on both sides, the LETTER WIDTH relative to the cap
+height, and the number of clusters -- two letters that touch make only
+one. The factor to pass to \\VUetroit is the ratio of the two ratios.
 
-    python3 tools/narrowness.py            # tous les titres
-    python3 tools/narrowness.py 8 9        # ces feuillets
+    python3 tools/narrowness.py            # every title
+    python3 tools/narrowness.py 8 9        # these leaves
 """
 import os, sys, re
 import numpy as np
@@ -30,86 +29,85 @@ sys.path.insert(0, os.path.join(P, 'tools'))
 import titles as T
 import page as PG
 
-SEUIL_FACTEUR = 0.93     # en deca, le caractere compose est trop large
+THRESHOLD_FACTOR = 0.93     # below this, the composed face is too wide
 
 
-def lettres(img, y0, y1, x0, x1, seuil, aire=20):
-    """(nombre d'amas, largeur mediane, hauteur maximale). Un amas est un
-    groupe de colonnes encrees : deux lettres soudees n'en font qu'un, et
-    c'est precisement ce qu'on veut compter."""
-    sub = (img[y0:y1 + 1, x0:x1 + 1] < seuil).astype(np.uint8)
+def letters(img, y0, y1, x0, x1, threshold, area=20):
+    """(number of clusters, median width, maximum height). A cluster is a
+    group of inked columns: two welded letters make only one, and that is
+    precisely what we want to count."""
+    sub = (img[y0:y1 + 1, x0:x1 + 1] < threshold).astype(np.uint8)
     n, lab, st, _ = cv2.connectedComponentsWithStats(sub, 8)
-    L = sorted([s for s in st[1:] if s[4] >= aire], key=lambda s: s[0])
+    L = sorted([s for s in st[1:] if s[4] >= area], key=lambda s: s[0])
     if not L:
         return 0, 0, 0
     return len(L), float(np.median([s[2] for s in L])), int(max(s[3] for s in L))
 
 
-def analyse(feuillet, cle):
-    pdfpage = feuillet - 3 + 1
-    comp, txt = T.lignes_composees(pdfpage)
-    fac = T.lignes_facsimile(feuillet)
-    yt = [y for y, t in txt if cle.upper() in t.upper()]
-    if not yt:
+def analysis(leaf, key):
+    pdfpage = leaf - 3 + 1
+    comp, txt = T.composed_lines(pdfpage)
+    fac = T.facsimile_lines(leaf)
+    y_top = [y for y, t in txt if key.upper() in t.upper()]
+    if not y_top:
         return None
-    i = min(range(len(comp)), key=lambda k: abs(comp[k]['y0'] - yt[0]))
-    d = T._decalage(comp, fac)
-    cible = comp[i]['y0'] - d
-    j = min(range(len(fac)), key=lambda k: abs(fac[k]['y0'] - cible))
-    if abs(fac[j]['y0'] - cible) > 30:
-        return 'titre non localise au fac-simile'
-    ci, fj = comp[i], fac[j]
-    nc, wc, hc = lettres(T.image_composee(pdfpage), ci['y0'], ci['y1'],
-                         ci['x0'], ci['x1'], 170)
-    norm, gm, ang = PG.prepared(feuillet)
-    nf, wf, hf = lettres(norm, fj['y0'], fj['y1'], fj['x0'], fj['x1'], 175)
+    i = min(range(len(comp)), key=lambda k: abs(comp[k]['y0'] - y_top[0]))
+    d = T._offset(comp, fac)
+    target = comp[i]['y0'] - d
+    j = min(range(len(fac)), key=lambda k: abs(fac[k]['y0'] - target))
+    if abs(fac[j]['y0'] - target) > 30:
+        return 'title not located in the facsimile'
+    here, fj = comp[i], fac[j]
+    nc, wc, hc = letters(T.composed_image(pdfpage), here['y0'], here['y1'],
+                         here['x0'], here['x1'], 170)
+    norm, gm, ang = PG.prepared_img(leaf)
+    nf, wf, hf = letters(norm, fj['y0'], fj['y1'], fj['x0'], fj['x1'], 175)
     if not (hc and hf and wc):
-        return 'mesure impossible'
-    return {'comp': (nc, wc, hc, ci['x1'] - ci['x0']),
+        return 'measurement impossible'
+    return {'comp': (nc, wc, hc, here['x1'] - here['x0']),
             'fac': (nf, wf, hf, fj['x1'] - fj['x0']),
             'facteur': (wf / hf) / (wc / hc)}
 
 
 if __name__ == '__main__':
-    voulus = {int(a) for a in sys.argv[1:]}
-    serres, sains, muets = [], 0, []
-    for feu, txt, fich in T.titres_source():
-        if voulus and feu not in voulus:
+    wanted = {int(a) for a in sys.argv[1:]}
+    tight, sound, silent = [], 0, []
+    for feu, txt, fname in T.source_titles():
+        if wanted and feu not in wanted:
             continue
-        cle = txt.split()[0] if txt.split() else ''
-        cle = re.sub(r'[^A-Za-z]', '', cle)
-        r = analyse(feu, cle) if cle else None
-        nom = '%-24s folio %3d' % (txt[:24], feu - 4)
+        key = txt.split()[0] if txt.split() else ''
+        key = re.sub(r'[^A-Za-z]', '', key)
+        r = analysis(feu, key) if key else None
+        name = '%-24s folio %3d' % (txt[:24], feu - 4)
         if r is None or isinstance(r, str):
-            muets.append((nom, r or 'titre introuvable'))
+            silent.append((name, r or 'title not found'))
             continue
         nc, wc, hc, lc = r['comp']
         nf, wf, hf, lf = r['fac']
         f = r['facteur']
-        # LE FACTEUR N'A DE SENS QUE SI LES LETTRES COMPOSEES SONT
-        # SEPAREES. Des qu'elles se soudent, la « largeur de lettre »
-        # mesuree est celle d'un amas de deux ou trois lettres, et le
-        # facteur qu'on en tire est absurde : au folio 217 il sortait a
-        # 0,208, au folio 11 a 0,380. Ces titres sont bien serres -- le
-        # nombre d'amas le dit -- mais leur facteur doit se prendre
-        # ailleurs, sur les titres du volume ou les lettres tiennent
-        # encore leur rang.
-        soude = nc < nf - 1
-        if soude or f < SEUIL_FACTEUR:
-            serres.append((nom, nc, nf, f, wc, hc, wf, hf, soude))
-    mesurables = [x[3] for x in serres if not x[8]]
-    for nom, nc, nf, f, wc, hc, wf, hf, soude in serres:
-        if soude:
-            print('  X  %s : %d amas composes pour %d releves — LETTRES '
-                  'SOUDEES, facteur non mesurable ici' % (nom, nc, nf))
+        # THE FACTOR MEANS SOMETHING ONLY IF THE COMPOSED LETTERS ARE
+        # SEPARATE. As soon as they weld, the "letter width" measured is
+        # that of a cluster of two or three letters, and the factor drawn
+        # from it is absurd: at folio 217 it came out at 0.208, at folio 11
+        # at 0.380. Those titles are indeed tight -- the cluster count says
+        # so -- but their factor must be taken elsewhere, from the volume's
+        # titles where the letters still keep their rank.
+        welded = nc < nf - 1
+        if welded or f < THRESHOLD_FACTOR:
+            tight.append((name, nc, nf, f, wc, hc, wf, hf, welded))
+    measurable = [x[3] for x in tight if not x[8]]
+    for name, nc, nf, f, wc, hc, wf, hf, welded in tight:
+        if welded:
+            print('  X  %s: %d composed clusters for %d surveyed — LETTERS '
+                  'WELDED, factor not measurable here' % (name, nc, nf))
         else:
-            print('  X  %s : %d amas pour %d ; lettre/capitale %.3f contre '
+            print('  X  %s: %d clusters for %d; letter/capital %.3f against '
                   '%.3f  ->  \\VUetroit{%.3f}'
-                  % (nom, nc, nf, wc / hc, wf / hf, f))
-    if mesurables:
-        print('\nfacteur mesurable sur %d titres : mediane %.3f, de %.3f a %.3f'
-              % (len(mesurables), float(np.median(mesurables)),
-                 min(mesurables), max(mesurables)))
-    for nom, m in muets:
-        print('  ?  %s : %s' % (nom, m))
-    print('\n%d titres serres, %d non etablis' % (len(serres), len(muets)))
+                  % (name, nc, nf, wc / hc, wf / hf, f))
+    if measurable:
+        print('\nfactor measurable on %d titles: median %.3f, from %.3f to %.3f'
+              % (len(measurable), float(np.median(measurable)),
+                 min(measurable), max(measurable)))
+    for name, m in silent:
+        print('  ?  %s : %s' % (name, m))
+    print('\n%d tight titles, %d not established' % (len(tight), len(silent)))

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Inventaire de toutes les pages : geometrie du bloc, nombre de lignes."""
+"""Inventory of every page: geometry of the block, number of lines."""
 import os, sys, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import page as PG

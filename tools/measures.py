@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Mesure la geometrie du bloc de texte et l'interlignage sur une page.
+"""Measures the geometry of the text block and the leading on a page.
 
-Toutes les mesures sont en pixels a 300 dpi, converties en millimetres
-et en points TeX (1 pt = 1/72.27 in ; 300 px = 1 in).
+All measurements are in pixels at 300 dpi, converted into millimetres and
+into TeX points (1 pt = 1/72.27 in; 300 px = 1 in).
 """
 import os, sys, json
 import numpy as np
@@ -12,8 +12,8 @@ P = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGES = os.path.join(P, 'scan', 'pages')
 DPI = 300.0
 PX2MM = 25.4 / DPI
-PX2PT = 72.27 / DPI          # points TeX
-PX2BP = 72.0 / DPI           # points PostScript
+PX2PT = 72.27 / DPI          # TeX points
+PX2BP = 72.0 / DPI           # PostScript points
 
 
 def load_norm(n):
@@ -41,12 +41,12 @@ def deskew(norm):
     return cv2.warpAffine(norm, M, (W, H), flags=cv2.INTER_CUBIC, borderValue=255), ba
 
 
-def analyse(n, verbose=True):
+def analysis(n, verbose=True):
     norm = load_norm(n)
     norm, ang = deskew(norm)
     H, W = norm.shape
     bw = (norm < 150).astype(np.uint8)
-    # ignore les bords (ombre de reliure, tranche)
+    # ignores the edges (shadow of the binding, fore-edge)
     m = int(0.03 * W)
     bw[:, :m] = 0
     bw[:, W - m:] = 0
@@ -58,13 +58,13 @@ def analyse(n, verbose=True):
     xs = np.where(cols > thr_c)[0]
     if len(ys) == 0:
         return None
-    # lignes de texte : segments contigus de rows > seuil
-    onoff = (rows > thr_r).astype(np.int8)
-    d = np.diff(onoff)
+    # lines of text: contiguous segments of rows > threshold
+    on_off = (rows > thr_r).astype(np.int8)
+    d = np.diff(on_off)
     starts = list(np.where(d == 1)[0] + 1)
     ends = list(np.where(d == -1)[0] + 1)
-    if onoff[0]: starts.insert(0, 0)
-    if onoff[-1]: ends.append(len(onoff))
+    if on_off[0]: starts.insert(0, 0)
+    if on_off[-1]: ends.append(len(on_off))
     lines = [(s, e) for s, e in zip(starts, ends) if e - s >= 8]
     base = [(s + e) / 2 for s, e in lines]
     steps = np.diff(base) if len(base) > 1 else np.array([])
@@ -92,7 +92,7 @@ def analyse(n, verbose=True):
 if __name__ == '__main__':
     out = {}
     for n in [int(x) for x in sys.argv[1:]]:
-        r = analyse(n)
+        r = analysis(n)
         if r: out[n] = r
     with open(os.path.join(P, 'tools', 'measures.json'), 'w') as fh:
         json.dump(out, fh, indent=1)

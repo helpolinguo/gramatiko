@@ -1,118 +1,118 @@
 #!/usr/bin/env python3
-"""Classifieur d'ENRICHISSEMENT par le CONTENU, non par l'image.
+"""Classifier of EMPHASIS by CONTENT, not by image.
 
-Le classifieur visuel (tools/enrich.py) a echoue : le demi-gras etroit
-du fac-simile a un rapport encre/largeur qui recouvre celui du romain.
+The visual classifier (tools/enrich.py) failed: the facsimile's narrow
+semi-bold has an ink/width ratio that overlaps the roman's.
 
-Mais l'enrichissement de ce livre n'est pas decoratif, il est SEMANTIQUE.
-La regle, relevee au § 3.3 du LISEZ-MOI :
+But this book's emphasis is not decorative, it is SEMANTIC. The rule,
+recorded in section 3.3 of the journal:
 
-    gras     = la forme IDISTE citee en vedette
-    italique = ce qui est cite d'une AUTRE LANGUE
-    romain   = le texte courant, qui est en ido lui aussi
+    bold    = the IDO form cited as a headword
+    italic  = what is cited from ANOTHER LANGUAGE
+    roman   = the running text, which is in Ido as well
 
-La difficulte n'est donc pas gras contre italique — c'est une question de
-langue, et le vocabulaire la tranche. Elle est gras contre romain : les
-deux sont en ido, et seul le CONTEXTE dit si le mot est cite ou employe.
+The difficulty is therefore not bold against italic -- that is a question
+of language, and the vocabulary settles it. It is bold against roman: both
+are in Ido, and only the CONTEXT says whether the word is cited or used.
 
-Trois indices, tous tires du texte :
+Three indications, all drawn from the text:
 
-  1. un mot cite suit un marqueur : « = », « Ex. : », « quale », « per »,
-     ou une enumeration deja commencee ;
-  2. un mot suivi d'un nom de langue (Franca, Germana, Angla...) est cite
-     de cette langue, donc italique ;
-  3. un mot absent du lexique ido du volume est etranger, donc italique.
+  1. a cited word follows a marker: "=", "Ex. :", "quale", "per", or an
+     enumeration already begun;
+  2. a word followed by the name of a language (Franca, Germana, Angla...)
+     is cited from that language, hence italic;
+  3. a word absent from the volume's Ido lexicon is foreign, hence italic.
 
-Le lexique ido se construit tout seul : ce sont les mots que le releve
-compose en ROMAIN, c'est-a-dire le texte courant. Il grandit a chaque
-page transcrite, et le classifieur avec lui.
+The Ido lexicon builds itself: it is the words the transcription sets in
+ROMAN, that is the running text. It grows with every page transcribed, and
+the classifier with it.
 """
 import os, sys, re, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-LANGUES = {'franca', 'germana', 'angla', 'italiana', 'hispana', 'latina',
+LANGUAGES = {'franca', 'germana', 'angla', 'italiana', 'hispana', 'latina',
            'rusa', 'portugalana', 'esperanto', 'espo', 'poloniana',
            'suediana', 'daniana', 'greka', 'araba'}
-# mots qui introduisent une citation
-MARQUEURS = {'ex', 'exemple', 'quale', 'kom', 'per', 'yen', 'nome'}
+# words that introduce a citation
+MARKERS = {'ex', 'exemple', 'quale', 'kom', 'per', 'yen', 'nome'}
 
 
-def mots(ligne):
-    return re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'-]*", ligne)
+def words(line):
+    return re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'-]*", line)
 
 
-class Classifieur:
-    def __init__(self, lexique_ido, lexique_ital):
-        self.ido = lexique_ido
-        self.ital = lexique_ital
+class Classifier:
+    def __init__(self, ido_lexicon, italic_lexicon):
+        self.ido = ido_lexicon
+        self.italic = italic_lexicon
 
-    def classe(self, suite, k):
-        """suite : liste de mots de la ligne ; k : indice du mot."""
-        m = suite[k].lower().strip("'-")
-        suiv = suite[k + 1].lower() if k + 1 < len(suite) else ''
-        prec = suite[k - 1].lower() if k > 0 else ''
+    def cls_name(self, rest, k):
+        """run: list of the line's words; k: index of the word."""
+        m = rest[k].lower().strip("'-")
+        next_one = rest[k + 1].lower() if k + 1 < len(rest) else ''
+        prev = rest[k - 1].lower() if k > 0 else ''
 
-        # 2. suivi d'un nom de langue -> cite de cette langue
-        if suiv in LANGUES:
+        # 2. followed by a language name -> cited from that language
+        if next_one in LANGUAGES:
             return 'ital'
-        # 3. mot atteste comme etranger dans le volume
-        if m in self.ital and m not in self.ido:
+        # 3. word attested as foreign in the volume
+        if m in self.italic and m not in self.ido:
             return 'ital'
-        # mot inconnu du lexique ido et court : probablement cite
+        # word unknown to the Ido lexicon and short: probably cited
         if m not in self.ido:
-            if prec in LANGUES or prec in MARQUEURS:
+            if prev in LANGUAGES or prev in MARKERS:
                 return 'ital'
             return 'ital' if len(m) > 2 else 'gras'
-        # 1. lettre isolee : c'est presque toujours une vedette
+        # 1. isolated letter: it is nearly always a headword
         if len(m) == 1:
-            return 'ital' if prec in LANGUES or suiv in LANGUES else 'gras'
+            return 'ital' if prev in LANGUAGES or next_one in LANGUAGES else 'gras'
         return 'rom'
 
 
-def construis_lexiques(pages, sauf=None):
-    """Lexiques tires du releve : romain -> ido ; italique -> etranger."""
-    ido, ital = set(), set()
+def build_lexicons(pages, except_for=None):
+    """Lexicons drawn from the transcription: roman -> Ido; italic -> foreign."""
+    ido, italic = set(), set()
     for pg in pages:
-        if sauf is not None and pg.get('feuillet') == sauf:
+        if except_for is not None and pg.get('leaf') == except_for:
             continue
-        for l in pg['lignes']:
-            for mot, cls in extrait(l['brut']):
-                m = mot.lower().strip("'-")
+        for l in pg['lines']:
+            for word, cls in extract(l['brut']):
+                m = word.lower().strip("'-")
                 if cls == 'rom':
                     ido.add(m)
                 elif cls == 'ital':
-                    ital.add(m)
-    return ido, ital
+                    italic.add(m)
+    return ido, italic
 
 
-BAL = re.compile(r'\\(VUgras|textit|textsc)\s*\{')
+SWEEP = re.compile(r'\\(VUgras|textit|textsc)\s*\{')
 
 
-def extrait(brut):
-    """(mot, classe) attendus, lus du releve LaTeX."""
-    out, i, pile = [], 0, []
-    while i < len(brut):
-        m = BAL.match(brut, i)
+def extract(raw):
+    """Expected (word, class), read from the LaTeX transcription."""
+    out, i, stack = [], 0, []
+    while i < len(raw):
+        m = SWEEP.match(raw, i)
         if m:
-            pile.append('gras' if m.group(1) == 'VUgras' else 'ital')
+            stack.append('gras' if m.group(1) == 'VUgras' else 'ital')
             i = m.end(); continue
-        c = brut[i]
+        c = raw[i]
         if c == '}':
-            if pile: pile.pop()
+            if stack: stack.pop()
             i += 1; continue
         if c == '{':
             i += 1; continue
         if c == '\\':
             j = i + 1
-            while j < len(brut) and brut[j].isalpha():
+            while j < len(raw) and raw[j].isalpha():
                 j += 1
             i = max(j, i + 2); continue
         if c.isalpha() or c in 'ÀÁÂÄÈÉÊËÌÍÎÏÒÓÔÖÙÚÛÜàáâäèéêëìíîïòóôöùúûü':
             j = i
-            while j < len(brut) and (brut[j].isalpha() or brut[j] in "'-"
-                                     or brut[j] in 'àáâäèéêëìíîïòóôöùúûü'):
+            while j < len(raw) and (raw[j].isalpha() or raw[j] in "'-"
+                                     or raw[j] in 'àáâäèéêëìíîïòóôöùúûü'):
                 j += 1
-            out.append((brut[i:j], pile[-1] if pile else 'rom'))
+            out.append((raw[i:j], stack[-1] if stack else 'rom'))
             i = j; continue
         i += 1
     return out
@@ -120,30 +120,30 @@ def extrait(brut):
 
 if __name__ == '__main__':
     import checks as C
-    pages = [p for p in C.lire_releve() if p.get('feuillet')
-             and int(p['feuillet']) >= 15]
+    pages = [p for p in C.read_transcription() if p.get('leaf')
+             and int(p['leaf']) >= 15]
     conf = {}
-    # validation croisee : chaque page est classee avec un lexique
-    # construit SANS elle, pour ne pas se mesurer sur ce qu'on a appris.
+    # cross-validation: each page is classified with a lexicon built
+    # WITHOUT it, so as not to measure ourselves on what we have learnt.
     for pg in pages:
-        ido, ital = construis_lexiques(pages, sauf=pg['feuillet'])
-        cl = Classifieur(ido, ital)
-        for l in pg['lignes']:
-            att = extrait(l['brut'])
-            if not att:
+        ido, italic = build_lexicons(pages, except_for=pg['leaf'])
+        cl = Classifier(ido, italic)
+        for l in pg['lines']:
+            waiting = extract(l['brut'])
+            if not waiting:
                 continue
-            suite = [m for m, _ in att]
-            for k, (mot, vrai) in enumerate(att):
-                pred = cl.classe(suite, k)
-                conf[(vrai, pred)] = conf.get((vrai, pred), 0) + 1
-    tot = sum(conf.values())
+            rest = [m for m, _ in waiting]
+            for k, (word, true_val) in enumerate(waiting):
+                pred = cl.cls_name(rest, k)
+                conf[(true_val, pred)] = conf.get((true_val, pred), 0) + 1
+    total = sum(conf.values())
     just = sum(v for (a, b), v in conf.items() if a == b)
-    romtot = sum(v for (a, _), v in conf.items() if a == 'rom')
-    print('Classifieur par le CONTENU (validation croisee page par page)')
-    print('  mots compares : %d' % tot)
-    print('  exactitude    : %.1f %%' % (100.0 * just / max(tot, 1)))
-    print('  reference « tout romain » : %.1f %%' % (100.0 * romtot / max(tot, 1)))
-    print('\n  matrice (attendu -> predit rom / gras / ital) :')
+    roman_total = sum(v for (a, _), v in conf.items() if a == 'rom')
+    print('Classifier by CONTENT (cross-validation page by page)')
+    print('  words compared: %d' % total)
+    print('  exactitude    : %.1f %%' % (100.0 * just / max(total, 1)))
+    print('  reference « tout romain » : %.1f %%' % (100.0 * roman_total / max(total, 1)))
+    print('\n  matrix (expected -> predicted rom / bold / ital):')
     for a in ('rom', 'gras', 'ital'):
         n = sum(v for (x, _), v in conf.items() if x == a)
         r = conf.get((a, a), 0)

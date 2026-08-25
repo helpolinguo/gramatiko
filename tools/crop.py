@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Isole la zone de PAPIER d'une page scannee, puis mesure le bloc de texte.
+"""Isolates the PAPER area of a scanned page, then measures the text block.
 
-Le scan contient, autour de la page utile : l'ombre de la reliure (sombre),
-la tranche des feuillets voisins (clair, raye) et le fond du scanner.
-On repere le papier par sa luminosite : c'est la plus grande composante
-claire et homogene de l'image.
+The scan contains, around the useful page: the shadow of the binding
+(dark), the fore-edge of the neighbouring leaves (light, striped) and the
+scanner's ground. We locate the paper by its lightness: it is the largest
+light and homogeneous component of the image.
 """
 import os, sys, json
 import numpy as np
@@ -18,7 +18,7 @@ PX2PT = 72.27 / DPI
 
 
 def paper_box(gray):
-    """Rectangle du papier : plus grande composante claire."""
+    """Rectangle of the paper: largest light component."""
     h, w = gray.shape
     small = cv2.resize(gray, (w // 8, h // 8), interpolation=cv2.INTER_AREA)
     blur = cv2.GaussianBlur(small, (9, 9), 0)
@@ -28,11 +28,11 @@ def paper_box(gray):
     if nlab <= 1:
         return 0, 0, w, h
     i = 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))
-    x, y, ww, hh = stats[i, :4]
-    return int(x) * 8, int(y) * 8, int(x + ww) * 8, int(y + hh) * 8
+    x, y, width_w, hh = stats[i, :4]
+    return int(x) * 8, int(y) * 8, int(x + width_w) * 8, int(y + hh) * 8
 
 
-def normalise(gray):
+def normalise_img(gray):
     bg = cv2.medianBlur(cv2.resize(gray, None, fx=0.1, fy=0.1), 21)
     bg = cv2.resize(bg, (gray.shape[1], gray.shape[0]))
     n = np.clip(gray.astype(np.float32) / np.maximum(bg.astype(np.float32), 1) * 200, 0, 255)
@@ -56,15 +56,15 @@ def deskew(img):
     return cv2.warpAffine(img, M, (W, H), flags=cv2.INTER_CUBIC, borderValue=255), ba
 
 
-def prepared(n, pad=0.02):
-    """Retourne l'image du papier, desinclinee et normalisee."""
+def prepared_img(n, pad=0.02):
+    """Returns the image of the paper, deskewed and normalised."""
     g = cv2.imread(os.path.join(PAGES, 'f%04d.jpg' % n), cv2.IMREAD_GRAYSCALE)
     x0, y0, x1, y1 = paper_box(g)
     dx = int((x1 - x0) * pad); dy = int((y1 - y0) * pad)
     x0, y0 = x0 + dx, y0 + dy
     x1, y1 = x1 - dx, y1 - dy
     crop = g[y0:y1, x0:x1]
-    crop = normalise(crop)
+    crop = normalise_img(crop)
     crop, ang = deskew(crop)
     return crop, ang, (x0, y0, x1, y1)
 
@@ -95,14 +95,14 @@ def text_lines(img, frac=0.012):
     return lines, bw
 
 
-def analyse(n):
-    img, ang, box = prepared(n)
+def analysis(n):
+    img, ang, box = prepared_img(n)
     lines, bw = text_lines(img)
     H, W = img.shape
     if not lines:
         return {'leaf': n, 'empty': True, 'img_w': W, 'img_h': H}
     x0 = min(l['x0'] for l in lines); x1 = max(l['x1'] for l in lines)
-    # largeur de justification : mediane des lignes "pleines" (>=90 % du max)
+    # measure width: median of the "full" lines (>= 90 % of the max)
     widths = sorted(l['x1'] - l['x0'] for l in lines)
     full = [w for w in widths if w > 0.92 * widths[-1]]
     just = float(np.median(full)) if full else widths[-1]
@@ -125,7 +125,7 @@ def analyse(n):
 if __name__ == '__main__':
     res = {}
     for a in sys.argv[1:]:
-        r = analyse(int(a))
+        r = analysis(int(a))
         res[a] = r
         print(json.dumps(r), flush=True)
     with open(os.path.join(P, 'tools', 'crop_measures.json'), 'w') as fh:

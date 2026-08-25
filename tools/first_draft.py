@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
-"""Generateur de PREMIER JET, et mesure de son taux d'erreur.
+"""Generator of a FIRST DRAFT, and measurement of its error rate.
 
-L'idee : produire le releve mecaniquement, pour que la relecture ait a
-VERIFIER plutot qu'a SAISIR. Deux briques :
+The idea: produce the transcription mechanically, so that proofreading has
+to VERIFY rather than to TYPE. Two components:
 
-  * les coupures de ligne viennent des boites de lignes du fac-simile,
-    donc sans OCR — c'est deja fiable, les controles le montrent ;
-  * le TEXTE de chaque ligne vient d'un OCR ligne a ligne, chaque ligne
-    etant decoupee et agrandie avant d'etre lue.
+  * the line breaks come from the facsimile's line boxes, hence without
+    OCR -- that is already reliable, as the checks show;
+  * the TEXT of each line comes from a line-by-line OCR, each line being
+    cut out and enlarged before being read.
 
-Avant de faire confiance a quoi que ce soit, on mesure. Les dix pages
-deja relevees a la main servent de verite terrain : on compare le jet
-automatique a ce relevé, ligne par ligne, et on rend le taux d'erreur
-par caractere. Un premier jet dont on ignore le taux d'erreur ne vaut
-pas mieux que pas de premier jet du tout.
+Before trusting anything, we measure. The ten pages already transcribed by
+hand serve as ground truth: we compare the automatic draft with that
+transcription, line by line, and return the error rate per character. A
+first draft whose error rate is unknown is worth no more than no first
+draft at all.
 """
 import os, sys, re, json, subprocess, unicodedata
 import numpy as np
@@ -28,22 +28,22 @@ TMP = os.path.join(P, 'scan', 'jet')
 os.makedirs(TMP, exist_ok=True)
 
 
-def ocr_lignes(feuillet, marge=6, echelle=3):
-    """OCR ligne a ligne : chaque boite est decoupee, agrandie, lue seule."""
-    d = cache.feuillet(feuillet)
-    norm, gm, ang = PG.prepared(feuillet)
+def ocr_lines(leaf, margin=6, scale=3):
+    """Line-by-line OCR: each box is cut out, enlarged, read on its own."""
+    d = cache.leaf(leaf)
+    norm, gm, ang = PG.prepared_img(leaf)
     H, W = norm.shape
     out = []
-    for k, l in enumerate(d['lignes']):
-        y0 = max(0, l['y0'] - marge); y1 = min(H, l['y1'] + marge)
-        x0 = max(0, l['x0'] - marge); x1 = min(W, l['x1'] + marge)
+    for k, l in enumerate(d['lines']):
+        y0 = max(0, l['y0'] - margin); y1 = min(H, l['y1'] + margin)
+        x0 = max(0, l['x0'] - margin); x1 = min(W, l['x1'] + margin)
         sub = norm[y0:y1, x0:x1]
         if sub.size == 0:
             out.append('')
             continue
-        sub = cv2.resize(sub, None, fx=echelle, fy=echelle,
+        sub = cv2.resize(sub, None, fx=scale, fy=scale,
                          interpolation=cv2.INTER_CUBIC)
-        fp = os.path.join(TMP, 'l%04d_%03d.png' % (feuillet, k))
+        fp = os.path.join(TMP, 'l%04d_%03d.png' % (leaf, k))
         cv2.imwrite(fp, sub)
         subprocess.run(['tesseract', fp, fp[:-4], '--psm', '7', '-l', 'eng'],
                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
@@ -64,7 +64,7 @@ def _norm(s):
 
 
 def distance(a, b):
-    """Levenshtein, pour le taux d'erreur par caractere."""
+    """Levenshtein, for the error rate per character."""
     if a == b:
         return 0
     if not a:
@@ -72,49 +72,49 @@ def distance(a, b):
     if not b:
         return len(a)
     prev = list(range(len(b) + 1))
-    for i, ca in enumerate(a, 1):
+    for i, that in enumerate(a, 1):
         cur = [i]
         for j, cb in enumerate(b, 1):
             cur.append(min(prev[j] + 1, cur[j - 1] + 1,
-                           prev[j - 1] + (ca != cb)))
+                           prev[j - 1] + (that != cb)))
         prev = cur
     return prev[-1]
 
 
-def mesure(pages_ref):
-    """Compare le jet automatique au releve manuel, page par page."""
+def measure(pages_ref):
+    """Compares the automatic draft with the manual transcription, page by page."""
     total_d = total_n = 0
     for pg in pages_ref:
-        f = pg.get('feuillet')
+        f = pg.get('leaf')
         if not f:
             continue
         f = int(f)
-        att = [_norm(l['texte'] + ('-' if l['coupe'] == 'cc' else ''))
-               for l in pg['lignes'] if l['texte']]
-        got = [_norm(x) for x in ocr_lignes(f)]
-        # Le folio est compose par \VUfolio : il n'appartient pas au releve.
-        # Le reconnaitre au motif de son texte echouait des que l'OCR le
-        # lisait mal — et la page entiere se comparait alors decalee d'un
-        # rang, ce qui donnait 90 % d'erreur la ou l'OCR n'en faisait que
-        # trois. On se fie donc a la DETECTION GEOMETRIQUE mise en cache.
-        if cache.feuillet(f).get('folio_detecte'):
+        waiting = [_norm(l['text'] + ('-' if l['break'] == 'cc' else ''))
+               for l in pg['lines'] if l['text']]
+        got = [_norm(x) for x in ocr_lines(f)]
+        # The folio is set by \VUfolio: it does not belong to the
+        # transcription. Recognising it by the pattern of its text failed as
+        # soon as the OCR read it badly -- and the whole page was then compared
+        # one rank out, which gave 90 % error where the OCR made only three. We
+        # therefore rely on the cached GEOMETRIC DETECTION.
+        if cache.leaf(f).get('folio_detecte'):
             got = got[1:]
-        n = min(len(att), len(got))
-        d = sum(distance(att[k], got[k]) for k in range(n))
-        c = sum(len(att[k]) for k in range(n))
-        d += sum(len(att[k]) for k in range(n, len(att)))
-        c += sum(len(att[k]) for k in range(n, len(att)))
+        n = min(len(waiting), len(got))
+        d = sum(distance(waiting[k], got[k]) for k in range(n))
+        c = sum(len(waiting[k]) for k in range(n))
+        d += sum(len(waiting[k]) for k in range(n, len(waiting)))
+        c += sum(len(waiting[k]) for k in range(n, len(waiting)))
         total_d += d; total_n += c
-        print('  folio %-3s : %2d lignes relevees, %2d lues — %5.1f %% d\'erreur'
-              % (pg['folio'] or ('f%s' % f), len(att), len(got),
+        print('  folio %-3s : %2d lines transcribed, %2d read — %5.1f %% error'
+              % (pg['folio'] or ('f%s' % f), len(waiting), len(got),
                  100.0 * d / max(c, 1)), flush=True)
-    print('\n  TAUX D\'ERREUR GLOBAL : %.1f %% par caractere (%d sur %d)'
+    print('\n  OVERALL ERROR RATE: %.1f %% per character (%d of %d)'
           % (100.0 * total_d / max(total_n, 1), total_d, total_n))
     return total_d / max(total_n, 1)
 
 
 if __name__ == '__main__':
-    pages = C.lire_releve()
-    ref = [p for p in pages if p.get('feuillet') and int(p['feuillet']) >= 15]
-    print('Mesure du premier jet automatique contre le releve manuel :\n')
-    mesure(ref)
+    pages = C.read_transcription()
+    ref = [p for p in pages if p.get('leaf') and int(p['leaf']) >= 15]
+    print('Measurement of the automatic first draft against the manual transcription:\n')
+    measure(ref)

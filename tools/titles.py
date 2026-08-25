@@ -1,29 +1,27 @@
 #!/usr/bin/env python3
-"""Controle des BLANCS QUI ENTOURENT LES TITRES, par appariement a
-l'ORDONNEE et non au rang.
+"""Check of the WHITE SPACE AROUND TITLES, by matching on the ORDINATE
+and not on the rank.
 
-Le premier balayage appariait la ligne composee a la ligne du fac-simile
-par leur RANG dans la page. C'est faux des que les deux comptages
-different d'une unite -- une ligne courte perdue par le detecteur, deux
-lignes serrees soudees par pdftotext -- et il suffit d'un ecart pour que
-tout ce qui suit soit apparie de travers. Sur les 51 titres du volume,
-ce balayage en donnait 23 hors tolerance, dont des ecarts de 110 a 228
-px qui n'etaient que de faux appariements.
+The first sweep matched the composed line to the facsimile line by their
+RANK in the page. That is wrong as soon as the two counts differ by one --
+a short line missed by the detector, two tight lines welded by pdftotext --
+and one discrepancy is enough for everything that follows to be matched
+askew. Of the volume's 51 titles, that sweep gave 23 out of tolerance,
+including deviations of 110 to 228 px that were nothing but false matches.
 
-On apparie donc par la POSITION. Les deux pages ne sont pas dans le meme
-repere : le scan a son propre decalage vertical, page par page. Mais ce
-decalage est une CONSTANTE par page, et il se trouve sans rien supposer
-du comptage : on essaie tous les decalages plausibles et l'on garde
-celui qui apparie le plus de lignes a moins de huit pixels. C'est un
-vote, non une hypothese.
+We therefore match by POSITION. The two pages are not in the same frame:
+the scan has its own vertical offset, page by page. But that offset is a
+CONSTANT per page, and it is found without assuming anything about the
+counts: we try every plausible offset and keep the one that matches the
+most lines to within eight pixels. It is a vote, not a hypothesis.
 
-Un titre n'est ensuite mesure que si SES DEUX VOISINS sont apparies eux
-aussi, et apparies dans l'ordre : faute de quoi le blanc compare ne
-serait pas le meme blanc. Ce qui ne peut pas etre etabli est dit tel
-quel plutot que compte comme bon.
+A title is then measured only if BOTH ITS NEIGHBOURS are matched too, and
+matched in order: failing which the white space compared would not be the
+same white space. What cannot be established is stated as such rather than
+counted as good.
 
-    python3 tools/titles.py            # tous les titres
-    python3 tools/titles.py 173 176    # ces feuillets seulement
+    python3 tools/titles.py            # every title
+    python3 tools/titles.py 173 176    # these leaves only
 """
 import os, re, sys, subprocess
 import numpy as np
@@ -33,13 +31,13 @@ sys.path.insert(0, os.path.join(P, 'tools'))
 import page as PG
 
 PX2MM = 25.4 / 300.0
-TOL_APPARIEMENT = 10     # px : deux lignes appariees
-TOL_BLANC = 14           # px = 1,2 mm : au-dela, le blanc est faux
-PREMIER_FEUILLET = 3     # le volume commence a la couverture imprimee
+TOL_MATCH = 10     # px: two matched lines
+TOL_WHITE = 14           # px = 1.2 mm: beyond this, the white space is wrong
+FIRST_LEAF_NUM = 3     # the volume begins at the printed cover
 
 
-def titres_source():
-    """[(feuillet, texte)] dans l'ordre du volume."""
+def source_titles():
+    """[(leaf, text)] in the order of the volume."""
     out = []
     for f in ('content/00-front-matter.tex', 'content/10-part1.tex',
               'content/20-part2.tex'):
@@ -51,7 +49,7 @@ def titres_source():
             m = re.search(r'\\VUtitre\{[^}]*\}\{[^}]*\}\{(.*)$', l)
             if m:
                 t = m.group(1)
-                # \VUetroit{facteur}{texte} : le facteur n'est pas du texte
+                # \VUetroit{factor}{text}: the factor is not text
                 t = re.sub(r'\\VUetroit\{[\d.]+\}', ' ', t)
                 t = re.sub(r'\\[A-Za-z]+(\[[^\]]*\])?', ' ', t)
                 t = re.sub(r'[{}\\]', ' ', t)
@@ -59,21 +57,21 @@ def titres_source():
     return out
 
 
-def bandes(img, seuil, minink=4, fus=3, hmin=6):
-    """Rangees d'encre d'une image : le MEME algorithme des deux cotes.
+def bands(img, threshold, minink=4, merged=3, hmin=6):
+    """Rows of ink of an image: the SAME algorithm on both sides.
 
-    C'est ce point qui a fait echouer le premier essai d'appariement par
-    ordonnee. On y prenait, du cote compose, le yMin de pdftotext -- le
-    haut de la BOITE DE FONTE, constant d'une ligne a l'autre -- et, du
-    cote fac-simile, le haut de l'ENCRE, qui monte ou descend de dix
-    pixels selon que la ligne porte ou non des ascendantes. Les deux
-    grandeurs ne sont pas commensurables, et aucun decalage constant ne
-    pouvait les apparier : le vote rendait n'importe quoi.
-    On appelle donc PG.lines_of DES DEUX COTES : le meme decoupage en
-    lignes sur la page composee, rendue a 300 dpi et seuillee, et sur le
-    fac-simile. Les deux y0 sont alors la meme grandeur.
+    This is the point on which the first attempt at matching by ordinate
+    failed. There we took, on the composed side, pdftotext's yMin -- the
+    top of the FONT BOX, constant from one line to the next -- and, on the
+    facsimile side, the top of the INK, which rises or falls by ten pixels
+    according to whether the line carries ascenders. The two quantities are
+    not commensurable, and no constant offset could match them: the vote
+    returned anything at all.
+    We therefore call PG.lines_of ON BOTH SIDES: the same division into
+    lines on the composed page, rendered at 300 dpi and thresholded, and on
+    the facsimile. The two y0 are then the same quantity.
     """
-    ink = (img < seuil).sum(axis=1)
+    ink = (img < threshold).sum(axis=1)
     out, d = [], None
     for y, v in enumerate(ink):
         if v >= minink and d is None:
@@ -85,14 +83,14 @@ def bandes(img, seuil, minink=4, fus=3, hmin=6):
         out.append((d, img.shape[0] - 1))
     mg = []
     for b in out:
-        if mg and b[0] - mg[-1][1] <= fus:
+        if mg and b[0] - mg[-1][1] <= merged:
             mg[-1] = (mg[-1][0], b[1])
         else:
             mg.append(b)
     return [{'y0': a, 'y1': b} for a, b in mg if b - a >= hmin]
 
 
-def image_composee(pdfpage):
+def composed_image(pdfpage):
     import cv2, glob, tempfile
     d = tempfile.mkdtemp()
     subprocess.run(['pdftoppm', '-r', '300', '-f', str(pdfpage), '-l',
@@ -107,13 +105,13 @@ def image_composee(pdfpage):
     return g
 
 
-def lignes_composees(pdfpage):
-    """(bandes d'encre, texte par ligne). Le texte sert a RECONNAITRE le
-    titre ; les ordonnees, a l'apparier. Les deux listes n'ont pas
-    forcement la meme longueur -- pdftotext separe des lignes que le
-    profil d'encre soude -- et on ne s'en sert que pour situer le titre
-    dans la page, jamais pour compter."""
-    x = os.path.join(P, 'tools', '.tmp', 'titres.xml')
+def composed_lines(pdfpage):
+    """(bands of ink, text per line). The text serves to RECOGNISE the title;
+    the ordinates, to match it. The two lists do not necessarily have the
+    same length -- pdftotext separates lines that the ink profile welds --
+    and we use them only to situate the title in the page, never to
+    count."""
+    x = os.path.join(P, 'tools', '.tmp', 'titles.xml')
     os.makedirs(os.path.dirname(x), exist_ok=True)
     subprocess.run(['pdftotext', '-f', str(pdfpage), '-l', str(pdfpage),
                     '-bbox-layout', os.path.join(P, 'main.pdf'), x],
@@ -125,167 +123,166 @@ def lignes_composees(pdfpage):
             r'<line xMin="[\d.]+" yMin="([\d.]+)"[^>]*>(.*?)</line>', s, re.S):
         txt.append((float(a) * 300 / 72.0, ' '.join(re.sub(r'<[^>]+>', ' ', b).split())))
     import numpy as np
-    img = image_composee(pdfpage)
+    img = composed_image(pdfpage)
     gm = ((img < 170) * 255).astype(np.uint8)
     return PG.lines_of(gm), txt
 
 
-def lignes_facsimile(feuillet):
-    """Bandes d'encre du fac-simile, dans la colonne de texte, FOLIO
-    COMPRIS : la page composee le porte, et l'oublier decalerait tout
-    l'appariement d'un rang."""
-    norm, gm, ang = PG.prepared(feuillet)
+def facsimile_lines(leaf):
+    """Bands of ink of the facsimile, within the text column, FOLIO
+    INCLUDED: the composed page carries it, and forgetting it would shift
+    the whole matching by one rank."""
+    norm, gm, ang = PG.prepared_img(leaf)
     gm2, span = PG.text_region(gm)
     fl = PG.lines_of(gm2)
     sec = gm.copy()
     if span:
         sec[:, :max(0, span[0] - 12)] = 0
         sec[:, min(sec.shape[1], span[1] + 13):] = 0
-    f0 = PG.folio_ligne(gm2, fl, sec)
+    f0 = PG.folio_line(gm2, fl, sec)
     if f0:
         fl = [f0] + fl
     return fl
 
 
-def _decalage(comp, fac):
-    """Le decalage vertical de la page composee sur le fac-simile, par
-    VOTE : on essaie tous les decalages plausibles et l'on garde celui
-    qui apparie le plus de lignes. Aucune hypothese sur le comptage."""
+def _offset(comp, fac):
+    """The vertical offset of the composed page on the facsimile, by VOTE:
+    we try every plausible offset and keep the one that matches the most
+    lines. No assumption about the counts."""
     cand = sorted({round(c['y0'] - f['y0']) for c in comp for f in fac})
     best, bestn = 0, -1
     for d in cand:
         n = sum(1 for c in comp
                 if min(abs(c['y0'] - (f['y0'] + d)) for f in fac)
-                <= TOL_APPARIEMENT)
+                <= TOL_MATCH)
         if n > bestn:
             best, bestn = d, n
     return best
 
 
-def apparie(comp, fac):
-    """(decalage, {i composee -> j fac-simile}) par ALIGNEMENT MONOTONE.
+def matched(comp, fac):
+    """(offset, {i composed -> j facsimile}) by MONOTONE ALIGNMENT.
 
-    L'appariement etait d'abord glouton : on parcourait les lignes
-    composees dans l'ordre et l'on prenait pour chacune la ligne du
-    fac-simile la plus proche encore libre. Cela suffit tant que les
-    deux pages se suivent, mais une ligne appariee tot AFFAME sa
-    voisine : au folio 169 le titre etait bien apparie et ses deux
-    voisins declares « non apparies » pour cette seule raison, ce qui
-    rendait le controle muet la ou il devait parler.
+    The matching was at first greedy: we walked the composed lines in order
+    and took for each the nearest facsimile line still free. That suffices
+    as long as the two pages keep step, but a line matched early STARVES
+    its neighbour: at folio 169 the title was matched correctly and both
+    its neighbours declared "not matched" for that reason alone, which left
+    the check silent where it ought to have spoken.
 
-    On resout donc l'alignement en entier, par programmation dynamique
-    (Needleman et Wunsch), avec deux proprietes que le glouton n'a pas :
-    l'ORDRE est impose -- deux lignes ne peuvent pas se croiser -- et le
-    choix est GLOBAL, chaque paire etant retenue pour ce qu'elle vaut
-    dans le meilleur alignement, non pour son rang.
+    We therefore solve the alignment whole, by dynamic programming
+    (Needleman and Wunsch), with two properties the greedy method lacks:
+    the ORDER is imposed -- two lines cannot cross -- and the choice is
+    GLOBAL, each pair being kept for what it is worth in the best
+    alignment, not for its rank.
 
-    Une paire rapporte TOL_APPARIEMENT - ecart, donc d'autant plus
-    qu'elle est franche ; un saut coute GAP. Le saut est bon marche a
-    dessein : une ligne manquante d'un cote est un accident ordinaire du
-    decoupage, et il vaut mieux la sauter que forcer une fausse paire.
+    A pair scores TOL_MATCH - deviation, hence the more the cleaner it is;
+    a gap costs GAP. The gap is cheap by design: a line missing on one side
+    is an ordinary accident of the division, and it is better to skip it
+    than to force a false pair.
     """
     if not comp or not fac:
         return 0, {}
-    d = _decalage(comp, fac)
+    d = _offset(comp, fac)
     n, m = len(comp), len(fac)
     GAP = -1.0
     S = np.full((n + 1, m + 1), -np.inf)
     S[0, :] = np.arange(m + 1) * GAP
     S[:, 0] = np.arange(n + 1) * GAP
-    ori = np.zeros((n + 1, m + 1), np.int8)     # 1 paire, 2 saut i, 3 saut j
-    ori[0, 1:] = 3
-    ori[1:, 0] = 2
+    origin = np.zeros((n + 1, m + 1), np.int8)     # 1 pair, 2 skip i, 3 skip j
+    origin[0, 1:] = 3
+    origin[1:, 0] = 2
     for i in range(1, n + 1):
-        ci = comp[i - 1]['y0']
+        here = comp[i - 1]['y0']
         for j in range(1, m + 1):
-            e = abs(ci - (fac[j - 1]['y0'] + d))
+            e = abs(here - (fac[j - 1]['y0'] + d))
             best, k = S[i - 1, j] + GAP, 2
             if S[i, j - 1] + GAP > best:
                 best, k = S[i, j - 1] + GAP, 3
-            if e <= TOL_APPARIEMENT:
-                v = S[i - 1, j - 1] + (TOL_APPARIEMENT - e)
+            if e <= TOL_MATCH:
+                v = S[i - 1, j - 1] + (TOL_MATCH - e)
                 if v > best:
                     best, k = v, 1
-            S[i, j], ori[i, j] = best, k
-    paires = {}
+            S[i, j], origin[i, j] = best, k
+    pairs = {}
     i, j = n, m
     while i > 0 or j > 0:
-        k = ori[i, j]
+        k = origin[i, j]
         if k == 1:
-            paires[i - 1] = j - 1
+            pairs[i - 1] = j - 1
             i -= 1
             j -= 1
         elif k == 2:
             i -= 1
         else:
             j -= 1
-    return d, paires
+    return d, pairs
 
 
-def controle(feuillet, texte):
-    pdfpage = feuillet - PREMIER_FEUILLET + 1
-    comp, txt = lignes_composees(pdfpage)
-    fac = lignes_facsimile(feuillet)
-    cle = re.sub(r'[^A-Za-z]', '', texte.split()[0]).upper() if texte.split() else ''
-    yt = [y for y, t in txt
-          if cle and cle in re.sub(r'[^A-Za-z]', '', t).upper()]
-    if not yt:
-        return ('titre introuvable dans la page composee', None, None)
-    # la bande d'encre qui porte le titre : celle dont le haut est le
-    # plus proche du yMin de pdftotext, a une demi-interligne pres
-    i = min(range(len(comp)), key=lambda k: abs(comp[k]['y0'] - yt[0]))
-    if abs(comp[i]['y0'] - yt[0]) > 25:
-        return ('titre non retrouve dans le profil d\'encre', None, None)
-    d, paires = apparie(comp, fac)
-    if i not in paires:
-        return ('titre non apparie au fac-simile', None, None)
-    j = paires[i]
+def check(leaf, text):
+    pdfpage = leaf - FIRST_LEAF_NUM + 1
+    comp, txt = composed_lines(pdfpage)
+    fac = facsimile_lines(leaf)
+    key = re.sub(r'[^A-Za-z]', '', text.split()[0]).upper() if text.split() else ''
+    y_top = [y for y, t in txt
+          if key and key in re.sub(r'[^A-Za-z]', '', t).upper()]
+    if not y_top:
+        return ('title not found in the composed page', None, None)
+    # the band of ink carrying the title: the one whose top is nearest
+    # pdftotext's yMin, to within half a line
+    i = min(range(len(comp)), key=lambda k: abs(comp[k]['y0'] - y_top[0]))
+    if abs(comp[i]['y0'] - y_top[0]) > 25:
+        return ('title not found again in the ink profile', None, None)
+    d, pairs = matched(comp, fac)
+    if i not in pairs:
+        return ('title not matched to the facsimile', None, None)
+    j = pairs[i]
     res = {}
-    for cote, di in (('avant', -1), ('apres', +1)):
+    for side, di in (('avant', -1), ('apres', +1)):
         ii, jj = i + di, j + di
         if not (0 <= ii < len(comp) and 0 <= jj < len(fac)):
-            res[cote] = None                    # bord de page : rien a mesurer
-        elif paires.get(ii) != jj:
-            res[cote] = 'voisin non apparie'
+            res[side] = None                    # edge of page: nothing to measure
+        elif pairs.get(ii) != jj:
+            res[side] = 'neighbour not matched'
         else:
             cb = abs(comp[i]['y0'] - comp[ii]['y0'])
             fb = abs(fac[j]['y0'] - fac[jj]['y0'])
-            res[cote] = (fb, cb, cb - fb)
+            res[side] = (fb, cb, cb - fb)
     return (None, res, d)
 
 
 if __name__ == '__main__':
-    voulus = {int(a) for a in sys.argv[1:]}
-    T = titres_source()
-    mauvais = incertains = bons = 0
-    for feu, txt, fich in T:
-        if voulus and feu not in voulus:
+    wanted = {int(a) for a in sys.argv[1:]}
+    T = source_titles()
+    bad = uncertain = good = 0
+    for feu, txt, fname in T:
+        if wanted and feu not in wanted:
             continue
-        err, res, d = controle(feu, txt)
-        nom = '%-26s folio %3s' % (txt[:26], feu - 4)
+        err, res, d = check(feu, txt)
+        name = '%-26s folio %3s' % (txt[:26], feu - 4)
         if err:
-            incertains += 1
-            print('  ?  %s : %s' % (nom, err))
+            uncertain += 1
+            print('  ?  %s : %s' % (name, err))
             continue
         pb = []
         inc = False
-        for cote in ('avant', 'apres'):
-            r = res[cote]
+        for side in ('avant', 'apres'):
+            r = res[side]
             if r is None:
                 continue
             if isinstance(r, str):
                 inc = True
-                pb.append('%s : %s' % (cote, r))
-            elif abs(r[2]) > TOL_BLANC:
-                pb.append('%s : fac %d, compose %d, %+d px = %+.2f mm'
-                          % (cote, r[0], r[1], r[2], r[2] * PX2MM))
+                pb.append('%s : %s' % (side, r))
+            elif abs(r[2]) > TOL_WHITE:
+                pb.append('%s: fac %d, composed %d, %+d px = %+.2f mm'
+                          % (side, r[0], r[1], r[2], r[2] * PX2MM))
         if pb and not inc:
-            mauvais += 1
-            print('  X  %s : %s' % (nom, ' ; '.join(pb)))
+            bad += 1
+            print('  X  %s : %s' % (name, ' ; '.join(pb)))
         elif inc:
-            incertains += 1
-            print('  ?  %s : %s' % (nom, ' ; '.join(pb)))
+            uncertain += 1
+            print('  ?  %s : %s' % (name, ' ; '.join(pb)))
         else:
-            bons += 1
-    print('\n%d titres : %d justes, %d faux, %d non etablis'
-          % (bons + mauvais + incertains, bons, mauvais, incertains))
+            good += 1
+    print('\n%d titles: %d right, %d wrong, %d not established'
+          % (good + bad + uncertain, good, bad, uncertain))

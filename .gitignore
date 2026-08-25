@@ -1,2 +1,22 @@
-# Caches de Python, produits par les outils.
+# Python bytecode, produced by the tools. Regenerated on every run, specific
+# to the machine and the interpreter version. Nothing to version.
 __pycache__/
+*.py[cod]
+
+# LaTeX leavings. The PDF itself is tracked: it is what is delivered.
+*.aux
+*.log
+*.out
+*.toc
+
+# The scan: 167 MB of page images, and the caches drawn from them. Both are
+# rebuilt from the two source PDFs; neither belongs in the repository.
+scan/
+
+# What the checks write out for the eye: juxtapositions at 300 dpi, ink
+# renderings. Rebuilt by `make -f build.mk controles`.
+checks/
+
+# Editor and OS leavings.
+.DS_Store
+*.swp

@@ -1,102 +1,101 @@
 #!/usr/bin/env python3
-"""Syllabateur ido — coupures de fin de ligne admises.
+"""Ido syllabifier -- the line breaks the volume admits.
 
-SPECIFICATION : l'ouvrage lui-meme, appendice « Puntizado », folio 220,
-paragraphe « Seko di la Vorti. [D. 485] » :
+SPECIFICATION: the work itself, appendix "Puntizado", folio 220,
+paragraph "Seko di la Vorti. [D. 485]":
 
-    « On admisas kompleta libereso en la seko di la vorti de lineo a
+    "On admisas kompleta libereso en la seko di la vorti de lineo a
       lineo, ecepte ke singla parto devas kontenar vokalo, e ke la
       digrami o diftongi devas ne dividesar. Ex. on darfas sekar tale
       la vorto mustar : mu-star, mus-tar, o must-ar. Ma neutro,
-      mashino sekesas neu-tro, ma-shino, e ne ne-utro, mas-hino. »
+      mashino sekesas neu-tro, ma-shino, e ne ne-utro, mas-hino."
 
-Autrement dit, la coupure est libre a DEUX conditions seulement :
-  1. chacune des deux parties contient au moins une voyelle ;
-  2. la coupure ne tombe pas a l'interieur d'un digramme ni d'une
-     diphtongue.
+In other words, the break is free on TWO conditions only:
+  1. each of the two parts contains at least one vowel;
+  2. the break does not fall inside a digraph or a diphthong.
 
-Digrammes (folio 13, « PRONUNCO DIL KONSONANTI E DIGRAMI ») : ch, sh, qu.
-  — q est toujours suivi de u (folio 14) : qu est indivisible ;
-  — gn n'est PAS un digramme : le livre l'ecrit reg-no, dig-na (folio 13).
-Diphtongues : au, eu (folio 17 : « Evitez sorgoze facar ek au, eu du
-  silabi en ta vorti »).
+Digraphs (folio 13, "PRONUNCO DIL KONSONANTI E DIGRAMI"): ch, sh, qu.
+  -- q is always followed by u (folio 14): qu is indivisible;
+  -- gn is NOT a digraph: the book writes reg-no, dig-na (folio 13).
+Diphthongs: au, eu (folio 17: "Evitez sorgoze facar ek au, eu du silabi
+  en ta vorti").
 
-Ce module sert surtout de CONTROLE : toutes les coupures du fac-simile
-sont relevees a la main ; le syllabateur verifie qu'elles sont conformes.
-Une coupure non conforme est soit une coquille de l'original (a conserver
-et a signaler), soit une erreur de releve (a corriger).
+This module serves chiefly as a CHECK: every break in the facsimile is
+transcribed by hand; the syllabifier verifies that they conform. A
+non-conforming break is either a typo of the original (to be kept and
+reported) or an error of transcription (to be corrected).
 """
 import re
 import unicodedata
 
-VOYELLES = set('aeiou')
-DIGRAMMES = ('ch', 'sh', 'qu')
-DIPHTONGUES = ('au', 'eu')
-INSECABLES = DIGRAMMES + DIPHTONGUES
+VOWELS = set('aeiou')
+DIGRAPHS = ('ch', 'sh', 'qu')
+DIPHTHONGS = ('au', 'eu')
+UNBREAKABLE = DIGRAPHS + DIPHTHONGS
 
 
-def _plie(mot):
-    """Minuscules sans accents, pour l'analyse (le livre accentue tres peu)."""
-    s = unicodedata.normalize('NFD', mot.lower())
+def _fold_in(word):
+    """Lower case without accents, for the analysis (the book accents very little)."""
+    s = unicodedata.normalize('NFD', word.lower())
     return ''.join(c for c in s if unicodedata.category(c) != 'Mn')
 
 
-def positions_insecables(mot):
-    """Indices i tels qu'une coupure entre mot[i-1] et mot[i] est interdite
-    parce qu'elle scinderait un digramme ou une diphtongue."""
-    m = _plie(mot)
-    interdit = set()
+def unbreakable_positions(word):
+    """Indices i such that a break between word[i-1] and word[i] is
+    forbidden because it would split a digraph or a diphthong."""
+    m = _fold_in(word)
+    forbidden = set()
     for j in range(len(m) - 1):
-        if m[j:j + 2] in INSECABLES:
-            interdit.add(j + 1)
-    return interdit
+        if m[j:j + 2] in UNBREAKABLE:
+            forbidden.add(j + 1)
+    return forbidden
 
 
-def coupures(mot):
-    """Toutes les coupures admises. Retourne la liste des indices i :
-    la ligne se termine par mot[:i] et reprend par mot[i:]."""
-    m = _plie(mot)
+def breaks(word):
+    """Every break admitted. Returns the list of indices i: the line ends
+    with word[:i] and resumes with word[i:]."""
+    m = _fold_in(word)
     if not m.isalpha():
         return []
-    interdit = positions_insecables(mot)
+    forbidden = unbreakable_positions(word)
     out = []
     for i in range(1, len(m)):
-        if i in interdit:
+        if i in forbidden:
             continue
-        if not (set(m[:i]) & VOYELLES):      # partie gauche sans voyelle
+        if not (set(m[:i]) & VOWELS):      # left part with no vowel
             continue
-        if not (set(m[i:]) & VOYELLES):      # partie droite sans voyelle
+        if not (set(m[i:]) & VOWELS):      # right part with no vowel
             continue
         out.append(i)
     return out
 
 
-def conforme(gauche, droite):
-    """La coupure gauche|droite est-elle conforme a D. 485 ?
-    Retourne (booleen, motif)."""
-    g, d = _plie(gauche), _plie(droite)
+def conforming(left, right):
+    """Does the break left|right conform to D. 485? Returns (boolean,
+    reason)."""
+    g, d = _fold_in(left), _fold_in(right)
     if not g or not d:
         return False, 'partie vide'
-    if not (set(g) & VOYELLES):
-        return False, 'la partie gauche ne contient pas de voyelle'
-    if not (set(d) & VOYELLES):
-        return False, 'la partie droite ne contient pas de voyelle'
-    joint = g[-1] + d[0]
-    if joint in INSECABLES:
-        quoi = 'digramme' if joint in DIGRAMMES else 'diphtongue'
-        return False, 'coupure a l\'interieur du %s « %s »' % (quoi, joint)
+    if not (set(g) & VOWELS):
+        return False, 'the left part contains no vowel'
+    if not (set(d) & VOWELS):
+        return False, 'the right part contains no vowel'
+    joiner = g[-1] + d[0]
+    if joiner in UNBREAKABLE:
+        what = 'digramme' if joiner in DIGRAPHS else 'diphtongue'
+        return False, 'break inside the %s « %s »' % (what, joiner)
     return True, ''
 
 
-def motif_hyphenation(mot):
-    """Le mot avec un trait d'union a chaque coupure admise,
-    au format attendu par \\hyphenation{...}."""
-    cs = coupures(mot)
+def hyphenation_pattern(word):
+    """The word with a hyphen at every admitted break, in the format
+    \\hyphenation{...} expects."""
+    cs = breaks(word)
     out, prev = [], 0
     for i in cs:
-        out.append(mot[prev:i])
+        out.append(word[prev:i])
         prev = i
-    out.append(mot[prev:])
+    out.append(word[prev:])
     return '-'.join(out)
 
 
@@ -104,20 +103,20 @@ if __name__ == '__main__':
     import sys
     if len(sys.argv) > 1:
         for m in sys.argv[1:]:
-            print('%-16s %s' % (m, motif_hyphenation(m)))
+            print('%-16s %s' % (m, hyphenation_pattern(m)))
     else:
-        # controle sur les exemples donnes par le livre lui-meme
-        essais = [
+        # check on the examples the book itself gives
+        attempts = [
             ('mustar', ['mu-star', 'mus-tar', 'must-ar']),
             ('neutro', ['neu-tro']),
             ('mashino', ['ma-shino']),
         ]
-        for mot, attendus in essais:
-            got = ['%s-%s' % (mot[:i], mot[i:]) for i in coupures(mot)]
-            print('%-9s -> %s' % (mot, ' '.join(got)))
-            for a in attendus:
+        for word, expected_all in attempts:
+            got = ['%s-%s' % (word[:i], word[i:]) for i in breaks(word)]
+            print('%-9s -> %s' % (word, ' '.join(got)))
+            for a in expected_all:
                 print('    %-12s %s' % (a, 'OK' if a in got else 'MANQUE'))
-        for mauvais in ['ne-utro', 'mas-hino']:
-            g, d = mauvais.split('-')
-            ok, why = conforme(g, d)
-            print('%-10s rejete ? %s  (%s)' % (mauvais, 'oui' if not ok else 'NON', why))
+        for bad in ['ne-utro', 'mas-hino']:
+            g, d = bad.split('-')
+            ok, why = conforming(g, d)
+            print('%-10s rejete ? %s  (%s)' % (bad, 'oui' if not ok else 'NON', why))

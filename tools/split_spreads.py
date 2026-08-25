@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Decoupe les images du scan (double pages) en pages simples.
+"""Cuts the scan's images (double pages) into single pages.
 
-PDF page 1   -> couverture avant (image simple)
-PDF pages 2..120 -> doubles pages (verso gauche + recto droite)
-PDF page 121 -> couverture arriere (image simple)
+PDF page 1        -> front cover (single image)
+PDF pages 2..120  -> double pages (verso left + recto right)
+PDF page 121      -> back cover (single image)
 
-Sortie : scan/pages/f0001.png ... (numerotation sequentielle des feuillets)
-avec scan/pages/index.tsv qui donne la correspondance.
+Output: scan/pages/f0001.png ... (sequential numbering of the leaves) with
+scan/pages/index.tsv giving the correspondence.
 """
 import os, sys, json
 import numpy as np
@@ -20,7 +20,7 @@ os.makedirs(OUT, exist_ok=True)
 
 
 def find_gutter(gray):
-    """Trouve la colonne de pliure : la plus sombre au centre de l'image."""
+    """Finds the column of the fold: the darkest at the centre of the image."""
     h, w = gray.shape
     band = gray[int(h * 0.15):int(h * 0.85), :]
     col = band.mean(axis=0)
@@ -35,7 +35,7 @@ def main():
     for i, fn in enumerate(files):
         im = Image.open(os.path.join(RAW, fn))
         w, h = im.size
-        single = w < h  # portrait => page unique
+        single = w < h  # portrait => single page
         if single:
             leaf += 1
             name = 'f%04d.jpg' % leaf

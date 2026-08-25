@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Releve des folios imprimes.
+"""Survey of the printed folios.
 
-Methode : on recadre sur le papier, on detecte les lignes de texte, puis
-on n'OCRise QUE la boite de la premiere ligne (le folio est toujours seul
-sur sa ligne, centre, sous la forme "— 26 —").
+Method: we crop to the paper, detect the lines of text, then OCR ONLY the
+box of the first line (the folio is always alone on its line, centred, in
+the form "-- 26 --").
 """
 import os, re, sys, json, subprocess
 import numpy as np
@@ -18,17 +18,17 @@ os.makedirs(TMP, exist_ok=True)
 NUM = re.compile(r'\d{1,3}')
 
 
-def analyse(n):
-    img, ang, box = C.prepared(n, pad=0.005)
+def analysis(n):
+    img, ang, box = C.prepared_img(n, pad=0.005)
     lines, bw = C.text_lines(img)
     H, W = img.shape
     if not lines:
         return {'folio': None, 'raw': '', 'nlines': 0, 'blank': True}
     l0 = lines[0]
-    # le folio est une ligne courte et centree, dans le premier dixieme
-    wid = l0['x1'] - l0['x0']
+    # the folio is a short, centred line, in the first tenth
+    width_of = l0['x1'] - l0['x0']
     cen = (l0['x0'] + l0['x1']) / 2 / W
-    short = wid < 0.30 * W
+    short = width_of < 0.30 * W
     high = l0['y0'] < 0.12 * H
     centered = 0.38 < cen < 0.62
     raw = ''
@@ -50,7 +50,7 @@ def analyse(n):
         if m:
             val = int(m[0])
     return {'folio': val, 'raw': raw.replace('\n', ' ')[:24],
-            'nlines': len(lines), 'first_w': round(wid / W, 3),
+            'nlines': len(lines), 'first_w': round(width_of / W, 3),
             'first_c': round(cen, 3), 'first_y': round(l0['y0'] / H, 3),
             'skew': ang, 'W': W, 'H': H}
 
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     out = {}
     for n in range(lo, hi + 1):
         try:
-            r = analyse(n)
+            r = analysis(n)
         except Exception as e:
             r = {'folio': None, 'raw': 'ERR %s' % e}
         out[n] = r

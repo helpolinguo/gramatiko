@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Releve de structure : folios imprimes, titres, elements recurrents.
+"""Structural survey: printed folios, titles, recurring elements.
 
-Base sur l'OCR grossier (scan/ocr/*.txt), qui suffit pour reperer
-l'organisation du volume mais n'est jamais utilise pour le texte lui-meme.
+Based on the coarse OCR (scan/ocr/*.txt), which is enough to locate the
+organisation of the volume but is never used for the text itself.
 """
 import os, re, json, sys
 
@@ -13,7 +13,7 @@ FOLIO = re.compile(r'^[\s\-—–_=~.]*(\d{1,3})[\s\-—–_=~.]*$')
 
 
 def folio_of(lines):
-    """Cherche le folio dans les 3 premieres lignes non vides."""
+    """Looks for the folio in the first 3 non-empty lines."""
     seen = 0
     for ln in lines:
         s = ln.strip()
@@ -25,7 +25,7 @@ def folio_of(lines):
         m = FOLIO.match(s)
         if m:
             return int(m.group(1))
-        # folio colle a un mot parasite
+        # folio stuck to a stray word
         m2 = re.match(r'^[\s\-—–]*(\d{1,3})[\s\-—–]+$', s)
         if m2:
             return int(m2.group(1))
@@ -45,7 +45,7 @@ def main():
         rows.append((n, folio_of(lines), len(nz),
                      ' / '.join(l.strip()[:60] for l in nz[:3])))
     for n, f, c, head in rows:
-        print('%3d  folio=%-5s lignes=%-3d  %s' % (n, f, c, head))
+        print('%3d  folio=%-5s lines=%-3d  %s' % (n, f, c, head))
     with open(os.path.join(P, 'tools', 'structure_brute.json'), 'w') as fh:
         json.dump([{'leaf': n, 'folio': f, 'nlines': c, 'head': h} for n, f, c, h in rows], fh, indent=1)
 

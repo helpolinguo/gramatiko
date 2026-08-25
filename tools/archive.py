@@ -1,70 +1,70 @@
 #!/usr/bin/env python3
-"""L'ARCHIVE DE LIVRAISON : un ZIP, avec gramatiko.pdf a la racine.
+"""THE DELIVERY ARCHIVE: a ZIP, with gramatiko.pdf at the root.
 
-Six pertes de conteneur ont montre que la seule copie fiable est celle
-que le commanditaire detient. Le format de cette copie ne doit donc pas
-dependre de ce dont je me souviens d'une fois sur l'autre : il est ecrit
-ici.
+Six lost containers have shown that the only reliable copy is the one the
+commissioner holds. The format of that copy must therefore not depend on
+what I happen to remember from one time to the next: it is written down
+here.
 
-    python3 tools/archive.py [chemin.zip]
+    python3 tools/archive.py [path.zip]
 
-Le scan (167 Mo) et le depot git restent dehors : l'archive porte la
-SOURCE et le VOLUME COMPOSE, non l'atelier.
+The scan (167 MB) and the git repository stay outside: the archive carries
+the SOURCE and the COMPOSED VOLUME, not the workshop.
 
-Les temoins passent d'abord. Une archive livree sans eux serait le
-moyen le plus sur de figer une perte.
+The samples go in first. An archive delivered without them would be the
+surest way of freezing a loss.
 """
 import os, subprocess, sys, zipfile
 
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# A la racine de l'archive : la source, le volume compose, la page.
-FICHIERS = ['main.tex', 'preamble.tex', 'build.mk', 'LISEZ-MOI.md',
+# At the root of the archive: the source, the composed volume, the page.
+FILES = ['main.tex', 'preamble.tex', 'build.mk', 'LISEZ-MOI.md',
             '.nojekyll', 'index.html', 'gramatiko.pdf']
-DOSSIERS = ['content', 'ornaments', 'tools']
-# Ce qui ne se livre pas : les rebuts de compilation et les caches.
-REBUTS = ('.aux', '.log', '.out', '.toc', '.pyc', '.synctex.gz')
-HORS = {'__pycache__', '.git', 'scan'}
+FOLDERS = ['content', 'ornaments', 'tools']
+# What is not delivered: the leavings of compilation and the caches.
+LEAVINGS = ('.aux', '.log', '.out', '.toc', '.pyc', '.synctex.gz')
+OUTSIDE = {'__pycache__', '.git', 'scan'}
 
 
-def fichiers():
-    for f in FICHIERS:
+def file_paths():
+    for f in FILES:
         p = os.path.join(R, f)
         if os.path.exists(p):
             yield p, f
         else:
-            print('  ABSENT : %s' % f, file=sys.stderr)
-    for d in DOSSIERS:
-        for rac, sous, noms in os.walk(os.path.join(R, d)):
-            sous[:] = [x for x in sous if x not in HORS]
-            for n in sorted(noms):
-                if n.endswith(REBUTS):
+            print('  MISSING: %s' % f, file=sys.stderr)
+    for d in FOLDERS:
+        for root, sous, names in os.walk(os.path.join(R, d)):
+            sous[:] = [x for x in sous if x not in OUTSIDE]
+            for n in sorted(names):
+                if n.endswith(LEAVINGS):
                     continue
-                p = os.path.join(rac, n)
+                p = os.path.join(root, n)
                 yield p, os.path.relpath(p, R)
 
 
 def main():
-    sortie = sys.argv[1] if len(sys.argv) > 1 \
+    out_path = sys.argv[1] if len(sys.argv) > 1 \
         else os.path.join('/tmp', 'kompleta-gramatiko.zip')
 
     t = subprocess.run([sys.executable, os.path.join(R, 'tools/witnesses.py')],
                        capture_output=True, text=True)
     print(t.stdout.strip())
     if t.returncode:
-        sys.exit('temoins en defaut : rien n\'est livre')
+        sys.exit('witnesses in default: nothing is delivered')
 
     pdf = os.path.join(R, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        sys.exit('gramatiko.pdf manque : composer le volume avant de livrer')
+        sys.exit('gramatiko.pdf missing: compose the volume before delivering')
 
     n = 0
-    with zipfile.ZipFile(sortie, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:
-        for chemin, dedans in fichiers():
-            z.write(chemin, dedans)
+    with zipfile.ZipFile(out_path, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+        for path_of, inside in file_paths():
+            z.write(path_of, inside)
             n += 1
-    print('%s  %d fichiers, %d ko'
-          % (sortie, n, os.path.getsize(sortie) // 1024))
+    print('%s  %d files, %d kB'
+          % (out_path, n, os.path.getsize(out_path) // 1024))
 
 
 if __name__ == '__main__':

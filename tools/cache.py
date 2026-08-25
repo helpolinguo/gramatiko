@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
-"""Cache des analyses, partage par les controles 8, 9 et 10.
+"""Cache of the analyses, shared by checks 8, 9 and 10.
 
-Ces trois controles refaisaient chacun le meme travail : rendre la page
-composee en image a 300 dpi, et analyser le feuillet du fac-simile. Sur
-dix pages cela coutait 27 secondes, dont l'essentiel en desinclinaison
-du scan — une operation qui essaie cinquante et une rotations.
+These three checks each redid the same work: render the composed page as
+an image at 300 dpi, and analyse the facsimile leaf. Over ten pages that
+cost 27 seconds, most of it in deskewing the scan -- an operation that
+tries fifty-one rotations.
 
-Deux caches, de natures differentes :
+Two caches, of different natures:
 
-  * le FAC-SIMILE ne change jamais. Son analyse est donc ecrite sur
-    disque une fois pour toutes (scan/cache/), et relue ensuite.
-  * le COMPOSE change a chaque compilation. Il est rendu en une seule
-    passe pour tout le document, et garde en memoire le temps du
-    processus.
+  * the FACSIMILE never changes. Its analysis is therefore written to
+    disk once and for all (scan/cache/), and read back afterwards.
+  * the COMPOSED page changes at every compilation. It is rendered in a
+    single pass for the whole document, and kept in memory for the life
+    of the process.
 """
 import os, json, glob, subprocess, sys
 import numpy as np
@@ -24,42 +24,42 @@ P = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(P, 'scan', 'cache')
 os.makedirs(CACHE, exist_ok=True)
 
-_compose = None
+_composed = None
 
 
-def feuillet(n):
-    """Analyse du feuillet n du fac-simile : lignes, encre, colonne.
-    Lue du disque si elle y est — le fac-simile ne bouge pas."""
+def leaf(n):
+    """Analysis of leaf n of the facsimile: lines, ink, column. Read from
+    disk if it is there -- the facsimile does not move."""
     fp = os.path.join(CACHE, 'f%04d.json' % n)
     if os.path.exists(fp):
         with open(fp) as fh:
             return json.load(fh)
-    norm, gm, ang = PG.prepared(n)
+    norm, gm, ang = PG.prepared_img(n)
     gm2, span = PG.text_region(gm)
     fl = PG.lines_of(gm2)
-    # Masque de secours : gm borne a la colonne de texte. text_region
-    # efface parfois le folio (feuillet 42).
+    # Fallback mask: gm bounded to the text column. text_region sometimes
+    # erases the folio (leaf 42).
     _sec = gm.copy()
     if span:
         _sec[:, :max(0, span[0] - 12)] = 0
         _sec[:, min(_sec.shape[1], span[1] + 13):] = 0
-    f0 = PG.folio_ligne(gm2, fl, _sec)
+    f0 = PG.folio_line(gm2, fl, _sec)
     if f0:
         fl.insert(0, f0)
-    lignes = []
+    lines = []
     for l in fl:
-        lignes.append({'y0': l['y0'], 'y1': l['y1'], 'x0': l['x0'], 'x1': l['x1'],
+        lines.append({'y0': l['y0'], 'y1': l['y1'], 'x0': l['x0'], 'x1': l['x1'],
                        'encre': int((gm2[l['y0']:l['y1']] > 0).sum())})
-    d = {'feuillet': n, 'skew': round(ang, 3), 'H': int(gm2.shape[0]),
+    d = {'leaf': n, 'skew': round(ang, 3), 'H': int(gm2.shape[0]),
          'W': int(gm2.shape[1]), 'span': list(span) if span else None,
-         'folio_detecte': bool(f0), 'lignes': lignes}
+         'folio_detecte': bool(f0), 'lines': lines}
     with open(fp, 'w') as fh:
         json.dump(d, fh)
     return d
 
 
-def _rendu_tout(pdf, npages):
-    dst = os.path.join(P, 'controle', 'rendu')
+def _render_all(pdf, npages):
+    dst = os.path.join(P, 'checks', 'rendu')
     os.makedirs(dst, exist_ok=True)
     for f in glob.glob(os.path.join(dst, 'p-*.png')):
         os.remove(f)
@@ -70,89 +70,88 @@ def _rendu_tout(pdf, npages):
 
 
 
-# Une BANDE PEUT EN CACHER DEUX. La decoupe ci-dessus separe les lignes
-# sur les rangees SANS encre. Il suffit qu'une jambage touche l'ascendante
-# de la ligne suivante pour qu'aucune rangee ne soit vide et que les deux
-# lignes n'en fassent qu'une. C'est arrive au folio 87 : les deux
-# premieres lignes du corps se sont soudees, la bande a pris l'abscisse
-# de la SECONDE (au fer a gauche), et le controle 10 a accuse d'un
-# \VUcontinue de trop une page qui n'en avait pas besoin — pendant que le
-# controle 11 y voyait 48 px de derive.
+# ONE BAND MAY HIDE TWO. The division above separates lines on the rows
+# WITHOUT ink. It is enough for one descender to touch the ascender of the
+# next line for no row to be empty and for the two lines to make only one.
+# This happened at folio 87: the first two lines of the body welded
+# together, the band took the abscissa of the SECOND (flush left), and
+# check 10 accused a page of one \VUcontinue too many when it needed none
+# -- while check 11 saw 48 px of drift in it.
 #
-# Le fac-simile ne montre pas le defaut : son interlignage scanne plus
-# large. C'est donc un artefact de MA page, pas du modele, et il se
-# corrige ici plutot que dans chaque controle.
+# The facsimile does not show the fault: its scanned leading is wider. It
+# is therefore an artefact of MY page, not of the model, and it is
+# corrected here rather than in each check.
 #
-# On fend toute bande sensiblement plus haute que la mediane de la page,
-# a la rangee la MOINS encree de sa partie centrale — la ou passe la
-# frontiere entre deux lignes.
-# MAIS UNE BANDE HAUTE N'EST PAS TOUJOURS DEUX LIGNES. Au folio 31, les
-# accolades du tableau montent sur 27 pt : leurs bandes depassent la
-# mediane sans rien cacher, et fendues elles rendaient un morceau d'accolade
-# a +21 px de la marge, que le controle 10 a aussitot signale — a juste
-# titre, puisque ce morceau ne commence ni au fer a gauche ni en alinea.
-# On exige donc que CHAQUE MORCEAU PORTE L'ENCRE D'UNE VRAIE LIGNE. Un
-# fragment d'accolade n'en porte qu'une fraction, et la bande reste
-# entiere. Sinon on renonce a fendre : mieux vaut une bande soudee, que
-# les controles savent signaler, qu'une bande inventee.
-FEND_RAPPORT = 1.55      # au-dela de ce rapport a la mediane, on fend
-FEND_ENCRE_MIN = 0.40    # part de l'encre mediane exigee de chaque morceau
+# We split any band appreciably taller than the page median, at the row
+# with the LEAST ink in its central part -- where the boundary between two
+# lines passes.
+# BUT A TALL BAND IS NOT ALWAYS TWO LINES. At folio 31, the table's braces
+# rise over 27 pt: their bands exceed the median without hiding anything,
+# and split they yielded a piece of brace at +21 px from the margin, which
+# check 10 at once reported -- rightly, since that piece begins neither
+# flush left nor as an indent.
+# We therefore require that EACH PIECE CARRY THE INK OF A REAL LINE. A
+# fragment of brace carries only a fraction of it, and the band stays
+# whole. Otherwise we give up splitting: better a welded band, which the
+# checks know how to report, than an invented one.
+SPLIT_RATIO = 1.55      # beyond this ratio to the median, we split
+SPLIT_MIN_INK = 0.40    # share of the median ink required of each piece
 
 
-def _fend_bandes(lignes, bw):
-    """Separe les bandes qui contiennent visiblement deux lignes."""
+def _split_bands(lines, bw):
+    """Separates the bands that visibly contain two lines."""
     import numpy as np
-    if len(lignes) < 5:
-        return lignes
-    med = float(np.median([l['y1'] - l['y0'] for l in lignes]))
-    encre_med = float(np.median([l['encre'] for l in lignes]))
+    if len(lines) < 5:
+        return lines
+    med = float(np.median([l['y1'] - l['y0'] for l in lines]))
+    median_ink = float(np.median([l['encre'] for l in lines]))
     if med <= 0:
-        return lignes
+        return lines
     out = []
-    for l in lignes:
+    for l in lines:
         h = l['y1'] - l['y0']
-        if h < FEND_RAPPORT * med:
+        if h < SPLIT_RATIO * med:
             out.append(l)
             continue
         n = max(2, int(round(h / med)))
-        bornes = [l['y0']]
+        bounds = [l['y0']]
         for k in range(1, n):
-            cible = l['y0'] + int(round(k * h / n))
-            lo = max(l['y0'] + 4, cible - int(0.3 * med))
-            hi = min(l['y1'] - 4, cible + int(0.3 * med))
+            target = l['y0'] + int(round(k * h / n))
+            lo = max(l['y0'] + 4, target - int(0.3 * med))
+            hi = min(l['y1'] - 4, target + int(0.3 * med))
             if hi <= lo:
-                bornes = None
+                bounds = None
                 break
-            prof = bw[lo:hi].sum(axis=1)
-            bornes.append(lo + int(np.argmin(prof)))
-        if bornes is None:
+            depth = bw[lo:hi].sum(axis=1)
+            bounds.append(lo + int(np.argmin(depth)))
+        if bounds is None:
             out.append(l)
             continue
-        bornes.append(l['y1'])
-        morceaux = []
-        for a, b in zip(bornes[:-1], bornes[1:]):
+        bounds.append(l['y1'])
+        pieces = []
+        for a, b in zip(bounds[:-1], bounds[1:]):
             if b - a < 8:
-                morceaux = None
+                pieces = None
                 break
             xs = np.where(bw[a:b].sum(axis=0) > 0)[0]
             if len(xs) < 20:
-                morceaux = None
+                pieces = None
                 break
-            morceaux.append({'y0': int(a), 'y1': int(b), 'x0': int(xs[0]),
+            pieces.append({'y0': int(a), 'y1': int(b), 'x0': int(xs[0]),
                              'x1': int(xs[-1]), 'encre': int(bw[a:b].sum())})
-        if morceaux and min(m['encre'] for m in morceaux) >= FEND_ENCRE_MIN * encre_med:
-            out.extend(morceaux)
+        if pieces and min(m['encre'] for m in pieces) >= SPLIT_MIN_INK * median_ink:
+            out.extend(pieces)
         else:
             out.append(l)
     return out
 
 def compose(pdf, npages):
-    """Lignes de chaque page composee : (y0, y1, x0, x1, encre).
-    Une seule passe de rendu pour tout le document."""
-    global _compose
-    if _compose is not None:
-        return _compose
-    dst = _rendu_tout(pdf, npages)
+    """Lines of each composed page: (y0, y1, x0, x1, ink). A single
+    rendering pass for the whole document."""
+    global _composed
+    if _composed is not None:
+        return _composed
+    dst = _render_all(pdf, npages)
     out = {}
     for fp in sorted(glob.glob(os.path.join(dst, 'p-*.png'))):
         i = int(os.path.basename(fp).split('-')[1].split('.')[0])
@@ -164,39 +163,39 @@ def compose(pdf, npages):
         en = list(np.where(d == -1)[0] + 1)
         if on[0]: st.insert(0, 0)
         if on[-1]: en.append(len(on))
-        brut = []
+        raw = []
         for a, b in zip(st, en):
             if b - a < 8:
                 continue
             xs = np.where(bw[a:b].sum(axis=0) > 0)[0]
             if len(xs) < 20:
                 continue
-            brut.append({'y0': int(a), 'y1': int(b), 'x0': int(xs[0]),
+            raw.append({'y0': int(a), 'y1': int(b), 'x0': int(xs[0]),
                          'x1': int(xs[-1]), 'encre': int(bw[a:b].sum())})
-        if brut:
-            plein = max(l['encre'] for l in brut)
-            brut = [l for l in brut if l['encre'] >= 0.03 * plein]
-        brut = _fend_bandes(brut, bw)
-        out[i] = {'fichier': fp, 'lignes': brut}
-    _compose = out
+        if raw:
+            full = max(l['encre'] for l in raw)
+            raw = [l for l in raw if l['encre'] >= 0.03 * full]
+        raw = _split_bands(raw, bw)
+        out[i] = {'fichier': fp, 'lines': raw}
+    _composed = out
     return out
 
 
-def vide_cache_compose():
-    global _compose
-    _compose = None
+def clear_composed_cache():
+    global _composed
+    _composed = None
 
 
 if __name__ == '__main__':
     import time
     if '--prechauffe' in sys.argv:
-        # remplit le cache du fac-simile pour tous les feuillets
+        # fills the facsimile cache for every leaf
         lo = int(sys.argv[sys.argv.index('--prechauffe') + 1])
         hi = int(sys.argv[sys.argv.index('--prechauffe') + 2])
         t = time.time()
         for n in range(lo, hi + 1):
-            feuillet(n)
+            leaf(n)
             if n % 10 == 0:
                 print('  %d  (%.0f s)' % (n, time.time() - t), flush=True)
-        print('cache du fac-simile : feuillets %d a %d, %.0f s'
+        print('facsimile cache: leaves %d to %d, %.0f s'
               % (lo, hi, time.time() - t))

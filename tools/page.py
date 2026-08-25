@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Preparation d'une page du fac-simile et reperage du bloc de texte.
+"""Preparation of a facsimile page, and location of its text block.
 
-Le recadrage sur "la zone claire" est trompeur : la tranche des feuillets
-voisins est claire elle aussi, et l'ombre de la reliure mange un bord.
-On repere donc le bloc de texte par les GLYPHES eux-memes : composantes
-connexes de taille compatible avec des caracteres de corps ~10 pt a 300 dpi.
+Cropping to "the light area" is deceptive: the fore-edge of the
+neighbouring leaves is light too, and the shadow of the binding eats one
+edge. We therefore locate the text block by the GLYPHS themselves:
+connected components of a size compatible with characters of about 10 pt
+at 300 dpi.
 """
 import os, sys, json
 import numpy as np
@@ -14,12 +15,12 @@ P = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGES = os.path.join(P, 'scan', 'pages')
 DPI = 300.0
 PX2MM = 25.4 / DPI
-PX2PT = 72.27 / DPI      # point TeX
-PX2BP = 72.0 / DPI       # point PostScript
+PX2PT = 72.27 / DPI      # TeX point
+PX2BP = 72.0 / DPI       # PostScript point
 
 
-def normalise(gray):
-    """Egalise le fond (papier jauni, ombre de reliure)."""
+def normalise_img(gray):
+    """Evens out the ground (yellowed paper, shadow of the binding)."""
     small = cv2.resize(gray, None, fx=0.08, fy=0.08, interpolation=cv2.INTER_AREA)
     bg = cv2.medianBlur(small, 31)
     bg = cv2.resize(bg, (gray.shape[1], gray.shape[0]), interpolation=cv2.INTER_CUBIC)
@@ -28,7 +29,7 @@ def normalise(gray):
 
 
 def glyph_mask(norm):
-    """Masque binaire ne gardant que les composantes de taille de glyphe."""
+    """Binary mask keeping only components of glyph size."""
     bw = cv2.threshold(norm, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
     nlab, lab, stats, _ = cv2.connectedComponentsWithStats(bw, 8)
     keep = np.zeros(nlab, np.uint8)
@@ -40,7 +41,7 @@ def glyph_mask(norm):
 
 
 def deskew(norm, gm):
-    """Angle par maximisation du contraste de la projection horizontale."""
+    """Angle by maximising the contrast of the horizontal projection."""
     s = cv2.resize(gm, None, fx=0.25, fy=0.25, interpolation=cv2.INTER_AREA)
     h, w = s.shape
     best, ba = -1.0, 0.0
@@ -58,33 +59,32 @@ def deskew(norm, gm):
     return rot, rotg, ba
 
 
-def prepared(n):
-    """Image normalisee + masque de glyphes, tout desincline. Aucun recadrage."""
+def prepared_img(n):
+    """Normalised image + glyph mask, both deskewed. No cropping."""
     g = cv2.imread(os.path.join(PAGES, 'f%04d.jpg' % n), cv2.IMREAD_GRAYSCALE)
-    norm = normalise(g)
+    norm = normalise_img(g)
     gm = glyph_mask(norm)
     return deskew(norm, gm)
 
 
 def text_region(gm):
-    """Isole le bloc de texte : on soude les glyphes en lignes, puis on garde
-    les composantes larges et basses (une ligne de texte). Les tranches des
-    feuillets voisins donnent des composantes hautes et etroites : rejetees."""
+    """Isolates the text block: we weld the glyphs into lines, then keep the
+    components that are wide and low (a line of text). The fore-edges of
+    neighbouring leaves give components that are tall and narrow: rejected."""
     H, W = gm.shape
-    # --- Colonne de texte etablie AVANT la soudure -----------------------
-    # La soudure (61, 3) comble les blancs de moins de 61 px. Au bord droit
-    # du feuillet 34, la tranche du feuillet voisin laisse des eclats a
-    # 38 px du dernier caractere : la soudure les agglomere a la ligne, la
-    # composante s'etend jusqu'au bord de l'image, et TOUTES les bornes
-    # calculees ensuite (percentiles, clippage) heritent du bruit. Il faut
-    # donc borner la colonne avant de souder.
-    # Critere de densite : une colonne de pixels a l'interieur du bloc de
-    # texte est traversee par presque toutes les lignes ; un eclat de
-    # tranche n'en touche que quelques-unes. Mesure sur 34 feuillets
-    # repartis dans le volume : la largeur trouvee vaut 1083 px sur la
-    # grande majorite d'entre eux, soit exactement \VUtexteLargeur
-    # (91,69 mm a 300 dpi) — la borne est donc juste, et non seulement
-    # plausible.
+    # --- Text column established BEFORE the welding --------------------
+    # The welding (61, 3) fills gaps of less than 61 px. At the right edge of
+    # leaf 34, the fore-edge of the neighbouring leaf leaves fragments 38 px
+    # from the last character: the welding agglomerates them into the line,
+    # the component extends to the edge of the image, and EVERY bound
+    # computed afterwards (percentiles, clipping) inherits the noise. The
+    # column must therefore be bounded before welding.
+    # Density criterion: a column of pixels inside the text block is crossed
+    # by nearly every line; a fragment of fore-edge touches only a few.
+    # Measured on 34 leaves spread through the volume: the width found is
+    # 1083 px on the great majority of them, which is exactly
+    # \VUtexteLargeur (91.69 mm at 300 dpi) -- the bound is therefore right,
+    # and not merely plausible.
     _col = (gm > 0).sum(axis=0)
     if _col.max() > 0:
         _thr = max(3.0, 0.15 * np.percentile(_col, 90))
@@ -93,18 +93,17 @@ def text_region(gm):
             _runs = []
             _s = _p = _xs[0]
             for _x in _xs[1:]:
-                # 40 px : au feuillet 34 les eclats de tranche sont a 40 px
-                # du dernier caractere ; une valeur plus large les rattache
-                # a la colonne et annule tout le benefice. Verifie sur 34
-                # feuillets : aucune colonne legitime n'est scindee, y
-                # compris celle du tableau du feuillet 35.
+                # 40 px: on leaf 34 the fore-edge fragments are 40 px from the
+                # last character; a wider value reattaches them to the column and
+                # cancels the whole benefit. Checked on 34 leaves: no legitimate
+                # column is split, including that of the table on leaf 35.
                 if _x - _p > 40:
                     _runs.append((_s, _p)); _s = _x
                 _p = _x
             _runs.append((_s, _p))
             _c0, _c1 = max(_runs, key=lambda r: r[1] - r[0])
-            # 12 px de battement : de quoi laisser passer un trait d'union
-            # ou une virgule en debord sans laisser rentrer la tranche.
+            # 12 px of play: enough to let a hyphen or a comma hang out
+            # without letting the fore-edge in.
             gm = gm.copy()
             gm[:, :max(0, _c0 - 12)] = 0
             gm[:, min(W, _c1 + 13):] = 0
@@ -115,17 +114,17 @@ def text_region(gm):
     boxes = []
     for i in range(1, nlab):
         x, y, w, h, a = stats[i]
-        # Les bords de l'image sont du bruit de numerisation (bord du
-        # plateau, tranche du feuillet voisin) : on les ecarte d'abord.
-        # Sans cela, une barre parasite en haut de page se faisait compter
-        # comme une ligne, et le folio, plus etroit, se faisait rejeter :
-        # le compte de lignes ne tombait plus juste et le controle 9
-        # sautait la page — precisement la ou les erreurs se cachent.
+        # The edges of the image are scanning noise (edge of the platen,
+        # fore-edge of the neighbouring leaf): we discard them first. Without
+        # this, a stray bar at the top of a page counted as a line, and the
+        # folio, being narrower, was rejected: the line count no longer came
+        # out right and check 9 skipped the page -- precisely where the errors
+        # hide.
         if y < 0.015 * H or y + h > 0.985 * H:
             continue
-        if w < 0.04 * W:           # trop court, meme pour un folio
+        if w < 0.04 * W:           # too short, even for a folio
             continue
-        if h > 0.10 * H:           # trop haut : c'est une tranche, pas une ligne
+        if h > 0.10 * H:           # too tall: that is a fore-edge, not a line
             continue
         if w / max(h, 1) < 2.0:
             continue
@@ -133,29 +132,29 @@ def text_region(gm):
         boxes.append((x, y, x + w, y + h))
     if not boxes:
         return gm, None
-    # Colonne de texte etablie par la premiere passe : la recuperation
-    # ci-dessous s'y limite, sinon elle ramene les tranches des feuillets
-    # voisins, qui partagent la meme bande verticale (essaye : la
-    # justification du feuillet 15 passait de 91,6 a 103,4 mm).
+    # Text column established by the first pass: the recovery below is
+    # confined to it, or it brings back the fore-edges of neighbouring
+    # leaves, which share the same vertical band (tried: the measure of
+    # leaf 15 went from 91.6 to 103.4 mm).
     _xs0 = np.percentile([b[0] for b in boxes], 10)
     _xs1 = np.percentile([b[2] for b in boxes], 90)
     _tol = 0.04 * W
-    # Passe de nettoyage : la premiere passe ne borne pas la colonne, et
-    # une bavure de numerisation assez large et assez plate y passait pour
-    # une ligne, debordant de 200 px a droite. La ligne detectee etait
-    # alors trop large, son encre fausse, et le controle 9 sortait des
-    # ecarts absurdes (+4702 %). On elimine ces composantes, puis on
-    # recalcule la colonne sur ce qui reste.
-    # On CLIPPE a la colonne au lieu de REJETER ce qui en depasse.
-    # Rejeter etait dangereux : au folio 20, quatre lignes tres chargees
-    # en italique se soudent en une seule composante de 165 px de haut
-    # (le pli du papier fait le pont), laquelle depasse la colonne de
-    # trois pixels — et les quatre lignes disparaissaient d'un coup.
-    # Une composante qui deborde un peu reste du texte : on lui coupe ce
-    # qui sort, on ne la jette pas.
-    propres = [b for b in boxes
+    # Cleaning pass: the first pass does not bound the column, and a
+    # scanning smear wide enough and flat enough passed there for a line,
+    # overhanging by 200 px on the right. The line detected was then too
+    # wide, its ink wrong, and check 9 produced absurd deviations (+4702 %).
+    # We eliminate those components, then recompute the column on what is
+    # left.
+    # We CLIP to the column instead of REJECTING what overhangs it.
+    # Rejecting was dangerous: at folio 20, four lines heavily set in italic
+    # weld into a single component 165 px tall (the fold of the paper
+    # bridges them), which overhangs the column by three pixels -- and the
+    # four lines disappeared at a stroke. A component that overhangs a
+    # little is still text: we cut off what sticks out, we do not throw it
+    # away.
+    clean = [b for b in boxes
                if b[0] >= _xs0 - _tol and b[2] <= _xs1 + _tol]
-    if len(propres) >= max(4, 0.5 * len(boxes)):
+    if len(clean) >= max(4, 0.5 * len(boxes)):
         g0 = max(0, int(_xs0 - _tol)); g1 = min(W, int(_xs1 + _tol) + 1)
         keep[:, :g0] = 0
         keep[:, g1:] = 0
@@ -163,45 +162,44 @@ def text_region(gm):
                  if b[2] > g0 and b[0] < g1]
         _xs0 = np.percentile([b[0] for b in boxes], 10)
         _xs1 = np.percentile([b[2] for b in boxes], 90)
-    # Deuxieme passe : on recupere les fragments courts qui appartiennent
-    # a une ligne deja retenue. Une ligne comme « 3. --- B = b en ... »
-    # se scinde en plusieurs composantes, les blancs autour du cadratin et
-    # du signe d'egalite depassant la largeur de soudure ; le fragment de
-    # gauche etait alors rejete comme trop court, et la ligne se trouvait
-    # amputee de son debut — ce qui fausse a la fois sa largeur et son
-    # encre, donc les controles 9 et la mesure de justification.
+    # Second pass: we recover the short fragments belonging to a line
+    # already kept. A line such as "3. --- B = b en ..." splits into several
+    # components, the white space around the em dash and the equals sign
+    # exceeding the welding width; the left-hand fragment was then rejected
+    # as too short, and the line found itself docked of its beginning --
+    # which falsifies both its width and its ink, hence check 9 and the
+    # measurement of the text width.
     for i in range(1, nlab):
         x, y, w, h, a = stats[i]
         if keep[y + h // 2, x + w // 2] or h > 0.10 * H:
             continue
         if y < 0.015 * H or y + h > 0.985 * H:
             continue
-        # Tolerance BEAUCOUP plus serree que celle du clippage. Cette passe
-        # accepte des composantes courtes ; au bord droit du feuillet 34 les
-        # eclats de la tranche voisine (x = 1348..1365, 8 a 17 px de large)
-        # tombaient sous l'ancienne tolerance de 0,04 W = 55 px et se
-        # faisaient recuperer parce qu'ils partagent l'ordonnee d'une vraie
-        # ligne : la largeur relevee montait a 1365 px sur la moitie de la
-        # page, et le controle 10, qui compare les bords droits, aurait
-        # declare debordantes des lignes correctement justifiees.
-        # 0,012 W = 16 px laisse passer un trait d'union ou une virgule en
-        # debord, pas la tranche.
+        # Tolerance MUCH tighter than that of the clipping. This pass accepts
+        # short components; at the right edge of leaf 34 the fragments of the
+        # neighbouring fore-edge (x = 1348..1365, 8 to 17 px wide) fell under
+        # the old tolerance of 0.04 W = 55 px and were recovered because they
+        # share the ordinate of a real line: the width recorded rose to 1365 px
+        # over half the page, and check 10, which compares right-hand edges,
+        # would have declared correctly justified lines to be overhanging.
+        # 0.012 W = 16 px lets a hanging hyphen or comma through, not the
+        # fore-edge.
         _tolr = 0.012 * W
         if x < _xs0 - _tolr or x + w > _xs1 + _tolr:
             continue
         for bx0, by0, bx1, by1 in boxes:
-            recouvre = min(y + h, by1) - max(y, by0)
-            if recouvre > 0.5 * min(h, by1 - by0):
+            overlaps = min(y + h, by1) - max(y, by0)
+            if overlaps > 0.5 * min(h, by1 - by0):
                 keep[lab == i] = 1
                 break
     xs0 = np.array([b[0] for b in boxes]); xs1 = np.array([b[2] for b in boxes])
-    # marge gauche : quantile bas robuste ; marge droite : quantile haut
+    # left margin: robust low quantile; right margin: high quantile
     x0 = int(np.percentile(xs0, 10)); x1 = int(np.percentile(xs1, 90))
     return (gm * keep), (x0, x1)
 
 
 def lines_of(gm, min_ink=None):
-    """Lignes de texte : segments de la projection horizontale du masque."""
+    """Lines of text: segments of the horizontal projection of the mask."""
     rows = (gm > 0).sum(axis=1)
     if rows.max() == 0:
         return []
@@ -212,35 +210,35 @@ def lines_of(gm, min_ink=None):
     en = list(np.where(d == -1)[0] + 1)
     if on[0]: st.insert(0, 0)
     if on[-1]: en.append(len(on))
-    # --- Rattrapage des lignes PALES -----------------------------------
-    # Le seuil se calcule sur le maximum de la page : une ligne courte,
-    # ou toute en italique, peut passer dessous. Trois pages l'ont montre
-    # (feuillets 40 et 41 : « XI, 296.) », « misas. », « ici, iti. »), et
-    # le fac-simile s'en trouvait releve a une ou deux lignes de moins que
-    # la realite — les controles 9 et 11 sautaient alors la page.
-    # Abaisser le seuil partout souderait des lignes ailleurs (essaye : le
-    # feuillet 200 tombait de 39 a 32 lignes). On ne le baisse donc que
-    # DANS LES TROUS, et on n'accepte la trouvaille que si elle a l'encre
-    # d'une vraie ligne.
-    # Le discriminant est l'ENCRE RAPPORTEE A LA LIGNE MEDIANE. Mesure sur
-    # les feuillets 19 a 25, 37, 40 et 41 : les vraies lignes manquantes
-    # pesent 0,142 a 0,162 ; les fragments de jambage et les eclats, de
-    # 0,024 a 0,089. Le seuil est pose a 0,12, au milieu de cet ecart.
-    # Ce que cela ne rattrape pas : « lua, lia. » du feuillet 37, a 0,086,
-    # tombe du mauvais cote. On ne descend pas plus bas pour la seule
-    # raison qu'une page en profiterait — trois autres y perdraient.
-    paires = [(a, b) for a, b in zip(st, en) if b - a >= 9]
-    if len(paires) >= 5:
-        _enc = sorted(int((gm[a:b] > 0).sum()) for a, b in paires)
+    # --- Recovery of PALE lines ----------------------------------------
+    # The threshold is computed on the page maximum: a short line, or one
+    # wholly in italic, can fall below it. Three pages showed this (leaves
+    # 40 and 41: "XI, 296.)", "misas.", "ici, iti."), and the facsimile was
+    # recorded with one or two lines fewer than the reality -- checks 9 and
+    # 11 then skipped the page.
+    # Lowering the threshold everywhere would weld lines together elsewhere
+    # (tried: leaf 200 fell from 39 to 32 lines). We therefore lower it only
+    # IN THE GAPS, and accept the find only if it has the ink of a real
+    # line.
+    # The discriminant is the INK RELATIVE TO THE MEDIAN LINE. Measured on
+    # leaves 19 to 25, 37, 40 and 41: the real missing lines weigh 0.142 to
+    # 0.162; the fragments of descenders and the specks, 0.024 to 0.089. The
+    # threshold is set at 0.12, in the middle of that gap.
+    # What this does not recover: "lua, lia." on leaf 37, at 0.086, falls on
+    # the wrong side. We do not go lower for the sole reason that one page
+    # would gain by it -- three others would lose.
+    pairs = [(a, b) for a, b in zip(st, en) if b - a >= 9]
+    if len(pairs) >= 5:
+        _enc = sorted(int((gm[a:b] > 0).sum()) for a, b in pairs)
         _med = _enc[len(_enc) // 2]
-        _pas = sorted(paires[k + 1][0] - paires[k][0]
-                      for k in range(len(paires) - 1))
-        _pm = _pas[len(_pas) // 2]
-        zones = [(paires[k][1], paires[k + 1][0])
-                 for k in range(len(paires) - 1)
-                 if paires[k + 1][0] - paires[k][0] >= 1.35 * _pm]
-        # apres la derniere ligne : c'est la que tombe la fin d'une note
-        zones.append((paires[-1][1], min(len(rows), paires[-1][1] + 2 * _pm)))
+        _pitch = sorted(pairs[k + 1][0] - pairs[k][0]
+                      for k in range(len(pairs) - 1))
+        _pm = _pitch[len(_pitch) // 2]
+        zones = [(pairs[k][1], pairs[k + 1][0])
+                 for k in range(len(pairs) - 1)
+                 if pairs[k + 1][0] - pairs[k][0] >= 1.35 * _pm]
+        # after the last line: that is where the end of a note falls
+        zones.append((pairs[-1][1], min(len(rows), pairs[-1][1] + 2 * _pm)))
         for a, b in zones:
             if b - a < 12:
                 continue
@@ -258,10 +256,10 @@ def lines_of(gm, min_ink=None):
                     continue
                 if seg.sum() < 0.12 * _med:
                     continue
-                paires.append((a + p, a + q))
-        paires.sort()
-        st = [a for a, _ in paires]
-        en = [b for _, b in paires]
+                pairs.append((a + p, a + q))
+        pairs.sort()
+        st = [a for a, _ in pairs]
+        en = [b for _, b in pairs]
     out = []
     for s, e in zip(st, en):
         if e - s < 9:
@@ -276,45 +274,45 @@ def lines_of(gm, min_ink=None):
     return out
 
 
-def folio_ligne(gm, lignes, secours=None):
-    """Le folio « -- 12 -- » porte tres peu d'encre : il passe sous le
-    seuil de detection des lignes, calcule sur le maximum de la page.
-    L'abaisser ferait fusionner des lignes voisines ailleurs (essaye :
-    le feuillet 200 tombait de 39 a 32 lignes). On le cherche donc a
-    part, dans le haut de la page, avec un seuil bas, et seulement s'il
-    n'a pas deja ete trouve.
+def folio_line(gm, lines, fallback=None):
+    """The folio "-- 12 --" carries very little ink: it falls under the
+    line-detection threshold, which is computed on the page maximum.
+    Lowering it would fuse neighbouring lines elsewhere (tried: leaf 200
+    fell from 39 to 32 lines). We therefore look for it separately, in
+    the top of the page, with a low threshold, and only if it has not
+    already been found.
 
-    `secours` est un second masque, fouille si le premier ne donne rien.
-    Il sert quand text_region a efface le folio : les cadratins qui
-    l'encadrent sont plats et larges, donc rejetes des le masque de
-    glyphes, et il ne reste que les chiffres. Au feuillet 42 le folio se
-    reduit ainsi a « 38 », soude sur 60 px — moins que les 0,04 W = 63 px
-    exiges d'une ligne. La page etait alors relevee sans folio, et les
-    controles 9 et 11 la sautaient.
+    `fallback` is a second mask, searched if the first yields nothing. It
+    serves when text_region has erased the folio: the em dashes framing
+    it are flat and wide, hence rejected by the glyph mask, and only the
+    digits remain. On leaf 42 the folio is thus reduced to "38", welded
+    over 60 px -- less than the 0.04 W = 63 px required of a line. The
+    page was then recorded without a folio, and checks 9 and 11 skipped
+    it.
     """
-    r = _cherche_folio(gm, lignes)
-    if r is None and secours is not None:
-        r = _cherche_folio(secours, lignes)
+    r = _find_folio(gm, lines)
+    if r is None and fallback is not None:
+        r = _find_folio(fallback, lines)
     return r
 
 
-def _cherche_folio(gm, lignes):
+def _find_folio(gm, lines):
     H, W = gm.shape
 
-    def est_folio(l):
+    def is_folio(l):
         larg = l['x1'] - l['x0']
         centre = (l['x0'] + l['x1']) / 2 / W
         return larg < 0.22 * W and 0.35 < centre < 0.65 and l['y0'] < 0.13 * H
 
-    if lignes and est_folio(lignes[0]):
-        return None                      # deja detecte
-    # on ne cherche qu'AU-DESSUS de la premiere ligne trouvee
-    haut = int(0.13 * H)
-    if lignes:
-        haut = min(haut, max(0, lignes[0]['y0'] - 15))
-    if haut < 20:
+    if lines and is_folio(lines[0]):
+        return None                      # already detected
+    # we look only ABOVE the first line found
+    top = int(0.13 * H)
+    if lines:
+        top = min(top, max(0, lines[0]['y0'] - 15))
+    if top < 20:
         return None
-    sous = gm[:haut]
+    sous = gm[:top]
     rows = (sous > 0).sum(axis=1)
     if rows.max() < 4:
         return None
@@ -330,25 +328,25 @@ def _cherche_folio(gm, lignes):
         xs = np.where(seg.sum(axis=0) > 0)[0]
         if len(xs) < 8:
             continue
-        # On examine les AMAS de la bande, non son etendue totale. Un pli
-        # du papier laisse un trait diagonal qui traverse la hauteur du
-        # folio : au feuillet 48 il portait l'etendue a 396 px, centre a
-        # 0,703, et le folio se faisait rejeter comme trop large et
-        # decentre. Chaque amas est teste a part ; le premier qui a la
-        # taille et la position d'un folio est retenu.
-        amas = []
+        # We examine the CLUSTERS of the band, not its total extent. A fold in
+        # the paper leaves a diagonal stroke crossing the height of the folio:
+        # on leaf 48 it carried the extent to 396 px, centred at 0.703, and the
+        # folio was rejected as too wide and off-centre. Each cluster is tested
+        # separately; the first that has the size and position of a folio is
+        # kept.
+        cluster = []
         _s = _p = xs[0]
         for _x in xs[1:]:
             if _x - _p > 40:
-                amas.append((_s, _p)); _s = _x
+                cluster.append((_s, _p)); _s = _x
             _p = _x
-        amas.append((_s, _p))
-        for a0, a1 in amas:
+        cluster.append((_s, _p))
+        for a0, a1 in cluster:
             if a1 - a0 < 20:
                 continue
             larg = a1 - a0
             centre = (a0 + a1) / 2 / W
-            # court, centre : c'est un folio, pas une ligne de texte
+            # short, centred: that is a folio, not a line of text
             if larg < 0.22 * W and 0.35 < centre < 0.65:
                 return {'y0': int(s), 'y1': int(e), 'x0': int(a0), 'x1': int(a1),
                         'ink': int((sous[s:e, a0:a1 + 1] > 0).sum())}
@@ -356,17 +354,17 @@ def _cherche_folio(gm, lignes):
 
 
 def block(n):
-    """Geometrie du bloc de texte d'une page."""
-    norm, gm, ang = prepared(n)
+    """Geometry of a page's text block."""
+    norm, gm, ang = prepared_img(n)
     H, W = norm.shape
     gm2, span = text_region(gm)
     ls = lines_of(gm2)
-    f = folio_ligne(gm2, ls)
+    f = folio_line(gm2, ls)
     if f:
         ls.insert(0, f)
     if not ls:
         return {'leaf': n, 'blank': True, 'skew': ang, 'W': W, 'H': H}
-    # marge gauche : mode des debuts de ligne (tres stable en texte courant)
+    # left margin: mode of the line starts (very stable in running text)
     lefts = np.array([l['x0'] for l in ls])
     rights = np.array([l['x1'] for l in ls])
     left = float(np.percentile(lefts, 25))

@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""Detection du FILET DE NOTE, et calcul de son ordonnee de composition.
+"""Detection of the NOTE RULE, and computation of its typeset ordinate.
 
-Reperer le filet par « le plus grand blanc de la page » ne marche pas :
-sur une page portant un titre de section, le blanc du titre est plus
-grand, et l'on place alors le bloc de notes des centimetres trop haut.
+Locating the rule by "the largest white space on the page" does not work:
+on a page carrying a section heading, the heading's white space is larger,
+and the block of notes is then placed centimetres too high.
 
-Le filet est un objet reconnaissable en soi : un trait horizontal
-continu, haut de un a trois pixels, long d'une vingtaine de millimetres,
-cale sur la marge de gauche, et seul sur sa ligne. On le cherche donc
-comme tel, dans la moitie basse de la page.
+The rule is an object recognisable in itself: a continuous horizontal
+stroke, one to three pixels tall, some twenty millimetres long, set on the
+left margin, and alone on its line. We therefore look for it as such, in
+the lower half of the page.
 
-L'ordonnee rendue est celle qu'attend \\VUnotes, c'est-a-dire une distance
-au bord SUPERIEUR DU PAPIER. Elle ne peut pas se lire directement sur le
-scan : chaque image du scan a son propre decalage vertical, le papier n'y
-occupant pas la meme place. On la calcule donc relativement a la premiere
-ligne de corps, dont on sait qu'elle tombe a \\VUmargeSup :
+The ordinate returned is the one \\VUnotes expects, that is a distance from
+the TOP EDGE OF THE PAPER. It cannot be read directly from the scan: each
+scanned image has its own vertical offset, the paper not occupying the same
+place in it. We therefore compute it relative to the first line of the
+body, which we know falls at \\VUmargeSup:
 
-    ordonnee = VUmargeSup + (y_filet - y_premiere_ligne) x 25,4/300
+    ordinate = VUmargeSup + (y_rule - y_first_line) x 25.4/300
 """
 import os, sys
 import numpy as np
@@ -24,186 +24,179 @@ import cv2
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import page as PG
 
-VU_MARGE_SUP_MM = 24.30      # doit suivre \VUmargeSup du preambule
+VU_TOP_MARGIN_MM = 24.30      # must follow \VUmargeSup from the preamble
 
 
-def trouve_filet(feuillet, verbose=False):
-    """Retourne (y_filet, largeur_px) ou None."""
-    norm, gm, ang = PG.prepared(feuillet)
+def find_rule(leaf, verbose=False):
+    """Returns (y_rule, width_px) or None."""
+    norm, gm, ang = PG.prepared_img(leaf)
     H, W = norm.shape
-    sombre = (norm < 185).astype(np.uint8)
-    # Un filet numerise est rarement continu : quelques pixels clairs le
-    # coupent ici et la (au folio 11, la coupure suffisait a le faire
-    # manquer). On soude donc les interruptions de trois pixels au plus.
-    sombre = cv2.morphologyEx(sombre, cv2.MORPH_CLOSE,
+    dark = (norm < 185).astype(np.uint8)
+    # A scanned rule is rarely continuous: a few light pixels cut it here and
+    # there (at folio 11, the break was enough to make it be missed). We
+    # therefore weld interruptions of at most three pixels.
+    dark = cv2.morphologyEx(dark, cv2.MORPH_CLOSE,
                               np.ones((1, 7), np.uint8))
-    # colonne de texte, pour savoir ou commence la marge de gauche
+    # text column, so as to know where the left margin begins
     gm2, span = PG.text_region(gm)
     if span is None:
         return None
     x0 = span[0]
     best = None
-    # LA FENETRE DE RECHERCHE COMMENCAIT TROP BAS. Fixee a 0,45 H, elle
-    # supposait que le bloc des notes occupe au plus la moitie inferieure
-    # de la page. C'est vrai de presque toutes, mais pas du feuillet 97,
-    # dont le filet tombe a 0,29 H (la page est aux trois quarts en
-    # notes), ni du 93, a 0,40 H. Sur ces deux-la le detecteur rendait
-    # « filet non trouve » — et tools/missing_lines.py, prive du
-    # filet, melangeait le pas du corps a celui des notes.
+    # THE SEARCH WINDOW BEGAN TOO LOW. Fixed at 0.45 H, it assumed that the
+    # block of notes occupies at most the lower half of the page. That is
+    # true of nearly all of them, but not of leaf 97, whose rule falls at
+    # 0.29 H (the page is three-quarters notes), nor of 93, at 0.40 H. On
+    # those two the detector returned "rule not found" -- and
+    # tools/missing_lines.py, deprived of the rule, mixed the pitch of the
+    # body with that of the notes.
     #
-    # Elargir la FERMETURE de 7 a 11 px les trouvait aussi, mais rendait
-    # de FAUX filets : y=1680 long 140 px au feuillet 93 la ou le vrai
-    # est a 782 avec ses 213 px reglementaires. Une ligne de texte soudee
-    # passait pour un filet. On a donc rejete ce remede — un detecteur
-    # qui se trompe en silence vaut moins qu'un detecteur qui echoue.
-    # LA FENETRE PARTAIT TROP BAS — troisieme cause de « filet non
-    # trouve ». Fixee a 0,25 H, elle supposait que le bloc de notes
-    # occupe au plus les trois quarts inferieurs. C'est faux des que la
-    # page est peu remplie : au feuillet 180, qui clot la deuxieme
-    # partie, le filet tombe a y = 377 pour une fenetre partant de 520 ;
-    # au feuillet 194 il est a 450 pour une fenetre partant de 516. Dans
-    # les deux cas le filet passe les tests de longueur et de reste — il
-    # n'est jamais examine.
-    # On descend donc a 0,10 H. Verifie sur vingt-deux feuillets temoins :
-    # aucun filet deja trouve n'est perdu ni deplace.
+    # Widening the CLOSING from 7 to 11 px found them too, but returned FALSE
+    # rules: y=1680, 140 px long on leaf 93 where the real one is at 782 with
+    # its regulation 213 px. A welded line of text passed for a rule. We
+    # therefore rejected that remedy -- a detector that goes wrong in silence
+    # is worth less than one that fails.
+    # THE WINDOW STARTED TOO LOW -- the third cause of "rule not found".
+    # Fixed at 0.25 H, it assumed the block of notes occupies at most the
+    # lower three quarters. That is false as soon as the page is lightly
+    # filled: on leaf 180, which closes the second part, the rule falls at
+    # y = 377 for a window starting at 520; on leaf 194 it is at 450 for a
+    # window starting at 516. In both cases the rule passes the tests of
+    # length and of remainder -- it is never examined.
+    # We therefore go down to 0.10 H. Checked on twenty-two sample leaves: no
+    # rule already found is lost or displaced.
     for y in range(int(0.10 * H), int(0.95 * H)):
-        ligne = sombre[y]
-        # On cherche le premier pixel sombre AU VOISINAGE de la marge, puis
-        # la longueur du segment continu qui en part. Demarrer le comptage
-        # a une abscisse fixe ne marchait pas : quelques pixels blancs
-        # avant le filet suffisaient a donner une longueur nulle.
-        fen = ligne[max(0, x0 - 15):x0 + 40]
+        line = dark[y]
+        # We look for the first dark pixel NEAR the margin, then the length of
+        # the continuous segment starting from it. Beginning the count at a fixed
+        # abscissa did not work: a few white pixels before the rule were enough
+        # to give a length of zero.
+        fen = line[max(0, x0 - 15):x0 + 40]
         nz = np.nonzero(fen)[0]
         if nz.size == 0:
             continue
-        depart = max(0, x0 - 15) + int(nz[0])
+        start_at = max(0, x0 - 15) + int(nz[0])
         n = 0
-        while depart + n < W and ligne[depart + n]:
+        while start_at + n < W and line[start_at + n]:
             n += 1
-        # UN FILET DE NOTE MESURE ENTRE 201 ET 246 px, mesure sur les
-        # vingt-six feuillets temoins : c'est une constante du volume,
-        # non une grandeur libre. La fenetre valait 140 a 470 px, et
-        # cette largeur a coute deux fausses lectures :
-        #   -- au feuillet 199, un trait parasite de 154 px passait pour
-        #      le filet et donnait 161,63 mm au lieu de 107,74 ; le bloc
-        #      de notes, pose si bas, debordait la page en perdant une
-        #      ligne ;
-        #   -- au feuillet 231, page du TABELO sans aucune note, les
-        #      EMPATTEMENTS SOUDES de la vedette demi-grasse
-        #      « Konjuncioni : » formaient une plage continue de 185 px
-        #      partant de la marge, et passaient les trois tests.
-        # On resserre a 195-260 px. Verifie sur vingt-six feuillets
-        # temoins : aucun filet reel n'est perdu (le plus court mesure
-        # 201 px au feuillet 42, le plus long 246 au feuillet 34), et
-        # les deux faux tombent.
+        # A NOTE RULE MEASURES BETWEEN 201 AND 246 px, measured on the
+        # twenty-six sample leaves: it is a constant of the volume, not a free
+        # quantity. The window was 140 to 470 px, and that width cost two false
+        # readings:
+        #   -- on leaf 199, a stray stroke of 154 px passed for the rule and
+        #      gave 161.63 mm instead of 107.74; the block of notes, set so low,
+        #      overran the page and lost a line;
+        #   -- on leaf 231, a TABELO page with no note at all, the WELDED SERIFS
+        #      of the semi-bold headword "Konjuncioni :" formed a continuous run
+        #      of 185 px starting from the margin, and passed all three tests.
+        # We tighten to 195-260 px. Checked on twenty-six sample leaves: no real
+        # rule is lost (the shortest measures 201 px on leaf 42, the longest 246
+        # on leaf 34), and the two false ones fall.
         if not (195 <= n <= 260):
             continue
-        # le reste de la COLONNE DE TEXTE doit etre vide (le bord de
-        # l'image, lui, porte souvent la tranche du feuillet voisin)
+        # the rest of the TEXT COLUMN must be empty (the edge of the image,
+        # for its part, often carries the fore-edge of the neighbouring leaf)
         #
-        # UN PIXEL DE TROP FAISAIT PERDRE LE FILET. Au feuillet 162 ce
-        # test rendait reste = 7 pour le seuil 6 : deux pixels de salete
-        # au milieu, et CINQ AU BORD DU PAPIER. text_region ne rogne pas
-        # toujours ce bord — il rendait ici span[1] = 1405 quand la
-        # colonne de texte s'arrete vers 1390 — si bien que la tranche du
-        # feuillet voisin comptait comme de l'encre. On retire donc une
-        # marge de securite a droite avant de sommer. Trois feuillets du
-        # meme lot etaient declares « filet introuvable » pour ce motif.
-        BORD = 25
-        queue = ligne[depart + n + 30:max(depart + n + 30, span[1] - BORD)]
-        reste = queue.sum()
-        # CINQUIEME CAUSE DE « FILET INTROUVABLE » : une salete AU MILIEU
-        # de la colonne. Au feuillet 213 le filet est parfait — 214 px,
-        # cale sur la marge, franc a l'oeil — mais dix pixels de crasse a
-        # x = 1073 portaient le reste a 10 pour un seuil de 6, et le
-        # candidat tombait. La marge BORD, posee pour la tranche du
-        # feuillet voisin, ne protege que du bord droit.
+        # ONE PIXEL TOO MANY LOST THE RULE. On leaf 162 this test returned
+        # remainder = 7 for a threshold of 6: two pixels of dirt in the middle,
+        # and FIVE AT THE EDGE OF THE PAPER. text_region does not always trim
+        # that edge -- here it returned span[1] = 1405 when the text column stops
+        # around 1390 -- so that the neighbouring leaf's fore-edge counted as
+        # ink. We therefore take off a safety margin on the right before summing.
+        # Three leaves of the same batch were declared "rule not found" for this
+        # reason.
+        EDGE = 25
+        tail = line[start_at + n + 30:max(start_at + n + 30, span[1] - EDGE)]
+        rest_of = tail.sum()
+        # FIFTH CAUSE OF "RULE NOT FOUND": dirt IN THE MIDDLE of the column. On
+        # leaf 213 the rule is perfect -- 214 px, set on the margin, clean to the
+        # eye -- but ten pixels of grime at x = 1073 carried the remainder to 10
+        # for a threshold of 6, and the candidate fell. The EDGE margin, set for
+        # the neighbouring leaf's fore-edge, protects only against the right
+        # edge.
         #
-        # Un total ne distingue pas dix pixels de salete d'une ligne de
-        # texte : c'est la FORME qui les separe. Une ligne de texte donne
-        # des suites longues et nombreuses ; une salete, une ou deux
-        # suites courtes. On juge donc sur la plus longue suite continue,
-        # et l'on gonfle le seuil du total en consequence. Verifie sur
-        # vingt-six feuillets temoins : aucun filet deja trouve n'est
-        # perdu ni deplace, et le 213 est retrouve.
-        if reste:
-            d = np.diff(np.concatenate(([0], (queue > 0).astype(np.int8), [0])))
-            deb = np.nonzero(d == 1)[0]
-            fin = np.nonzero(d == -1)[0]
-            suite = int((fin - deb).max()) if deb.size else 0
+        # A total does not distinguish ten pixels of dirt from a line of text:
+        # it is the SHAPE that separates them. A line of text gives long and
+        # numerous runs; dirt, one or two short runs. We therefore judge on the
+        # longest continuous run, and inflate the threshold of the total
+        # accordingly. Checked on twenty-six sample leaves: no rule already found
+        # is lost or displaced, and 213 is found again.
+        if rest_of:
+            d = np.diff(np.concatenate(([0], (tail > 0).astype(np.int8), [0])))
+            start_pos = np.nonzero(d == 1)[0]
+            end_pos = np.nonzero(d == -1)[0]
+            rest = int((end_pos - start_pos).max()) if start_pos.size else 0
         else:
-            suite = 0
-        # Ce qui separe une salete d'une ligne de texte n'est ni le
-        # nombre de taches ni leur ecartement — deux poussieres aux deux
-        # bouts de la colonne sont tres ecartees et ne pesent rien (c'est
-        # le cas des feuillets 93 et 194, qu'un critere d'etendue a fait
-        # perdre le temps d'un essai). C'est la QUANTITE d'encre, et la
-        # TAILLE du plus gros amas. Au feuillet 213 la crasse fait dix
-        # pixels d'un seul tenant ; la rangee de texte qui precede le
-        # filet en porte cent cinquante-quatre, en suites bien plus
-        # longues. Les deux seuils separent les deux cas largement.
-        if suite > 12 or reste > 30:
+            rest = 0
+        # What separates dirt from a line of text is neither the number of
+        # specks nor their spread -- two motes at the two ends of the column are
+        # very far apart and weigh nothing (this is the case of leaves 93 and
+        # 194, which a criterion of extent lost for the space of one attempt). It
+        # is the QUANTITY of ink, and the SIZE of the largest cluster. On leaf
+        # 213 the grime is ten pixels in one piece; the row of text preceding the
+        # rule carries a hundred and fifty-four, in far longer runs. The two
+        # thresholds separate the two cases amply.
+        if rest > 12 or rest_of > 30:
             continue
-        # ON RETIENT LE CANDIDAT LE PLUS PROCHE DE LA LONGUEUR
-        # REGLEMENTAIRE, NON LE PLUS LONG. Le filet de note mesure
-        # 210 a 216 px sur les vingt-six feuillets temoins — c'est une
-        # constante du volume, non une grandeur libre. Retenir le plus
-        # long faisait choisir, au feuillet 199, un faux filet de 154 px
-        # situe 640 px plus bas que le vrai, long de 212 px : l'ordonnee
-        # sortait a 161,63 mm au lieu de 107,74, et le bloc de notes,
-        # pose si bas, debordait la page en perdant une ligne.
-        # C'EST LA QUATRIEME PANNE DE CE DETECTEUR, ET LA PIRE : les
-        # trois autres le font echouer, celle-ci le fait mentir.
-        FILET_LONGUEUR = 213
-        if best is None or abs(n - FILET_LONGUEUR) < abs(best[1] - FILET_LONGUEUR):
+        # WE KEEP THE CANDIDATE NEAREST THE REGULATION LENGTH, NOT THE LONGEST.
+        # The note rule measures 210 to 216 px on the twenty-six sample leaves --
+        # a constant of the volume, not a free quantity. Keeping the longest made
+        # it choose, on leaf 199, a false rule of 154 px situated 640 px below
+        # the real one, which is 212 px long: the ordinate came out at 161.63 mm
+        # instead of 107.74, and the block of notes, set so low, overran the page
+        # and lost a line.
+        # THIS IS THE FOURTH FAILURE OF THIS DETECTOR, AND THE WORST: the other
+        # three make it fail, this one makes it lie.
+        RULE_LENGTH = 213
+        if best is None or abs(n - RULE_LENGTH) < abs(best[1] - RULE_LENGTH):
             best = (y, n)
     if verbose and best:
-        print('  filet trouve a y=%d, long de %d px (%.1f mm)'
+        print('  rule found at y=%d, %d px long (%.1f mm)'
               % (best[0], best[1], best[1] * PG.PX2MM))
     return best
 
 
-def ordonnee(feuillet, verbose=False):
-    """Ordonnee de composition du filet, en mm depuis le bord du papier."""
-    f = trouve_filet(feuillet, verbose)
+def ordinate(leaf, verbose=False):
+    """Typeset ordinate of the rule, in mm from the edge of the paper."""
+    f = find_rule(leaf, verbose)
     if f is None:
         return None
-    norm, gm, ang = PG.prepared(feuillet)
+    norm, gm, ang = PG.prepared_img(leaf)
     gm2, span = PG.text_region(gm)
     fl = PG.lines_of(gm2)
-    # Masque de secours : gm borne a la colonne de texte. text_region
-    # efface parfois le folio (feuillet 42).
+    # Fallback mask: gm bounded to the text column. text_region sometimes
+    # erases the folio (leaf 42).
     _sec = gm.copy()
     if span:
         _sec[:, :max(0, span[0] - 12)] = 0
         _sec[:, min(_sec.shape[1], span[1] + 13):] = 0
-    f0 = PG.folio_ligne(gm2, fl, _sec)
+    f0 = PG.folio_line(gm2, fl, _sec)
     if f0:
         fl.insert(0, f0)
     if not fl:
         return None
-    premiere = fl[1]['y0'] if f0 else fl[0]['y0']
-    # ATTENTION : le calcul suppose que la premiere ligne reperee est la
-    # premiere ligne de CORPS, celle qui tombe a \VUmargeSup. Si la page
-    # ouvre sur un titre de section (folio 11), cette ligne est plus basse,
-    # et il faut ajouter le blanc qui la precede dans la composition.
-    # On le signale plutot que de rendre un chiffre faux en silence.
-    largeur_premiere = fl[1]['x1'] - fl[1]['x0'] if f0 else fl[0]['x1'] - fl[0]['x0']
-    plein = max(l['x1'] - l['x0'] for l in fl)
-    suspect = largeur_premiere < 0.45 * plein
-    o = VU_MARGE_SUP_MM + (f[0] - premiere) * PG.PX2MM
+    first_one = fl[1]['y0'] if f0 else fl[0]['y0']
+    # CAUTION: the computation assumes that the first line found is the
+    # first line of the BODY, the one that falls at \VUmargeSup. If the page
+    # opens on a section heading (folio 11), that line is lower, and the
+    # white space preceding it in the composition must be added.
+    # We report it rather than return a false figure in silence.
+    first_width = fl[1]['x1'] - fl[1]['x0'] if f0 else fl[0]['x1'] - fl[0]['x0']
+    full = max(l['x1'] - l['x0'] for l in fl)
+    suspect = first_width < 0.45 * full
+    o = VU_TOP_MARGIN_MM + (f[0] - first_one) * PG.PX2MM
     return (o, suspect)
 
 
 if __name__ == '__main__':
     for a in sys.argv[1:]:
         n = int(a)
-        print('feuillet %d (folio %d) :' % (n, n - 4))
-        r = ordonnee(n, verbose=True)
+        print('leaf %d (folio %d):' % (n, n - 4))
+        r = ordinate(n, verbose=True)
         if r is None:
-            print('  filet non trouve')
+            print('  rule not found')
         else:
             o, suspect = r
-            print('  ordonnee de \\VUnotes : %.2f mm%s' % (
-                o, '   *** la page ouvre sur un titre : ajouter le blanc '
-                   'qui le precede ***' if suspect else ''))
+            print('  ordinate of \\VUnotes: %.2f mm%s' % (
+                o, '   *** the page opens on a title: add the white space '
+                   'that precedes it ***' if suspect else ''))

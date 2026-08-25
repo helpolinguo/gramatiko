@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""OCR grossier de toutes les pages, pour le RELEVE DE STRUCTURE seulement.
+"""Coarse OCR of every page, for the STRUCTURAL SURVEY only.
 
-Le resultat n'est JAMAIS utilise tel quel pour placer une coupure de ligne :
-il sert a reperer les folios, les titres et l'organisation du volume.
-Chaque page est d'abord desinclinee et normalisee localement.
+The result is NEVER used as it stands to place a line break: it serves to
+locate the folios, the titles and the organisation of the volume. Each
+page is first deskewed and normalised locally.
 """
 import os, sys, subprocess, json
 import numpy as np
@@ -16,7 +16,7 @@ os.makedirs(OUT, exist_ok=True)
 
 
 def deskew_angle(bw):
-    """Angle d'inclinaison estime par projection horizontale (variance max)."""
+    """Skew angle estimated by horizontal projection (maximum variance)."""
     small = cv2.resize(bw, None, fx=0.25, fy=0.25, interpolation=cv2.INTER_AREA)
     best, ba = -1, 0.0
     h, w = small.shape
@@ -31,9 +31,9 @@ def deskew_angle(bw):
     return ba
 
 
-def prep(path):
+def prepare(path):
     im = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
-    # normalisation locale du contraste (papier jauni, ombre de reliure)
+    # local normalisation of contrast (yellowed paper, shadow of the binding)
     bg = cv2.medianBlur(cv2.resize(im, None, fx=0.1, fy=0.1), 21)
     bg = cv2.resize(bg, (im.shape[1], im.shape[0]))
     norm = np.clip(im.astype(np.float32) / np.maximum(bg.astype(np.float32), 1) * 200, 0, 255)
@@ -55,7 +55,7 @@ def main():
         src = os.path.join(PAGES, 'f%04d.jpg' % n)
         if not os.path.exists(src):
             continue
-        norm, a = prep(src)
+        norm, a = prepare(src)
         dst = os.path.join(OUT, 'f%04d.png' % n)
         cv2.imwrite(dst, norm)
         subprocess.run(['tesseract', dst, os.path.join(OUT, 'f%04d' % n),

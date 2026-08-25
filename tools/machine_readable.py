@@ -72,7 +72,7 @@ class BlockCollector(HTMLParser):
     one paragraph in 1230. A parser counts the depth; it cannot go wrong.
     """
 
-    SPECOJ = ('tit', 'p', 'noto')
+    KINDS = ('tit', 'p', 'noto')
 
     def __init__(self):
         super().__init__(convert_charrefs=False)
@@ -84,7 +84,7 @@ class BlockCollector(HTMLParser):
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         klaso = (a.get('class') or '').split()
-        if self.current is None and tag == 'div' and klaso and klaso[0] in self.SPECOJ:
+        if self.current is None and tag == 'div' and klaso and klaso[0] in self.KINDS:
             self.current = {'kind': klaso[0], 'ch': a.get('data-ch'), 'id': a.get('id')}
             self.profundo = 1
             self.pieces = []

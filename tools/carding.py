@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
-"""Mesure du CARDAGE d'une page du fac-simile.
+"""Measurement of the VERTICAL JUSTIFICATION of a facsimile page.
 
-Le compositeur justifie ses pages verticalement. Mesure faite sur les
-feuillets 20 a 39 : la derniere ligne de base tombe a 145,3 mm sous le
-folio, a 0,3 mm pres, quel que soit le nombre de lignes de la page. Quand
-la matiere ne remplit pas la justification, il repartit le surplus :
+The compositor justifies his pages vertically. Measured on leaves 20 to
+39: the last baseline falls 145.3 mm below the folio, to within 0.3 mm,
+whatever the number of lines on the page. When the matter does not fill
+the measure, he distributes the surplus:
 
-  -- des lames uniformes entre toutes les lignes du corps, ce qui fait
-     passer le pas de 41,45 px (interlignage courant, 9,88 pt) a la
-     valeur propre a la page ;
-  -- des blancs plus larges aux articulations : fin d'alinea, ouverture
-     d'une enumeration, reprise du discours apres des exemples.
+  -- uniform leads between all the lines of the body, which takes the
+     pitch from 41.45 px (the current leading, 9.88 pt) to the value
+     proper to the page;
+  -- wider white space at the articulations: end of paragraph, opening of
+     an enumeration, resumption of the discourse after examples.
 
-Cet outil rend les deux : le pas regulier de la page, et la liste des
-pas qui en depassent, avec l'exces a inscrire dans un \\VUblanc.
+This tool returns both: the page's regular pitch, and the list of pitches
+that exceed it, with the excess to be entered in a \\VUblanc.
 
-Il travaille sur les LIGNES DE BASE, jamais sur les hauts de ligne : le
-haut depend des ascendantes de la ligne et bruite de +/- 8 px, de quoi
-noyer un blanc d'un point et demi.
+It works on the BASELINES, never on the tops of lines: the top depends on
+the line's ascenders and is noisy to +/- 8 px, enough to drown a white
+space of a point and a half.
 
     python3 tools/carding.py 34
     python3 tools/carding.py 34 35 36
@@ -29,73 +29,73 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import baselines as LB
 
 PX2PT = 72.27 / 300.0
-# Pas courant du volume, mesure sur les feuillets 20, 24, 30, 32, 37, 38 :
-# 41,3 a 41,6 px. C'est \VUinterligne = 9,88 pt.
-PAS_COURANT = 41.45
-# Un pas de note vaut 32,8 px : tout ce qui est en dessous de 38 px
-# appartient au bloc des notes, qui n'est pas carde (il est cale a part
-# par \VUnotes) et ne doit pas entrer dans la mediane du corps.
-PAS_NOTE_MAX = 38.0
+# Current pitch of the volume, measured on leaves 20, 24, 30, 32, 37, 38:
+# 41.3 to 41.6 px. That is \VUinterligne = 9.88 pt.
+CURRENT_PITCH = 41.45
+# A note pitch is 32.8 px: anything below 38 px belongs to the block of
+# notes, which is not vertically justified (it is set separately by
+# \VUnotes) and must not enter the median of the body.
+MAX_NOTE_PITCH = 38.0
 
 
-def mesure(feuillet):
-    """(pas regulier du corps, liste des exces, lignes, bases)."""
-    fl, bs, _ = LB.analyse(feuillet, verbose=False)
-    pas = []
+def measure(leaf):
+    """(regular pitch of the body, list of excesses, lines, baselines)."""
+    fl, bs, _ = LB.analysis(leaf, verbose=False)
+    pitch = []
     for k in range(1, len(bs)):
         if bs[k] is None or bs[k - 1] is None:
             continue
-        pas.append((k, bs[k] - bs[k - 1]))
-    # Le pas qui descend du FOLIO a la premiere ligne du corps n'est pas
-    # une articulation : il est fixe par la marge superieure, non par un
-    # blanc d'alinea. Compte comme tel, il annoncait un exces de 48 px
-    # « avant la ligne 1 », et le blanc pose en consequence ecartait la
-    # page de son modele au lieu de l'en rapprocher (folio 13 : la derive
-    # passait de 26 a 58 px).
+        pitch.append((k, bs[k] - bs[k - 1]))
+    # The pitch descending from the FOLIO to the first line of the body is
+    # not an articulation: it is fixed by the top margin, not by a
+    # paragraph space. Counted as one, it announced an excess of 48 px
+    # "before line 1", and the white space set in consequence moved the
+    # page away from its model instead of towards it (folio 13: the drift
+    # went from 26 to 58 px).
     folio = bool(fl) and (fl[0]['x1'] - fl[0]['x0']
                           < 0.25 * max(l['x1'] - l['x0'] for l in fl))
     if folio:
-        pas = [(k, d) for k, d in pas if k > 1]
-    corps = [d for _, d in pas if PAS_NOTE_MAX < d < 48.0]
-    if not corps:
+        pitch = [(k, d) for k, d in pitch if k > 1]
+    body = [d for _, d in pitch if MAX_NOTE_PITCH < d < 48.0]
+    if not body:
         return None, [], fl, bs
-    reg = float(np.median(corps))
-    exces = []
-    for k, d in pas:
-        # On ne retient que les pas du corps : un pas qui suit une ligne
-        # de note, ou qui franchit le filet, ne se carde pas.
-        if d <= PAS_NOTE_MAX or d > 130.0:
+    reg = float(np.median(body))
+    excess = []
+    for k, d in pitch:
+        # We keep only the pitches of the body: a pitch that follows a note
+        # line, or that crosses the rule, is not vertically justified.
+        if d <= MAX_NOTE_PITCH or d > 130.0:
             continue
         e = d - reg
-        if e > 3.0:                      # 3 px = 0,7 pt : sous le bruit
-            exces.append((k, d, e))
-    return reg, exces, fl, bs
+        if e > 3.0:                      # 3 px = 0.7 pt: below the noise
+            excess.append((k, d, e))
+    return reg, excess, fl, bs
 
 
-def rapport(feuillet):
-    reg, exces, fl, bs = mesure(feuillet)
+def ratio(leaf):
+    reg, excess, fl, bs = measure(leaf)
     if reg is None:
-        print('feuillet %d : pas de corps mesurable' % feuillet)
+        print('leaf %d: no measurable body' % leaf)
         return
-    print('=== feuillet %d : %d lignes' % (feuillet, len(fl)))
-    print('    pas regulier du corps : %.2f px = %.2f pt%s'
+    print('=== leaf %d: %d lines' % (leaf, len(fl)))
+    print('    regular pitch of the body: %.2f px = %.2f pt%s'
           % (reg, reg * PX2PT,
-             '' if abs(reg - PAS_COURANT) < 0.6 else '   <-- PAGE CARDEE'))
-    if abs(reg - PAS_COURANT) >= 0.6:
+             '' if abs(reg - CURRENT_PITCH) < 0.6 else '   <-- PAGE VERTICALLY JUSTIFIED'))
+    if abs(reg - CURRENT_PITCH) >= 0.6:
         print('    -> \\VUinterlignePage{%.2fpt}' % (reg * PX2PT))
-    if not exces:
-        print('    aucun blanc d\'articulation')
+    if not excess:
+        print('    no articulation white space')
         return
-    print('    blancs d\'articulation (exces sur le pas regulier) :')
-    for k, d, e in exces:
+    print('    articulation white space (excess over the regular pitch):')
+    for k, d, e in excess:
         larg = fl[k - 1]['x1'] - fl[k - 1]['x0']
-        pleine = np.percentile([l['x1'] - l['x0'] for l in fl], 80)
-        fin = 'fin d\'alinea' if larg < 0.97 * pleine else 'ligne pleine'
-        print('      avant la ligne %2d : pas %.1f px, exces %.1f px '
-              '= \\VUblanc{%.2fpt}   (%s au-dessus)'
-              % (k, d, e, e * PX2PT, fin))
+        full_line = np.percentile([l['x1'] - l['x0'] for l in fl], 80)
+        end_pos = 'end of paragraph' if larg < 0.97 * full_line else 'full line'
+        print('      before line %2d: pitch %.1f px, excess %.1f px '
+              '= \\VUblanc{%.2fpt}   (%s above)'
+              % (k, d, e, e * PX2PT, end_pos))
 
 
 if __name__ == '__main__':
     for a in sys.argv[1:]:
-        rapport(int(a))
+        ratio(int(a))
