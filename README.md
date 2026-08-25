@@ -65,7 +65,7 @@ It exits non-zero if any fix has gone missing.
 
 ## A note on language
 
-The source is in English — comments, identifiers, filenames and commits. Three
+The source is in English — comments, identifiers, filenames and commits. Four
 things deliberately stay as they are:
 
 - **The interface is in Ido**: the reading page's text, its accessible names
@@ -76,6 +76,9 @@ things deliberately stay as they are:
 - **The generated page's own class names and anchors keep theirs.** An anchor
   is an address: `#alfabeto` is cited, bookmarked and linked to, and renaming
   it would break every link ever copied.
+- **`chapitri/` keeps its name**, for the same reason: it is published at
+  `https://ido.help/gramatiko/chapitri/index.md` and named in `/llms.txt`,
+  where other programs read it.
 
 Translating the source changed nothing a reader of the site can see.
 

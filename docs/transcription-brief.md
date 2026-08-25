@@ -1,113 +1,113 @@
-# Consigne pour le relevé d'un folio
+# Brief for the transcription of a folio
 
-Tu relèves **un** folio du fac-similé de la *Kompleta Gramatiko Detaloza
-di la Linguo Internaciona Ido*, L. de Beaufront, Meier-Heucke, 1925 —
-ouvrage du domaine public, scanné par le commanditaire, qui demande une
-transcription diplomatique.
+You are recording **one** folio of the facsimile of the *Kompleta
+Gramatiko Detaloza di la Linguo Internaciona Ido*, L. de Beaufront,
+Meier-Heucke, 1925 — a public-domain work, scanned by the maintainer,
+who asks for a diplomatic transcription.
 
-Le projet est dans `/root/kompleta-gramatiko`. **Tu ne composes rien
-toi-même** : tu rends un bloc LaTeX, que l'assembleur vérifiera et
-posera. Tu n'écris dans aucun fichier du projet.
+**You typeset nothing yourself**: you hand back a LaTeX block, which the
+assembler will check and lay. You write in no file of the project.
 
 ---
 
-## 1. La règle qui prime sur toutes les autres
+## 1. The rule that overrides every other
 
-**Une ligne du fac-similé = une ligne du bloc rendu.** Aucune coupure
-n'est laissée à LaTeX. Chaque fin de ligne porte une marque explicite :
+**One line of the facsimile = one line of the block handed back.** No
+break is left to LaTeX. Every line end carries an explicit mark:
 
-* `\nl` — la ligne finit sur un mot entier ;
-* `\cc` — la ligne finit sur une coupure de mot (le tiret est composé par
-  la macro : **ne l'écris pas**) ;
-* rien — c'est la dernière ligne d'un alinéa ;
-* `\parplein` — dernière ligne d'un alinéa qui court jusqu'à la marge de
-  droite (`fin` proche de 0 dans la géométrie).
+* `\nl` — the line ends on a whole word;
+* `\cc` — the line ends on a broken word (the hyphen is set by the
+  macro: **do not write it**);
+* nothing — this is the last line of a paragraph;
+* `\parplein` — the last line of a paragraph that runs to the right
+  margin (`fin` close to 0 in the geometry).
 
-`\\` est **interdit**.
+`\\` is **forbidden**.
 
-## 2. Le texte
+## 2. The text
 
-Le livre est en ido. Tu ne corriges rien : **les coquilles de l'original
-se conservent telles quelles**, et tu les signales dans ton rapport.
+The book is in Ido. You correct nothing: **the original's typos are kept
+as they stand**, and you report them.
 
-Tu lis le fac-similé, pas ta mémoire de l'ido. Un mot qui te paraît
-étrange est probablement ce qui est imprimé.
+You read the facsimile, not your memory of Ido. A word that looks strange
+to you is probably what is printed.
 
-## 3. L'enrichissement
+## 3. The enrichment
 
-* **Gras** (`\VUgras{...}`) : une forme ido citée en vedette, ou un
-  exemple donné en évidence.
-* *Italique* (`\textit{...}`) : tout ce qui est cité d'une autre langue,
-  et les termes grammaticaux cités.
+* **Bold** (`\VUgras{...}`): an Ido form quoted as a headword, or an
+  example given prominence.
+* *Italic* (`\textit{...}`): everything quoted from another language, and
+  grammatical terms quoted as terms.
 
-**Une graisse douteuse ne se tranche jamais sur la bande.** Agrandis
-(voir § 6). Sur ce projet, neuf premières lectures de graisse sur neuf
-se sont révélées fausses avant agrandissement.
+**A doubtful weight is never decided on the strip.** Enlarge (see § 6).
+On this project, nine first readings of weight out of nine turned out to
+be wrong before enlargement.
 
-## 4. Les blancs de mot dans la source
+## 4. Word spaces in the source
 
-Convention vérifiée sur le corpus composé (440 contre 31, 82 contre 1,
-9 contre 975) :
+A convention checked against the composed corpus (440 against 31, 82
+against 1, 9 against 975):
 
-* `;` `?` `!` s'écrivent **collés** au mot qui précède ;
-* `:` s'écrit **espacé**.
+* `;` `?` `!` are written **tight** against the word before them;
+* `:` is written **spaced**.
 
-Les catcodes actifs posent l'espace fine à la composition. Les guillemets
-sont `«` et `»`, l'apostrophe `'`, le tiret long `---`, le signe de
-paragraphe le caractère littéral `§` (jamais `\S{}`).
+Active catcodes lay the thin space at composition. The quotation marks
+are `«` and `»`, the apostrophe `'`, the em dash `---`, the paragraph
+sign the literal character `§` (never `\S{}`).
 
-## 5. Les notes de bas de page
+## 5. Footnotes
 
-Elles vont dans un bloc `\VUnotes{ordonnée}{...}` placé **en tête** de la
-page, juste après `\begin{VUpage}`. **Chaque note est un alinéa** — une
-ligne blanche les sépare dans la source. Ne les enchaîne jamais par
-`\nl`. Une note qui continue celle du folio précédent s'ouvre par
-`\VUcontinue`.
+They go in a `\VUnotes{ordinate}{...}` block placed **at the head** of the
+page, just after `\begin{VUpage}`. **Each note is a paragraph** — a blank
+line separates them in the source. Never chain them with `\nl`. A note
+continuing one from the previous folio opens with `\VUcontinue`.
 
-L'ordonnée t'est donnée dans le fichier de géométrie (« notes ... mm »).
+The ordinate is given to you in the geometry file (« notes ... mm »).
 
-## 6. Les outils
+## 6. The tools
 
-* `python3 /tmp/geo.py <feuillet>` — pour chaque ligne : `y0`, la ligne
-  de base, `ind` (renfoncement en px depuis la marge), `fin` (distance à
-  la marge de droite) et la largeur. `ind` autour de +45..+55 = alinéa ;
-  `ind` autour de 0 = au fer. `fin` proche de 0 = ligne justifiée.
-* `python3 /tmp/z.py <feuillet> <y0> <y1> <x0> <x1> <facteur> <suffixe>`
-  → écrit `/tmp/z<suffixe>.png`, que tu lis avec l'outil `Read`. **C'est
-  ainsi que se tranche toute lecture douteuse.** Un facteur de 3 à 5.
-* Les bandes déjà produites : `scan/H<feuillet>_0.png`, `_1`, `_2`.
-* La géométrie de ton feuillet : `/tmp/geo<feuillet>.txt`.
+* The geometry of a leaf: for each line, `y0`, the baseline, `ind` (the
+  indent in pixels from the margin), `fin` (the distance to the right
+  margin) and the width. `ind` around +45..+55 = a new paragraph; `ind`
+  around 0 = flush left. `fin` close to 0 = a justified line.
+  `tools/baselines.py` measures the baselines and the white between
+  paragraphs; `tools/crop.py` measures the text block.
+* A close-up of a doubtful spot: crop the scan to the band, enlarge it
+  three to five times, write it to a PNG and read it with the `Read`
+  tool. **That is how every doubtful reading is decided.**
+* The scan itself is not in the repository: ask the maintainer for the
+  leaf you are working on.
 
-## 7. La forme du bloc rendu
+## 7. The shape of the block handed back
 
 ```
-\begin{VUpage}[<feuillet>]{<folio>}
-\VUnotes{<ordonnée>mm}{%
-(1) première note.
+\begin{VUpage}[<leaf>]{<folio>}
+\VUnotes{<ordinate>mm}{%
+(1) first note.
 
-(2) deuxième note.%
+(2) second note.%
 }
 
-<première ligne>\nl
-<deuxième ligne>\cc
+<first line>\nl
+<second line>\cc
 ...
 ```
 
-* `\VUcontinue` ouvre la page **si et seulement si** la première ligne du
-  corps est au fer (`ind` proche de 0). Si elle est renfoncée, ne le mets
-  pas. C'est la faute que j'ai commise cinq fois.
-* Une ligne vide sépare deux alinéas.
-* N'écris **aucun** `\VUblanc` : l'assembleur les pose par mesure.
-* Les titres centrés (`\VUtitre`) : signale-les, donne leur texte, ne
-  tente pas d'en calculer le corps.
+* `\VUcontinue` opens the page **if and only if** the first line of the
+  body is flush left (`ind` close to 0). If it is indented, leave it out.
+  That is the mistake made five times.
+* A blank line separates two paragraphs.
+* Write **no** `\VUblanc`: the assembler lays them by measurement.
+* Centred titles (`\VUtitre`): report them, give their text, do not try
+  to work out their size.
 
-## 8. Ce que tu rends
+## 8. What you hand back
 
-1. Le bloc LaTeX complet, sans commentaire à l'intérieur.
-2. La liste des lignes que tu as dû agrandir et ce que l'agrandissement
-   a montré.
-3. Les coquilles de l'original que tu conserves.
-4. Tout doute que tu n'as pas su lever, **nommé** plutôt que deviné.
+1. The complete LaTeX block, with no comment inside it.
+2. The list of the lines you had to enlarge, and what the enlargement
+   showed.
+3. The original's typos that you are keeping.
+4. Every doubt you could not settle, **named** rather than guessed.
 
-Un doute déclaré vaut mieux qu'une invention. L'assembleur relit chaque
-bloc contre le fac-similé avant de le poser.
+A declared doubt is worth more than an invention. The assembler reads
+every block against the facsimile before laying it.
