@@ -1,0 +1,22 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Isole la zone de PAPIER d'une page scannee, puis mesure le bloc de texte.\n\nLe scan contient, autour de la page utile : l'ombre de la reliure (sombre),\nla tranche des feuillets voisins (clair, raye) et le fond du scanner.\nOn repere le papier par sa luminosite : c'est la plus grande composante\nclaire et homogene de l'image.\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "docstring",
+  "text": "\"\"\"Rectangle du papier : plus grande composante claire.\"\"\""
+ },
+ {
+  "id": 2,
+  "kind": "docstring",
+  "text": "\"\"\"Retourne l'image du papier, desinclinee et normalisee.\"\"\""
+ },
+ {
+  "id": 3,
+  "kind": "comment",
+  "text": "# largeur de justification : mediane des lignes \"pleines\" (>=90 % du max)"
+ }
+]

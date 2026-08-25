@@ -1,0 +1,37 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Appariement des lignes du fac-simile et des lignes composees.\n\nLes controles 9 et 10 comparaient les deux pages RANG PAR RANG, apres\navoir verifie que le nombre de lignes coincidait — et sautaient la page\nsinon. C'etait leur defaut le plus grave : la detection de lignes se\ntrompe d'une unite assez souvent (un folio pale, une ligne courte, un\neclat d'encre), et la page etait alors declaree non comparable. Les\ncontroles rendaient donc un verdict vert sur les pages meme qu'il aurait\nfallu examiner : eprouve en reintroduisant une faute connue, le controle\ndes fins d'alinea ne l'a pas vue, faute d'avoir compare la page.\n\nOn apparie donc les lignes par leur POSITION VERTICALE. Le fac-simile et\nle compose ayant, par construction, la meme mise en page, une ligne du\npremier tombe a la meme hauteur que la ligne correspondante du second, a\nl'offset de numerisation pres — le papier n'occupe pas la meme place dans\ntoutes les images du scan.\n\nDeux etapes :\n  1. estimer l'offset vertical global entre les deux suites ;\n  2. apparier par programmation dynamique, ce qui autorise une ligne\n     surnumeraire de part et d'autre sans faire derailler tout le reste.\n\nLa fonction rend la liste des couples (indice fac-simile, indice compose)\net les indices restes seuls, que l'appelant peut signaler.\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "comment",
+  "text": "# ECART_MAX doit rester nettement INFERIEUR a l'interligne (41 px) : a\n# 40 px, une ligne pouvait s'apparier a sa voisine aussi bien qu'a\n# elle-meme, et l'appariement glissait d'un rang sur toute une page sans\n# que le cout total en souffre. A 16 px, un tel glissement est interdit."
+ },
+ {
+  "id": 2,
+  "kind": "comment",
+  "text": "# Le trou doit couter plus cher que le pire appariement licite, sinon\n# l'algorithme prefere sauter des lignes plutot que de les apparier."
+ },
+ {
+  "id": 3,
+  "kind": "docstring",
+  "text": "\"\"\"Transformation affine y_compose = a * y_fac + b qui superpose au\n    mieux les deux suites.\n\n    Un simple decalage ne suffit pas : la numerisation n'a pas la meme\n    echelle d'une page a l'autre (la largeur des images de double page va\n    de 2680 a 2818 px, soit 5 %). Sur une page de quarante lignes, une\n    erreur d'echelle de 2 % fait deriver de plus de trente pixels entre le\n    haut et le bas — assez pour apparier chaque ligne avec sa voisine, ce\n    qui produit une alternance caracteristique de faux positifs.\n\n    On ajuste donc echelle et decalage par moindres carres sur les couples\n    au plus proche voisin, iteres (algorithme du point le plus proche).\n    \"\"\""
+ },
+ {
+  "id": 4,
+  "kind": "comment",
+  "text": "# garde-fou : l'echelle reste proche de 1"
+ },
+ {
+  "id": 5,
+  "kind": "docstring",
+  "text": "\"\"\"lignes_* : suites de couples (y0, y1). Retourne (couples, seuls_fac,\n    seuls_comp).\"\"\""
+ },
+ {
+  "id": 6,
+  "kind": "comment",
+  "text": "# programmation dynamique : appariement monotone avec trous"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Cache des analyses, partage par les controles 8, 9 et 10.\n\nCes trois controles refaisaient chacun le meme travail : rendre la page\ncomposee en image a 300 dpi, et analyser le feuillet du fac-simile. Sur\ndix pages cela coutait 27 secondes, dont l'essentiel en desinclinaison\ndu scan — une operation qui essaie cinquante et une rotations.\n\nDeux caches, de natures differentes :\n\n  * le FAC-SIMILE ne change jamais. Son analyse est donc ecrite sur\n    disque une fois pour toutes (scan/cache/), et relue ensuite.\n  * le COMPOSE change a chaque compilation. Il est rendu en une seule\n    passe pour tout le document, et garde en memoire le temps du\n    processus.\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "docstring",
+  "text": "\"\"\"Analyse du feuillet n du fac-simile : lignes, encre, colonne.\n    Lue du disque si elle y est — le fac-simile ne bouge pas.\"\"\""
+ },
+ {
+  "id": 2,
+  "kind": "comment",
+  "text": "# Masque de secours : gm borne a la colonne de texte. text_region\n# efface parfois le folio (feuillet 42)."
+ },
+ {
+  "id": 3,
+  "kind": "comment",
+  "text": "# Une BANDE PEUT EN CACHER DEUX. La decoupe ci-dessus separe les lignes\n# sur les rangees SANS encre. Il suffit qu'une jambage touche l'ascendante\n# de la ligne suivante pour qu'aucune rangee ne soit vide et que les deux\n# lignes n'en fassent qu'une. C'est arrive au folio 87 : les deux\n# premieres lignes du corps se sont soudees, la bande a pris l'abscisse\n# de la SECONDE (au fer a gauche), et le controle 10 a accuse d'un\n# \\VUcontinue de trop une page qui n'en avait pas besoin — pendant que le\n# controle 11 y voyait 48 px de derive.\n#\n# Le fac-simile ne montre pas le defaut : son interlignage scanne plus\n# large. C'est donc un artefact de MA page, pas du modele, et il se\n# corrige ici plutot que dans chaque controle.\n#\n# On fend toute bande sensiblement plus haute que la mediane de la page,\n# a la rangee la MOINS encree de sa partie centrale — la ou passe la\n# frontiere entre deux lignes.\n# MAIS UNE BANDE HAUTE N'EST PAS TOUJOURS DEUX LIGNES. Au folio 31, les\n# accolades du tableau montent sur 27 pt : leurs bandes depassent la\n# mediane sans rien cacher, et fendues elles rendaient un morceau d'accolade\n# a +21 px de la marge, que le controle 10 a aussitot signale — a juste\n# titre, puisque ce morceau ne commence ni au fer a gauche ni en alinea.\n# On exige donc que CHAQUE MORCEAU PORTE L'ENCRE D'UNE VRAIE LIGNE. Un\n# fragment d'accolade n'en porte qu'une fraction, et la bande reste\n# entiere. Sinon on renonce a fendre : mieux vaut une bande soudee, que\n# les controles savent signaler, qu'une bande inventee."
+ },
+ {
+  "id": 4,
+  "kind": "comment",
+  "text": "# au-dela de ce rapport a la mediane, on fend"
+ },
+ {
+  "id": 5,
+  "kind": "comment",
+  "text": "# part de l'encre mediane exigee de chaque morceau"
+ },
+ {
+  "id": 6,
+  "kind": "docstring",
+  "text": "\"\"\"Separe les bandes qui contiennent visiblement deux lignes.\"\"\""
+ },
+ {
+  "id": 7,
+  "kind": "docstring",
+  "text": "\"\"\"Lignes de chaque page composee : (y0, y1, x0, x1, encre).\n    Une seule passe de rendu pour tout le document.\"\"\""
+ },
+ {
+  "id": 8,
+  "kind": "comment",
+  "text": "# remplit le cache du fac-simile pour tous les feuillets"
+ }
+]

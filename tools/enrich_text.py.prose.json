@@ -1,0 +1,52 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Classifieur d'ENRICHISSEMENT par le CONTENU, non par l'image.\n\nLe classifieur visuel (tools/enrich.py) a echoue : le demi-gras etroit\ndu fac-simile a un rapport encre/largeur qui recouvre celui du romain.\n\nMais l'enrichissement de ce livre n'est pas decoratif, il est SEMANTIQUE.\nLa regle, relevee au § 3.3 du LISEZ-MOI :\n\n    gras     = la forme IDISTE citee en vedette\n    italique = ce qui est cite d'une AUTRE LANGUE\n    romain   = le texte courant, qui est en ido lui aussi\n\nLa difficulte n'est donc pas gras contre italique — c'est une question de\nlangue, et le vocabulaire la tranche. Elle est gras contre romain : les\ndeux sont en ido, et seul le CONTEXTE dit si le mot est cite ou employe.\n\nTrois indices, tous tires du texte :\n\n  1. un mot cite suit un marqueur : « = », « Ex. : », « quale », « per »,\n     ou une enumeration deja commencee ;\n  2. un mot suivi d'un nom de langue (Franca, Germana, Angla...) est cite\n     de cette langue, donc italique ;\n  3. un mot absent du lexique ido du volume est etranger, donc italique.\n\nLe lexique ido se construit tout seul : ce sont les mots que le releve\ncompose en ROMAIN, c'est-a-dire le texte courant. Il grandit a chaque\npage transcrite, et le classifieur avec lui.\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "comment",
+  "text": "# mots qui introduisent une citation"
+ },
+ {
+  "id": 2,
+  "kind": "docstring",
+  "text": "\"\"\"suite : liste de mots de la ligne ; k : indice du mot.\"\"\""
+ },
+ {
+  "id": 3,
+  "kind": "comment",
+  "text": "# 2. suivi d'un nom de langue -> cite de cette langue"
+ },
+ {
+  "id": 4,
+  "kind": "comment",
+  "text": "# 3. mot atteste comme etranger dans le volume"
+ },
+ {
+  "id": 5,
+  "kind": "comment",
+  "text": "# mot inconnu du lexique ido et court : probablement cite"
+ },
+ {
+  "id": 6,
+  "kind": "comment",
+  "text": "# 1. lettre isolee : c'est presque toujours une vedette"
+ },
+ {
+  "id": 7,
+  "kind": "docstring",
+  "text": "\"\"\"Lexiques tires du releve : romain -> ido ; italique -> etranger.\"\"\""
+ },
+ {
+  "id": 8,
+  "kind": "docstring",
+  "text": "\"\"\"(mot, classe) attendus, lus du releve LaTeX.\"\"\""
+ },
+ {
+  "id": 9,
+  "kind": "comment",
+  "text": "# validation croisee : chaque page est classee avec un lexique\n# construit SANS elle, pour ne pas se mesurer sur ce qu'on a appris."
+ }
+]

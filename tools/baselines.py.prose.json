@@ -1,0 +1,27 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Mesure des LIGNES DE BASE, et du blanc entre alineas.\n\nLe haut d'une ligne (y0) depend de la presence d'ascendantes dans cette\nligne : il varie de plusieurs pixels d'une ligne a l'autre sans que la\ncomposition change. C'est trop bruite pour decider si le fac-simile\nlaisse ou non un blanc entre ses alineas.\n\nLa ligne de base, elle, est stable : c'est l'ordonnee ou se posent les\nlettres sans jambage, c'est-a-dire le MODE des bas de glyphe dans la\nbande de la ligne. Les jambages (g, j, p, q, y) forment un second groupe,\nplus bas et bien moins nombreux.\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "docstring",
+  "text": "\"\"\"Ordonnee de la ligne de base de chaque ligne de texte.\"\"\""
+ },
+ {
+  "id": 2,
+  "kind": "comment",
+  "text": "# le mode, affine par barycentre sur +/- 2 px"
+ },
+ {
+  "id": 3,
+  "kind": "comment",
+  "text": "# Masque de secours : gm borne a la colonne de texte. text_region\n# efface parfois le folio (feuillet 42)."
+ },
+ {
+  "id": 4,
+  "kind": "comment",
+  "text": "# la ligne PRECEDENTE etait-elle pleine (milieu d'alinea) ou\n# courte (fin d'alinea) ? Le pas qui suit une fin d'alinea\n# porte le blanc inter-alinea, s'il existe."
+ }
+]

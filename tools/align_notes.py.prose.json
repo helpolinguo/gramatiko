@@ -1,0 +1,17 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Cale l'ordonnee du bloc de notes sur celle du fac-simile.\n\nL'ordonnee passee a \\\\VUnotes est d'abord estimee sur le FILET, releve par\ntools/rule.py. Le filet est un trait pale de 0,4 pt : selon le seuil et\nla fermeture employes, on tombe sur sa premiere rangee sombre ou sur son\nmilieu, et le bloc entier se decale de 1 a 3 mm. Mesure sur les pages\ncomposees : l'ecart entre les notes et le corps allait de -26 a +33 px\nd'une page a l'autre. Ce n'est donc pas une erreur de formule, mais le\nbruit du releve du filet, page par page.\n\nOn le corrige sur ce qui se mesure bien : les LIGNES DE BASE des notes.\nL'ecart moyen entre les notes composees et les notes du fac-simile,\nl'ecart du corps une fois retire, se retranche de l'ordonnee.\n\n    python3 tools/align_notes.py            # mesure, n'ecrit rien\n    python3 tools/align_notes.py --pose     # ecrit\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "comment",
+  "text": "# En deca de 4 px (0,34 mm) la correction est sous le bruit du decoupage\n# en lignes : on ne touche pas."
+ },
+ {
+  "id": 2,
+  "kind": "docstring",
+  "text": "\"\"\"{folio: (ecart_px, fichier)} pour les pages a notes mesurables.\"\"\""
+ }
+]

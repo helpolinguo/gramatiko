@@ -1,0 +1,42 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Calibration des LIGNES D'APPARAT (titres, faux-titre, titres de partie).\n\nUne ligne de titre est definie par deux mesures prises sur le fac-simile :\n  * la hauteur de capitale  -> donne le CORPS ;\n  * la largeur d'encre      -> donne l'INTERLETTRAGE, une fois le corps connu.\n\nLe corps se deduit de la hauteur de capitale parce que ces lignes sont\ntout en capitales : il n'y a pas de hauteur d'x a mesurer.\n\nUsage :\n    python3 tools/apparatus.py <feuillet>\n        -> liste les lignes de la page avec leurs mesures brutes\n    python3 tools/apparatus.py <feuillet> --regle \"TEXTE DE LA LIGNE\" <index>\n        -> calcule corps et interlettrage pour cette ligne\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "comment",
+  "text": "# Rapports hauteur-de-capitale / corps, mesures par tools/fonts.tex."
+ },
+ {
+  "id": 2,
+  "kind": "docstring",
+  "text": "\"\"\"Comme page.block, mais sans rejeter les lignes courtes : sur une page\n    de titre, « DI LA » est une ligne a part entiere.\"\"\""
+ },
+ {
+  "id": 3,
+  "kind": "comment",
+  "text": "# on ecarte les tranches : elles collent au bord de l'image"
+ },
+ {
+  "id": 4,
+  "kind": "docstring",
+  "text": "\"\"\"Mode des hauteurs de glyphe sur la bande [y0,y1] : les lignes de\n    titre etant tout en capitales, c'est la hauteur de capitale.\"\"\""
+ },
+ {
+  "id": 5,
+  "kind": "docstring",
+  "text": "\"\"\"Largeur du texte compose sans interlettrage, en points TeX.\"\"\""
+ },
+ {
+  "id": 6,
+  "kind": "docstring",
+  "text": "\"\"\"Corps et interlettrage (en 1/1000 de cadratin, unite de microtype).\"\"\""
+ },
+ {
+  "id": 7,
+  "kind": "comment",
+  "text": "# microtype ajoute <t>/1000 cadratin apres CHAQUE caractere ;\n# sur une ligne centree, le dernier ajout est retire par \\textls."
+ }
+]

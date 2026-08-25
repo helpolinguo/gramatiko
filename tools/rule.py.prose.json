@@ -1,0 +1,77 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Detection du FILET DE NOTE, et calcul de son ordonnee de composition.\n\nReperer le filet par « le plus grand blanc de la page » ne marche pas :\nsur une page portant un titre de section, le blanc du titre est plus\ngrand, et l'on place alors le bloc de notes des centimetres trop haut.\n\nLe filet est un objet reconnaissable en soi : un trait horizontal\ncontinu, haut de un a trois pixels, long d'une vingtaine de millimetres,\ncale sur la marge de gauche, et seul sur sa ligne. On le cherche donc\ncomme tel, dans la moitie basse de la page.\n\nL'ordonnee rendue est celle qu'attend \\\\VUnotes, c'est-a-dire une distance\nau bord SUPERIEUR DU PAPIER. Elle ne peut pas se lire directement sur le\nscan : chaque image du scan a son propre decalage vertical, le papier n'y\noccupant pas la meme place. On la calcule donc relativement a la premiere\nligne de corps, dont on sait qu'elle tombe a \\\\VUmargeSup :\n\n    ordonnee = VUmargeSup + (y_filet - y_premiere_ligne) x 25,4/300\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "comment",
+  "text": "# doit suivre \\VUmargeSup du preambule"
+ },
+ {
+  "id": 2,
+  "kind": "docstring",
+  "text": "\"\"\"Retourne (y_filet, largeur_px) ou None.\"\"\""
+ },
+ {
+  "id": 3,
+  "kind": "comment",
+  "text": "# Un filet numerise est rarement continu : quelques pixels clairs le\n# coupent ici et la (au folio 11, la coupure suffisait a le faire\n# manquer). On soude donc les interruptions de trois pixels au plus."
+ },
+ {
+  "id": 4,
+  "kind": "comment",
+  "text": "# colonne de texte, pour savoir ou commence la marge de gauche"
+ },
+ {
+  "id": 5,
+  "kind": "comment",
+  "text": "# LA FENETRE DE RECHERCHE COMMENCAIT TROP BAS. Fixee a 0,45 H, elle\n# supposait que le bloc des notes occupe au plus la moitie inferieure\n# de la page. C'est vrai de presque toutes, mais pas du feuillet 97,\n# dont le filet tombe a 0,29 H (la page est aux trois quarts en\n# notes), ni du 93, a 0,40 H. Sur ces deux-la le detecteur rendait\n# « filet non trouve » — et tools/missing_lines.py, prive du\n# filet, melangeait le pas du corps a celui des notes.\n#\n# Elargir la FERMETURE de 7 a 11 px les trouvait aussi, mais rendait\n# de FAUX filets : y=1680 long 140 px au feuillet 93 la ou le vrai\n# est a 782 avec ses 213 px reglementaires. Une ligne de texte soudee\n# passait pour un filet. On a donc rejete ce remede — un detecteur\n# qui se trompe en silence vaut moins qu'un detecteur qui echoue.\n# LA FENETRE PARTAIT TROP BAS — troisieme cause de « filet non\n# trouve ». Fixee a 0,25 H, elle supposait que le bloc de notes\n# occupe au plus les trois quarts inferieurs. C'est faux des que la\n# page est peu remplie : au feuillet 180, qui clot la deuxieme\n# partie, le filet tombe a y = 377 pour une fenetre partant de 520 ;\n# au feuillet 194 il est a 450 pour une fenetre partant de 516. Dans\n# les deux cas le filet passe les tests de longueur et de reste — il\n# n'est jamais examine.\n# On descend donc a 0,10 H. Verifie sur vingt-deux feuillets temoins :\n# aucun filet deja trouve n'est perdu ni deplace."
+ },
+ {
+  "id": 6,
+  "kind": "comment",
+  "text": "# On cherche le premier pixel sombre AU VOISINAGE de la marge, puis\n# la longueur du segment continu qui en part. Demarrer le comptage\n# a une abscisse fixe ne marchait pas : quelques pixels blancs\n# avant le filet suffisaient a donner une longueur nulle."
+ },
+ {
+  "id": 7,
+  "kind": "comment",
+  "text": "# UN FILET DE NOTE MESURE ENTRE 201 ET 246 px, mesure sur les\n# vingt-six feuillets temoins : c'est une constante du volume,\n# non une grandeur libre. La fenetre valait 140 a 470 px, et\n# cette largeur a coute deux fausses lectures :\n#   -- au feuillet 199, un trait parasite de 154 px passait pour\n#      le filet et donnait 161,63 mm au lieu de 107,74 ; le bloc\n#      de notes, pose si bas, debordait la page en perdant une\n#      ligne ;\n#   -- au feuillet 231, page du TABELO sans aucune note, les\n#      EMPATTEMENTS SOUDES de la vedette demi-grasse\n#      « Konjuncioni : » formaient une plage continue de 185 px\n#      partant de la marge, et passaient les trois tests.\n# On resserre a 195-260 px. Verifie sur vingt-six feuillets\n# temoins : aucun filet reel n'est perdu (le plus court mesure\n# 201 px au feuillet 42, le plus long 246 au feuillet 34), et\n# les deux faux tombent."
+ },
+ {
+  "id": 8,
+  "kind": "comment",
+  "text": "# le reste de la COLONNE DE TEXTE doit etre vide (le bord de\n# l'image, lui, porte souvent la tranche du feuillet voisin)\n#\n# UN PIXEL DE TROP FAISAIT PERDRE LE FILET. Au feuillet 162 ce\n# test rendait reste = 7 pour le seuil 6 : deux pixels de salete\n# au milieu, et CINQ AU BORD DU PAPIER. text_region ne rogne pas\n# toujours ce bord — il rendait ici span[1] = 1405 quand la\n# colonne de texte s'arrete vers 1390 — si bien que la tranche du\n# feuillet voisin comptait comme de l'encre. On retire donc une\n# marge de securite a droite avant de sommer. Trois feuillets du\n# meme lot etaient declares « filet introuvable » pour ce motif."
+ },
+ {
+  "id": 9,
+  "kind": "comment",
+  "text": "# CINQUIEME CAUSE DE « FILET INTROUVABLE » : une salete AU MILIEU\n# de la colonne. Au feuillet 213 le filet est parfait — 214 px,\n# cale sur la marge, franc a l'oeil — mais dix pixels de crasse a\n# x = 1073 portaient le reste a 10 pour un seuil de 6, et le\n# candidat tombait. La marge BORD, posee pour la tranche du\n# feuillet voisin, ne protege que du bord droit.\n#\n# Un total ne distingue pas dix pixels de salete d'une ligne de\n# texte : c'est la FORME qui les separe. Une ligne de texte donne\n# des suites longues et nombreuses ; une salete, une ou deux\n# suites courtes. On juge donc sur la plus longue suite continue,\n# et l'on gonfle le seuil du total en consequence. Verifie sur\n# vingt-six feuillets temoins : aucun filet deja trouve n'est\n# perdu ni deplace, et le 213 est retrouve."
+ },
+ {
+  "id": 10,
+  "kind": "comment",
+  "text": "# Ce qui separe une salete d'une ligne de texte n'est ni le\n# nombre de taches ni leur ecartement — deux poussieres aux deux\n# bouts de la colonne sont tres ecartees et ne pesent rien (c'est\n# le cas des feuillets 93 et 194, qu'un critere d'etendue a fait\n# perdre le temps d'un essai). C'est la QUANTITE d'encre, et la\n# TAILLE du plus gros amas. Au feuillet 213 la crasse fait dix\n# pixels d'un seul tenant ; la rangee de texte qui precede le\n# filet en porte cent cinquante-quatre, en suites bien plus\n# longues. Les deux seuils separent les deux cas largement."
+ },
+ {
+  "id": 11,
+  "kind": "comment",
+  "text": "# ON RETIENT LE CANDIDAT LE PLUS PROCHE DE LA LONGUEUR\n# REGLEMENTAIRE, NON LE PLUS LONG. Le filet de note mesure\n# 210 a 216 px sur les vingt-six feuillets temoins — c'est une\n# constante du volume, non une grandeur libre. Retenir le plus\n# long faisait choisir, au feuillet 199, un faux filet de 154 px\n# situe 640 px plus bas que le vrai, long de 212 px : l'ordonnee\n# sortait a 161,63 mm au lieu de 107,74, et le bloc de notes,\n# pose si bas, debordait la page en perdant une ligne.\n# C'EST LA QUATRIEME PANNE DE CE DETECTEUR, ET LA PIRE : les\n# trois autres le font echouer, celle-ci le fait mentir."
+ },
+ {
+  "id": 12,
+  "kind": "docstring",
+  "text": "\"\"\"Ordonnee de composition du filet, en mm depuis le bord du papier.\"\"\""
+ },
+ {
+  "id": 13,
+  "kind": "comment",
+  "text": "# Masque de secours : gm borne a la colonne de texte. text_region\n# efface parfois le folio (feuillet 42)."
+ },
+ {
+  "id": 14,
+  "kind": "comment",
+  "text": "# ATTENTION : le calcul suppose que la premiere ligne reperee est la\n# premiere ligne de CORPS, celle qui tombe a \\VUmargeSup. Si la page\n# ouvre sur un titre de section (folio 11), cette ligne est plus basse,\n# et il faut ajouter le blanc qui la precede dans la composition.\n# On le signale plutot que de rendre un chiffre faux en silence."
+ }
+]

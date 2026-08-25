@@ -1,0 +1,17 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Decoupe les images du scan (double pages) en pages simples.\n\nPDF page 1   -> couverture avant (image simple)\nPDF pages 2..120 -> doubles pages (verso gauche + recto droite)\nPDF page 121 -> couverture arriere (image simple)\n\nSortie : scan/pages/f0001.png ... (numerotation sequentielle des feuillets)\navec scan/pages/index.tsv qui donne la correspondance.\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "docstring",
+  "text": "\"\"\"Trouve la colonne de pliure : la plus sombre au centre de l'image.\"\"\""
+ },
+ {
+  "id": 2,
+  "kind": "comment",
+  "text": "# portrait => page unique"
+ }
+]

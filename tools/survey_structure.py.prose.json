@@ -1,0 +1,17 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Releve de structure : folios imprimes, titres, elements recurrents.\n\nBase sur l'OCR grossier (scan/ocr/*.txt), qui suffit pour reperer\nl'organisation du volume mais n'est jamais utilise pour le texte lui-meme.\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "docstring",
+  "text": "\"\"\"Cherche le folio dans les 3 premieres lignes non vides.\"\"\""
+ },
+ {
+  "id": 2,
+  "kind": "comment",
+  "text": "# folio colle a un mot parasite"
+ }
+]

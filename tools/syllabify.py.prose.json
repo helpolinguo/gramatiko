@@ -1,0 +1,47 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Syllabateur ido — coupures de fin de ligne admises.\n\nSPECIFICATION : l'ouvrage lui-meme, appendice « Puntizado », folio 220,\nparagraphe « Seko di la Vorti. [D. 485] » :\n\n    « On admisas kompleta libereso en la seko di la vorti de lineo a\n      lineo, ecepte ke singla parto devas kontenar vokalo, e ke la\n      digrami o diftongi devas ne dividesar. Ex. on darfas sekar tale\n      la vorto mustar : mu-star, mus-tar, o must-ar. Ma neutro,\n      mashino sekesas neu-tro, ma-shino, e ne ne-utro, mas-hino. »\n\nAutrement dit, la coupure est libre a DEUX conditions seulement :\n  1. chacune des deux parties contient au moins une voyelle ;\n  2. la coupure ne tombe pas a l'interieur d'un digramme ni d'une\n     diphtongue.\n\nDigrammes (folio 13, « PRONUNCO DIL KONSONANTI E DIGRAMI ») : ch, sh, qu.\n  — q est toujours suivi de u (folio 14) : qu est indivisible ;\n  — gn n'est PAS un digramme : le livre l'ecrit reg-no, dig-na (folio 13).\nDiphtongues : au, eu (folio 17 : « Evitez sorgoze facar ek au, eu du\n  silabi en ta vorti »).\n\nCe module sert surtout de CONTROLE : toutes les coupures du fac-simile\nsont relevees a la main ; le syllabateur verifie qu'elles sont conformes.\nUne coupure non conforme est soit une coquille de l'original (a conserver\net a signaler), soit une erreur de releve (a corriger).\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "docstring",
+  "text": "\"\"\"Minuscules sans accents, pour l'analyse (le livre accentue tres peu).\"\"\""
+ },
+ {
+  "id": 2,
+  "kind": "docstring",
+  "text": "\"\"\"Indices i tels qu'une coupure entre mot[i-1] et mot[i] est interdite\n    parce qu'elle scinderait un digramme ou une diphtongue.\"\"\""
+ },
+ {
+  "id": 3,
+  "kind": "docstring",
+  "text": "\"\"\"Toutes les coupures admises. Retourne la liste des indices i :\n    la ligne se termine par mot[:i] et reprend par mot[i:].\"\"\""
+ },
+ {
+  "id": 4,
+  "kind": "comment",
+  "text": "# partie gauche sans voyelle"
+ },
+ {
+  "id": 5,
+  "kind": "comment",
+  "text": "# partie droite sans voyelle"
+ },
+ {
+  "id": 6,
+  "kind": "docstring",
+  "text": "\"\"\"La coupure gauche|droite est-elle conforme a D. 485 ?\n    Retourne (booleen, motif).\"\"\""
+ },
+ {
+  "id": 7,
+  "kind": "docstring",
+  "text": "\"\"\"Le mot avec un trait d'union a chaque coupure admise,\n    au format attendu par \\\\hyphenation{...}.\"\"\""
+ },
+ {
+  "id": 8,
+  "kind": "comment",
+  "text": "# controle sur les exemples donnes par le livre lui-meme"
+ }
+]

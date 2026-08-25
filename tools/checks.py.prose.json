@@ -1,0 +1,517 @@
+[
+ {
+  "id": 0,
+  "kind": "docstring",
+  "text": "\"\"\"Les huit controles automatiques de la transcription.\n\nA lancer apres CHAQUE lot de modifications :\n\n    python3 tools/checks.py            # tout\n    python3 tools/checks.py 3 4 5      # seulement ces controles\n\n 1. Pagination conforme, zero « Overfull \\\\vbox », inventaire des\n    « Overfull \\\\hbox » un par un.\n 2. Comparaison ligne a ligne entre le PDF compose et le releve.\n 3. Tout \\\\cc tombe entre deux lettres.\n 4. Aucun \\\\nl ne tombe a l'interieur d'un mot.\n 5. Aucune ligne ne commence par : ; ! ?\n 6. Aucune ligne ne commence par une ponctuation basse ou une\n    parenthese fermante.\n 7. Marge effective minimale sur toutes les pages.\n 8. Comparaison visuelle a 300 dpi (fabrique les juxtapositions).\n\nLe releve, c'est le contenu de content/*.tex : les coupures y sont\ntoutes explicites, donc le fichier source EST le releve du fac-simile.\n\"\"\""
+ },
+ {
+  "id": 1,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Lecture du releve : les pages et leurs lignes, telles qu'encodees\n# --------------------------------------------------------------------\n# Commandes dont il faut jeter AUSSI les arguments : elles ne composent\n# pas de texte (reglages de corps, blancs verticaux, filets...)."
+ },
+ {
+  "id": 2,
+  "kind": "comment",
+  "text": "# La SIGNATURE DE CAHIER est un chiffre nu au pied de la page. Elle\n# ne fait partie d'aucune ligne de texte : le detecteur du\n# fac-simile ne la voit pas (elle tombe sous le bloc), et du cote\n# compose lignes_pdf() ecarte les lignes d'un seul caractere. Les\n# deux cotes l'ignorent donc, et le controle 2 ne la verifie pas —\n# limite consignee au LISEZ-MOI. Sans cette entree, l'ordonnee\n# passee a la macro se lisait comme du texte : « 168.74mm2 »."
+ },
+ {
+  "id": 3,
+  "kind": "comment",
+  "text": "# Reglages verticaux : ils ne composent rien, mais leur argument est\n# une dimension, que le releve prenait pour du texte (le folio 30\n# ouvrait sur une ligne « 10.38pt »)."
+ },
+ {
+  "id": 4,
+  "kind": "comment",
+  "text": "# L'accolade d'un tableau ne porte pas de texte : seulement sa\n# hauteur et son deplacement vertical, deux arguments tous deux muets."
+ },
+ {
+  "id": 5,
+  "kind": "comment",
+  "text": "# L'ORNEMENT DE FIN DE PARTIE est un filet nu : aucun texte. Son\n# unique argument est une ordonnee, que le releve lisait comme la\n# premiere ligne du folio 114 (« 147.14mm »)."
+ },
+ {
+  "id": 6,
+  "kind": "comment",
+  "text": "# L'ASTERISME est un ornement nu : trois asterisques, aucun texte.\n# Son unique argument est une ordonnee, que le releve lisait comme\n# la premiere ligne du folio 186."
+ },
+ {
+  "id": 7,
+  "kind": "comment",
+  "text": "# \\VUpageNote ne compose rien : elle change le corps et l'interlignage\n# de toute la page (feuillet 208, seule page du volume entierement au\n# corps des notes). Son argument, « 8.13pt », se lisait comme la\n# premiere ligne du folio 204."
+ },
+ {
+  "id": 8,
+  "kind": "comment",
+  "text": "# L'ACCOLADE HORIZONTALE de l'arbre du folio 220 ne porte pas de\n# texte : son unique argument est une largeur, que le releve\n# lisait comme le debut du rang (« 45.63mmPetrusPaulus... »)."
+ },
+ {
+  "id": 9,
+  "kind": "comment",
+  "text": "# Commandes dont on jette les N premiers arguments et garde le dernier."
+ },
+ {
+  "id": 10,
+  "kind": "comment",
+  "text": "# Tableaux : l'abscisse relevee, puis la matiere."
+ },
+ {
+  "id": 11,
+  "kind": "comment",
+  "text": "# Commandes dont on garde l'argument (il porte du texte)."
+ },
+ {
+  "id": 12,
+  "kind": "comment",
+  "text": "# Commandes SANS argument qui composent pourtant un caractere. Le releve\n# les effacait purement et simplement, si bien que le controle 2 declarait\n# perdu un signe bien compose : au folio 199, le guillemet simple DROIT du\n# fac-simile — un vrai trait vertical, distinct de la virgule culbutee du\n# folio 201 — s'ecrit \\textquotesingle ; il disparaissait du cote releve\n# et subsistait du cote PDF."
+ },
+ {
+  "id": 13,
+  "kind": "comment",
+  "text": "# LES ACCOLADES ECHAPPEES SE COMPOSENT. Au folio 220 le\n# texte cite les signes eux-memes — « Embracili \\{\\} » — et\n# le releve les effacait purement, si bien que le\n# controle 2 opposait « Embracili uzesas » a « Embracili\n# {} uzesas » sur une page juste."
+ },
+ {
+  "id": 14,
+  "kind": "docstring",
+  "text": "\"\"\"i pointe sur '{' : retourne (contenu, index apres '}').\"\"\""
+ },
+ {
+  "id": 15,
+  "kind": "docstring",
+  "text": "\"\"\"Retire le balisage LaTeX et ne garde que le texte reellement compose.\"\"\""
+ },
+ {
+  "id": 16,
+  "kind": "comment",
+  "text": "# le {} qui protege l'espace suivante"
+ },
+ {
+  "id": 17,
+  "kind": "comment",
+  "text": "# Espace AVANT le contenu d'une case de tableau : deux\n# \\VUcase voisins se collaient, et « ... persono : »\n# suivi de « me » formait le jeton « :me », que la\n# comparaison des rangs ne savait reconnaitre ni pour\n# un artefact d'accolade ni pour du texte."
+ },
+ {
+  "id": 18,
+  "kind": "comment",
+  "text": "# commande sans effet textuel (\\centering, \\par...)"
+ },
+ {
+  "id": 19,
+  "kind": "docstring",
+  "text": "\"\"\"Chaque ligne d'apparat (\\\\VUcentreA{y}{corps}{interlettrage}{texte},\n    \\\\VUcentre{corps}{interlettrage}{texte}) est une ligne du fac-simile a\n    part entiere : on la ramene a « texte\\\\nl » pour que le releve reste\n    uniformement une suite de lignes. Seul le DERNIER argument porte du\n    texte ; les precedents sont des mesures.\"\"\""
+ },
+ {
+  "id": 20,
+  "kind": "comment",
+  "text": "# la plus proche, et a position egale la plus longue (VUcentreA\n# avant VUcentre, dont le nom est un prefixe)"
+ },
+ {
+  "id": 21,
+  "kind": "docstring",
+  "text": "\"\"\"Le bloc de notes est declare en TETE de page (il est place a une\n    ordonnee absolue), mais il se compose en BAS de page. Le controle 2\n    compare dans l'ordre visuel : on le remet donc a la fin.\"\"\""
+ },
+ {
+  "id": 22,
+  "kind": "comment",
+  "text": "# \\VUnotes a pris un ARGUMENT OPTIONNEL (la largeur du filet, nulle au\n# feuillet 208, seule page du volume dont la note n'en porte aucun).\n# Sans ce saut, « [0pt] » et l'ordonnee tombaient dans le texte de la\n# premiere ligne relevee."
+ },
+ {
+  "id": 23,
+  "kind": "docstring",
+  "text": "\"\"\"\\\\VUrang{...} -> son contenu, suivi d'un \\\\nl.\"\"\""
+ },
+ {
+  "id": 24,
+  "kind": "comment",
+  "text": "# \\x04 marque la ligne comme rang de tableau : ses blancs sont\n# des ecarts mesures, non du contenu."
+ },
+ {
+  "id": 25,
+  "kind": "docstring",
+  "text": "\"\"\"\\\\VUindex[opt]{entree}{numero} -> « entree numero », suivi d'un \\\\nl.\n\n    Chaque entree du TABELO est UNE ligne du fac-simile. Sans ce\n    depliage, texte_nu les enchainait toutes dans la meme ligne relevee,\n    et le controle 2 opposait les vingt-six entrees du folio 225 a la\n    seule « Pagini. » du compose.\n    Elles sont marquees comme rangs de tableau (\\\\x04) : leurs blancs sont\n    des ecarts mesures, non du contenu, et leur premier caractere n'est\n    pas soumis aux regles de coupure.\n    \"\"\""
+ },
+ {
+  "id": 26,
+  "kind": "comment",
+  "text": "# \\VUindexLarge, ajoutee pour les catalogues du folio 232 (dont\n# les points de conduite ont un pas trois fois plus large), doit\n# etre depliee comme les deux autres. Omise ici, ses lignes ne\n# sont pas marquees comme rangs, et les controles de debut de\n# ligne y voient cinq « espaces parasites »."
+ },
+ {
+  "id": 27,
+  "kind": "comment",
+  "text": "# \\VUindex ne doit pas happer \\VUindexNu ni \\VUindexRenfoncement"
+ },
+ {
+  "id": 28,
+  "kind": "docstring",
+  "text": "\"\"\"Retourne [{'fichier','folio','lignes':[{'texte','coupe'}...]}, ...]\n\n    coupe = 'cc' si la ligne se termine par un trait d'union de coupure,\n            'nl' si elle se termine sans trait d'union,\n            None pour la derniere ligne d'un alinea.\"\"\""
+ },
+ {
+  "id": 29,
+  "kind": "comment",
+  "text": "# Une fin d'alinea est une fin de ligne : le releve doit la voir.\n# Une fin d'alinea EST une fin de ligne, mais ce n'est pas un\n# \\nl : la ligne y est courte, non justifiee. Les confondre\n# rendait le controle des fins de ligne inutilisable, chaque\n# fin d'alinea etant reclamee « pleine ».\n# Un rang de tableau est une ligne : \\VUrang{...} rend son\n# contenu suivi d'une fin de ligne. Sans cela le releve voyait\n# les six rangs du tableau du folio 31 comme une seule ligne."
+ },
+ {
+  "id": 30,
+  "kind": "comment",
+  "text": "# on decoupe sur \\nl et \\cc en conservant lequel a coupe"
+ },
+ {
+  "id": 31,
+  "kind": "comment",
+  "text": "# 'nl', 'cc' ou 'pf'"
+ },
+ {
+  "id": 32,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Controle 1 — pagination et debordements\n# --------------------------------------------------------------------"
+ },
+ {
+  "id": 33,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Controle 2 — comparaison ligne a ligne PDF <-> releve\n# --------------------------------------------------------------------"
+ },
+ {
+  "id": 34,
+  "kind": "comment",
+  "text": "# L'accent grave du source LaTeX EST le guillemet simple ouvrant : au\n# folio 201 le fac-simile porte une virgule culbutee, qu'on ecrit \\u00ab ` \\u00bb\n# et que pdftotext rend \\u00ab ' \\u00bb. Sans cette ligne le controle opposait\n# \\u00ab ` Qua \\u00bb a \\u00ab ' Qua \\u00bb sur une page juste."
+ },
+ {
+  "id": 35,
+  "kind": "comment",
+  "text": "# cadratin encode en source LaTeX"
+ },
+ {
+  "id": 36,
+  "kind": "comment",
+  "text": "# pdftotext insere une espace apres un exposant : « IV^a , Papo ».\n# Une espace avant une virgule ou un point n'est jamais correcte dans\n# cet ouvrage — l'espacement a la francaise ne vaut que pour ; : ! ? —\n# donc la supprimer ne peut masquer aucun defaut reel.\n# Meme raison pour la PARENTHESE FERMANTE : « (1,000,000^2 ) ».\n# L'espace que pdftotext pose apres un exposant tombe la ou le\n# tableau du folio 94 en met un. Une espace avant « ) » n'est jamais\n# correcte ici, et le controle 6 verifie deja qu'aucune ligne ne\n# COMMENCE par une parenthese fermante : rien n'est masque."
+ },
+ {
+  "id": 37,
+  "kind": "comment",
+  "text": "# Et de meme APRES une parenthese OUVRANTE. Au folio 204 pdftotext\n# rend « ( beluli) » la ou le source ecrit « (beluli) » : le blanc\n# naît du passage du gras au romain juste avant, comme celui qu il\n# pose apres un exposant. Une espace apres « ( » n est jamais\n# correcte dans cet ouvrage, donc la retirer ne masque rien de reel."
+ },
+ {
+  "id": 38,
+  "kind": "comment",
+  "text": "# LE MENEUR DE POINTS DU TABELO n'est pas du contenu : c'est un\n# remplissage typographique, pose par \\\\leaders. Le releve ecrit\n# l'entree et son numero, le compose intercale trente points.\n# Aucun texte du volume ne porte six points de suite — le plus\n# long est « (...) » du folio 219, qui en a trois."
+ },
+ {
+  "id": 39,
+  "kind": "comment",
+  "text": "# L'ESPACE A LA FRANCAISE, elle, est REELLE des deux cotes — mais\n# elle n'est ecrite ni dans le source ni rendue de facon fiable.\n# Le source ecrit « if; » ; c'est \\VUespacePonct qui pose l'espace au\n# moment de composer. Le releve, lui, lit le source et rend « if; ».\n# Restait pdftotext, qui n'annonce l'espace que lorsqu'elle depasse\n# son seuil geometrique : apres une lettre romaine il ne la voit pas,\n# apres une italique — dont la correction s'ajoute a l'espace — il la\n# voit. D'ou deux echecs aux folios 90 et 91, « E. if ; » contre\n# « E. if; », sur des pages parfaitement justes.\n#\n# On normalise donc des DEUX cotes. Ce que cela coute est nommable :\n# le controle ne peut plus voir une espace a la francaise manquante.\n# Mais elle ne peut pas manquer sur UNE ligne : elle vient d'une\n# macro posee une fois pour tout le volume, et le folio 12 l'a\n# verifiee a l'oeil. Un defaut global reste visible, un defaut local\n# est impossible — la normalisation ne masque donc rien de reel."
+ },
+ {
+  "id": 40,
+  "kind": "docstring",
+  "text": "\"\"\"Lignes du PDF compose, page par page, via pdftotext -layout.\"\"\""
+ },
+ {
+  "id": 41,
+  "kind": "comment",
+  "text": "# Les accolades des tableaux viennent de la fonte d'extension\n# mathematique, qui n'a pas de correspondance Unicode : pdftotext les\n# rend en caracteres de commande (0x1A, 0x08). Une ligne qui n'en\n# contient pas d'autre paraissait alors non vide, decalait toutes les\n# suivantes, et le controle 2 declarait « <manque> » sur une page\n# pourtant juste (folio 31).\n# Une accolade de tableau est plus haute qu'une ligne : pdftotext lui\n# donne une ligne a elle. Elle en sort dans un caractere quelconque,\n# selon la fonte et la piece d'accolade employees — on a vu 0x1A,\n# 0x08, « ( » et « n ». Une liste de caracteres a ecarter ne tient\n# donc pas ; le critere sur est STRUCTUREL : la ligne parasite ne\n# porte qu'UN SEUL caractere. Le volume n'a aucune ligne legitime\n# d'un seul caractere — la plus courte relevee en compte cinq\n# (« rozi. »). Ces lignes decalaient toutes les suivantes, et le\n# controle 2 declarait « manque » sur une page pourtant juste.\n# L'ASTERISME, une fois pose juste, se prend une ligne a lui. Tant que\n# ses deux rangs tombaient a 63 px l'un de l'autre — la faute corrigee\n# au preambule — le rang haut se collait au texte voisin et pdftotext\n# ne les separait pas. Bien pose, il sort en « * » puis « * * », que\n# net() reduit a « ***» : une ligne de plus du cote compose, qui\n# decalait toutes les suivantes et faisait echouer le controle 2 sur\n# deux pages pourtant justes (folios 186 et 207).\n# Le volume n'a aucune ligne de texte faite de seuls asterisques."
+ },
+ {
+  "id": 42,
+  "kind": "comment",
+  "text": "# L'ACCOLADE HORIZONTALE se brise en plusieurs morceaux, et\n# pdftotext les rejette sur une ligne a eux : « }|      { » au\n# folio 220. La regle du caractere unique, ecrite pour l'accolade\n# VERTICALE, ne les attrape pas — ils sont deux.\n# Le critere sur reste structurel : une ligne de ce volume porte\n# toujours une lettre ou un chiffre. La seule exception est une\n# rangee de points d'un hors-texte, qu'il faut garder."
+ },
+ {
+  "id": 43,
+  "kind": "comment",
+  "text": "# une ligne d'apparat est interlettree : les blancs y sont un effet\n# typographique, pas du contenu. On la compare blancs otes.\n# Les lignes d'apparat ET les notes sont interlettrees : pdftotext\n# lit l'approche comme une espace (« vokali e , o »). Les blancs y\n# sont un effet typographique, pas du contenu : on compare sans eux.\n# Un rang de tableau se compare aussi blancs otes : ses ecarts\n# sont geometriques (\\VUcase), non des espaces-mots."
+ },
+ {
+  "id": 44,
+  "kind": "comment",
+  "text": "# le folio compose apparait en tete : on l'ecarte de la comparaison"
+ },
+ {
+  "id": 45,
+  "kind": "comment",
+  "text": "# Un element pose entre deux lignes (\\VUdecale) sort du rang pour\n# pdftotext, qui le rejette sur une ligne a lui : au folio 31,\n# « de o ek » se detachait du rang « Supereso maxim ». L'element\n# EST bien entre deux lignes au fac-simile ; ce n'est donc pas une\n# erreur de composition, mais une limite de l'extraction. On\n# recolle les morceaux, et seulement tant que cela rapproche du\n# releve : si la reunion ne donne pas le texte attendu, l'ecart\n# est signale comme avant.\n# Les accolades sortent de pdftotext en caracteres isoles\n# arbitraires — « ( », « n », « o » selon la piece de fonte —, et\n# elles se melent aux mots du rang quand elles tombent a leur\n# hauteur. Aucune liste de caracteres ne les distingue.\n# On compare donc les rangs SANS LEURS JETONS D'UNE LETTRE, des\n# deux cotes. Ce que cela coute est reel et doit se dire : le\n# « o » de « de o ek » n'est plus verifie par le controle 2 au\n# folio 31. Tout le reste du rang l'est."
+ },
+ {
+  "id": 46,
+  "kind": "comment",
+  "text": "# Sur un rang, tout point de suite est un MENEUR, jamais du\n# texte : le seuil de six points de _norm, pose pour epargner\n# le « (...) » du folio 219, laissait passer les deux ou trois\n# points qui survivent au bord d'une colonne serree. Ici on\n# peut etre strict, parce qu'aucune entree d'index ne porte\n# deux points de suite."
+ },
+ {
+  "id": 47,
+  "kind": "comment",
+  "text": "# LES INDICES DU COMPOSE NE SONT PAS CEUX DU RELEVE. pdftotext\n# eclate un rang de tableau en plusieurs lignes ; des l'instant ou\n# il en ajoute une, obtenu[k] et lg[k] ne designent plus la meme\n# matiere. Depouiller obtenu[k] d'apres lg[k].rang laissait donc\n# des lignes de rang non depouillees, la reunion des morceaux\n# echouait, et le controle accusait le folio 31 d'avoir perdu\n# « minim » — sur une page inchangee depuis des semaines.\n# On ne depouille ici que le RELEVE, dont les indices sont surs ;\n# le compose l'est plus bas, au moment ou on le compare, la ou\n# l'on sait a quel rang il fait face."
+ },
+ {
+  "id": 48,
+  "kind": "comment",
+  "text": "# depouillement du compose : ici, et ici seulement, on\n# sait que cette ligne-la fait face a un rang."
+ },
+ {
+  "id": 49,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Controle 12 — chaque note est un ALINEA\n# --------------------------------------------------------------------\n# TROIS RECIDIVES, TOUJOURS LA MEME. Aux folios 59-63, puis 74, puis 93,\n# puis 106, j'ai enchaine les notes d'un bloc par des \\nl au lieu de les\n# traiter en alineas. Le fac-simile renfonce le premier mot de chacune :\n# ce sont des alineas, jamais des lignes de plus.\n#\n# Le controle 10 le rattrape a chaque fois — mais APRES coup, et par un\n# symptome indirect (« le releve la donne pleine mais elle ne fait que\n# 17 % »). On mesure donc la chose elle-meme, et on la nomme.\n#\n# Cote fac-simile : dans le bloc des notes, une ligne qui OUVRE une note\n# est renfoncee. On compte les lignes dont l'abscisse depasse d'au moins\n# RENFONCEMENT_MIN la marge.\n#\n# LA MARGE NE SE PREND PAS DANS LE SEUL BLOC DES NOTES. Elle y etait\n# prise comme le minimum des abscisses des lignes de note — ce qui\n# suppose qu'au moins une ligne du bloc soit a la marge, c'est-a-dire\n# qu'au moins une note occupe deux lignes. Au folio 114, les deux notes\n# tiennent chacune sur une ligne et sont donc toutes deux renfoncees : le\n# minimum valait le renfoncement lui-meme, l'ecart tombait a zero, et le\n# controle accusait de \\nl une page qui n'en portait pas.\n#\n# ET ELLE NE SE PREND PAS NON PLUS DANS LE SEUL CORPS. Premier remede\n# essaye : mediane des abscisses du corps. Il a fait crier vingt et une\n# pages justes. Le corps du folio 34 est une liste dont seize lignes sur\n# vingt sont renfoncees de 52 px : leur mediane EST le renfoncement, et\n# les ouvertures de note tombaient au-dessous du seuil.\n#\n# LA MARGE NE SE DEDUIT PAS DAVANTAGE DU RECUEIL : le rognage suit le\n# papier et non la justification, si bien qu'elle oscille de 49 a 280 px\n# selon le feuillet, recto et verso alternes. Elle se mesure donc page a\n# page, sur TOUTES les bandes, tete de page exceptee : corps ou notes,\n# une page en porte toujours quelques-unes a la marge. On en prend le\n# DECILE et non le minimum, pour qu'une salete isolee ne la tire pas vers\n# la gauche — et si le minimum s'ecarte du decile de plus de MARGE_ECART,\n# c'est que quelque chose traine hors justification et la page n'est pas\n# jugee.\n# Cote source : on compte les alineas du bloc \\VUnotes."
+ },
+ {
+  "id": 50,
+  "kind": "comment",
+  "text": "# px ; le renfoncement des notes vaut 3,6 mm = 43 px"
+ },
+ {
+  "id": 51,
+  "kind": "comment",
+  "text": "# px ; ecart tolere entre minimum et decile"
+ },
+ {
+  "id": 52,
+  "kind": "comment",
+  "text": "# comptes divergents : page sautee"
+ },
+ {
+  "id": 53,
+  "kind": "comment",
+  "text": "# bandes du fac-simile qui font face aux lignes de note"
+ },
+ {
+  "id": 54,
+  "kind": "comment",
+  "text": "# UNE BANDE SOUDEE FAUSSE L'ABSCISSE. Quand deux lignes de note se\n# soudent en une bande, celle-ci prend le x0 de la plus a gauche\n# — et une ligne renfoncee passe pour etre a la marge. Au folio 29\n# « Decido 586 » se lisait ainsi a +7 px alors que le fac-simile,\n# a l'agrandissement, la renfonce comme ses deux voisines. On ne\n# juge donc pas une page dont une bande de note est soudee : on le\n# dit et on passe.\n# UNE SALETE DANS LA MARGE FAUSSE AUSSI L'ABSCISSE — meme famille\n# que le pli du folio 79. Au folio 29, « Decido 586 » se mesure a\n# +7 px alors que l'agrandissement la montre renfoncee comme ses\n# deux voisines : une trace isolee traine dans sa marge. On\n# reutilise le detecteur ecrit pour le controle 10, et l'on\n# declare la page non jugee plutot que de l'accuser."
+ },
+ {
+  "id": 55,
+  "kind": "comment",
+  "text": "# Alineas du source. Le releve ne porte pas de drapeau « alinea »,\n# mais il note la FIN d'alinea : coupe == 'pf'. Une ligne de note\n# qui suit une fin d'alinea en ouvre donc un nouveau, et la\n# premiere ligne du bloc en ouvre un par construction.\n# UN ALINEA OUVERT PAR \\VUcontinue N'EST PAS RENFONCE : c'est la\n# suite d'une note commencee au folio precedent. Compte comme les\n# autres, il faisait crier au manque sur quatre pages justes."
+ },
+ {
+  "id": 56,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Controles 3 et 4 — \\cc entre deux lettres, \\nl jamais dans un mot\n# --------------------------------------------------------------------\n# UNE PARENTHESE PEUT OUVRIR LA SUITE D'UN MOT COUPE. Le folio 160 porte\n# « flor(vend)isto, flor(kultiv)isto » et le compositeur coupe le second\n# entre « flor- » et « (kultiv)isto » — le tiret est bien imprime au\n# fac-simile, verifie a l'agrandissement x 5. La coupure tombe donc entre\n# une lettre et une parenthese, ce que la regle D. 485 ne prevoit pas\n# parce qu'elle ne parle que de syllabes. On admet la parenthese ouvrante\n# en tete de la suite ; le reste de la regle continue de s'appliquer."
+ },
+ {
+  "id": 57,
+  "kind": "comment",
+  "text": "# Un mot peut se couper d'une PAGE a l'autre : le fac-simile le\n# fait au pied du folio 14. La suite se cherche alors sur la\n# page suivante, sinon le controle croit a une coupure orpheline.\n# La suite d'un mot coupe se cherche dans le MEME flux : le\n# texte courant continue en texte courant, la note en note.\n# Le bloc de notes etant ramene en fin de page pour l'ordre\n# visuel, la derniere ligne du corps est suivie des notes :\n# sans ce filtre, le controle cherchait la fin du mot « be- »\n# du folio 14 dans l'appel de note qui le suit."
+ },
+ {
+  "id": 58,
+  "kind": "comment",
+  "text": "# La page suivante n'est pas encore relevee : on ne peut\n# pas verifier la coupure, mais elle n'est pas fautive."
+ },
+ {
+  "id": 59,
+  "kind": "docstring",
+  "text": "\"\"\"Tous les mots attestes comme mots entiers dans le releve.\"\"\""
+ },
+ {
+  "id": 60,
+  "kind": "docstring",
+  "text": "\"\"\"Un \\\\nl entre deux fragments alphabetiques est normal : c'est le cas\n    de presque toute fin de ligne. Le signal utile est plus etroit — l'OCR\n    et le releve perdent les traits d'union de fin de ligne, et la coupure\n    se retrouve alors decalee. On ne signale donc que le cas ou :\n      - la soudure des deux fragments est un mot atteste ailleurs, ET\n      - l'un des deux fragments n'est jamais atteste comme mot entier.\n    C'est la signature d'un \\\\cc encode par erreur en \\\\nl.\"\"\""
+ },
+ {
+  "id": 61,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Controles 5 et 6 — debuts de ligne interdits\n# --------------------------------------------------------------------"
+ },
+ {
+  "id": 62,
+  "kind": "comment",
+  "text": "# UN RANG DE TABLEAU N'EST PAS UNE LIGNE DE TEXTE. Les trois\n# rangees de points du hors-texte du folio 220 commencent par\n# un point, et les controles 5 et 6 y voyaient trois fautes.\n# Elles ne sont pas de la prose : leur matiere est posee a\n# l'abscisse par \\VUcase, et aucune regle de coupure ne les\n# regit. Les deux controles les ecartent donc, comme le\n# controle 2 le fait deja pour comparer sans les blancs."
+ },
+ {
+  "id": 63,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Controle 7 — marge effective minimale\n# --------------------------------------------------------------------"
+ },
+ {
+  "id": 64,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Controle 8 — juxtaposition visuelle a 300 dpi\n# --------------------------------------------------------------------\n# Marge gauche de la page composee, en pixels a 300 dpi :\n# (116 mm - 91,69 mm) / 2 = 12,155 mm"
+ },
+ {
+  "id": 65,
+  "kind": "comment",
+  "text": "# Renfoncement d'alinea (\\VUalinea = 4,6 mm) en pixels a 300 dpi."
+ },
+ {
+  "id": 66,
+  "kind": "comment",
+  "text": "# Renfoncement des notes (\\VUalineaNote = 3,6 mm) : les notes ont le leur."
+ },
+ {
+  "id": 67,
+  "kind": "comment",
+  "text": "# On aligne les deux images sur le BORD GAUCHE DU BLOC DE TEXTE :\n# le scan comporte une bordure variable, la page composee non."
+ },
+ {
+  "id": 68,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Controle 9 — graisse : enrichissements oublies\n# --------------------------------------------------------------------"
+ },
+ {
+  "id": 69,
+  "kind": "docstring",
+  "text": "\"\"\"Lignes de la page i du PDF compose : (y0, y1, encre).\"\"\""
+ },
+ {
+  "id": 70,
+  "kind": "comment",
+  "text": "# Une ligne doit porter de l'encre, pas seulement occuper des pixels :\n# un eclat de 148 pixels (accents ou jambages detaches par le seuil)\n# se faisait compter comme une ligne et decalait tout le reste d'un\n# rang — d'ou des ecarts de graisse absurdes (+4720 %)."
+ },
+ {
+  "id": 71,
+  "kind": "docstring",
+  "text": "\"\"\"Le controle 2 compare le TEXTE ; il ne voit pas le balisage. Un\n    passage en gras oublie lui echappe donc — c'est arrive au folio 11,\n    ou l'enumeration des lettres de l'alphabet est en gras a l'original.\n\n    On compare la QUANTITE D'ENCRE de chaque ligne, fac-simile contre\n    compose. Deux precautions, l'une et l'autre necessaires :\n\n    - le rapport est domine par le CORPS (un titre en capitales, une note\n      en petit texte et une ligne de texte courant n'ont pas du tout la\n      meme densite) : on groupe donc les lignes par hauteur, et chaque\n      groupe est compare a sa propre mediane ;\n    - comparer le profil d'encre LE LONG de la ligne a ete essaye et\n      abandonne : le decalage des mots entre les deux compositions produit\n      un bruit qui noie le signal.\n\n    Sensibilite mesuree au folio 11 : une ligne dont l'essentiel est en\n    gras ressort a +24 % quand le gras manque, contre -3 % quand il est\n    la. Quelques lettres grasses isolees dans une ligne romaine ne\n    depassent pas +5 % : le controle ne les voit pas. Il attrape les\n    enrichissements etendus, pas les ponctuels.\n    \"\"\""
+ },
+ {
+  "id": 72,
+  "kind": "comment",
+  "text": "# Appariement par POSITION, non par rang : voir tools/pair_up.py."
+ },
+ {
+  "id": 73,
+  "kind": "comment",
+  "text": "# Groupes de corps : on les tient du RELEVE, qui les connait\n# exactement (texte courant, note, ligne d'apparat). Les deduire\n# de la hauteur de ligne mesuree se trompait sur les dernieres\n# lignes de note, dont les hauts et bas debordent."
+ },
+ {
+  "id": 74,
+  "kind": "comment",
+  "text": "# Les lignes courtes donnent un rapport bruite (peu d'encre, et le\n# decoupage des lignes y est moins sur) : on les exclut du test."
+ },
+ {
+  "id": 75,
+  "kind": "comment",
+  "text": "# UNE PAGE BLANCHE FAISAIT PLANTER LE CONTROLE. Au feuillet 182,\n# verso blanc, le fac-simile porte sept bandes parasites (pli et\n# bord de page) quand le compose n'a aucune ligne : larg etait\n# vide et larg.max() levait une exception. Le controle entier\n# s'arretait alors — un controle qui plante ne verifie plus rien,\n# et il l'a fait en silence pendant tout un lot."
+ },
+ {
+  "id": 76,
+  "kind": "comment",
+  "text": "# groupe trop petit pour avoir une mediane"
+ },
+ {
+  "id": 77,
+  "kind": "comment",
+  "text": "# --------------------------------------------------------------------\n# Controle 10 — alignement des debuts de ligne\n# --------------------------------------------------------------------"
+ },
+ {
+  "id": 78,
+  "kind": "comment",
+  "text": "# Le bord gauche d'une ligne n'est pas toujours de l'encre : au feuillet\n# 83 un PLI du papier traverse la marge, et le detecteur prend la trace\n# du pli pour le debut de la ligne. Le retrait mesure tombe alors a zero\n# sur une ligne qui, a l'agrandissement, est nettement renfoncee.\n#\n# Le signe est le meme que celui qui avait fausse le folio dans\n# tools/page.py, et il se lit de la meme facon : EN AMAS, non en\n# etendue. Un pli rend un amas MINCE (quelques pixels de large) et\n# SEPARE du reste de la ligne par un blanc bien plus large qu'une\n# espace-mot. Une lettre, elle, touche ses voisines.\n#\n# On ne corrige pas la mesure — on la declare non faite. Un controle qui\n# se tait en le disant vaut mieux qu'un controle qui accuse une page\n# juste, et mieux aussi qu'un controle qu'on desactive en silence."
+ },
+ {
+  "id": 79,
+  "kind": "comment",
+  "text": "# px : au-dela, c'est une lettre"
+ },
+ {
+  "id": 80,
+  "kind": "comment",
+  "text": "# px : une espace-mot en vaut 19"
+ },
+ {
+  "id": 81,
+  "kind": "docstring",
+  "text": "\"\"\"Le bord gauche de cette ligne est-il la trace d'un pli ?\"\"\""
+ },
+ {
+  "id": 82,
+  "kind": "comment",
+  "text": "# LES TRACES VONT PAR PLUSIEURS. La premiere version n'examinait que\n# l'amas de tete et le blanc qui le suit ; au folio 29 la marge porte\n# DEUX mouchetures (2 px puis 6 px, separees de 3 px), et le test\n# echouait sur la seconde. On saute donc TOUS les amas minces de\n# tete, et l'on mesure le blanc qui precede le premier amas large."
+ },
+ {
+  "id": 83,
+  "kind": "docstring",
+  "text": "\"\"\"Dans une page composee, le debut d'une ligne ne peut occuper que\n    trois positions : la marge du bloc, la marge plus le renfoncement\n    d'alinea, ou le centre (lignes d'apparat). Toute autre valeur trahit\n    une espace parasite.\n\n    Ce controle est ne d'un defaut que le controle 2 ne pouvait pas voir :\n    une espace active a le code de categorie 13 et non 10, si bien que TeX\n    ne l'escamote plus apres un mot de controle. « \\\\noindent en » composait\n    donc une espace reelle en tete de ligne. Le controle 2 compare du\n    texte, et son texte est dépouillé de ses blancs de bord : l'ecart etait\n    invisible pour lui, alors qu'il saute aux yeux en geometrie.\n    \"\"\""
+ },
+ {
+  "id": 84,
+  "kind": "comment",
+  "text": "# Le folio est compose par \\VUfolio : il ne fait pas partie du\n# releve. Il faut l'oter AVANT la boucle des debuts de ligne, et\n# non seulement avant celle des fins : sans cela lg[k] repond\n# pour la ligne precedente. Au folio 50 le controle accusait un\n# rang de tableau d'un « espace parasite » de 120 px qui etait en\n# realite son renfoncement releve — l'exemption des rangs ne\n# tombait pas sur la bonne ligne."
+ },
+ {
+  "id": 85,
+  "kind": "comment",
+  "text": "# PREMIERE LIGNE DU CORPS : au fer a gauche ou en alinea ?\n# Le controle des debuts accepte les deux, puisque les deux sont\n# legitimes ailleurs dans la page. Mais pour la premiere ligne le\n# fac-simile tranche, et deux fois j'ai mis un \\VUcontinue de trop\n# (folios 45 et 55) en supposant sans verifier que l'alinea venait\n# de la page precedente. On confronte donc cette ligne-la, et elle\n# seule, a la mesure du modele."
+ },
+ {
+  "id": 86,
+  "kind": "comment",
+  "text": "# On saute les pages qui s'ouvrent sur une ligne d'apparat : la\n# comparaison n'y a pas de sens, et le repere du folio confond un\n# titre centre avec un folio (folio 18)."
+ },
+ {
+  "id": 87,
+  "kind": "comment",
+  "text": "# Un RANG DE TABLEAU ne commence ni a la marge ni en alinea :\n# chacun de ses elements est pose a une abscisse relevee au\n# fac-simile (\\VUcase). Le controle des debuts de ligne n'a\n# donc pas de sens ici, et il faut le dire plutot que de le\n# taire : le compte des rangs ecartes est rapporte.\n# UNE LIGNE D'APPARAT NON PLUS. \\VUcentre, \\VUtitre et\n# \\VUsoustitre posent leur ligne par mesure, comme \\VUcase le\n# fait pour un rang : ni le fer ni l'alinea ne les regissent.\n# Le test de centrage ci-dessous en attrape la plupart, mais\n# pas celles dont le texte est long et le centrage optique\n# (folios 232, 233 et 234, quatre lignes) : la regle sure est\n# de les ecarter sur leur nature, non sur leur position."
+ },
+ {
+  "id": 88,
+  "kind": "comment",
+  "text": "# folio, titre, ligne d'apparat"
+ },
+ {
+  "id": 89,
+  "kind": "comment",
+  "text": "# au fer a gauche"
+ },
+ {
+  "id": 90,
+  "kind": "comment",
+  "text": "# renfoncement d'alinea"
+ },
+ {
+  "id": 91,
+  "kind": "comment",
+  "text": "# renfoncement d'une note"
+ },
+ {
+  "id": 92,
+  "kind": "comment",
+  "text": "# Verification des FINS de ligne, SANS passer par le fac-simile.\n#\n# La premiere version comparait la largeur de chaque ligne composee\n# a celle de la ligne correspondante du fac-simile. Elle dependait\n# donc de l'appariement, qui glisse d'un rang des qu'une ligne est\n# detectee en trop d'un cote — et produisait alors une douzaine de\n# faux positifs a la signature caracteristique (une ligne pleine en\n# face d'une tres courte, en alternance).\n#\n# Or le releve sait deja ce qu'il faut savoir : une ligne suivie de\n# \\nl ou de \\cc est une ligne pleine, une ligne qui termine un\n# alinea est courte. On verifie donc le compose contre le RELEVE,\n# ce qui ne demande aucun appariement."
+ },
+ {
+  "id": 93,
+  "kind": "comment",
+  "text": "# Le folio est compose par \\VUfolio, il ne fait pas partie du\n# releve : on l'ote de la liste des lignes composees, sinon toute\n# la page se compare decalee d'un rang."
+ },
+ {
+  "id": 94,
+  "kind": "comment",
+  "text": "# le folio en a deja ete ote plus haut"
+ },
+ {
+  "id": 95,
+  "kind": "comment",
+  "text": "# « Court » se mesure sur la ligne la PLUS LARGE de la page,\n# et « centre » avec la meme tolerance que le controle 11.\n# Au folio 50, le folio « -- 50 -- » manquait le critere de\n# centrage de peu : la page entiere se comparait alors\n# decalee d'un rang, et le controle accusait un rang de\n# tableau d'un « espace parasite » de 120 px qui etait en\n# realite son renfoncement releve."
+ },
+ {
+  "id": 96,
+  "kind": "comment",
+  "text": "# Le BORD DROIT, non la largeur.\n# Une premiere ligne d'alinea est renfoncee de \\VUalinea : sa\n# largeur vaut donc 94 % de la justification alors qu'elle est\n# parfaitement remplie. C'est ce qui faisait echouer les folios 18\n# et 19 — et la trace de TeX (\\tracingparagraphs) le disait :\n# « b=0 », badness nulle, la ligne est juste. Ce qui definit une\n# ligne pleine, c'est qu'elle atteint la marge de droite."
+ },
+ {
+  "id": 97,
+  "kind": "comment",
+  "text": "# ligne centree : sans objet"
+ },
+ {
+  "id": 98,
+  "kind": "comment",
+  "text": "# Un rang de tableau n'est pas justifie : \\VUrang le termine\n# par une fin de ligne, mais sa matiere s'arrete la ou le\n# fac-simile l'arrete. Le controle des fins ne s'y applique\n# pas plus que celui des debuts."
+ },
+ {
+  "id": 99,
+  "kind": "comment",
+  "text": "# Une derniere ligne d\\'alinea PEUT atteindre la marge sans\n# que rien ne soit force : il suffit que le texte la\n# remplisse. Ce n'est donc qu'une remarque, non une faute —\n# contrairement au cas inverse, ou une ligne que le releve\n# donne pleine se retrouve courte, qui est toujours un defaut."
+ },
+ {
+  "id": 100,
+  "kind": "docstring",
+  "text": "\"\"\"Position VERTICALE de chaque ligne composee, comparee au fac-simile.\n\n    Le compositeur justifie ses pages verticalement : mesure sur les\n    feuillets 20 a 39, la derniere ligne de base tombe a 145,3 mm sous le\n    folio a 0,3 mm pres, quel que soit le nombre de lignes. Une page dont\n    la matiere ne remplit pas la justification est CARDEE : des lames\n    uniformes entre toutes les lignes du corps, et des blancs plus larges\n    aux articulations. Sans ces reglages le texte reste juste ligne a\n    ligne, mais aucune ligne ne tombe en face de son modele : le\n    controle 2 est content et la juxtaposition ne l'est pas.\n\n    On compare les hauts de ligne, decalage constant retire (chaque scan\n    a son propre calage vertical, jusqu'a 10 mm). Le haut d'une ligne\n    depend de ses ascendantes : il bruite de +/- 8 px. La tolerance est\n    donc a 14 px ; ce qu'on cherche est la DERIVE cumulee, qui atteint\n    100 px et plus quand le cardage n'est pas reproduit.\n    \"\"\""
+ },
+ {
+  "id": 101,
+  "kind": "comment",
+  "text": "# Le folio ne porte que deux filets et deux chiffres : son haut\n# detecte depend du filet, pas d'une ascendante, et sort du bruit\n# ordinaire. Il est place par \\VUfolioY, mesure a part ; on ne le\n# fait pas peser sur la derive du bloc de texte."
+ },
+ {
+  "id": 102,
+  "kind": "comment",
+  "text": "# Le haut d'une ligne depend de ses ascendantes : il bruite de\n# +/- 8 px sans que rien ne bouge dans la composition. Pris sur\n# le MAXIMUM de 40 lignes, ce bruit franchit a lui seul la\n# tolerance. On le filtre par une mediane glissante de trois\n# lignes : un decalage de cardage dure des lignes entieres et y\n# survit, le bruit d'ascendante non."
+ }
+]
