@@ -21,7 +21,7 @@ main.tex             the volume: one \input per part
 preamble.tex         every setting and every macro, each justified by measurement
 content/*.tex        the transcription itself — the source of everything
 build.mk             make -f build.mk           -> gramatiko.pdf
-                     make -f build.mk controles -> the checks
+                     make -f build.mk checks    -> the checks
 index.html           the reading page      }  generated: see below
 gramatiko.md         the book laid flat    }
 chapitri/*.md        one file per chapter  }
@@ -37,7 +37,7 @@ docs/transcription-brief.md  how a leaf is surveyed
 make -f build.mk                 # gramatiko.pdf
 python3 tools/html.py            # index.html, from content/*.tex
 python3 tools/machine_readable.py # gramatiko.md and chapitri/*.md, from index.html
-make -f build.mk controles       # the twelve checks
+make -f build.mk checks          # the twelve checks
 ```
 
 `index.html`, `gramatiko.md` and `chapitri/*.md` are **generated, never edited
