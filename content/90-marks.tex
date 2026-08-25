@@ -1,17 +1,17 @@
 % ===================================================================
-%  LES SIGNETS DU PDF — la table des matieres logicielle.
-%  Ecrits avec la primitive \pdfoutline de pdfTeX, et NON avec hyperref :
-%  hyperref redefinit \parindent, \baselineskip et la mise en boite des
-%  flottants, et ce volume a sa pagination gelee au dixieme de
-%  millimetre. La primitive, elle, n'ecrit que dans le catalogue du PDF
-%  et ne touche a rien de la composition. Verifie : 236 pages avant,
-%  236 apres, aucune ligne deplacee.
-%  « goto page N » vise la page par son rang, sans ancre a poser dans le
-%  texte — donc sans le moindre objet ajoute a la page.
-%  « count -n » ouvre une entree fermee portant n enfants.
-%  Le texte des signets est reduit a l'ASCII : le catalogue PDF
-%  n'accepte que PDFDocEncoding ou l'UTF-16, et les titres du volume
-%  n'ont d'accents qu'aux chevrons, remplaces par des guillemets droits.
+%  THE PDF BOOKMARKS -- the software table of contents.
+%  Written with pdfTeX's \pdfoutline primitive, and NOT with hyperref:
+%  hyperref redefines \parindent, \baselineskip and the boxing of
+%  floats, and this volume has its pagination frozen to the tenth of a
+%  millimetre. The primitive writes only in the PDF's catalogue and
+%  touches nothing of the composition. Checked: 236 pages before, 236
+%  after, not one line moved.
+%  « goto page N » aims at the page by its rank, with no anchor to lay
+%  in the text -- and so with not one object added to the page.
+%  « count -n » opens a closed entry carrying n children.
+%  The text of the bookmarks is reduced to ASCII: the PDF catalogue
+%  accepts only PDFDocEncoding or UTF-16, and the volume's titles have
+%  accents only at the chevrons, replaced by straight quotation marks.
 % ===================================================================
 \pdfoutline goto page 1 {/Fit} count 0 {Kovrilo}
 \pdfoutline goto page 5 {/Fit} count 0 {Titulo}
