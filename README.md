@@ -47,7 +47,7 @@ in the journal.
 
 The LaTeX build needs `pdflatex` with XCharter and newtx. The tools need
 Python 3 with `numpy`, `Pillow` and `opencv-python`; the scan-facing ones also
-want `pdftotext` and `pdfinfo` (poppler). The 167 MB scan is not in the
+want `pdftotext`, `pdfinfo` and `pdftoppm` (poppler). The 167 MB scan is not in the
 repository — the transcription and the composed volume are.
 
 ## The checks

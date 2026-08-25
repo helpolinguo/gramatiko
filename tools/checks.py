@@ -380,9 +380,9 @@ def read_transcription():
 # Check 1 -- pagination and overflows
 # --------------------------------------------------------------------
 def check_1(pages, r):
-    log = os.path.join(P, 'main.log')
+    log = os.path.join(P, 'gramatiko.log')
     if not os.path.exists(log):
-        r.ko('main.log missing: the document has not been compiled')
+        r.ko('gramatiko.log missing: the document has not been compiled')
         return
     txt = open(log, encoding='utf-8', errors='replace').read()
     vbox = re.findall(r'Overfull \\vbox \(([\d.]+)pt too high\)', txt)
@@ -400,7 +400,7 @@ def check_1(pages, r):
                 fh.write('%3d. %s\n' % (i, h.strip()))
     else:
         r.ok('no « Overfull \\hbox »')
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if os.path.exists(pdf):
         out = subprocess.run(['pdfinfo', pdf], capture_output=True, text=True).stdout
         npages = int(re.search(r'Pages:\s+(\d+)', out).group(1))
@@ -471,7 +471,7 @@ def _norm(s):
 
 def lines_pdf():
     """Lines of the composed PDF, page by page, via pdftotext -layout."""
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
         return None
     out = subprocess.run(['pdftotext', '-layout', '-enc', 'UTF-8', pdf, '-'],
@@ -523,7 +523,7 @@ def lines_pdf():
 def check_2(pages, r):
     got = lines_pdf()
     if got is None:
-        r.ko('main.pdf missing')
+        r.ko('gramatiko.pdf missing')
         return
     gaps = 0
     for i, pg in enumerate(pages):
@@ -902,9 +902,9 @@ def check_6(pages, r):
 # Check 7 -- minimum effective margin
 # --------------------------------------------------------------------
 def check_7(pages, r):
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf missing')
+        r.ko('gramatiko.pdf missing')
         return
     out = subprocess.run(['pdftotext', '-bbox', pdf, '-'],
                          capture_output=True, text=True).stdout
@@ -950,9 +950,9 @@ def check_8(pages, r, first_one=1, how_many=None):
     import numpy as np
     import cv2
     import page as PG
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf missing')
+        r.ko('gramatiko.pdf missing')
         return
     dst = os.path.join(P, 'checks', 'juxta')
     os.makedirs(dst, exist_ok=True)
@@ -1049,9 +1049,9 @@ def check_9(pages, r, threshold=0.12):
     """
     import numpy as np
     import page as PG
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf missing')
+        r.ko('gramatiko.pdf missing')
         return
     dst = os.path.join(P, 'checks', 'encre')
     os.makedirs(dst, exist_ok=True)
@@ -1206,9 +1206,9 @@ def check_10(pages, r, tol_px=12):
     """
     import numpy as np
     import cv2
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf missing')
+        r.ko('gramatiko.pdf missing')
         return
     dst = os.path.join(P, 'checks', 'encre')
     os.makedirs(dst, exist_ok=True)
@@ -1410,9 +1410,9 @@ def check_11(pages, r, tol_px=14):
     reproduced.
     """
     import numpy as np
-    pdf = os.path.join(P, 'main.pdf')
+    pdf = os.path.join(P, 'gramatiko.pdf')
     if not os.path.exists(pdf):
-        r.ko('main.pdf missing')
+        r.ko('gramatiko.pdf missing')
         return
     comp = cache.compose(pdf, len(pages))
     worst = 0.0; worst_page = None; examined = 0
