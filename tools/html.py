@@ -444,6 +444,9 @@ def plain_text(h):
 FOLIO_HEAD = re.compile(r'<a class="fol"[^>]*>[^<]*</a>')
 # "3. ---", "93. --", "16. --": the number, its full stop, its dash.
 PARA_NUMBER = re.compile(r'\d+(?:\s*bis)?\.\s*[\u2014\u2013-]?\s*')
+# Same shape, but the dash is REQUIRED: this one decides whether a block
+# opens a numbered paragraph, and a bare « 1. » opens list items too.
+OPENS_NUMBERED = re.compile(r'\d{1,3}\.\s*[\u2014\u2013]\s')
 # THE NOTE CALL SET BEFORE THE HEAD. At folio 130 "equi-" and "ko-" carry
 # one -- an asterisk to which no note answers, the original's typo, which
 # we keep -- and it falls BEFORE the bold. The call is not the headword;
@@ -723,6 +726,7 @@ class Transcription(object):
         else:
             self.cur.append([self.leaf, self.folio, t])
 
+
     def close_para(self, flush=True):
         """Close the paragraph in hand, and REJOIN it to the previous one if
         the transcription says it is no more than its continuation.
@@ -749,7 +753,16 @@ class Transcription(object):
                 break
             if b.kind not in ('cen', 'orn', 'fer'):
                 break
-        if self.carry_on and prev is not None:
+        # A BLOCK THAT OPENS WITH A PARAGRAPH NUMBER CONTINUES NOTHING.
+        # \parplein reads the last line of a page as full, and infers that
+        # the paragraph runs on -- true almost always, and false at § 32,
+        # where the paragraph does end on a full line and a numbered one
+        # begins overleaf. The number is Beaufront's own mark for the start
+        # of a paragraph, so it settles the case the line width cannot.
+        # Measured: this splits ONE block in the whole book, and § 32 is the
+        # only number of the 138 that was unreachable without it.
+        if self.carry_on and prev is not None and not OPENS_NUMBERED.match(
+                plain_text(frags[0][2]).lstrip()):
             prev.frags = prev.frags + frags
             self.carry_on = False
             return

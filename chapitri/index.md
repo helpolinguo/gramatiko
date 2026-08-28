@@ -22,7 +22,7 @@ Singla chapitro esas apartra dosiero. La grandeso esas indikata por ke on povez 
 | 10 | [ADJEKTIVO QUALIFIKANTA](adjektivo-qualifikanta.md) | 20 | 7 Ko |
 | 11 | [GRADI KOMPARALA](gradi-komparala.md) | 4 | 2 Ko |
 | 12 | [PERSONAL PRONOMI](personal-pronomi.md) | 12 | 4 Ko |
-| 13 | [POSEDAL ADJEKTIVI E PRONOMI](posedal-adjektivi-e-pronomi.md) | 25 | 5 Ko |
+| 13 | [POSEDAL ADJEKTIVI E PRONOMI](posedal-adjektivi-e-pronomi.md) | 26 | 5 Ko |
 | 14 | [DEMONSTRATIV ADJEKTIVI-PRONOMI](demonstrativ-adjektivi-pronomi.md) | 14 | 4 Ko |
 | 15 | [RELATIVA E QUESTIONALA ADJEKTIVI-PRONOMI](relativa-e-questionala-adjektivi-pronomi.md) | 11 | 2 Ko |
 | 16 | [PRONOMO « LO »](pronomo-lo.md) | 9 | 2 Ko |

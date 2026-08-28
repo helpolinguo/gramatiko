@@ -42,8 +42,8 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 856 anchors, 1230 paragraphs, 410 notes
-    python3 tools/machine_readable.py # 49 chapters, 1689 blocks, 492,416 bytes
-    python3 tools/temi.py             # 9 topics over 1640 blocks, 171,612 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1690 blocks, 492,417 bytes
+    python3 tools/temi.py             # 9 topics over 1641 blocks, 171,328 bytes
     python3 tools/witnesses.py        # 56 witnesses, exits non-zero if one is lost
 
 `tools/witnesses.py` is the guard against a lost container and a bad
@@ -78,14 +78,24 @@ grammar composed here rather than quoted would be indistinguishable, to
 a reader, from Beaufront's own — which is the failure the whole of
 `temi/` exists to prevent.
 
-**THE BOOK NUMBERS LESS THAN HALF OF ITSELF.** 138 paragraphs carry a
+**THE BOOK NUMBERS LESS THAN HALF OF ITSELF.** 139 paragraphs carry a
 number; 723 blocks and 249,254 bytes carry none, and 27 of the 49
 chapters have no number anywhere. Anything keyed to the numbers alone
 drops more than half the corpus — `temi.py` did, in its first cut, and
 lost the passage where Beaufront argues against the accusative. Cite by
 number where there is one, by chapter and block rank where there is not.
-And three numbers do not behave: **§ 28 does not exist**, **§ 32 is not
-findable by number**, **§ 55 is used twice**.
+And two numbers do not behave: **§ 28 does not exist** and **§ 55 is
+used twice**.
+
+**§ 32 WAS THE THIRD, AND IT IS NOW FIXED — the count above was 138.**
+The transcription had it right all along, at the head of its own line in
+`content/10-part1.tex`; what lost it was `\parplein`, which marks the
+last line of a page as full and from that infers the paragraph runs on.
+It does, almost always. At § 32 it does not: the paragraph ends on a
+full line and a numbered one begins overleaf. `close_para()` now refuses
+to rejoin a block that OPENS WITH A PARAGRAPH NUMBER, that being
+Beaufront's own mark for the start of one. It splits exactly one block
+in the whole book, and gives § 32 an anchor on the reading page besides.
 
 **A PRODUCED FILE IS NOT A PLACE WHERE ONE WRITES.** `index.html`,
 `gramatiko.md`, `chapitri/*.md` and `temi/*.md` are regenerated — `temi/`
