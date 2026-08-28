@@ -83,14 +83,14 @@ Ca temi havas propra chapitro, e la chapitro esas lia adreso.
 
 ## Pri la numeri dil paragrafi
 
-La libro numerizas 138 paragrafi, de § 1 a § 140, ma **ol ne numerizas omno** : 723 bloki, 249,254 okteti, ne portas numero, e 27 chapitri havas nula numero. Pro to la citaji hike uzas la numero kande ol existas, e la chapitro kun la rango dil bloko kande ol ne existas.
+La libro numerizas 139 paragrafi, de § 1 a § 140, ma **ol ne numerizas omno** : 723 bloki, 249,254 okteti, ne portas numero, e 27 chapitri havas nula numero. Pro to la citaji hike uzas la numero kande ol existas, e la chapitro kun la rango dil bloko kande ol ne existas.
 
 Chapitri sen numero : AFIXI, Averto (1), CA, TA e QUA, DERIVADO PER AFIXI, ELEMENTI DI VORTO, FORMULI DI POLITESO EN LETRI, GENRO E MASKULISMO, GRADI KOMPARALA, KOMPOZADO, KOMPOZADO PER PREPOZICIONI, KONJUGO-SISTEMO DI IDO, KONSTATO, L'ACENTIZO EN IDO, LA KOMPOZAJI E LA SUFIXI, LA PLURALO EN IDO, NOMI. ADRESI, PREFIXI, PREFIXI TEKNIKALA, PREPOZICIONI PREFIXA, PROCEDI DI VORTIFADO, PUNTIZADO, REGULI DI DERIVADO *, REGULO DI ANALIZO O DESKOMPOZO, REMARKO PRI LA AFIXI, SUBSTANTIVIGO DIL ADJEKTIVO, SUFIXI, VORTORDINO.
 
-Tri kozi savenda ante citar per numero :
+
+2 kozi savenda ante citar per numero :
 
 - **§ 28 ne existas en la transskripturo.** La chapitro GRADI KOMPARALA, qua esas inter § 27 e § 29, ne portas numero.
-- **§ 32 esas en la texto ma ne trovebla hike.** Lua numero esas glutinita a la fino dil antea alineo, en POSEDAL ADJEKTIVI E PRONOMI, do ol ne komencas lineo.
 - **§ 55 aparas du foyi**, ambe en ADVERBI. Citar « § 55 » ne sufichas por indikar un de li.
 
 La cetera numeri de 1 a 140 esas unika e kompleta.

@@ -74,7 +74,7 @@ so a reader can see what was searched for and judge it.
 | infinitivo | 35 | | | |
 
 **MEASURED, AND IT CHANGED THE DESIGN: Beaufront numbered less than half of
-his own book.** 138 paragraphs carry a number, § 1 to § 140 — but 723 blocks,
+his own book.** 139 paragraphs carry a number, § 1 to § 140 — but 723 blocks,
 249 254 bytes, carry none, and 27 of the 49 chapters have no number anywhere,
 `sufixi.md` (88 kB) and `vortordino.md` among them. A first cut of `temi.py`
 keyed everything to the numbers and so dropped all of it — including the one
@@ -86,12 +86,21 @@ the book gives it one. A block inside § 126 is cited `§ 126`; a block in an
 unnumbered chapter is cited by chapter and rank. Every citation stays
 checkable against a printed copy and nothing is out of reach.
 
-Three facts about the numbering, recorded in `temi/index.md` because a model
+Two facts about the numbering, recorded in `temi/index.md` because a model
 citing a number needs them: **§ 28 does not exist** in the transcription —
 GRADI KOMPARALA, which sits between § 27 and § 29, carries no number at all;
-**§ 32 is in the text but not findable by number**, its number having been run
-onto the end of the preceding paragraph; and **§ 55 appears twice**, both times
-in ADVERBI, so citing "§ 55" does not identify one of them.
+and **§ 55 appears twice**, both times in ADVERBI, so citing "§ 55" does not
+identify one of them.
+
+**There was a third, and it is fixed: § 32.** The count above read 138 before
+it. `\parplein` marks a page's last line as full and infers from that that
+the paragraph runs on — true almost everywhere, false at § 32, where the
+paragraph ends on a full line and a numbered one begins overleaf. The
+transcription was never wrong: `content/10-part1.tex` has `32. ---` at the
+head of its own line, like § 31 and § 33. `close_para()` in `tools/html.py`
+now refuses to rejoin a block that OPENS WITH A PARAGRAPH NUMBER, that being
+Beaufront's own mark for the start of one. It splits exactly one block in the
+whole book, and gives § 32 an anchor on the reading page besides.
 
 ## The checks
 

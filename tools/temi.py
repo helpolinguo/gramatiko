@@ -195,7 +195,11 @@ def main() -> None:
           % (len(set(nums)), min(nums), max(nums), f'{len(unnumbered):,}',
              f'{bytes_un:,}', len(chapters_un)), '',
           'Chapitri sen numero : %s.' % ', '.join(chapters_un), '',
-          'Tri kozi savenda ante citar per numero :', '']
+          '', '']   # the count is filled in below, once the list is known
+    quirks = len(absent) + len(twice)
+    L[-1] = ('Un kozo savenda ante citar per numero :' if quirks == 1
+             else '%d kozi savenda ante citar per numero :' % quirks)
+    L.append('')
     if 28 in absent:
         L += ['- **§ 28 ne existas en la transskripturo.** La chapitro GRADI '
               'KOMPARALA, qua esas inter § 27 e § 29, ne portas numero.']

@@ -26,9 +26,9 @@ Ni adjuntez, ke nur ta finalo plurala posibligas l'akuzativo (*-n* inversigala) 
 
 La triesma persono havas *pronomo reflektiva* : **su** por la singularo e la pluralo. Nultempe ol esas subjekto, e sempre ol referas la subjekto dil propoziciono en qua ol trovesas, kande ta subjekto reprezentas la triesma persono. Ex. : **Il parolis pri su** (sama persono kam **il**, subjekto); **eli parolas** **pri su** (sama personi kam **eli**, subjekto dil propoziciono). Ma : **Il parolas pri ilu** (1) (altra persono kam **il**, subjekto); **li parolas pri li** (altra personi kam **li**, subjekto).
 
-## § 31 — [POSEDAL ADJEKTIVI E PRONOMI](../chapitri/posedal-adjektivi-e-pronomi.md)
+## § 32 — [POSEDAL ADJEKTIVI E PRONOMI](../chapitri/posedal-adjektivi-e-pronomi.md)
 
-Quale on vidas, ta vorti esas nulo altra kam la pronomi personala, a qui on adjuntas la dezinenco **a** dil adjektivi (2). 32. — **Sua**, quale la personal pronomo **su**, sempre referas la subjekto di la propoziciono en qua ol trovesas, kande ta subjekto reprezentas la triesma persono. Ex. : **Il** **promenas kun sua amiko** (la amiko di *il*, subjekto); **il pro****menas kun sua amiko e sua filii** (la amiko e la filii di *il*, subjekto); **il promenas kun sua amiko e lua filii** (la amiko di *il*, subjekto; ma la filii dil amiko, *ne* subjekto); **amar** **sua filii esas naturala** (sua propra filii, ne la filii di altra).
+32. — **Sua**, quale la personal pronomo **su**, sempre referas la subjekto di la propoziciono en qua ol trovesas, kande ta subjekto reprezentas la triesma persono. Ex. : **Il** **promenas kun sua amiko** (la amiko di *il*, subjekto); **il pro****menas kun sua amiko e sua filii** (la amiko e la filii di *il*, subjekto); **il promenas kun sua amiko e lua filii** (la amiko di *il*, subjekto; ma la filii dil amiko, *ne* subjekto); **amar** **sua filii esas naturala** (sua propra filii, ne la filii di altra).
 
 « On *darfas* uzar **sua** *nur* kande ol referas la subjekto di la propoziciono, en qua ol trovesas. On *devas* uzar lua o lia en la cetera kazi. Ed on *darfas* uzar li mem kande li referas la subjekto di la propoziciono, se nur to genitas nula dusenceso. Konseque, on esas *obligata* uzar **sua** nur en kazo di posibla dusenceso e por evitar olu. » (1).
 
