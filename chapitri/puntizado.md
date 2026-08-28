@@ -17,7 +17,7 @@ Transskribita de https://ido.help/gramatiko/
 
 2e por l'unesma vorto di singla frazo, e konseque, pos omna punto.
 
-3e pro politeso, en ula kazi, en tituli. Ex. : *Sioro Pro**fesoro. En la nomo dil Rejo.*
+3e pro politeso, en ula kazi, en tituli. Ex. : *Sioro Profesoro. En la nomo dil Rejo.*
 
 On atencez la skribo di kelka mayuskuli :
 
@@ -65,7 +65,7 @@ La *pinto* devas turnesar ad l'unika lineo, e la *branchi* (la konkaveso) ad la 
 
 *Question-punto* (?) uzesas pos frazo *direte* questionanta, ne pos subordinala propoziciono questionanta, Ex. : « Qua venas? », ma : « Me questionas, qua venas. »
 
-Pri ca du lasta signi, on propozis sequar l'exemplo di la Hispana, t. e. pozar li, renversita, ante la frazo klamanta o questionanta. La motivo esas : avertar la lektanto pri la karaktero di tala frazo, por ke lu konforme modifikez sua pronunco. Esas vera ke, pro manko di tala averto, on kelkafoye eroras pri la karaktero di la frazo e pronuncas ol male, o mem devas repetar ol kun la justa pronunco. Ta propozo esas do konsiderinda; la unika kontrea argumento esas, ke l'altra uzado esas plu internaciona. Se on adoptus ol, la signi ! e ? divenus *duopla* ed inkluzanta, same kam la parentezi e cito-hoketi. Ed on vidas ke, pro la sama motivo di klareso, li devas prizentar du formi inversa, quale la *ques**tion-punti* en la Hispana.
+Pri ca du lasta signi, on propozis sequar l'exemplo di la Hispana, t. e. pozar li, renversita, ante la frazo klamanta o questionanta. La motivo esas : avertar la lektanto pri la karaktero di tala frazo, por ke lu konforme modifikez sua pronunco. Esas vera ke, pro manko di tala averto, on kelkafoye eroras pri la karaktero di la frazo e pronuncas ol male, o mem devas repetar ol kun la justa pronunco. Ta propozo esas do konsiderinda; la unika kontrea argumento esas, ke l'altra uzado esas plu internaciona. Se on adoptus ol, la signi ! e ? divenus *duopla* ed inkluzanta, same kam la parentezi e cito-hoketi. Ed on vidas ke, pro la sama motivo di klareso, li devas prizentar du formi inversa, quale la *question-punti* en la Hispana.
 
 *Apostrofo* (') uzesas por indikar eliziono (V. § 6).
 

@@ -4,7 +4,7 @@
 
 La bloki dil *Kompleta Gramatiko Detaloza* (L. de Beaufront, 1925) qui traktas ica temo, quale li esas imprimita. La texto esas dil libro; la selekto dil termini serchata esas laboro dil sito.
 
-Termini serchata : `kondicional` — 20 bloki.
+Termini serchata : `kondicional` — 21 bloki.
 
 Transskribita de https://ido.help/gramatiko/
 
@@ -24,7 +24,7 @@ Ma on objecionas, ke li esas prezenta en la lingui supere mencionita. Me agnoska
 
 ## § 131 — [TEMPI E MODI](../chapitri/tempi-e-modi.md)
 
-131. — Pri la *tempi* e *modi* esas nur un regulo generala di selekto : on uzas en propoziciono subordinita (nedireta diskurso) la sama tempo e modo quan on uzus en chefa propoziciono (diskurso direta). Ex. : **il dicis ke il skribas** (4) (il dicis : *me skribas*); **il dicis ke il skribis hiere a vua** **matro** (il dicis : *me skribis*, e. c.); **il dicis ke il ja esis skri****binta** o : **skribabis dufoye ante recevar respondo** (il dicis : *me ja esis skribinta o skribabis*, e. c.; **dicez ad ilu ke il** **venez** (dicez ad ilu : *venez*); **me pensis ke il esas hike** (1) (*il esas hike, me pensis*); **me pensis ke il esos hike** (2) (*il* *esos hike, me pensis*); **me esperas, ke il venos** (*il venos, me* *esperas*); **me timas, ke il venos** (3) (*il venos, me lo timas*); **me timas, ke il ne venos** (4) (*il ne venos, me lo timas*); **me** **dubas, kad il venos** (5) (*kad il venos, me dubas pri lo*); **me kredis ke il venos** (6) (*il venos, me kredis lo*); **me kre****das ke il venus, se il ne impedesus** (hike la ideo esas vere kondicionala, e ne futura); **il dicis, ke se il savabus** (o : **esus savinta), il venabus** (o : **esus veninta**) **plu frue** (*se* *me savabus, il dicis, me venabus plu frue*); **konvenas** (decas), **ke vu facez ito** (*facez ito, lo konvenas*).
+131. — Pri la *tempi* e *modi* esas nur un regulo generala di selekto : on uzas en propoziciono subordinita (nedireta diskurso) la sama tempo e modo quan on uzus en chefa propoziciono (diskurso direta). Ex. : **il dicis ke il skribas** (4) (il dicis : *me skribas*); **il dicis ke il skribis hiere a vua** **matro** (il dicis : *me skribis*, e. c.); **il dicis ke il ja esis skribinta** o : **skribabis dufoye ante recevar respondo** (il dicis : *me ja esis skribinta o skribabis*, e. c.; **dicez ad ilu ke il** **venez** (dicez ad ilu : *venez*); **me pensis ke il esas hike** (1) (*il esas hike, me pensis*); **me pensis ke il esos hike** (2) (*il* *esos hike, me pensis*); **me esperas, ke il venos** (*il venos, me* *esperas*); **me timas, ke il venos** (3) (*il venos, me lo timas*); **me timas, ke il ne venos** (4) (*il ne venos, me lo timas*); **me** **dubas, kad il venos** (5) (*kad il venos, me dubas pri lo*); **me kredis ke il venos** (6) (*il venos, me kredis lo*); **me kredas ke il venus, se il ne impedesus** (hike la ideo esas vere kondicionala, e ne futura); **il dicis, ke se il savabus** (o : **esus savinta), il venabus** (o : **esus veninta**) **plu frue** (*se* *me savabus, il dicis, me venabus plu frue*); **konvenas** (decas), **ke vu facez ito** (*facez ito, lo konvenas*).
 
 Ta regulo suficas por determinar la kazi en qui on devas uzar l'imperativo o la kondicionalo en la propozicioni subordinita.
 
@@ -46,13 +46,15 @@ Tale ordinante la vorti dil exemplo : **se vu skribus ipsa,** **ke vu aceptas 
 
 ## § 134 — [TEMPI E MODI](../chapitri/tempi-e-modi.md)
 
-134. — Analoge Ido ne imitas la lingui qui uzas altra modo kam la kondicionalo pro la konjunciono *se* (2). Ido sempre uzos la kondicionalo : **li esus kontenta, se vu kon****sentus; li esabus kontenta, se vu konsentabus.** Ma, kompreneble, se irga linguo, la Franca exemple, kontrelogike uzas la kondicionalo vice l'indikativo futura, Ido uzas l'indikativo. Ex. : Il espérait qu'*il trouverait*, **il esperis, ke** *il* *trovos* (*me trovos*, il dicis a su espere). Elle nous a écrit qu'*elle scrait ici demain*, **el skribis a ni ke** *el esos* **hike,** **morge** (*morge me esos hike*, el skribis a ni).
+134. — Analoge Ido ne imitas la lingui qui uzas altra modo kam la kondicionalo pro la konjunciono *se* (2). Ido sempre uzos la kondicionalo : **li esus kontenta, se vu konsentus; li esabus kontenta, se vu konsentabus.** Ma, kompreneble, se irga linguo, la Franca exemple, kontrelogike uzas la kondicionalo vice l'indikativo futura, Ido uzas l'indikativo. Ex. : Il espérait qu'*il trouverait*, **il esperis, ke** *il* *trovos* (*me trovos*, il dicis a su espere). Elle nous a écrit qu'*elle scrait ici demain*, **el skribis a ni ke** *el esos* **hike,** **morge** (*morge me esos hike*, el skribis a ni).
 
 ## § 135 — [TEMPI E MODI](../chapitri/tempi-e-modi.md)
 
 135. — Same kam Ido abandonas nek l'*indikativo*, nek la *kondicionalo* por imitar uzi kontrelogika di ula lingui, tale ol restas sempre fidela a sua *volitivo*, kande la fakto o stando dependas de volo, deziro, impero, interdikto, prego, demando, postulo, bezono, neceso, konveno, deco, merito.
 
 Rezume on darfus dicar : la *volitivo* (modo dil skopo vizata o persequata), havas kom propra domeno to omna, quo ne apartenas al du altra modi personala : l'*indikativo* e la *kondicionalo*.
+
+> (1) Justifikar tal exempli per alegar plu o min multa vorti tacita, to esas pruvar ne direte lo jus dicita. Kad on bezonas alegar frazo-parto tacita por justifikar la uzo di la cetera modi? E kad esas certa, ke la lektanto od audanto divinos ta vorti tacita, e konseque trovos la justa senco inter pluri posibla? Ka ne esas plu sekura agar pri la *volitivo* quale pri l'*indikativo* e la *kondicionalo* : ne lasar ulo divinenda ?
 
 ## § 41 — [VERBO](../chapitri/verbo.md)
 

@@ -26,6 +26,7 @@ index.html           the reading page      }  generated: see below
 gramatiko.md         the book laid flat    }
 chapitri/*.md        one file per chapter  }
 temi/*.md            one file per topic    }
+afixi/*.md           one file per affix    }
 ornaments/           the three cut plates: portrait, vignette, fleuron
 tools/               the measuring, generating and checking tools
 docs/journal.md      why every value is what it is
@@ -39,10 +40,12 @@ make -f build.mk                 # gramatiko.pdf
 python3 tools/html.py            # index.html, from content/*.tex
 python3 tools/machine_readable.py # gramatiko.md and chapitri/*.md, from index.html
 python3 tools/temi.py            # temi/*.md, from chapitri/*.md
+python3 tools/afixi.py           # afixi/*.md, from chapitri/*.md
 make -f build.mk checks          # the twelve checks
 ```
 
-`index.html`, `gramatiko.md`, `chapitri/*.md` and `temi/*.md` are
+`index.html`, `gramatiko.md`, `chapitri/*.md`, `temi/*.md` and
+`afixi/*.md` are
 **generated, never edited by hand**: anything that must change is changed in `content/` or in `tools/`.
 The build file is named `build.mk` rather than `Makefile` for a reason recorded
 in the journal.
@@ -101,6 +104,58 @@ head of its own line, like § 31 and § 33. `close_para()` in `tools/html.py`
 now refuses to rejoin a block that OPENS WITH A PARAGRAPH NUMBER, that being
 Beaufront's own mark for the start of one. It splits exactly one block in the
 whole book, and gives § 32 an anchor on the reading page besides.
+
+## One file per affix
+
+Ido builds its vocabulary by derivation, and the Dicionario holds only the
+**roots**: `kovrilo`, `skribilo`, `dometo`, `hundino` are none of them
+headwords, and 9,473 articles will not yield one of them. What yields them
+is the affix — and the affix lived in `SUFIXI`, 89 kB of continuous prose.
+So the cheapest question the site can be asked, *what does `-il-` do*, cost
+90 kB, and the reader still had to find the right paragraph inside it.
+
+`afixi/` gives each of the **65 affixes** its own address — 43 suffixes, 19
+prefixes, 3 technical prefixes — holding the book's own paragraphs on it,
+from the head that opens it to the head that opens the next. 2 kB on
+average. **No rule of grammar is composed there**: this is the discipline of
+`temi/`, applied to a division the book itself makes.
+
+It needs no search terms, and `temi/` does. `temi/` collects topics that
+*cross* the chapters and must search for them, which is an editorial act it
+prints in every file. An affix crosses nothing: Beaufront opens its
+discussion with the affix in bold, a stop and a dash, and closes it by
+opening the next.
+
+**THE HEAD IS NOT ALWAYS SET THE SAME WAY, AND THAT COST FIVE AFFIXES.**
+The stop falls inside the bold in most of the book — `**-ach-.** —` — and
+**outside it** in five places: `**-ar-**. —`, and the same for `-atr-`,
+`-e-`, `-ebl-` and `-ind-`. A pattern admitting only the first form reports
+55 affixes and looks right, and two of the five it silently drops are
+**`-ebl-` and `-ind-`** — which are among the most used suffixes in the
+language. The technical prefixes carry a third asterisk besides —
+`***equi-.**` against `**mono-.**` — and admitting only two loses `equi-`
+and `ko-`, two thirds of that chapter.
+
+The dash is what keeps the pattern honest. Paragraphs open with a bold word
+often enough — `**Parolo** esas frazo`, `**Posiblo** = ...` — and none of
+them carries the dash that follows an affix.
+
+**The index line is mechanical.** Form, the chapter it stands in, the first
+example **the book prints**, and the weight. `Ex. :` is Beaufront's own
+mark, and what follows it is the example in whatever emphasis he set it —
+bold under `-il-` (`pektilo`), italic under `bi` (`biciklo`), and none at
+all under `-iz-` (`Ex. : armizar`). Where he writes no `Ex. :`, the bold
+runs are taken, and the italic after them.
+
+A candidate must carry the affix's letters **where the affix goes**: a
+suffix sits immediately before the grammatical ending, which is the book's
+own rule of derivation. Without that test `Franca` answered for `-an-` —
+the letters are in it, in the middle, and the word is not a derivation at
+all. `auto` is the one affix left without an example, and honestly so: its
+examples stand in the chapter's opening footnote, not in its own section.
+
+`sen-` gets no file, because the book gives it no head: it is discussed
+under `ne-`, and that is where it stays.
 
 ## The checks
 

@@ -24,7 +24,7 @@ Pri lia komplemento l'adverbi kondutas quale la vorti de qui li derivas : **ko
 
 ## § 7 — [ARTIKLO](../chapitri/artiklo.md)
 
-2e Kande ol indikas un o plura individui *determinita* di la speco : **la libri dil profesoro** (la komplemento : *dil pro**fesoro* determinas *libri*); **querez la mediko** (la mediko kustumata, o qua ja venis; *mediko* signifikus : *ula* od *irga* *mediko*).
+2e Kande ol indikas un o plura individui *determinita* di la speco : **la libri dil profesoro** (la komplemento : *dil profesoro* determinas *libri*); **querez la mediko** (la mediko kustumata, o qua ja venis; *mediko* signifikus : *ula* od *irga* *mediko*).
 
 ## [KOMPOZADO PER PREPOZICIONI](../chapitri/kompozado-per-prepozicioni.md) — bloko 6 (sen numero en la libro)
 
@@ -86,7 +86,7 @@ Esus neutila uzar **po** (od irg altra prepoziciono) avan komplemento direta :
 
 Existas adverbi derivita qui pleas la rolo di prepozicioni e konseque havas komplemento, quale la vera ed originala prepozicioni. Pri ta komplemento on agas quale pri la komplemento dil vorto fonta : **Koncerne, relate, ecepte** *ulu* od *ulo*, pro ke on dicas **koncernar, relatar, eceptar** *ulu* od *olu* (2).
 
-**Simile ad, konforme ad**, pro ke on dicas : *simila ad, kon**forma ad*. Do juste la prepoziciono preiranta la komplemento dil vorto fonta. Same pri : **diverse de** (o *kam*), **aparte de,** **dextre di, sinistre di, funde di, okazione di**, pro ke on dicas : *diversa de* (o *kam*), *aparta de, la dextro di, la sinistro di, la* *fundo di, l'okaziono di*, e. c.
+**Simile ad, konforme ad**, pro ke on dicas : *simila ad, konforma ad*. Do juste la prepoziciono preiranta la komplemento dil vorto fonta. Same pri : **diverse de** (o *kam*), **aparte de,** **dextre di, sinistre di, funde di, okazione di**, pro ke on dicas : *diversa de* (o *kam*), *aparta de, la dextro di, la sinistro di, la* *fundo di, l'okaziono di*, e. c.
 
 ## § 103 — [PREPOZICIONI](../chapitri/prepozicioni.md)
 
@@ -96,7 +96,7 @@ To esas tre importanta por evitar l'obskuraji ed ambiguaji, quin produktas en la
 
 ## [REGULI DI DERIVADO *](../chapitri/reguli-di-derivado.md) — bloko 13 (sen numero en la libro)
 
-Kontree, on ne darfas uzar adjektivo nemediate derivita vice genetivo (kazo dil komplemento posedala, t. e. vice la prepoziciono **di**) : se **gardena urbo** ya signifikas *gardeno**urbo*, **gardena pordo** ne povas signifikar *pordo di gardeno* (ma on darfas dicar : **gardenpordo** o **pordo gardenala** (3).
+Kontree, on ne darfas uzar adjektivo nemediate derivita vice genetivo (kazo dil komplemento posedala, t. e. vice la prepoziciono **di**) : se **gardena urbo** ya signifikas *gardenourbo*, **gardena pordo** ne povas signifikar *pordo di gardeno* (ma on darfas dicar : **gardenpordo** o **pordo gardenala** (3).
 
 ## § 35 — [RELATIVA E QUESTIONALA ADJEKTIVI-PRONOMI](../chapitri/relativa-e-questionala-adjektivi-pronomi.md)
 
@@ -108,11 +108,11 @@ Same **quo** recevas la **n** inversigala se, esante komplemento direta, ol prei
 
 ## § 126 — [SINTAXO](../chapitri/sintaxo.md)
 
-126. — La *normal ordino* dil vorti en propoziciono esas ica : 1e subjekto, 2e verbo, 3e komplemento direta; singla de ta termini esante akompanata (segun la reguli donata supere) da lia omna komplementi. La komplementi nedireta darfas pozesar irgaloke, ma dop la verbo prefere : **me** **rakontis bela historio a vua infantino**, o : **me rakontis a vua** **infantino bela historio.** En ica lasta frazo, **bela** ne povas relatar **infantino**, nam on dicabus takaze : **a vua bela in****fantino**, ed on devabus pozar **historio** avane.
+126. — La *normal ordino* dil vorti en propoziciono esas ica : 1e subjekto, 2e verbo, 3e komplemento direta; singla de ta termini esante akompanata (segun la reguli donata supere) da lia omna komplementi. La komplementi nedireta darfas pozesar irgaloke, ma dop la verbo prefere : **me** **rakontis bela historio a vua infantino**, o : **me rakontis a vua** **infantino bela historio.** En ica lasta frazo, **bela** ne povas relatar **infantino**, nam on dicabus takaze : **a vua bela infantino**, ed on devabus pozar **historio** avane.
 
-Omna violaco dil normal ordino (*subjekto, verbo, kom**plemento direta*) esas nomizat inversigo, sive kande la komplemento direta preiras la verbo, sive kande la subjekto sequas lu. Exemple, se vice : **la vintro venos balde**, me dicas : **balde venos la vintro**, me inversigas la subjekto, nam ol sequas la verbo vice preirar olu.
+Omna violaco dil normal ordino (*subjekto, verbo, komplemento direta*) esas nomizat inversigo, sive kande la komplemento direta preiras la verbo, sive kande la subjekto sequas lu. Exemple, se vice : **la vintro venos balde**, me dicas : **balde venos la vintro**, me inversigas la subjekto, nam ol sequas la verbo vice preirar olu.
 
-L'inversigi povas esar impozata dal bezono saliigar termino, pozante lu avane (ico remplasas l'expresuro *c'est...* *qui* o *que* di la Franca), o (en la traduki) dal deziro sequar l'ordino dil texto originala. Se la frazo kontenas, quale supere, nur subjekto e verbo, l'inversigo dil unesma ne povas genitar ula miskompreno. Ma, se la frazo kontenas subjekto e komplemento direta od atributo, naskas miskompreno, en ula kazi, kande on inversigas lia normal ordino. Lore, por evitar ta grava desavantajo, on distingas la *kom**plemento direta* o la *atributo* per la final litero **n** (1).
+L'inversigi povas esar impozata dal bezono saliigar termino, pozante lu avane (ico remplasas l'expresuro *c'est...* *qui* o *que* di la Franca), o (en la traduki) dal deziro sequar l'ordino dil texto originala. Se la frazo kontenas, quale supere, nur subjekto e verbo, l'inversigo dil unesma ne povas genitar ula miskompreno. Ma, se la frazo kontenas subjekto e komplemento direta od atributo, naskas miskompreno, en ula kazi, kande on inversigas lia normal ordino. Lore, por evitar ta grava desavantajo, on distingas la *komplemento direta* o la *atributo* per la final litero **n** (1).
 
 Exempli pri l'inversigo dil komplemento direta :
 
@@ -140,7 +140,7 @@ La rolo di la **n** inversigala esas nur avertar pri ul inversigo e *quik* imped
 
 ## § 130 — [SINTAXO](../chapitri/sintaxo.md)
 
-130. — La **-n** posibligas granda flexebleso e granda libereso; ma on devas ne trouzar l'inversigi (quale ni ja dicis) tante plu, ke mem la **n** inversigala ne posibligas evitar sempre omna ambigueso. Ex. : **me vidis ilun ocidan****tan viron** o **me vidis ilun ocidar viron** ne esas plu klara kam : **me vidis il(u) ocidanta** (o **ocidar**) **viro; la fervoyi** **formacas reton kovrantan la mondon** ne esas plu klara kam... **reto kovranta la mondo;** en la du kazi, nur l'ordino di la vorti povas distingar la subjekto de la komplemento. Same nur l'ordino (kun la komuna raciono) distingas li en frazi simila ad ici : **me igas imprimisto(n) imprimar** **libro(n).**
+130. — La **-n** posibligas granda flexebleso e granda libereso; ma on devas ne trouzar l'inversigi (quale ni ja dicis) tante plu, ke mem la **n** inversigala ne posibligas evitar sempre omna ambigueso. Ex. : **me vidis ilun ocidantan viron** o **me vidis ilun ocidar viron** ne esas plu klara kam : **me vidis il(u) ocidanta** (o **ocidar**) **viro; la fervoyi** **formacas reton kovrantan la mondon** ne esas plu klara kam... **reto kovranta la mondo;** en la du kazi, nur l'ordino di la vorti povas distingar la subjekto de la komplemento. Same nur l'ordino (kun la komuna raciono) distingas li en frazi simila ad ici : **me igas imprimisto(n) imprimar** **libro(n).**
 
 ## [SUFIXI](../chapitri/sufixi.md) — bloko 68 (sen numero en la libro)
 
@@ -156,15 +156,15 @@ Se la verbal radiko esas netransitiva (*venar*) la sufixo **-ig-** havas la senc
 
 ## [SUFIXI](../chapitri/sufixi.md) — bloko 159 (sen numero en la libro)
 
-Kontraste, **igar** = *igar ...ata*, se la verbal radiko esas transitiva (*vidar, scndar*). Lore, la verbo derivita per **igar** havas kom objekto (komplemento direta) la objekto dil verbo primitiva : **me sendigos a vu ta libro da Petrus** = *me igos* *ta libro sendata* (sendesar) *a vu da Petrus*; **me vidigis mea do****mo da Icannes** = *me igis vidata* (videsar) *mea domo da I.*; **me** **instruktigas mea filii da la skolestro** = *me igas instruktata* (instruktesar) *mea filii da la skolestro*; **me imprimigas nova** **libro da mea imprimisto** = *me igas imprimata* (imprimesar), e. c.
+Kontraste, **igar** = *igar ...ata*, se la verbal radiko esas transitiva (*vidar, scndar*). Lore, la verbo derivita per **igar** havas kom objekto (komplemento direta) la objekto dil verbo primitiva : **me sendigos a vu ta libro da Petrus** = *me igos* *ta libro sendata* (sendesar) *a vu da Petrus*; **me vidigis mea domo da Icannes** = *me igis vidata* (videsar) *mea domo da I.*; **me** **instruktigas mea filii da la skolestro** = *me igas instruktata* (instruktesar) *mea filii da la skolestro*; **me imprimigas nova** **libro da mea imprimisto** = *me igas imprimata* (imprimesar), e. c.
 
 ## § 137 — [TEMPI E MODI](../chapitri/tempi-e-modi.md)
 
-137. — Kande participo esas komplemento cirkonstancala, ol darfas recevar o l'adjektival formo, o la formo adverbala, segun ke ol esas plu juste epiteto, od indikas plu reale la maniero (*marchante* = dum mea, tua, vua, e. c., marcho). Ma ol darfas recevar la formo adverbala, nur se ol relatas la subjekto di la propoziciono : **il venis ne invi****tita,** o : **ne invitite; il venis ne expektita,** o : **ne expektite;** **vidanta** o **vidante sua amiko, il haltis; lektinta** o **lektinte** **la libro, il dormeskis.** En ta exempli on darfis uzar la formo adjektivala tam juste kam l'adverbala, pro ke la koncernato « **il** » esas subjekto.
+137. — Kande participo esas komplemento cirkonstancala, ol darfas recevar o l'adjektival formo, o la formo adverbala, segun ke ol esas plu juste epiteto, od indikas plu reale la maniero (*marchante* = dum mea, tua, vua, e. c., marcho). Ma ol darfas recevar la formo adverbala, nur se ol relatas la subjekto di la propoziciono : **il venis ne invitita,** o : **ne invitite; il venis ne expektita,** o : **ne expektite;** **vidanta** o **vidante sua amiko, il haltis; lektinta** o **lektinte** **la libro, il dormeskis.** En ta exempli on darfis uzar la formo adjektivala tam juste kam l'adverbala, pro ke la koncernato « **il** » esas subjekto.
 
 ## § 138 — [TEMPI E MODI](../chapitri/tempi-e-modi.md)
 
-138. — La *participi substantiva* ne darfas recevar direta komplemento. Exemple, ica frazo : « *la atakanti la reli**gio...* » ne esas bona logike e gramatikale. Nam, se la participo adjektiva (*atakanta*) e la participo adverba (*ata**kante*) restas duime verba e, pro to, darfas recevar direta komplemento, la participo substantiva (*atakanto*) perdas reale sua karaktero e valoro verbala; ol divenas vera substantivo e kom tala ne darfas havar direta komplemento, ma nur komplemento nedireta per prepoziciono, quale omna substantivi. Konseque on devas dicar : « La atakanti *di* la religio », same kam on dicus : « La defensanti *di* la religio » e : « la predikanti (o predikeri) *di* la religio », « la protektanti (o protekteri) *dil* febli ». Diveninte substantivo, la participo ne plus sequas la regulo dil verbi, ma la regulo dil substantivi.
+138. — La *participi substantiva* ne darfas recevar direta komplemento. Exemple, ica frazo : « *la atakanti la religio...* » ne esas bona logike e gramatikale. Nam, se la participo adjektiva (*atakanta*) e la participo adverba (*atakante*) restas duime verba e, pro to, darfas recevar direta komplemento, la participo substantiva (*atakanto*) perdas reale sua karaktero e valoro verbala; ol divenas vera substantivo e kom tala ne darfas havar direta komplemento, ma nur komplemento nedireta per prepoziciono, quale omna substantivi. Konseque on devas dicar : « La atakanti *di* la religio », same kam on dicus : « La defensanti *di* la religio » e : « la predikanti (o predikeri) *di* la religio », « la protektanti (o protekteri) *dil* febli ». Diveninte substantivo, la participo ne plus sequas la regulo dil verbi, ma la regulo dil substantivi.
 
 Se on admisus la sintaxo : *la atakanti la religio*, on devus aceptar ol, pro analogeso, por omna substantivi derivita de verbo : on darfus do dicar « la atakemi la religio »; « la laboristi la ligno », « la fumeri sigari », « la drinkeri liquori », e. c. On vidas, ke tala sintaxo (Slavatra) esus adminime stranjera, e (precipue) ne klara, pro ke ol apudpozus la vorti *sen indikar lia relato*. Or logike la relato inter substantivo e lua komplemento devas esar expresata da prepoziciono, e « la atakanto la religio » o « la amanto Deo » ne esas plu permisata kam « la atako la religio » o « la amo Deo », vice la atako *di* la religio » o « la amo *di* Deo », o « la amo *a* Deo » (1).
 
@@ -174,7 +174,7 @@ La transitivi (qui povas havar « objekto » o komplemento direta) posedas d
 
 ## § 45 — [VERBO](../chapitri/verbo.md)
 
-Konseque, esas *netransitiva* en Ido nur la verbi qui logike, nature, quale **naskar** e **mortar** ne povas havar « objekto » (komplemento direta). **Restar, sejornar, repozar, kreskar,** **dekadar, degenerar, falar, irar, marchar, venar, arivar, de****partar**, exemple, ne esas transitiva, ma tre certe *netransitiva.* En ica lasta verbi, la subjekto facas la ago totsame kam en verbo transitiva : en **venar, arivar, kreskar** la subjekto agas, quale en la transitivi **frapar, donar, lektar**; ma en li, netransitiva, nul « objekto » povas existar, nul « objekto » povas recevar la ago dil subjekto; ol restas en lu : on ne dicas *venar ulu, arivar ulu, kreskar ulu*, quale on dicas : **frapar** **ulu, donar ulo, lektar ulo.** Konseque la *netransitivi* nultempe darfas havar participo pasiva. Do nultempe dicez : *venata,* *venita* o *venota; arivata, arivita, arivota; kreskata, kreskita* o *kreskota*, ma nur, segun la kazo : *venanta, veninta, venonta;* *arivanta, arivinta, arivonta; kreskanta, kreskinta, kreskonta.* E tale pri omna verbo netransitiva. Cetere, merkez e memorez bone, ke *nul formo pasiva darfas donesar en Ido a verbo* *netransitiva.*
+Konseque, esas *netransitiva* en Ido nur la verbi qui logike, nature, quale **naskar** e **mortar** ne povas havar « objekto » (komplemento direta). **Restar, sejornar, repozar, kreskar,** **dekadar, degenerar, falar, irar, marchar, venar, arivar, departar**, exemple, ne esas transitiva, ma tre certe *netransitiva.* En ica lasta verbi, la subjekto facas la ago totsame kam en verbo transitiva : en **venar, arivar, kreskar** la subjekto agas, quale en la transitivi **frapar, donar, lektar**; ma en li, netransitiva, nul « objekto » povas existar, nul « objekto » povas recevar la ago dil subjekto; ol restas en lu : on ne dicas *venar ulu, arivar ulu, kreskar ulu*, quale on dicas : **frapar** **ulu, donar ulo, lektar ulo.** Konseque la *netransitivi* nultempe darfas havar participo pasiva. Do nultempe dicez : *venata,* *venita* o *venota; arivata, arivita, arivota; kreskata, kreskita* o *kreskota*, ma nur, segun la kazo : *venanta, veninta, venonta;* *arivanta, arivinta, arivonta; kreskanta, kreskinta, kreskonta.* E tale pri omna verbo netransitiva. Cetere, merkez e memorez bone, ke *nul formo pasiva darfas donesar en Ido a verbo* *netransitiva.*
 
 ## § 48 — [VERBO](../chapitri/verbo.md)
 
@@ -182,7 +182,7 @@ Kande la verbo esas *netransitiva* e lua komplemento bezonas prepoziciono, on po
 
 ## [VORTORDINO](../chapitri/vortordino.md) — bloko 1 (sen numero en la libro)
 
-Quale ni ja vidis en la sintaxo, la *normala vortordino* esas : 1e subjekto, 2e verbo, 3e komplemento direta, singla ek oli esante akompanata da sua omna komplementi. La komplementi nedireta povas esar lokizata irgaplase, ma li prefere sequas la verbo. Ex. : **La filiulo di nia olda vicini** **retrovenis de Paris, ube il kompris multa ludili por sua in****fantino.**
+Quale ni ja vidis en la sintaxo, la *normala vortordino* esas : 1e subjekto, 2e verbo, 3e komplemento direta, singla ek oli esante akompanata da sua omna komplementi. La komplementi nedireta povas esar lokizata irgaplase, ma li prefere sequas la verbo. Ex. : **La filiulo di nia olda vicini** **retrovenis de Paris, ube il kompris multa ludili por sua infantino.**
 
 ## [VORTORDINO](../chapitri/vortordino.md) — bloko 2 (sen numero en la libro)
 

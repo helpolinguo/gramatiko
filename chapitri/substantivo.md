@@ -33,7 +33,7 @@ Exemple : **infanto, kato, finko** (sexuo nedeterminita);
 
 **patro** (un del du genitanti) (1);
 
-> (1) Darfas uzesar metafore : l'ociereso esas la patro di omna vicii. **Vere me ne povus dicar kad il od el esis plu vere mea patro spiri****tala pri la helpolinguo.**
+> (1) Darfas uzesar metafore : l'ociereso esas la patro di omna vicii. **Vere me ne povus dicar kad il od el esis plu vere mea patro spiritala pri la helpolinguo.**
 
 **patrulo** (la genitanto o patro maskula);
 
@@ -41,7 +41,7 @@ Exemple : **infanto, kato, finko** (sexuo nedeterminita);
 
 **la patri** (la genitanti qui esas o maskula o femina). Ex. : **On opinionas sempre plu generale, ke la patri dil Amerikani** **aborigena esis Aziani.**
 
-13. — Kande la sexuo ja esas indikita da vorto o sufixo, esas tote neutila indikar lu itere : **Andreas, mea kuzo, volas** **esar advokato** (nek **kuzulo**, nek **advokatulo**). — **Mea fra****tino esas sekretario** (ne : **sekretariino**), **e mea fratulo esas** **profesoro** (ne : **profesorulo**). — **El esas helpanto di medi****kino** (ne : **helpantino**).
+13. — Kande la sexuo ja esas indikita da vorto o sufixo, esas tote neutila indikar lu itere : **Andreas, mea kuzo, volas** **esar advokato** (nek **kuzulo**, nek **advokatulo**). — **Mea fratino esas sekretario** (ne : **sekretariino**), **e mea fratulo esas** **profesoro** (ne : **profesorulo**). — **El esas helpanto di medikino** (ne : **helpantino**).
 
 14. — Kompreneble on ne adjuntas **-in** a radiko dicanta per su la sexuo feminala : **muliero, amazono, subreto**, e. c.
 
@@ -53,7 +53,7 @@ Fine on uzas nek **-ul**, nek **-in**, kande nulo postulas, ke on konocigez la s
 
 > (2) Pri **-o**, **-a** e. c. kom sexual karakterizivi on trovos kompleta studiuro en la triesma apendico.
 
-15. — Kom honor-titulo (parolante a persono altaranga, o pri olu), on uzas la vorto **sinioro** (e **siniorulo, siniorino**, se to esas necesa por evitar konfundo). On adjuntas, segunbezone, la nomo di lua alta ofico sociala : **sinioro rej(ul)o,** **rej(in)o; sinioro princ(ul)o, princ(in)o** (3); **sinioro epis****kopo.** Kompreneble on uzas nek **-ul**, nek **-in** kande, quale pri **episkopo**, to esas neutila. Same on procedas pri **sioro**, polita titulizo uzata por omna personi a qui, o pri qui on parolas : **Sioro Ludovikus R.** Pro ke esas konocata la sexuo dil viro a qua on parolas, on ne dicas a lu **siorulo**, ma nur **sioro.** Ma, pro ke la letro destinata a spozulo povus donesar a spozino, od inverse, on enuncas **-ul** od **-in** en la adreso, se on skribas a spozi vivanta kune, o se on timas, ke altre agante, la letro ne atingos juste la destinario.
+15. — Kom honor-titulo (parolante a persono altaranga, o pri olu), on uzas la vorto **sinioro** (e **siniorulo, siniorino**, se to esas necesa por evitar konfundo). On adjuntas, segunbezone, la nomo di lua alta ofico sociala : **sinioro rej(ul)o,** **rej(in)o; sinioro princ(ul)o, princ(in)o** (3); **sinioro episkopo.** Kompreneble on uzas nek **-ul**, nek **-in** kande, quale pri **episkopo**, to esas neutila. Same on procedas pri **sioro**, polita titulizo uzata por omna personi a qui, o pri qui on parolas : **Sioro Ludovikus R.** Pro ke esas konocata la sexuo dil viro a qua on parolas, on ne dicas a lu **siorulo**, ma nur **sioro.** Ma, pro ke la letro destinata a spozulo povus donesar a spozino, od inverse, on enuncas **-ul** od **-in** en la adreso, se on skribas a spozi vivanta kune, o se on timas, ke altre agante, la letro ne atingos juste la destinario.
 
 > (3) On tote darfas dicar anke : **siniorulo rejo, princo; siniorino** **rejo, princo** o mem : **siniorulo reja, princa; siniorino reja, princa.** Ma, en la du manieri, on evitez repetar *-ul* o *-in*. On uzez li *nur* *unfoye*. La sexuo ya ne bezonas indikesar *dufoye*.
 

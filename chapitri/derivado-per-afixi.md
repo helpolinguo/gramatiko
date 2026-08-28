@@ -7,7 +7,7 @@ Transskribita de https://ido.help/gramatiko/
 
 ---
 
-Kontre ke en la derivado per dezinenci (o nemediata derivado), suficas soldar dezinenco a radiko, quale ni vidis, por obtenar vorto kompleta, en la derivado per afixi (o mediata derivado), on devas unesme adjuntar e soldar a la radiko afixo od afixi, ante pozar la dezinenco an la fino dil toto. Ex. : **arki-duk(o), para-pluv(o), pian-ist(o), dis****til-eri(o); bo-frat-in(o), retro-ag-iv-es(o).**
+Kontre ke en la derivado per dezinenci (o nemediata derivado), suficas soldar dezinenco a radiko, quale ni vidis, por obtenar vorto kompleta, en la derivado per afixi (o mediata derivado), on devas unesme adjuntar e soldar a la radiko afixo od afixi, ante pozar la dezinenco an la fino dil toto. Ex. : **arki-duk(o), para-pluv(o), pian-ist(o), distil-eri(o); bo-frat-in(o), retro-ag-iv-es(o).**
 
 La sufixi insertesas inter la radiko e la dezinenco segun l'ordino en qua li aplikesas ica ad ita; to signifikas, ke singla de oli modifikas ta, qua preiras lu, ed aplikesas a lu quale a simpla radiko : **lum-iz-iv-eso** = eso (*qualeso di*) **iv** (*to quo povas*) **iz** (*provizar per*) **lum(o)**. Praktike on sequas l'ordino progresanta dil kompozo : **lumizar, lumiziva,** **lumiziveso** = *kapableso lumizar*, France : pouvoir éclairant (1).
 

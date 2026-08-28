@@ -7,7 +7,7 @@ Transskribita de https://ido.help/gramatiko/
 
 ---
 
-17. — La *propra nomi* omnaspeca devas principe konsideresar kom « vorti stranjera » a la linguo. La nomi personal precipue, pro ke li esas la *proprietajo* dil personi qui nomesas per oli, devas restar netushebla. Konseque on transskribas li segunlitere, kande li esas skribita per l'alfabeto Romana, mem la Greka nomi, di qui la transskribo Latina esas klasika. On riproduktas, se on povas, la diakritika signi ed on indikas, *segun quante on povas*, la pronunco inter parentezi. Se li apartenas a linguo ne uzanta l'alfabeto Romana, on transskribas li fonetike (*maxim bone posible*). Por ico on uzas specal alfabeto plu richa kam la Romana alfabeto e posedanta diakritika signi (**ä, ö, ü**, e. c.) e digrami (**dh, th, kh**, e. c.) Exemple : **Caesar, Cicero, Scipio, Grac****chus, Sokrates, Demosthenes, Pythagoras, Phryne; Goethe,** **Shakespeare, Corneille, Boileau; Mickievicz, Leszczynski,** **Przemysl; Pushkin, Pashich, Tolstoy, Shchavinskiy.**
+17. — La *propra nomi* omnaspeca devas principe konsideresar kom « vorti stranjera » a la linguo. La nomi personal precipue, pro ke li esas la *proprietajo* dil personi qui nomesas per oli, devas restar netushebla. Konseque on transskribas li segunlitere, kande li esas skribita per l'alfabeto Romana, mem la Greka nomi, di qui la transskribo Latina esas klasika. On riproduktas, se on povas, la diakritika signi ed on indikas, *segun quante on povas*, la pronunco inter parentezi. Se li apartenas a linguo ne uzanta l'alfabeto Romana, on transskribas li fonetike (*maxim bone posible*). Por ico on uzas specal alfabeto plu richa kam la Romana alfabeto e posedanta diakritika signi (**ä, ö, ü**, e. c.) e digrami (**dh, th, kh**, e. c.) Exemple : **Caesar, Cicero, Scipio, Gracchus, Sokrates, Demosthenes, Pythagoras, Phryne; Goethe,** **Shakespeare, Corneille, Boileau; Mickievicz, Leszczynski,** **Przemysl; Pushkin, Pashich, Tolstoy, Shchavinskiy.**
 
 Por la propra nomi trovata en la olda ed en la nova Testamento on konsilas anke la transkribo Latina, ja konocata; ma nur la vera qua uzas **i**, ne **j**. Ex. : **Ierusalem, Iudas, Iob,** **Beniamin, Isaias, Ioannes, Iozef, Zakarias** (2), **Nazareth,** **Bethlehem, Elizabeth**, e. c. (3).
 
@@ -19,7 +19,7 @@ Por la *baptonomi* on konsilas anke transskribar li segun la formo Latina (1). T
 
 > (1) Remplasigante *c* harda per *k* e *ph* per *f*.
 
-18. — Devas konsideresar kom *vorti stranjera* ed esar konservata en lia stranjera formo, *tam singulare kam plurale*, omna vorti exkluzive nacionala o lokala, ed anke la nomi di moneti, ponderili e mezurili ne apartenanta al metral sistemo : **pasha, lama, ulema, geisha, kimono; uryadnik,** **nagayka, troïka; cicerone** (pl. **ciceroni**), **lazzarone** (pl. **laz****zaroni**); **Targui** (pl. **Touareg**); **mehari** (pl. **mehara**); **cent** (pl. **cents**), **para, duro, peseta** (pl. **pesetas**); **pound, pud,** **klaft, shtof, verst**, e. c.
+18. — Devas konsideresar kom *vorti stranjera* ed esar konservata en lia stranjera formo, *tam singulare kam plurale*, omna vorti exkluzive nacionala o lokala, ed anke la nomi di moneti, ponderili e mezurili ne apartenanta al metral sistemo : **pasha, lama, ulema, geisha, kimono; uryadnik,** **nagayka, troïka; cicerone** (pl. **ciceroni**), **lazzarone** (pl. **lazzaroni**); **Targui** (pl. **Touareg**); **mehari** (pl. **mehara**); **cent** (pl. **cents**), **para, duro, peseta** (pl. **pesetas**); **pound, pud,** **klaft, shtof, verst**, e. c.
 
 Tamen ulkaze la pluralo darfas indikesar per **-i** adjuntita al vorto stranjera e separita de olu per streketo. Exemple, se on ne konocas ta pluralo, o kande la vorto stranjera havas singulare la sama formo kam plurale. Per **-i** on lore evitas miskompreno. Ex. : **Ni povas pagar vua cheko; kad vu deziras** **franki o mark-i?**
 
@@ -33,19 +33,19 @@ Tamen ulkaze la pluralo darfas indikesar per **-i** adjuntita al vorto stranjera
 
 20. — La nomi di la habitanti derivas de oli per l'adjunto dil sufixo **-an**, pos supreso dil **a** finala : **Europ-ano,** **Itali-ano, Bolivi-ano**, e. c.
 
-La formi **Angliano, Franciano, Germaniano, Rusiano,** **Suediano, Daniano, Poloniano, Grekiano, Arabiano, His****paniano, Skotiano, Laponiano, Suisiano** esas tote reguloza, do permisata. Ma per imito dil uzado internaciona, qua por ta nomi di rasi o populi havas formi plu kurta, Ido preferas **Anglo, Franco, Germano, Ruso, Suedo, Dano, Polono, Greko,** **Arabo, Hispano, Skoto, Lapono, Suiso** (1).
+La formi **Angliano, Franciano, Germaniano, Rusiano,** **Suediano, Daniano, Poloniano, Grekiano, Arabiano, Hispaniano, Skotiano, Laponiano, Suisiano** esas tote reguloza, do permisata. Ma per imito dil uzado internaciona, qua por ta nomi di rasi o populi havas formi plu kurta, Ido preferas **Anglo, Franco, Germano, Ruso, Suedo, Dano, Polono, Greko,** **Arabo, Hispano, Skoto, Lapono, Suiso** (1).
 
-> (1) Nur la formo per **-ano** esas generala e generaligebla; la nomi di populi quale *Anglo*, *Ruso* esas nur abreviuri di la reguloza *Angli**ano*, ec. e devas konsideresar kom aparta kazi. (*Progreso*, VI, 95.)
+> (1) Nur la formo per **-ano** esas generala e generaligebla; la nomi di populi quale *Anglo*, *Ruso* esas nur abreviuri di la reguloza *Angliano*, ec. e devas konsideresar kom aparta kazi. (*Progreso*, VI, 95.)
 
 De li venas reguloze l'adjektivi **Angla, Franca, Germana,** **Rusa, Sueda, Dana, Polona, Greka, Araba, Hispana, Skota,** **Lapona, Suisa.**
 
-21. — La nomi landala qui ne havas ta susteno internaciona dil formo *ia* (Latina origine) konservas sua formo nacionala : **Honduras, San Salvador, Nikaragua, Venezuela,** **Uruguay, Paraguay, Maroko, Kanada** (2), **Chili, Peru, Por****tugal** (Videz la lexiko).
+21. — La nomi landala qui ne havas ta susteno internaciona dil formo *ia* (Latina origine) konservas sua formo nacionala : **Honduras, San Salvador, Nikaragua, Venezuela,** **Uruguay, Paraguay, Maroko, Kanada** (2), **Chili, Peru, Portugal** (Videz la lexiko).
 
 > (2) La **c** transskribesas per **k** en **Nikaragua, Kanada, Maroko**, pro ke en Ido ni havus (kun *c*) *Nitsaragua, Tsanada, Marotso*, quo certe ne konkordus kun l'internaciona sono di ta vorti. Ma qua homo, vidante li kun *k*, vice *c*, havas mem ombro di hezito por rikonocar li?
 
-La nomi finanta per *land* kompreneble recevas **o** finala, por kompletigar la vorto segun la fizionomio Idala di « lando ». Ex. : **Finlando, Holando, Irlando, Islando, Neder****lando, Nova-Zelando, Zulu-lando**, e. c.
+La nomi finanta per *land* kompreneble recevas **o** finala, por kompletigar la vorto segun la fizionomio Idala di « lando ». Ex. : **Finlando, Holando, Irlando, Islando, Nederlando, Nova-Zelando, Zulu-lando**, e. c.
 
-Segun la principo generala, la nomi di la habitanti esas formacata per la sufixo **-an**. Ex. : **Honduras-ano, Venezue****lano, Uruguayano, Marokano, Kanadano, Chiliano, Peruano,** **Portugalano, Finlandano, Holandano, Irlandano**, e. c.
+Segun la principo generala, la nomi di la habitanti esas formacata per la sufixo **-an**. Ex. : **Honduras-ano, Venezuelano, Uruguayano, Marokano, Kanadano, Chiliano, Peruano,** **Portugalano, Finlandano, Holandano, Irlandano**, e. c.
 
 **Usa**, to esas la tri literi U. S. A., abreviuro di *Unionita* *Stati* (di) *Amerika* (nordala), uzesas en Ido, vice ta nomo tro longa, por nomar la granda republiko. Per to ni simple imitas la postal uzado internaciona, qua skribas U. S. A. (Usa) sur omna sendaji ad ica lando.
 
@@ -55,7 +55,7 @@ Segun la principo generala, la nomi di la habitanti esas formacata per la sufixo
 
 23. — La nomi geografiala di urbi, riveri, monti, provinci, distrikti, e. c. esas propra nomi; li do sequas logike la regulo qua koncernas ici (§ 17) : **Paris, London, Roma,** **Firenze, Lisboa, Torino, Napoli, Madrid, München, New-** **York, Cambridge, Genève, Boulogne, Kharkov, Voronef,** **Dniepr, Kiakhta, Khabarovsk; Shang-haï, Kiao-Cheu, Che-** **Fu, Tsu-shima, Hoang-ho**, e. c.
 
-Nur la nomi di kelka monti, mari o fluvii internaciona (quin nia lingui ne skribas same) recevas l'Idal ortografio, por evitar pri oli divergi jenanta di skribo e di pronunco : **Alpi, Blanka Monto, Blanka Maro, Reda Maro, Nigra Maro,** **Kaspia Maro, Kaspio; Maro Mediteranea, Mediteraneo; Atlan****tiko; Pacifika Oceano, Pacifiko; Glacial Maro, Oceano;** **Rheno, Danubio.**
+Nur la nomi di kelka monti, mari o fluvii internaciona (quin nia lingui ne skribas same) recevas l'Idal ortografio, por evitar pri oli divergi jenanta di skribo e di pronunco : **Alpi, Blanka Monto, Blanka Maro, Reda Maro, Nigra Maro,** **Kaspia Maro, Kaspio; Maro Mediteranea, Mediteraneo; Atlantiko; Pacifika Oceano, Pacifiko; Glacial Maro, Oceano;** **Rheno, Danubio.**
 
 Remarquez bone, ke omna nomi di la lasta alineo kom propra nomi ne recevas la artiklo, malgre la uzo kontrea di ula lingui.
 

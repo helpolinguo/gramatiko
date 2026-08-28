@@ -7,7 +7,7 @@ Transskribita de https://ido.help/gramatiko/
 
 ---
 
-1e *Derivo per dezinenci* (substituco di ta ad ica) o *neme**diata derivo*;
+1e *Derivo per dezinenci* (substituco di ta ad ica) o *nemediata derivo*;
 
 2e *Derivo per afixi* (uzo di prefixo o sufixo) o *mediata* *derivo*;
 
@@ -15,6 +15,6 @@ Transskribita de https://ido.help/gramatiko/
 
 **Radiki.** — Li esas *verbala* o *nomala* (to esas neverbala). L'unesmi expresas ideo di ago, stando o relato. La duesmi indikas ento, objekto o qualeso, e konseque povas genitar nur *nomi*, to esas *substantivi* od *adjektivi* (2). On facile dicernos ta duspeca radiki en la vortolibri per ico, ke nur l'unesmi genitas verbi. Ex. : **laborar, vidar, dormar, esperar,** **emocar, anxiar, relatar,** e. c.
 
-> (2) La qualifiko *ne-verbala* esas plu justa, nam la du klasi povas egale produktar nomi (L. Couturat).La maxim multa gramatikisti docas : la nomo o substantivo esas speco di vorto qua uzesas por nomizar enti o kozi. Ta defino, qua konsideras kom sinonima la termini *nomo* o *substantivo* ne esas konforma a la gramatikal tradiciono. L'ancieni nomizis per la sama termino « nomo » egale la substantivo e l'adjektivo; li dicernis la *nomo-substantiva*, uzata por nomizar la enti o kozi, e *la nomo**adjektiva* uzata por qualifikar li.
+> (2) La qualifiko *ne-verbala* esas plu justa, nam la du klasi povas egale produktar nomi (L. Couturat).La maxim multa gramatikisti docas : la nomo o substantivo esas speco di vorto qua uzesas por nomizar enti o kozi. Ta defino, qua konsideras kom sinonima la termini *nomo* o *substantivo* ne esas konforma a la gramatikal tradiciono. L'ancieni nomizis per la sama termino « nomo » egale la substantivo e l'adjektivo; li dicernis la *nomo-substantiva*, uzata por nomizar la enti o kozi, e *la nomoadjektiva* uzata por qualifikar li.
 
 **Dezinenci.** — La dezinenci (o flexioni) povas indikar nur la speco gramatikala di vorto, to esas la rolo di ta vorto en la frazo. La dezinenci tote ne influas la senco, la ideo quan la radiko expresas. Chanjo di senco povas obtenesar nur per afixi o per kompozo.

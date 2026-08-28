@@ -41,7 +41,7 @@ Transskribita de https://ido.help/gramatiko/
 
 **s** sempre sisas forte, sive en la komenco, sive en la mezo, sive en la fino dil vorti, e mem inter du vokali. Konseque ol nultempe recevas la sono di **z** Franca od Angla. Per to la vorti **roso, friso** e **sono**, exemple, diferas de **rozo, frizo, zono.** Do tre atencez pronuncar en Ido nultempe **s** kun la sono di **z** (2).
 
-> (2) Autori qui admisas du soni por **s** en la Linguo internaciona, ne volante chanjetar l'etimologial ortografio, obligas per la fakto ipsa la adepti lernar ne nur duopla regulo di pronunco, ma anke general ecepto, por imitar ula lingui nacionala, e mem ecepti dil ecepto. Tale **s** duras sisar forte en *asymptoto* (asimptoto), *prae**sentir* (presentar), exemple, quankam l'ecepto generala dicas, ke **s** sonas **z** inter du vokali. Konkluze, por pronuncar **s** konvene, en simila kazi, on mustas konocar l'etimologio dil vorto, o konsultar specala repertorio.
+> (2) Autori qui admisas du soni por **s** en la Linguo internaciona, ne volante chanjetar l'etimologial ortografio, obligas per la fakto ipsa la adepti lernar ne nur duopla regulo di pronunco, ma anke general ecepto, por imitar ula lingui nacionala, e mem ecepti dil ecepto. Tale **s** duras sisar forte en *asymptoto* (asimptoto), *praesentir* (presentar), exemple, quankam l'ecepto generala dicas, ke **s** sonas **z** inter du vokali. Konkluze, por pronuncar **s** konvene, en simila kazi, on mustas konocar l'etimologio dil vorto, o konsultar specala repertorio.
 
 **t** = *t* dil Italiana, dil Angla, dil Franca e. c. en la silabo *ta*. Ol konservas ica sono mem en la silabi *tio, tia,* quin ula lingui pronuncas *sio, sia* o *tsio, tsia,* se li sonas pos altra silabo.
 

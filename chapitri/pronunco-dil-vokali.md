@@ -21,7 +21,7 @@ Kande **u** sequas nemediate **a** o **e**, ol formacas kun ici diftongo, qua es
 
 Ma, se la renkontro di **a**, **e** kun **u** rezultas de prefixo o sufixo adjuntita a radiko, quale en **neutila** (*ne-utila*), **kreuro** (*kre-uro*), lore **au**, **eu** ne plus facas diftongo, e singla vokalo apartenas a silabo partikulara. Konseque singla esas aparte pronuncata, quale indikesas per (*ne-utila* e *kre-uro*) supere.
 
-Sequanta **q** o **g**, la litero **u** = **w** (1) avan vokalo. Ol do sonas quale **u** en la duesma silabo di *aquatic* Angla, *aquatique* Franca, *acquatico* Italiana, *acuatico* Hispana. Exemple : **qua, quar, quo, qui, guidar, linguo, lingue, lin****guala** = *qwa, qwar, qwo, qwi, gwidar, lingwo, lingwe,* *lingwala.*
+Sequanta **q** o **g**, la litero **u** = **w** (1) avan vokalo. Ol do sonas quale **u** en la duesma silabo di *aquatic* Angla, *aquatique* Franca, *acquatico* Italiana, *acuatico* Hispana. Exemple : **qua, quar, quo, qui, guidar, linguo, lingue, linguala** = *qwa, qwar, qwo, qwi, gwidar, lingwo, lingwe,* *lingwala.*
 
 > (1) Videz plu fore, ye w, « Pronunco dil konsonanti e digrami ».
 

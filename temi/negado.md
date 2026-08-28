@@ -12,7 +12,7 @@ Transskribita de https://ido.help/gramatiko/
 
 ## § 37 — [ADJEKTIVI-PRONOMI NEDEFINITA](../chapitri/adjektivi-pronomi-nedefinita.md)
 
-**Nula** (L. *nullus*), pronomo : **nulu** (*ne mem un indi**viduo*), plur. **nuli**, esas la negativo di **ula.**
+**Nula** (L. *nullus*), pronomo : **nulu** (*ne mem un individuo*), plur. **nuli**, esas la negativo di **ula.**
 
 ## § 51 — [ADVERBI](../chapitri/adverbi.md)
 
@@ -42,8 +42,8 @@ Nultempe uzez : despovar, desdormar, desvolar, desexistar, desesar, desmovar, 
 
 ## [PREFIXI](../chapitri/prefixi.md) — bloko 48 (sen numero en la libro)
 
-Ne konfundez **ne-** a **des-** od a **sen-** (prepoziciono). **Ne-** indikas simpla nego, **des-** kontreeso, **sen-** manko : **nericha,** **desricha** = *povra*; **nebela, desbela** = *leda*; **senbarba, sen****kapa, senarma, senpova.** Konseque, *senutila, senplena* (1), vice **neutila, neplena** esus absurda, e *nearma, nebarba, ne**kapa, nepova,* vice **senarma, senbarba, senkapa, senpova** esus egale absurda.
+Ne konfundez **ne-** a **des-** od a **sen-** (prepoziciono). **Ne-** indikas simpla nego, **des-** kontreeso, **sen-** manko : **nericha,** **desricha** = *povra*; **nebela, desbela** = *leda*; **senbarba, senkapa, senarma, senpova.** Konseque, *senutila, senplena* (1), vice **neutila, neplena** esus absurda, e *nearma, nebarba, nekapa, nepova,* vice **senarma, senbarba, senkapa, senpova** esus egale absurda.
 
 ## § 125 — [SINTAXO](../chapitri/sintaxo.md)
 
-L'*adverbo* devas preirar o sequar nemediate la vorto quan ol relatas. Ma la adverbi **ne**, **tre** devas *preirar* ol sempre : **me ne prenis vua libro** tre diferas sence de : **ne me prenis** **vua libro**, ed anke de : **me prenis ne vua libro** (ma altra), e nur l'adverbo **ne**, preiranta nemediate la vorto quan ol relatas, indikas nedubeble ta difero. — **Il tre deziras riches****kar rapide** diferas de : **il deziras tre richeskar rapide**, od anke de : **il deziras richeskar tre rapide**, e nur l'adverbo **tre**, lokizita juste, indikas nedubeble ta difero (2).
+L'*adverbo* devas preirar o sequar nemediate la vorto quan ol relatas. Ma la adverbi **ne**, **tre** devas *preirar* ol sempre : **me ne prenis vua libro** tre diferas sence de : **ne me prenis** **vua libro**, ed anke de : **me prenis ne vua libro** (ma altra), e nur l'adverbo **ne**, preiranta nemediate la vorto quan ol relatas, indikas nedubeble ta difero. — **Il tre deziras richeskar rapide** diferas de : **il deziras tre richeskar rapide**, od anke de : **il deziras richeskar tre rapide**, e nur l'adverbo **tre**, lokizita juste, indikas nedubeble ta difero (2).

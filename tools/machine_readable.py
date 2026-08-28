@@ -51,6 +51,23 @@ def as_markdown(h: str) -> str:
     meaning.
     """
     h = re.sub(r'<a[^>]*class="fol"[^>]*>.*?</a>', '', h, flags=re.S)
+
+    # A WORD BROKEN ACROSS A LINE OF THE FACSIMILE COMES BACK AS TWO RUNS.
+    # The transcription reopens the emphasis on the second half, so
+    # « maledukita », set over two lines, is <i>male</i><i>dukita</i>. The
+    # page is right either way -- two touching italic runs draw as one --
+    # but Markdown is NOT: <i>male</i><i>dukita</i> became « male**dukita* »,
+    # which is unmatched markup, and the word is unreadable to whoever
+    # reads the .md rather than the page. MEASURED: 127 words in the book,
+    # 40 of them in SUFIXI alone -- ama|bas, deses|timo, male|dukita,
+    # paro|ladar, pik|turo, skul|tata.
+    #
+    # The join is safe because it is invisible: two runs of the SAME tag
+    # with nothing between them render exactly as one. The space is what
+    # distinguishes this from two separate emphasised words, so the pattern
+    # admits none.
+    h = re.sub(r'</(i|em|b|strong)><\1>', '', h)
+
     h = re.sub(r'<i>(.*?)</i>', r'*\1*', h, flags=re.S)
     h = re.sub(r'<em>(.*?)</em>', r'*\1*', h, flags=re.S)
     h = re.sub(r'<b>(.*?)</b>', r'**\1**', h, flags=re.S)

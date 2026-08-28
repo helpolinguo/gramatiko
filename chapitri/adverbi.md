@@ -17,7 +17,7 @@ Le *simpla*, esante adverbi nature e signifike, ne bezonas dezinenco : *tre, t
 
 > (1) Ma, se *tro, plu, min, maxim, minim* uzesas izolite, li recevas elu (v. § 52).
 
-Le *derivita* e le *kompozita*, ne esante adverbi nature, havas omni la dezinenco **-e**, qua igas li adverba. On adjuntas ica dezinenco al vorti sendezinenca, ed on substitucas lu al dezinenco di la ceteri : **Lore, pluse** (de *lor, plus*), **vere** (de *vera*), **nokte** (de *nokto*), **koncerne** (de *koncernar*), **super****poze** (de *super-pozar*).
+Le *derivita* e le *kompozita*, ne esante adverbi nature, havas omni la dezinenco **-e**, qua igas li adverba. On adjuntas ica dezinenco al vorti sendezinenca, ed on substitucas lu al dezinenco di la ceteri : **Lore, pluse** (de *lor, plus*), **vere** (de *vera*), **nokte** (de *nokto*), **koncerne** (de *koncernar*), **superpoze** (de *super-pozar*).
 
 Quale on vidas, l'adverbi darfas derivar de prepoziciono od adverbo (*lor-e, plus-e*), de adjektivo o substantivo (*ver-e,* *nokt-e*), de verbo simpla o kompozita (*koncern-e, super-poz-e*).
 
@@ -39,7 +39,7 @@ Ni adjuntez **plus, minus**, tre uzata en matematiko, od en la senco matematikal
 
 Li sempre sequas la verbo quan li modifikas : **Il ne povas** **spensar plue** (1). **Vu ne povas donar mine. Li recevis** **maxime, minime** (de omni).
 
-> (1) **Plu** expresas *augmento* di ula quanto (qua restas o konsideresas kom identa a su ipsa); **plus** (quale la signo matematikal + quan ol tradukas) signifikas adiciono, do generale *adjunto* di ulo ad altro.Segun la principo di unasenceso, ta du radiki devas konservar sua propra senco en sua omna derivaji. *Plue* havas do la sama senco kam *plu*; ma ol uzesas izolita quale adverbo nedependanta, kontre ke *plu* uzesas avan altra vorto, quan ol modifikas : *plue* equivalas proxime a *plu multe* (o *plu grande*, e. c.); *plua* a *plu multa*; e *pluo* a *plu multo*. L'unesma vorti esas nur min preciza, pro ke li aplikesas a speco nedefinita o tacita di quanteso, qua esas indikata plu explicite en la expresuri *plu multe, plu grande, plu larje, plu alte...*, per la vorto adjuntita a *plu*. Kontree, *pluse* expresas ne augmento di irga quanto, ma adjunto di ula objekto, qua povas ne esar quantajo o ne konsiderar kom quantajo. Ol tradukas do exakte la vorto F. *de plus, en plus, en outre*; D. *weiter, zudem, sonst*; E. *moreover*. Exempli : **On devas pagar plue** (plu multe) : **on devas pagar pluse** (on devas adjuntar altra preco). — **Vino e kafeo pagesas pluse** to esas : ultre la sumo pagita por la cetero. — Ma **vino e kafeo** **pagesas plue** signifikus : *plu kare* (chere) (kam antee, kam altraloke). — **Ho! ico kustas plue** (t. e. plu multe). — **Me donas ico pluse** (po la sama preco) dicos vendisto adjuntante ula bagatelo (*Pro**greso*, II, 666.)On komparez : **me prenis plu multa pomi** e : **me prenis, pluse,** **multa pomi.**
+> (1) **Plu** expresas *augmento* di ula quanto (qua restas o konsideresas kom identa a su ipsa); **plus** (quale la signo matematikal + quan ol tradukas) signifikas adiciono, do generale *adjunto* di ulo ad altro.Segun la principo di unasenceso, ta du radiki devas konservar sua propra senco en sua omna derivaji. *Plue* havas do la sama senco kam *plu*; ma ol uzesas izolita quale adverbo nedependanta, kontre ke *plu* uzesas avan altra vorto, quan ol modifikas : *plue* equivalas proxime a *plu multe* (o *plu grande*, e. c.); *plua* a *plu multa*; e *pluo* a *plu multo*. L'unesma vorti esas nur min preciza, pro ke li aplikesas a speco nedefinita o tacita di quanteso, qua esas indikata plu explicite en la expresuri *plu multe, plu grande, plu larje, plu alte...*, per la vorto adjuntita a *plu*. Kontree, *pluse* expresas ne augmento di irga quanto, ma adjunto di ula objekto, qua povas ne esar quantajo o ne konsiderar kom quantajo. Ol tradukas do exakte la vorto F. *de plus, en plus, en outre*; D. *weiter, zudem, sonst*; E. *moreover*. Exempli : **On devas pagar plue** (plu multe) : **on devas pagar pluse** (on devas adjuntar altra preco). — **Vino e kafeo pagesas pluse** to esas : ultre la sumo pagita por la cetero. — Ma **vino e kafeo** **pagesas plue** signifikus : *plu kare* (chere) (kam antee, kam altraloke). — **Ho! ico kustas plue** (t. e. plu multe). — **Me donas ico pluse** (po la sama preco) dicos vendisto adjuntante ula bagatelo (*Progreso*, II, 666.)On komparez : **me prenis plu multa pomi** e : **me prenis, pluse,** **multa pomi.**
 
 Por indikar, ke la grado konstante kreskas o diminutas, on uzas l'expresuro : **sempre plue** (o : *sempre plu multe*), **sempre mine** (o : *sempre min multe*). Ex. : **me amas lu** **sempre plue** (o : *sempre plu multe*); **il laboras sempre mine** (o : *sempre min multe*).
 
@@ -49,7 +49,7 @@ Por indikar, ke la grado konstante kreskas o diminutas, on uzas l'expresuro : 
 
 > (1) *Posible*, en ta expresuri, equivalas « segun posibleso ».
 
-**Admaxime, adminime** : **Ni esos kin adminime e dek ad****maxime.**
+**Admaxime, adminime** : **Ni esos kin adminime e dek admaxime.**
 
 **Proxime**, qua tradukas F. *à peu près*, environ, E. *about,* *nearly*, D. *ungefähr, etwa*. Ex. : **la asistanti esis kina-dek o :** **kina-dek e kin proxime. Esis tri kloki, o tri kloki proxime** (2).
 
@@ -81,7 +81,7 @@ Fine la adverbi ja vidita (§ 39) : **kelke, multe, poke,** **quante, tante** 
 
 > (1) **Lore... lore** = ye ul tempo, instanto... ye altra... Ex : **lore il** **ridas, lore il ploras.** France : tantôt il rit, tantôt il pleure.
 
-**Nun** (sen **-e** kom primitiva) = en la tempo prezenta, *pre**zente*.
+**Nun** (sen **-e** kom primitiva) = en la tempo prezenta, *prezente*.
 
 **Olim** (sen **-e** kom primitiva) = en tempo plu o min anciena, antiqua.
 
@@ -145,7 +145,7 @@ irgekande = ye irga tempo, instanto en qua (2).
 
 > (2) On devas ne konfundar **irgatempe** a *irgekande*. L'unesma esas nur adverbo nedefinita, ma **irgekande** esas pluse relativa, e konseque unionas du propozicioni : **me helpos vu irgatempe; me helpos vu** **irgekande vu volos.** En la lasta exemplo *irgatempe* ne esus bona, nam, por unionar la du propozicioni : *me helpos vu* e *vu volos*, esas necesa adverbo relativa; sen olu la propozicioni esus sen ligo.
 
-**Unfoye, dufoye, trifoye**, e. c., **plurfoye, kelkafoye, multa****foye, singlafoye, omnafoye**, pri ago facita o subisita *un foyo,* *plura foyi*, e. c.
+**Unfoye, dufoye, trifoye**, e. c., **plurfoye, kelkafoye, multafoye, singlafoye, omnafoye**, pri ago facita o subisita *un foyo,* *plura foyi*, e. c.
 
 **Singladie, omnadie, omnasemane, omnamonate, omnayare,** omnajorne, omnanokte, e. c. = en singla, omna dio, semano, e. c.
 
@@ -189,7 +189,7 @@ La formi kun **-ube** ne esas, quale la formi kun **-loke**, nur nedefinita; li 
 
 **supre** (di) = ye la suprajo (1);
 
-> (1) Ne konfundez ta adverbo a **supere** = superpozite. Ex. : **Esper****anto havas sis literi ornata da signo diakritika supere.**
+> (1) Ne konfundez ta adverbo a **supere** = superpozite. Ex. : **Esperanto havas sis literi ornata da signo diakritika supere.**
 
 **infre** (di) = ye l'infrajo;
 
@@ -209,7 +209,7 @@ La formi kun **-ube** ne esas, quale la formi kun **-loke**, nur nedefinita; li 
 
 **fore** = ye granda disto.
 
-**cirkume** = cirkum la enti o kozi nomata; per proxima evaluo : **La soldati kaptis la urbo ed establisis sua kam****peyo cirkume.** — **Li sideskis cirkum la ludo-tablo e riskis** **tria-cent franki cirkume** (3).
+**cirkume** = cirkum la enti o kozi nomata; per proxima evaluo : **La soldati kaptis la urbo ed establisis sua kampeyo cirkume.** — **Li sideskis cirkum la ludo-tablo e riskis** **tria-cent franki cirkume** (3).
 
 > (3) Me pagis a lu *cirkume* dek franki » : esus nejusta dicar : « Me pagis cirkum dek franki », nam « dek franki » esas la komplemento *direta* di « pagis », e « cirkume » nur modifikas ol (igante ol min preciza).On adoptis **cirkum** vice *cirke* kom prepoziciono precize por povar distingar la prepoziciono *cirkum* de l'adverbo *cirkume*. « Ni drinkis *cirkume* dek glasi » (t. e. : « dek glasi cirkume » : *dek glasi* esas l'objekto direta). « Ni sidis *cirkum* dek glasi » (o : « cirkum la tablo ») : hike *cirkum* esas prepoziciono, on ne povas sidar... la glasi o la tablo). Inverse : « Ni drinkis *cirkum* la tablo », ne « *cirkume* » quo implikus, ke ni drinkis (preske) la tablo. (*Progreso*, VII, 479.)
 
@@ -235,7 +235,7 @@ Ultre ta primitiv adverbi di maniero, Ido havas mult altri derivita o kompozita,
 
 **Ule, nule, irge, altre, cetere, ipse** (3), **single, plure,** **omne.**
 
-> (3) « Kelka samideani astonesas, ke on uzas lore *ipsa*, lore **ipse,** e questionas, kad ica du vorti havas diversa senci. No, li ne povas havar diversa senci pro ke li esas sama vorti sub du gramatikala formi; li havas nur diversa *gramatikal* rolo. Segun la sama regulo, qua enuncas, ke participo-adverbo referas la subjekto di la propoziciono, *ipse* referas sempre la subjekto, e pro to ol esas kelkafoye plu klara kam *ipsa*. Ex. : **La mastro inspektis ipse la domo** esas plu klara kam : « ipsa »; nam on povus komprenar : *la domo ipsa.* (*Ipse* povas bone tradukar : F. en personne). Cetere esas sempre plu sekura pozar *ipsa* (o mem *ipse* apud la vorto, quan ol referas : *la mastro ipsa*. — Lasta remarko : D. *von selbst,* F. *de soi même* (*de lui même*, e. c.) ne tradukesas per *ipse*, ma per *spontane* (*Pro**greso*, V, 96).En la sama loko trovesas la remarkigo sequanta : « La sama konsilo valoras pri *omna*, quan on esas tentata (segun l'exemplo di F.) pozar *dop* la verbo, quankam ol referas la subjekto. Ex. : *li omna* *admiris splendida flori*, e ne : *li admiris omna splendida flori* (ube *omna* referas necese *flori*). *Li admiris omni...* ne esus dusenca, ma esus min klara kam *li omna admiris...* On ne alegez hike, ke l'akuzativo supresus la dusenceso : nam ol ne povus helpar kun la verbo *esar : li omna esis brava soldati* havas evidente altra senco kam : *li esis omna brava soldati*, e tamen on ne povus pozar *bona soldati* en l'akuzativo. Nova pruvo, ke la vortordino esas plu komoda e plu sekura moyeno kam l'akuzativo. » — Pri *omna* bone memorez ke ol sempre uzesas sen artiklo : *omna homi* quale : *kelka homi, multa* *homi.*
+> (3) « Kelka samideani astonesas, ke on uzas lore *ipsa*, lore **ipse,** e questionas, kad ica du vorti havas diversa senci. No, li ne povas havar diversa senci pro ke li esas sama vorti sub du gramatikala formi; li havas nur diversa *gramatikal* rolo. Segun la sama regulo, qua enuncas, ke participo-adverbo referas la subjekto di la propoziciono, *ipse* referas sempre la subjekto, e pro to ol esas kelkafoye plu klara kam *ipsa*. Ex. : **La mastro inspektis ipse la domo** esas plu klara kam : « ipsa »; nam on povus komprenar : *la domo ipsa.* (*Ipse* povas bone tradukar : F. en personne). Cetere esas sempre plu sekura pozar *ipsa* (o mem *ipse* apud la vorto, quan ol referas : *la mastro ipsa*. — Lasta remarko : D. *von selbst,* F. *de soi même* (*de lui même*, e. c.) ne tradukesas per *ipse*, ma per *spontane* (*Progreso*, V, 96).En la sama loko trovesas la remarkigo sequanta : « La sama konsilo valoras pri *omna*, quan on esas tentata (segun l'exemplo di F.) pozar *dop* la verbo, quankam ol referas la subjekto. Ex. : *li omna* *admiris splendida flori*, e ne : *li admiris omna splendida flori* (ube *omna* referas necese *flori*). *Li admiris omni...* ne esus dusenca, ma esus min klara kam *li omna admiris...* On ne alegez hike, ke l'akuzativo supresus la dusenceso : nam ol ne povus helpar kun la verbo *esar : li omna esis brava soldati* havas evidente altra senco kam : *li esis omna brava soldati*, e tamen on ne povus pozar *bona soldati* en l'akuzativo. Nova pruvo, ke la vortordino esas plu komoda e plu sekura moyeno kam l'akuzativo. » — Pri *omna* bone memorez ke ol sempre uzesas sen artiklo : *omna homi* quale : *kelka homi, multa* *homi.*
 
 **Quale** (de *quala*) = en quala maniero? o : en la maniero di... (1).
 
@@ -255,7 +255,7 @@ Ultre ta primitiv adverbi di maniero, Ido havas mult altri derivita o kompozita,
 
 **Precipue** (de *precipua*) = en precipua maniero (3).
 
-> (3) **Precipua** = D. *hauptsächlich, Haupt...;* E. *principal;* I. *prin**cipale* (precipuo); S. *principal*.En Ido, *princip-al* havas, quale postulas logiko e praktiko, la senco : « relatanta principo ». Ka vere ne existas esencal difero inter : questiono *precipua* e questiono *principala?* Kad *un* e sama vorto povus suficar (sen omnasorta desavantaji) por *du* idei tam diferanta kam ici?
+> (3) **Precipua** = D. *hauptsächlich, Haupt...;* E. *principal;* I. *principale* (precipuo); S. *principal*.En Ido, *princip-al* havas, quale postulas logiko e praktiko, la senco : « relatanta principo ». Ka vere ne existas esencal difero inter : questiono *precipua* e questiono *principala?* Kad *un* e sama vorto povus suficar (sen omnasorta desavantaji) por *du* idei tam diferanta kam ici?
 
 **Kune** (de *kun*) = unionite : **Li omna kune.**
 
@@ -263,7 +263,7 @@ Ultre ta primitiv adverbi di maniero, Ido havas mult altri derivita o kompozita,
 
 **Itere** (de *iterar*) = per itero, iterante.
 
-**Volunte** (de *voluntar*) = kun volunto, D. *gern*; E. *wil**lingly*; F. *volontiers*; I. *volentieri*; S. *de bune gana*; Por. *de boa vontade.*
+**Volunte** (de *voluntar*) = kun volunto, D. *gern*; E. *willingly*; F. *volontiers*; I. *volentieri*; S. *de bune gana*; Por. *de boa vontade.*
 
 **Konsente** (de *konsentar*) = per konsento;
 
@@ -285,11 +285,11 @@ Ultre ta primitiv adverbi di maniero, Ido havas mult altri derivita o kompozita,
 
 > (2) **Retroe** (komp. *troe*) trovesas en « Dictionnaire Français-Ido, p. 463 : *reculons* (à), **retroe**, e 2 linei plu supre on devas lektar anke *retroe* por « en reculant », vice *retro* qua esas imprimeroro.
 
-Kompreneble omna qualifikanta adjektivi povas e darfas genitar adverbo : saja, **saje**; forta, **forte**; avara, **avare**; agreabla, **agreable**; posibla, **posible** (3); egoista, **egoiste**; kordiala, **kordiale**; puerala, **puerale**; instruktiva, **instruk****tive**; doloroza, **doloroze**, e. c., e. c.
+Kompreneble omna qualifikanta adjektivi povas e darfas genitar adverbo : saja, **saje**; forta, **forte**; avara, **avare**; agreabla, **agreable**; posibla, **posible** (3); egoista, **egoiste**; kordiala, **kordiale**; puerala, **puerale**; instruktiva, **instruktive**; doloroza, **doloroze**, e. c., e. c.
 
 > (3) Por agnoskar la certa posibleso, ma tote ne por expresar l'ideo di dubo kontenata en *forsan*, e tante distinta de l'altra, ke nia lingui ipsa dicas equivale : *to forsan esas posibla, ma me tre dubas* *kad il sucesos.* (Videz **forsan** en la adverbi di afirmo, nego o dubo.)
 
-Anke la participi kun -e esas fakte adverbi di maniero : *manjante, kantante; laborinte, dorminte; departonte, mor**tonte; batate, karezate; ekpulsite, judiciote*, e. c.
+Anke la participi kun -e esas fakte adverbi di maniero : *manjante, kantante; laborinte, dorminte; departonte, mortonte; batate, karezate; ekpulsite, judiciote*, e. c.
 
 55. — L'*adverbi di afirmo, nego o dubo* esas :
 

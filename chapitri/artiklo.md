@@ -31,7 +31,7 @@ On darfas uzar la formo **a l'**, **da l'**, **de l'**, **di l'** e la kontrakta
 
 1e Kande la substantivo (singulara o plurala) indikas la tota speco, od omna individui di la speco : **la leono ne esas** **tam kruela kam la tigro; la uceli flugas en la aero, quale** **la fishi natas en l'aquo.**
 
-2e Kande ol indikas un o plura individui *determinita* di la speco : **la libri dil profesoro** (la komplemento : *dil pro**fesoro* determinas *libri*); **querez la mediko** (la mediko kustumata, o qua ja venis; *mediko* signifikus : *ula* od *irga* *mediko*).
+2e Kande ol indikas un o plura individui *determinita* di la speco : **la libri dil profesoro** (la komplemento : *dil profesoro* determinas *libri*); **querez la mediko** (la mediko kustumata, o qua ja venis; *mediko* signifikus : *ula* od *irga* *mediko*).
 
 Ecepte ta du kazi, on devas ne uzar l'artiklo, e mem esas konsilata omisar olu, kande la substantivo havas senco generala ne determinita, exemple en la proverbi : **Kontenteso** **valoras plu multe kam richeso; povreso ne esas vicio.**
 

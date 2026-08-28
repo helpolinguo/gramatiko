@@ -17,7 +17,7 @@ Kande to esas posibla, li produktas individual pronomi, quale sube, per la simpl
 
 **Ula** (L. *ullus*), pronomo : **ulu** (*ula individuo*), plur. **uli,** donas indiko nepreciza, nedefinita.
 
-**Nula** (L. *nullus*), pronomo : **nulu** (*ne mem un indi**viduo*), plur. **nuli**, esas la negativo di **ula.**
+**Nula** (L. *nullus*), pronomo : **nulu** (*ne mem un individuo*), plur. **nuli**, esas la negativo di **ula.**
 
 **Irga** (D. *irgend ein*), pronomo : **irgu**, plur. **irgi**, donas l'indiko maxim ne preciza, maxim nedefinita.
 
@@ -45,7 +45,7 @@ Kande to esas posibla, li produktas individual pronomi, quale sube, per la simpl
 
 **Quanta** (L. *quantus*, D. E. F. I. S.), pronomo : **quanti**. Ol esas korelativo di **tanta**. Ol indikas kun ideo pri la stando grandesala o nombrala dil indikato. Ex. : **Il havas tanta** **enemiki quanta amiki. Quanta penon to kustis!** Same kam pri **tanta**, singularo en **-u** ne esas posibla por **quanta.**
 
-**Cetera** (la) (L. *caetera*), pronomo : (la) **ceteri**. Konocata da omni, adminime per *et caetera*, ol indikas la lasta parto restanta di la enti o kozi quin on mencionas. Ex. : **de mea** **kin amiki quar livis me; la cetera restis e vartis mea risa****nesko.** Quale montras ta exemplo, la *ceteru*, ne uzata, esus neutila.
+**Cetera** (la) (L. *caetera*), pronomo : (la) **ceteri**. Konocata da omni, adminime per *et caetera*, ol indikas la lasta parto restanta di la enti o kozi quin on mencionas. Ex. : **de mea** **kin amiki quar livis me; la cetera restis e vartis mea risanesko.** Quale montras ta exemplo, la *ceteru*, ne uzata, esus neutila.
 
 **Ipsa** (L. *ipse*) juntesas a nomo o pronomo por indikar, ke lu agis, agas, agos od agus sen ul mediaco. Ex. : **mea** **kuzino ipsa responsos, se la afero ne sucesos.**
 
@@ -69,7 +69,7 @@ La naturo ipsa dil adjektivo-pronomo **ipsa** ne plu permisas *ipso* kam **ipsu*
 
 **Poke** = *en basa grado o mikra quanteso* : **Il poke laboras,** **ma il ganas poke.**
 
-**Tante** = *en tanta grado o quanteso* : **Il tante amoras elu!** **Ni tante produktas ke ni ne povas vendar nia omna pro****dukturi.**
+**Tante** = *en tanta grado o quanteso* : **Il tante amoras elu!** **Ni tante produktas ke ni ne povas vendar nia omna produkturi.**
 
 **Quante** = *en quanta grado o mezuro, ye qua preco* : **Quante il amoras elu! Vu tante pagesos quante vu laboros.** **Po quante vu vendas ico?**
 
@@ -83,7 +83,7 @@ La naturo ipsa dil adjektivo-pronomo **ipsa** ne plu permisas *ipso* kam **ipsu*
 
 40. — La vorti **irga, irgu (irgi), irgo, irge** devas esar uzata sole, kande li trovesas en propoziciono nedependanta e kompleta : **donez a me irgo; irgu komprenos to; venez** **irge, ma venez.**
 
-Ma li devas esar sequata dal vorti **qua, qui, quo, quale,** **quante,** se li esas ligata kun subordinal propoziciono. Ex. : **Ad irgu, qua venos, vu dicos, ke me ne esas en la hemo** **(o heme);** — **irgo quon vu donacos ad ilu, to ne kon****tentigos lu;** — **irge quale vu procedos, il blamos vu;** — **irge quante li laboros, li ne povos finar tante balde.**
+Ma li devas esar sequata dal vorti **qua, qui, quo, quale,** **quante,** se li esas ligata kun subordinal propoziciono. Ex. : **Ad irgu, qua venos, vu dicos, ke me ne esas en la hemo** **(o heme);** — **irgo quon vu donacos ad ilu, to ne kontentigos lu;** — **irge quale vu procedos, il blamos vu;** — **irge quante li laboros, li ne povos finar tante balde.**
 
 Komprenende la adverbo **irge** darfas ligesar a la cetera relativi, exemple a **qua, quala, quanta,** e. c. por donar a li la senco nedeterminita. Ex. : **irge qua mulieron o yuninon** **il vidas, il desprizas elu;** — **irge quala instrumenton vi uzos,** **vi ne sucesos facar ta laboro;** — **irge quanta librin il havas,** **il deziras ankore plu multi.**
 
