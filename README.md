@@ -25,6 +25,7 @@ build.mk             make -f build.mk           -> gramatiko.pdf
 index.html           the reading page      }  generated: see below
 gramatiko.md         the book laid flat    }
 chapitri/*.md        one file per chapter  }
+temi/*.md            one file per topic    }
 ornaments/           the three cut plates: portrait, vignette, fleuron
 tools/               the measuring, generating and checking tools
 docs/journal.md      why every value is what it is
@@ -37,11 +38,12 @@ docs/transcription-brief.md  how a leaf is surveyed
 make -f build.mk                 # gramatiko.pdf
 python3 tools/html.py            # index.html, from content/*.tex
 python3 tools/machine_readable.py # gramatiko.md and chapitri/*.md, from index.html
+python3 tools/temi.py            # temi/*.md, from chapitri/*.md
 make -f build.mk checks          # the twelve checks
 ```
 
-`index.html`, `gramatiko.md` and `chapitri/*.md` are **generated, never edited
-by hand**: anything that must change is changed in `content/` or in `tools/`.
+`index.html`, `gramatiko.md`, `chapitri/*.md` and `temi/*.md` are
+**generated, never edited by hand**: anything that must change is changed in `content/` or in `tools/`.
 The build file is named `build.mk` rather than `Makefile` for a reason recorded
 in the journal.
 
@@ -49,6 +51,47 @@ The LaTeX build needs `pdflatex` with XCharter and newtx. The tools need
 Python 3 with `numpy`, `Pillow` and `opencv-python`; the scan-facing ones also
 want `pdftotext`, `pdfinfo` and `pdftoppm` (poppler). The 167 MB scan is not in the
 repository — the transcription and the composed volume are.
+
+## One file per topic
+
+`chapitri/` answers *how is the plural formed* — there is a chapter called
+LA PLURALO EN IDO. It does not answer **what does this grammar say about the
+`-n` ending**, because there is no chapter about it: the discussion lies in
+SINTAXO, VORTORDINO, ADVERBI and four more. A topic that cuts across chapters
+had no address, and what has no address cannot be fetched, only guessed at.
+
+`temi/` gives nine such topics one. Each file holds **the book's own blocks**,
+verbatim — no sentence of grammar is composed there. The editorial act is the
+choice of search terms, and it is therefore printed at the head of every file
+so a reader can see what was searched for and judge it.
+
+| topic | blocks | | topic | blocks |
+| --- | ---: | --- | --- | ---: |
+| akuzativo (the `-n` ending) | 47 | | pasivo | 41 |
+| subjekto | 41 | | kondicionalo | 20 |
+| komplemento | 53 | | imperativo | 10 |
+| participo | 47 | | negado | 10 |
+| infinitivo | 35 | | | |
+
+**MEASURED, AND IT CHANGED THE DESIGN: Beaufront numbered less than half of
+his own book.** 138 paragraphs carry a number, § 1 to § 140 — but 723 blocks,
+249 254 bytes, carry none, and 27 of the 49 chapters have no number anywhere,
+`sufixi.md` (88 kB) and `vortordino.md` among them. A first cut of `temi.py`
+keyed everything to the numbers and so dropped all of it — including the one
+passage where Beaufront argues against the accusative outright, which is the
+whole reason the `-n` topic exists.
+
+The unit is therefore **the block**, and the number is a label it carries when
+the book gives it one. A block inside § 126 is cited `§ 126`; a block in an
+unnumbered chapter is cited by chapter and rank. Every citation stays
+checkable against a printed copy and nothing is out of reach.
+
+Three facts about the numbering, recorded in `temi/index.md` because a model
+citing a number needs them: **§ 28 does not exist** in the transcription —
+GRADI KOMPARALA, which sits between § 27 and § 29, carries no number at all;
+**§ 32 is in the text but not findable by number**, its number having been run
+onto the end of the preceding paragraph; and **§ 55 appears twice**, both times
+in ADVERBI, so citing "§ 55" does not identify one of them.
 
 ## The checks
 
