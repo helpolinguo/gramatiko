@@ -113,7 +113,32 @@ that each note is a paragraph.
 
 `tools/witnesses.py` is the other half: one characteristic string per fix, so
 that a lost container or a bad merge is detected rather than discovered later.
-It exits non-zero if any fix has gone missing.
+It exits non-zero if any fix has gone missing. It checks **56** witnesses.
+
+**CHECK 4 REPORTS ONE FAILURE, AND IT IS CORRECT AS TRANSCRIBED. DO NOT
+"FIX" IT.**
+
+    folio 174 line 38: \nl between « sen » and « fingro » — the welding
+    « senfingro » is attested: a hyphen of division was probably lost
+
+The heuristic is sound and the conclusion is wrong here, for the one reason
+that cannot be coded around: **the passage is about the difference between
+the two forms.** Beaufront writes, in a note on `senfingro` — *Progreso*,
+VII, 495 —
+
+> Se *senfingri* povas dicernesar de *sen fingri*, *senfingro* (homo) povas
+> tam bone dicernesar de *sen fingro*.
+
+*If* senfingri *can be told from* sen fingri, *then* senfingro *(a person)
+can be told just as well from* sen fingro. The check fires because the
+welded form is attested — it is, three lines above, and again on the same
+line — while `fingro` alone is rare, which in this passage it deliberately
+is. Welding the two would make the sentence say that `senfingro` can be
+told from `senfingro`, and destroy the distinction the note exists to draw.
+
+`content/20-part2.tex` line 3716 shows the transcriber welding correctly
+where a hyphen of division really is there — `interna\cc cionajo` — so the
+`\nl` four lines later is a choice, not an oversight.
 
 ## A note on language
 

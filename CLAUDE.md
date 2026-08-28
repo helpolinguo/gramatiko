@@ -41,7 +41,7 @@ a reason is a defect, not a detail:
 Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
-    python3 tools/html.py             # 856 anchors, 1230 paragraphs, 410 notes
+    python3 tools/html.py             # 857 anchors, 1231 paragraphs, 410 notes
     python3 tools/machine_readable.py # 49 chapters, 1690 blocks, 492,417 bytes
     python3 tools/temi.py             # 9 topics over 1641 blocks, 171,328 bytes
     python3 tools/witnesses.py        # 56 witnesses, exits non-zero if one is lost
@@ -87,7 +87,11 @@ number where there is one, by chapter and block rank where there is not.
 And two numbers do not behave: **§ 28 does not exist** and **§ 55 is
 used twice**.
 
-**§ 32 WAS THE THIRD, AND IT IS NOW FIXED — the count above was 138.**
+**§ 32 WAS THE THIRD, AND IT IS NOW FIXED — the count above was 138,
+and the line for html.py above still read « 856 anchors, 1230 paragraphs »
+for a while after: § 32 becoming its own paragraph moved both by one, and
+the figure was corrected only when the checks were next run. A number
+written by hand in a second place is a number that will be wrong there.**
 The transcription had it right all along, at the head of its own line in
 `content/10-part1.tex`; what lost it was `\parplein`, which marks the
 last line of a page as full and from that infers the paragraph runs on.
