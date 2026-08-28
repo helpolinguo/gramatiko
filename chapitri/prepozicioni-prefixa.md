@@ -7,7 +7,7 @@ Transskribita de https://ido.help/gramatiko/
 
 ---
 
-Quale **sen-**, vidita en antea chapitro, altra prepozicioni pleas la rolo di prefixi : **adportar, cirkumpola, cirkum****skribo** (geom.), **ekirar, enirar** (1), **foreso, kontredicar, kun****voko, preterirar, subjacanta, vice-prezidero,** e. c.
+Quale **sen-**, vidita en antea chapitro, altra prepozicioni pleas la rolo di prefixi : **adportar, cirkumpola, cirkumskribo** (geom.), **ekirar, enirar** (1), **foreso, kontredicar, kunvoko, preterirar, subjacanta, vice-prezidero,** e. c.
 
 > (1) « Nia kunfrato ne prizas la regulo, qua igas *transitiva* la verbi kompozita ek verbo *netransitiva* e prepoziciono, quale *en-irar,* *ek-irar*; ed il preferas repetar la prepoziciono. To esas ya permisata, sed (ma) tote superflua, nam en : *me eniras en la chambro*, l'ideo esas dufoye expresata. Tote logike, *me eniras la chambro* = *me iras* *en la chambro*. L' « equivalo » esas « perfekta »; to ne esas « subtilajo »; la verbo divenis transitiva, *absorbante* la prepoziciono ipsa, qua « regas » la komplemento. (Komparez *travidar, trairar*, e. c.) *Progreso*, II, 304, noto.
 

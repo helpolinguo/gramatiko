@@ -13,7 +13,7 @@ Semblas, ke on povas reduktar la Ido-kompozaji al sis klasi sequanta :
 
 1a Substantivo kun substantivo : **fer-voyo, vapor-navo,** **dormo-chambro, skribo-tablo, kap-kuseno,** e. c.
 
-2a Substantivo kun verbo : **sabro-frapar, hers-agar, parto****prenar, tipo-skribar,** e. c.
+2a Substantivo kun verbo : **sabro-frapar, hers-agar, partoprenar, tipo-skribar,** e. c.
 
 3a Substantivo kun adjektivo (*o radiko adjektivigita*) : **ciel-blua, graco-plena, lenso-forma, simio-kapa,** e. c. (1).
 
@@ -21,9 +21,9 @@ Semblas, ke on povas reduktar la Ido-kompozaji al sis klasi sequanta :
 
 4a Prepoziciono kun verbo : **en-irar, ek-irar, preter-pasar,** **ad-portar, ek-pulsar, apud-pozar,** e. c.
 
-5a Prepoziciono, o vorto nombrala, kun adjektivo o substantivo : **sub-mara, super-natura, inter-naciona, du****yara, dek-e-du-yara, dua-dek-yara, un-dia, cent-yara, cent****yaro, inter-tempo, sub-grupo, sub-genero.**
+5a Prepoziciono, o vorto nombrala, kun adjektivo o substantivo : **sub-mara, super-natura, inter-naciona, duyara, dek-e-du-yara, dua-dek-yara, un-dia, cent-yara, centyaro, inter-tempo, sub-grupo, sub-genero.**
 
-6a Irga adjektivo (qual., demons., nedefin., posedala) kun radiko igita adjektivo od adverbo : **granda-nombra,** **blu-okula, gros-kapa, ta-speca, tala-speca; sam-tempa, sam****tempe; ca-dia, ca-die; ta-kaza, ta-kaze; plur-foya, plur-foye;** **omna-monata, omna-monate; lua-parte, lia-latere; mea****nome,** e. c.
+6a Irga adjektivo (qual., demons., nedefin., posedala) kun radiko igita adjektivo od adverbo : **granda-nombra,** **blu-okula, gros-kapa, ta-speca, tala-speca; sam-tempa, samtempe; ca-dia, ca-die; ta-kaza, ta-kaze; plur-foya, plur-foye;** **omna-monata, omna-monate; lua-parte, lia-latere; meanome,** e. c.
 
 Se l'eufonio postulas o nur konsilas lo, on lasas en l'unesma elemento la vokalo dezinenca, quan lu havas kom izolita vorto : **granda-nombra, longa-hara, omna-monate,** **lenso-forma, dormo-chambro, skribo-tablo, posto-marko,** **posto-karto, mondo-linguo** (1).
 
@@ -31,8 +31,8 @@ Se l'eufonio postulas o nur konsilas lo, on lasas en l'unesma elemento la vokalo
 
 Ma, se l'eufonio permisas lo, on omisas la vokalo dezinenca en l'unesma elemento : **ciel-blua, samtempe, plurfoye,** **aernavo, fervoyo,** e. c. (2).
 
-> (2) La kompozaji esas abreviuri. To explikas e justifikas, ke on darfas uzar kom unesma elemento nur simpla radiko, e ne vorto kompleta, se nur la klareso o l'enfonio ne sufras de lo.Nature Ido povas havar kompozado preske tam flexebla e richa kam la Greka. Ma importas, ke ta kompozado satisfacez justa expreso dil idei e posedez klara komprenebleso, kun pronunco facila ed agreabla eufonio. On do evitez tro longa kompozaji ed akumulo de konsonanti, o ruda vicinaji. Ex. : *blankabrakia, larjafronta, kur**vabeka, blankadenta, laktosuganta, arjentoklova* esas nedubeble preferinda kam : *blankbrakia, larjfronta, kurvbeka, blankdenta,* *laktsuganta*, en qui intershokas tro multa konsonanti sen la bufro di vokalo.
+> (2) La kompozaji esas abreviuri. To explikas e justifikas, ke on darfas uzar kom unesma elemento nur simpla radiko, e ne vorto kompleta, se nur la klareso o l'enfonio ne sufras de lo.Nature Ido povas havar kompozado preske tam flexebla e richa kam la Greka. Ma importas, ke ta kompozado satisfacez justa expreso dil idei e posedez klara komprenebleso, kun pronunco facila ed agreabla eufonio. On do evitez tro longa kompozaji ed akumulo de konsonanti, o ruda vicinaji. Ex. : *blankabrakia, larjafronta, kurvabeka, blankadenta, laktosuganta, arjentoklova* esas nedubeble preferinda kam : *blankbrakia, larjfronta, kurvbeka, blankdenta,* *laktsuganta*, en qui intershokas tro multa konsonanti sen la bufro di vokalo.
 
-Ordinare on darfas omisar la streketo, quan ni pozis inter la parti dil vorto kompozita. Ma on uzas lu quik kande on timas, ke la dicerno di la elementi ne facesos sat facile o sat rapide : **mar-aquo, filtr-etamino, kredit-institucuro, posh****horlojo.**
+Ordinare on darfas omisar la streketo, quan ni pozis inter la parti dil vorto kompozita. Ma on uzas lu quik kande on timas, ke la dicerno di la elementi ne facesos sat facile o sat rapide : **mar-aquo, filtr-etamino, kredit-institucuro, poshhorlojo.**
 
 Cetere on sempre darfas ne uzar la kompozo e dicar : **aquo marala** o **di maro;** **institucuro kreditala** o **di kredito;** **etamino por filtrar; postal marko, postal karto,** o **marko** **postala, karto postala, mondal linguo** o **linguo mondala,** e. c.

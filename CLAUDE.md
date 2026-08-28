@@ -42,9 +42,30 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 857 anchors, 1231 paragraphs, 410 notes
-    python3 tools/machine_readable.py # 49 chapters, 1690 blocks, 492,417 bytes
-    python3 tools/temi.py             # 9 topics over 1641 blocks, 171,328 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1690 blocks, 491,595 bytes
+    python3 tools/temi.py             # 9 topics over 1641 blocks, 171,550 bytes
+    python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,039 bytes
     python3 tools/witnesses.py        # 56 witnesses, exits non-zero if one is lost
+
+**THE FIGURES ABOVE MOVED ONCE, AND THIS IS WHY.** `gramatiko.md` gave
+492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
+since it was written. A word broken across a line of the facsimile comes
+back as two runs, the transcription reopening the emphasis on the second
+half, so « maledukita » was `<i>male</i><i>dukita</i>`. The page is right
+either way, two touching italic runs drawing as one; **the Markdown was
+not**: it became « male\*\*dukita\* », which is unmatched markup and an
+unreadable word for whoever reads the `.md` rather than the page.
+MEASURED: 127 such words, 40 of them in SUFIXI — ama|bas, deses|timo,
+male|dukita, paro|ladar, pik|turo, skul|tata. `as_markdown()` now joins two
+runs of the SAME tag with nothing between them, which is invisible because
+they already drew as one, and the space is what tells this apart from two
+separate emphasised words. 124 of the 127 are joined; the other 3 are
+text-plus-bold across a folio mark, which is well-formed already.
+
+**And `temi/kondicionalo.md` went from 20 blocks to 21 by that alone** — the
+recovered block is a note in which « kondicionalo » had been split, so no
+search for it could ever have found it. A topic file is only as complete as
+the text it searches.
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename

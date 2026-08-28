@@ -17,7 +17,7 @@ Transskribita de https://ido.help/gramatiko/
 
 Ol signifikas *kontre*, qua expresas la sama ideo en la linguo komuna : **kontreveneno, kontrefebra, kontreverma** (1).
 
-> (1) On questionas, kad ni devas admisar la prefixo *anti-* kun la sama senco kam *kontre-*. *On devas distingar tri kazi* :1a En la teknikala kazi (ex. en la matematikal vortaro) on devas admisar la prefixo *anti* kun specala senco. To nule koncernas la komuna linguo.2a En la linguo komuna, on devas admisar vorti integra, tote pronta, qui kontenas *anti-*, kande li esas internaciona : pro ta motivo ni adoptis *antipodo, antipatio, antisepta*, e. c. ed on devos probable adoptar, *antipatriotismo, antimilitarismo* (same kam *militarismo*), e. c. Ico havas nula detrimento, nam, o la radiko a qua aplikesas *anti-* ne existas en nia linguo, o la kompozajo esas tante konocata, ke nulu povas dubar o nesavar lua senco.3a En la cetera kazi, on devas uzar kom prefixo la prepoziciono *kontre*, qua sola devas expresar ta ideo (segun la principo di unasenceso). Tale ni havas : *kontre-pezo, kontre-veneno*, e. c. E singlu esas libera formacar simila kompozaji, kande li esas necesa e logikala : *kontre-konvulsa, kontre-reumatisma, kontre-religia, kontre**dinastia, kontre-konstituca*. To rezultas de la strukturo ipsa di la linguo; e se on uzus simile *anti-*, to genitus nur duopla formi, e konseque konstanta hezito en l'uzado. (*Progreso*, februaro 1911, pag. 689.)
+> (1) On questionas, kad ni devas admisar la prefixo *anti-* kun la sama senco kam *kontre-*. *On devas distingar tri kazi* :1a En la teknikala kazi (ex. en la matematikal vortaro) on devas admisar la prefixo *anti* kun specala senco. To nule koncernas la komuna linguo.2a En la linguo komuna, on devas admisar vorti integra, tote pronta, qui kontenas *anti-*, kande li esas internaciona : pro ta motivo ni adoptis *antipodo, antipatio, antisepta*, e. c. ed on devos probable adoptar, *antipatriotismo, antimilitarismo* (same kam *militarismo*), e. c. Ico havas nula detrimento, nam, o la radiko a qua aplikesas *anti-* ne existas en nia linguo, o la kompozajo esas tante konocata, ke nulu povas dubar o nesavar lua senco.3a En la cetera kazi, on devas uzar kom prefixo la prepoziciono *kontre*, qua sola devas expresar ta ideo (segun la principo di unasenceso). Tale ni havas : *kontre-pezo, kontre-veneno*, e. c. E singlu esas libera formacar simila kompozaji, kande li esas necesa e logikala : *kontre-konvulsa, kontre-reumatisma, kontre-religia, kontredinastia, kontre-konstituca*. To rezultas de la strukturo ipsa di la linguo; e se on uzus simile *anti-*, to genitus nur duopla formi, e konseque konstanta hezito en l'uzado. (*Progreso*, februaro 1911, pag. 689.)
 
 **arki.** — Ta prefixo, pasable internaciona (Greka origine), signifikas : *en eminenta grado*; ol do sempre indikas grado supera : **arkianjelo, arkiduko, arkidiakono**, e. c. (*Progreso*, III, 419. — Decido 649.)
 
@@ -25,7 +25,7 @@ Ol signifikas *kontre*, qua expresas la sama ideo en la linguo komuna : **kont
 
 > (2) En noto : Sama remarki kam pri *anti-*. L'ideo di *auto-* povas tradukesar per *su-* (ex. : *su-defenso*) o per *propra* (ex. : *propr-amo*).
 
-**bi.** — Ta ciencal o teknikala prefixo « signifikas ofte « dufoye », sed anke « duopla », « du kune » dicas Sro Couturat (*Progreso*, III, 3); ol esas impozata da l'internacioneso; e pluse ol esas tre oportuna por supresar la dusencesi » : se on uzus, exemple, *du* (vice *bi-*) en *biplani, bicikli*, on hezitus omnafoye, kande on parolus pri *du plani, du cikli*. — Ex. : *biciklo, bipedo, bipeda, bilingua, bidenta, bikonkava, bikon**vexa, bimanua*, e. c.
+**bi.** — Ta ciencal o teknikala prefixo « signifikas ofte « dufoye », sed anke « duopla », « du kune » dicas Sro Couturat (*Progreso*, III, 3); ol esas impozata da l'internacioneso; e pluse ol esas tre oportuna por supresar la dusencesi » : se on uzus, exemple, *du* (vice *bi-*) en *biplani, bicikli*, on hezitus omnafoye, kande on parolus pri *du plani, du cikli*. — Ex. : *biciklo, bipedo, bipeda, bilingua, bidenta, bikonkava, bikonvexa, bimanua*, e. c.
 
 **bo-.** — Ta prefixo, Franca per *beau-* (pron. : *bo*) esas heredita de Esperanto senkonteste. Ol indikas : *parenteso per* *mariajo* : **bopatrulo** = *patrulo di la spozino* (relate elua spozo); **bofratulo** = *fratulo di la spozino* (relate elua spozo). Ta prefixo quik adoptesis.
 
@@ -39,7 +39,7 @@ Mea *stifa* onklulo esas la spozo di mea onklino rimarijinta su kun ilu, ma tote
 
 **des-.** — Ta prefixo internaciona indikas la kontreajo dil koncepto expresata sen olu. Exemple : **desobedio, deshonoro,** **desavantajo, deshonesta, desfacila, desbona** (1), **desinfektar,** **desorganizar, desamar** (1) esas la kontreaji di : *obedio,* *honoro, avantajo, honesta, facila, bona, infektar, organizar,* *amar.*
 
-> (1) **Mala** e **odiar** certe esas la preferinda kontreaji di *bona* e *amar;* e tale pri la vorti qui, sub formo simpla, esas la kontreaji di altri : *lenta, mikra, povra* e. c., kontreaji di *rapida, granda,* *richa.* Ma, pro ke *des* sempre facas ek vorto la kontreajo dil vorto uzata sen olu, on darfas dicar o skribar : *deslenta, despovra, des**mala* e. c., se la memorado ne furnisas : *rapida, richa, bona.*
+> (1) **Mala** e **odiar** certe esas la preferinda kontreaji di *bona* e *amar;* e tale pri la vorti qui, sub formo simpla, esas la kontreaji di altri : *lenta, mikra, povra* e. c., kontreaji di *rapida, granda,* *richa.* Ma, pro ke *des* sempre facas ek vorto la kontreajo dil vorto uzata sen olu, on darfas dicar o skribar : *deslenta, despovra, desmala* e. c., se la memorado ne furnisas : *rapida, richa, bona.*
 
 On devas dicernar e distingar sorgoze la vorti *kontrea*, formacata per **des-**, de la vorti *kontredicanta* (simpla nego), formacata per **ne-** : *neafabla, neutila, neobedio.*
 
@@ -65,7 +65,7 @@ Nultempe uzez **des** kom radiko, ma **kontre** (kontree, kontrea, kontreajo).
 
 > (5) Ni konocis ta fakto plura yari ante ke *Progreso* tusheskis la punto. Ma motivo di « neoportuneso » deskonsilis la quika substituco di *des* a *mal*. Ol suficabus por impedar interkonsento kun l'Espisti : la stroko atingabus tro grave la *netushebla* Fundamento.
 
-**dis-.** — Ta prefixo Greka e Latina origine, nun pasable internaciona, indikas : *separo, disperso, dis-semo*, nam ol signifikas per su « hike ed ibe ». Ex. : **disdonar, disdon(ad)o** = ago donar hike ed ibe, donar parto ad ica, parto ad ita (France *distribuer* (1) **dissendar** = sendar hoke ed ibe; **dis****pozar** = pozar hike ed ibe, aranjar en diversa loki, manieri, sur diversa plasi (2).
+**dis-.** — Ta prefixo Greka e Latina origine, nun pasable internaciona, indikas : *separo, disperso, dis-semo*, nam ol signifikas per su « hike ed ibe ». Ex. : **disdonar, disdon(ad)o** = ago donar hike ed ibe, donar parto ad ica, parto ad ita (France *distribuer* (1) **dissendar** = sendar hoke ed ibe; **dispozar** = pozar hike ed ibe, aranjar en diversa loki, manieri, sur diversa plasi (2).
 
 > (1) La verbo « *distributar* » rezervesas al idei teknikala : distributar vaporo, gasi e. c.
 
@@ -83,7 +83,7 @@ Same **frati** esas min preciza kam **gefrati**, quale montras ica exemplo : *
 
 Ta prefixo esas komoda; l'exempli supera montras lo. Ma on devas evitar sorgoze trouzar o misuzar olu (Videz, en l'unesma parto, la *chapitro di la substantivi*, precipue la du alinei finala).
 
-**mi-.** — Ta prefixo internaciona quik adoptesis. Ol signifikas : *duime*. Ex. : **lasez la pordo miapertita; kun miklo****zita okuli; il parolis mivoce; laboro mifacita; mimortinta** **pro** (o de) **koldeso; pos mihoro.**
+**mi-.** — Ta prefixo internaciona quik adoptesis. Ol signifikas : *duime*. Ex. : **lasez la pordo miapertita; kun miklozita okuli; il parolis mivoce; laboro mifacita; mimortinta** **pro** (o de) **koldeso; pos mihoro.**
 
 Per rezulto di rimariajo povas existar **mifrati** o **stifa frati** (Vid. **bo-**). L'unesmi esas ti qui havas o la sama patrulo o la sama patrino. La duesmi esas la filii quin havas de sua unesma mariajo vua *stifa* patrulo o patrino. Fakte nek li, nek la stifa patrulo esas parenta kun vu.
 
@@ -91,7 +91,7 @@ Do *mi-patrulo* nek *mipatrino* (o *mimatro*) povas existar, nek anke *mifilio*,
 
 Remarkez, ke France *beau-* (bo-) konstante produktas ambigueso : *beau-père*, exemple, esas lore *bopatrulo*, lore *stifa* *patrulo*, e nur posa expliko fixigas la senco.
 
-**mis-.** — Ta prefixo esas Germana : *miss* ed Angla : *mis* (1). Ol quik adjuntesis dal Komitato ipsa di la *Delegitaro*, dum lua kunsidi « por expresar : *erore, nejuste* » : **misaudar,** **miskomprenar, misuzar, miskantar, mispronuncar, misduk****tar, misguidar, misfacar,** e. c.
+**mis-.** — Ta prefixo esas Germana : *miss* ed Angla : *mis* (1). Ol quik adjuntesis dal Komitato ipsa di la *Delegitaro*, dum lua kunsidi « por expresar : *erore, nejuste* » : **misaudar,** **miskomprenar, misuzar, miskantar, mispronuncar, misduktar, misguidar, misfacar,** e. c.
 
 > (1) La Franca prezentas lu kelke en : *més-user*.
 
@@ -99,15 +99,15 @@ On remarkez, ke esas difero inter *misaudar* e *audar male* o *malaudar*. Ulu qu
 
 Komprenende **mis** ne darfas plear la rolo di radiko. Do ne dicez *mise*, ma *erore, nejuste* o *male*, segun l'ideo.
 
-**ne-.** — Ta vorto ne esas prefixo nature, nam ol esas negal *adverbo*. Ma ol uzesas quale prefixo, kom elemento neganta relate la vorto a qua on unionas lu : **neposibla, nevera,** **nejusta, neyusta, nevidebla, nekohere, neprecizeso, nevide****blaji.** e. c.
+**ne-.** — Ta vorto ne esas prefixo nature, nam ol esas negal *adverbo*. Ma ol uzesas quale prefixo, kom elemento neganta relate la vorto a qua on unionas lu : **neposibla, nevera,** **nejusta, neyusta, nevidebla, nekohere, neprecizeso, nevideblaji.** e. c.
 
-Ne konfundez **ne-** a **des-** od a **sen-** (prepoziciono). **Ne-** indikas simpla nego, **des-** kontreeso, **sen-** manko : **nericha,** **desricha** = *povra*; **nebela, desbela** = *leda*; **senbarba, sen****kapa, senarma, senpova.** Konseque, *senutila, senplena* (1), vice **neutila, neplena** esus absurda, e *nearma, nebarba, ne**kapa, nepova,* vice **senarma, senbarba, senkapa, senpova** esus egale absurda.
+Ne konfundez **ne-** a **des-** od a **sen-** (prepoziciono). **Ne-** indikas simpla nego, **des-** kontreeso, **sen-** manko : **nericha,** **desricha** = *povra*; **nebela, desbela** = *leda*; **senbarba, senkapa, senarma, senpova.** Konseque, *senutila, senplena* (1), vice **neutila, neplena** esus absurda, e *nearma, nebarba, nekapa, nepova,* vice **senarma, senbarba, senkapa, senpova** esus egale absurda.
 
 > (1) Pro quo ne *senplena?* Esperantisto respondos : pro ke ni ne dicas *pleno* (vice *pleneco*). Ma pro quo vu dicas *utilo* (vice *utileco*)? Ka plena ne esas adjektivo totsame kam *utila?* Do, se on admisas *senutila*, on devas admisar *senplena.*
 
 Ne konfundez **senmova** = *qua esas sen movo*, a **nemovebla** = *qua ne esas movebla, quan on ne povas movar*; **sendube** dicas, ke ne existas dubo pri..., **nedubeble** : ke on ne povas dubar, ke lo dicata ne esas dubebla.
 
-La vorti kompozita per **sen-** opozesas kom simpla negi al derivaji havanta la sufixo **-oz** (qua egalesas **kun**) : **sen****anma, sendolora** fakte esas la negi di **anmoza, doloroza.**
+La vorti kompozita per **sen-** opozesas kom simpla negi al derivaji havanta la sufixo **-oz** (qua egalesas **kun**) : **senanma, sendolora** fakte esas la negi di **anmoza, doloroza.**
 
 **sen-** = *-los* Germana, *-less* Angla.
 
@@ -119,20 +119,20 @@ La vorti kompozita per **sen-** opozesas kom simpla negi al derivaji havanta la 
 
 > (4) Decido 376. Vorto necesa e quan nek *trakurar*, nek *trairar* povas remplasar. Per extenso on dicas : *X... parkuris en automooilo* *100 kilometri en un horo. Y... facis en aeroplano parkuro de 35 kil.,* *ye 100 metri di alteso.*
 
-**para-.** — Ta prefixo cience internaciona adoptesis per la decido 105 « *por indikar shirmilo kontre-* » : **parafalo, para****lumo, parafulmino, parafairo, paracintilo, parapluvo, para****suno, paravento, paragrelo, parapolvo, paramoskito,** e. c.
+**para-.** — Ta prefixo cience internaciona adoptesis per la decido 105 « *por indikar shirmilo kontre-* » : **parafalo, paralumo, parafulmino, parafairo, paracintilo, parapluvo, parasuno, paravento, paragrelo, parapolvo, paramoskito,** e. c.
 
-**pre-.** — Ta prefixo Latina e nun internaciona quik adoptesis. Kun formo plu kurta e plu internaciona ol remplasas *ante* e havas la sama senco por la vorto a qua on unionas lu. **Previdar** = *ante-vidar* (o : vidar antee); **predicar** = *ante**dicar* (o : dicar antee); **prematura** = *matura ante* la tempo, la sezono; **prepozar, prehiere, prenomo, prehistorio, pre****dankar, preirar** (1)**, prejudiko, preavo, preonklo.**
+**pre-.** — Ta prefixo Latina e nun internaciona quik adoptesis. Kun formo plu kurta e plu internaciona ol remplasas *ante* e havas la sama senco por la vorto a qua on unionas lu. **Previdar** = *ante-vidar* (o : vidar antee); **predicar** = *antedicar* (o : dicar antee); **prematura** = *matura ante* la tempo, la sezono; **prepozar, prehiere, prenomo, prehistorio, predankar, preirar** (1)**, prejudiko, preavo, preonklo.**
 
 > (1) Ne impedas *avanirar*. Ex. : **Unesme il preiris me, sequante** **Petrus; ma balde il avaniris e Petrus ipsa trovesis dop ilu.**
 
-**pseudo-.** — Ta prefixo adoptesis unanime dal Akademio per la decido 1629 « kom prefixo internacione konocata e ja uzata en Ido, kun la senco : *ne-vera, ne-reala*. Ex. : **pseudo-profeto, pseudorepublikisto, pseudofilozofo, pseudo****amiko, pseudocienco, pseudomartiro, pseudolinguisto, pseu****donobelo, pseudoinventero,** e. c.
+**pseudo-.** — Ta prefixo adoptesis unanime dal Akademio per la decido 1629 « kom prefixo internacione konocata e ja uzata en Ido, kun la senco : *ne-vera, ne-reala*. Ex. : **pseudo-profeto, pseudorepublikisto, pseudofilozofo, pseudoamiko, pseudocienco, pseudomartiro, pseudolinguisto, pseudonobelo, pseudoinventero,** e. c.
 
 **quadri-.** — Ta ciencala prefixo signifikas : « *qua havas* *quar...* ». Exempli : **quadripedo, quadrimanuo, quadripeda,** **quadrimanua; quadriangulo, quadriangula.**
 
-**retro-.** — Ta prefixo Latina, nun internaciona, esas quaze adverbo per sua senco; ol quik adoptesis por indikar *la ago* *inversa* di ta quan indikas sen olu la vorto fundamentala : **retrocedar** = *cedar ad ulu to quon ol cedabis a ni*; **retroirar** = *irar ad-dope, desavance*; **retropulsar** = *irigar desavance per* *pulso*; **retrovenar** = *venar per iro inversa al loko de ube on* *departabis*. Ex. : **me livis la hemo ye duadek kloki e retro****venis en lu ye duadek e tri quarimi.** — **Retroagiva** = *qua* *povas agar, efikar pri kozi antea, pri lo pasinta* : **la lego ne** **havas efekto retroagiva.**
+**retro-.** — Ta prefixo Latina, nun internaciona, esas quaze adverbo per sua senco; ol quik adoptesis por indikar *la ago* *inversa* di ta quan indikas sen olu la vorto fundamentala : **retrocedar** = *cedar ad ulu to quon ol cedabis a ni*; **retroirar** = *irar ad-dope, desavance*; **retropulsar** = *irigar desavance per* *pulso*; **retrovenar** = *venar per iro inversa al loko de ube on* *departabis*. Ex. : **me livis la hemo ye duadek kloki e retrovenis en lu ye duadek e tri quarimi.** — **Retroagiva** = *qua* *povas agar, efikar pri kozi antea, pri lo pasinta* : **la lego ne** **havas efekto retroagiva.**
 
 Pro sua senco intime adverbala, retro darfas uzesar izolite, kom adverbo : **Retroe! ne plus avancez : esas danjero.**
 
-**ri-.** — Ta prefixo, Angla sone, Italiana forme e sone, indikas nur *ago quan on iteras, iteris od iteros*. Ol devas ne konfundesar a *retro-*. **Rihavar, ridicar, rifacar, riagar,** **riskribar, rilektar** = *havar, dicar, facar, agar, skribar, lektar* *itere*. **Nun me riesas kontenta, pro ke me rihavas mea per****dita pekunio.**
+**ri-.** — Ta prefixo, Angla sone, Italiana forme e sone, indikas nur *ago quan on iteras, iteris od iteros*. Ol devas ne konfundesar a *retro-*. **Rihavar, ridicar, rifacar, riagar,** **riskribar, rilektar** = *havar, dicar, facar, agar, skribar, lektar* *itere*. **Nun me riesas kontenta, pro ke me rihavas mea perdita pekunio.**
 
 Ta prefixo unesme adoptita kun la formo **re** chanjis pose ta formo a l'Italiana **ri**, por evitar konfundi en multa radiki internaciona qui komencas per *re*, ma en qui ta silabo ne havas senco di itero : *rebel, recev, refuz, regard, regret,* *reklam, rekolt*, e. c. (*Decidi*, 647 et 648). Esperanto preferas erore alterar *re* a *ri* ed uzar *re-* kun duopla senco.

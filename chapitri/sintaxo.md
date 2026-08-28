@@ -15,21 +15,21 @@ L'*adjektivo* devas preirar o sequar nemediate la substantivo quan ol relatas. M
 
 > (1) Videz ye pagino 30 to quo dicesas pri la *plaso dil adjektivo*.
 
-L'*adverbo* devas preirar o sequar nemediate la vorto quan ol relatas. Ma la adverbi **ne**, **tre** devas *preirar* ol sempre : **me ne prenis vua libro** tre diferas sence de : **ne me prenis** **vua libro**, ed anke de : **me prenis ne vua libro** (ma altra), e nur l'adverbo **ne**, preiranta nemediate la vorto quan ol relatas, indikas nedubeble ta difero. — **Il tre deziras riches****kar rapide** diferas de : **il deziras tre richeskar rapide**, od anke de : **il deziras richeskar tre rapide**, e nur l'adverbo **tre**, lokizita juste, indikas nedubeble ta difero (2).
+L'*adverbo* devas preirar o sequar nemediate la vorto quan ol relatas. Ma la adverbi **ne**, **tre** devas *preirar* ol sempre : **me ne prenis vua libro** tre diferas sence de : **ne me prenis** **vua libro**, ed anke de : **me prenis ne vua libro** (ma altra), e nur l'adverbo **ne**, preiranta nemediate la vorto quan ol relatas, indikas nedubeble ta difero. — **Il tre deziras richeskar rapide** diferas de : **il deziras tre richeskar rapide**, od anke de : **il deziras richeskar tre rapide**, e nur l'adverbo **tre**, lokizita juste, indikas nedubeble ta difero (2).
 
 > (2) **Kam** sempre devas esar **inter** la du parti o termini dil komparo, en qua ol uzesas. Konseque ol ne darfas preirar l'unesma. Do ne dicez, exemple : *to nocas* **kam** *l'editero tam l'aboninti*, ube **kam** ne trovesas inter la du termini : *editero, aboninti*, ma preiras l'unesma. Dicez : *to nocas tam l'editero* **kam** *l'aboninti*, quale vu dicus : *to* *nocas plu l'editero* **kam** *l'aboninti* o : *to nocas min l'editero* **kam** *l'aboninti.*
 
 La *participo* — en la tempi kompozita dil aktiva o pasiva voco — sempre devas sequar la verbo helpanta, e separesar de olu nur da adverbo relatanta la verbo : **li esas tre amata;** **ica soldato esis grave vundata.** Ta regulo justifikesas dal fakto, ke la du vorti unionita kompozas simpla verbal formo (**amesas, vundesis**).
 
-*Adjektivo* o *participo* sempre devas *sequesar* da sua komplementi direta o nedireta, e lu devas *sequar* nemediate sua substantivo : **la homo estimata da omni** (e ne : **la da omni** **estimata homo**, o : **la homo da omni estimata**). **La fervoyi** **formacas reto kovranta la mondo** (e ne : **reto la mondo ko****vranta**, e mem mine : **la mondo kovranta reto.**
+*Adjektivo* o *participo* sempre devas *sequesar* da sua komplementi direta o nedireta, e lu devas *sequar* nemediate sua substantivo : **la homo estimata da omni** (e ne : **la da omni** **estimata homo**, o : **la homo da omni estimata**). **La fervoyi** **formacas reto kovranta la mondo** (e ne : **reto la mondo kovranta**, e mem mine : **la mondo kovranta reto.**
 
-Lasta exemplo, qua montras bone l'importo di vortordino logikala : « **Il ne povas tolerar to quo esas segun lua kon****vinkeso absolute erora.** » *Erora* semblas relatar *konvinkeso*. Se la ideo esas : *erora segun lua konvinkeso*, on devas dicar : « **Il ne povas tolerar to quo esas absolute erora segun lua** **konvinkeso.** »
+Lasta exemplo, qua montras bone l'importo di vortordino logikala : « **Il ne povas tolerar to quo esas segun lua konvinkeso absolute erora.** » *Erora* semblas relatar *konvinkeso*. Se la ideo esas : *erora segun lua konvinkeso*, on devas dicar : « **Il ne povas tolerar to quo esas absolute erora segun lua** **konvinkeso.** »
 
-126. — La *normal ordino* dil vorti en propoziciono esas ica : 1e subjekto, 2e verbo, 3e komplemento direta; singla de ta termini esante akompanata (segun la reguli donata supere) da lia omna komplementi. La komplementi nedireta darfas pozesar irgaloke, ma dop la verbo prefere : **me** **rakontis bela historio a vua infantino**, o : **me rakontis a vua** **infantino bela historio.** En ica lasta frazo, **bela** ne povas relatar **infantino**, nam on dicabus takaze : **a vua bela in****fantino**, ed on devabus pozar **historio** avane.
+126. — La *normal ordino* dil vorti en propoziciono esas ica : 1e subjekto, 2e verbo, 3e komplemento direta; singla de ta termini esante akompanata (segun la reguli donata supere) da lia omna komplementi. La komplementi nedireta darfas pozesar irgaloke, ma dop la verbo prefere : **me** **rakontis bela historio a vua infantino**, o : **me rakontis a vua** **infantino bela historio.** En ica lasta frazo, **bela** ne povas relatar **infantino**, nam on dicabus takaze : **a vua bela infantino**, ed on devabus pozar **historio** avane.
 
-Omna violaco dil normal ordino (*subjekto, verbo, kom**plemento direta*) esas nomizat inversigo, sive kande la komplemento direta preiras la verbo, sive kande la subjekto sequas lu. Exemple, se vice : **la vintro venos balde**, me dicas : **balde venos la vintro**, me inversigas la subjekto, nam ol sequas la verbo vice preirar olu.
+Omna violaco dil normal ordino (*subjekto, verbo, komplemento direta*) esas nomizat inversigo, sive kande la komplemento direta preiras la verbo, sive kande la subjekto sequas lu. Exemple, se vice : **la vintro venos balde**, me dicas : **balde venos la vintro**, me inversigas la subjekto, nam ol sequas la verbo vice preirar olu.
 
-L'inversigi povas esar impozata dal bezono saliigar termino, pozante lu avane (ico remplasas l'expresuro *c'est...* *qui* o *que* di la Franca), o (en la traduki) dal deziro sequar l'ordino dil texto originala. Se la frazo kontenas, quale supere, nur subjekto e verbo, l'inversigo dil unesma ne povas genitar ula miskompreno. Ma, se la frazo kontenas subjekto e komplemento direta od atributo, naskas miskompreno, en ula kazi, kande on inversigas lia normal ordino. Lore, por evitar ta grava desavantajo, on distingas la *kom**plemento direta* o la *atributo* per la final litero **n** (1).
+L'inversigi povas esar impozata dal bezono saliigar termino, pozante lu avane (ico remplasas l'expresuro *c'est...* *qui* o *que* di la Franca), o (en la traduki) dal deziro sequar l'ordino dil texto originala. Se la frazo kontenas, quale supere, nur subjekto e verbo, l'inversigo dil unesma ne povas genitar ula miskompreno. Ma, se la frazo kontenas subjekto e komplemento direta od atributo, naskas miskompreno, en ula kazi, kande on inversigas lia normal ordino. Lore, por evitar ta grava desavantajo, on distingas la *komplemento direta* o la *atributo* per la final litero **n** (1).
 
 > (1) Uli nomizas ta **n** « akuzativo », ma la vorto ne esas vere justa; nam Ido ne deklinas e konseque ne havas plu multe kam la Franca o l'Italiana, exemple, nominativo, akuzativo e. c., quale la Latina, la Germana ed altra lingui.
 
@@ -37,7 +37,7 @@ Exempli pri l'inversigo dil komplemento direta :
 
 **Quon vu dicas? Quan vu vidas? Quin vu prenas?** (La uzo di *quon, quan, quin* esas la maxim ofta kazo dil **n** inversigala). — **Quanta homin la alkoholismo foligas !** — **Quanta servistin el havas ?** — **Nekredebla historion tu** **rakontas ad ni** (2). — **Icon me ja dicis a vu plurfoye** (3). — **Tun, ne ilun me bezonas.** — **La maxim bonan me** **prenis** (4).
 
-> (2) Nulo certe impedas dicar : *Tu rakontas a ni historio nekre**debla.*
+> (2) Nulo certe impedas dicar : *Tu rakontas a ni historio nekredebla.*
 
 > (3) Same nulo impedas dicar : *Me ja dicis ico ad vu plurfoye.*
 
@@ -63,11 +63,11 @@ Ma en : 1e **Quo esos o divenos tala autoritato?** 2e **Quo** **divenas aquo p
 
 > (4) *Quid sit veritas* (Latine) ? questiono di Pilatus à Iesu-Kristo.
 
-L'unesma frazo dicas France : *qu'est-ce qui sera ou de**viendra une telle autorité?* ed anke : *que sera ou deviendra* *une telle autorité?* — La duesma povas recevar du respondi : *vaporo, glacio*. — La triesma havas kom respondo posibla : *azilo di raptisti* o *la chefurbo di rejio Italia* (1). — La quaresma signifikas France : *qu'est-ce que la vérité* o : *qu'est-ce* *qui est la vérité?*
+L'unesma frazo dicas France : *qu'est-ce qui sera ou deviendra une telle autorité?* ed anke : *que sera ou deviendra* *une telle autorité?* — La duesma povas recevar du respondi : *vaporo, glacio*. — La triesma havas kom respondo posibla : *azilo di raptisti* o *la chefurbo di rejio Italia* (1). — La quaresma signifikas France : *qu'est-ce que la vérité* o : *qu'est-ce* *qui est la vérité?*
 
 > (1) *Progreso*, VI, 607, Remarko.
 
-Se ni adjuntos a **quo** di ta quar frazi la **n** inversigala, kun olu la unesma frazo signifikos France nur : *que sera* *ou deviendra*..., e sen olu (quo) : *qu'est-ce qui sera ou de**viendra* une telle autorité?
+Se ni adjuntos a **quo** di ta quar frazi la **n** inversigala, kun olu la unesma frazo signifikos France nur : *que sera* *ou deviendra*..., e sen olu (quo) : *qu'est-ce qui sera ou deviendra* une telle autorité?
 
 Kun la **n** (quon) la duesma frazo havos kom respondo : *vaporo*, e sen olu : *glacio*.
 
@@ -89,7 +89,7 @@ La rolo di la **n** inversigala esas nur avertar pri ul inversigo e *quik* imped
 
 129. — Pronomo relativa-questionala sempre devas komencar la relativa propoziciono qua dependas de olu, ed ol darfas preiresar nur da prepoziciono o da *irge, irgu* : **la persono di qua vu vidas la domeno; me questionas, di qua** **esas ta gardeno; ad irge qua povro il almonas; pri irge quo** **vu parolas, vu sempre interesas; ad irgu qua venos, vu dicos** **ke me esas absenta.** Konseque, kande relativa pronomo esas komplemento direta, existas necese inversigo, e ta pronomo devas recevar la **n** inversigala : **la soldato, quan vu vidas;** **la soldati quin vu vidis.**
 
-130. — La **-n** posibligas granda flexebleso e granda libereso; ma on devas ne trouzar l'inversigi (quale ni ja dicis) tante plu, ke mem la **n** inversigala ne posibligas evitar sempre omna ambigueso. Ex. : **me vidis ilun ocidan****tan viron** o **me vidis ilun ocidar viron** ne esas plu klara kam : **me vidis il(u) ocidanta** (o **ocidar**) **viro; la fervoyi** **formacas reton kovrantan la mondon** ne esas plu klara kam... **reto kovranta la mondo;** en la du kazi, nur l'ordino di la vorti povas distingar la subjekto de la komplemento. Same nur l'ordino (kun la komuna raciono) distingas li en frazi simila ad ici : **me igas imprimisto(n) imprimar** **libro(n).**
+130. — La **-n** posibligas granda flexebleso e granda libereso; ma on devas ne trouzar l'inversigi (quale ni ja dicis) tante plu, ke mem la **n** inversigala ne posibligas evitar sempre omna ambigueso. Ex. : **me vidis ilun ocidantan viron** o **me vidis ilun ocidar viron** ne esas plu klara kam : **me vidis il(u) ocidanta** (o **ocidar**) **viro; la fervoyi** **formacas reton kovrantan la mondon** ne esas plu klara kam... **reto kovranta la mondo;** en la du kazi, nur l'ordino di la vorti povas distingar la subjekto de la komplemento. Same nur l'ordino (kun la komuna raciono) distingas li en frazi simila ad ici : **me igas imprimisto(n) imprimar** **libro(n).**
 
 La **-n** esas anke neutila en kazi analoga al sequanti : **me** **judikis bona la vino**, o **me judikis kom bona la vino**, ideo tre diferanta de : **me trovis la vino bona** = (pos serchir) **me trovis la vino bona**, o : **la bona vino.**
 
@@ -103,6 +103,6 @@ La **-n** esas anke neutila en kazi analoga al sequanti : **me** **judikis bon
 
 **Nula -n** esus utila o justifikebla en tala frazi, nek en ica : **me facas** (fabrikas) **vitro neruptebla**, qua diferas tote de : **me igas neruptebla la vitro.**
 
-**Mem pos kom n ne esas uzenda : Me selektis ilu kom pre****zidero** (por ke il esez prezidero), qua diferas de : **me, kom** **prezidero, selektis ilu**, o : **kom prezidero me selektis ilu** (3).
+**Mem pos kom n ne esas uzenda : Me selektis ilu kom prezidero** (por ke il esez prezidero), qua diferas de : **me, kom** **prezidero, selektis ilu**, o : **kom prezidero me selektis ilu** (3).
 
 > (3) Multi de la lasta exempli vizas aparte Esperantisti qui divenos Idisti, imitante la nombro ja tre granda dil Espisti konvertita a Ido.

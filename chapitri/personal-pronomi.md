@@ -27,6 +27,6 @@ Infinitivo, o participo havanta komplemento, konstitucas propoziciono : **me v
 
 30. — Existas en Ido personal pronomo nedefinita : **onu,** qua preske sempre trovesas en la formo kurtigita **on** (segun *ilu, elu, olu,* divenanta *il, el, ol*). Ma nulo interdiktas uzar anke por olu la formo kompleta.
 
-La « me » filozofiala tradukesas exakte per la substantivo : la **ego**, qua ritrovesas en la vorti internaciona : *ego**ism(o)*, *egoist(a)*, *egoist(o)* (1).
+La « me » filozofiala tradukesas exakte per la substantivo : la **ego**, qua ritrovesas en la vorti internaciona : *egoism(o)*, *egoist(a)*, *egoist(o)* (1).
 
 > (1) Pro ke « la ego » esas vera substantivo, nulo impedas donar a lu la **-i** dil pluralo, se to esas necesa. Forme e sone « egi » ne esas plu stranja kam « eki », pluralo di *eko*.

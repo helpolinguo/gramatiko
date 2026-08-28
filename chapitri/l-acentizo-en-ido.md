@@ -9,7 +9,7 @@ Transskribita de https://ido.help/gramatiko/
 
 Quale dicesas tre juste en *Progreso*, I, 383, « La questiono di l'acento esas un ek le maxim desfacila, quan on devas solvar en L. I. artificala, se on volas konciliar maxim bone posible la regulozeso e la naturaleso. Unlatere, on devas havar regulo generala e simpla pri acentizo, e ne, quale en omna lingui, fidar a l'uzado kom sola regulo o guidilo. Altralatere, on devas respektar maxim ofte posible la « natural » acentizo di la vivanta lingui, por ne ofensar la fonetikal kustumi di lia adepti, ed igar la L. I. leda e desaminda ad li. »
 
-En I, 479, on remarkigis, ke « l'ortografio di l'internaciona vorti restas generale la sama en plura lingui, dum ke l'acentizo multafoye varias : ex. I. *ortografîa*, R. *ortho**grâphiya*, E. *orthôgraphy*; Hungara : *ôrtografia*.
+En I, 479, on remarkigis, ke « l'ortografio di l'internaciona vorti restas generale la sama en plura lingui, dum ke l'acentizo multafoye varias : ex. I. *ortografîa*, R. *orthogrâphiya*, E. *orthôgraphy*; Hungara : *ôrtografia*.
 
 D. *Agonîe*; I. *agonîa*; R. *agôniya*; E. *âgony*.
 
@@ -19,7 +19,7 @@ Pos altra exempli, on propozis fixigar, ke : l'acento ne povos falar sur la i,
 
 En II, 8, pri la regulo dil acentizo en *neutral* (acento sur la vokalo avan la lasta konsonanto) on igis atencar, ke ta regulo, se ni adoptus lu, devus aplikesar anke ad altra finali kam **ia**, **io**, nome ad omna radiki qui finas per vokalo : *aleo*, *ideo*, *lineo*, *livreo*, *tineo*, *manuo*, *sexuo*, *rituo*, *precipue*; ed ol transportus, en ta omna vorti, l'acento sur la *prelasta* silabo di la radiko.
 
-Pluse la regulo esas kelke ambigua : « la lasta konsonanto » ... kad *di la radiko*, o *di la vorto*? Se : « di la vorto », to chanjus la loko di l'acento en l'akuzativo (*homôn* vice *hómo*) e precipue en la verbal formi : *amâs, amîs, amôs*... Nur l'infinitivi esus lore konforma a la general regulo. Se : « di la radiko », on devas definar la radiko, plu juste la *radi**kalo* di singla vorto : ex. en *amanta, amesos, am* esus la radiko, e *amant, ames*, la radikalo; en *lumizo, lumiziva, lumi**ziveso, lum* esus la radiko, e *lumiz, lumiziv, lumizives* la radikali. Kad to ne esus komplikajo e desfacilajo por la lernanti?
+Pluse la regulo esas kelke ambigua : « la lasta konsonanto » ... kad *di la radiko*, o *di la vorto*? Se : « di la vorto », to chanjus la loko di l'acento en l'akuzativo (*homôn* vice *hómo*) e precipue en la verbal formi : *amâs, amîs, amôs*... Nur l'infinitivi esus lore konforma a la general regulo. Se : « di la radiko », on devas definar la radiko, plu juste la *radikalo* di singla vorto : ex. en *amanta, amesos, am* esus la radiko, e *amant, ames*, la radikalo; en *lumizo, lumiziva, lumiziveso, lum* esus la radiko, e *lumiz, lumiziv, lumizives* la radikali. Kad to ne esus komplikajo e desfacilajo por la lernanti?
 
 En II, 583, Sro Otto Jespersen, per fundamental e detaloza artiklo klarigis admirinde la questiono. Il dicis :
 
@@ -31,7 +31,7 @@ Pezigante la prelasta silabo, on kontentigas grandaparte la unesala tendenco, ed
 
 Esas do naturala, ke la maxim multi favoras acento sur la prelasta; la questiono esas nur, kad on devas establisar ecepti. »
 
-Citinte 34 vorti havanta per ica regulo acento « sur silabo qua aparas nenaturala a multa homi », Sro Jespersen *ques**tionas* :
+Citinte 34 vorti havanta per ica regulo acento « sur silabo qua aparas nenaturala a multa homi », Sro Jespersen *questionas* :
 
 « Kad on devus modifikar la regulo ed acentizar la triesma de la fino? Me respondas : no. Unesme pro ke to komplikus la linguo. Duesme, pro ke omni ti qui savas la Franca konocas ja acentizi quale consûl, gondôle, publîc, Amerîque, lyrîque, splendîde; e. c., sen esar shokata per oli. Triesme, pro ke en multa kazi vorti derivata de ca vorti aquiras naturale duesmagrada acento sur la silabo « qua devas portar l'acento » : pôpulôza, sîmulânta, sîmilêso, pûblikîgo, Amêrikâno, spîritîsmo; e. c. »
 
@@ -43,7 +43,7 @@ La vorto « plursilaba » esas necesa, pro ke sen ol on havus nula regulo pr
 
 Ta regulo « konkordas en maxim multa kazi kun la valorprincipo. Ol evitas acento sur *patrôn, niân, amâs*.
 
-Ol esas facile memorenda e aplikenda sen presupozar ula ciencala konoci pri « mivokali » o pri latina od altra acentoreguli. Esas vera ke en klaso 3 (*irônio, akadêmio, sim**fônio, filosôfio, melôdio, teôrio*, e. c.) ni havas acento qua semblas nenaturala, ma on devas memorar, ke on havas kelka nenaturalaji, irge qua regulo adoptesas, ed anke, ke per ca regulo la ritmo konservas acento (miforta) sur la sama silabo kande on adjuntas finalo :
+Ol esas facile memorenda e aplikenda sen presupozar ula ciencala konoci pri « mivokali » o pri latina od altra acentoreguli. Esas vera ke en klaso 3 (*irônio, akadêmio, simfônio, filosôfio, melôdio, teôrio*, e. c.) ni havas acento qua semblas nenaturala, ma on devas memorar, ke on havas kelka nenaturalaji, irge qua regulo adoptesas, ed anke, ke per ca regulo la ritmo konservas acento (miforta) sur la sama silabo kande on adjuntas finalo :
 
 melôdio : melôdiôza.
 
@@ -65,7 +65,7 @@ Pose aparis en III, 392, la sequanta konsideri :
 
 A to ni respondos : 1e ke la regulo di acentizo esis longe diskutata hike, ante la decido di l'Akademio, qua rezultis de ta diskuto ipsa; 2e ke nula *regulo* di acentizo povas sequar la naturala acentizo, pro ke ca acentizo esas *senregula* (t. e. senuniforma regulo); 3e ke nula regulo di acentizo povas kontentigar omna populi, pro ke l'acento varias, por la sama vorti, segun la lingui. On devas agnoskar, ke la nova regulo konstitucas granda simpligo en l'ortografio, per ke ol unigas la finali **-io**, **-yo**, inter qui on ofte hezitis e dubis, segun l'atesto di multi. Ol esas do reala simpligo ed uniformigo.
 
-Ti qui dezirus simpligar ed uniformigar « komplete » la regulo di acentizo esas Franci, e quale Franci nule komprenas l'importo di l'acento por la cetera populi. Semblas a li indiferenta acentizar ca o ta silabo, pro ke li reale acentizas nula, o (nekoncie) acentizas *sempre la lasta*. Ico esas grava kulpo e danjeroza eroro. L'acentizo maxime importas, ne nur a la beleso e harmonio di nia linguo, ma a lua komprenebleso por omna (o maxim multa) populi. Or de l'internaciona vidpunto, esas nule indiferenta, ke la finali *-ar*, *-ir*, *-or* dil infinitivo esez acentizata o senacenta. Simile, esas tote *neposibla*, fonetike, acentizar *aqûo* e *lingûo*, *filîo* o *familîo*, *sekretarîo* e *notarîo* (quankam Esperanto facas la lasta kulpo) ankore (mem) min *qûa*, *qûo*. Ne esas arbitriala regulo, ma fonetikal fakto universala, ke la vokali *i* e *u* avan altra vokali divenas generale mi-konsonanti, ne nur en la finali, ma interne di la vorti (ex. : *koliaro*, *kuliero*, *buli**ono*, *liuto*) (1). La nova regulo simple konstatas ica fakto, nur kelke generaligante ol, pro ke omna regulo devas esar generala.
+Ti qui dezirus simpligar ed uniformigar « komplete » la regulo di acentizo esas Franci, e quale Franci nule komprenas l'importo di l'acento por la cetera populi. Semblas a li indiferenta acentizar ca o ta silabo, pro ke li reale acentizas nula, o (nekoncie) acentizas *sempre la lasta*. Ico esas grava kulpo e danjeroza eroro. L'acentizo maxime importas, ne nur a la beleso e harmonio di nia linguo, ma a lua komprenebleso por omna (o maxim multa) populi. Or de l'internaciona vidpunto, esas nule indiferenta, ke la finali *-ar*, *-ir*, *-or* dil infinitivo esez acentizata o senacenta. Simile, esas tote *neposibla*, fonetike, acentizar *aqûo* e *lingûo*, *filîo* o *familîo*, *sekretarîo* e *notarîo* (quankam Esperanto facas la lasta kulpo) ankore (mem) min *qûa*, *qûo*. Ne esas arbitriala regulo, ma fonetikal fakto universala, ke la vokali *i* e *u* avan altra vokali divenas generale mi-konsonanti, ne nur en la finali, ma interne di la vorti (ex. : *koliaro*, *kuliero*, *buliono*, *liuto*) (1). La nova regulo simple konstatas ica fakto, nur kelke generaligante ol, pro ke omna regulo devas esar generala.
 
 > (1) Pro to, en la linguistiko indo-europana, li esas la sola vokali, qui genitas diftongi. Per to li distingesas esence de la ceteri.
 

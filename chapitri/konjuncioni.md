@@ -27,9 +27,9 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 > (1) « On demandas ofte de ni expliko di ca konjunciono, pro ke multa lingui ne havas l'equivalanta, e supleas ol per altra konjuncioni de diversa senci. *Or* uzesas *nur* en la rezoni, por enduktar un plusa premiso, t. e. motivo. Ex. : « Omno quo foligas esas veneno; *or* l'alkoholo foligas; *do*... » On devas ne intermixar *or* kun *do*, qua esas quaze opozita, nam ol induktas la konkluzo; nek kun *ma*, qua anuncas od expresas, ula opozo (ex. : opozanto povus dicar : « ma l'alkoholo fortigas, nutras... »). En la praktiko, on ne enuncas formale la rezoni, on tacas una de la premisi, od on renversas lia ordino. Kande la premiso (motivo) sequas la konkluzo, *or* remplasesas da *nam;* ex. : « l'alkoholo esas veneno, nam ol foligas ». (On tacas la majora, qua konsideresas kom tro konocata od evidenta. — Plura lingui supleas *or* per la konjunciono qua signifikas *nun* (D. *nun* (*aber*), E. *now*); ma on vidas facile, ke lore ol nule indikas la tempo... Ta konjunciono esas do aquirajo di la logikala spirito, qua sempre plu dominacas la moderna e civilizita lingui, pro la progresi di la cienco. (*Progreso*, VI, 141.)
 
-**Tamen** = D. *dennoch, gleichwohl, nichtsdestoweniger,* *trotzdem*; E. *however, yet, still*; F. *cependant, pourtant, néan**moins*; I. *pero, tuttavia, ciò non ostante*; S. *con todo, sin* *embargo, a pesar de* (2).
+**Tamen** = D. *dennoch, gleichwohl, nichtsdestoweniger,* *trotzdem*; E. *however, yet, still*; F. *cependant, pourtant, néanmoins*; I. *pero, tuttavia, ciò non ostante*; S. *con todo, sin* *embargo, a pesar de* (2).
 
-> (2) L'intima senco di *tamen* esas : opoze ad ico, malgre lo dicita, malgre ta obstaklo. Ex. : *Il esas tre richa, tamen il almonas nul**tempe. Me savas, ke me riskas la morto, tamen me iros adibe.*
+> (2) L'intima senco di *tamen* esas : opoze ad ico, malgre lo dicita, malgre ta obstaklo. Ex. : *Il esas tre richa, tamen il almonas nultempe. Me savas, ke me riskas la morto, tamen me iros adibe.*
 
 **Od, o** (3) = D. *oder*; E. *or*; F. *ou, ou bien*; I. *o, od;* S. *ó, ú.*
 
@@ -111,7 +111,7 @@ A qui korespondas : **pro co, pro to** = *pro ica, pro ita* *kauzo;* **por co,
 
 Remarkez anke la sequanta konjuncional expresuri :
 
-**Lore kande; quik kande; same kam; tante plu... quante** **plu = quante plu... tante plu; tante min... quante min =** **quante min... tante min. Ex. : Quante plu me konocas li,** **tante plu me estimas li (= me tante plu estimas li, quante** **plu me konocas li); quante plu me vidas ilu, tante plu il** **plezas a me; quante min il laboras, tante plu il volas re****pozar; quante min me dormas, tante min me somnolas.**
+**Lore kande; quik kande; same kam; tante plu... quante** **plu = quante plu... tante plu; tante min... quante min =** **quante min... tante min. Ex. : Quante plu me konocas li,** **tante plu me estimas li (= me tante plu estimas li, quante** **plu me konocas li); quante plu me vidas ilu, tante plu il** **plezas a me; quante min il laboras, tante plu il volas repozar; quante min me dormas, tante min me somnolas.**
 
 **Segun quante : segun quante me povos, me certe helpos vu.**
 
@@ -121,7 +121,7 @@ On atencez bone dicernar la koordinal konjuncioni de le subordinala e nome **nam
 
 *Direta questioni* : **Kad la mediko esas arivinta? Ka tua** **matro konsentas?**
 
-*Nedireta questioni* : **Dicez a me, kad la mediko esas ari****vinta. Me questionas tu, ka tua matro konsentas.**
+*Nedireta questioni* : **Dicez a me, kad la mediko esas arivinta. Me questionas tu, ka tua matro konsentas.**
 
 Quale on vidas, la konjunciono *kad, ka* sempre komencas la propoziciono (chefa o subordinala) en qua lu trovesas.
 

@@ -7,7 +7,7 @@ Transskribita de https://ido.help/gramatiko/
 
 ---
 
-La kompozado per prepozicioni formacas la transito inter la derivado e la kompozado dil radiki; ma ol similesas plu multe la derivado (pro l'analogeso inter la afixi e la partikuli). Pro to lu ne esas submisata al generala regulo di kompozado qua postulas, ke la vorto determinanta esez avan la vorto determinata. Konseque, kande prepoziciono esas unionita a verbal radiko, l'analizo o deskompozo generale facesas per inversigar l'ordino di la elementi, to esas komencante de la radiko verbala (1). Ex. : **en-irar**, *irar en*; **ek-irar**, *irar ek*; **ad-portar**, *portar ad*; **kontre-dicar**, *dicar kontre*; **inter-mixar**, *mixar inter* (li); **inter-veno**, *veno inter*; **ek-pul****sar**, *pulsar ek*; **apud-pozar** = *pozar apud.*
+La kompozado per prepozicioni formacas la transito inter la derivado e la kompozado dil radiki; ma ol similesas plu multe la derivado (pro l'analogeso inter la afixi e la partikuli). Pro to lu ne esas submisata al generala regulo di kompozado qua postulas, ke la vorto determinanta esez avan la vorto determinata. Konseque, kande prepoziciono esas unionita a verbal radiko, l'analizo o deskompozo generale facesas per inversigar l'ordino di la elementi, to esas komencante de la radiko verbala (1). Ex. : **en-irar**, *irar en*; **ek-irar**, *irar ek*; **ad-portar**, *portar ad*; **kontre-dicar**, *dicar kontre*; **inter-mixar**, *mixar inter* (li); **inter-veno**, *veno inter*; **ek-pulsar**, *pulsar ek*; **apud-pozar** = *pozar apud.*
 
 > (1) Videz la 4a klaso dil kompozaji p. 168.
 
@@ -15,7 +15,7 @@ Ma, kande la prepoziciono esas unionita a nomal radiko, on devas generale komenc
 
 Konseque on darfas dicar : intertempo, intertempe; interakto; subtaso, subvesto, subjupo, e. c.
 
-Ta duopla regulo posibligas interpretar korekte la verbi kompozita per **-igar** e prepoziciono; on devas komencar de la verbo **igar** : **enter-igar** devas analizesar **igar entera**, e ne **en-terigar**, qua havus nula senco; **sen-arm-igar** = *igar sen**arma.*
+Ta duopla regulo posibligas interpretar korekte la verbi kompozita per **-igar** e prepoziciono; on devas komencar de la verbo **igar** : **enter-igar** devas analizesar **igar entera**, e ne **en-terigar**, qua havus nula senco; **sen-arm-igar** = *igar senarma.*
 
 On atencez, ke la kompozado per prepozicioni ne chanjas la direta komplemento dil verbo (kande ica esas transitiva) : **en limpida aquo, on travidas la stoneti dil fundo; on ne** **travidas la aquo ipsa.** Konseque l'adjektivo **travidebla** povas aplikesar nur a la stoneti, e ne a la aquo ipsa; ol ne povas signifikar **diafana**, ma nur (segun sua elementi) *videbla tra.* Simile on **supervarsas aquo sur flori**; quo esas **supervarsita**? La aquo, e ne la flori. Do on ne darfas dicar (quale Espo) : **vango supervarsita da lakrimi**, ma juste : **balnita, inundita** **da lakrimi**.
 
@@ -23,4 +23,4 @@ Kontraste, nul detrimento en ke prepoziciono-prefixa igas transitiva netransitiv
 
 > (1) Videz l'expliko en la noto (1), ye « Prepozicioni prefixa », p. 132.
 
-> (2) Okazione di to ni dicez, ke la helpolinguo devas ne imitar la verbi Latina kun du akuzativi : *doceo pueros grammaticam*. On dicas : *docar la gramatiko a pueri* o *instruktar pueri pri la grama**tiko*.
+> (2) Okazione di to ni dicez, ke la helpolinguo devas ne imitar la verbi Latina kun du akuzativi : *doceo pueros grammaticam*. On dicas : *docar la gramatiko a pueri* o *instruktar pueri pri la gramatiko*.

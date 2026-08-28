@@ -23,7 +23,7 @@ Por chanjar ol a substantivo samsenca suficas substitucar al dezinenco **a** la 
 
 > (1) Decido 504 : On konservas l'eliziono di **-a** en l'adjektivi, ma restriktante ol a la kazi, en qui ne rezultos akumulo de konsonanti; per 7 voci ek 9. (*Progreso*, IV, 434.)Decido 586 : On repulsas la supreso di l'eliziono di l'artiklo; per 6 voci ek 9. (*Progreso*, IV, 561.)Decido 587 : On repulsas admisar sempre l'eliziono di l'artiklo dop vokalo ed avan konsonanto; unanime per 8 voci. Exemple : *ke l'regulo, se l'regulo*. (*Progreso*, IV, 561.)
 
-On devas ne uzar l'eliziono tro freque. Ol ne diplasas la acento; konseque ica restas sur **a** en **infantal, amikal, kor****dial**, quale en **infantala, amikala, kordiala.**
+On devas ne uzar l'eliziono tro freque. Ol ne diplasas la acento; konseque ica restas sur **a** en **infantal, amikal, kordial**, quale en **infantala, amikala, kordiala.**
 
 Diveninte monosilaba per l'eliziono, l'adjektivi dusilaba sequas, pri l'acento, la regulo di omna monosilabi, pri qui parolesas en § 4.
 
