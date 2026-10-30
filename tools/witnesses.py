@@ -15,6 +15,16 @@ T = [
  # (label, file, expected string, minimum count)
  ('folio 82: Ultre alone in bold', 'content/10-part1.tex',
   '\\VUgras{Ultre} esas', 1),
+ # Folios 82 and 98: TWO NOTES CHAINED BY \nl, the fault the journal has
+ # already recorded at folios 59-63, 74, 93, 101, 104 and 106. Chained,
+ # note (1) was justified across the measure and note (2) lost its indent
+ # in the PDF -- and on the page it lost its anchor: html.py read
+ # "(1) ... (2) ..." as ONE note, so the call (2) pointed at nothing.
+ # The blank line between the two is the fix, and the witness.
+ ('folio 82: note (2) a paragraph of its own', 'content/10-part1.tex',
+  'ne plu bona.\n\n(2) Segun', 1),
+ ('folio 98: note (2) a paragraph of its own', 'content/10-part1.tex',
+  '2-ma remarko.\n\n(2) Evitez', 1),
  ('clickable references in the Tabelo', 'preamble.tex', '\\VUlienOuvre', 3),
  ('gap before a wide number', 'preamble.tex',
   '\\newcommand{\\VUindexEcart}', 1),
@@ -40,6 +50,16 @@ T = [
   '\\VUplancheA{55.88mm}', 1),
  ('vignette set upright', 'content/00-front-matter.tex',
   '\\VUimageA{104.72mm}{22.38mm}', 1),
+ # THE PLATES ARE INCLUDED UNDER THEIR ENGLISH NAMES. 23a3d74 moved
+ # ornamenti/ to ornaments/ and renamed portreto and vinieto, and the four
+ # \includegraphics went on asking for the old files: from then on the
+ # volume did not compile, and gramatiko.pdf was the build of 16 August.
+ # The SIZES below check the plates themselves; these, that the volume
+ # still asks for them where they are.
+ ('plates asked for in ornaments/', 'preamble.tex',
+  '{ornaments/', 3),
+ ('vignette asked for in ornaments/', 'content/00-front-matter.tex',
+  '{ornaments/vignette-3}', 1),
  ('bookmarks: APENDICI group', 'content/90-marks.tex',
   'count -10 {APENDICI}', 1),
  ('bookmarks: Tabelo page 227', 'content/90-marks.tex',

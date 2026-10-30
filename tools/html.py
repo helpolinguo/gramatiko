@@ -1723,7 +1723,7 @@ TEMPLATE = u"""<!DOCTYPE html><html lang="io"><meta charset="utf-8">
      The overall map is in /llms.txt, at the root, which speaks for all
      four pages at once.
      =================================================================== -->
-<meta name="description" content="Transskribo integra dil Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido (L. de Beaufront, Esch-Alzette, Meier-Heucke, 1925) : 49 chapitri, 1230 alinei, 410 noti. Serchebla, ed ofrata anke po chapitro en formo lektebla da mashini (Markdown).">
+<meta name="description" content="Transskribo integra dil Kompleta Gramatiko Detaloza di la Linguo Internaciona Ido (L. de Beaufront, Esch-Alzette, Meier-Heucke, 1925) : 49 chapitri, __KONTO__. Serchebla, ed ofrata anke po chapitro en formo lektebla da mashini (Markdown).">
 <link rel="canonical" href="https://ido.help/gramatiko/">
 <link rel="alternate" type="text/markdown" href="gramatiko.md" title="Texto pura, por lekto da mashini">
 <script type="application/ld+json">
@@ -2752,11 +2752,21 @@ def write_page(rel, parties, stats):
     import json
     sub = '%d chapitri &middot; %d alinei &middot; %d noti' % (
         stats['chapters'], stats['paragraphs'], stats['notes'])
+    # THE DESCRIPTION CARRIED TWO OF THESE FIGURES WRITTEN BY HAND:
+    # « 1230 alinei, 410 noti ». The first went false with § 32 (1231), the
+    # second with the two notes of folios 82 and 98 that a \nl had chained
+    # to the one before (412). Both are filled from the subtitle's count now.
+    # THE CHAPTERS ARE NOT, AND IT IS NOT AN OVERSIGHT: the subtitle counts
+    # 50 because the author's portrait opens a section of the page, while
+    # the description says 49, the chapters of text -- those of chapitri/.
+    # Filling it from the same count would have changed what it claims.
+    konto = '%d alinei, %d noti' % (stats['paragraphs'], stats['notes'])
     uri, width, height, weight = stats['portrait']
     doc = (TEMPLATE.replace('__NAV__', ''.join(nav))
            .replace('__KONT__', ''.join(parts))
            .replace('__VED__', json.dumps(heads_by_chap, ensure_ascii=False))
            .replace('__SUB__', sub)
+           .replace('__KONTO__', konto)
            .replace('__PORTRETO__', uri)
            .replace('__PORTRETO_RATIO__', '%d / %d' % (width, height))
            .replace('__PDF__', PDF))

@@ -75,7 +75,7 @@ On uzas **de** avan la komplemento di fraciono, quale avan la komplemento di int
 
 Por enuncar fraciono komplikita, on obtenas plu granda klareso uzante la prepoziciono **sur** inter la du nombri kardinala, qui esas la termini di la fraciono : 15/273 = **dekekin** **sur duacent e sepadek e tri** o : **dekekin sur du, sep, tri** (1). **Dek triacentimi** tote ne povas konfundesar a : **deketri centimi.** L'unesma esas 10/300, la duesma 13/100; l'unesma lektesos : **dek sur triacent**, e la duesma : **deketri sur cent.**
 
-> (1) Videz pag. 95 ye la 2-ma remarko. (2) Evitez sorge uzar la sufixo distributiva **op** en senco kolektala por qua ol esas neutila, la kardinal adverbo suficante. Dicar : **Ta du** **amiki promenas sempre duope** esus tam kontrelogika kam dicar France ...*se promènent toujours deux à deux*. Quale li povus facar ico, nam *li esas nur du?*
+> (1) Videz pag. 95 ye la 2-ma remarko.
 
 119. — La *nombri multiplikera* obtenesas per la sufixo **opl**, a qua on soldas **o, a, e** segun la kazi : **la duoplo** (la nombro multiplikata *per du*); **quaropla** (qua esas multiplikata *per quar*); **triople** : *la nombro 12 esas triople granda* *kam 4.*
 
@@ -86,6 +86,8 @@ Por enuncar fraciono komplikita, on obtenas plu granda klareso uzante la prepozi
 121. — L'expresuri **distributiva** obtenesas per la sufixo **op**, sequata dal dezinenco konvenanta : **duope** = per rangi o serii de *du*; **triope** = per rangi o serii de *tri*, e. c. **Unope,** un separite, aparte, **single. La soldati marchas quarope.** — **Se li formacos rangi duopa e ne quaropa, lia defilo duros** **duople plu longe.** — **Marchez unope.**
 
 La questional adverbo korespondanta esas **quantope :** **quantope vu vendas la nuci** (quantanombre per un foyo?) **centope o micentope** (dek e kinope). On darfas anke dicar : **pokope, multope** = *ye mikra quanti, ye granda quanti* (2).
+
+> (2) Evitez sorge uzar la sufixo distributiva **op** en senco kolektala por qua ol esas neutila, la kardinal adverbo suficante. Dicar : **Ta du** **amiki promenas sempre duope** esus tam kontrelogika kam dicar France ...*se promènent toujours deux à deux*. Quale li povus facar ico, nam *li esas nur du?*
 
 122. — Nula prepoziciono e nula sufixo esas necesa en frazi tal quala ici : **Por mea infanti me kompris dekedu** **pomi, ed a singla de li me donis tri pomi.** — **Ta libro havas** **sisadek pagini; se do me lektos en singla jorno dek e kin** **pagini, me finos la tota libro en quar jorni. La vorto singla** **suficas por indikar la distributo.**
 

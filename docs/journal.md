@@ -4456,3 +4456,72 @@ qui garantit que le bouton est identique sur les trois, et que le retoucher
 se fait à un seul endroit. Le mot « Ido » est dans le lien et non dans la
 feuille : si celle-ci ne se charge pas, il reste un lien lisible en fin de
 document au lieu d'un carré vide.
+
+---
+
+## Folios 82 and 98: two notes chained again, and a volume that no longer compiled
+
+**Reported from the PDF: on folio 98 the first note is stretched across the
+line and the second opens without an indent.** It is the fault this journal
+names at folios 59–63, 74, 93, 101, 104 and 106: note (1) chained to note
+(2) by a `\nl`, so the short last line of (1) was justified by force and
+(2) became a continuation line. Searched for in the whole transcription — a
+note opening `(n)` whose previous line is not blank — it is on two pages
+and no others: folio 98, and folio 82, where it had not been reported.
+
+**Settled on the survey, not on the strip.** The scan is not here; the
+inventory `tools/inv_81_120.json` is. Its last bands give, for note (1) and
+note (2), where the line starts and how far it reaches across the measure:
+
+| | facsimile: (1) reaches | (2) indent | PDF now: (1) reaches | (2) indent | PDF before: (1) reaches | (2) indent |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| folio 98 (leaf 102) | 0.606 | +40 px | 0.609 | +32 px | 0.992 | +1 px |
+| folio 82 (leaf 86)  | 0.868 | +36 px | 0.880 | +31 px | 0.997 | +0 px |
+
+(Facsimile in pixels of the scan, PDF in pixels at 200 dpi: the indents
+compare within a column, not across.)
+
+Note (1) ends short and note (2) opens indented on both leaves: two
+paragraphs. The blank line restores them and moves nothing else — `\VUnotes`
+sets `\parskip` to 0, so no line of either page shifts.
+
+**Why check 12 did not see them — very probably.** It was written for this
+fault and found 101 and 104. But it skips, without a word, any page whose
+count of bands differs from the count of composed lines, and both headers
+record lines the detection missed: « A LAST LINE NOT DETECTED » at folio
+82, « TWO lines not detected » at folio 98. Not verified: it wants the scan.
+A check that passes over a page in silence should say so; that is left for
+a session that has the scan to run it.
+
+**The reading page had lost them too.** `html.py` takes a paragraph opening
+`(n)` as a note, and « (1) … (2) … » was one paragraph: each note (2) was
+glued into note (1), had no anchor, and its call pointed at nothing. 410
+notes become 412, 857 anchors 859. In the Markdown, folio 98's note on
+**op** moves from under § 118 to under § 121, where it is called.
+
+**Rebuilding the PDF showed that it could not be rebuilt.** 23a3d74 moved
+`ornamenti/` to `ornaments/` and renamed `portreto-3` and `vinieto-3`; the
+four `\includegraphics` kept the old names. From then on `make` stopped on
+the first plate, and `gramatiko.pdf` stayed the build of 16 August. The
+paths are repointed, with two witnesses so the next rename is caught.
+Compiled again on TeX Live 2023 (pdfTeX 1.40.25, the producer recorded in
+the old file), **234 of the 236 pages are pixel-identical to the 16 August
+build at 100 dpi**; the other two are folios 82 and 98, and they differ in
+one band each, the line of note (1).
+
+Check 1 rewrote `tools/hbox.txt`: the same 21 overfull boxes, the same
+widths, line numbers moved by the edits since. Two entries it carried are
+gone — 33.3 pt and 13.8 pt on the last page, « Ofical organo » and
+« Redaktero ». That page is pixel-identical to the 16 August build, and an
+overflow of 33 pt is 11 mm of line: the entries described some other
+build, not the volume as committed.
+
+The meta description of the page carried « 1230 alinei, 410 noti » by hand;
+the first had been false since § 32. Both are now filled from the count
+that already gives the subtitle. Its « 49 chapitri » is not: the subtitle
+counts 50, the author's portrait opening a section, and 49 — the chapters
+of text — is what the description means.
+
+Not run here, for want of the scan: checks 8 to 12, so neither check 11's
+seven pages nor check 10's folio 136 has been seen to hold. Check 2 reports
+the same failures, line for line, on `main` and on this branch.

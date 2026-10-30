@@ -29,10 +29,10 @@ Singla chapitro esas apartra dosiero. La grandeso esas indikata por ke on povez 
 | 17 | [ADJEKTIVI-PRONOMI NEDEFINITA](adjektivi-pronomi-nedefinita.md) | 42 | 12 Ko |
 | 18 | [VERBO](verbo.md) | 98 | 24 Ko |
 | 19 | [ADVERBI](adverbi.md) | 150 | 26 Ko |
-| 20 | [PREPOZICIONI](prepozicioni.md) | 159 | 47 Ko |
+| 20 | [PREPOZICIONI](prepozicioni.md) | 160 | 47 Ko |
 | 21 | [KONJUNCIONI](konjuncioni.md) | 62 | 10 Ko |
 | 22 | [INTERJECIONI](interjecioni.md) | 19 | 3 Ko |
-| 23 | [NOMBRI](nombri.md) | 53 | 14 Ko |
+| 23 | [NOMBRI](nombri.md) | 54 | 14 Ko |
 | 24 | [SINTAXO](sintaxo.md) | 50 | 13 Ko |
 | 25 | [TEMPI E MODI](tempi-e-modi.md) | 53 | 18 Ko |
 | 26 | [ELEMENTI DI VORTO](elementi-di-vorto.md) | 8 | 1 Ko |
