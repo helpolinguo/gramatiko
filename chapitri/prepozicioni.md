@@ -229,13 +229,15 @@ Atencez ne uzar *super* o *sur* vice *pri*.
 
 Metafore : **havar autoritato sur judiciisti; havar yuri sur** **la krono; prenar afero sur su** (1). (Komp. *sub*.)
 
-> (1) O « asumar afero » egale bona, se mem ne plu bona. (2) Segun *Progreso*, IV, 661. — Videz, p. 224, **tra** e **trans**, omisita pos **til.**
+> (1) O « asumar afero » egale bona, se mem ne plu bona.
 
 95. — **Til** indikas la termino en la spaco o tempo. Ex. : **Ni irez til la frontiero; vartez til mea retroveno.**
 
 **Til** uzesas kun **de** por indikar spacal o tempal intervalo : **de lundio til jovdio; de Calais til Dover.** Ol indikas anke minimo : **il spensis de cent til duacent franki**, o simple : **il spensis til duacent franki.**
 
 **Til** signifikas, ke on atingas la limito indikata. Kande la limito indikata esas, ne punto, ma ula intervalo, on devas kompletigar l'indiko, dicante precize : « til la komenco o fino di... » od : « til la yaro 1912 *exkluzite* o *inkluzite* (od *exkluzita, inkluzita*) » (2).
+
+> (2) Segun *Progreso*, IV, 661. — Videz, p. 224, **tra** e **trans**, omisita pos **til.**
 
 **Tra** = de un latero od extremajo a l'altra, interne. Ex. : **Li pasis tra la foresto. Il sinkis sua espado tra ilua pektoro.**
 

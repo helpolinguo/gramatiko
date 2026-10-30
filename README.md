@@ -168,7 +168,7 @@ that each note is a paragraph.
 
 `tools/witnesses.py` is the other half: one characteristic string per fix, so
 that a lost container or a bad merge is detected rather than discovered later.
-It exits non-zero if any fix has gone missing. It checks **56** witnesses.
+It exits non-zero if any fix has gone missing. It checks **60** witnesses.
 
 **CHECK 4 REPORTS ONE FAILURE, AND IT IS CORRECT AS TRANSCRIBED. DO NOT
 "FIX" IT.**

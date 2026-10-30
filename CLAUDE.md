@@ -41,13 +41,13 @@ a reason is a defect, not a detail:
 Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
-    python3 tools/html.py             # 857 anchors, 1231 paragraphs, 410 notes
-    python3 tools/machine_readable.py # 49 chapters, 1690 blocks, 491,595 bytes
-    python3 tools/temi.py             # 9 topics over 1641 blocks, 171,550 bytes
+    python3 tools/html.py             # 859 anchors, 1231 paragraphs, 412 notes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,601 bytes
+    python3 tools/temi.py             # 9 topics over 1643 blocks, 171,550 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,039 bytes
-    python3 tools/witnesses.py        # 56 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 60 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE MOVED ONCE, AND THIS IS WHY.** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED TWICE. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -66,6 +66,22 @@ text-plus-bold across a folio mark, which is well-formed already.
 recovered block is a note in which « kondicionalo » had been split, so no
 search for it could ever have found it. A topic file is only as complete as
 the text it searches.
+
+**THE SECOND TIME, two notes came back.** On folios 82 and 98 note (1) was
+chained to note (2) by a `\nl`, the fault the journal records at folios
+59–63, 74, 93, 101, 104 and 106. In the PDF note (1) was justified across the measure and note (2)
+lost its indent; on the page, `html.py` read « (1) … (2) … » as one note,
+so each call (2) pointed at nothing and each note (2) sat under the call
+(1). Separated: 410 → 412 notes, 857 → 859 anchors, 1690 → 1692 blocks,
+491,595 → 491,601 bytes, and `temi.py` searches 1643 blocks where it
+searched 1641; no topic file changes.
+
+**AND THE VOLUME HAD NOT COMPILED SINCE 23a3d74.** That commit moved
+`ornamenti/` to `ornaments/` and renamed two plates, and the four
+`\includegraphics` kept the old names; `gramatiko.pdf` was the build of
+16 August. Repointed, the volume compiles again, and is pixel-identical
+to that build, rendered at 100 dpi, on 234 of its 236 pages: the other
+two are folios 82 and 98.
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename
