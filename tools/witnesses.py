@@ -44,6 +44,13 @@ T = [
  ('page: root read as its sign', 'tools/html.py', 'ROOT_SIGNS', 2),
  ('check 2: root read as the PDF gives it', 'tools/checks.py',
   'ROOT_SIGNS', 2),
+ # Folios 94-100: AN EXPONENT IS NOT A DIGIT. The Markdown dropped the
+ # raising of <sup>, so 1,000,000² read « 1,000,0002 » and 2³ « 23 ».
+ # The table that raises them, and the published file where one shows.
+ ('Markdown: exponents raised', 'tools/machine_readable.py',
+  'SUPERSCRIPT_DIGITS', 2),
+ ('Markdown: 1,000,000² is not 1,000,0002', 'gramatiko.md',
+  '**bilion** (1,000,000²)', 1),
  ('clickable references in the Tabelo', 'preamble.tex', '\\VUlienOuvre', 3),
  ('gap before a wide number', 'preamble.tex',
   '\\newcommand{\\VUindexEcart}', 1),
