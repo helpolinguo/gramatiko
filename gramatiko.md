@@ -70,7 +70,7 @@ Kande **u** sequas nemediate **a** o **e**, ol formacas kun ici diftongo, qua es
 
 Ma, se la renkontro di **a**, **e** kun **u** rezultas de prefixo o sufixo adjuntita a radiko, quale en **neutila** (*ne-utila*), **kreuro** (*kre-uro*), lore **au**, **eu** ne plus facas diftongo, e singla vokalo apartenas a silabo partikulara. Konseque singla esas aparte pronuncata, quale indikesas per (*ne-utila* e *kre-uro*) supere.
 
-Sequanta **q** o **g**, la litero **u** = **w** (1) avan vokalo. Ol do sonas quale **u** en la duesma silabo di *aquatic* Angla, *aquatique* Franca, *acquatico* Italiana, *acuatico* Hispana. Exemple : **qua, quar, quo, qui, guidar, linguo, lingue, linguala** = *qwa, qwar, qwo, qwi, gwidar, lingwo, lingwe,* *lingwala.*
+Sequanta **q** o **g**, la litero **u** = **w** (1) avan vokalo. Ol do sonas quale **u** en la duesma silabo di *aquatic* Angla, *aquatique* Franca, *acquatico* Italiana, *acuático* Hispana. Exemple : **qua, quar, quo, qui, guidar, linguo, lingue, linguala** = *qwa, qwar, qwo, qwi, gwidar, lingwo, lingwe,* *lingwala.*
 
 > (1) Videz plu fore, ye w, « Pronunco dil konsonanti e digrami ».
 
@@ -2566,7 +2566,7 @@ Se traktesas pri mashino on devas uzar prefere la vorto « mashino » ipsa�
 
 **-il-** indikas *instrumento* (o implemento) : on brosas *per* brosilo, on pektas *per* pektilo; ma **-er** indikas *aganto* : remorkero remorkas per *su ipsa*.
 
-**-in-.** — Sufixo Latina (*eroina, heroina*), Franca (*héroïne,* *Albertine, Pauline*), Italiana (*eroina*), Hispana (*heroina*), Germana (*Heldin, Lehrerin*), Rusa (*grafinja*). Ol quik adoptesis por indikar la ento femina : **rejino, heroino, profesorino,** **instruktistino, docistino, baronino,** e. c. (2).
+**-in-.** — Sufixo Latina (*eroina, heroina*), Franca (*héroïne,* *Albertine, Pauline*), Italiana (*eroina*), Hispana (*heroína*), Germana (*Heldin, Lehrerin*), Rusa (*grafinja*). Ol quik adoptesis por indikar la ento femina : **rejino, heroino, profesorino,** **instruktistino, docistino, baronino,** e. c. (2).
 
 > (2) Quale on savas, omna nomi di animali (konseque anke di homa enti) esas *epicena* en Ido, t. e. komuna a la du sexui (Dec. 1089). La maskuleso indikesas per **ul** (homulo), la femineso per **in** (*homino*). Pro ke nature e per su, la sexuo ne esas ulo plu gramatikala kam altra qualeso, ni agus tote nelogike, se ni indikus ol per dezinenci (*a, o, u, e, i* exemple). La gramatikal dezinenci devas uzesar nur por kozi gramatikala (modi, tempi e. c.), pro ke vere on ne vidas per quo esar maskula o femina esas plu gramatikala kam esar yuna, olda, o richa, povra. La sexuo devas esar expresata per *maskula, femina* o per lia abreviuri sufixa : **-ul, -in.**
 
@@ -3196,11 +3196,11 @@ On bone remarkez, ke ni examenas la verbal dezinenci nur pri la *formo* naturala
 
 Se *-as, -is, -os, -us* (ni vidos *-ez* plu fore) ne esas konjugofinali naturala, tote certe ni ne trovos li, nek en la verbo Latina, nek en la verbo Hispana.
 
-Tamen, kad la Latina ne posedas, en l'unesma konjugo : *am-as*, stranje simila a (tu) *am-as* di Ido? E kad la Hispana ne havas anke (tu) *am-as*? Kad en altra tempi li ne posedas : *amabas* (L. S.), (tu) *habras, amaras, habias* (S.), *legas, audias,* *amaveras* (L.)?
+Tamen, kad la Latina ne posedas, en l'unesma konjugo : *am-as*, stranje simila a (tu) *am-as* di Ido? E kad la Hispana ne havas anke (tu) *am-as*? Kad en altra tempi li ne posedas : *amabas* (L. S.), (tu) *habrás, amaras, habías* (S.), *legas, audias,* *amaveras* (L.)?
 
 Do **-as**, agnoskez lo, esas vere final sono verbal *naturala*.
 
-E pri **-is**, ka ne existas en la Latina, ye la duesma persono singulara; *audis* (1), *capis*, *amabis*, e. c., ed en la Hispana, ye la duesma plurala persono, kad on ne trovas : *amais*, *amabais, amesteis, habais, habiais, amarais, temiais, temisteis, partiais, partis*.
+E pri **-is**, ka ne existas en la Latina, ye la duesma persono singulara; *audis* (1), *capis*, *amabis*, e. c., ed en la Hispana, ye la duesma plurala persono, kad on ne trovas : *amáis*, *amabais, amesteis, habais, habíais, amarais, temíais, temisteis, partíais, partís*.
 
 > (1) Kad **audis** L. ne esas identa a *audis* di Ido? Ma on respondas : « *audis* L. esas prezento, e vu facas barbarismo, uzante lu por indikar pasinto ». Ne koaktez me, kara kritikeri, respondar a vi per cito di barbarismi multe plu grosa, quin vi facas en konjugo asertita kom Latina, kom natural e ciencala. Ma kad me ne precizigis, ke me parolas nur pri la *formo*. Nu, kad *audis, dormis, venis, sentis* ne esas, en Ido, *forme* simila ad *audis, dormis, venis, sentis* di la Latina?Relate **i,** karakterizivo dil pasinto en Ido, kad ol ne havas bela defenso en omna perfekti Latina, che qui ta vokalo uzesas kinfoyi ek sis? (*Amavi, amavisti* e. c.)E kad **a** por la prezento ne bone defensesas dal infinitivo prezenta dil unesma konjugo Latina, Italiana, Hispana (*-are, -ar*), dal indikativo prezenta (*amas, amat* e. c., *ama, parla, aman*), fine dal participo prezenta (*amant...., amando, aimant* F.)?
 

@@ -42,12 +42,12 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 859 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,618 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,627 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,550 bytes
-    python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,039 bytes
-    python3 tools/witnesses.py        # 68 witnesses, exits non-zero if one is lost
+    python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,040 bytes
+    python3 tools/witnesses.py        # 73 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED FOUR TIMES. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED FIVE TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -101,6 +101,13 @@ and drops the 8 tables and 13 centred lines of the page — the pronouns of
 folio 32 and the passive of folio 50 among them. Recorded in the journal;
 not yet corrected.
 
+**THE FIFTH TIME, the Spanish accents, set by decision.** Nine Spanish
+words the transcription reads without their accents, as the volume very
+probably prints them — « acuatico », « heroina », « habias », « partis »
+and five more, folios 12, 158, 208 and 209 — are now set with them, by `\VUcorrige` (see the rule below). One byte each:
+491,618 → 491,627 in `gramatiko.md`, 133,039 → 133,040 in `afixi/`
+(« heroína », under `-in-`).
+
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename
 moves an identifier a witness names, the witness is repointed — it is
@@ -117,6 +124,12 @@ reporting a check as passed.
 as it stands, the printer's typos of 1925 included. One line of the
 facsimile is one line of the PDF. What is corrected is corrected in the
 tools or in the preamble, never in the transcription.
+A correction the commissioner orders to the LETTER is marked where it
+stands, `\VUcorrige{as printed}{as set}`: the 1925 reading stays in the
+transcription as the first argument, and the preamble sets the second —
+make the macro give `#1` and the volume is the 1925 print again. Its only
+use so far is the Spanish accents; it is not a licence to correct a typo,
+which stays.
 
 **A MEASUREMENT IS NOT AN ESTIMATE.** The whites that frame a title are
 measured on the baselines, before composition; they are never deduced

@@ -9,7 +9,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**-in-.** — Sufixo Latina (*eroina, heroina*), Franca (*héroïne,* *Albertine, Pauline*), Italiana (*eroina*), Hispana (*heroina*), Germana (*Heldin, Lehrerin*), Rusa (*grafinja*). Ol quik adoptesis por indikar la ento femina : **rejino, heroino, profesorino,** **instruktistino, docistino, baronino,** e. c. (2).
+**-in-.** — Sufixo Latina (*eroina, heroina*), Franca (*héroïne,* *Albertine, Pauline*), Italiana (*eroina*), Hispana (*heroína*), Germana (*Heldin, Lehrerin*), Rusa (*grafinja*). Ol quik adoptesis por indikar la ento femina : **rejino, heroino, profesorino,** **instruktistino, docistino, baronino,** e. c. (2).
 
 > (2) Quale on savas, omna nomi di animali (konseque anke di homa enti) esas *epicena* en Ido, t. e. komuna a la du sexui (Dec. 1089). La maskuleso indikesas per **ul** (homulo), la femineso per **in** (*homino*). Pro ke nature e per su, la sexuo ne esas ulo plu gramatikala kam altra qualeso, ni agus tote nelogike, se ni indikus ol per dezinenci (*a, o, u, e, i* exemple). La gramatikal dezinenci devas uzesar nur por kozi gramatikala (modi, tempi e. c.), pro ke vere on ne vidas per quo esar maskula o femina esas plu gramatikala kam esar yuna, olda, o richa, povra. La sexuo devas esar expresata per *maskula, femina* o per lia abreviuri sufixa : **-ul, -in.**
 

@@ -97,6 +97,9 @@ SILENT = {
 }
 # Commands whose first N arguments are thrown away, keeping the last.
 SKIP_THEN_TEXT = {'VUnotes': 1, 'VUserre': 1,
+                    # A correction: the letter as printed, then the letter
+                    # the PDF sets -- « acuatico », « acuático ».
+                    'VUcorrige': 1,
                     # Tables: the surveyed abscissa, then the matter.
                     'VUcase': 1, 'VUdecale': 1}
 # Commands whose argument is kept (it carries text).

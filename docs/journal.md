@@ -4699,3 +4699,70 @@ The table of folio 94 is the one that holds the other seven exponents:
 of folio 50 cannot be in `temi/pasivo.md` either. Not corrected here: how a
 table with braces and groups becomes Markdown is a decision of its own,
 and it wants its own change.
+
+---
+
+## The Spanish accents, set by decision
+
+**THE TRANSCRIPTION HAS NO SPANISH ACCENT, AND THAT IS VERY PROBABLY THE
+PRINT.** Asked about « *acuatico* Hispana » at folio 12: correct Spanish,
+in 1925 as now, is *acuático*. What the page says could not be seen here —
+the scan is not in the repository — but the transcription speaks for
+itself. It carries no á, í, ó, ú or ñ anywhere, while it keeps every French
+accent (é, è, ê, ç: some 250 lines) and the German ä and ü; the one other
+Spanish word that wants an accent is unaccented too, « Hispana (*heroina*) »
+at folio 158; and it has read « acuatico » since its first commit. An acute
+á, í belongs neither to French nor to German, and the printer was in
+Luxembourg: the type was most likely not in the case.
+
+**The commissioner decided: set the correct accents.** That touches the
+letter, which the first rule of this project forbids in the transcription,
+and which `html.py` states it never corrects. So the correction gets a
+mark of its own, in the place where it stands:
+
+    \textit{\VUcorrige{acuatico}{acuático}} Hispana
+
+The first argument is the letter of 1925 as transcribed, kept; the
+preamble defines `\VUcorrige` to set the second. The page (`html.py`,
+TRANSPARENT) and check 2 (`checks.py`, SKIP_THEN_TEXT) read the second, as
+the PDF does. **Made to give `#1`, the macro restores the 1925 print**, and
+`grep VUcorrige content/` lists every word the edition has corrected.
+Writing the accent straight into the transcription was the other way; it
+was set aside because it erases the 1925 reading, which is the record this
+project exists to keep.
+
+**Every Spanish word the book cites, read.** It cites Spanish under
+« Hispana » and under « S. »; each was looked at. Nine words take an
+accent:
+
+| folio | as transcribed | set |
+| --- | --- | --- |
+| 12 | acuatico | acuático |
+| 158 | heroina (« Hispana ») | heroína |
+| 208 | habras, habias | habrás, habías |
+| 209 | amais, habiais, temiais, partiais, partis | amáis, habíais, temíais, partíais, partís |
+
+The Latin *heroina* on the line above the Spanish one is Latin and stays.
+*ya*, *haber*, *macho*, *atigrado*, *-ero*, *burgomaestre*, *amabas*,
+*amabais* and *temisteis* are correct Spanish as printed.
+
+**Left as printed, and why.** *amaras* (folio 208) and *amarais* (209) are
+correct Spanish without an accent — the subjunctive in -ra; only the
+future would take one (*amarás*, *amaréis*), and nothing in the passage
+says which tense is meant. *habais* and *amesteis* (209) are not Spanish
+forms at all — *habéis*, *amasteis* — and that is a wrong vowel, not a
+missing accent: outside what was decided.
+
+**What moved.** The PDF, against `main`: 232 of 236 pages pixel-identical
+at 100 dpi; pages 14, 160, 210 and 211 differ by 10 to 55 pixels each, in
+the 3 or 4 rows above the x-height — the accents and nothing else. An
+accented letter has the width of its base in XCharter, so no word moves and
+the same 62 over- and underfull boxes come out, with the same widths. The
+PDF's text differs from `main`'s in exactly the six lines. `gramatiko.md`
+491,618 → 491,627 bytes, one per word; `afixi/` 133,039 → 133,040
+(« heroína », under `-in-`); `temi/` byte-identical; the page's 859 anchors,
+1231 paragraphs and 412 notes unchanged. Witnesses 68 → 73, the five new
+ones seen to fail on `main`. Checks 1 to 7: output identical to `main`'s;
+check 2 stops before these lines, so the nine were compared with its own
+functions, and read the same on both sides but for the hyphen a `\cc` sets.
+Checks 8 to 12 not run, for want of the scan.

@@ -507,6 +507,17 @@
   \fontfamily{\VUfonteGras}%
   \fontsize{\@tempdima}{\f@baselineskip}\selectfont\bfseries #1}}
 \makeatother
+% A CORRECTION THE COMMISSIONER ORDERS: \VUcorrige{as printed}{as set}.
+% The transcription does not move -- the first argument is the letter of
+% 1925, kept where it stands -- and it is HERE that the second is chosen.
+% Its first use: the Spanish words of folios 12, 158, 208 and 209, which
+% the transcription reads without their accents (« acuatico », « heroina »,
+% « habias », « partis ») -- as the volume very probably prints them, for
+% want of the type: an acute á, í is neither French nor German, and the
+% transcription has no Spanish accent anywhere while it keeps every French
+% one. Not verified on the scan. Set with them, by decision.
+% To print the volume as it was printed, make this macro give #1.
+\newcommand{\VUcorrige}[2]{#2}
 \newcommand{\VUtexteNote}{%
   \fontsize{\VUcorpsNote}{\VUinterligneNote}\selectfont\lsstyle}
 
