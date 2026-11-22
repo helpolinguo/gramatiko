@@ -1632,13 +1632,13 @@ Altra vorti apartenanta a diversa gramatikal kategorii darfas uzesar kom interje
 
 > (2) *Kin* ne povis esar *quin*, pro ke ica lasta esas la plural akuzativo di *qua*. Ni do havabus okazione : *la quin, quin il donis ad vu,* *esas plu bela kam la quin, quin il donis ad me.* O : *le quin* (5) *quin* *vu skribis sur ta pagino esas omni tre male desegnita.* Nia skopo ne esas konkordar maxim posible kun la Latina *quin-que*, ma donar formi sat dicernebla de altri. Plu importas por ni certa dicernebleso dil diversa formi, kam sklavatra imito di vorti o formi latina efektiganta al vera koncernati di L. I. konfundi e miskompreni.
 
-**Pose : milion; miliard** (*mil milioni*); **bilion** (1,000,0002); **trilion** (1,000,0003); **quadrilion** (1,000,0004); **quintilion,** **sextilion, septilion, oktilion, nonilion, decilion** (singla de ta nombri egalesante la preirinta multipliko per un milion (3).
+**Pose : milion; miliard** (*mil milioni*); **bilion** (1,000,000²); **trilion** (1,000,000³); **quadrilion** (1,000,000⁴); **quintilion,** **sextilion, septilion, oktilion, nonilion, decilion** (singla de ta nombri egalesante la preirinta multipliko per un milion (3).
 
 > (3) **Milion, miliard, bilion** e. c. recevas *-i* dil pluralo, se to esas necesa : **on spensis milioni por ta edifico.** — Ma : **il recevis plura** **milion,** pro ke plura sat indikas la pluralo.Ta nombri (kande on ne adjuntas *-o*, quo ne esas *necesa*) havas la acento sur la final silabo, pro ke li esas reale abreviuro di *miliono,* *miliardo* e. c.
 
 Ni devas explikar, pro quo ni adoptis por **biliono**, **triliono**,... la senco *Germana* prefere kam la senco E. F. I. S. plu internaciona.
 
-e. c. On vidas, ke en l'unesma kolumno existas nula koincido inter la *nombro* implikita en la *nomo* (*bi, tri, quadri*,...) e la exponento di la potenco (la relato esas : l'exponento = *n* + *1*, *n* esante la nombro implikita en la nomo); dum ke en la duesma (kolumno) ta nombri esas konstante egala. Esas do plu natural e komoda, konsiderar **biliono**, **triliono**, e. c., quale la sucedanta potenci di **miliono**. Plue, on ne bezonas **biliono** por 1,0003, pro ke on havas ja la vorto plu vulgara **miliardo**. Fine la Germana metodo furnisas la moyeno expresar plu granda nombri (quo povos esar tre utila en la cienci) : **decilion** signifikas 1,00011 en l'unesma sistemo, ma 1,00020 en la duesma. (*Progreso*, I, 710.)
+e. c. On vidas, ke en l'unesma kolumno existas nula koincido inter la *nombro* implikita en la *nomo* (*bi, tri, quadri*,...) e la exponento di la potenco (la relato esas : l'exponento = *n* + *1*, *n* esante la nombro implikita en la nomo); dum ke en la duesma (kolumno) ta nombri esas konstante egala. Esas do plu natural e komoda, konsiderar **biliono**, **triliono**, e. c., quale la sucedanta potenci di **miliono**. Plue, on ne bezonas **biliono** por 1,000³, pro ke on havas ja la vorto plu vulgara **miliardo**. Fine la Germana metodo furnisas la moyeno expresar plu granda nombri (quo povos esar tre utila en la cienci) : **decilion** signifikas 1,000¹¹ en l'unesma sistemo, ma 1,000²⁰ en la duesma. (*Progreso*, I, 710.)
 
 Omna altra nombri, quin on nomizas kompozita, esas expresata per la moyeno di la simpla nombri, segun la maniero sequanta :
 
@@ -1726,7 +1726,7 @@ Quankam : *la duesma, la triesma kloko*, e. c., ne esas *en su* kontrelogika, 
 
 Do ni dicez sempre kun la nombri kardinala : *esas* *du kloki dek, du kloki e tri quarimi*, e. c.; e ni nultempe uzez la formo adverbala *kloke*, quan l'Akademio explicite repulsis.
 
-En matematiko, on tradukas reguloze la signi +, —, × e : **per plus, minus, per e sur**; 23 = **du potenco tria;** **∛2** = **radiko tria di du** (1).
+En matematiko, on tradukas reguloze la signi +, —, × e : **per plus, minus, per e sur**; 2³ = **du potenco tria;** **∛2** = **radiko tria di du** (1).
 
 > (1) Remarkez **tria**, ne **triesma**. Nam ta ideo ne esas reale ordinala : la potenco 3a esas la potenco di qua l'exponento esas *tri*.
 

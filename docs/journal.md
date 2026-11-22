@@ -4578,6 +4578,9 @@ reader, a search or a model takes for a cube root.
 was transcribed, bold, though the « 2³ » before it on the line above is
 roman: worth enlarging when the scan is at hand. And the sign's shape —
 the rule over the radicand, its height — is TeX's, not the facsimile's.
+**The weight is settled since: « ∛2 » is bold,** confirmed against the
+facsimile by the commissioner after this entry was written. The shape of
+the sign is still TeX's.
 
 **What moved, and nothing else.** The PDF, against the build of `main`
 (itself pixel-identical to the committed `gramatiko.pdf` on all 236 pages,
@@ -4622,7 +4625,8 @@ for « 1<sup>ro</sup> » and wrong for the 14 numeric exponents: « 2³ » on
 this very line of folio 100 reads « 23 », « bilion (1,000,000²) » reads
 « 1,000,0002 », and « 1,000¹¹ » reads « 1,00011 ». It is the same kind of
 fault as « 3/2 » — a number the reader of the `.md` cannot recover — and it
-wants its own change.
+wants its own change. **Made since:** see « Exponents in the Markdown, and what the
+Markdown leaves out » below.
 
 **Checks.** 1 to 7 give the same output, line for line, on `main` and on
 this branch: 237 failures each, all already there — check 2 stops at line 1
@@ -4639,3 +4643,59 @@ The container had no TeX. Ubuntu noble's TeX Live 2023 builds the volume
 pixel-identical to the committed PDF, but needs `texlive-latex-extra`
 besides the base, recommended and font packages: `XCharter.sty` loads
 `xstring`.
+
+---
+
+## Exponents in the Markdown, and what the Markdown leaves out
+
+**AN EXPONENT IS NOT A DIGIT OF THE NUMBER.** `as_markdown()` stripped
+every tag and kept its text, so `<sup>` lost its raising: « 1,000,000² »
+came out « 1,000,0002 », « 1,000¹¹ » « 1,00011 », and « 2³ = du potenco
+tria » « 23 = du potenco tria ». Each is another number, readable and
+wrong, and nothing in the `.md` says so.
+
+**MEASURED: 193 superscripts on the page, 14 of them numeric, and every one
+of the 14 an exponent** — powers of 1,000 and of 1,000,000 at folios 94–95,
+and 2³ at folio 100. They are now set in Unicode's superscript digits:
+« 1,000,000² », « 1,000²⁰ », « 2³ », right whether the file is read raw or
+rendered. `<sup>` kept as HTML was the other way; rendered it is right, but
+raw it is markup in the middle of a number, which is what the `.md` exists
+to spare its reader.
+
+**The 179 letter superscripts stay flat, as they were.** « 1<sup>ro</sup> »,
+« 2<sup>e</sup> », « 3<sup>a</sup> », « 1<sup>ma</sup> » are ordinal
+abbreviations, and « 1ro » is how they are typed without the raising.
+Unicode's superscript letters are phonetic modifiers, not text, and there
+is none for q.
+
+`gramatiko.md` 491,607 → 491,618 bytes: eleven, the width of the seven
+exponents it carries (¹ ² ³ take two bytes in UTF-8, ⁰ ⁴ three). Only
+`chapitri/nombri.md` changes besides; `temi/` and `afixi/` are
+byte-identical, the page and the PDF are not touched. Witnesses 66 → 68:
+the table of digits, and « **bilion** (1,000,000²) » in the published
+file. Both fail on `main`.
+
+**SEVEN OF THE FOURTEEN ARE NOT IN THE MARKDOWN AT ALL — AND NEITHER IS ANY
+TABLE.** `BlockCollector` keeps three kinds of top-level block, `tit`, `p`
+and `noto`; everything else on the page is dropped without a word. Counted
+on the page as built:
+
+| dropped | blocks | what |
+| --- | ---: | --- |
+| `rangi` (tables) | 8 | the comparatives (folio 31), **the personal pronouns, singular and plural (folio 32)**, **two tables of the passive conjugation (folio 50)**, the long and short scales of the millions (folio 94), the two diagrams and the address of folios 220–223 |
+| `cen` (centred lines) | 13 | signatures, dates, the part titles of the half-titles, « FINO. », « Qua. » and « Pro quo ne havar en la tempi kompozita? » (folios 205, 212) |
+| `fer`, `orn`, `fig` | 6 | two signatures set flush right, three asterisms, the portrait's caption |
+| `parto` | 4 | the headings of the book's four divisions: the `.md` has chapters and no parts |
+
+Each checked against the text of both files, markup stripped: « 1-ma
+persono », « esabis amata », « Miliono », « La prezidanto », « Pro quo ne
+havar », « Unesma parto » are on the page and nowhere in `gramatiko.md`.
+(`avizo` and `kapo` are dropped too, rightly: they are the page's own
+notices, not the book.)
+
+The table of folio 94 is the one that holds the other seven exponents:
+« Miliono … 1,000² … 1,000,000 », down to « Quadriliono … 1,000⁵ …
+1,000,000⁴ ». And since `temi/` searches the chapters, the passive tables
+of folio 50 cannot be in `temi/pasivo.md` either. Not corrected here: how a
+table with braces and groups becomes Markdown is a decision of its own,
+and it wants its own change.

@@ -42,12 +42,12 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 859 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,607 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,618 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,550 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,039 bytes
-    python3 tools/witnesses.py        # 66 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 68 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED THREE TIMES. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED FOUR TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -90,6 +90,16 @@ reads « ∛2 = radiko tria di du », transcribed « 3/2 », a fraction.
 bytes where « / » was one. Nothing else moves: no topic, no affix, no
 anchor, and the PDF differs from the previous build on those two pages
 only, each in the one line — in its pixels and in its text.
+
+**THE FOURTH TIME, the exponents.** The Markdown kept the text of
+`<sup>` and lost its raising: « 1,000,000² » read « 1,000,0002 », « 2³ »
+« 23 ». The 14 numeric superscripts, all exponents, are now Unicode
+superscript digits; the 179 letter ones (« 1ro », « 2e ») stay flat.
+491,607 → 491,618 bytes. And seven of the fourteen are in a table the
+Markdown does not carry at all: it keeps headings, paragraphs and notes,
+and drops the 8 tables and 13 centred lines of the page — the pronouns of
+folio 32 and the passive of folio 50 among them. Recorded in the journal;
+not yet corrected.
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename
