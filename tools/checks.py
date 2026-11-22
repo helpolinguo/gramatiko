@@ -114,6 +114,9 @@ LITERALS = {'textquotesingle': "'",
               # outright, so that check 2 opposed "Embracili uzesas" to "Embracili {}
               # uzesas" on a page that was right.
               '{': '{', '}': '}'}
+# \VUracine[index]: the sign the PDF's ActualText gives -- the same table
+# as ROOT_SIGNS in tools/html.py and the \ifcase in the preamble.
+ROOT_SIGNS = {'': '\u221a', '2': '\u221a', '3': '\u221b', '4': '\u221c'}
 CMD = re.compile(r'\\([a-zA-Z@]+\*?|.)')
 
 
@@ -168,6 +171,20 @@ def plain_text(s):
                 continue
             while j < len(s) and s[j] in ' \n\t':
                 j += 1
+            if name == 'VUracine':
+                # THE ROOT OF FOLIO 100. The PDF gives « ∛2 », the
+                # ActualText \VUracine sets; read as an unknown command it
+                # gave « 2 », and check 2 set the one against the other.
+                index = ''
+                if s.startswith('[', j):
+                    k = s.find(']', j)
+                    index, j = s[j + 1:k].strip(), k + 1
+                if j < len(s) and s[j] == '{':
+                    inner, j = _skip_group(s, j)
+                    out.append(ROOT_SIGNS.get(index, index + '√')
+                               + plain_text(inner))
+                i = j
+                continue
             j = _skip_opt(s, j)
             if name in SILENT:
                 for _ in range(SILENT[name]):

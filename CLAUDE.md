@@ -42,12 +42,12 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 859 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,601 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,607 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,550 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,039 bytes
-    python3 tools/witnesses.py        # 60 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 66 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED TWICE. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED THREE TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -82,6 +82,14 @@ searched 1641; no topic file changes.
 16 August. Repointed, the volume compiles again, and is pixel-identical
 to that build, rendered at 100 dpi, on 234 of its 236 pages: the other
 two are folios 82 and 98.
+
+**THE THIRD TIME, two misreadings of the facsimile.** Folio 12 reads
+« ma **a**, **e** recevas », transcribed « ma **a** e recevas »; folio 100
+reads « ∛2 = radiko tria di du », transcribed « 3/2 », a fraction.
+491,601 → 491,607 bytes: five for « , **e** », one because « ∛ » is three
+bytes where « / » was one. Nothing else moves: no topic, no affix, no
+anchor, and the PDF differs from the previous build on those two pages
+only, each in the one line — in its pixels and in its text.
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename

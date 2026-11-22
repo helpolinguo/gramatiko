@@ -4525,3 +4525,117 @@ of text — is what the description means.
 Not run here, for want of the scan: checks 8 to 12, so neither check 11's
 seven pages nor check 10's folio 136 has been seen to hold. Check 2 reports
 the same failures, line for line, on `main` and on this branch.
+
+---
+
+## Folios 12 and 100: two misreadings of the facsimile
+
+**Reported against the facsimile, and both are the transcription's
+misreadings, not the printer's typos.** The rule that the source does not
+move protects the 1925 text; it does not protect a misreading of it, and
+these two are corrected in `content/10-part1.tex`, where they were made.
+
+**Folio 12, line 3 of the second paragraph: « ma a, e recevas », both
+vowels in bold.** It was transcribed « ma **a** e recevas »: the comma lost
+and **e** in roman. Read so, **e** is the conjunction, and the sentence —
+the voice falls on the first vowel of the diphthong — names one vowel where
+it means two, as four words earlier on the same line (« quik pos **a**,
+**e** »). The scan is not here, and I did not see the weight. It is
+settled on the report, which was made against the printed page itself:
+the rule against deciding a weight on the strip is not engaged.
+
+The line is justified and stays one line: its spaces close up, nothing
+else on the page moves. Same overfull and underfull boxes as before, 62,
+same widths.
+
+**Folio 100: « ∛2 = radiko tria di du ».** It was transcribed
+`\VUgras{3/2}`: the long stroke of the radical read as a slash, the index
+as a figure beside it. The reading page and the Markdown therefore printed
+a fraction, three halves, opposite « radiko tria di du ».
+
+A root is new to the volume, and gets one macro, `\VUracine[index]{radicand}`,
+beside the braces in the preamble: the sign comes from the math font, as
+theirs does. Two decisions in it:
+
+* **The figures are the text's.** In math mode a digit is Computer Modern
+  whatever surrounds it, and the radicand fell out of the narrow bold of
+  `\VUgras`. Both figures are set in text mode, in boxes; the index at
+  TeX's own ratio for one, `\defaultscriptscriptratio`, 0.5.
+* **The root is boxed to null height.** Measured on the composed box:
+  9.29 pt above the baseline, 1.11 pt below. The line above goes 2.04 pt
+  down, and 9.29 + 2.04 = 11.33 pt does not fit in a pitch of 9.99. Built
+  without the box, the line and every line below it on folio 100 came down
+  by **2.3 pt** (19 px at 600 dpi, measured by aligning the page against
+  the boxed build). Boxed, 9 blank rows at 600 dpi, 1.1 pt, separate the
+  sign's rule from the foot of the « e : » above it.
+
+`tools/html.py` reads `\VUracine` as the sign that carries its index —
+`∛` for 3, `√` and `∜` for 2 and 4, the index raised before `√` for any
+other — so the page and the Markdown print « **∛2** », one character a
+reader, a search or a model takes for a cube root.
+
+**Not settled, for want of the scan.** The weight of « ∛2 » is kept as it
+was transcribed, bold, though the « 2³ » before it on the line above is
+roman: worth enlarging when the scan is at hand. And the sign's shape —
+the rule over the radicand, its height — is TeX's, not the facsimile's.
+
+**What moved, and nothing else.** The PDF, against the build of `main`
+(itself pixel-identical to the committed `gramatiko.pdf` on all 236 pages,
+TeX Live 2023 from Ubuntu noble, pdfTeX 1.40.25): **234 of 236 pages
+pixel-identical at 100 dpi**; pages 14 and 102 differ in one band each,
+rows 164–178 and 238–252, the corrected line. Page: 859 anchors, 1231
+paragraphs, 412 notes, unchanged. `gramatiko.md` 491,601 → 491,607 bytes:
+five for « , **e** », one because « ∛ » is three bytes where « / » was
+one. `temi/` and `afixi/` are byte-identical: neither line is in a topic
+or an affix. The PDF's text, `pdftotext` with and without `-layout`,
+differs from the old build in exactly the two lines. Witnesses 60 → 66:
+the two lines, the null height, the ActualText, the sign on the page, and
+check 2's reading.
+
+**THE NULL HEIGHT BROKE THE PDF'S TEXT, AND IT TOOK TWO TRIES TO MEND.**
+The sign maps to Unicode, « √ », and a sign with no height is filed by
+pdftotext in the line ABOVE: « e » went to a line of its own, then
+« √ : per plus, minus, … », then the index « 3 » alone, then « 2 =
+radiko … ». Copying from the PDF gave that, and check 2 — once it runs
+with the scan — would have failed on the line above the root.
+
+* **First try: one ActualText of « ∛2 » around the whole root**
+  (`accsupp`, method hex). pdftotext honours it, and gave
+  « e∛2: per plus, … » and « = radiko tria di du (1). » A reader of the
+  PDF places an ActualText where the first glyph of its span stands, and
+  TeX draws the index first, then the sign — both high, the sign's own
+  origin at its top. Abandoned.
+* **Kept: the radicand drawn first, alone carrying « ∛2 ».** The root is
+  composed with an empty radicand of the same size, which draws index,
+  sign and rule under an empty ActualText; the « 2 » is laid over its
+  place before it, on the baseline. pdftotext then gives « e : per plus,
+  … » and « ∛2 = radiko tria di du (1). », and folio 100 is
+  **pixel-identical at 600 dpi** to the root drawn in one piece.
+
+`checks.py` reads `\VUracine` as the ActualText reads it, « ∛2 »;
+read as an unknown command it gave « 2 », and check 2 would have set the
+one against the other.
+
+**Seen on the way, not corrected here: the Markdown flattens superscripts.**
+`machine_readable.py` drops `<sup>` and keeps its text, which is harmless
+for « 1<sup>ro</sup> » and wrong for the 14 numeric exponents: « 2³ » on
+this very line of folio 100 reads « 23 », « bilion (1,000,000²) » reads
+« 1,000,0002 », and « 1,000¹¹ » reads « 1,00011 ». It is the same kind of
+fault as « 3/2 » — a number the reader of the `.md` cannot recover — and it
+wants its own change.
+
+**Checks.** 1 to 7 give the same output, line for line, on `main` and on
+this branch: 237 failures each, all already there — check 2 stops at line 1
+of most pages, check 4's one failure is the one documented as correct, and
+8 to 12 raise for want of the scan. Check 2 therefore never reached either
+line; they were compared directly, with its own `plain_text()`, `_norm()`
+and `lines_pdf()`: both read on the PDF exactly as transcribed. 8 to 12
+were not run: neither check 11's seven pages nor check 10's folio 136 has
+been seen to hold. Check 1 rewrote `tools/hbox.txt`: the same 21 entries,
+nine of them further down `content/10-part1.tex` — eight by five lines,
+one by eight — by the comments added to the heads of folios 12 and 100.
+
+The container had no TeX. Ubuntu noble's TeX Live 2023 builds the volume
+pixel-identical to the committed PDF, but needs `texlive-latex-extra`
+besides the base, recommended and font packages: `XCharter.sty` loads
+`xstring`.

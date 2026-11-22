@@ -66,7 +66,7 @@ La kin vokali esas : **a, e, i, o, u.** La duadek-e-un konsonanti esas : **b
 
 **u** sempre devas esar pronuncata quale *u* Italiana o Germana; nultempe quale *u* Franca o *ü* Germana. Ol sonas quale la Franca grupo *ou*.
 
-Kande **u** sequas nemediate **a** o **e**, ol formacas kun ici diftongo, qua esas pronuncata *unsilabe*. La sono **u** devas audesar quik pos **a**, **e** quaze sen intertempo, ma **a** e recevas la chefa esforco di la voco : **Australia, Europa, laute, neutra.**
+Kande **u** sequas nemediate **a** o **e**, ol formacas kun ici diftongo, qua esas pronuncata *unsilabe*. La sono **u** devas audesar quik pos **a**, **e** quaze sen intertempo, ma **a**, **e** recevas la chefa esforco di la voco : **Australia, Europa, laute, neutra.**
 
 Ma, se la renkontro di **a**, **e** kun **u** rezultas de prefixo o sufixo adjuntita a radiko, quale en **neutila** (*ne-utila*), **kreuro** (*kre-uro*), lore **au**, **eu** ne plus facas diftongo, e singla vokalo apartenas a silabo partikulara. Konseque singla esas aparte pronuncata, quale indikesas per (*ne-utila* e *kre-uro*) supere.
 
@@ -1726,7 +1726,7 @@ Quankam : *la duesma, la triesma kloko*, e. c., ne esas *en su* kontrelogika, 
 
 Do ni dicez sempre kun la nombri kardinala : *esas* *du kloki dek, du kloki e tri quarimi*, e. c.; e ni nultempe uzez la formo adverbala *kloke*, quan l'Akademio explicite repulsis.
 
-En matematiko, on tradukas reguloze la signi +, —, × e : **per plus, minus, per e sur**; 23 = **du potenco tria;** **3/2** = **radiko tria di du** (1).
+En matematiko, on tradukas reguloze la signi +, —, × e : **per plus, minus, per e sur**; 23 = **du potenco tria;** **∛2** = **radiko tria di du** (1).
 
 > (1) Remarkez **tria**, ne **triesma**. Nam ta ideo ne esas reale ordinala : la potenco 3a esas la potenco di qua l'exponento esas *tri*.
 

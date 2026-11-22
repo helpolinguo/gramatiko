@@ -107,7 +107,7 @@ Quankam : *la duesma, la triesma kloko*, e. c., ne esas *en su* kontrelogika, 
 
 Do ni dicez sempre kun la nombri kardinala : *esas* *du kloki dek, du kloki e tri quarimi*, e. c.; e ni nultempe uzez la formo adverbala *kloke*, quan l'Akademio explicite repulsis.
 
-En matematiko, on tradukas reguloze la signi +, —, × e : **per plus, minus, per e sur**; 23 = **du potenco tria;** **3/2** = **radiko tria di du** (1).
+En matematiko, on tradukas reguloze la signi +, —, × e : **per plus, minus, per e sur**; 23 = **du potenco tria;** **∛2** = **radiko tria di du** (1).
 
 > (1) Remarkez **tria**, ne **triesma**. Nam ta ideo ne esas reale ordinala : la potenco 3a esas la potenco di qua l'exponento esas *tri*.
 

@@ -135,6 +135,9 @@
 \usepackage{graphicx}
 \usepackage{calc}
 \usepackage[tracking=true,letterspace=0]{microtype}
+% The text the PDF gives for a sign it draws from the math font: the
+% root of folio 100 (\VUracine). It sets nothing on the page.
+\usepackage{accsupp}
 % Tracking applied by \lsstyle to sizes below 9 pt: the notes.
 \SetTracking[no ligatures={f}]{encoding=*, size=-9}{78}
 
@@ -371,6 +374,54 @@
 % #1 = surveyed width.
 \newcommand{\VUaccoladeH}[1]{%
   \raisebox{0pt}[0pt][0pt]{$\overbrace{\hbox to #1{}}$}}
+% A ROOT: \VUracine[index]{radicand}. The volume has one, at folio 100 --
+% « ∛2 = radiko tria di du » --, which was first transcribed « 3/2 »:
+% the long stroke of the sign read as a slash, the index as a figure
+% beside it.
+% The sign is the math font's, like the braces above. The figures are
+% the TEXT's, set in boxes: in math mode a digit comes from Computer
+% Modern whatever surrounds it, and the radicand would have dropped out
+% of the narrow bold of \VUgras around it. The index takes the ratio
+% TeX gives an index of its own (\defaultscriptscriptratio, 0.5).
+% NULL HEIGHT AND DEPTH, as for the braces. MEASURED: the sign with its
+% rule stands 9.29 pt above the baseline and 1.11 pt below; the line
+% above it goes 2.04 pt down, and 9.29 + 2.04 = 11.33 pt does not fit
+% in a pitch of 9.99. Set without the box, the line and every line
+% below it on folio 100 came down by 2.3 pt (19 px at 600 dpi).
+% AN ACTUALTEXT, OR THE TEXT LAYER BREAKS ON TWO LINES. The sign does
+% map to Unicode, « √ », and with no height pdftotext filed it in the
+% line ABOVE: « e » split off on a line of its own, then « √ : per plus,
+% minus... », then the index « 3 » alone, then « 2 = radiko... ». What
+% the PDF copies, and what check 2 reads, is therefore set here: « ∛2 »,
+% the reading tools/html.py gives the page. Index -> sign as in its
+% ROOT_SIGNS; the radicand must be plain characters, it is spelled out
+% in UTF-16 one by one.
+% THE RADICAND IS DRAWN FIRST, AND CARRIES THE WHOLE TEXT. A reader of
+% the PDF places an ActualText where the first glyph of its span stands,
+% and TeX draws the root index first, then the sign: both stand high,
+% the sign's own origin at its TOP. One span around the whole root put
+% « e∛2: per plus... » on the line above, and left « = radiko... »
+% without it. So the root is set with an empty radicand of the same
+% size, which draws the index, the sign and the rule; the radicand is
+% laid over its place before it, on the baseline, and alone carries
+% « ∛2 »; the sign and the index carry an empty text. Drawn so, folio
+% 100 is pixel-identical at 600 dpi to the root set in one piece.
+\makeatletter
+\def\VU@utf#1{\ifx\relax#1\else00\pdfescapehex{#1}\expandafter\VU@utf\fi}
+\newcommand{\VUracine}[2][]{%
+  \@tempdima=\f@size pt
+  \@tempdima=\defaultscriptscriptratio\@tempdima
+  \edef\VU@actual{method=hex,unicode,ActualText=%
+    \ifcase0#1 221A\or221A\or221A\or221B\or221C\else\VU@utf#1\relax221A\fi
+    \VU@utf#2\relax}%
+  \setbox\tw@\hbox{#2}%
+  \setbox\z@\hbox{$\sqrt[\mbox{\fontsize{\@tempdima}{\@tempdima}%
+    \selectfont #1}]{\vphantom{\copy\tw@}\hbox to\wd\tw@{}}$}%
+  \raisebox{0pt}[0pt][0pt]{%
+    \rlap{\kern\wd\z@\kern-\wd\tw@
+      \expandafter\BeginAccSupp\expandafter{\VU@actual}\copy\tw@\EndAccSupp{}}%
+    \BeginAccSupp{method=hex,unicode,ActualText=}\box\z@\EndAccSupp{}}}
+\makeatother
 
 % -------------------------------------------------------------------
 % 7. APPARATUS LINES (half-title, title, part titles)

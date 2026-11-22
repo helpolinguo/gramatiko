@@ -25,6 +25,25 @@ T = [
   'ne plu bona.\n\n(2) Segun', 1),
  ('folio 98: note (2) a paragraph of its own', 'content/10-part1.tex',
   '2-ma remarko.\n\n(2) Evitez', 1),
+ # Folio 12: « ma a, e recevas », both vowels in bold -- first read
+ # « ma a e recevas », and e in roman read as the conjunction.
+ ('folio 12: a, e both in bold', 'content/10-part1.tex',
+  'ma \\VUgras{a}, \\VUgras{e} recevas', 1),
+ # Folio 100: « ∛2 = radiko tria di du », first read « 3/2 », a fraction.
+ # Five pieces: the root in the transcription; the null height that
+ # keeps the rest of the page where it was (unboxed, every line below
+ # came down 2.3 pt); the radicand drawn first, carrying the ActualText,
+ # without which the PDF's text put the sign on the line above; the sign
+ # the page and the Markdown print; and check 2 reading it the same way.
+ ('folio 100: the cube root set as a root', 'content/10-part1.tex',
+  '\\VUgras{\\VUracine[3]{2}}', 1),
+ ('folio 100: root with null height', 'preamble.tex',
+  '\\raisebox{0pt}[0pt][0pt]{%\n    \\rlap{', 1),
+ ('folio 100: radicand carries the text', 'preamble.tex',
+  '\\BeginAccSupp\\expandafter{\\VU@actual}\\copy\\tw@', 1),
+ ('page: root read as its sign', 'tools/html.py', 'ROOT_SIGNS', 2),
+ ('check 2: root read as the PDF gives it', 'tools/checks.py',
+  'ROOT_SIGNS', 2),
  ('clickable references in the Tabelo', 'preamble.tex', '\\VUlienOuvre', 3),
  ('gap before a wide number', 'preamble.tex',
   '\\newcommand{\\VUindexEcart}', 1),
