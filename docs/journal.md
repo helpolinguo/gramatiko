@@ -4766,3 +4766,35 @@ ones seen to fail on `main`. Checks 1 to 7: output identical to `main`'s;
 check 2 stops before these lines, so the nine were compared with its own
 functions, and read the same on both sides but for the hyphen a `\cc` sets.
 Checks 8 to 12 not run, for want of the scan.
+
+---
+
+## Folio 157: « igar de facar », and a check at x 10 that was wrong
+
+**THE SURVEY NOTE RECORDED A TYPO OF THE ORIGINAL THAT IS NOT THERE.** The
+head of leaf 161 said: « A TYPO OF THE ORIGINAL, kept: « Dicernez do bone
+igar do facar. » — the second « do » where the sense calls for « de ».
+Checked under magnification at x 10. » Reported against the facsimile:
+the page reads « (Dicernez do bone **igar** de **facar.**) » — « de », as
+the sense wants, in roman, and only « facar. » in bold. The transcription
+had `\VUgras{do facar.}`: **the letter and the weight both misread, on a
+line whose letter the survey says it checked at x 10.** The note is
+corrected where it is written, keeping what it said.
+
+This is the rule on weight with one more case to its name — a short
+roman word between two bold ones reads bold at actual size — but it is
+also a warning about this journal's own assertions: « checked » is a
+claim, and here it was false. It was only ever written in the leaf's
+comment; nothing else in the repository repeated it.
+
+**What moved.** One short line, the last of its paragraph, so nothing is
+justified and nothing else moves: 235 of 236 pages pixel-identical at
+100 dpi to `main`'s PDF, page 159 differing in one band. Same 62 boxes,
+same widths; `tools/hbox.txt` rewritten by check 1 with four entries of
+`content/20-part2.tex` four lines further down, by the corrected note.
+The PDF's text differs in that one line. « \*\*do facar.\*\* » and « de
+\*\*facar.\*\* » have the same length, so `gramatiko.md`, `afixi/` and
+`temi/` keep their sizes; `chapitri/sufixi.md` and `afixi/-ig-.md` carry
+the new reading. Witnesses 73 → 74. Checks 1 to 7 identical to `main`'s;
+the line compared with check 2's own functions reads « de facar.) » on
+both sides. Checks 8 to 12 not run, for want of the scan.

@@ -37,7 +37,7 @@ Cetere, se to esas necesa o mem nur utila, on sempre darfas uzar explicite : *
 
 On tote darfas preferar : **igar ulu vidar ulo** a : *vidigar* *ulo da ulu*; **me igos vu konstatar la kozo** a : *me konstatigos* *da vu la kozo*; e tale pri multa kazi analoga.
 
-Quale on vidis en la supera exempli, la sufixo **ig** uzesas kom radiko dil verbo **igar** : **me igas vitro neruptebla** = *me* *traktas vitro* (ja fabrikita) *tale, ke lu divenas neruptebla*, tre diferas de : **me facas neruptebla vitro** (o **vitro neruptebla**) qua signifikas : *me fabrikas*, e. c. (Dicernez do bone **igar** **do facar.**)
+Quale on vidis en la supera exempli, la sufixo **ig** uzesas kom radiko dil verbo **igar** : **me igas vitro neruptebla** = *me* *traktas vitro* (ja fabrikita) *tale, ke lu divenas neruptebla*, tre diferas de : **me facas neruptebla vitro** (o **vitro neruptebla**) qua signifikas : *me fabrikas*, e. c. (Dicernez do bone **igar** de **facar.**)
 
 On anke vidis, ke la verbo **igar** darfas havar propoziciono kom objekto : **me igas mea kavalo manjar aveno.** Quale on vidas, importas (por la justa expreso e kompreno) sequar la « normal ordino » en ta propozicioni infinitivala : **Il igis** **Petrus ocidar Alexander** = *il igis Alexander ocidesar da* *Petrus.*
 
