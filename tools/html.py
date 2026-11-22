@@ -30,7 +30,10 @@ WHAT IS DELIBERATELY LEFT ASIDE
 
 THE TEXT IS NEVER CORRECTED. The typos of 1925 are kept; the tool touches
 only what is composition (line breaks, French spacing) and never the
-letter.
+letter. One exception, and it is not this tool's: a correction the
+commissioner orders is marked in the transcription itself,
+\\VUcorrige{as printed}{as set}, and the page reads the second as the PDF
+does -- the Spanish accents of folios 12, 158, 208 and 209.
 """
 import os
 import re
@@ -185,7 +188,9 @@ def mm(x):
 # ------------------------------------------------------------------
 # Macros that bear only on composition: their argument is text, the
 # wrapping disappears.
-TRANSPARENT = {'VUetroit': (2, 1), 'VUserre': (2, 1), 'VUdecale': (2, 1),
+# \VUcorrige{as printed}{as set}: the page reads what the PDF sets.
+TRANSPARENT = {'VUcorrige': (2, 1),
+                 'VUetroit': (2, 1), 'VUserre': (2, 1), 'VUdecale': (2, 1),
                  'VUcentreDA': (5, 4), 'textnormal': (1, 0), 'mbox': (1, 0)}
 TAGS = {'VUgras': ('<b>', '</b>'), 'textbf': ('<b>', '</b>'),
            'textit': ('<i>', '</i>'), 'emph': ('<i>', '</i>'),

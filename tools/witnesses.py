@@ -51,6 +51,21 @@ T = [
   'SUPERSCRIPT_DIGITS', 2),
  ('Markdown: 1,000,000² is not 1,000,0002', 'gramatiko.md',
   '**bilion** (1,000,000²)', 1),
+ # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
+ # transcription reads « acuatico », « heroina », « habias »...; that
+ # letter stays in the transcription, first argument of \VUcorrige, and the
+ # preamble sets the second. Nine words; the macro; the page and check 2
+ # reading the same letter as the PDF.
+ ('Spanish accents: folio 12', 'content/10-part1.tex',
+  '\\VUcorrige{acuatico}{acuático}', 1),
+ ('Spanish accents: folios 158, 208, 209', 'content/20-part2.tex',
+  '\\VUcorrige{', 8),
+ ('Spanish accents: the preamble sets them', 'preamble.tex',
+  '\\newcommand{\\VUcorrige}[2]{#2}', 1),
+ ('page: correction read as set', 'tools/html.py',
+  "'VUcorrige': (2, 1)", 1),
+ ('check 2: correction read as set', 'tools/checks.py',
+  "'VUcorrige': 1", 1),
  ('clickable references in the Tabelo', 'preamble.tex', '\\VUlienOuvre', 3),
  ('gap before a wide number', 'preamble.tex',
   '\\newcommand{\\VUindexEcart}', 1),
