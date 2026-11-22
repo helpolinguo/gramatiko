@@ -45,7 +45,7 @@ transcription and from nothing else:
     python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,627 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,550 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,040 bytes
-    python3 tools/witnesses.py        # 73 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 74 witnesses, exits non-zero if one is lost
 
 **THE FIGURES ABOVE HAVE MOVED FIVE TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one

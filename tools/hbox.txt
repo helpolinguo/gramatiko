@@ -49,15 +49,15 @@ nee-vite-ble kolizionas
  17. Overfull \hbox (6.95995pt too wide) in paragraph at lines 2313--2324
 \T1/XCharter-TLF/m/n/10.2 (-20) stantivi no-mizanta la \T1/XCharter-TLF/m/it/10
 .2 (-20) loko des-tinita \T1/XCharter-TLF/m/n/10.2 (-20) (ad ob-jekto od ago).
- 18. Overfull \hbox (1.45787pt too wide) in paragraph at lines 4719--4734
+ 18. Overfull \hbox (1.45787pt too wide) in paragraph at lines 4723--4738
 \T1/XCharter-TLF/m/n/10.2 (-20) traste a hom-\T1/XCharter-TLF/m/it/10.2 (-20) i
 n\T1/XCharter-TLF/m/n/10.2 (-20) -o), la kauzo esas ev-i-dente, ke on donas a \
- 19. Overfull \hbox (2.63052pt too wide) in paragraph at lines 4942--4946
+ 19. Overfull \hbox (2.63052pt too wide) in paragraph at lines 4946--4950
 \T1/XCharter-TLF/m/n/10.2 (-20) pri ta punto la cien-coza filo-zofi-isto L. \T1
 /XCharter-TLF/m/sc/10.2 (-20) Coutu-rat\T1/XCharter-TLF/m/n/10.2 (-20) , nia re
- 20. Overfull \hbox (11.09404pt too wide) in paragraph at lines 5225--5234
+ 20. Overfull \hbox (11.09404pt too wide) in paragraph at lines 5229--5238
 []\T1/XCharter-TLF/m/n/10.2 (-20) Pri la duesma propozo di S$[]$ \T1/XCharter-T
 LF/m/sc/10.2 (-20) de Janko\T1/XCharter-TLF/m/n/10.2 (-20) . (Vid. p. 199.) S$[
- 21. Overfull \hbox (1.14993pt too wide) in paragraph at lines 5947--5958
+ 21. Overfull \hbox (1.14993pt too wide) in paragraph at lines 5951--5962
 \T1/XCharter-TLF/m/n/10.2 (-20) la verbo \T1/XCharter-TLF/m/it/10.2 (-20) havar
  \T1/XCharter-TLF/m/n/10.2 (-20) kom hel-panto kon-ju-gala en la kom-pozita tem

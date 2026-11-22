@@ -51,6 +51,10 @@ T = [
   'SUPERSCRIPT_DIGITS', 2),
  ('Markdown: 1,000,000² is not 1,000,0002', 'gramatiko.md',
   '**bilion** (1,000,000²)', 1),
+ # Folio 157: « igar de facar. », de in roman -- transcribed « do facar. »
+ # all bold, and recorded as a typo of the original « checked at x 10 ».
+ ('folio 157: de facar, de in roman', 'content/20-part2.tex',
+  '\\VUgras{igar}\\nl\nde \\VUgras{facar.})', 1),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
  # transcription reads « acuatico », « heroina », « habias »...; that
  # letter stays in the transcription, first argument of \VUcorrige, and the
