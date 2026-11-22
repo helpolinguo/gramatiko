@@ -17,7 +17,7 @@ Transskribita de https://ido.help/gramatiko/
 
 **u** sempre devas esar pronuncata quale *u* Italiana o Germana; nultempe quale *u* Franca o *ü* Germana. Ol sonas quale la Franca grupo *ou*.
 
-Kande **u** sequas nemediate **a** o **e**, ol formacas kun ici diftongo, qua esas pronuncata *unsilabe*. La sono **u** devas audesar quik pos **a**, **e** quaze sen intertempo, ma **a** e recevas la chefa esforco di la voco : **Australia, Europa, laute, neutra.**
+Kande **u** sequas nemediate **a** o **e**, ol formacas kun ici diftongo, qua esas pronuncata *unsilabe*. La sono **u** devas audesar quik pos **a**, **e** quaze sen intertempo, ma **a**, **e** recevas la chefa esforco di la voco : **Australia, Europa, laute, neutra.**
 
 Ma, se la renkontro di **a**, **e** kun **u** rezultas de prefixo o sufixo adjuntita a radiko, quale en **neutila** (*ne-utila*), **kreuro** (*kre-uro*), lore **au**, **eu** ne plus facas diftongo, e singla vokalo apartenas a silabo partikulara. Konseque singla esas aparte pronuncata, quale indikesas per (*ne-utila* e *kre-uro*) supere.
 

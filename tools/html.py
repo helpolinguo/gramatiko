@@ -198,6 +198,9 @@ LITERALS = {'textquotesingle': "'", 'nl': ' ', 'cc': '', ' ': ' ',
              'ignorespaces': '', 'hfil': ' ', 'hfill': ' ',
              'VUaccolade': None, 'VUaccoladeD': None, 'VUaccoladeH': None}
 
+#  \VUracine[index]{radicand}: index -> the sign that carries it.
+ROOT_SIGNS = {'': '√', '2': '√', '3': '∛', '4': '∜'}
+
 unhandled = OrderedDict()   # macro -> number of untreated encounters
 
 
@@ -333,6 +336,19 @@ def inline(s):
             elif name == 'VUaccoladeH':
                 _, args, i = read_args(s, i, 1)
                 out.append(brace_svg('akolH'))
+            elif name == 'VUracine':
+                # THE ROOT OF FOLIO 100, AS ONE CHARACTER. Unicode has the
+                # square, cube and fourth roots as signs of their own, and
+                # « ∛2 » is what a reader -- or a search, or a model reading
+                # the Markdown -- takes for a cube root. A root of another
+                # index is written as it is drawn: the index raised, then
+                # the sign. Transcribed « 3/2 », the page and the Markdown
+                # printed a fraction: three halves, « radiko tria di du ».
+                o, args, i = read_args(s, i, 1, opt=True)
+                sign = ROOT_SIGNS.get((o or '').strip())
+                if sign is None:
+                    sign = '<sup>%s</sup>√' % inline(o)
+                out.append(sign + inline(args[0]))
             elif name in LITERALS:
                 out.append(LITERALS[name] or '')
             elif name in ('fontsize', 'selectfont', 'normalfont', 'bfseries',
