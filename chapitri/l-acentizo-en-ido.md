@@ -13,7 +13,7 @@ En I, 479, on remarkigis, ke « l'ortografio di l'internaciona vorti restas ge
 
 D. *Agonîe*; I. *agonîa*; R. *agôniya*; E. *âgony*.
 
-D. *Geologîe*; I. *geologîa*; R. *geolôgiya*; E. *geôlogy*; Hungara : *gêologia*.
+D. *Geologîe*; I. *geologîa*; R. *geolôgiya*; E. *geôlogy*; Hungara : *gêologia*. »
 
 Pos altra exempli, on propozis fixigar, ke : l'acento ne povos falar sur la i, mem ne en la vorti : *agonio*, *alegorio*, *amfibio*, e. c. Ed on adjuntis : « Por enduktar to, on devus establisar aparta regulo, nome, ke on ne povas acentizar la i en la songrupi **io**, **ia** (anke **ie**). »
 
@@ -55,7 +55,7 @@ gênio, gêniâla.
 
 sêxuo, sêxuâla.
 
-Multa ek ta derivaji konkordas kun la acentizo en naturala lingui, kp. E. *melôdious*, D. *melôdisch*; E. *sôcial*, D. *sôcial*; E. *irônic*, D. *irônisch*; E. *ceremônious, sêxual, mânual*, e. c. Notez anke ke *filozôfo, filolôgo* e *filolôgio* ligesas per acento, e ke *philosôphia, ceremônia, litûrgia*, e. c., esas la latina acentizo, quan la Franci e segun lia exemplo anke kelka altra nacioni chanjis...
+Multa ek ta derivaji konkordas kun la acentizo en naturala lingui, kp. E. *melôdious*, D. *melôdisch*; E. *sôcial*, D. *sôcial*; E. *irônic*, D. *irônisch*; E. *ceremônious, sêxual, mânual*, e. c. Notez anke ke *filozôfo, filolôgo* e *filolôgio* ligesas per acento, e ke *philosôphia, ceremônia, litûrgia*, e. c., esas la latina acentizo, quan la Franci e segun lia exemplo anke kelka altra nacioni chanjis... »
 
 Pos tante bona demonstro l'Akademio povis nur adoptar la regulo quan Sro Jespersen indikis klare kom preferinda. Ol agis lo unanime minus un voco per la decido 57 : L'acento esas sur la lasta silabo di l'infinitivi e sur la prelasta silabo di la cetera vorti. Ma en plursilaba radiki, i e u nemediate avan vokalo ne povas ricevar (recevar) l'acento. Konseque omna radiki finanta nun per y pos konsonanto chanjos ol ad i. (*Progreso*, III, 322.)
 

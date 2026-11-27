@@ -116,6 +116,24 @@ T = [
   'Same : \\VUgras{internaciona, dukapa, trifolia} (3)', 1),
  ('rulings: \\VUcorrige, part 1 with the foreign words', 'content/10-part1.tex',
   '\\VUcorrige{', 17),
+ # Folios 36 to 215: THE UNCLOSED QUOTATIONS, checked against the page.
+ # 44 paragraphs where a quotation opened and did not close; 27 faults of
+ # the print, closed where the commissioner ruled (docs/journal.md,
+ # « Unclosed quotations checked against the page »). Counts are minima,
+ # the transcription's own lines alone: 14 closing marks set in part 1,
+ # 29 in part 2.
+ ('quotations: closing marks set, part 1', 'content/10-part1.tex',
+  '\\VUcorrige{}{ »}', 14),
+ ('quotations: closing marks set, part 2', 'content/20-part2.tex',
+  '\\VUcorrige{}{ »}', 29),
+ ('quotations: folio 53, the end of the note', 'content/10-part1.tex',
+  'kurta interrupto.}\\VUcorrige{}{ »}', 1),
+ ('quotations: folio 81, inside the bold run', 'content/10-part1.tex',
+  '\\VUgras{dento po dento\\VUcorrige{}{ »}. ---', 1),
+ ('quotations: folio 165, the whole note quoted', 'content/20-part2.tex',
+  'apartenas al Akademio.\\VUcorrige{}{ »}', 1),
+ ('quotations: folio 200, « objekto » closed', 'content/20-part2.tex',
+  'simple « \\VUgras{objekto}\\VUcorrige{}{ »} od « ento » (3).', 1),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
  # transcription reads « acuatico », « heroina », « habias »...; that
  # letter stays in the transcription, first argument of \VUcorrige, and the

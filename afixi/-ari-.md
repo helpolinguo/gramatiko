@@ -9,7 +9,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**-ari-.** — Ta sufixo, Latina origine e novlatina, adoptesis dal Akademio, en junio 1913, per la decido 1143. Fakte la decido remplasigis la unionuro di *du* sufixi (*aj, ul*) (1), komprenebla pos reflekto ma ne evidenta. Ol indikas « *persono* *a qua ula ago esas direktata od ula kozo esas destinata* (2) : **depozario, legacario, sendario** (3), **konfidencario, donacario,** **koncesionario, adjudikario, konfesario** (1), e. c. = *qua recevas depozo, legaco, sendo, konfidenco, donaco, koncesiono,* *adjudiko, konfeso*, la homo atingata da ica agi, e fakte dal *depozajo, legacajo, sendajo*, e. c.
+**-ari-.** — Ta sufixo, Latina origine e novlatina, adoptesis dal Akademio, en junio 1913, per la decido 1143. Fakte la decido remplasigis la unionuro di *du* sufixi (*aj, ul*) (1), komprenebla pos reflekto ma ne evidenta. Ol indikas « *persono* *a qua ula ago esas direktata od ula kozo esas destinata* » (2) : **depozario, legacario, sendario** (3), **konfidencario, donacario,** **koncesionario, adjudikario, konfesario** (1), e. c. = *qua recevas depozo, legaco, sendo, konfidenco, donaco, koncesiono,* *adjudiko, konfeso*, la homo atingata da ica agi, e fakte dal *depozajo, legacajo, sendajo*, e. c.
 
 > (1) Lore *ul* ankore signifikis « karakterizata per », quale en Esperanto. Ma pose e plu juste, *-ul* atribuesis a la enti *maskula*, *-ier* recevinte la senco : *karakterizata per* (ulo extera).
 

@@ -5133,6 +5133,8 @@ with «, on leaf 15 and folios 35, 36, 49, 52, 57, 61, 64, 66, 67, 69, 81,
 printer did not reopen — not necessarily a fault — and some were already
 ruled on and kept (189). Each wants its page; none is a typo until it has
 been looked at.
+*(Checked since, all 44, and 27 of them ruled corrected: see « Unclosed
+quotations checked against the page », below.)*
 
 **What moved.** Against `main`: 11 pages differ, each in one to three
 line-high bands at the corrected marks and words; same 62 boxes.
@@ -5140,3 +5142,77 @@ line-high bands at the corrected marks and words; same 62 boxes.
 `afixi/` unchanged in size; anchors, paragraphs, notes, blocks unchanged.
 Witnesses 94 → 100. Checks 1 to 7: the same 237 failures. Checks 8 to 12 not
 run, for want of the scan.
+
+## Unclosed quotations checked against the page
+
+**OF THE 44 QUOTATIONS LEFT OPEN, 28 ARE FAULTS OF THE PRINT, AND THE
+TRANSCRIPTION HAD MISREAD NONE.** Each of the 44 paragraphs listed at the
+end of the previous entry was looked at on the photographed spread,
+enlarged, and its quotation followed to wherever it closes, or to where
+the page shows it never does.
+
+**Nine run on.** A quotation of several paragraphs whose later paragraphs
+the printer did not reopen, the French usage, closes further on: leaf 15
+(at the end of the next paragraph), folios 35, 104 (in the notes of 105),
+159, 173, 174 (on 175), 182 (at the foot of 183), 204, and 213 (on 214,
+Kovacic's article). The scan that listed them looked one paragraph ahead
+and no further; these close two, three paragraphs or a page later. At
+folio 204 the quoted speaker is still « me » in the next paragraph, and
+there is no « before « donez », enlarged five times; the quotation closes
+at « ...di ca melono ». ».
+
+**Seven are the book's way.** One » closing two nested quotations at once,
+folios 49, 57, 145, 153–154 and 217 — « per : « per parolo, per letro ». ».
+And twice a quotation reopened after an ellipsis without having been
+closed, folios 201 and 202 — « ...ol aplikesas... « Logikale la
+substituco... ». Nothing is missing in either; nothing done.
+
+**Twenty-eight close nowhere.** One of them, folio 189, the commissioner
+had already ruled kept. The other 27 were put to the commissioner one by
+one, each with the place a » would go, and each was ruled corrected at
+that place:
+
+| folio | quotation | » set |
+|---|---|---|
+| 36 | decision 950, in a note | after « en ica kazo. », before « (Mondo, XI, 296.) » |
+| 53 | « Grammaire Complète (...) fixigas... » | at the end of the note: the Kontinuigar paragraph is quoted |
+| 61 | Jespersen, « Kontre la adopto di never... » | after « la expresenda ideo », before the reference |
+| 65 | « Kelka samideani astonesas... » | after « per spontane », before « (Progreso, V, 96) » |
+| 66 | the title « Dictionnaire Français-Ido | after the title, before the comma |
+| 67 | « ne tote vera | after « vera », as « tote ne vera » before it |
+| 69 | « tri monati ante nun | after « nun », before the comma |
+| 81 | « okulo po okulo e dento po dento | after « dento », before the stop, in the bold run |
+| 85 | decision 1094 | after « koncerne ulo », before the reference |
+| 89 | « On demandas ofte de ni... » | after « di la cienco. », before the reference |
+| 126 | ge-, « la ensemblo di la du sexui | before the call (3) |
+| 132 | « Nia kunfrato ne prizas la regulo... » | after « (Komparez... e. c.) », before « Progreso, II, 304 » |
+| 139 | two Progreso quotations in the notes | before « (Progreso, VI, 595) »; before « (Progreso, VI, 594) » |
+| 141 | -ari-, « persono a qua ula ago... | after « destinata », before the call (2) |
+| 157 | « La sufixo -il- perfekte konkordas... » | after « skribilo », before the reference |
+| 165 | -um-, the note quoted | at the end of the paragraph, « Komprenende... » included |
+| 171 | the Progreso quotation | after « tempo! », as at folio 170 |
+| 179 (leaf 183) | « l'ortografio di l'internaciona vorti... » | after « gêologia. », the two lines of examples included |
+| 181 | Jespersen's text | after « chanjis... », at the foot of the page |
+| 196 | Progreso, I, 565 | after « la kozi », before the call (3) |
+| 198 | note (1) | at the end of the note |
+| 199 | Couturat; de Janko | before « (Progreso, II, 602) »; before the call (1) |
+| 200 | Couturat's reply; « objekto | before the call (1); after « objekto », as « « objekti » » the line above |
+| 215 | « Ne nur D. ed F. havas verbi... » | at the end, before VORTORDINO |
+
+All set by `\VUcorrige{}{ »}`, each of the twenty-four leaves with a RULED
+note; folios 199 and 200, which had no note, have one now.
+
+**Where a quotation ends at a note call or a reference, the » goes before
+it**: what is quoted is the text, and « (3) » or « (Progreso, VI, 595) » is
+the author's. That is what the book does where it does close them —
+folio 170, « Nula dio! » (Progr., VII, 497.) », and folio 196 itself,
+« qualesi. » (1) ». And at folio 200 the final » before (3) closes both
+« ento » and the outer « Konseque... », as at folio 49; it stays.
+
+**What moved.** Against `main`: 24 pages differ, each in one line-high
+band at the mark (two on folios 139, 199 and 200); the same 62 boxes, box
+for box. `gramatiko.md` 491,934 → 492,069 bytes — 27 marks of five bytes
+each, the narrow no-break space and the guillemet; `temi/` 171,591 →
+171,611; `afixi/` 133,238 → 133,268; anchors, paragraphs, notes, blocks
+unchanged. Witnesses 100 → 106. Checks 1 to 7: the same 237 failures, line
+for line. Checks 8 to 12 not run, for want of the scan.
