@@ -4798,3 +4798,68 @@ The PDF's text differs in that one line. « \*\*do facar.\*\* » and « de
 the new reading. Witnesses 73 → 74. Checks 1 to 7 identical to `main`'s;
 the line compared with check 2's own functions reads « de facar.) » on
 both sides. Checks 8 to 12 not run, for want of the scan.
+
+## Folio 94: the fourth row of the table
+
+**« 1,000⁵ » STOOD 0.77 MM LEFT OF ITS COLUMN, AND THE 1925 PAGE DOES NOT
+PUT IT THERE.** Reported against the PDF: in the table of the long and
+short scales, « 1,000⁵ » of the Quadriliono row does not line up with the
+« 1,000² », « 1,000³ », « 1,000⁴ » above it. The transcription laid it at
+`\VUcase{49.78mm}`, against 50.63, 50.55 and 50.55 for the three others:
+0.77 mm, 9 px at the survey's 300 dpi, where the three above agree within
+0.08 mm. Its second column, « 1,000,000⁴ » at 69.26 mm, agrees with the
+rows above. A misprint of 1925 would be kept; a misreading is not.
+
+**The scan is not here; a second digitisation was.** The commissioner's
+Drive holds the book photographed as spreads, `Kompleta Gramatiko-050.png`
+being folios 94–95, 1400 × 1049 px. Its scale, 5.93 px/mm, is the 111 px
+between the two columns over the 18.71 mm the survey gives them. It is not
+the copy the volume was surveyed on; but a letterpress forme sets the same
+type in every copy, and what is measured below is the position of one
+piece of a row against another piece of the same row.
+
+**Measured by cross-correlating the ink**, not by the first dark column:
+for each row, the column profile of « 1,000 » (the exponent left out) and
+of « 1,000,000 », each against the Triliono row's, upsampled ×50. The
+method shifted a profile by 3 px and returned 3.00 px. Shift to the right,
+in px:
+
+| row | « 1,000 » | « 1,000,000 » | first column against the second |
+|---|---|---|---|
+| Miliono | +0.66 | +0.58 | +0.08 |
+| Biliono | +0.12 | +0.12 | 0.00 |
+| Triliono | 0 | 0 | 0 |
+| Quadriliono | −0.40 | −0.20 | **−0.20** (0.03 mm) |
+
+The first two columns move together, row by row: that is the photograph's
+skew, not the setting, and why only the last column is read. In it the
+four rows agree within 0.3 px, 0.05 mm. The surveyed 49.78 would read
+**−4.57 px** there, and nothing on the page is 4.57 px out.
+
+**Set at 50.55 mm**: the Triliono row's surveyed abscissa, from which the
+Quadriliono row's stands 0.03 mm, both with their second column at
+69.26. The 0.03 mm is under one pixel of the spread (0.17 mm) and under
+the survey's own scatter on rows 1–3 (0.08 mm); it is not carried into the
+value. What made the survey read 49.78 is not known: a speck to the left
+of the « 1 », joined to the cluster, would do it, but the 300 dpi scan is
+needed to see it, and I did not.
+
+**The only one.** Every `\VUcase` of the volume that is not a leader dot,
+71 of 116, braces included, held against the median of the cells within
+1.5 mm of it and 40 lines of it: on `main`, three stand more than 0.3 mm off. This one;
+and « Supereso » / « infreso » of folio 31's second group, 39.79 and
+39.71 mm against 41.15 — which are a column of their own, behind their own
+brace at 36.83, not a cell out of the first group's.
+
+**What moved, and nothing else.** The PDF, against the build of `main`
+(itself pixel-identical to the committed `gramatiko.pdf` on all 236
+pages, TeX Live 2023 from Ubuntu noble, pdfTeX 1.40.25): 235 of 236 pages
+pixel-identical at 100 dpi; page 96 differs in one band, rows 407–421 and
+columns 245–286, the cell. Same 62 boxes, same widths; `tools/hbox.txt`
+rewritten by check 1 with two entries eight lines further down, by the
+comment at the head of leaf 98. The PDF's text is identical without
+`-layout`; with it, the row's spacing alone. `index.html`, `gramatiko.md`,
+`chapitri/`, `temi/` and `afixi/` are byte-identical: the page groups a
+table's cells into columns, and never showed the shift. Witnesses 74 → 75,
+the new one absent on `main`. Checks 1 to 7 identical to `main`'s, 237
+failures, all already there; checks 8 to 12 not run, for want of the scan.
