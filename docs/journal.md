@@ -4874,10 +4874,12 @@ accents opened — the 1925 reading stays in the transcription as the first
 argument, and making the macro give `#1` prints the volume as it was
 printed. README and CLAUDE.md say so where they used to say the opposite.
 
-**What the review found is worth more than the corrections.** Of the
-« typos » the survey recorded, a good third are not typos at all — and
+**What the review found is worth more than the corrections.** Of the 91
+« typos » the survey recorded, one in five is not a printer's typo at all —
+18 are Ido or the book's own usage, and « special » was a misreading — and
 checking them against the scans turned up misreadings of the
-transcription itself.
+transcription itself. (The commit that brought this entry said « a third »
+in its title, written before the count; it is one in five.)
 
 ### How each item was decided
 
