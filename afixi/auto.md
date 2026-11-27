@@ -9,6 +9,6 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**auto.** — Quale **anti-**, ta prefixo repulsesis « kom prefixo generale aplikebla, ed adoptesis kom prefixo rezervenda a la ciencala e teknikala terminaro (2).
+**auto.** — Quale **anti-**, ta prefixo repulsesis « kom prefixo generale aplikebla », ed adoptesis kom prefixo rezervenda a la ciencala e teknikala terminaro (2).
 
 > (2) En noto : Sama remarki kam pri *anti-*. L'ideo di *auto-* povas tradukesar per *su-* (ex. : *su-defenso*) o per *propra* (ex. : *propr-amo*).

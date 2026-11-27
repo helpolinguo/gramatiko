@@ -9,7 +9,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**-ey-.** — Ta sufixo, veninta de Esperanto, quik adoptesis (2). Soldita a radiko nomala o verbala, lu formacas substantivi nomizanta la *loko destinita* (ad objekto od ago). Ta loko esas edifico, chambro, e. c., loko en la maxim generala senco, tereno di kultivado por... Ex. : **kavaleyo** = *kavalostablo*; **boveyo** = *bovostablo*; **mutoneyo** = *mutonostablo*; **haneyo**; **manjeyo, dormeyo** (en kolegio, hospitalo) (3); **koqueyo,** **laveyo, tombeyo, pregeyo** (ne *kirko*, nek *kapelo* o *templo*, ma chambro distinita a religial exerci); **pastureyo** (senco plu ampla kam *prato*); **viteyo, alneyo; querkeyo, ribiereyo,** **roziereyo, kastaniereyo** (4).
+**-ey-.** — Ta sufixo, veninta de Esperanto, quik adoptesis (2). Soldita a radiko nomala o verbala, lu formacas substantivi nomizanta la *loko destinita* (ad objekto od ago). Ta loko esas edifico, chambro, e. c., loko en la maxim generala senco, tereno di kultivado por... Ex. : **kavaleyo** = *kavalostablo*; **boveyo** = *bovostablo*; **mutoneyo** = *mutonostablo*; **haneyo**; **manjeyo, dormeyo** (en kolegio, hospitalo) (3); **koqueyo,** **laveyo, tombeyo, pregeyo** (ne *kirko*, nek *kapelo* o *templo*, ma chambro destinita a religial exerci); **pastureyo** (senco plu ampla kam *prato*); **viteyo, alneyo; querkeyo, ribiereyo,** **roziereyo, kastaniereyo** (4).
 
 > (2) Ol esas quaza modifikuro di *uj* (uy), respondis Zamenhof questionita : *uj* esas « recipiento por... », *ej* esas « loko por... ».
 

@@ -13,7 +13,7 @@ Ni studios aparte singla prepoziciono primitiva, indikante lua senco propra e sp
 
 57. — **Ad** (o **a**, kande eufonio permisas, ma nultempe en kompozajo) (1), uzesas por indikar la skopo di la ago, la loko quan on volas atingar, la destinario, la persono a qua on donas od atribuas ulo :
 
-> (1) « Kande on decidis, pro eufonio, elizionar la tri vorti *ad,* *ed, od*, on decidis, ke on ne elizionos li (t. e. fakte nur *ad*) en la kompozado, pro ke on timis, ke en la kompozaji **a** ne esus sat rikonocebla o sat dicernebla.Ol povus intermixesar, sive kun la prepoziciono **a**, sive kun la finalo **a** di l'artiklo o di l'adjektivo preiranta. » (Progreso, II, 165.)
+> (1) « Kande on decidis, pro eufonio, elizionar la tri vorti *ad,* *ed, od*, on decidis, ke on ne elizionos li (t. e. fakte nur *ad*) en la kompozado, pro ke on timis, ke en la kompozaji **a** ne esus sat rikonocebla o sat dicernebla. Ol povus intermixesar, sive kun la prepoziciono **a**, sive kun la finalo **a** di l'artiklo o di l'adjektivo preiranta. » (Progreso, II, 165.)
 
 Ex. : **me iras a la rivero; me sendas to ad amiko; Henrikus donis a me multa flori; on imputis ad ilu ta ago** **abomininda; la patrulo imperis a sua filii sequar ilu; el** **agis a sua matro, ne quale filio, ma quale enemiko.**
 

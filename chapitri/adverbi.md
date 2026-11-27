@@ -211,7 +211,7 @@ La formi kun **-ube** ne esas, quale la formi kun **-loke**, nur nedefinita; li 
 
 **cirkume** = cirkum la enti o kozi nomata; per proxima evaluo : **La soldati kaptis la urbo ed establisis sua kampeyo cirkume.** — **Li sideskis cirkum la ludo-tablo e riskis** **tria-cent franki cirkume** (3).
 
-> (3) Me pagis a lu *cirkume* dek franki » : esus nejusta dicar : « Me pagis cirkum dek franki », nam « dek franki » esas la komplemento *direta* di « pagis », e « cirkume » nur modifikas ol (igante ol min preciza).On adoptis **cirkum** vice *cirke* kom prepoziciono precize por povar distingar la prepoziciono *cirkum* de l'adverbo *cirkume*. « Ni drinkis *cirkume* dek glasi » (t. e. : « dek glasi cirkume » : *dek glasi* esas l'objekto direta). « Ni sidis *cirkum* dek glasi » (o : « cirkum la tablo ») : hike *cirkum* esas prepoziciono, on ne povas sidar... la glasi o la tablo). Inverse : « Ni drinkis *cirkum* la tablo », ne « *cirkume* » quo implikus, ke ni drinkis (preske) la tablo. (*Progreso*, VII, 479.)
+> (3) « Me pagis a lu *cirkume* dek franki » : esus nejusta dicar : « Me pagis cirkum dek franki », nam « dek franki » esas la komplemento *direta* di « pagis », e « cirkume » nur modifikas ol (igante ol min preciza).On adoptis **cirkum** vice *cirke* kom prepoziciono precize por povar distingar la prepoziciono *cirkum* de l'adverbo *cirkume*. « Ni drinkis *cirkume* dek glasi » (t. e. : « dek glasi cirkume » : *dek glasi* esas l'objekto direta). « Ni sidis *cirkum* dek glasi » (o : « cirkum la tablo ») : hike *cirkum* esas prepoziciono, on ne povas sidar... la glasi o la tablo). Inverse : « Ni drinkis *cirkum* la tablo », ne « *cirkume* » quo implikus, ke ni drinkis (preske) la tablo. (*Progreso*, VII, 479.)
 
 55. — La *adverbi di maniero* esas :
 

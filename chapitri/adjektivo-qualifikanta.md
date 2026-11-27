@@ -17,7 +17,7 @@ Por chanjar ol a substantivo samsenca suficas substitucar al dezinenco **a** la 
 
 25. — Kande adjektivo aplikesas a substantivo tacita, on indikas la pluralo per la artiklo **le**, o per nedefinita pronomo konvenanta, o mem simple per **-i**. Ex. : **Yen pomi,** **prenez le bona e lasez le mala.** Kun ideo partitiva on dicus : **il ofris a me blanka e reda rozi, me prenis uli reda o kelki** **reda**; o plu simple : **me prenis redi**, quale on dicus : **me** **prenis kelki.** Tre certe ya **redi** e **kelki** povas relatar nur rozi, sola kozo pri qua on parolas. La lasta exemplo montras bone, ke en l'unesma ni povabus dicar : **prenez la boni** **e lasez la mali.** Nam vere quon altra kam *pomi* relatus « **la** **boni** », « **la mali** », en ica frazo? Kad on komprenus *homi*, kande traktesas nur *pomi*? (2).
 
-> (2) En la komenco, Ido rezervis, pro prudenteso, la yuro indikar (se to esus necesa) la pluralo en l'adjektivi per adjuntar **-i** a lia dezinenco **a** (do **ai**). Ma la praktiko montrinte, ke ta special pluralo povas abandonesar, decido unanima (1218) dil akademio Idista supresis lu.
+> (2) En la komenco, Ido rezervis, pro prudenteso, la yuro indikar (se to esus necesa) la pluralo en l'adjektivi per adjuntar **-i** a lia dezinenco **a** (do **ai**). Ma la praktiko montrinte, ke ta specal pluralo povas abandonesar, decido unanima (1218) dil akademio Idista supresis lu.
 
 26. — On darfas elizionar la **a** final dil adjektivi, ma kun la kondiciono ke to ne produktos akumulo de konsonanti. On konsilas uzar ta eliziono precipue kun l'adjektivi derivita e partikulare kande li finas per **-al-(a)**. Ex. : **infantal anmo, amikal ago, kordial saluto**, e. c. (1).
 

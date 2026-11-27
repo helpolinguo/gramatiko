@@ -64,7 +64,7 @@ La nuna Greka kareas omna infinitivo. Ka ni devus imitar olu? No, tre certe. La 
 
 ## [L'ACENTIZO EN IDO](../chapitri/l-acentizo-en-ido.md) — bloko 7 (sen numero en la libro)
 
-Pluse la regulo esas kelke ambigua : « la lasta konsonanto » ... kad *di la radiko*, o *di la vorto*? Se : « di la vorto », to chanjus la loko di l'acento en l'akuzativo (*homôn* vice *hómo*) e precipue en la verbal formi : *amâs, amîs, amôs*... Nur l'infinitivi esus lore konforma a la general regulo. Se : « di la radiko », on devas definar la radiko, plu juste la *radikalo* di singla vorto : ex. en *amanta, amesos, am* esus la radiko, e *amant, ames*, la radikalo; en *lumizo, lumiziva, lumiziveso, lum* esus la radiko, e *lumiz, lumiziv, lumizives* la radikali. Kad to ne esus komplikajo e desfacilajo por la lernanti?
+Pluse la regulo esas kelke ambigua : « la lasta konsonanto » ... kad *di la radiko*, o *di la vorto*? Se : « di la vorto », to chanjus la loko di l'acento en l'akuzativo (*homôn* vice *hômo*) e precipue en la verbal formi : *amâs, amîs, amôs*... Nur l'infinitivi esus lore konforma a la general regulo. Se : « di la radiko », on devas definar la radiko, plu juste la *radikalo* di singla vorto : ex. en *amanta, amesos, am* esus la radiko, e *amant, ames*, la radikalo; en *lumizo, lumiziva, lumiziveso, lum* esus la radiko, e *lumiz, lumiziv, lumizives* la radikali. Kad to ne esus komplikajo e desfacilajo por la lernanti?
 
 ## [L'ACENTIZO EN IDO](../chapitri/l-acentizo-en-ido.md) — bloko 26 (sen numero en la libro)
 

@@ -7,7 +7,11 @@ page at [**ido.help/gramatiko**](https://ido.help/gramatiko/).
 
 The rule the whole project answers to: **one line of the facsimile is one line
 of the PDF** — same pagination, same folios, same line breaks, same changes of
-type size. The 1925 typos are kept.
+type size. The 1925 typos are kept, except those the commissioner has ruled on one
+by one: each of those is set through `\VUcorrige{as printed}{as set}`, the 1925
+reading staying in the transcription as the first argument, so that one change
+to the macro prints the volume as it was printed. The rulings, and the survey's
+« typos » that turned out not to be typos, are in `docs/journal.md`.
 
 This is one of three books gathered at [ido.help](https://ido.help/); the other
 two are [tabeli](https://github.com/helpolinguo/tabeli) and
@@ -168,7 +172,7 @@ that each note is a paragraph.
 
 `tools/witnesses.py` is the other half: one characteristic string per fix, so
 that a lost container or a bad merge is detected rather than discovered later.
-It exits non-zero if any fix has gone missing. It checks **75** witnesses.
+It exits non-zero if any fix has gone missing. It checks **90** witnesses.
 
 **CHECK 4 REPORTS ONE FAILURE, AND IT IS CORRECT AS TRANSCRIBED. DO NOT
 "FIX" IT.**

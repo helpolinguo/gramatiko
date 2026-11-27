@@ -25,7 +25,7 @@ Reale la substituco di o a a substantivigas la adjektivo, ma ol ne homigas lu. I
 
 Ni remarkigas, ke « **le beau, le vrai** », e. c., **en su**, segun la koncepto di Platon ed Aristoteles (qua darfas esar expresata ankore per **la belajo, la verajo**) nun esas plu ofte expresata dal Idisti per la pronomo **lo** e l'adjektivi : **lo bela,** **lo vera,** e. c. (1).
 
-> (1) Videz ye la « Pronomo « lo ». — **Lo** esas **pronomo** per sua senco intima : *to quo esas...*
+> (1) Videz ye la « Pronomo « lo » ». — **Lo** esas **pronomo** per sua senco intima : *to quo esas...*
 
 Altraloke Sro Couturat dicabis :
 
@@ -39,7 +39,7 @@ Altraloke Sro Couturat dicabis :
 
 > (1) Kad tala vorti esus per **-o** (substitucita a **-a**) substantivi *Aristotelala*, e povus kom tala uzesar da la cienco? (L. B.). — Sro Couturat tre remarkinda specalisto pri filozofio, skribis tre vere : « Kande Platon (ante Aristoteles) volis expresar **l'ideo**, **l'esenco** di la bela kozi (belaji), il uzis l'expresuro : **la bela en su**. Ma to esas nur altra nomo di la beleso (kun la cirkonstanco filozofiala, e ne linguala, ke il konceptis la **beleso** kom existanta « en su », exter la belaji, do exter la **beleso** di ca o ta belaji)...
 
-« Nule on bezonas adjuntar -aj a tala vorti, tante plu ke li ne indikas propre kozi plu kam personi... (On darfas tre bone dicar **konsequanto**, nam ta vorto ne povas indikar homo, ma nur propoziciono o fakto; e. c.) » (2).
+« Nule on bezonas adjuntar **-aj** a tala vorti, tante plu ke li ne indikas propre kozi plu kam personi... (On darfas tre bone dicar **konsequanto**, nam ta vorto ne povas indikar homo, ma nur propoziciono o fakto; e. c.) » (2).
 
 > (2) *Progreso*, I, 555-56.
 
@@ -51,7 +51,7 @@ Sro Couturat respondis : « Ca sugesto esas interesanta e meritas studio. Nu
 
 Ni dicez quik, ke la propozo di Sro de Janko rezultis de fundamental eroro pri la valoro dil dezinenco -u. Il ipsa agnoskis lo pose.
 
-La dezinenco -u selektesis da « Ido » (me) en la reformoplano, *tote ne* por homigar **un, ul, altr, nul, omn, irg**, ma unike por pronomigar li, quo esas tre diferanta. Mem me propozabis **icu, istu**, *tote ne* por homigar **ic, ist** (diveninta **it**), ma por pronomigar li, per la substituco di -u al dezinenco adjektivala (a) di **ica, ista**. La -u esis ed esas ankore nur pronomal dezinenco, quale -a esis ed esas ankore adjektival dezinenco. -u formacas individuala, ma ne homala *pronomi*. Kad ankore nun ni ne uzas omnainstante l'unu, l'altru, kom *pronomi, pri enti nule homa, mem nule bestia?*
+La dezinenco -u selektesis da « Ido » (me) en la reformoplano, *tote ne* por homigar **un, ul, altr, nul, omn, irg**, ma unike por pronomigar li, quo esas tre diferanta. Mem me propozabis **icu, istu**, *tote ne* por homigar **ic, ist** (diveninta **it**), ma por pronomigar li, per la substituco di -u al dezinenco adjektivala (a) di **ica, ista**. La -u esis ed esas ankore nur pronomal dezinenco, quale **-a** esis ed esas ankore adjektival dezinenco. -u formacas individuala, ma ne homala *pronomi*. Kad ankore nun ni ne uzas omnainstante l'unu, l'altru, kom *pronomi, pri enti nule homa, mem nule bestia?*
 
 Cetere Sro Couturat dicis : « Ni memorigas insiste, ke la finalo- u nule indikas la personi, ma karakterizas la **pronomi** (*Progreso*, II, 602).
 

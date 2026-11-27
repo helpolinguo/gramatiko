@@ -9,7 +9,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**-ism-.** — Ta sufixo internaciona quik adoptesis *por indikar doktrino, partiso, sistemo* : Kristanismo (1), katolikismo, Luterismo, Kalvinismo, Protestantismo, Mahomedismo, pozitivismo, imperialismo, kapitalismo, empirikismo, Epikurismo, stoikismo, socialismo (2), turismo (3), skeptikismo, asketismo, e. c.
+**-ism-.** — Ta sufixo internaciona quik adoptesis *por indikar doktrino, partiso, sistemo* : **Kristanismo** (1), **katolikismo, Luterismo, Kalvinismo, Protestantismo, Mahomedismo, pozitivismo, imperialismo, kapitalismo, empirikismo,** **Epikurismo, stoikismo, socialismo** (2), **turismo** (3), **skeptikismo, asketismo,** e. c.
 
 > (1) De *Kristana* (Videz la noto 1 p. 140).
 

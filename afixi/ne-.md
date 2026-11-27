@@ -9,11 +9,11 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**ne-.** — Ta vorto ne esas prefixo nature, nam ol esas negal *adverbo*. Ma ol uzesas quale prefixo, kom elemento neganta relate la vorto a qua on unionas lu : **neposibla, nevera,** **nejusta, neyusta, nevidebla, nekohere, neprecizeso, nevideblaji.** e. c.
+**ne-.** — Ta vorto ne esas prefixo nature, nam ol esas negal *adverbo*. Ma ol uzesas quale prefixo, kom elemento neganta relate la vorto a qua on unionas lu : **neposibla, nevera,** **nejusta, neyusta, nevidebla, nekohere, neprecizeso, nevideblaji,** e. c.
 
 Ne konfundez **ne-** a **des-** od a **sen-** (prepoziciono). **Ne-** indikas simpla nego, **des-** kontreeso, **sen-** manko : **nericha,** **desricha** = *povra*; **nebela, desbela** = *leda*; **senbarba, senkapa, senarma, senpova.** Konseque, *senutila, senplena* (1), vice **neutila, neplena** esus absurda, e *nearma, nebarba, nekapa, nepova,* vice **senarma, senbarba, senkapa, senpova** esus egale absurda.
 
-> (1) Pro quo ne *senplena?* Esperantisto respondos : pro ke ni ne dicas *pleno* (vice *pleneco*). Ma pro quo vu dicas *utilo* (vice *utileco*)? Ka plena ne esas adjektivo totsame kam *utila?* Do, se on admisas *senutila*, on devas admisar *senplena.*
+> (1) Pro quo ne *senplena?* Esperantisto respondos : pro ke ni ne dicas *pleno* (vice *pleneco*). Ma pro quo vu dicas *utilo* (vice *utileco*)? Ka *plena* ne esas adjektivo totsame kam *utila?* Do, se on admisas *senutila*, on devas admisar *senplena.*
 
 Ne konfundez **senmova** = *qua esas sen movo*, a **nemovebla** = *qua ne esas movebla, quan on ne povas movar*; **sendube** dicas, ke ne existas dubo pri..., **nedubeble** : ke on ne povas dubar, ke lo dicata ne esas dubebla.
 

@@ -19,4 +19,4 @@ L'Akademio repulsis (2) la serio de prefixi : **di-, tetra-,** **penta-, hexa-
 
 > (2) N. B. : Kom generala *prefixi* aplikebla ad irga radiko, nam lore on devus selektar e hezitar en singla kazo inter du prefixi. Ma on ne exkluzas la posibleso adoptar, kom integra radiki, vorti kompozita per ta greka prefixi.
 
-Kompreneble on sequas la generala reguli di nia linguo omnube li esas suficanta a la justa expreso dil idei : mi- vice la tri prefixi : *hemi-*, *semi-* e *demi-*, quo liberigas ni tre fortunoze de lia jenanta konkuro e de multa heziti (*mi-axo,* *mi-cirklo, mi-ombro, mi-plano, mi-sekanto, mi-sfero*. Same *ne-* vice la Latina *in-* o la D. E. *un-* : *nesimila, nevarianta*).
+Kompreneble on sequas la generala reguli di nia linguo omnube li esas suficanta a la justa expreso dil idei : **mi-** vice la tri prefixi : *hemi-*, *semi-* e *demi-*, quo liberigas ni tre fortunoze de lia jenanta konkuro e de multa heziti (*mi-axo,* *mi-cirklo, mi-ombro, mi-plano, mi-sekanto, mi-sfero*. Same *ne-* vice la Latina *in-* o la D. E. *un-* : *nesimila, nevarianta*).

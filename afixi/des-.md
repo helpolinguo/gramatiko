@@ -25,7 +25,7 @@ La motivi esas : 1e ke la opozeso en ula kazi ne esas evidenta (1); 2e ke seri
 
 > (1) Kad esas tre evidenta, e precipue tre limitizebla, l'opozeso inter *varma* e *kolda* (des-varma), exemple?
 
-> (2) Kad esus tolerebla : *yuni e desyuni, richi e desrichi, forti e* *desforti, humili e deshumili, jenerozi e desjenerozi, boni e desboni,* *felici e desfelici e. c. same finos per la morto.*
+> (2) Kad esus tolerebla : *yuni* e *desyuni, richi* e *desrichi, forti* e *desforti, humili* e *deshumili, jenerozi* e *desjenerozi, boni* e *desboni,* *felici* e *desfelici* e. c. *same finos per la morto.*
 
 > (3) Se on klamos a me : *des-dextre* e me audos nur *dextre*, kad me ne povos duktar mea biciklo juste an l'obstaklo e frakasar mea kapo? *Sinistre e dextre* igas ne posibla ta desagreablajo.
 

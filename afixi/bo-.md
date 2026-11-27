@@ -17,4 +17,4 @@ Mea *stifa* frato esas ta, qua divenis mea frato per rimariajo di mea patrulo ku
 
 Mea *stifa* matro esas la spozo di mea patrulo rimariajinta su kun elu, ma tote ne mea matro.
 
-Mea *stifa* onklulo esas la spozo di mea onklino rimarijinta su kun ilu, ma tote ne mea onklulo (*Progreso*, IV, 105. — *Decido*, 745).
+Mea *stifa* onklulo esas la spozo di mea onklino rimariajinta su kun ilu, ma tote ne mea onklulo (*Progreso*, IV, 105. — *Decido*, 745).

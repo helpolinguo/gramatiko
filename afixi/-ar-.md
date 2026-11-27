@@ -17,4 +17,4 @@ On devas gardar su kontre l'ambiguaji qui povas naskar de la neprecizeso di ta s
 
 En altra kazi, la senco restas nepreciza; exemple la senco di *arboraro* povas variar de arborgrupo til foresto. Esas do preferinda, segun quante on povas, uzar la specal vorti : **foresto, bosko, bosketo.**
 
-Kompreneble on ne uzas **aro** aparte, kom radiko, ma : *ensemblo, kolektajo, amaso, bando, trupo, serio*, e. c., segun la kazi .
+Kompreneble on ne uzas **aro** aparte, kom radiko, ma : *ensemblo, kolektajo, amaso, bando, trupo, serio*, e. c., segun la kazi.

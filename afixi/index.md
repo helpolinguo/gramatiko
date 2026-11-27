@@ -15,7 +15,7 @@ La grandeso esas indikata por ke on povez selektar ANTE deskargar. La exemplo es
 | [-ab-](-ab-.md) | sufixo | amabis | 2 Ko |
 | [-ach-](-ach-.md) | sufixo | kavalacho | 1 Ko |
 | [-ad-](-ad-.md) | sufixo | Parolado | 2 Ko |
-| [-ag-](-ag-.md) | sufixo | crucagar | 2 Ko |
+| [-ag-](-ag-.md) | sufixo | krucagar | 2 Ko |
 | [-aj-](-aj-.md) | sufixo | amikalajo | 3 Ko |
 | [-al-](-al-.md) | sufixo | avanbrakiala | 7 Ko |
 | [-an-](-an-.md) | sufixo | urbano | 1 Ko |
@@ -44,8 +44,8 @@ La grandeso esas indikata por ke on povez selektar ANTE deskargar. La exemplo es
 | [-il-](-il-.md) | sufixo | pektilo | 2 Ko |
 | [-in-](-in-.md) | sufixo | rejino | 3 Ko |
 | [-ind-](-ind-.md) | sufixo | aminda | 1 Ko |
-| [-ism-](-ism-.md) | sufixo | socialismo | 1 Ko |
-| [-ist-](-ist-.md) | sufixo | socialisto | 1 Ko |
+| [-ism-](-ism-.md) | sufixo | Kristanismo | 1 Ko |
+| [-ist-](-ist-.md) | sufixo | artisto | 1 Ko |
 | [-iv-](-iv-.md) | sufixo | instruktiva | 3 Ko |
 | [-iz-](-iz-.md) | sufixo | armizar | 2 Ko |
 | [-oz-](-oz-.md) | sufixo | kurajoza | 2 Ko |

@@ -11,6 +11,6 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 **-ed-.** — Ta sufixo havas korespondanti en *ée* F., *at* I., *ad* S. Ol adoptesis per la decido 54 « *por indikar la quanto* *qua plenigas X* (la radiko) *o korespondas ad X* » : **bokedo,** **glasedo, manuedo** = *quanto de manjajo, de liquido, de materio qua plenigas la boko, un glaso, un manuo* : **bokedo de** **pano, glasedo de vino, manuedo de sablo, tero, e. c.**
 
-Altra exempli : **kulieredo, pladego, bruetedo, charetedo,** **chariotedo, kamionedo, nestedo, aguledo, pinchedo, glutedo,** **brakiedo, kruchedo, potedo, e. c., e. c.**
+Altra exempli : **kulieredo, pladedo, bruetedo, charetedo,** **chariotedo, kamionedo, nestedo, aguledo, pinchedo, glutedo,** **brakiedo, kruchedo, potedo, e. c., e. c.**
 
 Me drinkis nur un glutedo de vino. — Il prenis ofte pinchedo di sniflotabako ek mea tabakuyo.

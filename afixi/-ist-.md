@@ -9,7 +9,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**-ist-.** — Ta sufixo internaciona quik adoptesis *por indikar* « *la homo qua profesione okupas su pri...* » : artisto, pianisto, flutisto, kantisto, muzikisto, komercisto, telegrafisto, policisto, misionisto, ciencisto, e. c. (4).
+**-ist-.** — Ta sufixo internaciona quik adoptesis *por indikar* « *la homo qua profesione okupas su pri...* » : **artisto, pianisto,** **flutisto, kantisto, muzikisto, komercisto, telegrafisto, policisto, misionisto, ciencisto,** e. c. (4).
 
 > (4) On bone remarkez, ke la defino dil sufixo *-ist* dicas « profesione ». Or la profesiono implikas multa okupi qui ne esas mestiero propre dicata. Mestiero esas profesiono, ma tre ofte profesiono ne esas mestiero : *ciencisto*.
 
@@ -17,6 +17,6 @@ Per extenso, qua trovesas en nia lingui, ta sufixo indikas *adepto* o *adherinto
 
 > (5) Do *Idisto* ne *Idano*, tante plu ke *-an* signifikas esence : *membro* di : *societano, senatano*, ed instinte omna profani nomizas ni *Idisti*.
 
-Por distingar la vendisto de la produktisto, on uzas (se to esas necesa od utila) -vendisto por l'unesma e -ifisto por la duesma (vid. *-if*) : shu-ifisto (lu fabrikas), shu-vendisto (lu vendas); od on precizigas altre : flor(vend)isto, flor(kultiv)isto.
+Por distingar la vendisto de la produktisto, on uzas (se to esas necesa od utila) **-vendisto** por l'unesma e **-ifisto** por la duesma (vid. *-if*) : **shu-ifisto** (lu fabrikas), **shu-vendisto** (lu vendas); od on precizigas altre : **flor(vend)isto, flor(kultiv)isto**.
 
-Kompreneble on uzas **-er** (studiita) ne **-ist,** se la praktikanto ne esas vere profesionano : fotografero, biciklero, dansero, peskero, e. c. (ne profesione); fotografisto, biciklisto (kurista), dansisto, peskisto (profesione).
+Kompreneble on uzas **-er** (studiita) ne **-ist,** se la praktikanto ne esas vere profesionano : **fotografero, biciklero,** **dansero, peskero,** e. c. (ne profesione); **fotografisto, biciklisto** (kurista), **dansisto, peskisto** (profesione).
