@@ -31,7 +31,7 @@ On notez lo sequanta :
 
 > (2) La kuntexto o la cirkonstanci impedas miskompreno. Cetere on sempre darfas tote precizigar per l'expresuro kompleta. (Videz l'apendico « Substantivigo dil adjektivo ».)
 
-Kontree, on ne darfas uzar adjektivo nemediate derivita vice genetivo (kazo dil komplemento posedala, t. e. vice la prepoziciono **di**) : se **gardena urbo** ya signifikas *gardenourbo*, **gardena pordo** ne povas signifikar *pordo di gardeno* (ma on darfas dicar : **gardenpordo** o **pordo gardenala** (3)).
+Kontree, on ne darfas uzar adjektivo nemediate derivita vice genitivo (kazo dil komplemento posedala, t. e. vice la prepoziciono **di**) : se **gardena urbo** ya signifikas *gardenourbo*, **gardena pordo** ne povas signifikar *pordo di gardeno* (ma on darfas dicar : **gardenpordo** o **pordo gardenala** (3)).
 
 > (3) Videz la sufixo *-al*.
 

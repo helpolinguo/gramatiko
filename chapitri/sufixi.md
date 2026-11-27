@@ -187,7 +187,7 @@ La qualeso abstraktita qua korespondas a ta adjektivo devas esar expresata per l
 
 Pro ke ol esas nur sufixo, **-em-** ne darfas uzesar izolite. Do nultempe uzez *emo* vice *inklineso, tendenco.*
 
-Ni rimarkigez la grosa eroro etikala quan facis Zamenhof, inkluzante en **-em-** du senci tante diversa kam l'inklineso e la kustumo. Per la volado, homo povas frenagar, represar mem maxim forta inklineso naturala. Exemple on povas esar nature tre **iracema, desobediema, ociema**, e. c., e tamen ne **iracera, desobediera, ociera** (Videz la sufixo **-er-**). Esas do kolosal eroro konfundar inklineso e kustumo en un sola sufixo, quale Espo; nul moralisto od etikisto povas aceptar lu.
+Ni remarkigez la grosa eroro etikala quan facis Zamenhof, inkluzante en **-em-** du senci tante diversa kam l'inklineso e la kustumo. Per la volado, homo povas frenagar, represar mem maxim forta inklineso naturala. Exemple on povas esar nature tre **iracema, desobediema, ociema**, e. c., e tamen ne **iracera, desobediera, ociera** (Videz la sufixo **-er-**). Esas do kolosal eroro konfundar inklineso e kustumo en un sola sufixo, quale Espo; nul moralisto od etikisto povas aceptar lu.
 
 Granda difero anke inter *ant* e *em* : la homo nun *almonanta* povas esar nule *almonema.*
 

@@ -141,7 +141,7 @@ Exempli : **komencar, durar, finar, cesar : mea laboro** **komencas, duras, 
 
 Ma, se parolesas pri ulu quan me igas laborar, me dicos : **me komencigas, durigas, cesigas, finigas lua laboro.** Exemple : **la pueri cesis ludar** (o : sua ludo); ma : **cesigez** **la pueri ludar** (o : la ludo dil pueri), o : **igez ke la pueri** **cesez ludar** (o : cesez sua ludo). Quale on vidas, la Franca verbo *continuer* (ne cesar to quon on agas), tradukesas per **durar** (2). Lasta exemplo : **Ne povante durar ipsa ta laboro,** **me durigos olu da mea fratulo.**
 
-> (2) « Letro *duras* dum skribesar, ed anke dum lektesar); e mem plu juste, nam *durar* nule implikas kontinueso. Cetere, quo esas plu naturala kam : *Me duras parolar, skribar?* Ma analoge, on devas dicar : *Me durigas mea diskurso o letro* (*Progreso*, IV, 594).Decido 1615 : On decidas, ke *durar*, *durigar* suficas, repulsante*kontinuacar*, qua obtenis un voco. — Kom noto pri ca decido trovesas : « *Grammaire Complète* (sancionita dal komisitaro konstanta dil *Delegitaro*) fixigas pri durar, durigar, pag. 35, regulo 32.Kontinuigar = igar kontinua, sen ula rupto di kontinueso. Ex. : *Durez ta laboro e, se vu ne povos ipsa durar lu, durigez lu da altru.* *Ma ol esez kontinuigata til parfino sen la maxim kurta interrupto.*
+> (2) « Letro *duras* dum skribesar, ed anke dum lektesar); e mem plu juste, nam *durar* nule implikas kontinueso. Cetere, quo esas plu naturala kam : *Me duras parolar, skribar?* Ma analoge, on devas dicar : *Me durigas mea diskurso o letro* » (*Progreso*, IV, 594).Decido 1615 : On decidas, ke *durar*, *durigar* suficas, repulsante*kontinuacar*, qua obtenis un voco. — Kom noto pri ca decido trovesas : « *Grammaire Complète* (sancionita dal komisitaro konstanta dil *Delegitaro*) fixigas pri durar, durigar, pag. 35, regulo 32.Kontinuigar = igar kontinua, sen ula rupto di kontinueso. Ex. : *Durez ta laboro e, se vu ne povos ipsa durar lu, durigez lu da altru.* *Ma ol esez kontinuigata til parfino sen la maxim kurta interrupto.*
 
 Lo sama esas praktikata pri la verbi **chanjar, movar, turnar, pendar,** e. c. (Videz la lexiko).
 
@@ -189,11 +189,11 @@ Quante sorgoze la konjugo-sistemo di Ido esis longatempe diskutata en *Progreso*
 
 Pos ta diskuti l'Akademio decidis :
 
-Decido 671 : « On replusas la konjugo-sistemi propozita : I, 377 e III, 510; — I, 705; — II, 399; — II, 400; — II, 587 e 593; — II, 722; — II, 723; — III, 611; — IV, 208; en apendico IV di cirkularo 10 (e ca lasta sistemo citesas en noto 3, p. 691, dil sama numero kontenanta la supera decido : *Progreso*, IV, februaro 1912).
+Decido 671 : « On repulsas la konjugo-sistemi propozita : I, 377 e III, 510; — I, 705; — II, 399; — II, 400; — II, 587 e 593; — II, 722; — II, 723; — III, 611; — IV, 208; en apendico IV di cirkularo 10 » (e ca lasta sistemo citesas en noto 3, p. 691, dil sama numero kontenanta la supera decido : *Progreso*, IV, februaro 1912).
 
 La decido dil Akademio judikesas kom tre saja e praktikala, kande on konsideras, ke la konjugo di Ido esas tante simpla ke ol konsistas nur ek ico :
 
-**a, i, o, u** por *prezento, pasinto, futuro, kondicionalo* e sequata da **s** en la personal modi (**-as, -is, -os, -us**), da **r** en l'infinitivi (**-ar, -ir, -or**), dal grupo **-nt** en la participi aktiva (**-ant, -int, -ont**), da **t** en la participi pasiva (**-at, -it, -ot**), plus **-ez** por l'imperativo (o voltivo).
+**a, i, o, u** por *prezento, pasinto, futuro, kondicionalo* e sequata da **s** en la personal modi (**-as, -is, -os, -us**), da **r** en l'infinitivi (**-ar, -ir, -or**), dal grupo **-nt** en la participi aktiva (**-ant, -int, -ont**), da **t** en la participi pasiva (**-at, -it, -ot**), plus **-ez** por l'imperativo (o volitivo).
 
 Vere, kad on povas trovar konjugo-sistemo plu koheranta, plu reguloza, plu simpla? E kad ol ne valoras irga naturaleso *nacionala* (ne plu ciencoza) arbitrial e hibrida?
 

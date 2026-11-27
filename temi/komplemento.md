@@ -20,7 +20,7 @@ Pri lia komplemento l'adverbi kondutas quale la vorti de qui li derivas : **ko
 
 ## § 54 — [ADVERBI](../chapitri/adverbi.md)
 
-> (3) « Me pagis a lu *cirkume* dek franki » : esus nejusta dicar : « Me pagis cirkum dek franki », nam « dek franki » esas la komplemento *direta* di « pagis », e « cirkume » nur modifikas ol (igante ol min preciza).On adoptis **cirkum** vice *cirke* kom prepoziciono precize por povar distingar la prepoziciono *cirkum* de l'adverbo *cirkume*. « Ni drinkis *cirkume* dek glasi » (t. e. : « dek glasi cirkume » : *dek glasi* esas l'objekto direta). « Ni sidis *cirkum* dek glasi » (o : « cirkum la tablo ») : hike *cirkum* esas prepoziciono, on ne povas sidar... la glasi o la tablo). Inverse : « Ni drinkis *cirkum* la tablo », ne « *cirkume* » quo implikus, ke ni drinkis (preske) la tablo. (*Progreso*, VII, 479.)
+> (3) « Me pagis a lu *cirkume* dek franki » : esus nejusta dicar : « Me pagis cirkum dek franki », nam « dek franki » esas la komplemento *direta* di « pagis », e « cirkume » nur modifikas ol (igante ol min preciza).On adoptis **cirkum** vice *cirke* kom prepoziciono precize por povar distingar la prepoziciono *cirkum* de l'adverbo *cirkume*. « Ni drinkis *cirkume* dek glasi » (t. e. : « dek glasi cirkume » : *dek glasi* esas l'objekto direta). « Ni sidis *cirkum* dek glasi » (o : « cirkum la tablo » : hike *cirkum* esas prepoziciono, on ne povas sidar... la glasi o la tablo). Inverse : « Ni drinkis *cirkum* la tablo », ne « *cirkume* » quo implikus, ke ni drinkis (preske) la tablo. (*Progreso*, VII, 479.)
 
 ## § 7 — [ARTIKLO](../chapitri/artiklo.md)
 
@@ -96,7 +96,7 @@ To esas tre importanta por evitar l'obskuraji ed ambiguaji, quin produktas en la
 
 ## [REGULI DI DERIVADO *](../chapitri/reguli-di-derivado.md) — bloko 13 (sen numero en la libro)
 
-Kontree, on ne darfas uzar adjektivo nemediate derivita vice genetivo (kazo dil komplemento posedala, t. e. vice la prepoziciono **di**) : se **gardena urbo** ya signifikas *gardenourbo*, **gardena pordo** ne povas signifikar *pordo di gardeno* (ma on darfas dicar : **gardenpordo** o **pordo gardenala** (3)).
+Kontree, on ne darfas uzar adjektivo nemediate derivita vice genitivo (kazo dil komplemento posedala, t. e. vice la prepoziciono **di**) : se **gardena urbo** ya signifikas *gardenourbo*, **gardena pordo** ne povas signifikar *pordo di gardeno* (ma on darfas dicar : **gardenpordo** o **pordo gardenala** (3)).
 
 ## § 35 — [RELATIVA E QUESTIONALA ADJEKTIVI-PRONOMI](../chapitri/relativa-e-questionala-adjektivi-pronomi.md)
 
