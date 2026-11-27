@@ -112,6 +112,8 @@ T = [
   'darfas dicar : \\VUcorrige{}{« }Tala esas la metodo', 1),
  ('misreading: folio 63 no bracket after la tablo', 'content/10-part1.tex',
   'tablo » : hike', 1),
+ ('misreading: folio 173 second list bold', 'content/20-part2.tex',
+  'Same : \\VUgras{internaciona, dukapa, trifolia} (3)', 1),
  ('rulings: \\VUcorrige, part 1 with the foreign words', 'content/10-part1.tex',
   '\\VUcorrige{', 17),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The

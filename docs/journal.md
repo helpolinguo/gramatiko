@@ -5106,6 +5106,17 @@ commissioner, against the page: there is no bracket after « cirkum la
 tablo »; the one opened at « (o : » closes after « la glasi o la tablo ».
 The extra « ) » is removed from the transcription.
 
+**And folio 173: a weight first kept, then found misread.** The survey
+recorded « a list set in roman where the strictly parallel list of the
+previous line is in bold » — « Same : internaciona, dukapa, trifolia (3),
+longhara » against « tadia, cadia, omnadia, singladia » — and the
+commissioner had ruled it kept. The commissioner now reports them bold,
+and the spread, enlarged three times, shows them as heavy as the line
+above and heavier than « Same », « (3) », « malgre » beside them. A
+misreading: set bold in the transcription, the leaf's note corrected where
+it is written. It is the seventh page in part 2 where the survey read
+roman what the page prints bold.
+
 **Two of my own misreadings, caught before they did harm.** At actual size
 on the spread I read folio 120's « regulo cd expliko » as « od » — enlarged
 ten times it is the survey's « c » open on the right, and that ruling
@@ -5123,9 +5134,9 @@ printer did not reopen — not necessarily a fault — and some were already
 ruled on and kept (189). Each wants its page; none is a typo until it has
 been looked at.
 
-**What moved.** Against `main`: 10 pages differ, each in one to three
+**What moved.** Against `main`: 11 pages differ, each in one to three
 line-high bands at the corrected marks and words; same 62 boxes.
-`gramatiko.md` 491,891 → 491,926 bytes, `temi/` 171,572 → 171,591;
+`gramatiko.md` 491,891 → 491,934 bytes, `temi/` 171,572 → 171,591;
 `afixi/` unchanged in size; anchors, paragraphs, notes, blocks unchanged.
-Witnesses 94 → 99. Checks 1 to 7: the same 237 failures. Checks 8 to 12 not
+Witnesses 94 → 100. Checks 1 to 7: the same 237 failures. Checks 8 to 12 not
 run, for want of the scan.
