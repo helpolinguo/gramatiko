@@ -15,4 +15,4 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 > (3) De qua derivas *parveninto*, dicas la decido 375. Ica vorto = *parvenu* F., *parvenyu* R., *Parvenü, Emporkömmling* D., *parvenu,* *upstart* E.
 
-> (4) Decido 376. Vorto necesa e quan nek *trakurar*, nek *trairar* povas remplasar. Per extenso on dicas : *X... parkuris en automooilo* *100 kilometri en un horo. Y... facis en aeroplano parkuro de 35 kil.,* *ye 100 metri di alteso.*
+> (4) Decido 376. Vorto necesa e quan nek *trakurar*, nek *trairar* povas remplasar. Per extenso on dicas : *X... parkuris en automobilo* *100 kilometri en un horo. Y... facis en aeroplano parkuro de 35 kil.,* *ye 100 metri di alteso.*

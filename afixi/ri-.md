@@ -11,4 +11,4 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 **ri-.** — Ta prefixo, Angla sone, Italiana forme e sone, indikas nur *ago quan on iteras, iteris od iteros*. Ol devas ne konfundesar a *retro-*. **Rihavar, ridicar, rifacar, riagar,** **riskribar, rilektar** = *havar, dicar, facar, agar, skribar, lektar* *itere*. **Nun me riesas kontenta, pro ke me rihavas mea perdita pekunio.**
 
-Ta prefixo unesme adoptita kun la formo **re** chanjis pose ta formo a l'Italiana **ri**, por evitar konfundi en multa radiki internaciona qui komencas per *re*, ma en qui ta silabo ne havas senco di itero : *rebel, recev, refuz, regard, regret,* *reklam, rekolt*, e. c. (*Decidi*, 647 et 648). Esperanto preferas erore alterar *re* a *ri* ed uzar *re-* kun duopla senco.
+Ta prefixo unesme adoptita kun la formo **re** chanjis pose ta formo a l'Italiana **ri**, por evitar konfundi en multa radiki internaciona qui komencas per *re*, ma en qui ta silabo ne havas senco di itero : *rebel, recev, refuz, regard, regret,* *reklam, rekolt*, e. c. (*Decidi*, 647 e 648). Esperanto preferas erore alterar *re* a *ri* ed uzar *re-* kun duopla senco.

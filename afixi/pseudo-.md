@@ -9,4 +9,4 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**pseudo-.** — Ta prefixo adoptesis unanime dal Akademio per la decido 1629 « kom prefixo internacione konocata e ja uzata en Ido, kun la senco : *ne-vera, ne-reala*. Ex. : **pseudo-profeto, pseudorepublikisto, pseudofilozofo, pseudoamiko, pseudocienco, pseudomartiro, pseudolinguisto, pseudonobelo, pseudoinventero,** e. c.
+**pseudo-.** — Ta prefixo adoptesis unanime dal Akademio per la decido 1629 « kom prefixo internacione konocata e ja uzata en Ido, kun la senco : *ne-vera, ne-reala* ». Ex. : **pseudo-profeto, pseudorepublikisto, pseudofilozofo, pseudoamiko, pseudocienco, pseudomartiro, pseudolinguisto, pseudonobelo, pseudoinventero,** e. c.

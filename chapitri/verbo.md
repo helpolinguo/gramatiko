@@ -137,7 +137,7 @@ Ta procedo supresas fonto di desfacilaji quaze nevinkebla; altraparte ol esas ko
 
 Exempli : **komencar, durar, finar, cesar : mea laboro** **komencas, duras, finas, cesas** (senco *netransitiva*); **me** **komencas, duras, cesas, finas mea laboro** (o laborar) senco *transitiva* (1).
 
-> (1) Reale, to esas *me*, mea agiveso qua komencas, duras, finas o cesas. (Noto 1, pag. 21, *Grammarie Complète*.)
+> (1) Reale, to esas *me*, mea agiveso qua komencas, duras, finas o cesas. (Noto 1, pag. 21, *Grammaire Complète*.)
 
 Ma, se parolesas pri ulu quan me igas laborar, me dicos : **me komencigas, durigas, cesigas, finigas lua laboro.** Exemple : **la pueri cesis ludar** (o : sua ludo); ma : **cesigez** **la pueri ludar** (o : la ludo dil pueri), o : **igez ke la pueri** **cesez ludar** (o : cesez sua ludo). Quale on vidas, la Franca verbo *continuer* (ne cesar to quon on agas), tradukesas per **durar** (2). Lasta exemplo : **Ne povante durar ipsa ta laboro,** **me durigos olu da mea fratulo.**
 
@@ -157,7 +157,7 @@ Lo sama esas praktikata pri la verbi **chanjar, movar, turnar, pendar,** e. c. (
 
 **Paris komunikas telefone kun Lyon;** — **on komunikis a** **me interesanta informi** (1).
 
-> (1) Ta omna verbi mixita, e nome : *komencar, finar* havas, quale *durar*, senco netransitiva e senco transitiva. Or, nur pri *durar* til nun on pensis a special radiko por la senco transitiva. Tamen *durar* esas nek plu frequa, nek plu importanta kam *finar* o *komencar.* Ma ula lingui havas vorto specala por olua senco transitiva, e kredeble pro to on judikis tala vorto kom necesa en Ido. Kad en ta lingui existas anke special radiko por la senco transitiva di *komencar,* *finar, cesar, turnar, movar* e. c.? Do, nur pri la senco transitiva di *durar* li facas ecepto. L'akademio esis justa opinionante, ke 16 yari de praktiko montris ico sat bone : *durar* ne bezonas ecepto partikulara; ol povas havar, quale la cetera verbi mixita, la du senci transitiva e ne transitiva en un sola formo.
+> (1) Ta omna verbi mixita, e nome : *komencar, finar* havas, quale *durar*, senco netransitiva e senco transitiva. Or, nur pri *durar* til nun on pensis a specal radiko por la senco transitiva. Tamen *durar* esas nek plu frequa, nek plu importanta kam *finar* o *komencar.* Ma ula lingui havas vorto specala por olua senco transitiva, e kredeble pro to on judikis tala vorto kom necesa en Ido. Kad en ta lingui existas anke specal radiko por la senco transitiva di *komencar,* *finar, cesar, turnar, movar* e. c.? Do, nur pri la senco transitiva di *durar* li facas ecepto. L'akademio esis justa opinionante, ke 16 yari de praktiko montris ico sat bone : *durar* ne bezonas ecepto partikulara; ol povas havar, quale la cetera verbi mixita, la du senci transitiva e ne transitiva en un sola formo.
 
 47. — La *verbi reflektiva* esas formacata per la pronomi dil unesma e dil duesma personi (*me, ni; vu, vi; tu*) por ta personi, e per la pronomo **su** (nevariebla) por la triesma persono : **me lavas me, tu lavas tu, ni lavas ni, vi lavas vi,** **vu lavas vu, il lavas su, el lavas su, lu lavas su, li lavas su,** **ili lavas su, eli lavas su** (o **su lavas**) (2).
 

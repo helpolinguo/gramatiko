@@ -37,7 +37,7 @@ Komprenende, la regulo valoras anke, se *qua* esas preirita da prepoziciono : 
 
 En matematiko, en la nombri decimala, la *integri* separesas de la *decimali* per *komo* (ne per punto, qua havas altra uzo, V. p. 217). Ex. : 3, 14.
 
-*Punto-komo* (;) uzesas por separer propozicioni o frazi gramatikale nedependanta, ma ligita per la senco.
+*Punto-komo* (;) uzesas por separar propozicioni o frazi gramatikale nedependanta, ma ligita per la senco.
 
 *Bi-punto* (:) uzesas por anuncar expliko : ol dikas, ke la sequanta frazo explikas la preiranta. Ol anuncas anke citajo, ma lore sequesas da *cito-hoketi*.
 
@@ -49,7 +49,7 @@ Pro ke la parentezi esas esence destinata ad *inkluzar*, on darfas nultempe uzar
 
 *Kramponi* [] ed *Embracili* {} uzesas, en matematiko, kom parentezi di duesma o triesma grado, ex. : { ...[...(...)...]...}. En la « prozo », on povas uzar la *kramponi* en simila kazo, o kom aparta parentezi. On uzas l'*embracilo* (unika) por korespondigar un lineo (unlatere) a plura linei (altralatere), tale :
 
-La *pinto* devas turnesar ad l'unika lineo, e la *branchi* (la konkaveso) ad la plura linei (e ne inverse!) Ni konsilas uzar minim ofte l'embracilo, pro ke ol komplikas e desfaciligas la kompostado. Ol esas utila nur en sinoptikala tabeli. Ol povas uzesar anke horizontale, ex. en genealogikal arbori :
+La *pinto* devas turnesar ad l'unika lineo, e la *branchi* (la konkaveso) ad la plura linei (e ne inverse!). Ni konsilas uzar minim ofte l'embracilo, pro ke ol komplikas e desfaciligas la kompostado. Ol esas utila nur en sinoptikala tabeli. Ol povas uzesar anke horizontale, ex. en genealogikal arbori :
 
 *Streketo* (-) esas ortografiala signo, e funcionas kom ligilo. Ol unionas la parti di vorto kompozita (V. ye *Kompozado*). Ol indikas anke la seko di vorto de un lineo ad altra, pri qua ni quik parolos.
 
@@ -63,7 +63,7 @@ La *pinto* devas turnesar ad l'unika lineo, e la *branchi* (la konkaveso) ad la 
 
 *Klamo-punto* (!) uzesas pos klamo o frazo klamanta o klamata. Kelka populi uzas ol pos omna voko od interpelo, mem pos *Sioro* en komenco di letri, unvorte, pos omna vokativo. Ico esas forsan exajero, nam kande on parolas od ulu, on ne klamas : « Sioro! »
 
-*Question-punto* (?) uzesas pos frazo *direte* questionanta, ne pos subordinala propoziciono questionanta, Ex. : « Qua venas? », ma : « Me questionas, qua venas. »
+*Question-punto* (?) uzesas pos frazo *direte* questionanta, ne pos subordinala propoziciono questionanta. Ex. : « Qua venas? », ma : « Me questionas, qua venas. »
 
 Pri ca du lasta signi, on propozis sequar l'exemplo di la Hispana, t. e. pozar li, renversita, ante la frazo klamanta o questionanta. La motivo esas : avertar la lektanto pri la karaktero di tala frazo, por ke lu konforme modifikez sua pronunco. Esas vera ke, pro manko di tala averto, on kelkafoye eroras pri la karaktero di la frazo e pronuncas ol male, o mem devas repetar ol kun la justa pronunco. Ta propozo esas do konsiderinda; la unika kontrea argumento esas, ke l'altra uzado esas plu internaciona. Se on adoptus ol, la signi ! e ? divenus *duopla* ed inkluzanta, same kam la parentezi e cito-hoketi. Ed on vidas ke, pro la sama motivo di klareso, li devas prizentar du formi inversa, quale la *question-punti* en la Hispana.
 

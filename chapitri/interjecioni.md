@@ -11,7 +11,7 @@ Transskribita de https://ido.help/gramatiko/
 
 > (1) **Ve** = la Latina e D. *weh! ach!* — E. *alas!* — F. *malheur!*
 
-> (2) **Nu** = D. *nun! nu! wohlan!* — E. *well! very well!* — F. *eh* *bien! allons!* — I. *ebbene! andiamo!* — S. *orsu! pues!*
+> (2) **Nu** = D. *nun! nu! wohlan!* — E. *well! very well!* — F. *eh* *bien! allons!* — I. *ebbene! andiamo!* — S. *orsù! pues!*
 
 > (3) **Fi** = D. *pfui!* — E. *fie! fy!* — F. *fi! foin* (de)! *pouah!* — I. *oibò! eh! via!* — S. *fuera! quita allá! vaya!*
 

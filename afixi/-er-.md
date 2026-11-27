@@ -9,11 +9,11 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**-er-.** — Ta sufixo (moderna formo : *-ier, -er, -eur* F.; *iero, -aio* I., *ero* S., *eiro* Port.) venas de *arius* Latina. Ol quik adoptesis dal Komitato di la *Delegitaro* por indikar la *amatoro di*... Ma pose la decidi 591 e 690 pluampligis lua senco. Konseque nun ol indikas : *ta qua kustume o mem nur ofte* *okupas su pri*... sen facar ek la kozo sua profesiono (Videz sufixo **-ist**). Quale on vidas, la amatoro inkluzesas en ta defino.
+**-er-.** — Ta sufixo (moderna formo : *-ier, -er, -eur* F.; *-iero, -aio* I., *-ero* S., *-eiro* Port.) venas de *arius* Latina. Ol quik adoptesis dal Komitato di la *Delegitaro* por indikar la *amatoro di*... Ma pose la decidi 591 e 690 pluampligis lua senco. Konseque nun ol indikas : *ta qua kustume o mem nur ofte* *okupas su pri*... sen facar ek la kozo sua profesiono (Videz sufixo **-ist**). Quale on vidas, la amatoro inkluzesas en ta defino.
 
 La sufixo **-er-** soldesas a radiki nomala ed a radiki ver**bala : biciklero (amatoro), gimnastikero, arkero, fumero,** **kolektero, chasero, peskero. — Il nultempe enoyas, pro ke** **esante granda lektero, fotografero ed exkursero il sempre** **okupesas. — Dum sep yari il esis prezidero di nia societo** **e nun il esas lua honor-prezidero.**
 
-Ta sufixo aplikesas anke a nomi di bestii o di objekti qui esas karakterizata da special ago kustumala : **reptero, ruminero, rodero, klimero; remorkero, krozero, flotacero** (Vid. sufixo **-il**).
+Ta sufixo aplikesas anke a nomi di bestii o di objekti qui esas karakterizata da specal ago kustumala : **reptero, ruminero, rodero, klimero; remorkero, krozero, flotacero** (Vid. sufixo **-il**).
 
 Per la decido 689 l'Akademio aprobis, ke la participal sufixo **-ant-** expresez « la nuna ago » ed ol adoptis la sufixo **-er-** por « la ago ne precize nuna » exemple : **suskriptero** (1). Societo havas prezidero, ma la *prezidanto* di ula kunsido povas esar sive la prezidero, sive la vice-prezidero, sive altra membro.
 

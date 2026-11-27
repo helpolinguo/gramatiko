@@ -9,7 +9,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**-ag-.** — Ta radiko dil verbo *agar* uzesas kun vorti di instrumento por formacar verbi signifikanta : *agar per*... Ex. : **crucagar** = *agar per kruco* (por mortigar ulu); **klovagar** = *agar per klovi* (por fixigar ulo, planko) (1); **agrafagar** = *agar per agrafi*; **butonagar** = *agar per butoni*; **martelagar** fero, kupro, e. c. La substantivi : *krucago, klovago, agrafago,* *butonago, martelago* ne povas konfundesar a l'instrumenti : *kruco, klovo, agrafo, butono, martelo*. Ma, se on formacus direte la verbo per l'instrumento : *krucar, klovar, agrafar,* *butonar, martelagar*, la nomo dil ago esus identa a ta dil instrumento : *krucar, kruco*; *klovar, klovo*, e. c., e to esus tam nelogikala kam nepraktikala, pro la konfundi e konfuzi qui rezultus de tala formaco (2).
+**-ag-.** — Ta radiko dil verbo *agar* uzesas kun vorti di instrumento por formacar verbi signifikanta : *agar per*... Ex. : **krucagar** = *agar per kruco* (por mortigar ulu); **klovagar** = *agar per klovi* (por fixigar ulo, planko) (1); **agrafagar** = *agar per agrafi*; **butonagar** = *agar per butoni*; **martelagar** fero, kupro, e. c. La substantivi : *krucago, klovago, agrafago,* *butonago, martelago* ne povas konfundesar a l'instrumenti : *kruco, klovo, agrafo, butono, martelo*. Ma, se on formacus direte la verbo per l'instrumento : *krucar, klovar, agrafar,* *butonar, martelar*, la nomo dil ago esus identa a ta dil instrumento : *krucar, kruco*; *klovar, klovo*, e. c., e to esus tam nelogikala kam nepraktikala, pro la konfundi e konfuzi qui rezultus de tala formaco (2).
 
 > (1) *Klov-izar* = garnisar per klovi (talono di shuo, exemple).
 

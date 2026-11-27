@@ -32,7 +32,7 @@ Fine, kad on inventos plu bona, plu internaciona e min artificala konjugo, kam e
 
 ## [PREFIXI TEKNIKALA](../chapitri/prefixi-teknikala.md) — bloko 2 (sen numero en la libro)
 
-> (1) Same kam pri *anti*, on devas en la komuna linguo admisar vorti integra, tote pronta, qui kontenas *auto*, kande li esas internaciona : *automobilo, autografo, autobiografio, autodidakta* e. c.Kompreneble restas tote exter ico la uzo di *su* en vorti quale *su-levo, su-kusho, su-tenado* (on vere tenas su per la ago di la muskuli), *su-ocido, su-amo, su-admiro* e. c.« Same kam ni substantivigas sen skrupulo, e mem kun granda komodeso, la pasiva verbi (*konstrukteso, konvinkeso*, e. c.), ni povas e devas substantivigar la reflektiva verbi, kun la reflektiva pronomo. Do on darfas uzar vorti quale *su-levo, su-kusho*, por l'ago *levar,* *kushar su* (komparez *su-ocido* a *hom-ocido*). Remarko : Esperanto uzis *kushi* en ne transitiva senco (la senco di *jacar*), tale ke ol povis expresar *kushar* nur per *kushigi*, e *kushar su* per *kushighi!* Ed on ne havis la necesa analogeso inter *levar* e *kushar* (la du transitiva). *Progreso*, V, 284.
+> (1) Same kam pri *anti*, on devas en la komuna linguo admisar vorti integra, tote pronta, qui kontenas *auto*, kande li esas internaciona : *automobilo, autografo, autobiografio, autodidakta* e. c.Kompreneble restas tote exter ico la uzo di *su* en vorti quale *su-levo, su-kusho, su-tenado* (on vere tenas su per la ago di la muskuli), *su-ocido, su-amo, su-admiro* e. c.« Same kam ni substantivigas sen skrupulo, e mem kun granda komodeso, la pasiva verbi (*konstrukteso, konvinkeso*, e. c.), ni povas e devas substantivigar la reflektiva verbi, kun la reflektiva pronomo. Do on darfas uzar vorti quale *su-levo, su-kusho*, por l'ago *levar,* *kushar su* (komparez *su-ocido* a *hom-ocido*). Remarko : Esperanto uzis *kushi* en ne transitiva senco (la senco di *jacar*), tale ke ol povis expresar *kushar* nur per *kushigi*, e *kushar su* per *kushighi!* Ed on ne havis la necesa analogeso inter *levar* e *kushar* (la du transitiva). » *Progreso*, V, 284.
 
 ## § 66 — [PREPOZICIONI](../chapitri/prepozicioni.md)
 
@@ -88,7 +88,7 @@ Remarkez bone, ke **em**, **er**, **iv** (videz ica) havas senco aktiva, ma **eb
 
 ## [SUFIXI](../chapitri/sufixi.md) — bloko 206 (sen numero en la libro)
 
-La substantivi armizo, alkoholizo, elektrizo havas aktiva senco. Se on volas la senco pasiva, on adjuntas **es** a **iz**, do izeso : armizeso, alkoholizeso, elektrizeso = *la fakto esar* *od esir armizata, alkoholizata, elektrizata* (1).
+La substantivi **armizo, alkoholizo, elektrizo** havas aktiva senco. Se on volas la senco pasiva, on adjuntas **es** a **iz**, do **izeso** : **armizeso, alkoholizeso, elektrizeso** = *la fakto esar* *od esir armizata, alkoholizata, elektrizata* (1).
 
 ## § 136 — [TEMPI E MODI](../chapitri/tempi-e-modi.md)
 
@@ -96,7 +96,7 @@ La substantivi armizo, alkoholizo, elektrizo havas aktiva senco. Se on volas la 
 
 ## § 139 — [TEMPI E MODI](../chapitri/tempi-e-modi.md)
 
-139. — Preferez, kande to esas posibla, la *formo aktiva* al formo pasiva, kom plu kurta, plu vivanta e plu konforma al nuna marcho di nia lingui. Dicez do : « **On** (o : ni) **sequis la voyo, acensis la kolino, vizitis la kastelo, ed admiris la bela panoramo, quan on vidas del somito** (2), prefere kam per la formo pasiva : « *La voyo sequesis, la* *kolino acensesis, la kastelo vizitesis, e la panoramo admiresis,* *qua videsas del somito.* »
+139. — Preferez, kande to esas posibla, la *formo aktiva* al formo pasiva, kom plu kurta, plu vivanta e plu konforma al nuna marcho di nia lingui. Dicez do : « **On** (o : ni) **sequis la voyo, acensis la kolino, vizitis la kastelo, ed admiris la bela panoramo, quan on vidas del somito** » (2), prefere kam per la formo pasiva : « *La voyo sequesis, la* *kolino acensesis, la kastelo vizitesis, e la panoramo admiresis,* *qua videsas del somito.* »
 
 ## § 41 — [VERBO](../chapitri/verbo.md)
 
@@ -148,7 +148,7 @@ Konseque, esas *netransitiva* en Ido nur la verbi qui logike, nature, quale **na
 
 ## [VORTORDINO](../chapitri/vortordino.md) — bloko 7 (sen numero en la libro)
 
-*La participo,* en la kompozita tempi dil verbo (aktiva o pasiva), sempre devas sequar la helpanto *esar,* e darfas separesar de olu nur da adverbo relanta la verbo : **Ni esas** **arivinta de du hori,** e ne : *ni esas de du hori arivinta.* — **El esas tre amata da omni,** e ne : **el esas da omni tre amata.** — **Ta soldato esis grave vundata.**
+*La participo,* en la kompozita tempi dil verbo (aktiva o pasiva), sempre devas sequar la helpanto *esar,* e darfas separesar de olu nur da adverbo relanta la verbo : **Ni esas** **arivinta de du hori,** e ne : *ni esas de du hori arivinta.* — **El esas tre amata da omni,** e ne : *el esas da omni tre amata.* — **Ta soldato esis grave vundata.**
 
 ## [VORTORDINO](../chapitri/vortordino.md) — bloko 10 (sen numero en la libro)
 

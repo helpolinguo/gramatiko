@@ -13,7 +13,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 *Kruela* esas min forta kam *tre kruela*, ma ica esas min forta kam *kruelega*, nam homo kruelega atingas la extrema *grado*. Il esas ne nur tre bona, ma bonega e ciencozega. Il divenis ne nur tre richa ma richega. Il ploris e ploregis kun singluti. Ne tro bruisez ridante : ridego ne konvenas. Me tante sufris, ke me kriegis pro doloro.
 
-On ne donez ad **-eg-** la pejorativa senco di **-ach-**, e ne aplikez lu a la bestii. La bestii havas **boko,** pedi quale la homi, ma proporcione a sua grandeso e tipi. Same li manjas, drinkas, e. c., quale la homi; konseque esas adminime neutila uzar specala vorti por organi e funcioni quin la bestii havas komuna kun la homi (1).
+On ne donez ad **-eg-** la pejorativa senco di **-ach-**, e ne aplikez lu a la bestii. La bestii havas **boko,** **pedi** quale la homi, ma proporcione a sua grandeso e tipi. Same li manjas, drinkas, e. c., quale la homi; konseque esas adminime neutila uzar specala vorti por organi e funcioni quin la bestii havas komuna kun la homi (1).
 
 > (1) Ni ne povis imitar D. e E., uzante *plen-*, nam tre ofte tala vorti ne esas justa : *plenboko* ne esas *bokedo* (D. ipsa havas *Bissen*, peco demordita, apud *Mund voll*); e quo esus : *plenaghulo?* Pluse, li povas esar dusenca, nam *plen-plado*, exemple, equivalas, pro l'eliziono permisata, *plena* plado. Ma donar *plen-plado* o *plena plado* de ulo ne esas lo sama : l'unesma expresuro indikas nur quanto, la duesma implikas la plado ipsa.On ne povis prenar *-ad* (veninta de *-ata* L., che S. exemple, e vicina a *-at* I.) pro ke *-ad* havis altra rolo en Ido. On do kunfuzis *ée* F. kun *-ad*, quo donis *-ed* e lasis *-e* libera por altro.
 

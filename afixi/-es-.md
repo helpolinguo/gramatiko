@@ -17,7 +17,7 @@ Konseque ol uzesas por formacar substantivi qui expresas *pasiva stando*, sen ir
 
 > (1) Same kam **videsar** = *esar vidata* = *vidatesar*, on darfas dicar, ke **instrukteso** = *instruktateso* o *instruktiteso*, **konverteso** = *konvertateso* o *konvertiteso*, e. c. Ma sen parolar pri la plu granda kurteso dil derivaji citita en la texto, li ne kontenas nek postulas la determino pri tempo, quan implikas necese **at** e **it**.
 
-2e Soldita a nomala radiko, la sufixo es formacas substantivi, qui expresas la *stando* od *abstraktita qualeso* : **avareso, beleso, blindeso, maladeso, utileso** = *la stando esar* *avara, bela, blinda, malada, utila.* Ol devas uzesar omnafoye kande on derivas de adjektivo l'abstraktita qualeso korespondanta.
+2e Soldita a nomala radiko, la sufixo **es** formacas substantivi, qui expresas la *stando* od *abstraktita qualeso* : **avareso, beleso, blindeso, maladeso, utileso** = *la stando esar* *avara, bela, blinda, malada, utila.* Ol devas uzesar omnafoye kande on derivas de adjektivo l'abstraktita qualeso korespondanta.
 
 3e Ta sufixo formacas anke verbi signifikanta : *esar tala* *qual indikas la radiko* : **utilesar** = *esar utila* a, por...; egale**sar** = *esar egala a...*; **similesar** = *esar simila a...*; **friponesar** = *esar fripona* (o fripono); **profetesar** = *esar profeta* (o profeto); **hipokritesar** = *esar hipokrita* (o hipokrito); **gastesar** = *esar gasta* (o gasto); **hostesar** = *esar hosta* (o hosto); **maladesar** = *esar malada* (o malado) (1).
 

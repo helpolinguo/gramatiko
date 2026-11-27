@@ -4863,3 +4863,204 @@ comment at the head of leaf 98. The PDF's text is identical without
 table's cells into columns, and never showed the shift. Witnesses 74 → 75,
 the new one absent on `main`. Checks 1 to 7 identical to `main`'s, 237
 failures, all already there; checks 8 to 12 not run, for want of the scan.
+
+## Typos and irregularities ruled on
+
+**THE COMMISSIONER WENT THROUGH EVERY TYPO AND IRREGULARITY THE SURVEY HAD
+RECORDED, ONE BY ONE, AND RULED ON EACH.** The rule had been that the 1925
+typos stay. It holds still for what was not ruled on; what was ruled on is
+now set through `\VUcorrige{as printed}{as set}`, the mechanism the Spanish
+accents opened — the 1925 reading stays in the transcription as the first
+argument, and making the macro give `#1` prints the volume as it was
+printed. README and CLAUDE.md say so where they used to say the opposite.
+
+**What the review found is worth more than the corrections.** Of the 91
+« typos » the survey recorded, one in five is not a printer's typo at all —
+18 are Ido or the book's own usage, and « special » was a misreading — and
+checking them against the scans turned up misreadings of the
+transcription itself. (The commit that brought this entry said « a third »
+in its title, written before the count; it is one in five.)
+
+### How each item was decided
+
+Every leaf note naming a « TYPO OF THE ORIGINAL, kept », an
+« IRREGULARITY » or a « PARTICULARITY » was put to the commissioner with
+the line as printed and the choices, folio by folio. Where a claim could be
+tested, it was tested before asking: counts over the whole transcription,
+and the photographed spreads in the commissioner's Drive
+(`Kompleta Gramatiko-NNN.png`, spread N holding folios 2N − 6 and
+2N − 5, about 5.9 px/mm), enlarged. The 300 dpi scan is still not here.
+
+| outcome | typos | irregularities | how it is set |
+|---|---|---|---|
+| ruled: correct | 61 | 23 | `\VUcorrige`, 94 in all (4 in part 1, 90 in part 2) |
+| not an error after all | 18 | 10 | text kept; the note corrected, with the evidence |
+| ruled: keep as printed | 11 | 30 | nothing; the note stands |
+| misreading of the transcription | 8 | 9 | corrected in the transcription itself |
+
+Each touched note keeps what the survey said, its « kept » turned into
+« as surveyed », and gains a paragraph « RULED 27 November 2026 by the
+commissioner » saying what was set, kept, or found not to be an error.
+
+### Not typos: Ido, or the book's own usage
+
+* **Elided adjectives.** Ido drops the final -a of an adjective at will, and
+  the book does so everywhere (« gramatikal formo », « kardinal nombri »,
+  « verbal formo », « nombral adjektivi »): « ciencal », « matematikal »
+  (folio 123), « religial » (152), « Ofical » — which Ido spells with one f,
+  as the book does four times — and « Chekoslovakian » (leaf 238).
+* **Ido grammar the survey took for slips.** « lon » (184) is the
+  accusative of « lo », required because the object comes first: « lo-n
+  montras l'Esperantisti ». « solvor » (165) and « esor » (leaf 237) are
+  the future infinitive, in a passage that plays on tense. « evar »
+  (190) is to be of an age: Couturat's « evas de ta prehistoriala tempi »
+  is « dates from ». « dolcacha » (133) is an adjective, glossed as one,
+  and used again at folio 144.
+* **The book's own spelling, counted.** « direte » 19 times and
+  « direkte » never — in Ido « direta » is direct, « direktar » to steer;
+  « specala » 32 against 1; « rispektive » 7 against 1; « diciplino » 3
+  against 1; « Espisti » three times; a doubled « e. c. » nine times;
+  « a ni » 21 and « ad ni » 7; « ka » and « kad », which § 111 teaches as
+  one word.
+* **Marks the author means.** The asterisks of « *equi- », « *ko- » (130)
+  mark entries as on folio 93's interjections, with no note; « 1) ) » and
+  the braces « {} » (220) are what the author is showing; the italic of the
+  German at 217 covers exactly the words the next sentence asks about.
+* **The survey's own errors of fact.** At 174 the second « unclosed »
+  quotation closes on folio 175. At 147 « iero » is not the only form
+  without its initial hyphen — « ero » and « eiro » lack it too. The table
+  of folio 230 follows page order, and « sen- » sits where the ne- article
+  discusses it. « L. B. » in plain capitals and « Zamenhof » in roman are
+  the book's norm, not exceptions.
+* **A missing FINAL hyphen on a cited suffix is the rule, not the
+  exception.** The commissioner asked whether the hyphen drops before
+  punctuation. Counted over the whole transcription, article headings left
+  out: before punctuation 67 without, 6 with; before a space 77 without,
+  35 with. The headings alone carry both hyphens consistently.
+
+### Six typos the survey missed
+
+All confirmed on the spreads before being put to the commissioner, all set:
+« crucagar » for krucagar (135, in bold, beside kruco, krucago); « to e. »
+for the book's « t. e. » (139); « versifar = produktar versi » upright
+where every definition is italic (154); and three quotations never closed
+(143, 159, 161). The white before the stop of folio 191 is not among them:
+the survey had it, as a particularity.
+
+### Seventeen misreadings of the transcription
+
+**« special » eight times, where the page prints « specal ».** Folios 28,
+45, 53 twice, 148, 189 twice, 207: each checked on its spread, each the
+elided adjective. The survey recorded two of them as typos of the printer.
+The transcription's eye had normalised a word the book does not use.
+
+**Weights read roman that the page prints bold** — confirmed by the
+commissioner against the printed page, and where the spread could show it,
+enlarged and compared WITHIN THE LINE against roman words: « mi- » (131);
+« ago » (134), where the italic also stops before it; the examples of 142,
+from « sponjatra fungo » to « Saporo dolcatra »; the example lists of 160
+(the -ism- and -ist- lists, « -vendisto », « -ifisto », the shu- and flor-
+forms, the -ero and -isto forms); the -iz- examples of 162, which the
+survey had recorded as a DOUBT and set roman; « kontinue » (163). **This is
+the warning of this review: in part 2 the survey's bold and roman are not
+to be trusted without enlarging** — the rule on weight, nine first readings
+out of nine wrong, has six more pages to its name. A dedicated pass on
+weights against the spreads would likely find more.
+
+**Three letters.** Folio 163 opens « Ne konfundez », not « No »; folio 143
+reads « IV, 521 », a comma; and folio 180's « Amerika » carries its stress
+mark after all — a bold roman capital A before the italic rest, for want of
+a circumflexed capital.
+
+### Two things the corrections asked of the composition
+
+**Folio 68.** The space after « dicernebla. » made the note line 1.05 pt
+too wide. `\VUserre{0.9}` on that line left 0.81 pt — inside a VUpage the
+space is active and elastic, and the factor bites less than computed —
+and `\VUserre{0.6}` takes it back entirely, as `\VUserre{0.62}` does at
+folio 15. Same 62 boxes as before.
+
+**« ŭ », built and then withdrawn.** Folio 191 was first ruled « ankaŭ »
+for the printed « ankaù », in Zamenhof's Esperanto. XCharter has no u with
+a breve; LaTeX composes it, and the PDF's text read « anka ŭ », the word
+broken in two. One ActualText around `\u{u}`
+did not mend it — TeX draws the breve first, and the PDF puts the text
+where the first glyph stands, the trap folio 100's root sign fell into. So
+the u is set first and alone carries « ŭ », the breve laid over it under an
+empty text. Against the composed accent at 600 dpi: the u identical, the
+breve 0.89 px (0.04 mm) to the right. `\accent`'s own formula gives the same
+offset as centring here (0.2103 pt); laying the breve by it changed
+nothing, and the residual — probably pdfTeX drawing an accent in a
+letterspaced font — was not pursued below what the eye or the scan
+resolves. **Then the commissioner reversed the ruling: « ankaù » stays as
+printed, grave accent and all.** The construction went with it — nothing
+left in the volume needs a ŭ — and so did its two witnesses; it is recorded
+here for whoever meets the same trap.
+
+**The Markdown.** A bold capital glued to an italic word comes out
+`**A***merika*`; the Markdown already carries that shape 19 times
+(`**quo***eventis a vu?*`), and CommonMark reads it as meant.
+
+### What moved
+
+The PDF, against the build of `main` (itself pixel-identical to the
+committed `gramatiko.pdf`): 236 pages, 170 pixel-identical at 100 dpi, 66
+differing in bands at the corrected lines only — the tallest are the
+multi-line weights of 142, 160 and 162; nothing moves vertically. Same 62
+boxes, same widths; `tools/hbox.txt` rewritten by check 1, its entries
+further down by the notes. The PDF's text differs in 75 lines (76 with
+`-layout`): the corrections that change letters or punctuation; a change of
+weight leaves the text alone. Page: 859 anchors, 1231 paragraphs, 412
+notes, unchanged. `gramatiko.md` 491,627 → 491,882 bytes, `temi/` 171,550
+→ 171,572, `afixi/` 133,040 → 133,238; 1692 blocks, unchanged. Leaves 237
+and 238, the advertisements, are not on the page: their corrections are in
+the PDF only. Witnesses 75 → 88, the thirteen new ones each absent on
+`main`. Checks 1 to 7 identical to `main`'s, 237 failures, all already
+there — one of them now quotes « Ne konfundez » as transcribed. Checks 8 to
+12 not run, for want of the scan.
+
+## Foreign words misformed in the print
+
+**THE COMMISSIONER HAD HEARD THAT SOME FOREIGN WORDS ARE MISFORMED, SPANISH
+AMONG THEM. THEY ARE — AND ALL OF THEM IN THE 1925 PRINT, NOT IN THE
+TRANSCRIPTION.** The Spanish accents of folios 12, 158, 208 and 209 had
+been set before (« The Spanish accents, set by decision »); this pass
+looked at every word cited under a language mark — S., I., Por., D., E.,
+F., Hispana, Italiana… — some 380 lines, and checked each suspect on the
+photographed spreads before putting it to the commissioner.
+
+| folio | language | as printed | set |
+|---|---|---|---|
+| 52 | French (a title) | Grammarie Complète | Grammaire Complète |
+| 60 | Portuguese | ja | já |
+| 64 | Spanish | tambien | también |
+| 66 | Spanish | de bune gana | de buena gana |
+| 66 | Italian | si (yes) | sì |
+| 67 | Spanish | quiza | quizá |
+| 71 | Spanish | alreador | alrededor |
+| 82 | Spanish | por encima de sobre | por encima de, sobre |
+| 88 | Spanish | per consiguiente | por consiguiente |
+| 88 | Italian | diffati | difatti |
+| 89 | Italian | pero | però |
+| 90 | Spanish | come si | como si |
+| 93 | Italian, under S. | orsu | orsù, left where the author put it |
+
+All thirteen are set by `\VUcorrige`, the 1925 reading the first argument;
+each leaf carries a RULED note.
+
+**Not errors, kept.** The Italian graves of 1925 typography — « perchè »,
+« benchè », « purchè », « nè... nè » — where modern Italian writes an
+acute; the Spanish « ó, ú » and « y, é », accented by the rules of the
+time; « Köbenhavn ». And three suspicions that the spreads cleared: the
+stop of « S. *ó, ú.* » (89) is there; « *de boa vontade* » is good
+Portuguese; « actos », « à 'tush » (185) is the author's own transcription
+of the sound.
+
+**What moved.** Against the previous commit of this branch: 11 pages
+differ, each in one or two line-high bands at the corrected words —
+« buena » and « alrededor » are a letter longer, the comma of folio 82 a
+little more, and the lines took it in their spaces. Same 62 boxes.
+`gramatiko.md` 491,882 → 491,891 bytes; `temi/` and `afixi/` unchanged in
+size; anchors, paragraphs, notes, blocks unchanged. Witnesses 88 → 94.
+Checks 1 to 7: the same 237 failures; checks 8 to 12 not run, for want of
+the scan.

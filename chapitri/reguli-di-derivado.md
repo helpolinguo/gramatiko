@@ -25,19 +25,19 @@ On notez lo sequanta :
 
 **Konsequi.** — On darfas e devas substantivigar adjektivo per la nura chanjo di dezinenco (2). L'adjektivo tale substantivigita nemediate povas signifikar nur : *to quo* *esas...* (irge quon « to » reprezentas, *ento* o *kozo*) : **belo,** **malado** = *homo bela, malada*; **dividendo** = *nombro dividenda* (1); **plano** = *surfaco plana*; **parazito** = *parazita homo,* *bestio o planto* (2).
 
-> (2) Ta procedo esas naturala en la mento di la homo. Nia lingui formacas nemediate substantivi de adjektivi : *die Heiligen* D., *all* *the saints* E., *tous les saints* F., *omnes sancti* L. e. c. Ta derivo esas perfekte klara e logikala. Altraparte esas racionala, ke du vorti diferanta nur per la chanjo dil dezinenco expresas *la sama koncepto* *en du gramatikal funcioni diferanta*. Fine per l'etimologio ni vidas, ke omna nomi komuna esis origine adjektivi, e pokope uli divenis substantivi. Exemple, en la Franca, *domestique* esis nur adjektivo e signifikis *domala*; nun ol esas pluse substantivo kun la senco **(domala) servisto**; **lanjo** *signifikas* : *facita ek* **lano**; **linjo** signifikas : *facita ek* **lino.** Ankore nun la procedo uzesas : **direkteblo** = *direktebla aernavo*; **automobilo** = *automobila veturo*.
+> (2) Ta procedo esas naturala en la mento di la homo. Nia lingui formacas nemediate substantivi de adjektivi : *die Heiligen* D., *all* *the saints* E., *tous les saints* F., *omnes sancti* L. e. c. Ta derivo esas perfekte klara e logikala. Altraparte esas racionala, ke du vorti diferanta nur per la chanjo dil dezinenco expresas *la sama koncepto* *en du gramatikal funcioni diferanta*. Fine per l'etimologio ni vidas, ke omna nomi komuna esis origine adjektivi, e pokope uli divenis substantivi. Exemple, en la Franca, *domestique* esis nur adjektivo e signifikis *domala*; nun ol esas pluse substantivo kun la senco **(domala) servisto**; **lanjo** signifikas : *facita ek* **lano**; **linjo** signifikas : *facita ek* **lino.** Ankore nun la procedo uzesas : **direkteblo** = *direktebla aernavo*; **automobilo** = *automobila veturo*.
 
 > (1) Certe nulu komprenos : homo dividenda.
 
-> (2) La kuntexto o la cirkonstanci impedas miskompreno. Cetere on sempre darfas tote precizigar per l'expresuro kompleta. (Videz l'apendico « Substantivigo dil adjektivo ».
+> (2) La kuntexto o la cirkonstanci impedas miskompreno. Cetere on sempre darfas tote precizigar per l'expresuro kompleta. (Videz l'apendico « Substantivigo dil adjektivo ».)
 
-Kontree, on ne darfas uzar adjektivo nemediate derivita vice genetivo (kazo dil komplemento posedala, t. e. vice la prepoziciono **di**) : se **gardena urbo** ya signifikas *gardenourbo*, **gardena pordo** ne povas signifikar *pordo di gardeno* (ma on darfas dicar : **gardenpordo** o **pordo gardenala** (3).
+Kontree, on ne darfas uzar adjektivo nemediate derivita vice genetivo (kazo dil komplemento posedala, t. e. vice la prepoziciono **di**) : se **gardena urbo** ya signifikas *gardenourbo*, **gardena pordo** ne povas signifikar *pordo di gardeno* (ma on darfas dicar : **gardenpordo** o **pordo gardenala** (3)).
 
 > (3) Videz la sufixo *-al*.
 
 3e Adverbo nemediate formacita de adjektivo signifikas : *en maniero* (tala) (4) : **bele, rapide** = *en maniero bela,* *rapida*; **noktale** (de l'adjektivo noktala) = *en maniero noktala* (**noktale vestizita** = *per vesti di nokto*) (5).
 
-> (4) « Maniero » uzesas hike en sua maxim ampla senco. Ula adjektivi (*quanta, tanta, multa, poka, kelka, omna, singla, plura,* la kardinala nombral adjektivi, e. c.) genitas, pro lia senco, adverbi qui implikas ideo di quanteso. Ma, mem en ta kazo, la supere donita regulo cd expliko restas vera, nam, relate ago, la quanteso o la nombro esas manieral cirkonstanco : *li venis plure, single, omne* indikas reale « quamaniere » li venis. **Il laboris tante** = *en tanta* *maniero*.
+> (4) « Maniero » uzesas hike en sua maxim ampla senco. Ula adjektivi (*quanta, tanta, multa, poka, kelka, omna, singla, plura,* la kardinala nombral adjektivi, e. c.) genitas, pro lia senco, adverbi qui implikas ideo di quanteso. Ma, mem en ta kazo, la supere donita regulo od expliko restas vera, nam, relate ago, la quanteso o la nombro esas manieral cirkonstanco : *li venis plure, single, omne* indikas reale « quamaniere » li venis. **Il laboris tante** = *en tanta* *maniero*.
 
 > (5) **Nokte** (de nokto) = *dum la nokto, en nokto*. (Videz la manieral adverbi en l'unesma parto.)
 

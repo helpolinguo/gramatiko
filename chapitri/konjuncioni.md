@@ -11,7 +11,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 107. — Yen la *koordinal* konjuncioni :
 
-**Do** = E. *then* (therefore), consequently; D. *also, demnach,* *somit, folglich*; F. *donc* (par conséquent); I. *dunque, quindi;* S. *luego, per consiguiente.*
+**Do** = E. *then* (therefore), consequently; D. *also, demnach,* *somit, folglich*; F. *donc* (par conséquent); I. *dunque, quindi;* S. *luego, por consiguiente.*
 
 **Ed** o **e** = D. *und*; E. *and*; F. *et*; I. *e, ed*; S. *y, é.*
 
@@ -19,7 +19,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 > (1) **Ma** indikas opozo, restrikto, *difero* inter la du propozicioni o vorti quin ol unionas : *Lu esas severa ma yusta. Me tre deziras* *facar ta voyajo ma me ne povas lo. Fidez ad ili, ma ne ad eli.*
 
-**Nam** = D. *denn*; E. *for*; F. *car, en effet*; I. *diffati*; S. *en* *efecto* (2).
+**Nam** = D. *denn*; E. *for*; F. *car, en effet*; I. *difatti*; S. *en* *efecto* (2).
 
 > (2) **Nam** anuncas expliko, motivo, pruvo relate lo dicata en la propoziciono a qua ol unionas la sua, Ex, : *Tu vartos vane, nam il*ne venos, pro ke il esas malada. La konjunciono **nam** unionas la duesma propoziciono : *il ne venos* a l'unesma : *tu vartos vane* e donas expliko, motivo pri lo dicata en ica. — **Me ne esperas, ke** **il sucesos; nam, pro ke il esas tre indolenta, il ne demarshos sat** **multe.**
 
@@ -27,7 +27,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 > (1) « On demandas ofte de ni expliko di ca konjunciono, pro ke multa lingui ne havas l'equivalanta, e supleas ol per altra konjuncioni de diversa senci. *Or* uzesas *nur* en la rezoni, por enduktar un plusa premiso, t. e. motivo. Ex. : « Omno quo foligas esas veneno; *or* l'alkoholo foligas; *do*... » On devas ne intermixar *or* kun *do*, qua esas quaze opozita, nam ol induktas la konkluzo; nek kun *ma*, qua anuncas od expresas, ula opozo (ex. : opozanto povus dicar : « ma l'alkoholo fortigas, nutras... »). En la praktiko, on ne enuncas formale la rezoni, on tacas una de la premisi, od on renversas lia ordino. Kande la premiso (motivo) sequas la konkluzo, *or* remplasesas da *nam;* ex. : « l'alkoholo esas veneno, nam ol foligas ». (On tacas la majora, qua konsideresas kom tro konocata od evidenta. — Plura lingui supleas *or* per la konjunciono qua signifikas *nun* (D. *nun* (*aber*), E. *now*); ma on vidas facile, ke lore ol nule indikas la tempo... Ta konjunciono esas do aquirajo di la logikala spirito, qua sempre plu dominacas la moderna e civilizita lingui, pro la progresi di la cienco. (*Progreso*, VI, 141.)
 
-**Tamen** = D. *dennoch, gleichwohl, nichtsdestoweniger,* *trotzdem*; E. *however, yet, still*; F. *cependant, pourtant, néanmoins*; I. *pero, tuttavia, ciò non ostante*; S. *con todo, sin* *embargo, a pesar de* (2).
+**Tamen** = D. *dennoch, gleichwohl, nichtsdestoweniger,* *trotzdem*; E. *however, yet, still*; F. *cependant, pourtant, néanmoins*; I. *però, tuttavia, ciò non ostante*; S. *con todo, sin* *embargo, a pesar de* (2).
 
 > (2) L'intima senco di *tamen* esas : opoze ad ico, malgre lo dicita, malgre ta obstaklo. Ex. : *Il esas tre richa, tamen il almonas nultempe. Me savas, ke me riskas la morto, tamen me iros adibe.*
 
@@ -63,7 +63,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 **Ecepte se** = D. *ausserwenn*; E. *except if*; F. *à moins que,* *excepté si*; I. *eccetto che, salvo che*; S. *exceptuado si.*
 
-**Quale se** = D. *als wenn, als ob*; E. *as though, as if;* F. *comme si*; I. *come se*; S. *come si.*
+**Quale se** = D. *als wenn, als ob*; E. *as though, as if;* F. *comme si*; I. *come se*; S. *como si.*
 
 **Quankam** = D. *obgleich, obschon, obwohl, trotzdem dass;* E. *as though, as if*; F. *quoique, bien que*; I. *quantunque,* *benchè, sebbene*; S. *aunque.*
 

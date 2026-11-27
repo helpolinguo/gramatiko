@@ -42,12 +42,12 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 859 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,627 bytes
-    python3 tools/temi.py             # 9 topics over 1643 blocks, 171,550 bytes
-    python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,040 bytes
-    python3 tools/witnesses.py        # 75 witnesses, exits non-zero if one is lost
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,891 bytes
+    python3 tools/temi.py             # 9 topics over 1643 blocks, 171,572 bytes
+    python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,238 bytes
+    python3 tools/witnesses.py        # 94 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED FIVE TIMES. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED SIX TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -108,6 +108,24 @@ and five more, folios 12, 158, 208 and 209 — are now set with them, by `\VUcor
 491,618 → 491,627 in `gramatiko.md`, 133,039 → 133,040 in `afixi/`
 (« heroína », under `-in-`).
 
+**THE SIXTH TIME, the typos ruled on one by one.** On 27 November 2026 the
+commissioner went through every typo and irregularity the survey had
+recorded, and six typos it had missed. 84 rulings to correct, set by 94
+`\VUcorrige`; 28 recorded « typos » that are not typos — « ciencal », « direte »,
+« lon », « solvor », « esor », « specala », « Ofical »… are Ido, or the
+book's own usage — their notes corrected; 41 kept as printed. And on the
+way, **17 misreadings of the transcription**, corrected in it: « specal »
+read « special » eight times, and weights read roman that the page prints
+bold on folios 131, 134, 142, 160, 162 and 163 — the survey's bold/roman
+calls in part 2 are not to be trusted without enlarging. Then thirteen
+foreign words the 1925 print misforms — Spanish « tambien », « bune »,
+« alreador », « come si »…, Italian « diffati », « pero », Portuguese
+« ja », the title « Grammarie Complète » — each confirmed on the spreads
+and ruled corrected. 491,627 → 491,891 bytes in `gramatiko.md`, 171,550 →
+171,572 in `temi/`, 133,040 → 133,238 in `afixi/`; anchors, paragraphs,
+notes and blocks unchanged. See the journal, « Typos and irregularities
+ruled on » and « Foreign words misformed in the print ».
+
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename
 moves an identifier a witness names, the witness is repointed — it is
@@ -127,9 +145,13 @@ tools or in the preamble, never in the transcription.
 A correction the commissioner orders to the LETTER is marked where it
 stands, `\VUcorrige{as printed}{as set}`: the 1925 reading stays in the
 transcription as the first argument, and the preamble sets the second —
-make the macro give `#1` and the volume is the 1925 print again. Its only
-use so far is the Spanish accents; it is not a licence to correct a typo,
-which stays.
+make the macro give `#1` and the volume is the 1925 print again. Its uses
+so far: the Spanish accents, and the commissioner's rulings of 27 November
+2026 on the typos and irregularities the survey recorded. It is not a
+licence to correct a typo on one's own judgement: a typo stays until the
+commissioner rules on it, and a NEW one found is recorded in its leaf's
+note and put to the commissioner. A MISREADING of the transcription is
+another matter — it is corrected in the transcription, where it was made.
 
 **A MEASUREMENT IS NOT AN ESTIMATE.** The whites that frame a title are
 measured on the baselines, before composition; they are never deduced

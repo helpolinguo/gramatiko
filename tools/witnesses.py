@@ -60,6 +60,47 @@ T = [
  # left, and the PDF set it there.
  ('folio 94: 1,000^5 in its column', 'content/10-part1.tex',
   '\\VUcase{50.55mm}{1,000\\textsuperscript{5}}', 1),
+ # 27 November 2026: THE TYPOS AND IRREGULARITIES THE SURVEY RECORDED,
+ # RULED ON ONE BY ONE by the commissioner. A ruling to correct is a
+ # \VUcorrige, the 1925 reading its first argument; a misreading found on
+ # the way is corrected in the transcription itself. Counts are minima:
+ # the leaf notes quote some of these strings too.
+ ('rulings: \\VUcorrige, part 1', 'content/10-part1.tex', '\\VUcorrige{', 5),
+ ('rulings: \\VUcorrige, part 2', 'content/20-part2.tex', '\\VUcorrige{', 94),
+ ('rulings: the leaf notes record them', 'content/20-part2.tex',
+  'RULED 27 November 2026 by the commissioner', 70),
+ ('folio 135: krucagar, a typo the survey missed', 'content/20-part2.tex',
+  '\\VUcorrige{crucagar}{krucagar}', 1),
+  ('folio 68: the corrected line kept within the measure',
+  'content/10-part1.tex', '\\VUserre{0.6}{rikonocebla', 1),
+ # The misreadings: « specal » read « special » eight times; weights read
+ # roman that the page prints bold; three letters.
+ ('misreading: specal, part 1', 'content/10-part1.tex', 'ke ta specal pluralo', 1),
+ ('misreading: specal, part 2', 'content/20-part2.tex', 'Nula specal dezinenco', 1),
+ ('misreading: folio 160 lists bold', 'content/20-part2.tex',
+  '\\VUgras{Kristanismo} (1), \\VUgras{katoli}', 1),
+ ('misreading: folio 162 -iz- examples bold', 'content/20-part2.tex',
+  '\\VUgras{armizar, lumizar, limitizar, regulizar}', 1),
+ ('misreading: folio 142 examples bold', 'content/20-part2.tex',
+  '\\VUgras{fungo, ligno. Materio rezinoza', 1),
+ ('misreading: folio 180 stress on a capital', 'content/20-part2.tex',
+  '\\VUgras{A}\\textit{merika}', 1),
+ ('misreading: folio 163 Ne konfundez', 'content/20-part2.tex',
+  'Ne konfundez \\textit{saligar}', 1),
+ ('misreading: folio 143 IV, 521', 'content/20-part2.tex', '\nIV, 521).', 1),
+ # FOREIGN WORDS MISFORMED IN THE PRINT, ruled on by the commissioner:
+ # Spanish, Italian, Portuguese and one French title, each confirmed on
+ # the photographed spreads, each a \VUcorrige.
+ ('foreign: Spanish alrededor', 'content/10-part1.tex',
+  '\\VUcorrige{alreador}{alrededor}', 1),
+ ('foreign: Spanish como si', 'content/10-part1.tex',
+  '\\VUcorrige{come}{como} si', 1),
+ ('foreign: Italian però', 'content/10-part1.tex', '\\VUcorrige{pero}{però}', 1),
+ ('foreign: Portuguese já', 'content/10-part1.tex', '\\VUcorrige{ja}{já}', 1),
+ ('foreign: French Grammaire', 'content/10-part1.tex',
+  '\\VUcorrige{Grammarie}{Grammaire}', 1),
+ ('rulings: \\VUcorrige, part 1 with the foreign words', 'content/10-part1.tex',
+  '\\VUcorrige{', 17),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
  # transcription reads « acuatico », « heroina », « habias »...; that
  # letter stays in the transcription, first argument of \VUcorrige, and the

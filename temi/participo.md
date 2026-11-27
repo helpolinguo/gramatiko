@@ -12,7 +12,7 @@ Transskribita de https://ido.help/gramatiko/
 
 ## § 40 — [ADJEKTIVI-PRONOMI NEDEFINITA](../chapitri/adjektivi-pronomi-nedefinita.md)
 
-N. B. — Notez bone, ke la derival regulo, segun qua on obtenas *ento* (praktike *homo*, maxim ofte) substitucante **-o** al **-a** dil adjektivo, koncernas nur *l'adjektivo qualifikanta*, qua venas de nomal radiko : **avara, avaro.** Or en la 38-ma paragrafo (p. 43), ni vidis, ne l'adjektivo qualifikanta, ma *l'adjektivi-pronomi nedefinita*, qui nule venas de nomal radiko e konstitucas special kategorio gramatikala. Pro to la regulo dil renversebleso ne atingas li, quale ol ne atingas la propra nomi, tote exter ta regulo. *Altra* kam l'adjektivo qualifikanta, per sua naturo e rolo, l'adjektivi-pronomi nedefinita sequas *altra* e propra derivo. On do ne darfas objecionar pri li regulo koncernanta nur l'adjektivo qualifikanta e la participo adjektiva.
+N. B. — Notez bone, ke la derival regulo, segun qua on obtenas *ento* (praktike *homo*, maxim ofte) substitucante **-o** al **-a** dil adjektivo, koncernas nur *l'adjektivo qualifikanta*, qua venas de nomal radiko : **avara, avaro.** Or en la 38-ma paragrafo (p. 43), ni vidis, ne l'adjektivo qualifikanta, ma *l'adjektivi-pronomi nedefinita*, qui nule venas de nomal radiko e konstitucas specal kategorio gramatikala. Pro to la regulo dil renversebleso ne atingas li, quale ol ne atingas la propra nomi, tote exter ta regulo. *Altra* kam l'adjektivo qualifikanta, per sua naturo e rolo, l'adjektivi-pronomi nedefinita sequas *altra* e propra derivo. On do ne darfas objecionar pri li regulo koncernanta nur l'adjektivo qualifikanta e la participo adjektiva.
 
 ## § 27 — [ADJEKTIVO QUALIFIKANTA](../chapitri/adjektivo-qualifikanta.md)
 
@@ -156,7 +156,7 @@ Konseque, esas *netransitiva* en Ido nur la verbi qui logike, nature, quale **na
 
 ## [VORTORDINO](../chapitri/vortordino.md) — bloko 7 (sen numero en la libro)
 
-*La participo,* en la kompozita tempi dil verbo (aktiva o pasiva), sempre devas sequar la helpanto *esar,* e darfas separesar de olu nur da adverbo relanta la verbo : **Ni esas** **arivinta de du hori,** e ne : *ni esas de du hori arivinta.* — **El esas tre amata da omni,** e ne : **el esas da omni tre amata.** — **Ta soldato esis grave vundata.**
+*La participo,* en la kompozita tempi dil verbo (aktiva o pasiva), sempre devas sequar la helpanto *esar,* e darfas separesar de olu nur da adverbo relanta la verbo : **Ni esas** **arivinta de du hori,** e ne : *ni esas de du hori arivinta.* — **El esas tre amata da omni,** e ne : *el esas da omni tre amata.* — **Ta soldato esis grave vundata.**
 
 ## [VORTORDINO](../chapitri/vortordino.md) — bloko 8 (sen numero en la libro)
 

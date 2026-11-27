@@ -11,7 +11,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 **-ind-**. — Ta sufixo esis riestablisata dal Komitato ipsa dil *Delegitaro* (2). Ol juntesas a verbal radiki kun la senco : « *qua meritas esar ...ata* » : **aminda, estiminda, kredinda**, **respektinda** = *qua meritas esar amata, estimata, kredata, respektata.*
 
-> (2) Vice *ign* (de *digna*) : iaudigna = laudinda, qua propozesis. **-ind** versimile esas modifikuro di *and*(us), *end*(us) latina kun chanjo di senco.
+> (2) Vice *ign* (de *digna*) : laudigna = laudinda, qua propozesis. **-ind** versimile esas modifikuro di *and*(us), *end*(us) latina kun chanjo di senco.
 
 Evidente ta sufixo povas ofte esar remplasigata per **end**, nam « on devas » estimar la homi estiminda, kredar la homi kredinda, e. c. Ma lua senco esas plu restriktita e plu preciza.
 
