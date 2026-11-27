@@ -5064,3 +5064,68 @@ little more, and the lines took it in their spaces. Same 62 boxes.
 size; anchors, paragraphs, notes, blocks unchanged. Witnesses 88 → 94.
 Checks 1 to 7: the same 237 failures; checks 8 to 12 not run, for want of
 the scan.
+
+## Typos the survey did not record
+
+**ASKED WHETHER THERE ARE OTHER TYPOS: YES, AND THE SURVEY HAD NOT SEEN
+THEM.** Part 1 carried a recorded typo on three pages only, part 2 on
+forty-one; the difference was the survey's, not the printer's. The
+transcription was scanned for what a reader's eye slides over, and every
+candidate checked on the photographed spreads before it was put to the
+commissioner.
+
+**How.** (1) Every word that occurs once and stands one letter — inserted,
+dropped, changed or swapped — from a word that occurs three times or more:
+1,073 pairs, nearly all Ido inflection (*lernanti* beside *lernanto*). Kept
+only where the difference falls inside the stem, three letters or more
+before the end: 96, of which five are misprints and the rest real words,
+Latin, Italian, or a word broken across a page. (2) Doubled words: three,
+all intended (« tote ne ne », the Esperanto « eble eble », « ne ne-utro »).
+(3) Punctuation run together: one, « la sua, Ex, : ». (4) A closing « » »
+or « ) » with nothing open before it in its flow — body or notes, followed
+across pages: ten, of which five are quotations carried over from the page
+before and five are faults.
+
+| folio | as printed | set |
+|---|---|---|
+| 31 | a Progreso quotation closed, never opened | « before « 1. La formaco » |
+| 35 | « lua amiki venis » unclosed; two « Tala esas la metodo... » » unopened | all three set |
+| 52 | « « Letro duras... » unclosed | » before « (Progreso, IV, 594) »; the « ) » after « lektesar » kept, as the quoted source's |
+| 55 | replusas; voltivo; decision 671 unclosed | repulsas; volitivo; » after « cirkularo 10 » |
+| 75 | direta komplimenti | komplementi |
+| 83 | « dicar : Pluse, la festino eventis... » » | « before « Pluse » |
+| 88 | la sua, Ex, : | la sua. Ex. : |
+| 120 | genetivo | genitivo |
+| 146 | Ni rimarkigez | remarkigez |
+
+All set by `\VUcorrige`, each leaf with a RULED note.
+
+**One more misreading.** At folio 63 the transcription read « (o : « cirkum
+la tablo ») : hike... la glasi o la tablo) », a bracket closing twice. The
+commissioner, against the page: there is no bracket after « cirkum la
+tablo »; the one opened at « (o : » closes after « la glasi o la tablo ».
+The extra « ) » is removed from the transcription.
+
+**Two of my own misreadings, caught before they did harm.** At actual size
+on the spread I read folio 120's « regulo cd expliko » as « od » — enlarged
+ten times it is the survey's « c » open on the right, and that ruling
+stands; and I read « cirkularo 10 » as « 40 » in a question, where the
+transcription was right all along. The rule on enlarging is about weight;
+it holds for letters as much.
+
+**Not yet checked: 44 paragraphs where a quotation opens and does not close
+within the paragraph**, the next paragraph of the same flow not reopening
+with «, on leaf 15 and folios 35, 36, 49, 52, 57, 61, 64, 66, 67, 69, 81,
+85, 89, 104, 126, 132, 138, 139, 141, 145, 153, 157, 159, 165, 171, 173,
+174, 181, 182, 189, 196, 198, 199 (three), 200 (two), 202, 204, 213, 214,
+217 and leaf 183. Some are long quotations whose later paragraphs the
+printer did not reopen — not necessarily a fault — and some were already
+ruled on and kept (189). Each wants its page; none is a typo until it has
+been looked at.
+
+**What moved.** Against `main`: 10 pages differ, each in one to three
+line-high bands at the corrected marks and words; same 62 boxes.
+`gramatiko.md` 491,891 → 491,926 bytes, `temi/` 171,572 → 171,591;
+`afixi/` unchanged in size; anchors, paragraphs, notes, blocks unchanged.
+Witnesses 94 → 99. Checks 1 to 7: the same 237 failures. Checks 8 to 12 not
+run, for want of the scan.

@@ -21,7 +21,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 **Nam** = D. *denn*; E. *for*; F. *car, en effet*; I. *difatti*; S. *en* *efecto* (2).
 
-> (2) **Nam** anuncas expliko, motivo, pruvo relate lo dicata en la propoziciono a qua ol unionas la sua, Ex, : *Tu vartos vane, nam il*ne venos, pro ke il esas malada. La konjunciono **nam** unionas la duesma propoziciono : *il ne venos* a l'unesma : *tu vartos vane* e donas expliko, motivo pri lo dicata en ica. — **Me ne esperas, ke** **il sucesos; nam, pro ke il esas tre indolenta, il ne demarshos sat** **multe.**
+> (2) **Nam** anuncas expliko, motivo, pruvo relate lo dicata en la propoziciono a qua ol unionas la sua. Ex. : *Tu vartos vane, nam il*ne venos, pro ke il esas malada. La konjunciono **nam** unionas la duesma propoziciono : *il ne venos* a l'unesma : *tu vartos vane* e donas expliko, motivo pri lo dicata en ica. — **Me ne esperas, ke** **il sucesos; nam, pro ke il esas tre indolenta, il ne demarshos sat** **multe.**
 
 **Or** = D. *nun* (aber); E. *now*; F. *or*; I. *ora*; S. *ahora* (1).
 

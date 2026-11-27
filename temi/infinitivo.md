@@ -132,4 +132,4 @@ On anke vidis, ke la verbo **igar** darfas havar propoziciono kom objekto : **
 
 ## § 50 — [VERBO](../chapitri/verbo.md)
 
-**a, i, o, u** por *prezento, pasinto, futuro, kondicionalo* e sequata da **s** en la personal modi (**-as, -is, -os, -us**), da **r** en l'infinitivi (**-ar, -ir, -or**), dal grupo **-nt** en la participi aktiva (**-ant, -int, -ont**), da **t** en la participi pasiva (**-at, -it, -ot**), plus **-ez** por l'imperativo (o voltivo).
+**a, i, o, u** por *prezento, pasinto, futuro, kondicionalo* e sequata da **s** en la personal modi (**-as, -is, -os, -us**), da **r** en l'infinitivi (**-ar, -ir, -or**), dal grupo **-nt** en la participi aktiva (**-ant, -int, -ont**), da **t** en la participi pasiva (**-at, -it, -ot**), plus **-ez** por l'imperativo (o volitivo).

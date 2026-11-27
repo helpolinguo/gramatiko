@@ -42,12 +42,12 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 859 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,891 bytes
-    python3 tools/temi.py             # 9 topics over 1643 blocks, 171,572 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,926 bytes
+    python3 tools/temi.py             # 9 topics over 1643 blocks, 171,591 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,238 bytes
-    python3 tools/witnesses.py        # 94 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 99 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED SIX TIMES. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED SEVEN TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -125,6 +125,16 @@ and ruled corrected. 491,627 → 491,891 bytes in `gramatiko.md`, 171,550 →
 171,572 in `temi/`, 133,040 → 133,238 in `afixi/`; anchors, paragraphs,
 notes and blocks unchanged. See the journal, « Typos and irregularities
 ruled on » and « Foreign words misformed in the print ».
+
+**THE SEVENTH TIME, typos the survey never recorded.** Found by scanning
+the transcription — one-off words a letter from a common one, quotation
+marks and brackets that close nothing — and each confirmed on the spreads:
+« replusas », « voltivo », « komplimenti », « genetivo », « rimarkigez »,
+« la sua, Ex, : » and six faulty quotations, all ruled corrected; and one
+more misreading, a bracket the transcription had added at folio 63.
+491,891 → 491,926 bytes in `gramatiko.md`, 171,572 → 171,591 in `temi/`.
+About forty other unclosed quotations are listed in the journal and not
+yet checked against the page.
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename

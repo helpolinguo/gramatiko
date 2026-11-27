@@ -99,6 +99,19 @@ T = [
  ('foreign: Portuguese já', 'content/10-part1.tex', '\\VUcorrige{ja}{já}', 1),
  ('foreign: French Grammaire', 'content/10-part1.tex',
   '\\VUcorrige{Grammarie}{Grammaire}', 1),
+ # TYPOS THE SURVEY DID NOT RECORD, found by scanning the transcription
+ # (one-off words a letter from a common one; quotation marks and brackets
+ # that close nothing), each confirmed on the spreads and ruled on.
+ ('unrecorded: folio 55 repulsas', 'content/10-part1.tex',
+  '\\VUcorrige{replusas}{repulsas}', 1),
+ ('unrecorded: folio 75 komplementi', 'content/10-part1.tex',
+  '\\VUcorrige{komplimenti}{komplementi}', 1),
+ ('unrecorded: folio 120 genitivo', 'content/20-part2.tex',
+  '\\VUcorrige{genetivo}{genitivo}', 1),
+ ('unrecorded: folio 35 quotation opened', 'content/10-part1.tex',
+  'darfas dicar : \\VUcorrige{}{« }Tala esas la metodo', 1),
+ ('misreading: folio 63 no bracket after la tablo', 'content/10-part1.tex',
+  'tablo » : hike', 1),
  ('rulings: \\VUcorrige, part 1 with the foreign words', 'content/10-part1.tex',
   '\\VUcorrige{', 17),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
