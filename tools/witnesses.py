@@ -55,6 +55,11 @@ T = [
  # all bold, and recorded as a typo of the original « checked at x 10 ».
  ('folio 157: de facar, de in roman', 'content/20-part2.tex',
   '\\VUgras{igar}\\nl\nde \\VUgras{facar.})', 1),
+ # Folio 94: « 1,000^5 » of the Quadriliono row stands under the three
+ # above it, at 50.55 mm -- first surveyed at 49.78, 0.77 mm to their
+ # left, and the PDF set it there.
+ ('folio 94: 1,000^5 in its column', 'content/10-part1.tex',
+  '\\VUcase{50.55mm}{1,000\\textsuperscript{5}}', 1),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
  # transcription reads « acuatico », « heroina », « habias »...; that
  # letter stays in the transcription, first argument of \VUcorrige, and the

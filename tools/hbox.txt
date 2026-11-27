@@ -19,10 +19,10 @@ Charter-TLF/m/it/10.2 (-20) Gio-vanni, Jean, Jo-hann,
   7. Overfull \hbox (0.99419pt too wide) in paragraph at lines 3456--3457
 []\T1/XCharter-TLF/m/n/10.2 (-20) Esas ad-jun-tenda la se-quanta ad-verbi kom-p
 ozita o de-rivita :
-  8. Overfull \hbox (1.14929pt too wide) in paragraph at lines 5907--5907
+  8. Overfull \hbox (1.14929pt too wide) in paragraph at lines 5915--5915
 []\T1/XCharter-TLF/m/n/7.85/78ls (-20) 2. Ol impedas omna (mem sem-blanta) duse
 ncesi quin on ob-je-cio-nis
-  9. Overfull \hbox (1.56581pt too wide) in paragraph at lines 6253--6259
+  9. Overfull \hbox (1.56581pt too wide) in paragraph at lines 6261--6267
 \T1/XCharter-TLF/m/n/10.2 (-20) voco --- sem-pre devas se-quar la verbo hel-pan
 ta, e se-p-a-re-sar de
  10. Overfull \hbox (1.35205pt too wide) in paragraph at lines 337--347
