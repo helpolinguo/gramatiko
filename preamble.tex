@@ -522,27 +522,6 @@
 % italic and bold, each set here and the 1925 reading kept as the first
 % argument. See docs/journal.md, « Typos and irregularities ruled on ».
 \newcommand{\VUcorrige}[2]{#2}
-% « ŭ », set by one of those rulings (folio 191, Zamenhof's « ankaŭ »).
-% XCharter has no u with a breve: LaTeX composes it, breve over u, and
-% the PDF's text read « anka ŭ », the word broken in two. The composed
-% glyph now carries an ActualText of the one character, as the root
-% sign of folio 100 does -- and for the same reason, in the same way. One
-% span around \u{u} left the text broken: TeX draws the breve FIRST, and
-% the PDF puts an ActualText where its first glyph stands. So the u is
-% set first and alone carries « ŭ »; the breve, slot 8 of T1, is laid
-% over it, centred on the u's width, under an empty text.
-% MEASURED at 600 dpi against the \u{u} TeX composes: the u identical,
-% the breve 0.89 px (0.04 mm) to the right, same height. \accent's own
-% formula, (w - a)/2 + t(h - x), gives the same 0.2103 pt as centring
-% here (u 4.953 pt wide and 3.795 high, breve 4.537, x-height 3.784,
-% slant 0.194); laying the breve by it changed nothing. The residual is
-% likely pdfTeX drawing an accent in a letterspaced font (the notes are
-% tracked); not pursued below what the eye or the scan resolves.
-\newcommand{\VUubreve}{\setbox0\hbox{u}%
-  \BeginAccSupp{method=hex,unicode,ActualText=016D}u\EndAccSupp{}%
-  \llap{\hbox to\wd0{\hss
-    \BeginAccSupp{method=hex,unicode,ActualText=}\char8\EndAccSupp{}\hss}}}
-\DeclareUnicodeCharacter{016D}{\VUubreve}
 \newcommand{\VUtexteNote}{%
   \fontsize{\VUcorpsNote}{\VUinterligneNote}\selectfont\lsstyle}
 

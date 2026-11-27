@@ -45,7 +45,7 @@ transcription and from nothing else:
     python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,882 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,572 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,238 bytes
-    python3 tools/witnesses.py        # 90 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 88 witnesses, exits non-zero if one is lost
 
 **THE FIGURES ABOVE HAVE MOVED SIX TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
@@ -110,10 +110,10 @@ and five more, folios 12, 158, 208 and 209 — are now set with them, by `\VUcor
 
 **THE SIXTH TIME, the typos ruled on one by one.** On 27 November 2026 the
 commissioner went through every typo and irregularity the survey had
-recorded, and six typos it had missed. 85 rulings to correct, set by 95
+recorded, and six typos it had missed. 84 rulings to correct, set by 94
 `\VUcorrige`; 28 recorded « typos » that are not typos — « ciencal », « direte »,
 « lon », « solvor », « esor », « specala », « Ofical »… are Ido, or the
-book's own usage — their notes corrected; 40 kept as printed. And on the
+book's own usage — their notes corrected; 41 kept as printed. And on the
 way, **17 misreadings of the transcription**, corrected in it: « specal »
 read « special » eight times, and weights read roman that the page prints
 bold on folios 131, 134, 142, 160, 162 and 163 — the survey's bold/roman

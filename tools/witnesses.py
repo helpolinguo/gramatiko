@@ -71,10 +71,7 @@ T = [
   'RULED 27 November 2026 by the commissioner', 70),
  ('folio 135: krucagar, a typo the survey missed', 'content/20-part2.tex',
   '\\VUcorrige{crucagar}{krucagar}', 1),
- ('folio 191: ankaŭ', 'content/20-part2.tex', '\\VUcorrige{ankaù}{ankaŭ}', 1),
- ('ŭ carries its own text in the PDF', 'preamble.tex',
-  '\\DeclareUnicodeCharacter{016D}{\\VUubreve}', 1),
- ('folio 68: the corrected line kept within the measure',
+  ('folio 68: the corrected line kept within the measure',
   'content/10-part1.tex', '\\VUserre{0.6}{rikonocebla', 1),
  # The misreadings: « specal » read « special » eight times; weights read
  # roman that the page prints bold; three letters.

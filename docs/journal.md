@@ -4893,9 +4893,9 @@ and the photographed spreads in the commissioner's Drive
 
 | outcome | typos | irregularities | how it is set |
 |---|---|---|---|
-| ruled: correct | 61 | 24 | `\VUcorrige`, 95 in all (4 in part 1, 91 in part 2) |
+| ruled: correct | 61 | 23 | `\VUcorrige`, 94 in all (4 in part 1, 90 in part 2) |
 | not an error after all | 18 | 10 | text kept; the note corrected, with the evidence |
-| ruled: keep as printed | 11 | 29 | nothing; the note stands |
+| ruled: keep as printed | 11 | 30 | nothing; the note stands |
 | misreading of the transcription | 8 | 9 | corrected in the transcription itself |
 
 Each touched note keeps what the survey said, its « kept » turned into
@@ -4980,8 +4980,10 @@ space is active and elastic, and the factor bites less than computed —
 and `\VUserre{0.6}` takes it back entirely, as `\VUserre{0.62}` does at
 folio 15. Same 62 boxes as before.
 
-**« ŭ ».** XCharter has no u with a breve; LaTeX composes it, and the PDF's
-text read « anka ŭ », the word broken in two. One ActualText around `\u{u}`
+**« ŭ », built and then withdrawn.** Folio 191 was first ruled « ankaŭ »
+for the printed « ankaù », in Zamenhof's Esperanto. XCharter has no u with
+a breve; LaTeX composes it, and the PDF's text read « anka ŭ », the word
+broken in two. One ActualText around `\u{u}`
 did not mend it — TeX draws the breve first, and the PDF puts the text
 where the first glyph stands, the trap folio 100's root sign fell into. So
 the u is set first and alone carries « ŭ », the breve laid over it under an
@@ -4989,8 +4991,11 @@ empty text. Against the composed accent at 600 dpi: the u identical, the
 breve 0.89 px (0.04 mm) to the right. `\accent`'s own formula gives the same
 offset as centring here (0.2103 pt); laying the breve by it changed
 nothing, and the residual — probably pdfTeX drawing an accent in a
-letterspaced font — is not pursued below what the eye or the scan
-resolves.
+letterspaced font — was not pursued below what the eye or the scan
+resolves. **Then the commissioner reversed the ruling: « ankaù » stays as
+printed, grave accent and all.** The construction went with it — nothing
+left in the volume needs a ŭ — and so did its two witnesses; it is recorded
+here for whoever meets the same trap.
 
 **The Markdown.** A bold capital glued to an italic word comes out
 `**A***merika*`; the Markdown already carries that shape 19 times
@@ -5003,13 +5008,13 @@ committed `gramatiko.pdf`): 236 pages, 170 pixel-identical at 100 dpi, 66
 differing in bands at the corrected lines only — the tallest are the
 multi-line weights of 142, 160 and 162; nothing moves vertically. Same 62
 boxes, same widths; `tools/hbox.txt` rewritten by check 1, its entries
-further down by the notes. The PDF's text differs in 76 lines (77 with
+further down by the notes. The PDF's text differs in 75 lines (76 with
 `-layout`): the corrections that change letters or punctuation; a change of
 weight leaves the text alone. Page: 859 anchors, 1231 paragraphs, 412
 notes, unchanged. `gramatiko.md` 491,627 → 491,882 bytes, `temi/` 171,550
 → 171,572, `afixi/` 133,040 → 133,238; 1692 blocks, unchanged. Leaves 237
 and 238, the advertisements, are not on the page: their corrections are in
-the PDF only. Witnesses 75 → 90, the fifteen new ones each absent on
+the PDF only. Witnesses 75 → 88, the thirteen new ones each absent on
 `main`. Checks 1 to 7 identical to `main`'s, 237 failures, all already
 there — one of them now quotes « Ne konfundez » as transcribed. Checks 8 to
 12 not run, for want of the scan.
