@@ -88,6 +88,19 @@ T = [
  ('misreading: folio 163 Ne konfundez', 'content/20-part2.tex',
   'Ne konfundez \\textit{saligar}', 1),
  ('misreading: folio 143 IV, 521', 'content/20-part2.tex', '\nIV, 521).', 1),
+ # FOREIGN WORDS MISFORMED IN THE PRINT, ruled on by the commissioner:
+ # Spanish, Italian, Portuguese and one French title, each confirmed on
+ # the photographed spreads, each a \VUcorrige.
+ ('foreign: Spanish alrededor', 'content/10-part1.tex',
+  '\\VUcorrige{alreador}{alrededor}', 1),
+ ('foreign: Spanish como si', 'content/10-part1.tex',
+  '\\VUcorrige{come}{como} si', 1),
+ ('foreign: Italian però', 'content/10-part1.tex', '\\VUcorrige{pero}{però}', 1),
+ ('foreign: Portuguese já', 'content/10-part1.tex', '\\VUcorrige{ja}{já}', 1),
+ ('foreign: French Grammaire', 'content/10-part1.tex',
+  '\\VUcorrige{Grammarie}{Grammaire}', 1),
+ ('rulings: \\VUcorrige, part 1 with the foreign words', 'content/10-part1.tex',
+  '\\VUcorrige{', 17),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
  # transcription reads « acuatico », « heroina », « habias »...; that
  # letter stays in the transcription, first argument of \VUcorrige, and the

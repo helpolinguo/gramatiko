@@ -107,7 +107,7 @@ Fine la adverbi ja vidita (§ 39) : **kelke, multe, poke,** **quante, tante** 
 
 **Quik** = sen la minima ajorno o tardeso : **facez quik ta** **laboro, nam ol tre urjas.**
 
-**Ja** = E. *already*, D. *schon*, F. *déjà*, S. *ya*, I. *già*, Por. *ja*. Ex. : **Il ja manjis omno.**
+**Ja** = E. *already*, D. *schon*, F. *déjà*, S. *ya*, I. *già*, Por. *já*. Ex. : **Il ja manjis omno.**
 
 **Ne ja** pri kozo qua ne eventis ye l'instanto prezenta : **il** **ne ja arivis, ma il quik arivos** (3).
 
@@ -223,7 +223,7 @@ La formi kun **-ube** ne esas, quale la formi kun **-loke**, nur nedefinita; li 
 
 > (1) **Kom** implikas, ke on esas reale to quon dicas la vorto sequanta l'adverbo : *Kom Kristano*, on esas Kristano : *kom homo,* on esas homo; *kom rejo*, on esas rejo; *kom statestro*, on esas statestro; *kom privato*, on esas privato. — **Quale** implikas nur simileso : *quale* Kristano = simile a Kristano; *quale homo* = simile a homo; *quale rejo* = simile a rejo; *quale statestro* = simile a statestro; *quale privato* = simile a privato. Konseque : uzez « quale », se vu povas remplasigar per « simile a... »; uzez « kom » en la cetera kazi.
 
-**Mem** = D. *sogar, selbst*; E. *even*; F. *même* (encore, de plus, aussi); I. *anche, persino*; S. *aún, hasta, tambien*. Ex. : **Mem** **spensante la duoplo, vu ne sucesus.** — **Esas mem neposibla** **dicar proxime la dato ye qua il arivos.**
+**Mem** = D. *sogar, selbst*; E. *even*; F. *même* (encore, de plus, aussi); I. *anche, persino*; S. *aún, hasta, también*. Ex. : **Mem** **spensante la duoplo, vu ne sucesus.** — **Esas mem neposibla** **dicar proxime la dato ye qua il arivos.**
 
 La signifiko di *mem* justifikas, ke on uzas lu (quale *etiam* Latina, *encore* Franca) avan komparativo (di supereso o di infreso) por plufortigar olu : **El esas mem plu bela kam** **sua fratino.** — **Me recevis mem min multe kam omni** (2).
 
@@ -263,7 +263,7 @@ Ultre ta primitiv adverbi di maniero, Ido havas mult altri derivita o kompozita,
 
 **Itere** (de *iterar*) = per itero, iterante.
 
-**Volunte** (de *voluntar*) = kun volunto, D. *gern*; E. *willingly*; F. *volontiers*; I. *volentieri*; S. *de bune gana*; Por. *de boa vontade.*
+**Volunte** (de *voluntar*) = kun volunto, D. *gern*; E. *willingly*; F. *volontiers*; I. *volentieri*; S. *de buena gana*; Por. *de boa vontade.*
 
 **Konsente** (de *konsentar*) = per konsento;
 
@@ -293,7 +293,7 @@ Anke la participi kun -e esas fakte adverbi di maniero : *manjante, kantante; 
 
 55. — L'*adverbi di afirmo, nego o dubo* esas :
 
-**Yes** = la sama Angla vorto; D. *ja*; F. *oui*; I. *si*.
+**Yes** = la sama Angla vorto; D. *ja*; F. *oui*; I. *sì*.
 
 **No** = D. *nein*; E. *no*; F. *non*; I. *no*. Ol uzesas nur kande ol konstitucas per su respondo izolita e kompleta. Ex. : **Kad** **vu ekiros posdimeze? No; me restos heme.**
 
@@ -301,7 +301,7 @@ Anke la participi kun -e esas fakte adverbi di maniero : *manjante, kantante; 
 
 > (1) Remarkez la granda difero inter « **tote ne vera** » e « **ne tote** **vera**. Altr exemplo : **ta libro esas tote ne interesanta** (nule interesanta); **ol esas mem ne tote korekta** (ol ne esas tote korekta).En Progreso : « Ne » freque renkontresas en l'expresuro *ne nur...* *ma (anke).* » La du parti di ta expresuro devas pozesar singla nemediate *avan* la parti di frazo quan li relatas, e qui esas quaza alternativi. Ex. : « *Ne nur me hungras, ma anke mea kamaradi durstas.* (Remarkez ke, kande la verbo esas komuna a la du parti, ol pozesas ye la fino. Do la komenco (en l'unesma exemplo) : *Ne nur me* *hungras...* igas previdar en la duesma parto altra verbo kam *hungrar*). — *Me ne nur hungras, ma anke durstas*. — *Me deziras ne* *nur manjar, ma anke drinkar*. — *Me deziras drinkar ne nur aquo,* *ma anke vino.* » (VII, 484.)
 
-**Forsan** = E. *perhaps*; D. *vielleicht*; F. *peut-être*; I. *forse*; S. *puede ser, quiza*.
+**Forsan** = E. *perhaps*; D. *vielleicht*; F. *peut-être*; I. *forse*; S. *puede ser, quizá*.
 
 L'ideo quan ol expresas tre diferas del ideo di posibleso, e mem la sama frazo povas kontenar la du idei. Ex. : **Forsan** **to esas posibla** (2).
 

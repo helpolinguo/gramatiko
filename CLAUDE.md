@@ -42,10 +42,10 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 859 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,882 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,891 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,572 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,238 bytes
-    python3 tools/witnesses.py        # 88 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 94 witnesses, exits non-zero if one is lost
 
 **THE FIGURES ABOVE HAVE MOVED SIX TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
@@ -117,10 +117,14 @@ book's own usage — their notes corrected; 41 kept as printed. And on the
 way, **17 misreadings of the transcription**, corrected in it: « specal »
 read « special » eight times, and weights read roman that the page prints
 bold on folios 131, 134, 142, 160, 162 and 163 — the survey's bold/roman
-calls in part 2 are not to be trusted without enlarging. 491,627 →
-491,882 bytes in `gramatiko.md`, 171,550 → 171,572 in `temi/`, 133,040 →
-133,238 in `afixi/`; anchors, paragraphs, notes and blocks unchanged. See
-the journal, « Typos and irregularities ruled on ».
+calls in part 2 are not to be trusted without enlarging. Then thirteen
+foreign words the 1925 print misforms — Spanish « tambien », « bune »,
+« alreador », « come si »…, Italian « diffati », « pero », Portuguese
+« ja », the title « Grammarie Complète » — each confirmed on the spreads
+and ruled corrected. 491,627 → 491,891 bytes in `gramatiko.md`, 171,550 →
+171,572 in `temi/`, 133,040 → 133,238 in `afixi/`; anchors, paragraphs,
+notes and blocks unchanged. See the journal, « Typos and irregularities
+ruled on » and « Foreign words misformed in the print ».
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename

@@ -768,7 +768,7 @@ Ta procedo supresas fonto di desfacilaji quaze nevinkebla; altraparte ol esas ko
 
 Exempli : **komencar, durar, finar, cesar : mea laboro** **komencas, duras, finas, cesas** (senco *netransitiva*); **me** **komencas, duras, cesas, finas mea laboro** (o laborar) senco *transitiva* (1).
 
-> (1) Reale, to esas *me*, mea agiveso qua komencas, duras, finas o cesas. (Noto 1, pag. 21, *Grammarie Complète*.)
+> (1) Reale, to esas *me*, mea agiveso qua komencas, duras, finas o cesas. (Noto 1, pag. 21, *Grammaire Complète*.)
 
 Ma, se parolesas pri ulu quan me igas laborar, me dicos : **me komencigas, durigas, cesigas, finigas lua laboro.** Exemple : **la pueri cesis ludar** (o : sua ludo); ma : **cesigez** **la pueri ludar** (o : la ludo dil pueri), o : **igez ke la pueri** **cesez ludar** (o : cesez sua ludo). Quale on vidas, la Franca verbo *continuer* (ne cesar to quon on agas), tradukesas per **durar** (2). Lasta exemplo : **Ne povante durar ipsa ta laboro,** **me durigos olu da mea fratulo.**
 
@@ -936,7 +936,7 @@ Fine la adverbi ja vidita (§ 39) : **kelke, multe, poke,** **quante, tante** 
 
 **Quik** = sen la minima ajorno o tardeso : **facez quik ta** **laboro, nam ol tre urjas.**
 
-**Ja** = E. *already*, D. *schon*, F. *déjà*, S. *ya*, I. *già*, Por. *ja*. Ex. : **Il ja manjis omno.**
+**Ja** = E. *already*, D. *schon*, F. *déjà*, S. *ya*, I. *già*, Por. *já*. Ex. : **Il ja manjis omno.**
 
 **Ne ja** pri kozo qua ne eventis ye l'instanto prezenta : **il** **ne ja arivis, ma il quik arivos** (3).
 
@@ -1052,7 +1052,7 @@ La formi kun **-ube** ne esas, quale la formi kun **-loke**, nur nedefinita; li 
 
 > (1) **Kom** implikas, ke on esas reale to quon dicas la vorto sequanta l'adverbo : *Kom Kristano*, on esas Kristano : *kom homo,* on esas homo; *kom rejo*, on esas rejo; *kom statestro*, on esas statestro; *kom privato*, on esas privato. — **Quale** implikas nur simileso : *quale* Kristano = simile a Kristano; *quale homo* = simile a homo; *quale rejo* = simile a rejo; *quale statestro* = simile a statestro; *quale privato* = simile a privato. Konseque : uzez « quale », se vu povas remplasigar per « simile a... »; uzez « kom » en la cetera kazi.
 
-**Mem** = D. *sogar, selbst*; E. *even*; F. *même* (encore, de plus, aussi); I. *anche, persino*; S. *aún, hasta, tambien*. Ex. : **Mem** **spensante la duoplo, vu ne sucesus.** — **Esas mem neposibla** **dicar proxime la dato ye qua il arivos.**
+**Mem** = D. *sogar, selbst*; E. *even*; F. *même* (encore, de plus, aussi); I. *anche, persino*; S. *aún, hasta, también*. Ex. : **Mem** **spensante la duoplo, vu ne sucesus.** — **Esas mem neposibla** **dicar proxime la dato ye qua il arivos.**
 
 La signifiko di *mem* justifikas, ke on uzas lu (quale *etiam* Latina, *encore* Franca) avan komparativo (di supereso o di infreso) por plufortigar olu : **El esas mem plu bela kam** **sua fratino.** — **Me recevis mem min multe kam omni** (2).
 
@@ -1092,7 +1092,7 @@ Ultre ta primitiv adverbi di maniero, Ido havas mult altri derivita o kompozita,
 
 **Itere** (de *iterar*) = per itero, iterante.
 
-**Volunte** (de *voluntar*) = kun volunto, D. *gern*; E. *willingly*; F. *volontiers*; I. *volentieri*; S. *de bune gana*; Por. *de boa vontade.*
+**Volunte** (de *voluntar*) = kun volunto, D. *gern*; E. *willingly*; F. *volontiers*; I. *volentieri*; S. *de buena gana*; Por. *de boa vontade.*
 
 **Konsente** (de *konsentar*) = per konsento;
 
@@ -1122,7 +1122,7 @@ Anke la participi kun -e esas fakte adverbi di maniero : *manjante, kantante; 
 
 55. — L'*adverbi di afirmo, nego o dubo* esas :
 
-**Yes** = la sama Angla vorto; D. *ja*; F. *oui*; I. *si*.
+**Yes** = la sama Angla vorto; D. *ja*; F. *oui*; I. *sì*.
 
 **No** = D. *nein*; E. *no*; F. *non*; I. *no*. Ol uzesas nur kande ol konstitucas per su respondo izolita e kompleta. Ex. : **Kad** **vu ekiros posdimeze? No; me restos heme.**
 
@@ -1130,7 +1130,7 @@ Anke la participi kun -e esas fakte adverbi di maniero : *manjante, kantante; 
 
 > (1) Remarkez la granda difero inter « **tote ne vera** » e « **ne tote** **vera**. Altr exemplo : **ta libro esas tote ne interesanta** (nule interesanta); **ol esas mem ne tote korekta** (ol ne esas tote korekta).En Progreso : « Ne » freque renkontresas en l'expresuro *ne nur...* *ma (anke).* » La du parti di ta expresuro devas pozesar singla nemediate *avan* la parti di frazo quan li relatas, e qui esas quaza alternativi. Ex. : « *Ne nur me hungras, ma anke mea kamaradi durstas.* (Remarkez ke, kande la verbo esas komuna a la du parti, ol pozesas ye la fino. Do la komenco (en l'unesma exemplo) : *Ne nur me* *hungras...* igas previdar en la duesma parto altra verbo kam *hungrar*). — *Me ne nur hungras, ma anke durstas*. — *Me deziras ne* *nur manjar, ma anke drinkar*. — *Me deziras drinkar ne nur aquo,* *ma anke vino.* » (VII, 484.)
 
-**Forsan** = E. *perhaps*; D. *vielleicht*; F. *peut-être*; I. *forse*; S. *puede ser, quiza*.
+**Forsan** = E. *perhaps*; D. *vielleicht*; F. *peut-être*; I. *forse*; S. *puede ser, quizá*.
 
 L'ideo quan ol expresas tre diferas del ideo di posibleso, e mem la sama frazo povas kontenar la du idei. Ex. : **Forsan** **to esas posibla** (2).
 
@@ -1182,7 +1182,7 @@ Ex. : **vu konstruktos la paviliono avan la domo ed ante** ica. — **Lokizez 
 
 63. — **Che** = en la domo, habiteyo, lando, domeno (materiala o spiritala) di... Ex. : **Me lojas che mea patrulo. Me** **esis che mea onklino, nun me iras (ad) che mea kuzi. Irez** **quik che la mediko. Che la Angli la veturi pasas sinistre** **e che la Franci dextre. Me kompris ta mikra poshlexiko che** **Isaac Pitman en London.**
 
-64. — **Cirkum** = D. *um, herum*; E. *around, about*; F. *autour de..., environ*; I. *intorno, all'intorno, vicino,* *circa*; S. *alreador, en contorno, cerca de* (en omna senci : loko, tempo e quanteso). Ex. : **la hundo kuris cirkum ilu,** **cirkum la urbo esas granda preurbi; to eventis cirkum mea** **duadekesma yaro.**
+64. — **Cirkum** = D. *um, herum*; E. *around, about*; F. *autour de..., environ*; I. *intorno, all'intorno, vicino,* *circa*; S. *alrededor, en contorno, cerca de* (en omna senci : loko, tempo e quanteso). Ex. : **la hundo kuris cirkum ilu,** **cirkum la urbo esas granda preurbi; to eventis cirkum mea** **duadekesma yaro.**
 
 65. — **Cis** = sur ica latero (ne trans olu). Ex. : **cis la** **rivero la tereno esas pasable sika, ma trans olu la tereno** **esas marshoza. Venez cis la hego, ni konversos plu facile.** (Komp. *trans*.)
 
@@ -1352,7 +1352,7 @@ Ta prepoziciono esas la kontreajo di **for**. Kun olu la vicineso restas min gra
 
 92. — **Sub** indikas la situeso di ulo (od ulu) relate to quo esas supere ed en la sama vertikal direciono : **la kato** **dormas sub la tablo. Me refujis sub la hangaro pro la pluvo** **qua faleskis. La muso kuris (ad) sub la armoro.** (Komp. *sur*).
 
-93. – **Super** (sen kontakto kun la objekto) = D. *über,* *oberhalb*; E. *over, above*; F. *au-dessus de*; I. *sopra, al disopra*; S. *por encima de sobre*. Ex. : **qua nombrizos la steli qui** **brilas en la cielo super ni? La vento pulsis l'aeroplano** **super la maro** (o, se to esas necesa por indikar translaco, *adsuper* la maro). **La muevi flugas super la maro ed ofte** **pozas su lejere sur olua ondi.**
+93. – **Super** (sen kontakto kun la objekto) = D. *über,* *oberhalb*; E. *over, above*; F. *au-dessus de*; I. *sopra, al disopra*; S. *por encima de, sobre*. Ex. : **qua nombrizos la steli qui** **brilas en la cielo super ni? La vento pulsis l'aeroplano** **super la maro** (o, se to esas necesa por indikar translaco, *adsuper* la maro). **La muevi flugas super la maro ed ofte** **pozas su lejere sur olua ondi.**
 
 Atencez ne uzar *super* o *sur* vice *pri*.
 
@@ -1464,7 +1464,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 107. — Yen la *koordinal* konjuncioni :
 
-**Do** = E. *then* (therefore), consequently; D. *also, demnach,* *somit, folglich*; F. *donc* (par conséquent); I. *dunque, quindi;* S. *luego, per consiguiente.*
+**Do** = E. *then* (therefore), consequently; D. *also, demnach,* *somit, folglich*; F. *donc* (par conséquent); I. *dunque, quindi;* S. *luego, por consiguiente.*
 
 **Ed** o **e** = D. *und*; E. *and*; F. *et*; I. *e, ed*; S. *y, é.*
 
@@ -1472,7 +1472,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 > (1) **Ma** indikas opozo, restrikto, *difero* inter la du propozicioni o vorti quin ol unionas : *Lu esas severa ma yusta. Me tre deziras* *facar ta voyajo ma me ne povas lo. Fidez ad ili, ma ne ad eli.*
 
-**Nam** = D. *denn*; E. *for*; F. *car, en effet*; I. *diffati*; S. *en* *efecto* (2).
+**Nam** = D. *denn*; E. *for*; F. *car, en effet*; I. *difatti*; S. *en* *efecto* (2).
 
 > (2) **Nam** anuncas expliko, motivo, pruvo relate lo dicata en la propoziciono a qua ol unionas la sua, Ex, : *Tu vartos vane, nam il*ne venos, pro ke il esas malada. La konjunciono **nam** unionas la duesma propoziciono : *il ne venos* a l'unesma : *tu vartos vane* e donas expliko, motivo pri lo dicata en ica. — **Me ne esperas, ke** **il sucesos; nam, pro ke il esas tre indolenta, il ne demarshos sat** **multe.**
 
@@ -1480,7 +1480,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 > (1) « On demandas ofte de ni expliko di ca konjunciono, pro ke multa lingui ne havas l'equivalanta, e supleas ol per altra konjuncioni de diversa senci. *Or* uzesas *nur* en la rezoni, por enduktar un plusa premiso, t. e. motivo. Ex. : « Omno quo foligas esas veneno; *or* l'alkoholo foligas; *do*... » On devas ne intermixar *or* kun *do*, qua esas quaze opozita, nam ol induktas la konkluzo; nek kun *ma*, qua anuncas od expresas, ula opozo (ex. : opozanto povus dicar : « ma l'alkoholo fortigas, nutras... »). En la praktiko, on ne enuncas formale la rezoni, on tacas una de la premisi, od on renversas lia ordino. Kande la premiso (motivo) sequas la konkluzo, *or* remplasesas da *nam;* ex. : « l'alkoholo esas veneno, nam ol foligas ». (On tacas la majora, qua konsideresas kom tro konocata od evidenta. — Plura lingui supleas *or* per la konjunciono qua signifikas *nun* (D. *nun* (*aber*), E. *now*); ma on vidas facile, ke lore ol nule indikas la tempo... Ta konjunciono esas do aquirajo di la logikala spirito, qua sempre plu dominacas la moderna e civilizita lingui, pro la progresi di la cienco. (*Progreso*, VI, 141.)
 
-**Tamen** = D. *dennoch, gleichwohl, nichtsdestoweniger,* *trotzdem*; E. *however, yet, still*; F. *cependant, pourtant, néanmoins*; I. *pero, tuttavia, ciò non ostante*; S. *con todo, sin* *embargo, a pesar de* (2).
+**Tamen** = D. *dennoch, gleichwohl, nichtsdestoweniger,* *trotzdem*; E. *however, yet, still*; F. *cependant, pourtant, néanmoins*; I. *però, tuttavia, ciò non ostante*; S. *con todo, sin* *embargo, a pesar de* (2).
 
 > (2) L'intima senco di *tamen* esas : opoze ad ico, malgre lo dicita, malgre ta obstaklo. Ex. : *Il esas tre richa, tamen il almonas nultempe. Me savas, ke me riskas la morto, tamen me iros adibe.*
 
@@ -1516,7 +1516,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 **Ecepte se** = D. *ausserwenn*; E. *except if*; F. *à moins que,* *excepté si*; I. *eccetto che, salvo che*; S. *exceptuado si.*
 
-**Quale se** = D. *als wenn, als ob*; E. *as though, as if;* F. *comme si*; I. *come se*; S. *come si.*
+**Quale se** = D. *als wenn, als ob*; E. *as though, as if;* F. *comme si*; I. *come se*; S. *como si.*
 
 **Quankam** = D. *obgleich, obschon, obwohl, trotzdem dass;* E. *as though, as if*; F. *quoique, bien que*; I. *quantunque,* *benchè, sebbene*; S. *aunque.*
 
@@ -1590,7 +1590,7 @@ Co explikas, ke on ne dicas : *ka no*. (Videz ica lasta vorto ye la adverbo di
 
 > (1) **Ve** = la Latina e D. *weh! ach!* — E. *alas!* — F. *malheur!*
 
-> (2) **Nu** = D. *nun! nu! wohlan!* — E. *well! very well!* — F. *eh* *bien! allons!* — I. *ebbene! andiamo!* — S. *orsu! pues!*
+> (2) **Nu** = D. *nun! nu! wohlan!* — E. *well! very well!* — F. *eh* *bien! allons!* — I. *ebbene! andiamo!* — S. *orsù! pues!*
 
 > (3) **Fi** = D. *pfui!* — E. *fie! fy!* — F. *fi! foin* (de)! *pouah!* — I. *oibò! eh! via!* — S. *fuera! quita allá! vaya!*
 

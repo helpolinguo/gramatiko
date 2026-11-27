@@ -51,7 +51,7 @@ Ex. : **vu konstruktos la paviliono avan la domo ed ante** ica. — **Lokizez 
 
 63. — **Che** = en la domo, habiteyo, lando, domeno (materiala o spiritala) di... Ex. : **Me lojas che mea patrulo. Me** **esis che mea onklino, nun me iras (ad) che mea kuzi. Irez** **quik che la mediko. Che la Angli la veturi pasas sinistre** **e che la Franci dextre. Me kompris ta mikra poshlexiko che** **Isaac Pitman en London.**
 
-64. — **Cirkum** = D. *um, herum*; E. *around, about*; F. *autour de..., environ*; I. *intorno, all'intorno, vicino,* *circa*; S. *alreador, en contorno, cerca de* (en omna senci : loko, tempo e quanteso). Ex. : **la hundo kuris cirkum ilu,** **cirkum la urbo esas granda preurbi; to eventis cirkum mea** **duadekesma yaro.**
+64. — **Cirkum** = D. *um, herum*; E. *around, about*; F. *autour de..., environ*; I. *intorno, all'intorno, vicino,* *circa*; S. *alrededor, en contorno, cerca de* (en omna senci : loko, tempo e quanteso). Ex. : **la hundo kuris cirkum ilu,** **cirkum la urbo esas granda preurbi; to eventis cirkum mea** **duadekesma yaro.**
 
 65. — **Cis** = sur ica latero (ne trans olu). Ex. : **cis la** **rivero la tereno esas pasable sika, ma trans olu la tereno** **esas marshoza. Venez cis la hego, ni konversos plu facile.** (Komp. *trans*.)
 
@@ -221,7 +221,7 @@ Ta prepoziciono esas la kontreajo di **for**. Kun olu la vicineso restas min gra
 
 92. — **Sub** indikas la situeso di ulo (od ulu) relate to quo esas supere ed en la sama vertikal direciono : **la kato** **dormas sub la tablo. Me refujis sub la hangaro pro la pluvo** **qua faleskis. La muso kuris (ad) sub la armoro.** (Komp. *sur*).
 
-93. – **Super** (sen kontakto kun la objekto) = D. *über,* *oberhalb*; E. *over, above*; F. *au-dessus de*; I. *sopra, al disopra*; S. *por encima de sobre*. Ex. : **qua nombrizos la steli qui** **brilas en la cielo super ni? La vento pulsis l'aeroplano** **super la maro** (o, se to esas necesa por indikar translaco, *adsuper* la maro). **La muevi flugas super la maro ed ofte** **pozas su lejere sur olua ondi.**
+93. – **Super** (sen kontakto kun la objekto) = D. *über,* *oberhalb*; E. *over, above*; F. *au-dessus de*; I. *sopra, al disopra*; S. *por encima de, sobre*. Ex. : **qua nombrizos la steli qui** **brilas en la cielo super ni? La vento pulsis l'aeroplano** **super la maro** (o, se to esas necesa por indikar translaco, *adsuper* la maro). **La muevi flugas super la maro ed ofte** **pozas su lejere sur olua ondi.**
 
 Atencez ne uzar *super* o *sur* vice *pri*.
 

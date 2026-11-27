@@ -137,7 +137,7 @@ Ta procedo supresas fonto di desfacilaji quaze nevinkebla; altraparte ol esas ko
 
 Exempli : **komencar, durar, finar, cesar : mea laboro** **komencas, duras, finas, cesas** (senco *netransitiva*); **me** **komencas, duras, cesas, finas mea laboro** (o laborar) senco *transitiva* (1).
 
-> (1) Reale, to esas *me*, mea agiveso qua komencas, duras, finas o cesas. (Noto 1, pag. 21, *Grammarie Complète*.)
+> (1) Reale, to esas *me*, mea agiveso qua komencas, duras, finas o cesas. (Noto 1, pag. 21, *Grammaire Complète*.)
 
 Ma, se parolesas pri ulu quan me igas laborar, me dicos : **me komencigas, durigas, cesigas, finigas lua laboro.** Exemple : **la pueri cesis ludar** (o : sua ludo); ma : **cesigez** **la pueri ludar** (o : la ludo dil pueri), o : **igez ke la pueri** **cesez ludar** (o : cesez sua ludo). Quale on vidas, la Franca verbo *continuer* (ne cesar to quon on agas), tradukesas per **durar** (2). Lasta exemplo : **Ne povante durar ipsa ta laboro,** **me durigos olu da mea fratulo.**
 

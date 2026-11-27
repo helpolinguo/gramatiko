@@ -5018,3 +5018,49 @@ the PDF only. Witnesses 75 → 88, the thirteen new ones each absent on
 `main`. Checks 1 to 7 identical to `main`'s, 237 failures, all already
 there — one of them now quotes « Ne konfundez » as transcribed. Checks 8 to
 12 not run, for want of the scan.
+
+## Foreign words misformed in the print
+
+**THE COMMISSIONER HAD HEARD THAT SOME FOREIGN WORDS ARE MISFORMED, SPANISH
+AMONG THEM. THEY ARE — AND ALL OF THEM IN THE 1925 PRINT, NOT IN THE
+TRANSCRIPTION.** The Spanish accents of folios 12, 158, 208 and 209 had
+been set before (« The Spanish accents, set by decision »); this pass
+looked at every word cited under a language mark — S., I., Por., D., E.,
+F., Hispana, Italiana… — some 380 lines, and checked each suspect on the
+photographed spreads before putting it to the commissioner.
+
+| folio | language | as printed | set |
+|---|---|---|---|
+| 52 | French (a title) | Grammarie Complète | Grammaire Complète |
+| 60 | Portuguese | ja | já |
+| 64 | Spanish | tambien | también |
+| 66 | Spanish | de bune gana | de buena gana |
+| 66 | Italian | si (yes) | sì |
+| 67 | Spanish | quiza | quizá |
+| 71 | Spanish | alreador | alrededor |
+| 82 | Spanish | por encima de sobre | por encima de, sobre |
+| 88 | Spanish | per consiguiente | por consiguiente |
+| 88 | Italian | diffati | difatti |
+| 89 | Italian | pero | però |
+| 90 | Spanish | come si | como si |
+| 93 | Italian, under S. | orsu | orsù, left where the author put it |
+
+All thirteen are set by `\VUcorrige`, the 1925 reading the first argument;
+each leaf carries a RULED note.
+
+**Not errors, kept.** The Italian graves of 1925 typography — « perchè »,
+« benchè », « purchè », « nè... nè » — where modern Italian writes an
+acute; the Spanish « ó, ú » and « y, é », accented by the rules of the
+time; « Köbenhavn ». And three suspicions that the spreads cleared: the
+stop of « S. *ó, ú.* » (89) is there; « *de boa vontade* » is good
+Portuguese; « actos », « à 'tush » (185) is the author's own transcription
+of the sound.
+
+**What moved.** Against the previous commit of this branch: 11 pages
+differ, each in one or two line-high bands at the corrected words —
+« buena » and « alrededor » are a letter longer, the comma of folio 82 a
+little more, and the lines took it in their spaces. Same 62 boxes.
+`gramatiko.md` 491,882 → 491,891 bytes; `temi/` and `afixi/` unchanged in
+size; anchors, paragraphs, notes, blocks unchanged. Witnesses 88 → 94.
+Checks 1 to 7: the same 237 failures; checks 8 to 12 not run, for want of
+the scan.
