@@ -5469,3 +5469,16 @@ still fit their measure — the same 62 boxes.
 492,483 bytes; `temi/`, `afixi/`, anchors unchanged. Witnesses 128 → 129.
 Checks 1 to 7: the same 237 failures; 8 to 12 not run, for want of the
 scan.
+
+## Iosef, not Iozef
+
+**FOLIO 24 PRINTS « IOZEF »; THE COMMISSIONER READS « IOSEF ».** In the list
+of biblical names the book gives in their Latin transcription, « with i,
+not j » — « Ierusalem, Iudas, Iob, Beniamin, Isaias, Ioannes, Iozef,
+Zakarias » — the spread, enlarged, shows « Iozef » with a z: the
+transcription is faithful. The book's own example at folio 74 writes the
+name « Iosef » (« Iosef iris al tribunalo »), and nowhere else « Iozef ».
+Ruled a typo of the print: « Iosef », by `\VUcorrige`.
+
+**What moved.** One page, folio 24, one letter; sizes unchanged — an s for
+a z. One witness more.

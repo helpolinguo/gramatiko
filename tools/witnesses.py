@@ -182,6 +182,8 @@ T = [
   '\\VUcorrige{filosôfio}{filozôfio}', 1),
  ('typo: folio 24, « transskribo » twice', 'content/10-part1.tex',
   '\\VUcorrige{transkribo}{transskribo}', 2),
+ ('typo: folio 24, « Iosef »', 'content/10-part1.tex',
+  '\\VUcorrige{Iozef}{Iosef}', 1),
  ('second look: folio 171, one stop', 'content/20-part2.tex',
   'bisenca\\VUcorrige{..}{.}', 1),
  ('second look: folio 186, the « -i » bold', 'content/20-part2.tex',

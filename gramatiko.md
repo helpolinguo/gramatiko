@@ -290,7 +290,7 @@ Pro ke l'expresuro **gesiori B.** povas indikar la viri e la mulieri dil tota fa
 
 17. — La *propra nomi* omnaspeca devas principe konsideresar kom « vorti stranjera » a la linguo. La nomi personal precipue, pro ke li esas la *proprietajo* dil personi qui nomesas per oli, devas restar netushebla. Konseque on transskribas li segunlitere, kande li esas skribita per l'alfabeto Romana, mem la Greka nomi, di qui la transskribo Latina esas klasika. On riproduktas, se on povas, la diakritika signi ed on indikas, *segun quante on povas*, la pronunco inter parentezi. Se li apartenas a linguo ne uzanta l'alfabeto Romana, on transskribas li fonetike (*maxim bone posible*). Por ico on uzas specal alfabeto plu richa kam la Romana alfabeto e posedanta diakritika signi (**ä, ö, ü**, e. c.) e digrami (**dh, th, kh**, e. c.) Exemple : **Caesar, Cicero, Scipio, Gracchus, Sokrates, Demosthenes, Pythagoras, Phryne; Goethe,** **Shakespeare, Corneille, Boileau; Mickievicz, Leszczynski,** **Przemysl; Pushkin, Pashich, Tolstoy, Shchavinskiy.**
 
-Por la propra nomi trovata en la olda ed en la nova Testamento on konsilas anke la transskribo Latina, ja konocata; ma nur la vera qua uzas **i**, ne **j**. Ex. : **Ierusalem, Iudas, Iob,** **Beniamin, Isaias, Ioannes, Iozef, Zakarias** (2), **Nazareth,** **Bethlehem, Elizabeth**, e. c. (3).
+Por la propra nomi trovata en la olda ed en la nova Testamento on konsilas anke la transskribo Latina, ja konocata; ma nur la vera qua uzas **i**, ne **j**. Ex. : **Ierusalem, Iudas, Iob,** **Beniamin, Isaias, Ioannes, Iosef, Zakarias** (2), **Nazareth,** **Bethlehem, Elizabeth**, e. c. (3).
 
 > (2) Remplasigante *c* harda per *k* e *ph* per *f*.
 
