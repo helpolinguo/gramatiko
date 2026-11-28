@@ -5425,3 +5425,26 @@ Proposed at the end of the paragraph because the author's own voice is
 heard plainly only with « Semblis a ni » after it; the source settles what
 the page does not. A place proposed for a closing mark is a reading, and
 where the quoted text can be had, the quoted text decides.
+
+## Filozof- with an s
+
+**THE BOOK WRITES « FILOZOF- » WITH A Z EVERYWHERE BUT ONCE.** The
+commissioner had read « filosof » in places. Every occurrence of both
+spellings in the transcription was looked at on the photographed spreads:
+seventeen « filozof- » — folios 20, 33, 75 (three), 80, 129, 144 (four), 145,
+181, 184, 195, 198 (two) — all printed with a z, as transcribed. Two with an
+s:
+
+* folio 180, « isl., hung., e finl. *fîlosofi(a)* », beside E.
+  *philôsophy*, R. *filosôfiya*: a foreign form quoted for its stress. Right
+  as it is.
+* folio 181, Jespersen's list of stress classes, « klaso 3 (*irônio,
+  akadêmio, simfônio, filosôfio, melôdio, teôrio*, e. c.) » — the book's one
+  Ido « filosof- », where the same quotation prints « *filozôfo* » three lines
+  on. A typo of the print, ruled corrected: « filozôfio », by `\VUcorrige`.
+
+The transcription had not normalised the s away anywhere: what the print
+has, it has.
+
+**What moved.** One page, folio 181, one word; the same 62 boxes. Sizes
+unchanged — a z for an s. Witnesses 127 → 128.
