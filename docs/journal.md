@@ -5537,3 +5537,41 @@ one letter from a common one; « prezentas » (four times), « transkribo »
 **What moved.** Three pages, folios 44, 167 and 200, one word each; the
 same 62 boxes. `gramatiko.md` 492,483 → 492,482 bytes, the stray s of
 « konstrastus »; `temi/`, `afixi/`, anchors unchanged. Witnesses 134 → 137.
+
+## Page-end lines that run to the margin
+
+**33 LINES THAT END A PAGE FULL IN THE FACSIMILE WERE SET RAGGED.** The
+commissioner saw it at folio 73: note (2) runs over to folio 74, its last
+line on the page — « esas tote ne justa, nam E, dicas *by*, ne *through*. E
+la tota frazo » — reaches the margin in the facsimile, and stopped 18 pt
+short in the PDF. A paragraph continued on the next page ends its page on
+a full line; the volume says so with `\parplein` (« ends a paragraph whose
+last line runs to the margin »), and the next page opens the continuation
+with `\VUcontinue`. A line ending in `\nl` or `\cc` is justified by its forced
+break; a bare line before the end of the page, or of the notes block, is
+set as the end of a paragraph.
+
+**The scan.** Every page whose notes, or whose body, end on a bare line,
+while the next page's notes or body open with `\VUcontinue`: 18 notes, and
+16 bodies (a seventeenth, folio 94's, is a table row). Each was looked at on
+the photographed spread. All 16 bodies and 17 of the notes run to the
+margin; one note does not — folio 187's « ne semblas la maxim bona? », a
+short line, right as it is. The 33 got `\parplein`: notes on folios 17, 43,
+46, 52, 73, 78, 88, 89, 99, 104, 140, 145, 150, 153, 154, 167, 184; bodies
+on 77, 82, 105, 107, 123, 124, 125, 140, 144, 145, 146, 150, 163, 173, 175,
+207. The reverse was checked too: seven notes already ending with
+`\parplein` whose next page does not open with `\VUcontinue` (folios 31, 32,
+40, 123, 126, 203, 214) all run to the margin in the facsimile — on 31, 32
+and 40 the continuation is there behind a comment line; on 123, 126 and 203
+the next page's notes open on a new number.
+
+In the PDF the short lines fell 1.4 to 18 pt short of the margin. Nine of
+the 33 were already full by their natural width and do not change; 21 pages
+change, each in the line or lines concerned.
+
+**What moved.** 21 pages, one line each (two on folios 145 and 150, which
+had both); the same 62 boxes; the text, the page, the Markdown, `temi/`,
+`afixi/`, the anchors: unchanged — the reading page already joined these
+paragraphs by their `\VUcontinue`. Witnesses 137 → 140. Checks 1 to 7: the
+same 237 failures; 8 to 12 not run, for want of the scan — check 10, the
+alignment of line openings and endings, is the one that would have said so.
