@@ -101,7 +101,7 @@ On devas nultempe sustracionar, se on volas esar komprenata certe ed evitar konf
 
 Por questionar pri la horo, fakte existas en Ido du manieri, quale en la Angla : **qua kloko esas** e *qua tempo esas?* Se forsan on agus tro severe interdiktante l'unesma, ne esas dubebla, ke la duesma (*qua tempo esas?*) meritas la prefero, pro ke ol esas plu justa. On ya ne questionas nur pri la *horo*, ma reale anke pri la minuti e mem ulfoye sekundi qui adjuntesas a ta horo, do fakte on questionas *pri la tempo,* on deziras *konocar qua tempo esas* (2).
 
-> (2) L'expresuro Angla « qua tempo esas », por questionar pri la horo, certe meritas preferesar. Cetere mem en F. on uzas *temps* en ica senco, precipue en la tekniko : *connaissance des temps; équationdu temps; temps sidéral, temps solaire vrai* ou *moyen*. (*Progreso*, VII, 399.)Samloke *Progreso* dicas : « On ne povas uzar ordinala nombro (ex. : *quantesma horo o kloko*) pro la motivi expozita olim en la diskuto. » (III, 26-28, 218, 353, 703-4; IV, 378.)
+> (2) L'expresuro Angla « qua tempo esas », por questionar pri la horo, certe meritas preferesar. Cetere mem en F. on uzas *temps* en ica senco, precipue en la tekniko : *connaissance des temps; équation* *du temps; temps sidéral, temps solaire vrai* ou *moyen*. (*Progreso*, VII, 399.)Samloke *Progreso* dicas : « On ne povas uzar ordinala nombro (ex. : *quantesma horo o kloko*) pro la motivi expozita olim en la diskuto. » (III, 26-28, 218, 353, 703-4; IV, 378.)
 
 Quankam : *la duesma, la triesma kloko*, e. c., ne esas *en su* kontrelogika, ni agos plu bone, se ni sempre konservos la nombri kardinala *pri la hori*. Tale ya ni evitos mixar le ordinala kun le kardinala, quale en : **esas la duesma e dek** **minuti.**
 

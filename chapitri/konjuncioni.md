@@ -21,7 +21,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 **Nam** = D. *denn*; E. *for*; F. *car, en effet*; I. *difatti*; S. *en* *efecto* (2).
 
-> (2) **Nam** anuncas expliko, motivo, pruvo relate lo dicata en la propoziciono a qua ol unionas la sua. Ex. : *Tu vartos vane, nam il*ne venos, pro ke il esas malada. La konjunciono **nam** unionas la duesma propoziciono : *il ne venos* a l'unesma : *tu vartos vane* e donas expliko, motivo pri lo dicata en ica. — **Me ne esperas, ke** **il sucesos; nam, pro ke il esas tre indolenta, il ne demarshos sat** **multe.**
+> (2) **Nam** anuncas expliko, motivo, pruvo relate lo dicata en la propoziciono a qua ol unionas la sua. Ex. : *Tu vartos vane, nam il* ne venos, pro ke il esas malada. La konjunciono **nam** unionas la duesma propoziciono : *il ne venos* a l'unesma : *tu vartos vane* e donas expliko, motivo pri lo dicata en ica. — **Me ne esperas, ke** **il sucesos; nam, pro ke il esas tre indolenta, il ne demarshos sat** **multe.**
 
 **Or** = D. *nun* (aber); E. *now*; F. *or*; I. *ora*; S. *ahora* (1).
 
@@ -39,7 +39,7 @@ Ido havas *koordinal* konjuncioni, *subordinal* konjuncioni ed un *questional* k
 
 **Sive... sive** = D. *ob... ob..., sei es* (dass)... *sei es* (dass)...; E. *either... or, whether... or whether, be it that... be it that;* I. *sia... sia...*; F. *soit... soit, soit... que... soit que*; S. *bien...* *bien, sea que... sea que* (4).
 
-> (4) « Segun mea (personal) opiniono, skribis So Couturat, *sive* havas esence la senco etimologiala, di *od se*; e se on uzas (e darfas uzar) ol kelkafoye vice simpla *od*, ico venas de elipso (di la verbo) ». — *Progreso*, VII, 411.Segun ta expliko, sive esas plu vere subordinala kam koordinala.Uzez do *o(d)... o(d)...* se li unionas vorti ne verba : *me drinkos o* *vino o biro*, qua egalesas : *o vino o biro esos mea drinkajo*. Ma uzez *sive... sive... avan verbo* expresata o tacata : *Sive tu volos, sive tu* *ne volos, ni certe vizitos li. Sive (tu esas) richa, sive (tu esas) povra,* *tu devas helpar tua proximo segun tua moyeni.*
+> (4) « Segun mea (personal) opiniono, skribis So Couturat, *sive* havas esence la senco etimologiala, di *od se*; e se on uzas (e darfas uzar) ol kelkafoye vice simpla *od*, ico venas de elipso (di la verbo) ». — *Progreso*, VII, 411.Segun ta expliko, sive esas plu vere subordinala kam koordinala. Uzez do *o(d)... o(d)...* se li unionas vorti ne verba : *me drinkos o* *vino o biro*, qua egalesas : *o vino o biro esos mea drinkajo*. Ma uzez *sive... sive... avan verbo* expresata o tacata : *Sive tu volos, sive tu* *ne volos, ni certe vizitos li. Sive (tu esas) richa, sive (tu esas) povra,* *tu devas helpar tua proximo segun tua moyeni.*
 
 **Nek... nek** = D. *weder... noch...*; E. *neither... nor...*; F. *ni...* *ni...*; I. *nè... nè...*; S. *ni... ni...* (1).
 

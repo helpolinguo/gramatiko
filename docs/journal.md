@@ -5604,3 +5604,65 @@ left as it is.
 figure, the unnumbered blocks' 249,417 bytes become 249,418, the figure
 CLAUDE.md had carried, one byte high, since « Kontrastus; sigari ».
 Anchors, paragraphs, notes, blocks unchanged. Witnesses 140 → 142.
+
+## Page-end lines that end their note
+
+**TWELVE MORE LINES RUN TO THE MARGIN IN THE FACSIMILE, AND THE READING
+PAGE HAD WELDED 29 NOTES ACROSS THE PAGE.** The commissioner asked for
+folio 74's last note line to be set full — it reaches the margin in 1925
+and stopped 3 pt short — and for the others like it. « Page-end lines
+that run to the margin » had looked only at notes and paragraphs that
+CONTINUE overleaf; this pass looks at every page whose body or notes END
+on a bare line: 253 lines, folios 10 to 225 (the Tabelo, its rule and the
+colophon left aside).
+
+**How it was measured.** The photographed spreads, 1400 px a spread —
+about 2 px a point. Matching PDF lines to the photograph automatically
+held on 115 lines, checked by their length (photographed and composed
+within 10 pt); 105 of them stop more than 15 pt short and are settled.
+The other 148 were looked at, on crops of each page's foot. **Four calls
+made on the strips were overturned once enlarged** — folio 35's « imitar
+la Franca! » and 157's « (J. Kovacic, Progreso, V, 622). », which a guide
+laid on the page's shading had made look full; 42's « a vu. » and 114's
+« mizerozeskar. », which a sheet shown reduced had made look so. From
+then on only crops enlarged three times counted, the right end of the
+last line measured against the line above.
+
+**The twelve**, each within 6 px of the line above at ×3: notes on folios
+19, 26, 37, 63, 64, 66, 72, 74, 92, 103, 164; the body of 98 (« …ye
+granda quanti (2). »). Folio 164's line stops 3 to 4 px inside — about
+1.7 pt, within check 10's tolerance of 1 mm — and is set full: ragged, it
+stood 15 pt short. All twelve got `\parplein`. Folios 19 and 26 were
+already full by their natural width and do not change.
+
+**Two of them continue overleaf, and the first pass had missed them.**
+Folio 38's notes open with `\VUcontinue` behind a comment line, and that
+scan read only the line after `\VUnotes`. Folio 65's had no
+`\VUcontinue` at all: its block opens on « plu sekura pozar *ipsa* », the
+end of folio 64's note, flush in the facsimile and indented 10.5 pt in the
+PDF. A misreading of the layout, corrected in the transcription,
+`\VUcontinue` with a comment as on folio 38. Every notes block that opens
+on neither a call nor `\VUcontinue` was then listed: folio 118 opens on
+its starred note, 206 and 210 on a white and a (1). No other.
+
+**And the page welded them.** A note that runs over ends its page on
+`…word%` and resumes after `\VUcontinue`. `html.py` removed the
+`\VUcontinue` as layout; the space or newline it left was taken, by the
+test meant to lay the space between the two words, for that space — and
+then stripped. Every note continued so came out welded: « E la tota
+frazotradukenda esas » (folio 73), « olpovas », « quaamas », « lor
+meamariajo »… 29 in all, since the first build of the page; only folio
+65's, which had no `\VUcontinue`, rejoined with its space — until it got
+one, and read « sempreplu ». The test now decides on the stripped text;
+the 29 joins were listed one by one, each between two whole words. A
+word broken across the page ends on its hyphen and still welds.
+
+**What moved.** Eleven PDF pages, one line each (on folio 65 the note's
+first line, flush now); the same 62 boxes; checks 1 to 7 the same 237
+failures, 8 to 12 not run, for want of the scan. `gramatiko.md` 492,483 →
+492,517 bytes, `temi/` 171,649 → 171,661, `afixi/` 133,416 → 133,424 —
+spaces, and where the two words were one italic run, the run's marks;
+anchors, paragraphs, notes, blocks unchanged. The unnumbered blocks'
+bytes in `temi/index.md`, 249,418 → 249,431, corrected in CLAUDE.md where
+it gives them. Witnesses 142 → 146; folio 74's typo witness named its line
+with the closing `%` and is repointed, not deleted.

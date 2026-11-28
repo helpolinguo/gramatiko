@@ -42,12 +42,12 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 868 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,483 bytes
-    python3 tools/temi.py             # 9 topics over 1643 blocks, 171,649 bytes
-    python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,416 bytes
-    python3 tools/witnesses.py        # 142 witnesses, exits non-zero if one is lost
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,517 bytes
+    python3 tools/temi.py             # 9 topics over 1643 blocks, 171,661 bytes
+    python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,424 bytes
+    python3 tools/witnesses.py        # 146 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED THIRTEEN TIMES. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED FOURTEEN TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -200,6 +200,19 @@ asterism. Ruled corrected, by `\VUcorrige`. 492,482 → 492,483 bytes in
 figure under « THE BOOK NUMBERS LESS THAN HALF » true again: it had been
 one byte high since the twelfth time. See the journal, « Two full stops ».
 
+**THE FOURTEENTH TIME, 29 spaces**, and not one letter. A note that runs
+over to the next page ends its page on `…word%` and resumes overleaf
+after `\VUcontinue`; `html.py` stripped the `\VUcontinue` as layout, then
+took the space it left behind for the one between the words, and stripped
+that too. 29 notes were welded across the page from the first build of
+the reading page — « frazotradukenda » (folio 73), « olpovas »,
+« quaamas », « lor meamariajo » — and the Markdown with them. Found
+when folio 65's note, continued from 64, got the `\VUcontinue` it lacked
+and came out « sempreplu ». 492,483 → 492,517 bytes in `gramatiko.md`,
+171,649 → 171,661 in `temi/`, 133,416 → 133,424 in `afixi/`; anchors,
+paragraphs, notes and blocks unchanged. See the journal, « Page-end lines
+that end their note ».
+
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename
 moves an identifier a witness names, the witness is repointed — it is
@@ -243,7 +256,7 @@ a reader, from Beaufront's own — which is the failure the whole of
 `temi/` exists to prevent.
 
 **THE BOOK NUMBERS LESS THAN HALF OF ITSELF.** 139 paragraphs carry a
-number; 723 blocks and 249,418 bytes carry none (the bytes move with
+number; 723 blocks and 249,431 bytes carry none (the bytes move with
 every correction of the text: `temi/index.md` gives them as last counted —
 this line said 249,254 long after it stopped being true), and 27 of the 49
 chapters have no number anywhere. Anything keyed to the numbers alone

@@ -9,7 +9,7 @@ Transskribita de https://ido.help/gramatiko/
 
 24. — L'*adjektivo qualifikanta* finas per **-a** e ne varias (3).
 
-> (3) Plu exakte : a radiko *nomala* on adjuntas **-a** por igar lu gramatikale adjektivo qualifikanta.Radiko esas *nomala*, se, pro sua signifiko e natural valoro, olpovas formacar substantivi per l'adjunto di **o**, ed adjektivi per l'adjunto di **a**.Radiko esas *verbala*, se, pro sua signifiko e natural valoro, ol povas formacar verbi per l'adjunto dil dezinenci verbala : **-as, -is,** **-os** e. c.
+> (3) Plu exakte : a radiko *nomala* on adjuntas **-a** por igar lu gramatikale adjektivo qualifikanta.Radiko esas *nomala*, se, pro sua signifiko e natural valoro, ol povas formacar substantivi per l'adjunto di **o**, ed adjektivi per l'adjunto di **a**.Radiko esas *verbala*, se, pro sua signifiko e natural valoro, ol povas formacar verbi per l'adjunto dil dezinenci verbala : **-as, -is,** **-os** e. c.
 
 Por chanjar ol a substantivo samsenca suficas substitucar al dezinenco **a** la vokalo **o** (singulare), o la vokalo **i** (plurale) : **richa** = *qua esas richa* : homo richa; **richo** = (strikte) *ento, individuo richa* e (konvencione, praktike) *homo* *richa*; — **povra** = *qua esas povra* : homo povra; **povro** = (strikte *ento, individuo povra* e (konvencione, praktike) *homo* *povra*; — **blinda** = *qua esas blinda* : homo blinda; **blindo** = (strikte) *ento, individuo blinda* e (konvencione, praktike) *homo blinda*; — **dezerta** = *qua esas dezerta*; **dezerto** = *ulo,* *loko, spaco dezerta*; — **bona** = *qua esas bona*; **bono** = (konvencione, praktike) *homo bona*; — **mala** = *qua esas mala*; **malo** = (konvencione, praktike) *homo mala*; — **la boni** = *la homi bona*; — **la mali** = *la homi mala* (1).
 

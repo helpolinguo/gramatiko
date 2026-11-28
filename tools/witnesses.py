@@ -202,12 +202,22 @@ T = [
  # paragraph continued on the next page ends its page on a FULL line in the
  # facsimile; 33 of them were set ragged, missing \parplein -- 17 notes, 16
  # paragraphs. Counts are minima: part 1 44 -> 58, part 2 91 -> 110.
+ # Then 12 more found by looking at every page-end line that ends its note
+ # or paragraph (28 November 2026): part 1 58 -> 69, part 2 110 -> 111.
  ('page ends: folio 73, the note runs to the margin', 'content/10-part1.tex',
   'E la tota frazo\\parplein%', 1),
- ('page ends: \\parplein, part 1', 'content/10-part1.tex', '\\parplein', 58),
- ('page ends: \\parplein, part 2', 'content/20-part2.tex', '\\parplein', 110),
+ ('page ends: \\parplein, part 1', 'content/10-part1.tex', '\\parplein', 69),
+ ('page ends: \\parplein, part 2', 'content/20-part2.tex', '\\parplein', 111),
+ ('page ends: folio 74, the ruled stop runs to the margin', 'content/10-part1.tex',
+  '\\VUcorrige{,}{.}\\parplein%', 1),
+ ('page ends: folio 37, its \\VUcontinue behind a comment', 'content/10-part1.tex',
+  'o : \\VUgras{quo}\\parplein%', 1),
+ ('folio 65: the note continued from 64 opens at the margin', 'content/10-part1.tex',
+  '\\VUcontinue plu sekura pozar', 1),
+ ('page: a note continued overleaf rejoins with a space', 'tools/html.py',
+  '_next = h.lstrip()', 1),
  ('typo: folio 74, note (1) ends on a full stop', 'content/10-part1.tex',
-  '\\textit{infanteso}\\VUcorrige{,}{.}%', 1),
+  '\\textit{infanteso}\\VUcorrige{,}{.}', 1),
  ('typo: folio 207, « pri ca punto. »', 'content/20-part2.tex',
   'pri ca punto\\VUcorrige{}{.}', 1),
  ('second look: folio 171, one stop', 'content/20-part2.tex',
