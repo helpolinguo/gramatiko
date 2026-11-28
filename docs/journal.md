@@ -5449,6 +5449,27 @@ has, it has.
 **What moved.** One page, folio 181, one word; the same 62 boxes. Sizes
 unchanged — a z for an s. Witnesses 127 → 128.
 
+## Transskribo with one s
+
+**THE BOOK WRITES « TRANSSKRIB- » SEVEN TIMES AND « TRANSKRIB- » TWICE, BOTH
+ON FOLIO 24.** The commissioner had read « transkrib » in many places. Every
+occurrence in the transcription was looked at on the photographed spreads,
+and the transcription matches the print in all nine: « transskribar »
+(folio 13), « trans-skribas », « la transskribo Latina », « transskribas »
+(24), « transskribar » (25), « transskribesas » (26), « trans-skribos »
+(70) — and on folio 24 itself, two lines below « la transskribo Latina »,
+« la transkribo Latina », and in note (3) « la transkribo « Iesu » ». The
+whole repository has no other « transkrib »; the project's own pages write
+« transskribo » (at the head of every page of the PDF).
+
+Ruled typos of the print, both: « transskribo », by `\VUcorrige`. Both lines
+still fit their measure — the same 62 boxes.
+
+**What moved.** One page, folio 24, two words. `gramatiko.md` 492,481 →
+492,483 bytes; `temi/`, `afixi/`, anchors unchanged. Witnesses 128 → 129.
+Checks 1 to 7: the same 237 failures; 8 to 12 not run, for want of the
+scan.
+
 ## Iosef, not Iozef
 
 **FOLIO 24 PRINTS « IOZEF »; THE COMMISSIONER READS « IOSEF ».** In the list
