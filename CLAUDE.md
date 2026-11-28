@@ -45,7 +45,7 @@ transcription and from nothing else:
     python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,453 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,649 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,416 bytes
-    python3 tools/witnesses.py        # 121 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 122 witnesses, exits non-zero if one is lost
 
 **THE FIGURES ABOVE HAVE MOVED NINE TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
@@ -160,8 +160,9 @@ bold in the print, not irregular. 492,069 → 492,453 bytes in
 `afixi/`; **anchors 859 → 868**: nine time adverbs that are bold now have
 one, and the four that a shortened headword would have moved are KEPT by
 `KEPT_ADDRESSES` in `tools/html.py` — a weight corrected must not move an
-address. The affix headwords are not yet settled: see the journal,
-« Weights checked against the spreads ».
+address. The affix headwords are all bold — the commissioner's ruling, on
+the book, against what two of them look like on the photographs: see the
+journal, « The affix headwords are bold ».
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename

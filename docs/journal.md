@@ -5252,7 +5252,11 @@ the commissioner, folio by folio; 77 questions in all.
   where § 55 is italic; the « o » between italic alternatives (51, 66);
   « me ja esis skribinta o skribabis » (107), which is bold; the capital M
   of « Mea filii » (194), bold before an italic rest.
-* *The table of contents*: « La » of « La hori » is roman (229).
+* *The table of contents*: « La » of « La hori » is roman (229). *(And
+  folio 230's « Prefixi teknikala (equi-, ko-, mono-) », whose three
+  prefixes are bold upright, not bold italic — ruled with « La hori » and
+  left out of that commit; applied in the next: see « The affix headwords
+  are bold ».)*
 
 All corrected in the transcription, each leaf with its note.
 
@@ -5311,6 +5315,9 @@ the two of folio 130 roman and ordered every headword surveyed. Until that
 survey is in, they stay as transcribed: `afixi.py` and `html.py` find the
 affixes, and their anchors, by that bold, and the tools must learn to find
 them otherwise before the weight can move.
+*(Settled the same night, and the other way: the commissioner, on the book,
+rules every affix headword BOLD. The ruling on folio 130 is reversed and the
+survey stopped. See « The affix headwords are bold », below.)*
 
 **What moved.** Against the previous commit: 69 pages differ, those of the
 corrected leaves (folios 96 and 195, set by `\VUcorrige` to what the page
@@ -5319,3 +5326,33 @@ already showed, are pixel-identical); the same 62 boxes, box for box.
 `afixi/` 133,268 → 133,416; anchors 859 → 868, none lost; paragraphs,
 notes, blocks unchanged. Witnesses 106 → 121. Checks 1 to 7: the same 237
 failures, line for line; 8 to 12 not run, for want of the scan.
+
+## The affix headwords are bold
+
+**ALL OF THEM, THE COMMISSIONER RULES, ON THE BOOK — the photographs
+notwithstanding.** On the spreads « *equi-. » and « *ko-. » at folio 130
+look roman beside the bold « equi- » and « kosinuso » of their own lines,
+and several headwords of SUFIXI (-an-, -e-, -ebl-, -il-, -oid) measure no
+heavier than the roman « Ta sufixo » beside them. The commissioner had
+ruled the two of folio 130 roman and ordered every headword surveyed; on
+the printed book, every affix headword is bold. The ruling is reversed, the
+survey stopped before it reported, and the transcription, which had them
+all bold, stands. Folio 130's note says so, so that no later survey of the
+spreads flags them again.
+
+The rule on weight therefore has a second edge. Enlarging corrects the ink
+that makes a roman look bold at actual size; it does not correct a
+photograph that makes a bold look roman — the light, the angle, the
+paper's curve at the gutter. A weight the spread contradicts, on a word
+whose role the book marks the same way everywhere, is put to the
+commissioner before it is called a misreading.
+
+**And one ruling of the weights pass left out of its commit.** Folio 230,
+the table of contents: « Prefixi teknikala (equi-, ko-, mono-) » sets the
+three prefixes bold upright like the rest of the entry, where the
+transcription had them bold italic. Ruled together with « La hori » at
+folio 229, which was applied; this one was not. Applied now, with its note.
+
+**What moved.** One page, the table of contents' folio 230, in one line.
+`gramatiko.md`, `temi/`, `afixi/`, the anchors: unchanged. Witnesses
+121 → 122.

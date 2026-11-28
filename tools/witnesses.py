@@ -169,6 +169,9 @@ T = [
   "'sintaxo-anke-nula-n-en': 'Anke nula -n en :'", 1),
  ('weights: « Exempli : » is not a headword', 'tools/html.py',
   "EXAMPLE_WORDS = {'Exempli', 'Exemple', 'Ex'}", 1),
+ ('weights: folio 230, the technical prefixes upright in the contents',
+  'content/20-part2.tex',
+  '\\VUindex{\\VUgras{Prefixi teknikala (equi-, ko-, mono-)}}{130}', 1),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
  # transcription reads « acuatico », « heroina », « habias »...; that
  # letter stays in the transcription, first argument of \VUcorrige, and the

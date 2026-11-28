@@ -34,30 +34,30 @@ la senco di parti-
  12. Overfull \hbox (1.94257pt too wide) in paragraph at lines 781--785
 \T1/XCharter-TLF/m/it/10.2 (-20) malaudar\T1/XCharter-TLF/m/n/10.2 (-20) . Ulu 
 qua esas preske surda, o quan la sono preske ne
- 13. Overfull \hbox (1.58153pt too wide) in paragraph at lines 984--990
+ 13. Overfull \hbox (1.58153pt too wide) in paragraph at lines 990--996
 []\T1/XCharter-TLF/m/n/10.2 (-20) *\T1/ntxtlf/b/n/9.99594 ko-. \T1/XCharter-TLF
 /m/n/10.2 (-20) --- Ol renkon-tre-sas en \T1/ntxtlf/b/n/9.99594 kos-i-nuso, ko-
- 14. Overfull \hbox (3.28659pt too wide) in paragraph at lines 1047--1064
+ 14. Overfull \hbox (3.28659pt too wide) in paragraph at lines 1053--1070
 []\T1/XCharter-TLF/m/n/10.2 (-20) Ula pre-fixi o su-fixi ed ula pre-pozi-cioni 
 nee-vite-ble kolizionas
- 15. Overfull \hbox (1.40306pt too wide) in paragraph at lines 2175--2177
+ 15. Overfull \hbox (1.40306pt too wide) in paragraph at lines 2181--2183
 []\T1/XCharter-TLF/m/n/10.2 (-20) Granda dif-ero anke in-ter \T1/XCharter-TLF/m
 /it/10.2 (-20) ant \T1/XCharter-TLF/m/n/10.2 (-20) e \T1/XCharter-TLF/m/it/10.2
- 16. Overfull \hbox (3.21242pt too wide) in paragraph at lines 2308--2315
+ 16. Overfull \hbox (3.21242pt too wide) in paragraph at lines 2314--2321
 \T1/XCharter-TLF/m/it/10.2 (-20) bestii drinkas. \T1/XCharter-TLF/m/n/10.2 (-20
 ) Cetere, en \T1/XCharter-TLF/m/it/10.2 (-20) ...erio\T1/XCharter-TLF/m/n/10.2
- 17. Overfull \hbox (6.95995pt too wide) in paragraph at lines 2519--2530
+ 17. Overfull \hbox (6.95995pt too wide) in paragraph at lines 2525--2536
 \T1/XCharter-TLF/m/n/10.2 (-20) stantivi no-mizanta la \T1/XCharter-TLF/m/it/10
 .2 (-20) loko des-tinita \T1/XCharter-TLF/m/n/10.2 (-20) (ad ob-jekto od ago).
- 18. Overfull \hbox (1.45787pt too wide) in paragraph at lines 5155--5170
+ 18. Overfull \hbox (1.45787pt too wide) in paragraph at lines 5161--5176
 \T1/XCharter-TLF/m/n/10.2 (-20) traste a hom-\T1/XCharter-TLF/m/it/10.2 (-20) i
 n\T1/XCharter-TLF/m/n/10.2 (-20) -o), la kauzo esas ev-i-dente, ke on donas a \
- 19. Overfull \hbox (2.63052pt too wide) in paragraph at lines 5396--5400
+ 19. Overfull \hbox (2.63052pt too wide) in paragraph at lines 5402--5406
 \T1/XCharter-TLF/m/n/10.2 (-20) pri ta punto la cien-coza filo-zofi-isto L. \T1
 /XCharter-TLF/m/sc/10.2 (-20) Coutu-rat\T1/XCharter-TLF/m/n/10.2 (-20) , nia re
- 20. Overfull \hbox (11.09404pt too wide) in paragraph at lines 5747--5756
+ 20. Overfull \hbox (11.09404pt too wide) in paragraph at lines 5753--5762
 []\T1/XCharter-TLF/m/n/10.2 (-20) Pri la duesma propozo di S$[]$ \T1/XCharter-T
 LF/m/sc/10.2 (-20) de Janko\T1/XCharter-TLF/m/n/10.2 (-20) . (Vid. p. 199.) S$[
- 21. Overfull \hbox (1.14993pt too wide) in paragraph at lines 6519--6530
+ 21. Overfull \hbox (1.14993pt too wide) in paragraph at lines 6525--6536
 \T1/XCharter-TLF/m/n/10.2 (-20) la verbo \T1/XCharter-TLF/m/it/10.2 (-20) havar
  \T1/XCharter-TLF/m/n/10.2 (-20) kom hel-panto kon-ju-gala en la kom-pozita tem
