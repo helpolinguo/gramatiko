@@ -35,17 +35,17 @@ Restas vere por la pluralo per **-s** nur *du* susteni : la Angla e la Hispana
 
 > (1) On ne audacis til nun alegar la Portugalana. Ma ni ne desesperez. Pro quo ne? Quale en ta linguo, ni skribus *actos* e pronuncus *à 'tush.*Ma on ne obliviis citar kom susteno, por **s** plurala, linguo klasika, la Latina, en qua ta vokalo finas omnainstante nominativo o genitivo *singulara*, tante vere ol esas marko di *pluralo!*
 
-Nun ni videz la susteno dil pluralo per -i.
+Nun ni videz la susteno dil pluralo per **-i**.
 
 La Slava lingui (susteno extreme importanta) e la Rumaniana kun l'Italiana (2).
 
 > (2) Ol ne esas nekonocato en la Greka moderna.
 
-En ica lasta linguo, -i havas ne nur la maskuli, ma mem femini : *madri* (matri). E, fakto remarkinda, **s** qua desaparis en la paso dil Gotika al Germana, transformesis a i (kun *e* di *es*) pasante de la Latina al Italiana : *uomini* = *homines*; *madri* = *matres*; *cani* = *canes*.
+En ica lasta linguo, **-i** havas ne nur la maskuli, ma mem femini : *madri* (matri). E, fakto remarkinda, **s** qua desaparis en la paso dil Gotika al Germana, transformesis a i (kun *e* di *es*) pasante de la Latina al Italiana : *uomini* = *homines*; *madri* = *matres*; *cani* = *canes*.
 
-Fine, la pluralo per -i esas konocata da omna Latinisti (kad on negus lo?), tale ke *boni, mali* di Ido esas exakte *boni, mali* di la Latina (kad en ta linguo on dicas : *bones,* *males?*); ol esas konocata da multega altra homi per Italiana plurali quin on darfas dicar internaciona por omna Europano od Amerikano kelke lerninta la gramatiko di sua linguo : *carbonari, ciceroni, condottieri, dilettanti, lazzaroni,* *quintetti*.
+Fine, la pluralo per **-i** esas konocata da omna Latinisti (kad on negus lo?), tale ke *boni, mali* di Ido esas exakte *boni, mali* di la Latina (kad en ta linguo on dicas : *bones,* *males?*); ol esas konocata da multega altra homi per Italiana plurali quin on darfas dicar internaciona por omna Europano od Amerikano kelke lerninta la gramatiko di sua linguo : *carbonari, ciceroni, condottieri, dilettanti, lazzaroni,* *quintetti*.
 
-Ka do ni exajeras dicante : la pluralo per -i esas preferinda por la linguo helpanta, e Ido saje agis adoptante lu (3).
+Ka do ni exajeras dicante : la pluralo per **-i** esas preferinda por la linguo helpanta, e Ido saje agis adoptante lu (3).
 
 > (3) Zamenhof adoptis lu en sua reformo di 1894, e lore il dicis, ke ta pluralo esas plu harmonianta kun la fizionomio di Esperanto. Il chanjis a *a* sua infinitivo **-i**, e donis **-e** kom karakterizivo a l'adjektivo ed a l'adverbo.
 

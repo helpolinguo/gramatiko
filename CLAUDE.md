@@ -42,12 +42,12 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 868 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,453 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,481 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,649 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,416 bytes
-    python3 tools/witnesses.py        # 122 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 127 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED NINE TIMES. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED TEN TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -164,6 +164,17 @@ address. The affix headwords are all bold — the commissioner's ruling, on
 the book, against what two of them look like on the photographs: see the
 journal, « The affix headwords are bold ».
 
+**THE TENTH TIME, rulings looked at again, on the book.** Two anomalies
+kept on 27 November are corrected like their kind — folio 189's unclosed
+quotation, folio 171's « bisenca.. » — and the book settles four weights
+against the survey or the photographs: folio 186's four « -i » and folio
+75's « en », « ek » are bold (the second a correction of this pass
+reversed); folio 144's « pedi » and folio 141's « -ier » are bold in 1925,
+which makes the first a misreading rather than a typo and gives the
+second's \VUcorrige its true first argument. 492,453 → 492,481 bytes in
+`gramatiko.md`; nothing else moves. See the journal, « Rulings looked at
+again, on the book ».
+
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename
 moves an identifier a witness names, the witness is repointed — it is
@@ -207,7 +218,9 @@ a reader, from Beaufront's own — which is the failure the whole of
 `temi/` exists to prevent.
 
 **THE BOOK NUMBERS LESS THAN HALF OF ITSELF.** 139 paragraphs carry a
-number; 723 blocks and 249,254 bytes carry none, and 27 of the 49
+number; 723 blocks and 249,418 bytes carry none (the bytes move with
+every correction of the text: `temi/index.md` gives them as last counted —
+this line said 249,254 long after it stopped being true), and 27 of the 49
 chapters have no number anywhere. Anything keyed to the numbers alone
 drops more than half the corpus — `temi.py` did, in its first cut, and
 lost the passage where Beaufront argues against the accusative. Cite by

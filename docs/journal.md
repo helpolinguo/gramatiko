@@ -5356,3 +5356,53 @@ folio 229, which was applied; this one was not. Applied now, with its note.
 **What moved.** One page, the table of contents' folio 230, in one line.
 `gramatiko.md`, `temi/`, `afixi/`, the anchors: unchanged. Witnesses
 121 → 122.
+
+## Rulings looked at again, on the book
+
+**ASKED WHICH OF THEIR RULINGS STOOD OUT, THE COMMISSIONER WENT BACK OVER
+THEM WITH THE BOOK IN HAND.** Two kinds were put again: rulings that sat
+oddly beside a similar one, and rulings that rested on what the photographs
+showed — the kind that folio 130's headwords had just proved unsafe.
+
+**Kept anomalies, now corrected like their kind.** Folio 189's quotation
+« La klasifiko dil genro... », kept open on 27 November when the 27 others
+were closed: closed after « mem en la Franca. », before the author's
+« Semblis a ni ». Folio 171's « bisenca.. », a double stop kept when every
+other stray stop was corrected: one stop. Both by `\VUcorrige`.
+
+**Kept, again.** Folio 93's « orsù », accented the Italian way under the
+Spanish label « S. »: as ruled. The four French words the print leaves roman
+where it usually italicises a French gloss — « directeur d'école » (118),
+« comestibles » (143), « le fait d'être mortel » (161), « pisciforme,
+lentiforme » (170): kept roman, all four.
+
+**Weights the book settles.**
+
+* Folio 186: the four « -i » the transcription read roman — « pluralo per
+  -i » three times, « -i havas » — are BOLD, like the fifth. The survey's
+  « now bold, now roman, five times on the page » was the misreading folio
+  198's turned out to be. Corrected in the transcription.
+* Folio 75: « on uzas en o ek » — « en » and « ek » are BOLD. The weights
+  pass had set them roman on the photograph the same day; reversed.
+* Folio 144: « pedi » is BOLD, like « boko, » beside it. The survey had read
+  it light and the commissioner ruled it a typo set bold by `\VUcorrige`;
+  it is a misreading, the bold transcribed, the `\VUcorrige` withdrawn.
+  The page does not change.
+* Folio 141: « -ier » in note (1) is BOLD in 1925, not roman as surveyed. It
+  stays set in italic as ruled; the `\VUcorrige` now carries the true 1925
+  reading as its first argument. The page does not change.
+* Folio 163: « kalkoza » is light italic in the book, as surveyed; its
+  correction to bold stands.
+* Of the eight bold → roman corrections of the weights pass most exposed
+  to the photographs, seven are roman in the book — « gefrati, siorulo,
+  siorino » (24), « la boni, la mali » (28), the elided adjectives with
+  their italic a (29), « qua » (38), « maxim, minim » (58), « ankore » (60),
+  « po quanta preco » (79) — and one, folio 75's, is not. The other
+  twenty-odd corrections of that kind were not put to the book.
+
+**What moved.** Four pages, folios 75, 171, 186 and 189, each in the one
+line or the lines of the « -i »; the same 62 boxes. `gramatiko.md` 492,453
+→ 492,481 bytes (+5 for « » », −1 for the stop, +16 for four bold « -i »,
++8 for « en », « ek »); `temi/`, `afixi/`, the anchors unchanged in size and
+number. Witnesses 122 → 127. Checks 1 to 7: the same 237 failures; 8 to 12
+not run, for want of the scan.
