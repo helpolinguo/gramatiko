@@ -11,7 +11,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 **mis-.** — Ta prefixo esas Germana : *miss* ed Angla : *mis* (1). Ol quik adjuntesis dal Komitato ipsa di la *Delegitaro*, dum lua kunsidi « por expresar : *erore, nejuste* » : **misaudar,** **miskomprenar, misuzar, miskantar, mispronuncar, misduktar, misguidar, misfacar,** e. c.
 
-> (1) La Franca prezentas lu kelke en : *més-user*.
+> (1) La Franca prizentas lu kelke en : *més-user*.
 
 On remarkez, ke esas difero inter *misaudar* e *audar male* o *malaudar*. Ulu qua esas preske surda, o quan la sono preske ne atingas, ica *male audas* o *mal-audas*. Ma ulu qua audas *boto*, kande me dicas *poto* (od inverse), ica *misaudas*. Konseque, *male* (o *mal* uzata kom prefixo) ne esas sinonima kun **mis-**.
 

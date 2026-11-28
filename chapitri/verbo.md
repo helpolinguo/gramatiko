@@ -125,7 +125,7 @@ Do, praktike, uzez *esabis, esabos, esabus, esabez* nur kun monosilaba radiko.
 
 La kunjuntal formi (1), tre komoda pro lia kurteso (kun radiko monosilaba) precipue utilesas por tradukar la falsa verbi reflektiva (§ 49).
 
-> (1) Por ta pasivi ni preferas l'expresuro « kunjuntal formi » pro ke li esas la *kunjunturo* di « esar » e di verbal radiko. Ta formi esus *vere* sintezala, nur se li prezentus dezinenci segun la modelo Latina : *am-or, am-aris* e. c. Ma en *am-esar, am-esas, am-esis* e. c. ne existas dezinenci : existas radiko e kompleta verbo (**esar**) kunjuntita, **unionita.**
+> (1) Por ta pasivi ni preferas l'expresuro « kunjuntal formi » pro ke li esas la *kunjunturo* di « esar » e di verbal radiko. Ta formi esus *vere* sintezala, nur se li prizentus dezinenci segun la modelo Latina : *am-or, am-aris* e. c. Ma en *am-esar, am-esas, am-esis* e. c. ne existas dezinenci : existas radiko e kompleta verbo (**esar**) kunjuntita, **unionita.**
 
 45. — Malgre l'exemplo di lingui nacionala (qui agas pri la transitiveso dil verbi deskonkorde ed arbitrie) verbo esas *transitiva* en Ido, se ol expresas faco, ago povanta atingar *direte* ula objekto : **dankar, mokar, nocar, obediar,** **repugnar** *ulu*, nam vere e logike *ulu* povas esar direte l'objekto dil *danko*, dil *moko, noco, obedio, repugno.* Ico nekontesteble pruvesas dal fakto, ke l'objekto povas divenar la subjekto en voco pasiva : *Dankez Deo, Deo esez dankata* o *Deo dankesez; il mokis ta povrulo, ta povrulo esis mokata* o *mokesis da ilu; el nocos vu, vu esos nocata* o *nocesos da* *elu; fine la filio obediis la matro, la matro esis obediata dal* *filio*; **ta procedo repugnas me**, *me esas repugnata* o *repugnesas da ta procedo.*
 

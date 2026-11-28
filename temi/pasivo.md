@@ -128,7 +128,7 @@ Tale la tota konjugo pasiva postulas nur un sola participo (*-ata*), quo esas pl
 
 On darfas unionar al verbal radiko (en pasivo) mem la tempi **esabis, esabos, esabus, esabez.** Ma ta uniono o kunjunto esas deskonsilata por radiki *plursilaba*, pro ke lore la vorto divenas longa ed ofte min klara kam en analizal formo. Exemple : **interpretesabus** o mem **destruktesabus**, kelke longa, ne havas la klareso di : **esabus interpretata, esabus** **destruktata.**
 
-> (1) Por ta pasivi ni preferas l'expresuro « kunjuntal formi » pro ke li esas la *kunjunturo* di « esar » e di verbal radiko. Ta formi esus *vere* sintezala, nur se li prezentus dezinenci segun la modelo Latina : *am-or, am-aris* e. c. Ma en *am-esar, am-esas, am-esis* e. c. ne existas dezinenci : existas radiko e kompleta verbo (**esar**) kunjuntita, **unionita.**
+> (1) Por ta pasivi ni preferas l'expresuro « kunjuntal formi » pro ke li esas la *kunjunturo* di « esar » e di verbal radiko. Ta formi esus *vere* sintezala, nur se li prizentus dezinenci segun la modelo Latina : *am-or, am-aris* e. c. Ma en *am-esar, am-esas, am-esis* e. c. ne existas dezinenci : existas radiko e kompleta verbo (**esar**) kunjuntita, **unionita.**
 
 ## § 45 — [VERBO](../chapitri/verbo.md)
 

@@ -182,7 +182,7 @@ Sentiginte la acento sur la silabo prelasta, evitez sentigar quaze duesma acento
 
 > (1) Pro kustumo generala, ni duras uzar en ica gramatiko l'adjektivi-participa « definita », « nedefinita », pri l'artikli ed ula pronomi, quankam certe plu justa epiteto esas dezirinda.
 
-Kande nul altra vorto indikas pluralo, sive per sua formo (finalo **-i**), sive per sua senco (nombro-nomo o nedefinita pronomo), on uzas **le**; nam altre on ne savus (per *la*) kad parolesas pri un individuo o pri pluri. Ex. : **le** *Gracchus*, **le** *Cato* (Kato); **le** *x*, **le** *y*, **le** *z*; *la cifri di ca konto esas tanta* *male formacita, ke* **le** *3 e* **le** *5 esas konfundebla a* **le** *8* (2).
+Kande nul altra vorto indikas pluralo, sive per sua formo (finalo **-i**), sive per sua senco (nombro-nomo o nedefinita pronomo), on uzas **le**; nam altre on ne savus (per *la*) kad parolesas pri un individuo o pri pluri. Ex. : **le** *Gracchus*, **le** *Cato* (Kato); **le** *x*, **le** *y*, **le** *z*; *la cifri di ca konto esas tante* *male formacita, ke* **le** *3 e* **le** *5 esas konfundebla a* **le** *8* (2).
 
 > (2) L'exempli kun **le**, tale kam mult altri analoga quin on povus donar, montras per su, ke tro granda simpleso gramatikala povas meritar forjeto. Nam, exemple, l'unikeso dil artiklo definita en Esperanto impedas tradukar la supera frazi, tamen ne desfacila e tre ordinara. Ma vere, kad esas laudinda e quon valoras gramatikal simpleso sakrifikanta, od alteranta l'expresado dil pensi? Cetere uli mondolinguana kelke blinde alegas la facileso e simpleso gramatikala. Preske sempre li oblivias, ke la facileso por lerno ne koincidas necese kun la facileso por apliko. Mem eventas, ke l'unesma ofras reale nur pura trompilo, se ol nocas o jenas la duesma. Kun la duimo di sua reguli e vorti Espo e Ido certe esus plu facile lernebla. Ma kad oli esus pro ico plu bona ? On lernas helpo-linguo dum kelka hori, dum kelka dii, ma on aplikas lu dum yari. Do questionesas : quo meritas prefero? lerno kelkete plu kurta, ma aplikado entravata e defektoza; o studio kelkete plu longa, ma aplikado senmanka e skopokonforma? En l'unesma kazo, *un* artiklo definita suficas; en la duesma kazo, certe *du* artikli esas necesa.
 
@@ -558,7 +558,7 @@ Se on ne uzus « lo » en la tri unesma exempli, on mustus uzar la perifrazo
 
 Kande to esas posibla, li produktas individual pronomi, quale sube, per la simpla substituco di **-u** (pluralo **-i**) a la dezinenco **-a** (1).
 
-> (1) *Individual pronomi* (**-u**) havas senco multe plu ampla kam *personal pronomi*. Ci lasta implikas nur la persono (gramatikala), kontre ke l'unesmi implikas l'individuo. Or l'individuo kontenas omna ento organizita, persono, animalo o planto, relate lia speco. Konseque, se la pronomi en **-u** reprezentas ordinare persono, homo, li tote darfas, ye l'okaziono, reprezentar anke bestio o planto. Ex. : *omna individui di la hundo-speco ne prezentas la sama tipo. Li* *diferas inter su, plu multe kam l'individui dil kavalo-speco.*
+> (1) *Individual pronomi* (**-u**) havas senco multe plu ampla kam *personal pronomi*. Ci lasta implikas nur la persono (gramatikala), kontre ke l'unesmi implikas l'individuo. Or l'individuo kontenas omna ento organizita, persono, animalo o planto, relate lia speco. Konseque, se la pronomi en **-u** reprezentas ordinare persono, homo, li tote darfas, ye l'okaziono, reprezentar anke bestio o planto. Ex. : *omna individui di la hundo-speco ne prizentas la sama tipo. Li* *diferas inter su, plu multe kam l'individui dil kavalo-speco.*
 
 **Ula** (L. *ullus*), pronomo : **ulu** (*ula individuo*), plur. **uli,** donas indiko nepreciza, nedefinita.
 
@@ -756,7 +756,7 @@ Do, praktike, uzez *esabis, esabos, esabus, esabez* nur kun monosilaba radiko.
 
 La kunjuntal formi (1), tre komoda pro lia kurteso (kun radiko monosilaba) precipue utilesas por tradukar la falsa verbi reflektiva (§ 49).
 
-> (1) Por ta pasivi ni preferas l'expresuro « kunjuntal formi » pro ke li esas la *kunjunturo* di « esar » e di verbal radiko. Ta formi esus *vere* sintezala, nur se li prezentus dezinenci segun la modelo Latina : *am-or, am-aris* e. c. Ma en *am-esar, am-esas, am-esis* e. c. ne existas dezinenci : existas radiko e kompleta verbo (**esar**) kunjuntita, **unionita.**
+> (1) Por ta pasivi ni preferas l'expresuro « kunjuntal formi » pro ke li esas la *kunjunturo* di « esar » e di verbal radiko. Ta formi esus *vere* sintezala, nur se li prizentus dezinenci segun la modelo Latina : *am-or, am-aris* e. c. Ma en *am-esar, am-esas, am-esis* e. c. ne existas dezinenci : existas radiko e kompleta verbo (**esar**) kunjuntita, **unionita.**
 
 45. — Malgre l'exemplo di lingui nacionala (qui agas pri la transitiveso dil verbi deskonkorde ed arbitrie) verbo esas *transitiva* en Ido, se ol expresas faco, ago povanta atingar *direte* ula objekto : **dankar, mokar, nocar, obediar,** **repugnar** *ulu*, nam vere e logike *ulu* povas esar direte l'objekto dil *danko*, dil *moko, noco, obedio, repugno.* Ico nekontesteble pruvesas dal fakto, ke l'objekto povas divenar la subjekto en voco pasiva : *Dankez Deo, Deo esez dankata* o *Deo dankesez; il mokis ta povrulo, ta povrulo esis mokata* o *mokesis da ilu; el nocos vu, vu esos nocata* o *nocesos da* *elu; fine la filio obediis la matro, la matro esis obediata dal* *filio*; **ta procedo repugnas me**, *me esas repugnata* o *repugnesas da ta procedo.*
 
@@ -2130,7 +2130,7 @@ Remarkez, ke France *beau-* (bo-) konstante produktas ambigueso : *beau-père*
 
 **mis-.** — Ta prefixo esas Germana : *miss* ed Angla : *mis* (1). Ol quik adjuntesis dal Komitato ipsa di la *Delegitaro*, dum lua kunsidi « por expresar : *erore, nejuste* » : **misaudar,** **miskomprenar, misuzar, miskantar, mispronuncar, misduktar, misguidar, misfacar,** e. c.
 
-> (1) La Franca prezentas lu kelke en : *més-user*.
+> (1) La Franca prizentas lu kelke en : *més-user*.
 
 On remarkez, ke esas difero inter *misaudar* e *audar male* o *malaudar*. Ulu qua esas preske surda, o quan la sono preske ne atingas, ica *male audas* o *mal-audas*. Ma ulu qua audas *boto*, kande me dicas *poto* (od inverse), ica *misaudas*. Konseque, *male* (o *mal* uzata kom prefixo) ne esas sinonima kun **mis-**.
 
@@ -3210,7 +3210,7 @@ Nun ni videz la dezinenco **-us.**
 
 La questiono esas ed esas nur : kad **-us** trovesas en la Latina kom final sono di konjugo, identa (sone) a la verbal dezinenci **-us** di Ido?
 
-Negar lo esus negar l'evidenteso ipsa. Nam, de la verbo *sum* (esar) til la lasta di sua verbi, la Latina prezentas ta sono en omna unesma personi di la pluralo.
+Negar lo esus negar l'evidenteso ipsa. Nam, de la verbo *sum* (esar) til la lasta di sua verbi, la Latina prizentas ta sono en omna unesma personi di la pluralo.
 
 Do **-us** esas vere final sono verbal *naturala*, pro ke on trovas lu dek foyi en omna verbo Latina.
 
