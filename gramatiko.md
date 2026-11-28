@@ -1234,7 +1234,7 @@ Ido povas distingar tote certe l'autori, la modeli e la proprieteri di artal ver
 
 70. — **Dum** indikas la duro di tempo en qua ulo eventas od esas facata, agata : **il dormis dum la koncerto; il esis** **absenta dum tri yari; il sucesis fugar dum la masakro; el** **esis malada dum sua infanteso** (1).
 
-> (1) Kompreneble, se on volas dicar ke el ne cesis esar malada tam longe kam duris elua infanteso, on dicas : *dum sua* **tota** *infanteso*,
+> (1) Kompreneble, se on volas dicar ke el ne cesis esar malada tam longe kam duris elua infanteso, on dicas : *dum sua* **tota** *infanteso*.
 
 Nultempe tacez ta prepoziciono, malgre l'exemplo di ula lingui, di la Franca exemple, qua tre logikale dicas : *il* *guvernis* **dum** *kin yari la kolonio* e *il studiis* **dum** *tri yari* *filozofio*, ma qua dicas anke, e kontrelogike : *il guvernis kin* *yari la kolonio*, e : *il studiis tri yari filozofio*. Ma kad on guvernas yari o lando e homi? Kad on studias yari, o cienco, arto, mestiero? Por ne dicar absurdajo, kompromisar la justa kompreno, on mustus avertar (quale agas nacionala gramatiki) ke en ta expresuri e le analoga, « kin yari » e « tri yari » esas nule direta komplementi, ma cirkonstancal komplementi tempala, pro ke **dum** esas tacita. Ka ne esas preferebla, kom plu sekura, nultempe tacar la prepoziciono e dicar kun olu : *la kin yari* **dum** *qui il guvernis la kolonio* *esis le maxim prosperanta por olu; me studiis filozofio* **dum** *tri yari e la general historio* **dum** *quar yari; il retromarchis* *o marchis retroe* **dum** *un mi-horo pro pario stupida quan* *il facabis?*
 
@@ -3178,7 +3178,7 @@ Ni do vidas la Hispana ed Angla lingui ipsa, qui uzas **s** kom plural-marko, un
 
 2e La sisanta **s**, tre facile pronuncebla ed audebla, konvenas tre bone kom tala por la verbo, qua pleas rolo tante importanta en la frazo, e mem rolo plu grava kam la pluralo, se on ponderas bone la kozi.
 
-3e Altraparte, pro ke la siso di la konsonanto **s** facile tedas, kande ol multafoye repetesas sucede, ol esabus quaze netolerebla, se on selektabus lu kom plural-marko. Nam multa substantivi intersequas plu freque kam verbi (2). To esis un plusa motivo por lasar a **s** lua rolo verbala. L'Italiana montras eloquente, ke multa *i* intersequanta fluas sen tedar : *i miei buoni amici*, kontre ke le tro multa **s** finala di la Hispana certe detrimentas l'eufonio di ca bela linguo. Or me sempre opinionis, ke la belsoneso importas en la L. I., ed esas atraktilo. Ido montras, ke me ne eroris pri ca punto
+3e Altraparte, pro ke la siso di la konsonanto **s** facile tedas, kande ol multafoye repetesas sucede, ol esabus quaze netolerebla, se on selektabus lu kom plural-marko. Nam multa substantivi intersequas plu freque kam verbi (2). To esis un plusa motivo por lasar a **s** lua rolo verbala. L'Italiana montras eloquente, ke multa *i* intersequanta fluas sen tedar : *i miei buoni amici*, kontre ke le tro multa **s** finala di la Hispana certe detrimentas l'eufonio di ca bela linguo. Or me sempre opinionis, ke la belsoneso importas en la L. I., ed esas atraktilo. Ido montras, ke me ne eroris pri ca punto.
 
 > (2) En specal artiklo « Verbala rolo dil **s** en la helpo-linguo » ni pluse citis la susteno quan la Sanskrita linguo, la Zenda, l'Armeniana, la Gotika e l'ancien alta Germana donas a **s** kom verbal finalo, en la modi personala : *-asi, -as, ats, -ais, -mas* e. c. (Videz *Bulletin français-Ido de la Langue auxiliaire* no 69-70, p. 266,
 

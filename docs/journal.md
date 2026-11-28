@@ -5575,3 +5575,32 @@ had both); the same 62 boxes; the text, the page, the Markdown, `temi/`,
 paragraphs by their `\VUcontinue`. Witnesses 137 → 140. Checks 1 to 7: the
 same 237 failures; 8 to 12 not run, for want of the scan — check 10, the
 alignment of line openings and endings, is the one that would have said so.
+
+## Two full stops
+
+**THE COMMISSIONER EXPECTED A STOP IN TWO PLACES, AND THE PRINT HAS
+NONE IN EITHER.** Both looked at on the photographed spreads:
+
+| folio | as printed | set |
+|---|---|---|
+| 74, note (1) | … on dicas : *dum sua* **tota** *infanteso*, | *infanteso*. |
+| 207 | Ido montras, ke me ne eroris pri ca punto | pri ca punto. |
+
+Folio 74's note (1) does not run on: folio 75's notes open on a note (1)
+of their own, so the comma ends the note. Folio 207's line ends its
+section, an asterism after it. Neither is a misreading — the
+transcription had each as printed — so both are typos of the original,
+ruled corrected, set by `\VUcorrige{,}{.}` and `\VUcorrige{}{.}`, each
+leaf with its note.
+
+Folio 74's last note line runs to the margin in the facsimile and stops
+4.7 pt short in the PDF. It is a note that ends there, not one continued
+overleaf, so it is outside « Page-end lines that run to the margin »;
+left as it is.
+
+**What moved.** Two pages, one character each; the same 62 boxes.
+`gramatiko.md` 492,482 → 492,483 bytes, and the two chapters concerned;
+`temi/` and `afixi/` unchanged in size — `temi/index.md` changes in one
+figure, the unnumbered blocks' 249,417 bytes become 249,418, the figure
+CLAUDE.md had carried, one byte high, since « Kontrastus; sigari ».
+Anchors, paragraphs, notes, blocks unchanged. Witnesses 140 → 142.

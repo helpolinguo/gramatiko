@@ -42,12 +42,12 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 868 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,482 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,483 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,649 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,416 bytes
-    python3 tools/witnesses.py        # 140 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 142 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED TWELVE TIMES. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED THIRTEEN TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -189,6 +189,16 @@ their count; an adjective in -a before an adverb in -e — found three, each
 confirmed on the spreads and ruled corrected: « konstrastus » (folio 200),
 « Cigari », « cigari » (44, 167). 492,483 → 492,482 bytes in
 `gramatiko.md`. See the journal, « Kontrastus; sigari ».
+
+**THE THIRTEENTH TIME, two full stops**, both seen by the commissioner
+and confirmed on the spreads: folio 74's note (1) ends on a comma, and
+ends there (folio 75's notes open on a new (1)); folio 207's « ... ke me
+ne eroris pri ca punto » closes its section with no stop before the
+asterism. Ruled corrected, by `\VUcorrige`. 492,482 → 492,483 bytes in
+`gramatiko.md`, the added stop; the other is a comma for a stop.
+`temi/index.md`'s unnumbered bytes go 249,417 → 249,418, which makes the
+figure under « THE BOOK NUMBERS LESS THAN HALF » true again: it had been
+one byte high since the twelfth time. See the journal, « Two full stops ».
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename
