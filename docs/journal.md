@@ -5482,3 +5482,23 @@ Ruled a typo of the print: « Iosef », by `\VUcorrige`.
 
 **What moved.** One page, folio 24, one letter; sizes unchanged — an s for
 a z. One witness more.
+
+## Tante male; prizentar
+
+**TWO MORE TYPOS OF THE PRINT, READ BY THE COMMISSIONER, EACH CONFIRMED ON
+THE SPREADS — THE TRANSCRIPTION FAITHFUL IN BOTH.**
+
+* Folio 18: « la cifri di ca konto esas **tanta** male formacita » — the
+  adjective before the adverb « male ». Set « tante ».
+* The verb « prizentar » printed with an e: « ne **prezentas** la sama tipo »
+  (folio 41), « nur se li **prezentus** dezinenci » (51), « La Franca
+  **prezentas** lu » (127), « la Latina **prezentas** ta sono » (209). The
+  book writes « prizent- » some twenty times. Set « prizent- », all four.
+  Not touched: folio 205's « re-|prezentas », which is « reprezentar » broken
+  across a line; and « prezento », « prezenta » (the tense), « prezente »,
+  « prezenteso », which are other words.
+
+All five by `\VUcorrige`, each leaf with its note.
+
+**What moved.** Five pages, folios 18, 41, 51, 127 and 209, one word each;
+sizes unchanged — a letter for a letter. Witnesses 130 → 134.

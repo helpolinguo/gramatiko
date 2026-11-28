@@ -59,7 +59,7 @@ Nun ni videz la dezinenco **-us.**
 
 La questiono esas ed esas nur : kad **-us** trovesas en la Latina kom final sono di konjugo, identa (sone) a la verbal dezinenci **-us** di Ido?
 
-Negar lo esus negar l'evidenteso ipsa. Nam, de la verbo *sum* (esar) til la lasta di sua verbi, la Latina prezentas ta sono en omna unesma personi di la pluralo.
+Negar lo esus negar l'evidenteso ipsa. Nam, de la verbo *sum* (esar) til la lasta di sua verbi, la Latina prizentas ta sono en omna unesma personi di la pluralo.
 
 Do **-us** esas vere final sono verbal *naturala*, pro ke on trovas lu dek foyi en omna verbo Latina.
 

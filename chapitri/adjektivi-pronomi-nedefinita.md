@@ -13,7 +13,7 @@ Transskribita de https://ido.help/gramatiko/
 
 Kande to esas posibla, li produktas individual pronomi, quale sube, per la simpla substituco di **-u** (pluralo **-i**) a la dezinenco **-a** (1).
 
-> (1) *Individual pronomi* (**-u**) havas senco multe plu ampla kam *personal pronomi*. Ci lasta implikas nur la persono (gramatikala), kontre ke l'unesmi implikas l'individuo. Or l'individuo kontenas omna ento organizita, persono, animalo o planto, relate lia speco. Konseque, se la pronomi en **-u** reprezentas ordinare persono, homo, li tote darfas, ye l'okaziono, reprezentar anke bestio o planto. Ex. : *omna individui di la hundo-speco ne prezentas la sama tipo. Li* *diferas inter su, plu multe kam l'individui dil kavalo-speco.*
+> (1) *Individual pronomi* (**-u**) havas senco multe plu ampla kam *personal pronomi*. Ci lasta implikas nur la persono (gramatikala), kontre ke l'unesmi implikas l'individuo. Or l'individuo kontenas omna ento organizita, persono, animalo o planto, relate lia speco. Konseque, se la pronomi en **-u** reprezentas ordinare persono, homo, li tote darfas, ye l'okaziono, reprezentar anke bestio o planto. Ex. : *omna individui di la hundo-speco ne prizentas la sama tipo. Li* *diferas inter su, plu multe kam l'individui dil kavalo-speco.*
 
 **Ula** (L. *ullus*), pronomo : **ulu** (*ula individuo*), plur. **uli,** donas indiko nepreciza, nedefinita.
 
