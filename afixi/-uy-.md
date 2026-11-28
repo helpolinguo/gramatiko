@@ -13,6 +13,6 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 > (2) Diferas de *kafekrucho, tekrucho* qui kontenas l'infuzuro di kafeo, di teo.
 
-Dicernez **uy** de **ier** (Vid. ica) : **sigaruyo** = *etuyo por* *cigari;* **sigariero** = *kurta tubo por fumar sigaro.*
+Dicernez **uy** de **ier** (Vid. ica) : **sigaruyo** = *etuyo por* *sigari;* **sigariero** = *kurta tubo por fumar sigaro.*
 
 Kom radiko ne uzez **uyo,** quale l'Esperantisti, ma selektez inter *etuyo, gaino, buxo, vazo, kesto, recipiento,* e. c.

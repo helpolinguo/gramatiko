@@ -5502,3 +5502,38 @@ All five by `\VUcorrige`, each leaf with its note.
 
 **What moved.** Five pages, folios 18, 41, 51, 127 and 209, one word each;
 sizes unchanged — a letter for a letter. Witnesses 130 → 134.
+
+## Kontrastus; sigari
+
+**ASKED AGAIN FOR OTHER TYPOS, TWO NEW SCANS, SHAPED BY WHAT THE
+COMMISSIONER HAD JUST FOUND.** The earlier scan took only words met ONCE,
+one letter from a common one; « prezentas » (four times), « transkribo »
+(twice), « filosôfio » and « tanta male » all slipped through it.
+
+1. **Stems one letter from a stem at least three times as common**,
+   whatever their own count (endings stripped; edits within the last two
+   letters, which are inflection, left aside): 206 pairs, nearly all
+   distinct words — kaloro/valoro, vaporo/valoro, adepto/adopto, rezono/
+   bezono — or foreign and deliberate forms: « nacyono », « lingwala » in a
+   spelling discussion, Esperanto « fraulo », Portuguese « burgo-mestre »,
+   « ricevar (recevar) ». « neyusta » is right: Ido has « yusta », fair,
+   beside « justa », exact, and folio 127 lists both. Three are typos.
+2. **An adjective in -a before an adverb in -e**, the shape of « tanta
+   male »; and an adverb in -e before a noun. None left: « tre » is an
+   adverb, and « plu multe enti maskula kam enti femina » (126) reads
+   « more than », adverbially.
+
+**The three, each confirmed on the spreads and ruled corrected:**
+
+| folio | as printed | set |
+|---|---|---|
+| 44 | Cigari po 25 centimi single. | Sigari |
+| 167 | etuyo por cigari; sigariero… sigaro | sigari |
+| 200 | (personigita) konstrastus krude kun | kontrastus |
+
+« sigar- » eight times elsewhere; « kontrast- » seventeen. All by
+`\VUcorrige`, each leaf with its note.
+
+**What moved.** Three pages, folios 44, 167 and 200, one word each; the
+same 62 boxes. `gramatiko.md` 492,483 → 492,482 bytes, the stray s of
+« konstrastus »; `temi/`, `afixi/`, anchors unchanged. Witnesses 134 → 137.

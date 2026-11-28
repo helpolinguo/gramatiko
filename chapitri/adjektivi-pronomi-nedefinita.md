@@ -73,7 +73,7 @@ La naturo ipsa dil adjektivo-pronomo **ipsa** ne plu permisas *ipso* kam **ipsu*
 
 **Quante** = *en quanta grado o mezuro, ye qua preco* : **Quante il amoras elu! Vu tante pagesos quante vu laboros.** **Po quante vu vendas ico?**
 
-**Single** = *singla, singlu aparte* : **Cigari po 25 centimi** **single.**
+**Single** = *singla, singlu aparte* : **Sigari po 25 centimi** **single.**
 
 **Plure** = *pluri kune.*
 
