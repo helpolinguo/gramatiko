@@ -1246,7 +1246,7 @@ Per extenso naturala **ek** uzesas anke por indikar la materio di ula kozo (ek q
 
 Atencez bone la difero inter : **botelo ek...** (materio), **botelo de...** (kontenajo), **botelo por...** (destineso). Ex. : **botelo ek vitro, botelo de vino, botelo por oleo.**
 
-Pos la verbo *konsistar*, on uzas en o ek. Ex. : **La kurajo** **ne konsistas en ne sentar ula timo, ma plu juste en ne egardar** **la danjero. Ek quo konsistas la afero?**
+Pos la verbo *konsistar*, on uzas **en** o **ek**. Ex. : **La kurajo** **ne konsistas en ne sentar ula timo, ma plu juste en ne egardar** **la danjero. Ek quo konsistas la afero?**
 
 **Ek darfas uzesar metafore por indikar objekto o mem** ento apartenanta ad ensemblo, kolektajo (e quin on supozas *extraktita* ek olu), exemple pri relatanta superlativo : **la** **maxim richa ek omni.** Ma on darfas anke uzar **de**, quale ni vidis ye : *gradi komparala*. Mem **inter** anke konvenas en ta kazo.
 
@@ -2744,7 +2744,7 @@ Ma por la 5 e 6esma klasi de kompozaji, sequez l'ordino di la elementi quan vu t
 
 > (1) « Existas nula nekonsequo inter *samtempa* e *samtempano* : du eventi esas *samtempa*, ne *samtempana*, pro ke li eventas *samtempe* (en la sama tempo). — On devas analizar direte la kompozita vorti per la simpla komuna raciono, e ne serchar reguli subtila e neutila, qui nur komplikus ed obskurigus kozi simpla e klara per su. » (*Progreso*, VII, 497.)« On ne povas dicar, ke la derivado en Ido dependas de la *speco* (gramatikala) di la radiko, nam kontree, ni emendis ica defekto di Esp. : la derivado dependas nur de la *senco* di la radiko. Omna subtila reguli propozita por ico semblas tote neutila. Esas anke nejusta asertar, ke por komprenar vorto derivita de « radiko kompozita » on devas serchar la senco di ca « radiko » : nam ofte ca « radiko » havas nula senco. Exemple *samtempano* havas tote klara senco, dum ke *samtemp* havas nula senco : nam quo esas *samtempo?* Nula speco di *tempo!* » (*Progreso*, VII, 497.)
 
-> (2) *Blu-okula, long-hara, gros-kapa* e. c. memorigas tre justa remarkigo en *Progreso*, VII, p. 496 : « En tala kompozaji on ne povas parolar pri elemento precipua o determinata : la du elementi esas ne subordinita, ma koordinita, ed on povus preske permutar li kelkafoye, ex. *okul-blua*. Lia senco esas tote klara sen irga sufixo. Vane on objecionas, ke on povas substantivigar li : *bluokula*, e. c. esas esence adjektiva. Duesme, mem se on substantivigas li, eventos nula bisenceso, se on sorgas egardar ica regulo di komuna raciono : *Nultempe formacez kompozajo por expresar ideo qua povas esar* *expresata tam kurte per la simpla elementi.* Dro Talmey bone montris, ke on ne darfas dicar *redvango*, vice *reda vango*, *grandurbo* *vice granda urbo* (kulpo quan facas ofte nia Germana samideani). Do on povas sen ula detrimento dicar *Red-pelo* por F. *Peau-Rouge*, nam *peau rouge* dicesus *reda pelo.* »Pose Sro Couturat dicas pri *triangulo, trimasto, centyaro, milpedo* : nu, anke ici ne esas bisenca..
+> (2) *Blu-okula, long-hara, gros-kapa* e. c. memorigas tre justa remarkigo en *Progreso*, VII, p. 496 : « En tala kompozaji on ne povas parolar pri elemento precipua o determinata : la du elementi esas ne subordinita, ma koordinita, ed on povus preske permutar li kelkafoye, ex. *okul-blua*. Lia senco esas tote klara sen irga sufixo. Vane on objecionas, ke on povas substantivigar li : *bluokula*, e. c. esas esence adjektiva. Duesme, mem se on substantivigas li, eventos nula bisenceso, se on sorgas egardar ica regulo di komuna raciono : *Nultempe formacez kompozajo por expresar ideo qua povas esar* *expresata tam kurte per la simpla elementi.* Dro Talmey bone montris, ke on ne darfas dicar *redvango*, vice *reda vango*, *grandurbo* *vice granda urbo* (kulpo quan facas ofte nia Germana samideani). Do on povas sen ula detrimento dicar *Red-pelo* por F. *Peau-Rouge*, nam *peau rouge* dicesus *reda pelo.* »Pose Sro Couturat dicas pri *triangulo, trimasto, centyaro, milpedo* : nu, anke ici ne esas bisenca.
 
 Praktike memorez, ke on deskompozas komencante per la fino, se la kompozajo unionas *substantivo* ad altro (1, 2, 3esma klasi) o *prepoziciono* a verbo (4esma klaso). Altrakaze on sequas l'ordino di la elementi (5. e 6esma klasi).
 
@@ -2900,17 +2900,17 @@ Restas vere por la pluralo per **-s** nur *du* susteni : la Angla e la Hispana
 
 > (1) On ne audacis til nun alegar la Portugalana. Ma ni ne desesperez. Pro quo ne? Quale en ta linguo, ni skribus *actos* e pronuncus *à 'tush.*Ma on ne obliviis citar kom susteno, por **s** plurala, linguo klasika, la Latina, en qua ta vokalo finas omnainstante nominativo o genitivo *singulara*, tante vere ol esas marko di *pluralo!*
 
-Nun ni videz la susteno dil pluralo per -i.
+Nun ni videz la susteno dil pluralo per **-i**.
 
 La Slava lingui (susteno extreme importanta) e la Rumaniana kun l'Italiana (2).
 
 > (2) Ol ne esas nekonocato en la Greka moderna.
 
-En ica lasta linguo, -i havas ne nur la maskuli, ma mem femini : *madri* (matri). E, fakto remarkinda, **s** qua desaparis en la paso dil Gotika al Germana, transformesis a i (kun *e* di *es*) pasante de la Latina al Italiana : *uomini* = *homines*; *madri* = *matres*; *cani* = *canes*.
+En ica lasta linguo, **-i** havas ne nur la maskuli, ma mem femini : *madri* (matri). E, fakto remarkinda, **s** qua desaparis en la paso dil Gotika al Germana, transformesis a i (kun *e* di *es*) pasante de la Latina al Italiana : *uomini* = *homines*; *madri* = *matres*; *cani* = *canes*.
 
-Fine, la pluralo per -i esas konocata da omna Latinisti (kad on negus lo?), tale ke *boni, mali* di Ido esas exakte *boni, mali* di la Latina (kad en ta linguo on dicas : *bones,* *males?*); ol esas konocata da multega altra homi per Italiana plurali quin on darfas dicar internaciona por omna Europano od Amerikano kelke lerninta la gramatiko di sua linguo : *carbonari, ciceroni, condottieri, dilettanti, lazzaroni,* *quintetti*.
+Fine, la pluralo per **-i** esas konocata da omna Latinisti (kad on negus lo?), tale ke *boni, mali* di Ido esas exakte *boni, mali* di la Latina (kad en ta linguo on dicas : *bones,* *males?*); ol esas konocata da multega altra homi per Italiana plurali quin on darfas dicar internaciona por omna Europano od Amerikano kelke lerninta la gramatiko di sua linguo : *carbonari, ciceroni, condottieri, dilettanti, lazzaroni,* *quintetti*.
 
-Ka do ni exajeras dicante : la pluralo per -i esas preferinda por la linguo helpanta, e Ido saje agis adoptante lu (3).
+Ka do ni exajeras dicante : la pluralo per **-i** esas preferinda por la linguo helpanta, e Ido saje agis adoptante lu (3).
 
 > (3) Zamenhof adoptis lu en sua reformo di 1894, e lore il dicis, ke ta pluralo esas plu harmonianta kun la fizionomio di Esperanto. Il chanjis a *a* sua infinitivo **-i**, e donis **-e** kom karakterizivo a l'adjektivo ed a l'adverbo.
 
@@ -2936,7 +2936,7 @@ En Indo-Europana, la genro ne indikesas en la substantivo, ma en l'adjektivo :
 
 > (3) Fakto simila ne indijas exemplo mem en la Franca : *de bons* *pères, de bonnes mères*. La genro aparas nur en *bons, bonnes*.
 
-« La klasifiko dil genro maxim konocata da ni, ma ne la maxim importanta, esas la *sexuo*. Ol uzesas preske nur en la min multa lingui, nome le Indo-Europana e le Semidala. Ol esas do multe min importanta kam semblas a ni kom Europani. Mem en ta lingui ol aplikesas nur a parto di la nomi, a la nomi di l'enti sexuoza; e mem por multa animali on ne distingas maskulo e femino, adminime per chanjo di formo. Exemple en la Franca, por indikar la sexuo en : *elefanto, hieno, strucho, buvrelo, skarabeo,* *heliko*, e. c., e. c., on koaktesas adjuntar sive « maskula », sive « femina ». Tale ke, se on kontus, on trovus, ke nur ecepte la genro esas markizata, mem en la Franca.
+« La klasifiko dil genro maxim konocata da ni, ma ne la maxim importanta, esas la *sexuo*. Ol uzesas preske nur en la min multa lingui, nome le Indo-Europana e le Semidala. Ol esas do multe min importanta kam semblas a ni kom Europani. Mem en ta lingui ol aplikesas nur a parto di la nomi, a la nomi di l'enti sexuoza; e mem por multa animali on ne distingas maskulo e femino, adminime per chanjo di formo. Exemple en la Franca, por indikar la sexuo en : *elefanto, hieno, strucho, buvrelo, skarabeo,* *heliko*, e. c., e. c., on koaktesas adjuntar sive « maskula », sive « femina ». Tale ke, se on kontus, on trovus, ke nur ecepte la genro esas markizata, mem en la Franca. »
 
 Semblis a ni esar utila memorigar, kun la susteno di linguistikal autoritato :
 

@@ -115,7 +115,7 @@ Per extenso naturala **ek** uzesas anke por indikar la materio di ula kozo (ek q
 
 Atencez bone la difero inter : **botelo ek...** (materio), **botelo de...** (kontenajo), **botelo por...** (destineso). Ex. : **botelo ek vitro, botelo de vino, botelo por oleo.**
 
-Pos la verbo *konsistar*, on uzas en o ek. Ex. : **La kurajo** **ne konsistas en ne sentar ula timo, ma plu juste en ne egardar** **la danjero. Ek quo konsistas la afero?**
+Pos la verbo *konsistar*, on uzas **en** o **ek**. Ex. : **La kurajo** **ne konsistas en ne sentar ula timo, ma plu juste en ne egardar** **la danjero. Ek quo konsistas la afero?**
 
 **Ek darfas uzesar metafore por indikar objekto o mem** ento apartenanta ad ensemblo, kolektajo (e quin on supozas *extraktita* ek olu), exemple pri relatanta superlativo : **la** **maxim richa ek omni.** Ma on darfas anke uzar **de**, quale ni vidis ye : *gradi komparala*. Mem **inter** anke konvenas en ta kazo.
 

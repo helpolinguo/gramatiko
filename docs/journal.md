@@ -5252,7 +5252,11 @@ the commissioner, folio by folio; 77 questions in all.
   where § 55 is italic; the « o » between italic alternatives (51, 66);
   « me ja esis skribinta o skribabis » (107), which is bold; the capital M
   of « Mea filii » (194), bold before an italic rest.
-* *The table of contents*: « La » of « La hori » is roman (229).
+* *The table of contents*: « La » of « La hori » is roman (229). *(And
+  folio 230's « Prefixi teknikala (equi-, ko-, mono-) », whose three
+  prefixes are bold upright, not bold italic — ruled with « La hori » and
+  left out of that commit; applied in the next: see « The affix headwords
+  are bold ».)*
 
 All corrected in the transcription, each leaf with its note.
 
@@ -5311,6 +5315,9 @@ the two of folio 130 roman and ordered every headword surveyed. Until that
 survey is in, they stay as transcribed: `afixi.py` and `html.py` find the
 affixes, and their anchors, by that bold, and the tools must learn to find
 them otherwise before the weight can move.
+*(Settled the same night, and the other way: the commissioner, on the book,
+rules every affix headword BOLD. The ruling on folio 130 is reversed and the
+survey stopped. See « The affix headwords are bold », below.)*
 
 **What moved.** Against the previous commit: 69 pages differ, those of the
 corrected leaves (folios 96 and 195, set by `\VUcorrige` to what the page
@@ -5319,3 +5326,83 @@ already showed, are pixel-identical); the same 62 boxes, box for box.
 `afixi/` 133,268 → 133,416; anchors 859 → 868, none lost; paragraphs,
 notes, blocks unchanged. Witnesses 106 → 121. Checks 1 to 7: the same 237
 failures, line for line; 8 to 12 not run, for want of the scan.
+
+## The affix headwords are bold
+
+**ALL OF THEM, THE COMMISSIONER RULES, ON THE BOOK — the photographs
+notwithstanding.** On the spreads « *equi-. » and « *ko-. » at folio 130
+look roman beside the bold « equi- » and « kosinuso » of their own lines,
+and several headwords of SUFIXI (-an-, -e-, -ebl-, -il-, -oid) measure no
+heavier than the roman « Ta sufixo » beside them. The commissioner had
+ruled the two of folio 130 roman and ordered every headword surveyed; on
+the printed book, every affix headword is bold. The ruling is reversed, the
+survey stopped before it reported, and the transcription, which had them
+all bold, stands. Folio 130's note says so, so that no later survey of the
+spreads flags them again.
+
+The rule on weight therefore has a second edge. Enlarging corrects the ink
+that makes a roman look bold at actual size; it does not correct a
+photograph that makes a bold look roman — the light, the angle, the
+paper's curve at the gutter. A weight the spread contradicts, on a word
+whose role the book marks the same way everywhere, is put to the
+commissioner before it is called a misreading.
+
+**And one ruling of the weights pass left out of its commit.** Folio 230,
+the table of contents: « Prefixi teknikala (equi-, ko-, mono-) » sets the
+three prefixes bold upright like the rest of the entry, where the
+transcription had them bold italic. Ruled together with « La hori » at
+folio 229, which was applied; this one was not. Applied now, with its note.
+
+**What moved.** One page, the table of contents' folio 230, in one line.
+`gramatiko.md`, `temi/`, `afixi/`, the anchors: unchanged. Witnesses
+121 → 122.
+
+## Rulings looked at again, on the book
+
+**ASKED WHICH OF THEIR RULINGS STOOD OUT, THE COMMISSIONER WENT BACK OVER
+THEM WITH THE BOOK IN HAND.** Two kinds were put again: rulings that sat
+oddly beside a similar one, and rulings that rested on what the photographs
+showed — the kind that folio 130's headwords had just proved unsafe.
+
+**Kept anomalies, now corrected like their kind.** Folio 189's quotation
+« La klasifiko dil genro... », kept open on 27 November when the 27 others
+were closed: closed after « mem en la Franca. », before the author's
+« Semblis a ni ». Folio 171's « bisenca.. », a double stop kept when every
+other stray stop was corrected: one stop. Both by `\VUcorrige`.
+
+**Kept, again.** Folio 93's « orsù », accented the Italian way under the
+Spanish label « S. »: as ruled. The four French words the print leaves roman
+where it usually italicises a French gloss — « directeur d'école » (118),
+« comestibles » (143), « le fait d'être mortel » (161), « pisciforme,
+lentiforme » (170): kept roman, all four.
+
+**Weights the book settles.**
+
+* Folio 186: the four « -i » the transcription read roman — « pluralo per
+  -i » three times, « -i havas » — are BOLD, like the fifth. The survey's
+  « now bold, now roman, five times on the page » was the misreading folio
+  198's turned out to be. Corrected in the transcription.
+* Folio 75: « on uzas en o ek » — « en » and « ek » are BOLD. The weights
+  pass had set them roman on the photograph the same day; reversed.
+* Folio 144: « pedi » is BOLD, like « boko, » beside it. The survey had read
+  it light and the commissioner ruled it a typo set bold by `\VUcorrige`;
+  it is a misreading, the bold transcribed, the `\VUcorrige` withdrawn.
+  The page does not change.
+* Folio 141: « -ier » in note (1) is BOLD in 1925, not roman as surveyed. It
+  stays set in italic as ruled; the `\VUcorrige` now carries the true 1925
+  reading as its first argument. The page does not change.
+* Folio 163: « kalkoza » is light italic in the book, as surveyed; its
+  correction to bold stands.
+* Of the eight bold → roman corrections of the weights pass most exposed
+  to the photographs, seven are roman in the book — « gefrati, siorulo,
+  siorino » (24), « la boni, la mali » (28), the elided adjectives with
+  their italic a (29), « qua » (38), « maxim, minim » (58), « ankore » (60),
+  « po quanta preco » (79) — and one, folio 75's, is not. The other
+  twenty-odd corrections of that kind were not put to the book.
+
+**What moved.** Four pages, folios 75, 171, 186 and 189, each in the one
+line or the lines of the « -i »; the same 62 boxes. `gramatiko.md` 492,453
+→ 492,481 bytes (+5 for « » », −1 for the stop, +16 for four bold « -i »,
++8 for « en », « ek »); `temi/`, `afixi/`, the anchors unchanged in size and
+number. Witnesses 122 → 127. Checks 1 to 7: the same 237 failures; 8 to 12
+not run, for want of the scan.

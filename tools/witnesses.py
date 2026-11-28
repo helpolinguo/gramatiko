@@ -169,6 +169,22 @@ T = [
   "'sintaxo-anke-nula-n-en': 'Anke nula -n en :'", 1),
  ('weights: « Exempli : » is not a headword', 'tools/html.py',
   "EXAMPLE_WORDS = {'Exempli', 'Exemple', 'Ex'}", 1),
+ ('weights: folio 230, the technical prefixes upright in the contents',
+  'content/20-part2.tex',
+  '\\VUindex{\\VUgras{Prefixi teknikala (equi-, ko-, mono-)}}{130}', 1),
+ # RULINGS LOOKED AT AGAIN, ON THE BOOK (28 November 2026): two kept
+ # anomalies corrected like their kind, and four weights the book settles
+ # against the survey or the photographs.
+ ('second look: folio 189, the quotation closed', 'content/20-part2.tex',
+  'mem en la Franca.\\VUcorrige{}{ »}', 1),
+ ('second look: folio 171, one stop', 'content/20-part2.tex',
+  'bisenca\\VUcorrige{..}{.}', 1),
+ ('second look: folio 186, the « -i » bold', 'content/20-part2.tex',
+  'En ica lasta linguo, \\VUgras{-i} havas', 1),
+ ('second look: folio 75, « en » and « ek » bold in the book', 'content/10-part1.tex',
+  'on uzas \\VUgras{en} o \\VUgras{ek}. Ex. :', 1),
+ ('second look: folio 141, « -ier » bold in 1925, set italic', 'content/20-part2.tex',
+  '\\VUcorrige{\\VUgras{-ier}}{\\textit{-ier}}', 1),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
  # transcription reads « acuatico », « heroina », « habias »...; that
  # letter stays in the transcription, first argument of \VUcorrige, and the

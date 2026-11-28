@@ -469,8 +469,9 @@ PARA_NUMBER = re.compile(r'\d+(?:\s*bis)?\.\s*[\u2014\u2013-]?\s*')
 # opens a numbered paragraph, and a bare « 1. » opens list items too.
 OPENS_NUMBERED = re.compile(r'\d{1,3}\.\s*[\u2014\u2013]\s')
 # THE NOTE CALL SET BEFORE THE HEAD. At folio 130 "equi-" and "ko-" carry
-# one -- an asterisk to which no note answers, the original's typo, which
-# we keep -- and it falls BEFORE the bold. The call is not the headword;
+# one -- an asterisk to which no note answers, a marker the book uses
+# without a note (ruled not a typo on 27 November 2026), which we keep --
+# and it falls BEFORE the bold. The call is not the headword;
 # nor must it prevent the headword being read, failing which the chapter
 # PREFIXI TEKNIKALA had one entry out of the three the TABELO itself gives
 # it: "Prefixi teknikala (equi-, ko-, mono-)".
