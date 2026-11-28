@@ -2936,7 +2936,7 @@ En Indo-Europana, la genro ne indikesas en la substantivo, ma en l'adjektivo :
 
 > (3) Fakto simila ne indijas exemplo mem en la Franca : *de bons* *pères, de bonnes mères*. La genro aparas nur en *bons, bonnes*.
 
-« La klasifiko dil genro maxim konocata da ni, ma ne la maxim importanta, esas la *sexuo*. Ol uzesas preske nur en la min multa lingui, nome le Indo-Europana e le Semidala. Ol esas do multe min importanta kam semblas a ni kom Europani. Mem en ta lingui ol aplikesas nur a parto di la nomi, a la nomi di l'enti sexuoza; e mem por multa animali on ne distingas maskulo e femino, adminime per chanjo di formo. Exemple en la Franca, por indikar la sexuo en : *elefanto, hieno, strucho, buvrelo, skarabeo,* *heliko*, e. c., e. c., on koaktesas adjuntar sive « maskula », sive « femina ». Tale ke, se on kontus, on trovus, ke nur ecepte la genro esas markizata, mem en la Franca. »
+« La klasifiko dil genro maxim konocata da ni, ma ne la maxim importanta, esas la *sexuo*. Ol uzesas preske nur en la min multa lingui, nome le Indo-Europana e le Semidala. Ol esas do multe min importanta kam semblas a ni kom Europani. Mem en ta lingui ol aplikesas nur a parto di la nomi, a la nomi di l'enti sexuoza; e mem por multa animali on ne distingas maskulo e femino », adminime per chanjo di formo. Exemple en la Franca, por indikar la sexuo en : *elefanto, hieno, strucho, buvrelo, skarabeo,* *heliko*, e. c., e. c., on koaktesas adjuntar sive « maskula », sive « femina ». Tale ke, se on kontus, on trovus, ke nur ecepte la genro esas markizata, mem en la Franca.
 
 Semblis a ni esar utila memorigar, kun la susteno di linguistikal autoritato :
 

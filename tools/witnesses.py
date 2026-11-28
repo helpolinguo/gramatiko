@@ -175,8 +175,9 @@ T = [
  # RULINGS LOOKED AT AGAIN, ON THE BOOK (28 November 2026): two kept
  # anomalies corrected like their kind, and four weights the book settles
  # against the survey or the photographs.
- ('second look: folio 189, the quotation closed', 'content/20-part2.tex',
-  'mem en la Franca.\\VUcorrige{}{ »}', 1),
+ ('second look: folio 189, the quotation closed where its source ends',
+  'content/20-part2.tex',
+  'maskulo e femino\\VUcorrige{}{ »}, adminime per', 1),
  ('second look: folio 171, one stop', 'content/20-part2.tex',
   'bisenca\\VUcorrige{..}{.}', 1),
  ('second look: folio 186, the « -i » bold', 'content/20-part2.tex',
