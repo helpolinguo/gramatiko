@@ -13,7 +13,7 @@ On uzas **quo** nur kande parolesas pri kozo nedeterminita; on uzas **qua** pri 
 
 Kom **adjektivo** questionala, **qua** esas nevariebla, segun la regulo generala dil adjektivi : **qua homo venis? qua homi** **venis?** (1).
 
-> (1) **Qua** koncernas nur l'individueso. Se on parolas pri la qualeso, kompreneble on uzas **quala**, advere adjektivo qualifikanta nature, ma **qua** tote darfas uzesar, e tre konvene, por questionar « quala » esas persono, animalo od objekto : **quala il esas? kad il esas olda o** **yuna, afabla od acerba?** Me vidis lu apene, do me ne povas dicar **quala il esas.**
+> (1) **Qua** koncernas nur l'individueso. Se on parolas pri la qualeso, kompreneble on uzas **quala**, advere adjektivo qualifikanta nature, ma qua tote darfas uzesar, e tre konvene, por questionar « quala » esas persono, animalo od objekto : **quala il esas? kad il esas olda o** **yuna, afabla od acerba?** Me vidis lu apene, do me ne povas dicar **quala il esas.**
 
 Mem kom pronomo, lu restas nevarianta, se lu esas subjekto : **qua venis?** Ma, se lu divenas direta komplemento *e* *preiras la subjekto*, lu recevas **n** finala, por preventar omna miskompreno : **quan vu vidis?** En ta frazo, *qua*(*n*) esas komplemento direta ed ol preiras la subjekto **vu** (2).
 

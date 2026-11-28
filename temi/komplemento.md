@@ -56,7 +56,7 @@ Infinitivo, o participo havanta komplemento, konstitucas propoziciono : **me v
 
 ## [PREPOZICIONI PREFIXA](../chapitri/prepozicioni-prefixa.md) — bloko 2 (sen numero en la libro)
 
-> (1) « Nia kunfrato ne prizas la regulo, qua igas *transitiva* la verbi kompozita ek verbo *netransitiva* e prepoziciono, quale *en-irar,* *ek-irar*; ed il preferas repetar la prepoziciono. To esas ya permisata, sed (ma) tote superflua, nam en : *me eniras en la chambro*, l'ideo esas dufoye expresata. Tote logike, *me eniras la chambro* = *me iras* *en la chambro*. L' « equivalo » esas « perfekta »; to ne esas « subtilajo »; la verbo divenis transitiva, *absorbante* la prepoziciono ipsa, qua « regas » la komplemento. (Komparez *travidar, trairar*, e. c.) *Progreso*, II, 304, noto.
+> (1) « Nia kunfrato ne prizas la regulo, qua igas *transitiva* la verbi kompozita ek verbo *netransitiva* e prepoziciono, quale *en-irar,* *ek-irar*; ed il preferas repetar la prepoziciono. To esas ya permisata, sed (ma) tote superflua, nam en : *me eniras en la chambro*, l'ideo esas dufoye expresata. Tote logike, *me eniras la chambro* = *me iras* *en la chambro*. L' « equivalo » esas « perfekta »; to ne esas « subtilajo »; la verbo divenis transitiva, *absorbante* la prepoziciono ipsa, qua « regas » la komplemento. (Komparez *travidar, trairar*, e. c.) » *Progreso*, II, 304, noto.
 
 ## § 66 — [PREPOZICIONI](../chapitri/prepozicioni.md)
 

@@ -13,7 +13,7 @@ Omna rupto dil ordino normala nomizesas *inversigo*, sive pro ke la komplemento 
 
 *La questionanta vorti* sempre komencas la propoziciono e ne diplasas la subjekto : **Kad vu venos; dicez kad vu venos.** **— Quo eventis? Quon vu vidas? — Quantin me kontis?** **me ne plus memoras.**
 
-*L'atributo* devas quik sequar la verbo esar : **Esez mizerikordioza por omni,** e ne : *esez por omni mizerikordioza.* — Il *ne* toleras to, quo esas erora segun sua konvinkeso, e ne : *il ne* *toleras to, quo esas segun sua konvinkeso erora,* en qua *erora* semblas relatar *konvinkeso*. E tale kun omna verbo havanta atributo : **Il mortis tre povra de pekunio, ma richa de vertui,** e ne : *il mortis de pekunio tre povra, ma de vertui richa.*
+*L'atributo* devas quik sequar la verbo esar : **Esez mizerikordioza por omni,** e ne : *esez por omni mizerikordioza.* — **Il** *ne* **toleras to, quo esas erora segun sua konvinkeso,** e ne : *il ne* *toleras to, quo esas segun sua konvinkeso erora,* en qua *erora* semblas relatar *konvinkeso*. E tale kun omna verbo havanta atributo : **Il mortis tre povra de pekunio, ma richa de vertui,** e ne : *il mortis de pekunio tre povra, ma de vertui richa.*
 
 *L'adjektivo* avan o dop lua substantivo (Videz en la gramatiko, ye adjektivo). Ma ne sistematre avan la substantivo, quale en la Germana e l'Angla,
 

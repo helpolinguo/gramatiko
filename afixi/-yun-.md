@@ -11,7 +11,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 **-yun-.** — La radiko **yun** uzesas kom sufixo por la « *yuni* » l'infanti dil bestii : **bovyuno** = *yuno di la bova speco;* **bovyunulo** = *yuna bovulo;* **bovyunino** = *yuna bovino;* **hanyuno,** **porkoyuno, katyuno, leonyuno,** e. c.
 
-Por la homa genituro, quale on ja savas, nur filio, infanto, puero esas uzenda, e kun indiko pri la sexuo : filiulo, filiino; infantulo, infantino; puerulo, puerino.
+Por la homa genituro, quale on ja savas, nur **filio, infanto, puero** esas uzenda, e kun indiko pri la sexuo : **filiulo,** **filiino; infantulo, infantino; puerulo, puerino.**
 
 Ultre **yun** la radiki **es,** **ig** e **ag** (3) uzesas kom sufixo.
 

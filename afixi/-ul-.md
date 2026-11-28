@@ -9,7 +9,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 ---
 
-**-ul-.** — Adoptita per la decido 1090, pos tote fundamentala studiado dil questiono. Yen la texto di la decido : « On adoptas la sufixo -ul *por indikar maskula sexuo* » (decido, 714 : V, 65). Specala noto dicas : « Komprenende, ico ne exkluzas la formaco di kompozaji quale *porko-maskulo*; ma *pork-ulo* esas equivalanta e plu kurta. La sufixo -ul ya esas abreviuro di *(mask)ulo*, quale -in esas abreviuro di *(fem)ino*. »
+**-ul-.** — Adoptita per la decido 1090, pos tote fundamentala studiado dil questiono. Yen la texto di la decido : « On adoptas la sufixo **-ul** *por indikar maskula sexuo* » (decido, 714 : V, 65). Specala noto dicas : « Komprenende, ico ne exkluzas la formaco di kompozaji quale *porko-maskulo*; ma *pork-ulo* esas equivalanta e plu kurta. La sufixo **-ul** ya esas abreviuro di *(mask)ulo*, quale **-in** esas abreviuro di *(fem)ino*. »
 
 La decido pri ul esabis preirata da ica (1089) : « On decidas definitive, ke la substantivi generale signifikez nedeterminita sexuo » (decido, 714 : V, 65). Exempli : **avulo,** **patrulo, onklulo, fratulo, kuzulo, siorulo; bovulo, katulo,** **hundulo; finkulo, sturnulo; luciulo, karpulo, tenkulo, perkulo; leonulo, panterulo, tigrulo, hienulo,** e. c., e. c. (1).
 

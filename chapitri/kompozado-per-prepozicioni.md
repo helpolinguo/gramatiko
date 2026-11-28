@@ -13,7 +13,7 @@ La kompozado per prepozicioni formacas la transito inter la derivado e la kompoz
 
 Ma, kande la prepoziciono esas unionita a nomal radiko, on devas generale komencar la deskompozo de la prepoziciono ipsa; altravorte : on sequas l'ordino di la elementi. Ex. : **sen-hara** = *sen hari*; **sur-tera** = *qua esas sur tero*; **sub-mara** = *qua esas sub maro*; **super-natura** = *qua esas* *super la naturo*; **inter-naciona** = *qua esas inter nacioni*; **inter-popula**, **inter-homa** = *qua esas inter la populi, la homi*; **inter-yuna** = *qua esas inter yuni*, e. c., e. c.
 
-Konseque on darfas dicar : intertempo, intertempe; interakto; subtaso, subvesto, subjupo, e. c.
+Konseque on darfas dicar : **intertempo, intertempe; interakto; subtaso, subvesto, subjupo,** e. c.
 
 Ta duopla regulo posibligas interpretar korekte la verbi kompozita per **-igar** e prepoziciono; on devas komencar de la verbo **igar** : **enter-igar** devas analizesar **igar entera**, e ne **en-terigar**, qua havus nula senco; **sen-arm-igar** = *igar senarma.*
 

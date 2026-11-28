@@ -13,7 +13,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 > (1) « L'iterado o frequeso di l'ago esas expresata en Ido per derivado, nome per la sufixo *-ad* : *pafar, pafadar, parolar, paroladar.* » (*Progreso*, IV, 390, noto.)
 
-*Polko, valso*, e. c., esas dansi; ma dansado esas to, quon ni altre nomizas : dansarto : dansado esas praktikata da omna populi ed en omna epoki.
+*Polko, valso*, e. c., esas **dansi;** ma **dansado** esas to, quon ni altre nomizas : **dansarto : dansado esas praktikata da omna** **populi ed en omna epoki.**
 
 **Parolo** esas frazo, frazeto pronuncata : il dicis a me : « **vu esas idiota** »; il do insultis me per ta parolo. — **Parolado** esas la fakultato o la maniero parolar (2) ed anke longa uzo kontinua dil parolado : **Parolado grantesis nur a la** **homi. Ne ilua diskurso hierala fatigis lu, ma lua trihora** **parolado kun l'advokato camatine.**
 

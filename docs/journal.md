@@ -4966,6 +4966,8 @@ the warning of this review: in part 2 the survey's bold and roman are not
 to be trusted without enlarging** — the rule on weight, nine first readings
 out of nine wrong, has six more pages to its name. A dedicated pass on
 weights against the spreads would likely find more.
+*(It did, on 71 leaves of both parts: see « Weights checked against the
+spreads », below.)*
 
 **Three letters.** Folio 163 opens « Ne konfundez », not « No »; folio 143
 reads « IV, 521 », a comma; and folio 180's « Amerika » carries its stress
@@ -5133,6 +5135,8 @@ with «, on leaf 15 and folios 35, 36, 49, 52, 57, 61, 64, 66, 67, 69, 81,
 printer did not reopen — not necessarily a fault — and some were already
 ruled on and kept (189). Each wants its page; none is a typo until it has
 been looked at.
+*(Checked since, all 44, and 27 of them ruled corrected: see « Unclosed
+quotations checked against the page », below.)*
 
 **What moved.** Against `main`: 11 pages differ, each in one to three
 line-high bands at the corrected marks and words; same 62 boxes.
@@ -5140,3 +5144,178 @@ line-high bands at the corrected marks and words; same 62 boxes.
 `afixi/` unchanged in size; anchors, paragraphs, notes, blocks unchanged.
 Witnesses 94 → 100. Checks 1 to 7: the same 237 failures. Checks 8 to 12 not
 run, for want of the scan.
+
+## Unclosed quotations checked against the page
+
+**OF THE 44 QUOTATIONS LEFT OPEN, 28 ARE FAULTS OF THE PRINT, AND THE
+TRANSCRIPTION HAD MISREAD NONE.** Each of the 44 paragraphs listed at the
+end of the previous entry was looked at on the photographed spread,
+enlarged, and its quotation followed to wherever it closes, or to where
+the page shows it never does.
+
+**Nine run on.** A quotation of several paragraphs whose later paragraphs
+the printer did not reopen, the French usage, closes further on: leaf 15
+(at the end of the next paragraph), folios 35, 104 (in the notes of 105),
+159, 173, 174 (on 175), 182 (at the foot of 183), 204, and 213 (on 214,
+Kovacic's article). The scan that listed them looked one paragraph ahead
+and no further; these close two, three paragraphs or a page later. At
+folio 204 the quoted speaker is still « me » in the next paragraph, and
+there is no « before « donez », enlarged five times; the quotation closes
+at « ...di ca melono ». ».
+
+**Seven are the book's way.** One » closing two nested quotations at once,
+folios 49, 57, 145, 153–154 and 217 — « per : « per parolo, per letro ». ».
+And twice a quotation reopened after an ellipsis without having been
+closed, folios 201 and 202 — « ...ol aplikesas... « Logikale la
+substituco... ». Nothing is missing in either; nothing done.
+
+**Twenty-eight close nowhere.** One of them, folio 189, the commissioner
+had already ruled kept. The other 27 were put to the commissioner one by
+one, each with the place a » would go, and each was ruled corrected at
+that place:
+
+| folio | quotation | » set |
+|---|---|---|
+| 36 | decision 950, in a note | after « en ica kazo. », before « (Mondo, XI, 296.) » |
+| 53 | « Grammaire Complète (...) fixigas... » | at the end of the note: the Kontinuigar paragraph is quoted |
+| 61 | Jespersen, « Kontre la adopto di never... » | after « la expresenda ideo », before the reference |
+| 65 | « Kelka samideani astonesas... » | after « per spontane », before « (Progreso, V, 96) » |
+| 66 | the title « Dictionnaire Français-Ido | after the title, before the comma |
+| 67 | « ne tote vera | after « vera », as « tote ne vera » before it |
+| 69 | « tri monati ante nun | after « nun », before the comma |
+| 81 | « okulo po okulo e dento po dento | after « dento », before the stop, in the bold run |
+| 85 | decision 1094 | after « koncerne ulo », before the reference |
+| 89 | « On demandas ofte de ni... » | after « di la cienco. », before the reference |
+| 126 | ge-, « la ensemblo di la du sexui | before the call (3) |
+| 132 | « Nia kunfrato ne prizas la regulo... » | after « (Komparez... e. c.) », before « Progreso, II, 304 » |
+| 139 | two Progreso quotations in the notes | before « (Progreso, VI, 595) »; before « (Progreso, VI, 594) » |
+| 141 | -ari-, « persono a qua ula ago... | after « destinata », before the call (2) |
+| 157 | « La sufixo -il- perfekte konkordas... » | after « skribilo », before the reference |
+| 165 | -um-, the note quoted | at the end of the paragraph, « Komprenende... » included |
+| 171 | the Progreso quotation | after « tempo! », as at folio 170 |
+| 179 (leaf 183) | « l'ortografio di l'internaciona vorti... » | after « gêologia. », the two lines of examples included |
+| 181 | Jespersen's text | after « chanjis... », at the foot of the page |
+| 196 | Progreso, I, 565 | after « la kozi », before the call (3) |
+| 198 | note (1) | at the end of the note |
+| 199 | Couturat; de Janko | before « (Progreso, II, 602) »; before the call (1) |
+| 200 | Couturat's reply; « objekto | before the call (1); after « objekto », as « « objekti » » the line above |
+| 215 | « Ne nur D. ed F. havas verbi... » | at the end, before VORTORDINO |
+
+All set by `\VUcorrige{}{ »}`, each of the twenty-four leaves with a RULED
+note; folios 199 and 200, which had no note, have one now.
+
+**Where a quotation ends at a note call or a reference, the » goes before
+it**: what is quoted is the text, and « (3) » or « (Progreso, VI, 595) » is
+the author's. That is what the book does where it does close them —
+folio 170, « Nula dio! » (Progr., VII, 497.) », and folio 196 itself,
+« qualesi. » (1) ». And at folio 200 the final » before (3) closes both
+« ento » and the outer « Konseque... », as at folio 49; it stays.
+
+**What moved.** Against `main`: 24 pages differ, each in one line-high
+band at the mark (two on folios 139, 199 and 200); the same 62 boxes, box
+for box. `gramatiko.md` 491,934 → 492,069 bytes — 27 marks of five bytes
+each, the narrow no-break space and the guillemet; `temi/` 171,591 →
+171,611; `afixi/` 133,238 → 133,268; anchors, paragraphs, notes, blocks
+unchanged. Witnesses 100 → 106. Checks 1 to 7: the same 237 failures, line
+for line. Checks 8 to 12 not run, for want of the scan.
+
+## Weights checked against the spreads
+
+**THE TRANSCRIPTION MISREAD THE WEIGHT ON 71 LEAVES, OF BOTH PARTS; THE
+PRINT ITSELF ERRS ON THREE.** Folios 12 to 232 were compared, weight by
+weight, with the photographed spreads, by three surveys run side by side
+(12–85, 86–159, 160–232). Every candidate was enlarged three to ten times
+and set against words of undoubted weight on its own line, and measured:
+the mean stroke width of each word, roman running about 1.5–1.9 and bold
+2.0–2.6 at the scale of the spreads, the ratio within the line counting more
+than the figure. Each was looked at again on its crop before it was put to
+the commissioner, folio by folio; 77 questions in all.
+
+**What the transcription had misread, by kind.**
+
+* *Bold runs that took in roman words.* The « o » the book sets roman
+  between bold alternatives (folios 91, 92, 98, 107, 108); the word that
+  announces an example, « Altr exemplo : », « Exemple : », « Ex. : »,
+  « Pose : » (87, 92, 94); the author's gloss or rule set inside the
+  example around it (49, 58, 72, 74, 79, 81, 98, 99, 106, 108, 145, 148,
+  157); « e. c. » closing a bold list (160); the letter names of folio 74's
+  reading-order passage, five lines.
+* *Roman read for bold.* Examples (22, 41, 53, 60, 125, 134, 144, 150, 203,
+  215), among them FOUR THAT RUN OVER A PAGE and lost their weight on the
+  new one (64, 69–70, 72, 77); the cited forms of a list (61's nine time
+  adverbs, 62, 143, 167, 172); the endings and letters the appendices cite
+  in running text (184, 196, 198, 199, 200, 202, 205, 206, 210, 211, 212)
+  and the comparative's suffixes (31); single words — « opi- » (16), « lua »,
+  « lia » (35), « que » between two French italics (108), « (decas) »
+  (107), « suis » (215).
+* *Italic read for upright.* « ia » (26); « L'adverbi di tempo » (59),
+  where § 55 is italic; the « o » between italic alternatives (51, 66);
+  « me ja esis skribinta o skribabis » (107), which is bold; the capital M
+  of « Mea filii » (194), bold before an italic rest.
+* *The table of contents*: « La » of « La hori » is roman (229).
+
+All corrected in the transcription, each leaf with its note.
+
+**Three typos of the print, ruled.** Folio 55, « necesa esas »: an italic
+« n » before a bold upright « ecesa esas » (11–12.6 against 9.4–9.9 for the
+roman of the line), a wrong fount — transcribed as printed, SET bold. Folio
+96, the page number « 353 » of « Progreso, II, 353 » printed bold —
+transcribed bold, SET roman. Folio 195, « grandeso » roman where its twin
+« povreso » is bold — transcribed roman, SET bold. Each by `\VUcorrige`.
+
+**A ruling withdrawn.** On folio 198 the survey had recorded the cited
+endings « now in bold, now in roman », settled at ×10, and on 27 November
+the commissioner ruled « -a » and « -aj » set bold by `\VUcorrige`.
+Enlarged on the spread, every ending on the page is bold — « -aj », « -a »,
+five « -u », « (a) ». The page is not irregular; the two `\VUcorrige` are
+withdrawn and the bold transcribed. The leaf's note says so where the
+ruling is written.
+
+**Kept**, by the commissioner, against a reading that was only probable or
+odd: « nam » (92), « Ma » (113), « il vendas olda ferajo, fripi » (136),
+« -ier » (141, as ruled on 27 November), « la » (20), « a » (48), « (-ita) »
+(49), « -e » (50), « ica. » and « da » (71), the table's « de o ek » (31).
+
+**Undecided even enlarged, and left as transcribed**: « Ex. » before bold
+examples (29, 33); single letters « i », « j » (24), « i », « (ita) » (37),
+« (-i) » (43); « Ma » (33); « la » (38); « volas lo » (40); « -u » (42);
+« inter- » (54); « -e » (56, 57, 66); « dope » (63); « Sen » (68); « vice »,
+« Do dicez : » (81); « de » (82); « -um » (165); « u » (182); « kam -s
+(-es) » (184); « per -i », four times (186); « Italiana. » (203);
+« arivinta de du hori » (216).
+
+**Two survey remarks that do not say which words.** Folio 172: « a list
+that looked bold on the strip is roman at high magnification »; folio 196:
+« three false readings of weight avoided under magnification ». The one
+list of folio 172 measures bold (6.1–6.9 against 5.0–5.3 for « on darfas
+dicar »), and folio 196's « felico » and « fiero » are bold beside a roman
+« la feliceso ». Both remarks are annotated where they are written.
+
+**THE ADDRESSES.** `html.py` derives an anchor from the headword and the
+headword from the weight, so correcting a weight can move an address. Four
+headwords lost words to these corrections — « Ante ke; pos ke; depos ke o
+de kande », « Kad ne o ka ne? », « Lore kande; quik kande; same kam... »,
+« Anke nula -n en » — and their four published anchors would have gone.
+`KEPT_ADDRESSES` keeps each on its paragraph, found by the opening of its
+text, and stops the build if one finds no paragraph; « Lore kande... »
+keeps its place in the list of headwords too. No published anchor is lost;
+nine are added, the time adverbs of folio 61 now set bold. And « Exempli : »,
+bold at folio 110, would have cut a headword « Exempli » off its paragraph:
+the word that announces an example is refused as a headword.
+
+**Not yet done: the affix headwords.** Several headwords of SUFIXI measure
+no heavier than the roman « Ta sufixo » beside them (-an-, -e-, -ebl-,
+-il-, -oid), where others are plainly bold; at folio 130 « *equi-. » and
+« *ko-. » are roman beyond doubt, « mono-. » bold. The commissioner ruled
+the two of folio 130 roman and ordered every headword surveyed. Until that
+survey is in, they stay as transcribed: `afixi.py` and `html.py` find the
+affixes, and their anchors, by that bold, and the tools must learn to find
+them otherwise before the weight can move.
+
+**What moved.** Against the previous commit: 69 pages differ, those of the
+corrected leaves (folios 96 and 195, set by `\VUcorrige` to what the page
+already showed, are pixel-identical); the same 62 boxes, box for box.
+`gramatiko.md` 492,069 → 492,453 bytes; `temi/` 171,611 → 171,649;
+`afixi/` 133,268 → 133,416; anchors 859 → 868, none lost; paragraphs,
+notes, blocks unchanged. Witnesses 106 → 121. Checks 1 to 7: the same 237
+failures, line for line; 8 to 12 not run, for want of the scan.

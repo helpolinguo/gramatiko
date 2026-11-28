@@ -13,7 +13,7 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 > (4) On bone remarkez, ke la defino dil sufixo *-ist* dicas « profesione ». Or la profesiono implikas multa okupi qui ne esas mestiero propre dicata. Mestiero esas profesiono, ma tre ofte profesiono ne esas mestiero : *ciencisto*.
 
-Per extenso, qua trovesas en nia lingui, ta sufixo indikas *adepto* o *adherinto di partiso, skolo* (doktrino) (5); **socialisto,** **materialisto, idealisto, e. c.;** ecepte se la radiko dil vorto en **-ism** ja posedas ta senco : **Kristano, skeptiko, mistiko,** **katoliko, protestanto, e. c.**
+Per extenso, qua trovesas en nia lingui, ta sufixo indikas *adepto* o *adherinto di partiso, skolo* (doktrino) (5); **socialisto,** **materialisto, idealisto,** e. c.; ecepte se la radiko dil vorto en **-ism** ja posedas ta senco : **Kristano, skeptiko, mistiko,** **katoliko, protestanto,** e. c.
 
 > (5) Do *Idisto* ne *Idano*, tante plu ke *-an* signifikas esence : *membro* di : *societano, senatano*, ed instinte omna profani nomizas ni *Idisti*.
 

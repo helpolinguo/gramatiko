@@ -116,6 +116,59 @@ T = [
   'Same : \\VUgras{internaciona, dukapa, trifolia} (3)', 1),
  ('rulings: \\VUcorrige, part 1 with the foreign words', 'content/10-part1.tex',
   '\\VUcorrige{', 17),
+ # Folios 36 to 215: THE UNCLOSED QUOTATIONS, checked against the page.
+ # 44 paragraphs where a quotation opened and did not close; 27 faults of
+ # the print, closed where the commissioner ruled (docs/journal.md,
+ # « Unclosed quotations checked against the page »). Counts are minima,
+ # the transcription's own lines alone: 14 closing marks set in part 1,
+ # 29 in part 2.
+ ('quotations: closing marks set, part 1', 'content/10-part1.tex',
+  '\\VUcorrige{}{ »}', 14),
+ ('quotations: closing marks set, part 2', 'content/20-part2.tex',
+  '\\VUcorrige{}{ »}', 29),
+ ('quotations: folio 53, the end of the note', 'content/10-part1.tex',
+  'kurta interrupto.}\\VUcorrige{}{ »}', 1),
+ ('quotations: folio 81, inside the bold run', 'content/10-part1.tex',
+  '\\VUgras{dento po dento\\VUcorrige{}{ »}. ---', 1),
+ ('quotations: folio 165, the whole note quoted', 'content/20-part2.tex',
+  'apartenas al Akademio.\\VUcorrige{}{ »}', 1),
+ ('quotations: folio 200, « objekto » closed', 'content/20-part2.tex',
+  'simple « \\VUgras{objekto}\\VUcorrige{}{ »} od « ento » (3).', 1),
+ # Folios 16 to 229: THE WEIGHTS, checked against the photographed spreads
+ # enlarged (docs/journal.md, « Weights checked against the spreads »). Bold
+ # runs that took in roman words, roman read for bold, three italics that
+ # are upright; three typos of the print set by \VUcorrige; and four
+ # published anchors those corrections would have moved, kept by html.py.
+ ('weights: folio 29, the stressed a in italic', 'content/10-part1.tex',
+  'sur \\VUgras{a} en infant\\textit{a}l, amik\\textit{a}l, kor\\cc', 1),
+ ('weights: folio 55, the wrong-fount n', 'content/10-part1.tex',
+  '\\VUcorrige{\\textit{n}\\VUgras{ecesa esas}}{\\VUgras{necesa esas}}', 1),
+ ('weights: folio 61, the time adverbs bold', 'content/10-part1.tex',
+  '\\VUgras{irgekande} = ye irga tempo', 1),
+ ('weights: folio 74, the reading-order passage roman', 'content/10-part1.tex',
+  'Kontraste, se me lektus ta vorto (quale en la Hebrea) de\\nl', 1),
+ ('weights: folio 80, the whole example bold', 'content/10-part1.tex',
+  '\\VUgras{eventis koram me.}', 1),
+ ('weights: folio 96, « 353 » bold in the print', 'content/10-part1.tex',
+  '\\VUcorrige{\\VUgras{353}}{353}', 1),
+ ('weights: folio 107, upright bold, not italic', 'content/10-part1.tex',
+  '\\VUgras{me ja esis skribinta} o \\VUgras{skribabis}', 1),
+ ('weights: folio 125, the pairs of opposites bold', 'content/20-part2.tex',
+  '\\VUgras{supere, infre; alte, base; plu, min; ante, pos; avan, dop,} e. c.', 1),
+ ('weights: folio 144, the -eg- examples bold', 'content/20-part2.tex',
+  '\\VUgras{tante sufris, ke me kriegis pro doloro.}', 1),
+ ('weights: folio 195, « grandeso » roman in the print', 'content/20-part2.tex',
+  '\\VUcorrige{grandeso}{\\VUgras{grandeso}}', 1),
+ ('weights: folio 198, the endings bold, no \\VUcorrige', 'content/20-part2.tex',
+  'nur pronomal dezinenco, quale \\VUgras{-a} esis', 1),
+ ('weights: folio 202, the cited endings bold', 'content/20-part2.tex',
+  'permutar la \\VUgras{-o} ad \\VUgras{-u}', 1),
+ ('weights: folio 215, « suis » bold', 'content/20-part2.tex',
+  '\\textit{je me} \\VUgras{suis} \\textit{lavé}', 1),
+ ('weights: the four kept addresses', 'tools/html.py',
+  "'sintaxo-anke-nula-n-en': 'Anke nula -n en :'", 1),
+ ('weights: « Exempli : » is not a headword', 'tools/html.py',
+  "EXAMPLE_WORDS = {'Exempli', 'Exemple', 'Ex'}", 1),
  # Folios 12, 158, 208, 209: THE SPANISH ACCENTS, set by decision. The
  # transcription reads « acuatico », « heroina », « habias »...; that
  # letter stays in the transcription, first argument of \VUcorrige, and the

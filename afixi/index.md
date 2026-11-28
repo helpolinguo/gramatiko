@@ -14,7 +14,7 @@ La grandeso esas indikata por ke on povez selektar ANTE deskargar. La exemplo es
 | --- | --- | --- | ---: |
 | [-ab-](-ab-.md) | sufixo | amabis | 2 Ko |
 | [-ach-](-ach-.md) | sufixo | kavalacho | 1 Ko |
-| [-ad-](-ad-.md) | sufixo | Parolado | 2 Ko |
+| [-ad-](-ad-.md) | sufixo | dansado | 3 Ko |
 | [-ag-](-ag-.md) | sufixo | krucagar | 2 Ko |
 | [-aj-](-aj-.md) | sufixo | amikalajo | 3 Ko |
 | [-al-](-al-.md) | sufixo | avanbrakiala | 7 Ko |
@@ -25,7 +25,7 @@ La grandeso esas indikata por ke on povez selektar ANTE deskargar. La exemplo es
 | [-e-](-e-.md) | sufixo | rozea | 1 Ko |
 | [-ebl-](-ebl-.md) | sufixo | dicebla | 2 Ko |
 | [-ed-](-ed-.md) | sufixo | bokedo | 1 Ko |
-| [-eg-](-eg-.md) | sufixo | kruelega | 3 Ko |
+| [-eg-](-eg-.md) | sufixo | varmega | 3 Ko |
 | [-em-](-em-.md) | sufixo | agema | 3 Ko |
 | [-end-](-end-.md) | sufixo | facenda | 1 Ko |
 | [-er-](-er-.md) | sufixo | iracera | 3 Ko |

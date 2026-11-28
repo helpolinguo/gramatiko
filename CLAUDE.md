@@ -41,13 +41,13 @@ a reason is a defect, not a detail:
 Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
-    python3 tools/html.py             # 859 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 491,934 bytes
-    python3 tools/temi.py             # 9 topics over 1643 blocks, 171,591 bytes
-    python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,238 bytes
-    python3 tools/witnesses.py        # 100 witnesses, exits non-zero if one is lost
+    python3 tools/html.py             # 868 anchors, 1231 paragraphs, 412 notes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,453 bytes
+    python3 tools/temi.py             # 9 topics over 1643 blocks, 171,649 bytes
+    python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,416 bytes
+    python3 tools/witnesses.py        # 121 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED SEVEN TIMES. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED NINE TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -135,8 +135,33 @@ more misreading, a bracket the transcription had added at folio 63; and
 folio 173's second list, « internaciona, dukapa, trifolia », « longhara »,
 read roman and printed bold. 491,891 → 491,934 bytes in `gramatiko.md`,
 171,572 → 171,591 in `temi/`.
-About forty other unclosed quotations are listed in the journal and not
-yet checked against the page.
+About forty other unclosed quotations were listed in the journal, not
+yet checked against the page — checked since: the eighth time.
+
+**THE EIGHTH TIME, the unclosed quotations.** All 44 looked at on the
+spreads: none misread; nine run on and close later, seven are the book's
+way (one » closing two nested quotations, or a quotation reopened after
+an ellipsis), and 28 close nowhere — one already ruled kept (folio 189),
+27 ruled corrected by the commissioner, each at the place proposed,
+by `\VUcorrige{}{ »}`. 491,934 → 492,069 bytes in `gramatiko.md`, five
+bytes a mark; 171,591 → 171,611 in `temi/`, 133,238 → 133,268 in
+`afixi/`; anchors, paragraphs, notes and blocks unchanged. See the
+journal, « Unclosed quotations checked against the page ».
+
+**THE NINTH TIME, the weights, checked against the spreads.** Folios 12 to
+232, every weight in doubt enlarged and measured within its line: the
+transcription had misread it on 71 leaves of both parts — bold runs that
+took in a roman « o », « Ex. : » or the author's gloss; examples, cited
+forms and endings read roman; four italics that are upright — all
+corrected in it. Three typos of the print set by `\VUcorrige` (folios 55,
+96, 195), and one ruling of 27 November withdrawn: folio 198's endings are
+bold in the print, not irregular. 492,069 → 492,453 bytes in
+`gramatiko.md`, 171,611 → 171,649 in `temi/`, 133,268 → 133,416 in
+`afixi/`; **anchors 859 → 868**: nine time adverbs that are bold now have
+one, and the four that a shortened headword would have moved are KEPT by
+`KEPT_ADDRESSES` in `tools/html.py` — a weight corrected must not move an
+address. The affix headwords are not yet settled: see the journal,
+« Weights checked against the spreads ».
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename

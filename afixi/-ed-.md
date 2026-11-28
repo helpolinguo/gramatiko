@@ -13,4 +13,4 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 Altra exempli : **kulieredo, pladedo, bruetedo, charetedo,** **chariotedo, kamionedo, nestedo, aguledo, pinchedo, glutedo,** **brakiedo, kruchedo, potedo, e. c., e. c.**
 
-Me drinkis nur un glutedo de vino. — Il prenis ofte pinchedo di sniflotabako ek mea tabakuyo.
+**Me drinkis nur un glutedo de vino.** — **Il prenis ofte pinchedo di sniflotabako ek mea tabakuyo.**

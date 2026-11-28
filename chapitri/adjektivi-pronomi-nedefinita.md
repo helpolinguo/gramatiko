@@ -29,7 +29,7 @@ Kande to esas posibla, li produktas individual pronomi, quale sube, per la simpl
 
 > (3) **Kelka** indikas nombro min granda kam **multa** e plu granda kam **plura**, qua povas indikar mem nur du, okazione.
 
-**Singla** (L. *singuli*, E. I.), pronomo : **singlu**, plur. **singli,** indikas konsiderante la unaji aparte. Ol havas senco distributiva e signifikas : *un po un, unope*, sive on uzas lu singulare, sive on uzas lu plurale. Ex. : **singla soldato** o soldati recevis duopla porciono. — **Il parolis a singlu.**
+**Singla** (L. *singuli*, E. I.), pronomo : **singlu**, plur. **singli,** indikas konsiderante la unaji aparte. Ol havas senco distributiva e signifikas : *un po un, unope*, sive on uzas lu singulare, sive on uzas lu plurale. Ex. : **singla soldato** o **soldati** **recevis duopla porciono.** — **Il parolis a singlu.**
 
 **Omna** (L. *omnis*; omnibus), pronomo : **omnu**, plur. **omni,** indikas konsiderante l'ensemblo. Ol havas senco kolektiva, sive on uzas lu singulare, sive on uzas lu plurale. Ex. : **Omna homo** o **omna homi esas mortiva**, signifikas egale : **la homi senecepte esas mortiva** (1).
 
