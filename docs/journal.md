@@ -5666,3 +5666,71 @@ anchors, paragraphs, notes, blocks unchanged. The unnumbered blocks'
 bytes in `temi/index.md`, 249,418 → 249,431, corrected in CLAUDE.md where
 it gives them. Witnesses 142 → 146; folio 74's typo witness named its line
 with the closing `%` and is repointed, not deleted.
+
+## A real space between words
+
+**THE PDF HAD NO SPACE CHARACTER BETWEEN ITS WORDS, AND APPLE BOOKS LOST
+THEM ON EVERY LINE SET TIGHT.** The commissioner searched « nom » in Apple
+Books and got back, from folio 16, « Ma,prokelanomidilasepdiisemanalaneesaskom
+pozaji ». pdfTeX writes no space: between two words it moves the pen, a
+kern in a TJ array or a new Tm where the font changes, and the reader
+guesses the words from the gaps. That line's spaces are shrunk to 1.83 pt,
+0.18 em. Measured over the volume: 427 lines have a gap between words
+under 0.185 em, 5 % of the book.
+
+**\pdfinterwordspaceon, tried and given up.** pdfTeX's own fake spaces, in
+the pdfTeX of TeX Live 2023 (1.40.25), measured on test pages: a space is
+written only where the gap reaches 0.185 em of the size set in the PDF
+(1.47 pt in the 7.85 pt notes, 1.89 pt at 10.2 pt, 3.7 pt at 20 pt) —
+neither \fontdimen2 nor \fontdimen6 moves that threshold, so the tight
+lines, the ones that fail, get none; and none at all where a space meets a
+change of font: « aa *bb* cc **dd** ee » came out « aabbccddee », the
+book's « revuo *Progreso* » « revuoProgreso ». It also moved every glyph
+by up to 0.01 pt, enough to change 227 pages' pixels at 100 dpi.
+
+**`tools/word_spaces.py`**, run by `build.mk` after pdflatex, writes the
+spaces into the finished PDF: at each gap between words, a space glyph of
+pdfTeX's own space font (dummy-space, mapped to U+0020 as pdfTeX maps it),
+sized so that its advance IS the gap — no repositioning, the next glyph
+starts where the kern put it. A gap between words is a kern 0.12 em beyond
+its run's LETTER LEVEL, inside a TJ array, or the jump to the next run of
+the same line where the font changes. The letter level is zero in ordinary
+text and the spacing between letters in a letterspaced run (the notes,
+\lsstyle, 0.07-0.08 em; titles and apparatus set with \textls, up to 0.26).
+
+**Four ways of reading the letter level were given up, each on the
+volume's own runs** — they are recorded in the tool's docstring: the median
+kern (one-letter words: « flori, e ne : li » lost its spaces, seventy-odd
+runs with it); a cut at the largest jump (one kern of the font decided:
+« P r o g r. »); the commonest kern in any run (folio 121's tight line had
+its own gaps between words taken for letter spacing); the commonest kern in
+letterspaced runs only (font kerning cuts ordinary words into single
+glyphs: « triacent,eladuesma:deketri »). What holds: the LOWER QUARTILE of
+the kerns between two single letters or digits, in a run that is
+letterspaced (85 % single glyphs, four at least) or made of single letters
+only; held under 0.3 em unless all letters. And a run is paired with the
+previous run OF ITS OWN LINE, not of the stream: folio 31's table puts a
+large brace, on another baseline, between « Komparativo » and « egaleso ».
+
+**What was verified.** 77,961 spaces inside runs and 11,387 between runs.
+All 236 pages rendered at 100 dpi against the build without them:
+identical, every pixel — at 6 decimals the space's size moved one glyph of
+folio 43 by 2.3e-6 pt and 27 pixels with it; at 8, no page moves. The
+413,742 glyphs: the same characters, none moved by more than 1.9e-7 pt.
+pdftotext's text, which guesses from the gaps: identical before and after,
+so no space fell inside a word. Read by its space characters alone, the
+volume's words were then compared with pdftotext's, page by page: the
+differences left are pdftotext's own — titles tracked letter by letter,
+« ( A p e n d i c o 5 m a . ) », « S I NTAXO », which the spaces read
+right — and the Tabelo's leader dots. Every gap wider than 0.5 em with no
+space in it was listed: four, each right as it is (a superscript call
+between « 243 » and its comma; the pieces of a brace). The outline, the
+256 links and the metadata are kept; the output is the same bytes from
+the same input; the tool will not run twice on one file.
+
+The file grows from 1.76 to 2.19 MB: 124 KB of it because pypdf, which
+rewrites the file, writes no object streams; the rest is the spaces.
+Checks 1 to 7: the same 237 failures; 8 to 12 not run, for want of the
+scan. Nothing else moves — the page and the Markdown come from the
+transcription, not from the PDF. Not tested in Apple Books itself: there
+is no Apple device here. Witnesses 146 -> 148.

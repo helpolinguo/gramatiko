@@ -29,7 +29,7 @@ piece of work starts again from `main`, and it is a new pull request.
 
 The volume compiles, always, and the twelve checks run against it:
 
-    make -f build.mk          # gramatiko.pdf
+    make -f build.mk          # gramatiko.pdf, then its word spaces (pypdf)
     make -f build.mk checks   # the twelve checks
 
 Two of them are expected to speak, and a third figure that moves without
@@ -45,7 +45,7 @@ transcription and from nothing else:
     python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,517 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,661 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,424 bytes
-    python3 tools/witnesses.py        # 146 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 148 witnesses, exits non-zero if one is lost
 
 **THE FIGURES ABOVE HAVE MOVED FOURTEEN TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
@@ -217,6 +217,11 @@ that end their note ».
 merge: one characteristic string per fix already made. When a rename
 moves an identifier a witness names, the witness is repointed — it is
 not deleted.
+
+The PDF's text layer is written twice: by pdflatex, and then by
+`tools/word_spaces.py`, which puts a real space character into every gap
+between words. A change to that tool is checked by rendering every page
+against the previous build: not one pixel may move.
 
 Several of these want the scan, which is **not in the repository**
 (167 MB, `scan/pages/f0001.jpg` … `f0240.jpg`), and `pdflatex`,

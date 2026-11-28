@@ -54,7 +54,10 @@ make -f build.mk checks          # the twelve checks
 The build file is named `build.mk` rather than `Makefile` for a reason recorded
 in the journal.
 
-The LaTeX build needs `pdflatex` with XCharter and newtx. The tools need
+The LaTeX build needs `pdflatex` with XCharter and newtx, and then Python 3
+with `pypdf`: `tools/word_spaces.py` writes a real space character between
+the words of the finished PDF, which pdfTeX does not, so that a reader's
+search finds them on lines set tight. The tools need
 Python 3 with `numpy`, `Pillow` and `opencv-python`; the scan-facing ones also
 want `pdftotext`, `pdfinfo` and `pdftoppm` (poppler). The 167 MB scan is not in the
 repository — the transcription and the composed volume are.
@@ -172,7 +175,7 @@ that each note is a paragraph.
 
 `tools/witnesses.py` is the other half: one characteristic string per fix, so
 that a lost container or a bad merge is detected rather than discovered later.
-It exits non-zero if any fix has gone missing. It checks **146** witnesses.
+It exits non-zero if any fix has gone missing. It checks **148** witnesses.
 
 **CHECK 4 REPORTS ONE FAILURE, AND IT IS CORRECT AS TRANSCRIBED. DO NOT
 "FIX" IT.**
