@@ -7,22 +7,22 @@ ko. Mem even-tas, ke l'unesma
   3. Overfull \hbox (2.31773pt too wide) in paragraph at lines 725--725
 \T1/XCharter-TLF/m/n/7.85/78ls (-20) en l'Italiana ed en Slava lin-gui ? Se on 
 opin-ionas nel-ogikala la pro-cedo
-  4. Overfull \hbox (4.37204pt too wide) in paragraph at lines 998--1006
+  4. Overfull \hbox (4.37204pt too wide) in paragraph at lines 1003--1011
 \T1/XCharter-TLF/m/n/10.2 (-20) sennombra. Cetere quale se-lek-tar in-ter \T1/X
 Charter-TLF/m/it/10.2 (-20) Gio-vanni, Jean, Jo-hann,
-  5. Overfull \hbox (3.00705pt too wide) in paragraph at lines 1149--1156
+  5. Overfull \hbox (3.00705pt too wide) in paragraph at lines 1154--1161
 \T1/ntxtlf/b/n/9.99594 Kaspia Maro, Kas-pio; Maro Medit-er-anea, Medit-er-a-neo
 ; Atlan\T1/XCharter-TLF/m/n/10.2 (-20) -
-  6. Overfull \hbox (1.67561pt too wide) in paragraph at lines 1300--1300
+  6. Overfull \hbox (1.67561pt too wide) in paragraph at lines 1305--1305
 []\T1/XCharter-TLF/m/n/7.85/78ls (-20) L'adjektivo elizione-sas en nia lin-guo,
  e ne la sub-stan-tivo (kon-traste
-  7. Overfull \hbox (0.99419pt too wide) in paragraph at lines 3616--3617
+  7. Overfull \hbox (0.99419pt too wide) in paragraph at lines 3621--3622
 []\T1/XCharter-TLF/m/n/10.2 (-20) Esas ad-jun-tenda la se-quanta ad-verbi kom-p
 ozita o de-rivita :
-  8. Overfull \hbox (1.14929pt too wide) in paragraph at lines 6280--6280
+  8. Overfull \hbox (1.14929pt too wide) in paragraph at lines 6285--6285
 []\T1/XCharter-TLF/m/n/7.85/78ls (-20) 2. Ol impedas omna (mem sem-blanta) duse
 ncesi quin on ob-je-cio-nis
-  9. Overfull \hbox (1.56581pt too wide) in paragraph at lines 6639--6645
+  9. Overfull \hbox (1.56581pt too wide) in paragraph at lines 6644--6650
 \T1/XCharter-TLF/m/n/10.2 (-20) voco --- sem-pre devas se-quar la verbo hel-pan
 ta, e se-p-a-re-sar de
  10. Overfull \hbox (1.35205pt too wide) in paragraph at lines 350--360
