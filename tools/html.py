@@ -872,14 +872,24 @@ class Transcription(object):
                 # whole word, and a space was needed. The silent rejoining stays
                 # right when the mark is a \cc, which extraction has already
                 # resolved by welding the two halves.
+                #
+                # AND THE TEST WAS BLIND TO EVERY CONTINUATION MARKED \VUcontinue.
+                # It asked whether the fragment OPENED on a space, `h[:1]`, and
+                # took that space for the one between the words; but \VUcontinue
+                # is removed above as layout, and what it leaves at the head is
+                # the space or the newline that followed it -- which the line
+                # below then strips. So the test saw a space and laid none:
+                # folio 73's note read \u00ab frazotradukenda \u00bb from the first build of
+                # the page, and folio 64's, once folio 65 got its \VUcontinue,
+                # \u00ab sempreplu \u00bb again. The space is decided on the stripped text.
                 self.n_rejoined = getattr(self, 'n_rejoined', 0)
                 _prev_para = self.notes[target]['paras'][-1]
-                if _prev_para and not _prev_para.endswith(('-', '\u2011')) \
-                        and not _prev_para.rstrip().endswith('-') \
-                        and h[:1] not in ('', ' '):
+                _next = h.lstrip()
+                if _prev_para and _next \
+                        and not _prev_para.rstrip().endswith(('-', '\u2011')):
                     _prev_para = _prev_para.rstrip() + ' '
                     self.n_rejoined += 1
-                self.notes[target]['paras'][-1] = _prev_para + h.lstrip()
+                self.notes[target]['paras'][-1] = _prev_para + _next
                 current = target
             elif current is not None:
                 self.notes[current]['paras'].append(h.strip())
