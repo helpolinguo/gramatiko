@@ -83,11 +83,11 @@ Rezume, Ido solvas la questiono dil genro ed emendas la maskulismo di nia lingui
 
 1e Radiko di speco, konvenanta egale bone por la maskuli kam por la femini : *elefanto* (maskula o femina), *homo* (ento homa, sive maskula, sive femina), *filio* (la genitito sive maskula, sive femina) (1).
 
-> (1) Ni pasante remarkigez, ke la Franca ed altra lingui ne povas simple e sen ambigueso expresar ica ideo : *Mea filii ne plus esas* *infanti.*
+> (1) Ni pasante remarkigez, ke la Franca ed altra lingui ne povas simple e sen ambigueso expresar ica ideo : **M***ea filii ne plus esas* *infanti.*
 
-2e Sufixo *-ul* preiranta la dezinenco ed indikanta la sexuo maskulala, se oportas enuncar olu : *elefant-ulo* (elefanto maskula); *hom-ulo* (homa ento maskula); *fili-ulo* (genitito maskula).
+2e Sufixo *-ul* preiranta la dezinenco ed indikanta la sexuo maskulala, **se oportas enuncar olu** : *elefant-ulo* (elefanto maskula); *hom-ulo* (homa ento maskula); *fili-ulo* (genitito maskula).
 
-3e Sufixo *-in* preiranta la dezinenco ed indikanta la sexuo feminala, se oportas enuncar olu : *elefant-ino* (elefanto femina); *hom-ino* (homa ento femina); *fili-ino* (genitito femina).
+3e Sufixo *-in* preiranta la dezinenco ed indikanta la sexuo feminala, **se oportas enuncar olu** : *elefant-ino* (elefanto femina); *hom-ino* (homa ento femina); *fili-ino* (genitito femina).
 
 Kompreneble, se altra vorto, exemple pronomo personala, ja indikas la sexuo, la radiko di speco suficas : *mea filiulo* *ne plus esas infanto* (1); *el esas sekretario* (2) *di ministro* (3).
 

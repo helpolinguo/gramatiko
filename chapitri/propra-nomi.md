@@ -39,7 +39,7 @@ La formi **Angliano, Franciano, Germaniano, Rusiano,** **Suediano, Daniano, Polo
 
 De li venas reguloze l'adjektivi **Angla, Franca, Germana,** **Rusa, Sueda, Dana, Polona, Greka, Araba, Hispana, Skota,** **Lapona, Suisa.**
 
-21. — La nomi landala qui ne havas ta susteno internaciona dil formo *ia* (Latina origine) konservas sua formo nacionala : **Honduras, San Salvador, Nikaragua, Venezuela,** **Uruguay, Paraguay, Maroko, Kanada** (2), **Chili, Peru, Portugal** (Videz la lexiko).
+21. — La nomi landala qui ne havas ta susteno internaciona dil formo **ia** (Latina origine) konservas sua formo nacionala : **Honduras, San Salvador, Nikaragua, Venezuela,** **Uruguay, Paraguay, Maroko, Kanada** (2), **Chili, Peru, Portugal** (Videz la lexiko).
 
 > (2) La **c** transskribesas per **k** en **Nikaragua, Kanada, Maroko**, pro ke en Ido ni havus (kun *c*) *Nitsaragua, Tsanada, Marotso*, quo certe ne konkordus kun l'internaciona sono di ta vorti. Ma qua homo, vidante li kun *k*, vice *c*, havas mem ombro di hezito por rikonocar li?
 

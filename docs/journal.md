@@ -4966,6 +4966,8 @@ the warning of this review: in part 2 the survey's bold and roman are not
 to be trusted without enlarging** — the rule on weight, nine first readings
 out of nine wrong, has six more pages to its name. A dedicated pass on
 weights against the spreads would likely find more.
+*(It did, on 71 leaves of both parts: see « Weights checked against the
+spreads », below.)*
 
 **Three letters.** Folio 163 opens « Ne konfundez », not « No »; folio 143
 reads « IV, 521 », a comma; and folio 180's « Amerika » carries its stress
@@ -5216,3 +5218,104 @@ each, the narrow no-break space and the guillemet; `temi/` 171,591 →
 171,611; `afixi/` 133,238 → 133,268; anchors, paragraphs, notes, blocks
 unchanged. Witnesses 100 → 106. Checks 1 to 7: the same 237 failures, line
 for line. Checks 8 to 12 not run, for want of the scan.
+
+## Weights checked against the spreads
+
+**THE TRANSCRIPTION MISREAD THE WEIGHT ON 71 LEAVES, OF BOTH PARTS; THE
+PRINT ITSELF ERRS ON THREE.** Folios 12 to 232 were compared, weight by
+weight, with the photographed spreads, by three surveys run side by side
+(12–85, 86–159, 160–232). Every candidate was enlarged three to ten times
+and set against words of undoubted weight on its own line, and measured:
+the mean stroke width of each word, roman running about 1.5–1.9 and bold
+2.0–2.6 at the scale of the spreads, the ratio within the line counting more
+than the figure. Each was looked at again on its crop before it was put to
+the commissioner, folio by folio; 77 questions in all.
+
+**What the transcription had misread, by kind.**
+
+* *Bold runs that took in roman words.* The « o » the book sets roman
+  between bold alternatives (folios 91, 92, 98, 107, 108); the word that
+  announces an example, « Altr exemplo : », « Exemple : », « Ex. : »,
+  « Pose : » (87, 92, 94); the author's gloss or rule set inside the
+  example around it (49, 58, 72, 74, 79, 81, 98, 99, 106, 108, 145, 148,
+  157); « e. c. » closing a bold list (160); the letter names of folio 74's
+  reading-order passage, five lines.
+* *Roman read for bold.* Examples (22, 41, 53, 60, 125, 134, 144, 150, 203,
+  215), among them FOUR THAT RUN OVER A PAGE and lost their weight on the
+  new one (64, 69–70, 72, 77); the cited forms of a list (61's nine time
+  adverbs, 62, 143, 167, 172); the endings and letters the appendices cite
+  in running text (184, 196, 198, 199, 200, 202, 205, 206, 210, 211, 212)
+  and the comparative's suffixes (31); single words — « opi- » (16), « lua »,
+  « lia » (35), « que » between two French italics (108), « (decas) »
+  (107), « suis » (215).
+* *Italic read for upright.* « ia » (26); « L'adverbi di tempo » (59),
+  where § 55 is italic; the « o » between italic alternatives (51, 66);
+  « me ja esis skribinta o skribabis » (107), which is bold; the capital M
+  of « Mea filii » (194), bold before an italic rest.
+* *The table of contents*: « La » of « La hori » is roman (229).
+
+All corrected in the transcription, each leaf with its note.
+
+**Three typos of the print, ruled.** Folio 55, « necesa esas »: an italic
+« n » before a bold upright « ecesa esas » (11–12.6 against 9.4–9.9 for the
+roman of the line), a wrong fount — transcribed as printed, SET bold. Folio
+96, the page number « 353 » of « Progreso, II, 353 » printed bold —
+transcribed bold, SET roman. Folio 195, « grandeso » roman where its twin
+« povreso » is bold — transcribed roman, SET bold. Each by `\VUcorrige`.
+
+**A ruling withdrawn.** On folio 198 the survey had recorded the cited
+endings « now in bold, now in roman », settled at ×10, and on 27 November
+the commissioner ruled « -a » and « -aj » set bold by `\VUcorrige`.
+Enlarged on the spread, every ending on the page is bold — « -aj », « -a »,
+five « -u », « (a) ». The page is not irregular; the two `\VUcorrige` are
+withdrawn and the bold transcribed. The leaf's note says so where the
+ruling is written.
+
+**Kept**, by the commissioner, against a reading that was only probable or
+odd: « nam » (92), « Ma » (113), « il vendas olda ferajo, fripi » (136),
+« -ier » (141, as ruled on 27 November), « la » (20), « a » (48), « (-ita) »
+(49), « -e » (50), « ica. » and « da » (71), the table's « de o ek » (31).
+
+**Undecided even enlarged, and left as transcribed**: « Ex. » before bold
+examples (29, 33); single letters « i », « j » (24), « i », « (ita) » (37),
+« (-i) » (43); « Ma » (33); « la » (38); « volas lo » (40); « -u » (42);
+« inter- » (54); « -e » (56, 57, 66); « dope » (63); « Sen » (68); « vice »,
+« Do dicez : » (81); « de » (82); « -um » (165); « u » (182); « kam -s
+(-es) » (184); « per -i », four times (186); « Italiana. » (203);
+« arivinta de du hori » (216).
+
+**Two survey remarks that do not say which words.** Folio 172: « a list
+that looked bold on the strip is roman at high magnification »; folio 196:
+« three false readings of weight avoided under magnification ». The one
+list of folio 172 measures bold (6.1–6.9 against 5.0–5.3 for « on darfas
+dicar »), and folio 196's « felico » and « fiero » are bold beside a roman
+« la feliceso ». Both remarks are annotated where they are written.
+
+**THE ADDRESSES.** `html.py` derives an anchor from the headword and the
+headword from the weight, so correcting a weight can move an address. Four
+headwords lost words to these corrections — « Ante ke; pos ke; depos ke o
+de kande », « Kad ne o ka ne? », « Lore kande; quik kande; same kam... »,
+« Anke nula -n en » — and their four published anchors would have gone.
+`KEPT_ADDRESSES` keeps each on its paragraph, found by the opening of its
+text, and stops the build if one finds no paragraph; « Lore kande... »
+keeps its place in the list of headwords too. No published anchor is lost;
+nine are added, the time adverbs of folio 61 now set bold. And « Exempli : »,
+bold at folio 110, would have cut a headword « Exempli » off its paragraph:
+the word that announces an example is refused as a headword.
+
+**Not yet done: the affix headwords.** Several headwords of SUFIXI measure
+no heavier than the roman « Ta sufixo » beside them (-an-, -e-, -ebl-,
+-il-, -oid), where others are plainly bold; at folio 130 « *equi-. » and
+« *ko-. » are roman beyond doubt, « mono-. » bold. The commissioner ruled
+the two of folio 130 roman and ordered every headword surveyed. Until that
+survey is in, they stay as transcribed: `afixi.py` and `html.py` find the
+affixes, and their anchors, by that bold, and the tools must learn to find
+them otherwise before the weight can move.
+
+**What moved.** Against the previous commit: 69 pages differ, those of the
+corrected leaves (folios 96 and 195, set by `\VUcorrige` to what the page
+already showed, are pixel-identical); the same 62 boxes, box for box.
+`gramatiko.md` 492,069 → 492,453 bytes; `temi/` 171,611 → 171,649;
+`afixi/` 133,268 → 133,416; anchors 859 → 868, none lost; paragraphs,
+notes, blocks unchanged. Witnesses 106 → 121. Checks 1 to 7: the same 237
+failures, line for line; 8 to 12 not run, for want of the scan.

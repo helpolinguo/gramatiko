@@ -45,7 +45,7 @@ Por indikar, ke la grado konstante kreskas o diminutas, on uzas l'expresuro : 
 
 **Pluse, minuse** indikas, quale la signi +, —, adjunto o sustraciono : **pozez 1 manjilaro pluse, 1 manjilaro minuse** **sur la tablo, nam ni havos un repastano pluse, minuse.**
 
-**Maxime, minime** = en la **maxim, minim** granda quanteso a grado : **vu laboris, produktis maxime, minime** (de omni). **Maxim posible, minim posible** (1) (*sen artiklo*, se ne esas substantivo expresata o tacata) : **venez maxim balde posible;** **la maxim granda nombro posible; la maxim bel infanto** **posible; la maxim laborera** (viro) **posible; bruisez minime** **posible; en omno selektez lo maxim bona posible.** — **Il** **kuris tam rapide kam posible. Yen diversa klovi; prenez** **le maxim longa posible.**
+**Maxime, minime** = en la maxim, minim granda quanteso a grado : **vu laboris, produktis maxime, minime** (de omni). **Maxim posible, minim posible** (1) (*sen artiklo*, se ne esas substantivo expresata o tacata) : **venez maxim balde posible;** **la maxim granda nombro posible; la maxim bel infanto** **posible; la maxim laborera** (viro) **posible; bruisez minime** **posible; en omno selektez lo maxim bona posible.** — **Il** **kuris tam rapide kam posible. Yen diversa klovi; prenez** **le maxim longa posible.**
 
 > (1) *Posible*, en ta expresuri, equivalas « segun posibleso ».
 
@@ -67,7 +67,7 @@ Fine la adverbi ja vidita (§ 39) : **kelke, multe, poke,** **quante, tante** 
 
 > (5) **Tam** esas sequata da **kam** e montras egaleso; **tante** sequesas da **ke** e montras granda quanteso o alta grado. Ex. : **Il esas tam** **habila kam tu; — il esis tante habila, ke il ruptis nulo.**
 
-53. — *L'adverbi di tempo* esas :
+53. — L'adverbi di tempo esas :
 
 **Kande** (relativa e questionala) = ye la tempo, ye l'instanto en qua (6).
 
@@ -103,7 +103,7 @@ Fine la adverbi ja vidita (§ 39) : **kelke, multe, poke,** **quante, tante** 
 
 **Morge** = en la dio qua sequos ica.
 
-**Jus** (*nur kun tempo pasinta*) = juste ye l'instanto antea : il jus ekiris.
+**Jus** (*nur kun tempo pasinta*) = juste ye l'instanto antea : **il jus ekiris.**
 
 **Quik** = sen la minima ajorno o tardeso : **facez quik ta** **laboro, nam ol tre urjas.**
 
@@ -117,39 +117,39 @@ Fine la adverbi ja vidita (§ 39) : **kelke, multe, poke,** **quante, tante** 
 
 > (4) Ne konfundez *ankore* (prezenta, pasinta o mem futura duro) a *itere*, qua expresas *itero* (de *iterar*, rifacar la ago), o a *pluse*. Ex. : **Il kantas ankore** (il ne cesis). — **Il kantas itere** (il cesabis, ma il ri-kantas). — **Il kantas un ario pluse** (il adjuntas un ario a le kantita). — La F. expresuri : *encore un, encore deux* e. c. tradukesas : *un pluse, du pluse* e. c.
 
-**Ne plus** esas la negativo di **ankore** : **Kad il vivas ankore?** **No, il ne plus vivas : il ja esis mortinta, kande me departis.** **Antee** (de la prep. *ante*) = en antea tempo.
+**Ne plus** esas la negativo di ankore : **Kad il vivas ankore?** **No, il ne plus vivas : il ja esis mortinta, kande me departis.** **Antee** (de la prep. *ante*) = en antea tempo.
 
 **Pose** (de la prep. *pos*) = en posa tempo.
 
 Esas adjuntenda la sequanta adverbi kompozita o derivita :
 
-ultempe = en ula tempo (pasinta o futura);
+**ultempe** = en ula tempo (pasinta o futura);
 
-uldie = en ula dio (pasinta o futura);
+**uldie** = en ula dio (pasinta o futura);
 
-nultempe = en nula tempo (1);
+**nultempe** = en nula tempo (1);
 
 > (1) *Decido* 1626 : Unanime (minus 1 voco) on repulsas vorto nekompozita vice « nultempe ».« Kontre la adopto di *never* (VII, 287, v. anke 206) me deziras protestar tre insiste. La vorto kreus multa kolizioni pro la simileso a *nevera* : vorti tam freque bezonata ne darfas esar tro simila; en telefono ed exter ol on ne povas distingar « il parolas never » e « ... nevere » (nam in *ne-vere* on tre ofte pro kontrasto acentizos *ne*); e se on pronuncas rapide sen pauzo « ne vere eloquenta » e « never eloquenta », la danjero di misaudo esas tre granda. On darfas naturale formacar la vorto *versimila* (quo ne esas exakte la sama kozo kam *probabla*) ma *ne-versimila* miskomprenesos kom *never-simila*, e. c.Duesme esas « nevera », ke « on » * never uzos l'adjektivo *nevera* : pro quo on ne dicus exemple : « pro sua *nevera* asisto en kunsidi il havas nula influo en nia uniono? » Me ne hezitus uzar tala kombini (sua *nultempa* asisto), nam tala formacuri esas precize un ek la belaji di nia linguo. Anke « la *nevereso (nultempeso)* di tala eventi » devus esar posibla formacuro.*Nultempe* semblas a me, quale a Sro Couturat, tote suficanta : ol permisas ta lenta ed emfazoza pronunco qua harmonias tante kun la expresenda ideo » (Otto Jespersen, en *Progreso*, VII, 407).
 
-kelkatempe = dum kelka tempo;
+**kelkatempe** = dum kelka tempo;
 
-pokatempe = dum poka tempo;
+**pokatempe** = dum poka tempo;
 
-longatempe = dum longa tempo;
+**longatempe** = dum longa tempo;
 
-samtempe = en la sama tempo;
+**samtempe** = en la sama tempo;
 
-irgatempe = en irga tempo;
+**irgatempe** = en irga tempo;
 
-irgekande = ye irga tempo, instanto en qua (2).
+**irgekande** = ye irga tempo, instanto en qua (2).
 
 > (2) On devas ne konfundar **irgatempe** a *irgekande*. L'unesma esas nur adverbo nedefinita, ma **irgekande** esas pluse relativa, e konseque unionas du propozicioni : **me helpos vu irgatempe; me helpos vu** **irgekande vu volos.** En la lasta exemplo *irgatempe* ne esus bona, nam, por unionar la du propozicioni : *me helpos vu* e *vu volos*, esas necesa adverbo relativa; sen olu la propozicioni esus sen ligo.
 
 **Unfoye, dufoye, trifoye**, e. c., **plurfoye, kelkafoye, multafoye, singlafoye, omnafoye**, pri ago facita o subisita *un foyo,* *plura foyi*, e. c.
 
-**Singladie, omnadie, omnasemane, omnamonate, omnayare,** omnajorne, omnanokte, e. c. = en singla, omna dio, semano, e. c.
+**Singladie, omnadie, omnasemane, omnamonate, omnayare,** **omnajorne, omnanokte,** e. c. = en singla, omna dio, semano, e. c.
 
-**Jorne** = dum (la) jorno; **nokte** = dum (la) nokto; **matine** = ye o dum (la) matino; **vespere** = ye o dum (la) **vespero**.
+**Jorne** = dum (la) jorno; **nokte** = dum (la) nokto; **matine** = ye o dum (la) matino; **vespere** = ye o dum (la) vespero.
 
 **Cadie, camatine, cavespere, casemane, canokte, camonate,** **cayare**, e. c. = en ica dio, matino, vespero, e. c.
 
@@ -219,7 +219,7 @@ La formi kun **-ube** ne esas, quale la formi kun **-loke**, nur nedefinita; li 
 
 **Apene** = preske ne : **li apene regardis ni.**
 
-**Kom** = D. *als* (identifizierend); F. en qualité de, en tant que : **Kom Kristano me devas pardonar a mea enemiki,** **quale la Kristo pardonis al sui. Ma kom homo e mem kom** **Kristano, me ne obligesas agar a l'enemiki tale kam me** agas al amiki. — On aceptis ilu quale se lu venabus kom rejo, e tamen il venis inkognite, ne kom statestro, ma kom privato (1).
+**Kom** = D. *als* (identifizierend); F. en qualité de, en tant que : **Kom Kristano me devas pardonar a mea enemiki,** **quale la Kristo pardonis al sui. Ma kom homo e mem kom** **Kristano, me ne obligesas agar a l'enemiki tale kam me** **agas al amiki.** — **On aceptis ilu quale se lu venabus kom** **rejo, e tamen il venis inkognite, ne kom statestro, ma kom** **privato** (1).
 
 > (1) **Kom** implikas, ke on esas reale to quon dicas la vorto sequanta l'adverbo : *Kom Kristano*, on esas Kristano : *kom homo,* on esas homo; *kom rejo*, on esas rejo; *kom statestro*, on esas statestro; *kom privato*, on esas privato. — **Quale** implikas nur simileso : *quale* Kristano = simile a Kristano; *quale homo* = simile a homo; *quale rejo* = simile a rejo; *quale statestro* = simile a statestro; *quale privato* = simile a privato. Konseque : uzez « quale », se vu povas remplasigar per « simile a... »; uzez « kom » en la cetera kazi.
 
@@ -279,7 +279,7 @@ Ultre ta primitiv adverbi di maniero, Ido havas mult altri derivita o kompozita,
 
 **Kontrevole** = kontre (la) volo.
 
-**Afrankite** = (de *afrankar, afrankita*) : la sendo kustos de vu tri franki (kun la afranko) afrankite.
+**Afrankite** = (de *afrankar, afrankita*) : **la sendo kustos** **de vu tri franki** (kun la afranko) **afrankite.**
 
 **Retroe** (de la prefixo *retro*) = per iro inversa del avanco, desavance) : **Marchar retroe esas kontrenatura e nefacila** (2).
 
@@ -291,7 +291,7 @@ Kompreneble omna qualifikanta adjektivi povas e darfas genitar adverbo : saja,
 
 Anke la participi kun -e esas fakte adverbi di maniero : *manjante, kantante; laborinte, dorminte; departonte, mortonte; batate, karezate; ekpulsite, judiciote*, e. c.
 
-55. — L'*adverbi di afirmo, nego o dubo* esas :
+55. — L'*adverbi di afirmo, nego* o *dubo* esas :
 
 **Yes** = la sama Angla vorto; D. *ja*; F. *oui*; I. *sì*.
 

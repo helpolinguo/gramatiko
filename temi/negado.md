@@ -20,13 +20,13 @@ Relate la senco, Ido havas adverbi *di quanteso, di loko,* *di afirmo, di nego o
 
 ## § 53 — [ADVERBI](../chapitri/adverbi.md)
 
-**Ne plus** esas la negativo di **ankore** : **Kad il vivas ankore?** **No, il ne plus vivas : il ja esis mortinta, kande me departis.** **Antee** (de la prep. *ante*) = en antea tempo.
+**Ne plus** esas la negativo di ankore : **Kad il vivas ankore?** **No, il ne plus vivas : il ja esis mortinta, kande me departis.** **Antee** (de la prep. *ante*) = en antea tempo.
 
 ## § 55 — [ADVERBI](../chapitri/adverbi.md)
 
 > (3) Por agnoskar la certa posibleso, ma tote ne por expresar l'ideo di dubo kontenata en *forsan*, e tante distinta de l'altra, ke nia lingui ipsa dicas equivale : *to forsan esas posibla, ma me tre dubas* *kad il sucesos.* (Videz **forsan** en la adverbi di afirmo, nego o dubo.)
 
-55. — L'*adverbi di afirmo, nego o dubo* esas :
+55. — L'*adverbi di afirmo, nego* o *dubo* esas :
 
 ## § 111 — [KONJUNCIONI](../chapitri/konjuncioni.md)
 
@@ -38,7 +38,7 @@ On devas dicernar e distingar sorgoze la vorti *kontrea*, formacata per **des-**
 
 ## [PREFIXI](../chapitri/prefixi.md) — bloko 21 (sen numero en la libro)
 
-Nultempe uzez : despovar, desdormar, desvolar, desexistar, desesar, desmovar, desvivo, desposedo, deshavanta, e. c., pro ke ta vorti ed altri analoga povas nur equivalar simpla nego : *ne povar*, e. c. Multa kontreaji esas expresata en Ido (quale en nia lingui) da radiki specala. Exemple : jorno, nokto; lumo, tenebro; komencar, finar; audacar, timar; ganar, perdar; laborar, ociar; bona, mala; dextre, sinistre; supere, infre; alte, base; plu, min; ante, pos; avan, dop, e. c.
+Nultempe uzez : **despovar, desdormar, desvolar, desexistar,** **desesar, desmovar, desvivo, desposedo, deshavanta,** e. c., pro ke ta vorti ed altri analoga povas nur equivalar simpla nego : *ne povar*, e. c. Multa kontreaji esas expresata en Ido (quale en nia lingui) da radiki specala. Exemple : **jorno,** **nokto; lumo, tenebro; komencar, finar; audacar, timar;** **ganar, perdar; laborar, ociar; bona, mala; dextre, sinistre;** **supere, infre; alte, base; plu, min; ante, pos; avan, dop,** e. c.
 
 ## [PREFIXI](../chapitri/prefixi.md) — bloko 48 (sen numero en la libro)
 

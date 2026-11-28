@@ -33,7 +33,7 @@ Exemple : **infanto, kato, finko** (sexuo nedeterminita);
 
 **patro** (un del du genitanti) (1);
 
-> (1) Darfas uzesar metafore : l'ociereso esas la patro di omna vicii. **Vere me ne povus dicar kad il od el esis plu vere mea patro spiritala pri la helpolinguo.**
+> (1) Darfas uzesar metafore : **l'ociereso esas la patro di omna vicii.** **Vere me ne povus dicar kad il od el esis plu vere mea patro spiritala pri la helpolinguo.**
 
 **patrulo** (la genitanto o patro maskula);
 
@@ -63,4 +63,4 @@ Fine on uzas nek **-ul**, nek **-in**, kande nulo postulas, ke on konocigez la s
 
 En asemblajo kompozita ek homuli e homini, on dicas a li : **siori.** Same, parolante pri viro e pri muliero kune, on dicas **siori.** Exemple : **vua vicini, siori B.**
 
-Pro ke l'expresuro **gesiori B.** povas indikar la viri e la mulieri dil tota familio B. (komparez **gefrati**), la sola maniero certa dicar **siorulo** e **siorino B.** intermariajita esas : **la gespozi B.**
+Pro ke l'expresuro **gesiori B.** povas indikar la viri e la mulieri dil tota familio B. (komparez gefrati), la sola maniero certa dicar siorulo e siorino **B.** intermariajita esas : **la gespozi B.**

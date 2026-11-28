@@ -13,4 +13,4 @@ Ico esas la texto dil libro ipsa, sen chanjo. Nula reguli esas skribita hike.
 
 Kun radiko indikanta koloro, **-atr-** expresas koloro afina ad olta quan enuncas la radiko : **redatra, blankatra,** **bluatra, verdatra**, di koloro afina a redeso, blueso, verdeso. Per la diminutivo *et* on nur diminutas la koloro ed expresas altra nuanco dil ideo : on afirmas certeso pri la koloro (quon on ne agas per **-atr-**) ma on afirmas anke olua extrema febleso.
 
-En la vorti teknikala, ta sufixo darfas esar remplasata, segun la kazi, da la radiki **-form**, **-simil**, o dal sufixo teknikala **-oid** : metaloido, elipsoido, konkoido, konoido, helicoido, e. c.
+En la vorti teknikala, ta sufixo darfas esar remplasata, segun la kazi, da la radiki **-form**, **-simil**, o dal sufixo teknikala **-oid** : **metaloido, elipsoido, konkoido, konoido,** **helicoido,** e. c.

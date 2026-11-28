@@ -41,6 +41,6 @@ Quale on vidis en la supera exempli, la sufixo **ig** uzesas kom radiko dil verb
 
 On anke vidis, ke la verbo **igar** darfas havar propoziciono kom objekto : **me igas mea kavalo manjar aveno.** Quale on vidas, importas (por la justa expreso e kompreno) sequar la « normal ordino » en ta propozicioni infinitivala : **Il igis** **Petrus ocidar Alexander** = *il igis Alexander ocidesar da* *Petrus.*
 
-Ne konfundez **igar** a **koaktar** od a **lasar**. **Il igis sua spozino manjar la kordio di elua amoranto** (el ne savis lo); **il koaktis sua spozino,** e. c. (el ne volis, ma il impozis ad **elu koakte sua volo**). **Lasez me enirar** = *ne impedez me* *enirar*; **igez ni enirar** = *ayez por ke ni enirez.*
+Ne konfundez **igar** a **koaktar** od a **lasar**. **Il igis sua spozino manjar la kordio di elua amoranto** (el ne savis lo); **il koaktis sua spozino,** e. c. (el ne volis, ma il impozis ad elu koakte sua volo). **Lasez me enirar** = *ne impedez me* *enirar*; **igez ni enirar** = *ayez por ke ni enirez.*
 
 La uzo di **lasar** en la senco di **igar** esas Germanajo.

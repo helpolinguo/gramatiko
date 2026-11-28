@@ -140,7 +140,7 @@ La nomi di la literi esas, por la vokali, lia sono ipsa : **a, e, i, o, u**, e
 
 ## ACENTO TONIKA
 
-4. — En Ido, la *acento tonika* ne esas plualtigo o plulongigo dil sono, ma plufortigo di la voco sur un silabo dil vorti. On pozas lu « sur la lasta silabo dil infinitivi e sur la prelasta silabo di la cetera vorti » : **amâr, venîr,** **skribôr; fenêstro, bovîno, malâda, trôno, mêa, puêri** opi**niôno**, e. c.
+4. — En Ido, la *acento tonika* ne esas plualtigo o plulongigo dil sono, ma plufortigo di la voco sur un silabo dil vorti. On pozas lu « sur la lasta silabo dil infinitivi e sur la prelasta silabo di la cetera vorti » : **amâr, venîr,** **skribôr; fenêstro, bovîno, malâda, trôno, mêa, puêri opiniôno**, e. c.
 
 « Ma en plursilaba radiki, **i** e **u** nemediate avan vokalo ne darfas recevar l'acento » : **Kâspia, râdie, fîlii, mistêrio;** **tênua; îlua, êlua, sêxuo, stâtui, lînguo** (1).
 
@@ -254,7 +254,7 @@ Exemple : **infanto, kato, finko** (sexuo nedeterminita);
 
 **patro** (un del du genitanti) (1);
 
-> (1) Darfas uzesar metafore : l'ociereso esas la patro di omna vicii. **Vere me ne povus dicar kad il od el esis plu vere mea patro spiritala pri la helpolinguo.**
+> (1) Darfas uzesar metafore : **l'ociereso esas la patro di omna vicii.** **Vere me ne povus dicar kad il od el esis plu vere mea patro spiritala pri la helpolinguo.**
 
 **patrulo** (la genitanto o patro maskula);
 
@@ -284,7 +284,7 @@ Fine on uzas nek **-ul**, nek **-in**, kande nulo postulas, ke on konocigez la s
 
 En asemblajo kompozita ek homuli e homini, on dicas a li : **siori.** Same, parolante pri viro e pri muliero kune, on dicas **siori.** Exemple : **vua vicini, siori B.**
 
-Pro ke l'expresuro **gesiori B.** povas indikar la viri e la mulieri dil tota familio B. (komparez **gefrati**), la sola maniero certa dicar **siorulo** e **siorino B.** intermariajita esas : **la gespozi B.**
+Pro ke l'expresuro **gesiori B.** povas indikar la viri e la mulieri dil tota familio B. (komparez gefrati), la sola maniero certa dicar siorulo e siorino **B.** intermariajita esas : **la gespozi B.**
 
 ## PROPRA NOMI
 
@@ -320,7 +320,7 @@ La formi **Angliano, Franciano, Germaniano, Rusiano,** **Suediano, Daniano, Polo
 
 De li venas reguloze l'adjektivi **Angla, Franca, Germana,** **Rusa, Sueda, Dana, Polona, Greka, Araba, Hispana, Skota,** **Lapona, Suisa.**
 
-21. — La nomi landala qui ne havas ta susteno internaciona dil formo *ia* (Latina origine) konservas sua formo nacionala : **Honduras, San Salvador, Nikaragua, Venezuela,** **Uruguay, Paraguay, Maroko, Kanada** (2), **Chili, Peru, Portugal** (Videz la lexiko).
+21. — La nomi landala qui ne havas ta susteno internaciona dil formo **ia** (Latina origine) konservas sua formo nacionala : **Honduras, San Salvador, Nikaragua, Venezuela,** **Uruguay, Paraguay, Maroko, Kanada** (2), **Chili, Peru, Portugal** (Videz la lexiko).
 
 > (2) La **c** transskribesas per **k** en **Nikaragua, Kanada, Maroko**, pro ke en Ido ni havus (kun *c*) *Nitsaragua, Tsanada, Marotso*, quo certe ne konkordus kun l'internaciona sono di ta vorti. Ma qua homo, vidante li kun *k*, vice *c*, havas mem ombro di hezito por rikonocar li?
 
@@ -354,7 +354,7 @@ Por chanjar ol a substantivo samsenca suficas substitucar al dezinenco **a** la 
 
 > (1) Pri la substantivigo e homigo dil adjektivo, videz la apendico quaresma.
 
-25. — Kande adjektivo aplikesas a substantivo tacita, on indikas la pluralo per la artiklo **le**, o per nedefinita pronomo konvenanta, o mem simple per **-i**. Ex. : **Yen pomi,** **prenez le bona e lasez le mala.** Kun ideo partitiva on dicus : **il ofris a me blanka e reda rozi, me prenis uli reda o kelki** **reda**; o plu simple : **me prenis redi**, quale on dicus : **me** **prenis kelki.** Tre certe ya **redi** e **kelki** povas relatar nur rozi, sola kozo pri qua on parolas. La lasta exemplo montras bone, ke en l'unesma ni povabus dicar : **prenez la boni** **e lasez la mali.** Nam vere quon altra kam *pomi* relatus « **la** **boni** », « **la mali** », en ica frazo? Kad on komprenus *homi*, kande traktesas nur *pomi*? (2).
+25. — Kande adjektivo aplikesas a substantivo tacita, on indikas la pluralo per la artiklo **le**, o per nedefinita pronomo konvenanta, o mem simple per **-i**. Ex. : **Yen pomi,** **prenez le bona e lasez le mala.** Kun ideo partitiva on dicus : **il ofris a me blanka e reda rozi, me prenis uli reda o kelki** **reda**; o plu simple : **me prenis redi**, quale on dicus : **me** **prenis kelki.** Tre certe ya **redi** e **kelki** povas relatar nur rozi, sola kozo pri qua on parolas. La lasta exemplo montras bone, ke en l'unesma ni povabus dicar : **prenez la boni** **e lasez la mali.** Nam vere quon altra kam *pomi* relatus « la boni », « la mali », en ica frazo? Kad on komprenus *homi*, kande traktesas nur *pomi*? (2).
 
 > (2) En la komenco, Ido rezervis, pro prudenteso, la yuro indikar (se to esus necesa) la pluralo en l'adjektivi per adjuntar **-i** a lia dezinenco **a** (do **ai**). Ma la praktiko montrinte, ke ta specal pluralo povas abandonesar, decido unanima (1218) dil akademio Idista supresis lu.
 
@@ -362,7 +362,7 @@ Por chanjar ol a substantivo samsenca suficas substitucar al dezinenco **a** la 
 
 > (1) Decido 504 : On konservas l'eliziono di **-a** en l'adjektivi, ma restriktante ol a la kazi, en qui ne rezultos akumulo de konsonanti; per 7 voci ek 9. (*Progreso*, IV, 434.)Decido 586 : On repulsas la supreso di l'eliziono di l'artiklo; per 6 voci ek 9. (*Progreso*, IV, 561.)Decido 587 : On repulsas admisar sempre l'eliziono di l'artiklo dop vokalo ed avan konsonanto; unanime per 8 voci. Exemple : *ke l'regulo, se l'regulo*. (*Progreso*, IV, 561.)
 
-On devas ne uzar l'eliziono tro freque. Ol ne diplasas la acento; konseque ica restas sur **a** en **infantal, amikal, kordial**, quale en **infantala, amikala, kordiala.**
+On devas ne uzar l'eliziono tro freque. Ol ne diplasas la acento; konseque ica restas sur **a** en infant*a*l, amik*a*l, kordi*a*l, quale en infant*a*la, amik*a*la, kordi*a*la.
 
 Diveninte monosilaba per l'eliziono, l'adjektivi dusilaba sequas, pri l'acento, la regulo di omna monosilabi, pri qui parolesas en § 4.
 
@@ -394,7 +394,7 @@ La Franca vorto *encore*, avan komparativo, tradukesas per *mem*. Ex. : **Petr
 
 **Kam** uzesas kun omna vorti implikanta komparo, quale **sama, tala, altra, preferar,** e. c. Ex. : **egala o plu granda** **kam... Me preferas autuno kam printempo** (1).
 
-> (1) Pro quo Ido ne havas sintezal komparativo (*di supereso*) per -er, e superlativo (*relatanta*) per -est, quale en D. E.? Yen la respondo trovata en *Progreso*, VI, 241 :« 1. La formaco di komparado per partikuli esas plu klara e plu konforma a la tendenco di l'evoluciono di omna lingui. — 2. La lingui D. E. konocas la formaco per partikuli (*more, mehr; most,* *meist*), ma la cetera lingui ne konocas la formaco per sufixi (ecepte *-issim* e kelka arkaika formi). 3. — La sufixo -er esas ja okupata kun altra senco tre internaciona e tre utila. — 4. *Maxim* (di nia superlativo relatanta) esas bone konocata e tote internaciona per *maximum* (same : *minim* per *minimum*). — 5. On ne propozas supresar *plu*, *maxim* por la verbi (plu amar, maxim amar), do l'uzo di la partikuli kun l'adjektivi esas plu simpla e plu reguloza ».Anglo igis remarkar, ke « La sufixe -*er* ed -*est* por komparo en l'Angla rare uzesas kun vorti di la Latina, qui komparesas quale en Ido. La plumulto dil vorti en Ido venas de la Latina. Do la uzi di ta sufixi esus tre nefamiliara por Angli ».Se, vice -*er* por la komparativo, on uzus -*ior* (renkontrata en *injenioro, juniora, inferioro* e. c.) e *est* por la superlativo, ni havus hibridajo shokanta e qua produktus : *glorioziora, ciencoziora, ocieriora, laboreriora, mentieriora* kom komparativi di supereso qui,emulesus kun la superlativi di supereso : *grosieresta, prudentesta,* *modestesta, pacientesta* e. c.; ed en adverbo : *grosieriore, glorioziore,* *ciencoziore, ocieriore; prudenteste, modesteste, diligenteste* e. c. Ne pen-valorus havar *du* sistemi di komparado por tala rezulto.Ultre co, *un* plusa sufixo esus necesa anke por la komparativo di *infreso, un* por la komparativo di *egaleso*, omna du tam meritanta e *tam frequa* kam la komparativo di supereso. Fine *un* sufixo por la superlativo di infreso (la nuna *minim*) tam meritanta e *tam* *frequa* kam la superlativo di supereso. Entote *kin* plusa sufixi (komparala) esus necesa en Ido por pagar ta luxo di *duesma* sistemo di komparado, kande ja 17 yari pruvas konvinkive, ke la nuna sufikas komplete.
+> (1) Pro quo Ido ne havas sintezal komparativo (*di supereso*) per **-er**, e superlativo (*relatanta*) per **-est**, quale en D. E.? Yen la respondo trovata en *Progreso*, VI, 241 :« 1. La formaco di komparado per partikuli esas plu klara e plu konforma a la tendenco di l'evoluciono di omna lingui. — 2. La lingui D. E. konocas la formaco per partikuli (*more, mehr; most,* *meist*), ma la cetera lingui ne konocas la formaco per sufixi (ecepte *-issim* e kelka arkaika formi). 3. — La sufixo **-er** esas ja okupata kun altra senco tre internaciona e tre utila. — 4. *Maxim* (di nia superlativo relatanta) esas bone konocata e tote internaciona per *maximum* (same : *minim* per *minimum*). — 5. On ne propozas supresar *plu*, *maxim* por la verbi (plu amar, maxim amar), do l'uzo di la partikuli kun l'adjektivi esas plu simpla e plu reguloza ».Anglo igis remarkar, ke « La sufixe -*er* ed -*est* por komparo en l'Angla rare uzesas kun vorti di la Latina, qui komparesas quale en Ido. La plumulto dil vorti en Ido venas de la Latina. Do la uzi di ta sufixi esus tre nefamiliara por Angli ».Se, vice **-er** por la komparativo, on uzus **-ior** (renkontrata en *injenioro, juniora, inferioro* e. c.) e **est** por la superlativo, ni havus hibridajo shokanta e qua produktus : *glorioziora, ciencoziora, ocieriora, laboreriora, mentieriora* kom komparativi di supereso qui,emulesus kun la superlativi di supereso : *grosieresta, prudentesta,* *modestesta, pacientesta* e. c.; ed en adverbo : *grosieriore, glorioziore,* *ciencoziore, ocieriore; prudenteste, modesteste, diligenteste* e. c. Ne pen-valorus havar *du* sistemi di komparado por tala rezulto.Ultre co, *un* plusa sufixo esus necesa anke por la komparativo di *infreso, un* por la komparativo di *egaleso*, omna du tam meritanta e *tam frequa* kam la komparativo di supereso. Fine *un* sufixo por la superlativo di infreso (la nuna *minim*) tam meritanta e *tam* *frequa* kam la superlativo di supereso. Entote *kin* plusa sufixi (komparala) esus necesa en Ido por pagar ta luxo di *duesma* sistemo di komparado, kande ja 17 yari pruvas konvinkive, ke la nuna sufikas komplete.
 
 ## PERSONAL PRONOMI
 
@@ -460,7 +460,7 @@ Quale on vidas, ta vorti esas nulo altra kam la pronomi personala, a qui on adju
 
 32. — **Sua**, quale la personal pronomo **su**, sempre referas la subjekto di la propoziciono en qua ol trovesas, kande ta subjekto reprezentas la triesma persono. Ex. : **Il** **promenas kun sua amiko** (la amiko di *il*, subjekto); **il promenas kun sua amiko e sua filii** (la amiko e la filii di *il*, subjekto); **il promenas kun sua amiko e lua filii** (la amiko di *il*, subjekto; ma la filii dil amiko, *ne* subjekto); **amar** **sua filii esas naturala** (sua propra filii, ne la filii di altra).
 
-« On *darfas* uzar **sua** *nur* kande ol referas la subjekto di la propoziciono, en qua ol trovesas. On *devas* uzar lua o lia en la cetera kazi. Ed on *darfas* uzar li mem kande li referas la subjekto di la propoziciono, se nur to genitas nula dusenceso. Konseque, on esas *obligata* uzar **sua** nur en kazo di posibla dusenceso e por evitar olu. » (1).
+« On *darfas* uzar **sua** *nur* kande ol referas la subjekto di la propoziciono, en qua ol trovesas. On *devas* uzar **lua** o **lia** en la cetera kazi. Ed on *darfas* uzar li mem kande li referas la subjekto di la propoziciono, se nur to genitas nula dusenceso. Konseque, on esas *obligata* uzar **sua** nur en kazo di posibla dusenceso e por evitar olu. » (1).
 
 > (1) Texte aparinta (*Progreso*, V, 627) en longa expliko quan ni donis ibe, e qua duras per ico :« Exemple, on devas dicar : « Il anuncas, ke *lua* amiko departis », e ne : *sua*, nam *lua amiko* esas ipsa subjekto di la propoziciono subordinita, do ne povus referar per *sua* la subjekto di la chefa propoziciono (*il*).On darfas dicar : « Il venis kun *sua* amiki », ma on devas dicar : « Il e *lua* amiki venis » (ne *sua*), nam tala propoziciono kontenas reale du propozicioni : « il venis », e « *lua* amiki venis », do la subjekto di la duesma ne povas referar per *sua* la subjekto di l'unesma.Altra kazo, en qua l'uzo di *sua* esas tentiva ed erorigiva. On darfas dicar : « Tala esas la metodo, quan Prof. X... uzis en *sua* explori », ma on devas dicar : « Tala esas la metodo *uzita da* Prof. X... en *lua* explori », nam *sua* povus referar nur la metodo.Rezume, on darfas uzar preske sempre *lua*, *lia*, mem en la kazi, en qui *sua* esus korekta; do esas plu sekura uzar prefere *lua*, *lia*, ecepte en la kazi di reala dusenceso, por qui *sua* esas adoptita e vere utila. »Ta expliko detaloza komprenigas quante Ido erorus, se ol imitus la Franca uzado pri **sua**. E tamen ta uzado imitesas blinde da uli de nia kritikeri, qui reprochas a nia linguo imitar la Franca!
 
@@ -514,7 +514,7 @@ On uzas **quo** nur kande parolesas pri kozo nedeterminita; on uzas **qua** pri 
 
 Kom **adjektivo** questionala, **qua** esas nevariebla, segun la regulo generala dil adjektivi : **qua homo venis? qua homi** **venis?** (1).
 
-> (1) **Qua** koncernas nur l'individueso. Se on parolas pri la qualeso, kompreneble on uzas **quala**, advere adjektivo qualifikanta nature, ma **qua** tote darfas uzesar, e tre konvene, por questionar « quala » esas persono, animalo od objekto : **quala il esas? kad il esas olda o** **yuna, afabla od acerba?** Me vidis lu apene, do me ne povas dicar **quala il esas.**
+> (1) **Qua** koncernas nur l'individueso. Se on parolas pri la qualeso, kompreneble on uzas **quala**, advere adjektivo qualifikanta nature, ma qua tote darfas uzesar, e tre konvene, por questionar « quala » esas persono, animalo od objekto : **quala il esas? kad il esas olda o** **yuna, afabla od acerba?** Me vidis lu apene, do me ne povas dicar **quala il esas.**
 
 Mem kom pronomo, lu restas nevarianta, se lu esas subjekto : **qua venis?** Ma, se lu divenas direta komplemento *e* *preiras la subjekto*, lu recevas **n** finala, por preventar omna miskompreno : **quan vu vidis?** En ta frazo, *qua*(*n*) esas komplemento direta ed ol preiras la subjekto **vu** (2).
 
@@ -574,7 +574,7 @@ Kande to esas posibla, li produktas individual pronomi, quale sube, per la simpl
 
 > (3) **Kelka** indikas nombro min granda kam **multa** e plu granda kam **plura**, qua povas indikar mem nur du, okazione.
 
-**Singla** (L. *singuli*, E. I.), pronomo : **singlu**, plur. **singli,** indikas konsiderante la unaji aparte. Ol havas senco distributiva e signifikas : *un po un, unope*, sive on uzas lu singulare, sive on uzas lu plurale. Ex. : **singla soldato** o soldati recevis duopla porciono. — **Il parolis a singlu.**
+**Singla** (L. *singuli*, E. I.), pronomo : **singlu**, plur. **singli,** indikas konsiderante la unaji aparte. Ol havas senco distributiva e signifikas : *un po un, unope*, sive on uzas lu singulare, sive on uzas lu plurale. Ex. : **singla soldato** o **soldati** **recevis duopla porciono.** — **Il parolis a singlu.**
 
 **Omna** (L. *omnis*; omnibus), pronomo : **omnu**, plur. **omni,** indikas konsiderante l'ensemblo. Ol havas senco kolektiva, sive on uzas lu singulare, sive on uzas lu plurale. Ex. : **Omna homo** o **omna homi esas mortiva**, signifikas egale : **la homi senecepte esas mortiva** (1).
 
@@ -714,7 +714,7 @@ La *voco pasiva* formacas lua chefa tempi per la verbo **esar** sequata nemediat
 
 *Indikativo pasinta* : **me esis amata** (1) (on amis me).
 
-> (1) La *perfekto* propre dicata (qua expresas *nuna stando* rezultanta de ago tote pasinta) logike tradukesas per : **me esas amita** (olim).— L'exempli : **Il ne esas mortinta; nun ni esas arivinta** di la noto 3-ma, pag. 48, korespondas, en la voco aktiva, a **me esas amita** di la voco pasiva. En ta omna exempli, l'uzo dil *perfekto* expresas *nuna* *stando* pro ago *facita* dal subjekto o *subisita* da olu.La pasinta participo pasiva (**-ita**) indikas, ke la ago subisita dal subjekto esas nun tote finita : **l'imprimo di ta libro duris tre longe;** **ol esis imprimata dum sis monati ed erste de 8 dii ol esas imprimita.** — **Tam longe kam on serchas la solvo di problemo, ta problemo** *esas* *solvata;* **ma venas instanto pos qua ol** *esas solvita.* — **La domo esis** **konstruktata dum un yaro; ma depos du monati ol esas konstruktita.**« Por savar, kande vu hezitas, *qua tempo devas uzesar en la pasivo,* *tradukez per l'aktivo.* Kad on arestas e kondamnas nun persono? Se yes, lu esas *arestato, kondamnato.* Se ne, se on ja arestis o kondamnis lu, on devas uzar la pasinto : *arestito, kondamnito;* ne importas kad l'efekto di la ago ankore duras o ne. Mem liberigita, l'arestito restos arestito; mem indulgita, la kondamnito restos kondamnito (t. e. ulu, quan on kondamnis ultempe). Per ta facila procedo (qua divenas balde mashinala ed instintala per kustumo) *on ne povas erorar.* « La pordo esas klozata » (on klozas ol nun); « la pordo esas klozita » (ol esas nun en la stando qua rezultas de ke on *klozis* olu). — Du participi preske sempre postulas la sama tempo : *konocata* devas generale esar en la prezento, nam : « Me esas konocata » signifikas : « on konocas me » (same *reputata*, konsiderata, e. c.). — Kontraste, *fatigita, konvinkita* devas generale esar en la pasinto. Nam, kande on dicas : me esas fatigita, konvinkita, la efekto ne esas *nun* produktata, ma *ja* produktita. « Me fatigesis promenante e nun me esas fatigita. » — « Me konvinkesis da omno, quon me audis o vidis, pro to me ne plus dubas; me esas konvinkita » (segun *Progreso*, III, 396.)
+> (1) La *perfekto* propre dicata (qua expresas *nuna stando* rezultanta de ago tote pasinta) logike tradukesas per : **me esas amita** (olim).— L'exempli : **Il ne esas mortinta; nun ni esas arivinta** di la noto 3-ma, pag. 48, korespondas, en la voco aktiva, a **me esas amita** di la voco pasiva. En ta omna exempli, l'uzo dil *perfekto* expresas *nuna* *stando* pro ago *facita* dal subjekto o *subisita* da olu.La pasinta participo pasiva (**-ita**) indikas, ke la ago subisita dal subjekto esas nun tote finita : **l'imprimo di ta libro duris tre longe;** **ol esis imprimata dum sis monati ed erste de 8 dii ol esas imprimita.** — Tam longe kam on serchas la solvo di problemo, ta problemo *esas* *solvata;* ma venas instanto pos qua ol *esas solvita.* — **La domo esis** **konstruktata dum un yaro; ma depos du monati ol esas konstruktita.**« Por savar, kande vu hezitas, *qua tempo devas uzesar en la pasivo,* *tradukez per l'aktivo.* Kad on arestas e kondamnas nun persono? Se yes, lu esas *arestato, kondamnato.* Se ne, se on ja arestis o kondamnis lu, on devas uzar la pasinto : *arestito, kondamnito;* ne importas kad l'efekto di la ago ankore duras o ne. Mem liberigita, l'arestito restos arestito; mem indulgita, la kondamnito restos kondamnito (t. e. ulu, quan on kondamnis ultempe). Per ta facila procedo (qua divenas balde mashinala ed instintala per kustumo) *on ne povas erorar.* « La pordo esas klozata » (on klozas ol nun); « la pordo esas klozita » (ol esas nun en la stando qua rezultas de ke on *klozis* olu). — Du participi preske sempre postulas la sama tempo : *konocata* devas generale esar en la prezento, nam : « Me esas konocata » signifikas : « on konocas me » (same *reputata*, konsiderata, e. c.). — Kontraste, *fatigita, konvinkita* devas generale esar en la pasinto. Nam, kande on dicas : me esas fatigita, konvinkita, la efekto ne esas *nun* produktata, ma *ja* produktita. « Me fatigesis promenante e nun me esas fatigita. » — « Me konvinkesis da omno, quon me audis o vidis, pro to me ne plus dubas; me esas konvinkita » (segun *Progreso*, III, 396.)
 
 *Indikativo futura* : **me esos amata** (on amos me).
 
@@ -758,7 +758,7 @@ La kunjuntal formi (1), tre komoda pro lia kurteso (kun radiko monosilaba) preci
 
 > (1) Por ta pasivi ni preferas l'expresuro « kunjuntal formi » pro ke li esas la *kunjunturo* di « esar » e di verbal radiko. Ta formi esus *vere* sintezala, nur se li prezentus dezinenci segun la modelo Latina : *am-or, am-aris* e. c. Ma en *am-esar, am-esas, am-esis* e. c. ne existas dezinenci : existas radiko e kompleta verbo (**esar**) kunjuntita, **unionita.**
 
-45. — Malgre l'exemplo di lingui nacionala (qui agas pri la transitiveso dil verbi deskonkorde ed arbitrie) verbo esas *transitiva* en Ido, se ol expresas faco, ago povanta atingar *direte* ula objekto : **dankar, mokar, nocar, obediar,** **repugnar** *ulu*, nam vere e logike *ulu* povas esar direte l'objekto dil *danko*, dil *moko, noco, obedio, repugno.* Ico nekontesteble pruvesas dal fakto, ke l'objekto povas divenar la subjekto en voco pasiva : *Dankez Deo, Deo esez dankata* o *Deo dankesez; il mokis ta povrulo, ta povrulo esis mokata* *o mokesis da ilu; el nocos vu, vu esos nocata o nocesos da* *elu; fine la filio obediis la matro, la matro esis obediata dal* *filio*; **ta procedo repugnas me**, *me esas repugnata o repugnesas da ta procedo.*
+45. — Malgre l'exemplo di lingui nacionala (qui agas pri la transitiveso dil verbi deskonkorde ed arbitrie) verbo esas *transitiva* en Ido, se ol expresas faco, ago povanta atingar *direte* ula objekto : **dankar, mokar, nocar, obediar,** **repugnar** *ulu*, nam vere e logike *ulu* povas esar direte l'objekto dil *danko*, dil *moko, noco, obedio, repugno.* Ico nekontesteble pruvesas dal fakto, ke l'objekto povas divenar la subjekto en voco pasiva : *Dankez Deo, Deo esez dankata* o *Deo dankesez; il mokis ta povrulo, ta povrulo esis mokata* o *mokesis da ilu; el nocos vu, vu esos nocata* o *nocesos da* *elu; fine la filio obediis la matro, la matro esis obediata dal* *filio*; **ta procedo repugnas me**, *me esas repugnata* o *repugnesas da ta procedo.*
 
 Konseque, esas *netransitiva* en Ido nur la verbi qui logike, nature, quale **naskar** e **mortar** ne povas havar « objekto » (komplemento direta). **Restar, sejornar, repozar, kreskar,** **dekadar, degenerar, falar, irar, marchar, venar, arivar, departar**, exemple, ne esas transitiva, ma tre certe *netransitiva.* En ica lasta verbi, la subjekto facas la ago totsame kam en verbo transitiva : en **venar, arivar, kreskar** la subjekto agas, quale en la transitivi **frapar, donar, lektar**; ma en li, netransitiva, nul « objekto » povas existar, nul « objekto » povas recevar la ago dil subjekto; ol restas en lu : on ne dicas *venar ulu, arivar ulu, kreskar ulu*, quale on dicas : **frapar** **ulu, donar ulo, lektar ulo.** Konseque la *netransitivi* nultempe darfas havar participo pasiva. Do nultempe dicez : *venata,* *venita* o *venota; arivata, arivita, arivota; kreskata, kreskita* o *kreskota*, ma nur, segun la kazo : *venanta, veninta, venonta;* *arivanta, arivinta, arivonta; kreskanta, kreskinta, kreskonta.* E tale pri omna verbo netransitiva. Cetere, merkez e memorez bone, ke *nul formo pasiva darfas donesar en Ido a verbo* *netransitiva.*
 
@@ -780,7 +780,7 @@ Lo sama esas praktikata pri la verbi **chanjar, movar, turnar, pendar,** e. c. (
 
 **Mea chapelo pendis an arboro; me pendis mea chapelo** **an arboro;** — **vu pendigos me.**
 
-**La tero movas** (jiras) **cirkum la suno** (on do parolos pri la movo (jiro) di la tero.
+**La tero movas (jiras) cirkum la suno** (on do parolos **pri la movo (jiro) di la tero.**
 
 **Natante la fisho movas sua flosi e kaudo; ta navo movesas** **da** (o **per**) **vaporo.**
 
@@ -812,7 +812,7 @@ Ma, pro ke esas permisata omna metafori klara e naturala, on darfas uzar la verb
 
 50. — La *verbi unpersona* ne havas aparanta subjekto : **oportas, importas, konvenas, decas, suficas, pluvas, ventas,** **nivas, pruinas, frostas** e. c.
 
-En la realeso por frazi tal quala : **importas departar frue,** la subjekto esas : **departar frue.** Pro to, en la kazi analoga on devas uzar l'adjektivo kom atributo (e ne la adverbo quale en Esperanto) : *necesa esas* o : **esas necesa departar** **frue** (1).
+En la realeso por frazi tal quala : **importas departar frue,** la subjekto esas : **departar frue.** Pro to, en la kazi analoga on devas uzar l'adjektivo kom atributo (e ne la adverbo quale en Esperanto) : **necesa esas** o : **esas necesa departar** **frue** (1).
 
 > (1) Vice **oportas** uzez prefere la verbo **mustar** kun subjekti : *mea* *patrulo mustas departar. Me, tu il, vu* e. c. *mustas departar frue.***Mustar** implikas neceseso absoluta, neeskartebla : *ni mustas* *mortar; vu mustas repozar.***Devar** implikas obligo : *ni devas respektar* ed *obediar nia gepatri.***Povar** implikas posibleso, e **darfar**, yuro, permiso : *me povus venjar* *me, ma me ne darfas, nam omno interdiktas lo ad me.*
 
@@ -874,7 +874,7 @@ Por indikar, ke la grado konstante kreskas o diminutas, on uzas l'expresuro : 
 
 **Pluse, minuse** indikas, quale la signi +, —, adjunto o sustraciono : **pozez 1 manjilaro pluse, 1 manjilaro minuse** **sur la tablo, nam ni havos un repastano pluse, minuse.**
 
-**Maxime, minime** = en la **maxim, minim** granda quanteso a grado : **vu laboris, produktis maxime, minime** (de omni). **Maxim posible, minim posible** (1) (*sen artiklo*, se ne esas substantivo expresata o tacata) : **venez maxim balde posible;** **la maxim granda nombro posible; la maxim bel infanto** **posible; la maxim laborera** (viro) **posible; bruisez minime** **posible; en omno selektez lo maxim bona posible.** — **Il** **kuris tam rapide kam posible. Yen diversa klovi; prenez** **le maxim longa posible.**
+**Maxime, minime** = en la maxim, minim granda quanteso a grado : **vu laboris, produktis maxime, minime** (de omni). **Maxim posible, minim posible** (1) (*sen artiklo*, se ne esas substantivo expresata o tacata) : **venez maxim balde posible;** **la maxim granda nombro posible; la maxim bel infanto** **posible; la maxim laborera** (viro) **posible; bruisez minime** **posible; en omno selektez lo maxim bona posible.** — **Il** **kuris tam rapide kam posible. Yen diversa klovi; prenez** **le maxim longa posible.**
 
 > (1) *Posible*, en ta expresuri, equivalas « segun posibleso ».
 
@@ -896,7 +896,7 @@ Fine la adverbi ja vidita (§ 39) : **kelke, multe, poke,** **quante, tante** 
 
 > (5) **Tam** esas sequata da **kam** e montras egaleso; **tante** sequesas da **ke** e montras granda quanteso o alta grado. Ex. : **Il esas tam** **habila kam tu; — il esis tante habila, ke il ruptis nulo.**
 
-53. — *L'adverbi di tempo* esas :
+53. — L'adverbi di tempo esas :
 
 **Kande** (relativa e questionala) = ye la tempo, ye l'instanto en qua (6).
 
@@ -932,7 +932,7 @@ Fine la adverbi ja vidita (§ 39) : **kelke, multe, poke,** **quante, tante** 
 
 **Morge** = en la dio qua sequos ica.
 
-**Jus** (*nur kun tempo pasinta*) = juste ye l'instanto antea : il jus ekiris.
+**Jus** (*nur kun tempo pasinta*) = juste ye l'instanto antea : **il jus ekiris.**
 
 **Quik** = sen la minima ajorno o tardeso : **facez quik ta** **laboro, nam ol tre urjas.**
 
@@ -946,39 +946,39 @@ Fine la adverbi ja vidita (§ 39) : **kelke, multe, poke,** **quante, tante** 
 
 > (4) Ne konfundez *ankore* (prezenta, pasinta o mem futura duro) a *itere*, qua expresas *itero* (de *iterar*, rifacar la ago), o a *pluse*. Ex. : **Il kantas ankore** (il ne cesis). — **Il kantas itere** (il cesabis, ma il ri-kantas). — **Il kantas un ario pluse** (il adjuntas un ario a le kantita). — La F. expresuri : *encore un, encore deux* e. c. tradukesas : *un pluse, du pluse* e. c.
 
-**Ne plus** esas la negativo di **ankore** : **Kad il vivas ankore?** **No, il ne plus vivas : il ja esis mortinta, kande me departis.** **Antee** (de la prep. *ante*) = en antea tempo.
+**Ne plus** esas la negativo di ankore : **Kad il vivas ankore?** **No, il ne plus vivas : il ja esis mortinta, kande me departis.** **Antee** (de la prep. *ante*) = en antea tempo.
 
 **Pose** (de la prep. *pos*) = en posa tempo.
 
 Esas adjuntenda la sequanta adverbi kompozita o derivita :
 
-ultempe = en ula tempo (pasinta o futura);
+**ultempe** = en ula tempo (pasinta o futura);
 
-uldie = en ula dio (pasinta o futura);
+**uldie** = en ula dio (pasinta o futura);
 
-nultempe = en nula tempo (1);
+**nultempe** = en nula tempo (1);
 
 > (1) *Decido* 1626 : Unanime (minus 1 voco) on repulsas vorto nekompozita vice « nultempe ».« Kontre la adopto di *never* (VII, 287, v. anke 206) me deziras protestar tre insiste. La vorto kreus multa kolizioni pro la simileso a *nevera* : vorti tam freque bezonata ne darfas esar tro simila; en telefono ed exter ol on ne povas distingar « il parolas never » e « ... nevere » (nam in *ne-vere* on tre ofte pro kontrasto acentizos *ne*); e se on pronuncas rapide sen pauzo « ne vere eloquenta » e « never eloquenta », la danjero di misaudo esas tre granda. On darfas naturale formacar la vorto *versimila* (quo ne esas exakte la sama kozo kam *probabla*) ma *ne-versimila* miskomprenesos kom *never-simila*, e. c.Duesme esas « nevera », ke « on » * never uzos l'adjektivo *nevera* : pro quo on ne dicus exemple : « pro sua *nevera* asisto en kunsidi il havas nula influo en nia uniono? » Me ne hezitus uzar tala kombini (sua *nultempa* asisto), nam tala formacuri esas precize un ek la belaji di nia linguo. Anke « la *nevereso (nultempeso)* di tala eventi » devus esar posibla formacuro.*Nultempe* semblas a me, quale a Sro Couturat, tote suficanta : ol permisas ta lenta ed emfazoza pronunco qua harmonias tante kun la expresenda ideo » (Otto Jespersen, en *Progreso*, VII, 407).
 
-kelkatempe = dum kelka tempo;
+**kelkatempe** = dum kelka tempo;
 
-pokatempe = dum poka tempo;
+**pokatempe** = dum poka tempo;
 
-longatempe = dum longa tempo;
+**longatempe** = dum longa tempo;
 
-samtempe = en la sama tempo;
+**samtempe** = en la sama tempo;
 
-irgatempe = en irga tempo;
+**irgatempe** = en irga tempo;
 
-irgekande = ye irga tempo, instanto en qua (2).
+**irgekande** = ye irga tempo, instanto en qua (2).
 
 > (2) On devas ne konfundar **irgatempe** a *irgekande*. L'unesma esas nur adverbo nedefinita, ma **irgekande** esas pluse relativa, e konseque unionas du propozicioni : **me helpos vu irgatempe; me helpos vu** **irgekande vu volos.** En la lasta exemplo *irgatempe* ne esus bona, nam, por unionar la du propozicioni : *me helpos vu* e *vu volos*, esas necesa adverbo relativa; sen olu la propozicioni esus sen ligo.
 
 **Unfoye, dufoye, trifoye**, e. c., **plurfoye, kelkafoye, multafoye, singlafoye, omnafoye**, pri ago facita o subisita *un foyo,* *plura foyi*, e. c.
 
-**Singladie, omnadie, omnasemane, omnamonate, omnayare,** omnajorne, omnanokte, e. c. = en singla, omna dio, semano, e. c.
+**Singladie, omnadie, omnasemane, omnamonate, omnayare,** **omnajorne, omnanokte,** e. c. = en singla, omna dio, semano, e. c.
 
-**Jorne** = dum (la) jorno; **nokte** = dum (la) nokto; **matine** = ye o dum (la) matino; **vespere** = ye o dum (la) **vespero**.
+**Jorne** = dum (la) jorno; **nokte** = dum (la) nokto; **matine** = ye o dum (la) matino; **vespere** = ye o dum (la) vespero.
 
 **Cadie, camatine, cavespere, casemane, canokte, camonate,** **cayare**, e. c. = en ica dio, matino, vespero, e. c.
 
@@ -1048,7 +1048,7 @@ La formi kun **-ube** ne esas, quale la formi kun **-loke**, nur nedefinita; li 
 
 **Apene** = preske ne : **li apene regardis ni.**
 
-**Kom** = D. *als* (identifizierend); F. en qualité de, en tant que : **Kom Kristano me devas pardonar a mea enemiki,** **quale la Kristo pardonis al sui. Ma kom homo e mem kom** **Kristano, me ne obligesas agar a l'enemiki tale kam me** agas al amiki. — On aceptis ilu quale se lu venabus kom rejo, e tamen il venis inkognite, ne kom statestro, ma kom privato (1).
+**Kom** = D. *als* (identifizierend); F. en qualité de, en tant que : **Kom Kristano me devas pardonar a mea enemiki,** **quale la Kristo pardonis al sui. Ma kom homo e mem kom** **Kristano, me ne obligesas agar a l'enemiki tale kam me** **agas al amiki.** — **On aceptis ilu quale se lu venabus kom** **rejo, e tamen il venis inkognite, ne kom statestro, ma kom** **privato** (1).
 
 > (1) **Kom** implikas, ke on esas reale to quon dicas la vorto sequanta l'adverbo : *Kom Kristano*, on esas Kristano : *kom homo,* on esas homo; *kom rejo*, on esas rejo; *kom statestro*, on esas statestro; *kom privato*, on esas privato. — **Quale** implikas nur simileso : *quale* Kristano = simile a Kristano; *quale homo* = simile a homo; *quale rejo* = simile a rejo; *quale statestro* = simile a statestro; *quale privato* = simile a privato. Konseque : uzez « quale », se vu povas remplasigar per « simile a... »; uzez « kom » en la cetera kazi.
 
@@ -1108,7 +1108,7 @@ Ultre ta primitiv adverbi di maniero, Ido havas mult altri derivita o kompozita,
 
 **Kontrevole** = kontre (la) volo.
 
-**Afrankite** = (de *afrankar, afrankita*) : la sendo kustos de vu tri franki (kun la afranko) afrankite.
+**Afrankite** = (de *afrankar, afrankita*) : **la sendo kustos** **de vu tri franki** (kun la afranko) **afrankite.**
 
 **Retroe** (de la prefixo *retro*) = per iro inversa del avanco, desavance) : **Marchar retroe esas kontrenatura e nefacila** (2).
 
@@ -1120,7 +1120,7 @@ Kompreneble omna qualifikanta adjektivi povas e darfas genitar adverbo : saja,
 
 Anke la participi kun -e esas fakte adverbi di maniero : *manjante, kantante; laborinte, dorminte; departonte, mortonte; batate, karezate; ekpulsite, judiciote*, e. c.
 
-55. — L'*adverbi di afirmo, nego o dubo* esas :
+55. — L'*adverbi di afirmo, nego* o *dubo* esas :
 
 **Yes** = la sama Angla vorto; D. *ja*; F. *oui*; I. *sì*.
 
@@ -1166,7 +1166,7 @@ Remarkez, ke en la lasta exemplo, **alonge** expresus ideo tre altra. On povas y
 
 Remarkez ankore la uzo di **ante** en la frazi sequanta :
 
-Me ne savas precize kande me departos, forsan erste pos un monato, ma forsan ante tri semani : to dependas de la retroveno di mea spozo. — **La mediko dicabis, ke il duros** **vivar adminime un yaro, ma il mortis multe plu balde, pos** sis dii, ok monati ante nun. — **Vu certe ruinos vu ante** **longe, forsan mem ante un yaro, se vu duros spensar fole** **quale vu agas.**
+**Me ne savas precize kande me departos, forsan erste pos** **un monato, ma forsan ante tri semani : to dependas de la** **retroveno di mea spozo.** — **La mediko dicabis, ke il duros** **vivar adminime un yaro, ma il mortis multe plu balde, pos** **sis dii, ok monati ante nun.** — **Vu certe ruinos vu ante** **longe, forsan mem ante un yaro, se vu duros spensar fole** **quale vu agas.**
 
 61. — **Apud** = tre proxime (ma ne tam grande kam indikas **an**; videz ica). Ex. : **la kirko trovesas apud nia** **hemo. Sideskez apud me. Qua stacas apud la pordo, an la** **muro? Qua glutinis afisho an la pordo, apud nia nomal** **plako.**
 
@@ -1190,7 +1190,7 @@ Ex. : **vu konstruktos la paviliono avan la domo ed ante** ica. — **Lokizez 
 
 67. — **De** indikas la punto di *de-veno* (en la spaco e tempo), l'origino, la dependo, la departal punto. Ex. : **Ta** **juvelo venas de mea matro. De ube vu adportas ico? de mea** **rur-domo. La persiko esas importacita de Persia. To ne dependas de me. La treno de Paris a Lyon. De supre e de infre,** **de omna lateri, de omna rangi sociala venas ad ilu kurajigi.** **Me sufras de** (o *pro*) **nevralgio dentala. Li mortis single** **de hungro** (o *pro*).
 
-**De lua nasko il sempre montris extrema sentemeso. El** esas malada de tri semani. **Me savas to de longe. El havis** **grava morbilo, tri yari ante nun, e de lore el restis tre febla.** **De nun vu ne plus ekiros sen me. Ni ne vidis li de un yaro.**
+**De lua nasko il sempre montris extrema sentemeso. El** **esas malada de tri semani.** **Me savas to de longe. El havis** **grava morbilo, tri yari ante nun, e de lore el restis tre febla.** **De nun vu ne plus ekiros sen me. Ni ne vidis li de un yaro.**
 
 Kande on volas parolar pri la komencal punto di ulo eventinta pos dato, pos epoko indikata, on uzas **depos** (facita ek *de* e *pos*). Ex. : **El esis ofte malada depos sua mariajo.** **Depos sua kronizo, nia suvereno livas rare la chefurbo.**
 
@@ -1206,7 +1206,7 @@ On uzas **de** kun l'adjektivi *plena* (2), *longa, larja, alta,* *profunda, dik
 
 Fine on uzas **de** kun titulo di nobeleso : **duko de Richelieu,** **markezo de La Fayette.**
 
-**On bone remarkez, ke de esas neutila e devas ne uzesar** **kun la quantesal adjektivi ed adverbi. Ex. : multa homi;** **poka vorti; quanta invititi?** (L'expresuri *multe de homi,* *poke de vorti, quante de invititi?* esus galicismi tam kontrelogika kam *tri de homi*.)
+On bone remarkez, ke de esas neutila e devas ne uzesar kun la quantesal adjektivi ed adverbi. Ex. : **multa homi;** **poka vorti; quanta invititi?** (L'expresuri *multe de homi,* *poke de vorti, quante de invititi?* esus galicismi tam kontrelogika kam *tri de homi*.)
 
 La prepoziciono **de** darfas kombinesar kun altri por indikar la loko de qua on venas : **la muso saltis desub la** **tablo adsub la lito, e desub la lito ol fugis aden la kameno.** (Komp. **da, di.**)
 
@@ -1224,13 +1224,13 @@ Remarkez, en l'exempli sequanta, quale **di** unionesas a **da** por distingar t
 
 > (2) Sen plajiar Ido, la linguo da Zamenhof (se ni dicus : *di* Zamenhof, ol esus la Polona) nultempe povus per sua unika **de** tradukar klare e naturale ta exempli ed altri, quin ni ja donis e povus donar ankore. Tria-dek-e-ok yari de existo e la tota evoluciono di lua lexikografi e skripteri ne ja donis ad olu ica posibleso! Ol esas ankore kondamnita, pri omna analoga kazi, ad aranji plu o min stranja ed obskura, qui sakrifikas la ideo expresenda. Quon signifikas : **la sklavo liberigita de sia mastro?** Kad : *la sklavo* *liberigita* **de** *sua mastro?* o : *la sklavo liberigita* **da** *sua mastro?* Nul vortal ordino povas destruktar l'ambigueso esperantala en ica kazo ed en multega altri analoga. Bela produkturo di blinda e hazardala evoluciono : 38 yari ne emendis la linguo mem pri ta punto grava e tote ne rara!Yen ica frazo : *The governement of the people by the people*. Espo necese tradukos : la regado de la popolo **per** *la popolo!* Ma hike **per** esas tote ne justa, nam E, dicas *by*, ne *through*. E la tota frazotradukenda esas : « ...ke la guvernado *di* l'populo *da* l'populo e por la populo ne perisos sur la tero ». Se on turnos altre ta frazo, quo restos de l'ideo? Vere quon valoras linguo nekapabla tradukar idei tante simpla sen alterar oli?
 
-**Ido povas distingar tote certe l'autori, la modeli e la proprieteri di artal verko, di portreti, statui, e. c. Ex. : la portreti da Rafaël** (il facis li); **la portreti de Napoléon** (il esis la modelo, oli reprezentas lu); **la portreti di siorulo X...** (il esas lia proprietero, il posedas li kom kolektero od altre).
+Ido povas distingar tote certe l'autori, la modeli e la proprieteri di artal verko, di portreti, statui, e. c. Ex. : **la portreti da Rafaël** (il facis li); **la portreti de Napoléon** (il esis la modelo, oli reprezentas lu); **la portreti di siorulo X...** (il esas lia proprietero, il posedas li kom kolektero od altre).
 
 « Quankam la tri (prepozicioni *da, de, di*) esas necesa, existas por li, quale por mult altra propozicioni, kazo-limiti, en qui on povas tre juste hezitar inter du. Por levar ta dubi, ni povas donar la praktikal regulo sequanta.
 
 « Se la senco postulas klare l'ideo di l'aganto od autoro, uzez *da*; — se ol postulas klare l'ideo di *de*veno, o di konteno o di quanto, uzez *de*; — en la cetera kazi (do en omna dubebla kazi) uzez audace *di*; nam olca esas la maxim *generala* de la tri, korespondanta a la genitivo; do, se vu hezitas inter la tri, vu povas uzar ol prefere; tale vu riskos minime erorar, e vu esos komprenata » (*Progreso*, II, 33).
 
-69. — **Dop** relatas nur la spaco, quale **avan** (videz ica) di qua ol esas la justa kontreajo : **Il departis avan me, me** **sequis e balde preterpasis lu, tale ke il arivis dop me. Iosef** **iris al tribunalo por prizentar su avan la judiciisto; ma il** **arivis longe ante ica e mustis vartar.** — **En lineo de soldati** **qui marchas ad ni, l'unesma esas avan la duesma ed ica** **dop l'unesma; la duesma esas avan la triesma ed ica dop** **la duesma, e. c.** — **Se me lektas, irante de sinistre ad dextre** **quale en l'ocidental lingui, la vorto** *l'infanto*, **l'artiklo esas** *avan* **i ed ica** *dop* **l'artiklo; la i esas** *avan* **n ed ica** *dop* **i, e. c.** **Kontraste, se me lektus ta vorto** (quale en la Hebrea) **de** **dextre ad sinistre, la o esus** *avan* **i ed ica** *dop* **o, la t esus** *avan* **n ed ica** *dop* **t, e. c.** (Videz, ye **avan**, la decido 1611).
+69. — **Dop** relatas nur la spaco, quale **avan** (videz ica) di qua ol esas la justa kontreajo : **Il departis avan me, me** **sequis e balde preterpasis lu, tale ke il arivis dop me. Iosef** **iris al tribunalo por prizentar su avan la judiciisto; ma il** **arivis longe ante ica e mustis vartar.** — **En lineo de soldati** **qui marchas ad ni, l'unesma esas avan la duesma ed ica** **dop l'unesma; la duesma esas avan la triesma ed ica dop** **la duesma,** e. c. — Se me lektas, irante de sinistre ad dextre quale en l'ocidental lingui, la vorto *l'infanto*, l'artiklo esas *avan* i ed ica *dop* l'artiklo; la i esas *avan* n ed ica *dop* i, e. c. Kontraste, se me lektus ta vorto (quale en la Hebrea) de dextre ad sinistre, la o esus *avan* i ed ica *dop* o, la t esus *avan* n ed ica *dop* t, e. c. (Videz, ye **avan**, la decido 1611).
 
 70. — **Dum** indikas la duro di tempo en qua ulo eventas od esas facata, agata : **il dormis dum la koncerto; il esis** **absenta dum tri yari; il sucesis fugar dum la masakro; el** **esis malada dum sua infanteso** (1).
 
@@ -1246,7 +1246,7 @@ Per extenso naturala **ek** uzesas anke por indikar la materio di ula kozo (ek q
 
 Atencez bone la difero inter : **botelo ek...** (materio), **botelo de...** (kontenajo), **botelo por...** (destineso). Ex. : **botelo ek vitro, botelo de vino, botelo por oleo.**
 
-Pos la verbo *konsistar*, on uzas **en** o **ek**. Ex. : **La kurajo** **ne konsistas en ne sentar ula timo, ma plu juste en ne egardar** **la danjero. Ek quo konsistas la afero?**
+Pos la verbo *konsistar*, on uzas en o ek. Ex. : **La kurajo** **ne konsistas en ne sentar ula timo, ma plu juste en ne egardar** **la danjero. Ek quo konsistas la afero?**
 
 **Ek darfas uzesar metafore por indikar objekto o mem** ento apartenanta ad ensemblo, kolektajo (e quin on supozas *extraktita* ek olu), exemple pri relatanta superlativo : **la** **maxim richa ek omni.** Ma on darfas anke uzar **de**, quale ni vidis ye : *gradi komparala*. Mem **inter** anke konvenas en ta kazo.
 
@@ -1260,7 +1260,7 @@ Pos la verbo *konsistar*, on uzas **en** o **ek**. Ex. : **La kurajo** **ne ko
 
 74. — **Exter** = ye l'exterajo di... (sen chanjo di loko). Ex. : **Pro quo vu restas exter la domo? Enirez e venez apud** **ni. Il habitas exter hike, che sua gepatri. Exter konkurso.** **Exter** metafore uzesas kun la senco « *ecept(it)e* » : **exter** **ta legi ne existas altri.**
 
-75. — **For** indikas eskarto plu o min granda (3); ol esas la kontreajo di *proxim*. Ex.: **Il habitas pasable for** hike. **Ne restez tale for ni, ma venez proxim ni, e sideskez** **apud me, an la tablo.**
+75. — **For** indikas eskarto plu o min granda (3); ol esas la kontreajo di *proxim*. Ex.: **Il habitas pasable for** **hike.** **Ne restez tale for ni, ma venez proxim ni, e sideskez** **apud me, an la tablo.**
 
 > (3) Quale nia omna nocioni, la nociono di *for* esas relativa, totsame kam la nociono di *proxim*. Exemple, *forirar* povas okazione signifikar nur *eskartar su* (de) : **forirez del tablo.**
 
@@ -1312,7 +1312,7 @@ Ne dicez « kune kun » quale l'Esperantisti. Ta stranja expresuro ne uzesas
 
 Precize pro ke **per** indikas instrumento, moyeno, lu ne darfas uzesar avan la aganto en la komplemento dil verbo pasiva, sive ta aganto esas persono od animalo, sive ol esas kozo; nur **da** uzesas takaze : **lu esas tote kovrita da nivo.** Se vu hezitos inter *da* e *per*, chanjez la formo pasiva a formo aktiva : **la nivo tote kovris la tekti.** Do la nivo esas la aganto en la frazo pasiva; konseque on devas uzar *da* (ne *per*) avan olu.
 
-83. — **Po** preiras la kozo kambie donata; ol indikas equivalo : **me kompris la domo po quaradek mil franki** = *me pagis quaradek mil franki po la domo*; **sigari po dek centimi.** — **Me kompris dek sigari po un franko** (*sume*). Se on volas dicar : *sigari di qui singla kustas un franko*, on dicas : **sigari po un franko single. Silko po kin franki (singla)** **metro; me kambiis mea biciklo po un plu nova. Il pagis** **la glorio po sua vivo. Me defensus ta afero mem po mea** **sango. Po quante vu vendas ta flori?** to esas : **po quanta** **preco.** Se on dicus : **quante vu vendas ta flori?** la senco esus : **kad vu vendas li grandaquante, mikraquante, grose o** **detale?**
+83. — **Po** preiras la kozo kambie donata; ol indikas equivalo : **me kompris la domo po quaradek mil franki** = *me pagis quaradek mil franki po la domo*; **sigari po dek centimi.** — **Me kompris dek sigari po un franko** (*sume*). Se on volas dicar : *sigari di qui singla kustas un franko*, on dicas : **sigari po un franko single. Silko po kin franki (singla)** **metro; me kambiis mea biciklo po un plu nova. Il pagis** **la glorio po sua vivo. Me defensus ta afero mem po mea** **sango. Po quante vu vendas ta flori?** to esas : po quanta preco. Se on dicus : **quante vu vendas ta flori?** la senco esus : **kad vu vendas li grandaquante, mikraquante, grose o** **detale?**
 
 Por indikar l'unajo kun qua relatas la preco on uzas la prepoziciono **por**. Ex. : **On abonas ta revuo po dek e du** **franki por yaro. On darfas anke dicar : po dek e du franki** **yare.**
 
@@ -1326,7 +1326,7 @@ On uzas **por** avan l'unajo kun qua relatas la preco. (Videz **po** pri ca punt
 
 85. — **Pos** relatas nur la tempo. Ol esas juste la kontreajo di **ante**. (Videz ica.) Ol signifikas « plu fore kam... » (en la tempo). Ex. : **To eventis pos mea departo. Me certe** **arivos pos elu. Quon li agos pos mea morto?**
 
-Me atestas, ke il dicis to **ante** tua fratulo ed **avan** tu, nule **pos** ilu, quale il asertas; e me savas lo tre certe, nam omno eventis **koram** me.
+**Me atestas, ke il dicis to ante tua fratulo ed avan tu, nule** **pos ilu, quale il asertas; e me savas lo tre certe, nam omno** **eventis koram me.**
 
 86. — **Preter** = pasante apud (ulu od olu) ed irante plu fore kam (li). Ex. : **Ni rajuntis li ye la halteyo, ma iris** **preter li e preter omni quin ni renkontris, til ke ni atingis** **la portuo.** — **Ni iris preter lia fenestri, malgre lia signi e** **voki.** — **Li preter-vehis ni, ma salutis ni afable, pasante.** — **Pro quo camatine vu iris preter mea pordo, sen haltar** **dum kelk instanti?**
 
@@ -1338,17 +1338,17 @@ Ma tre reguloze vu darfas uzar *koncerne*, *relate* qui expresas la sama ideo ka
 
 88. — **Pro** = per efiko od efekto di... Ex. : **Il mortis** **pro hungro; me tremas, ne pro timo, ma pro koldeso; el** **agas tale pro jaluzeso. Pro quo tu ploras? pro ke Petrus** **batis me.**
 
-Se on atencos, ke ta prepoziciono fakte konocigas *de quo* venas la efekto produktita (exemple « hungro » en : **il mortis** **pro hungro**) on komprenos, ke ol havas kelka afineso kun *de*. Co explikas, ke en ul okazioni, ol povas esar remplasata dal prepoziciono *de*. Ex. : **il mortis de hungro expresas la kauzo dil morto** (*hungro*) **tam juste kam : il mortis** **pro hungro. Same : el esas malada pro o de febro.**
+Se on atencos, ke ta prepoziciono fakte konocigas *de quo* venas la efekto produktita (exemple « hungro » en : **il mortis** **pro hungro**) on komprenos, ke ol havas kelka afineso kun *de*. Co explikas, ke en ul okazioni, ol povas esar remplasata dal prepoziciono *de*. Ex. : **il mortis de hungro** expresas la kauzo dil morto (*hungro*) tam juste kam : **il mortis** **pro hungro. Same : el esas malada pro o de febro.**
 
 89. — **Proxim** = ye mikra disto de la punto indikata, ne for olu. Ex. : **Me plantacigis kelka florarbusti proxim** **la domo. Kande il sentis su proxim la morto.**
 
 Ta prepoziciono esas la kontreajo di **for**. Kun olu la vicineso restas min granda kam kun **apud**. (Videz ica e **an**, qua indikas ne nur vicineso, ma kontigueso o kontrakto.)
 
-90. — **Segun** = sen eskartar de..., konforme a... Ex. : **ni vivez segun la nova precepto : « amez l'una l'altra, quale** **me amis vi » e ne segun l'anciena : « okulo po okulo e** **dento po dento ». — Il agis segun sua opiniono. To ne esas** **permisata segun la lego. Arkitekturo segun la gusto di Renesanco. Pikturo (kopiuro) segun Rafael. Nultempe uzez** **segun vice per. Do dicez : el esis la perfekta portreto di sua** **patrulo per** (e ne : *segun*) **sua boneso e honesteso** (1).
+90. — **Segun** = sen eskartar de..., konforme a... Ex. : **ni vivez segun la nova precepto : « amez l'una l'altra, quale** **me amis vi » e ne segun l'anciena : « okulo po okulo e** **dento po dento ». — Il agis segun sua opiniono. To ne esas** **permisata segun la lego. Arkitekturo segun la gusto di Renesanco. Pikturo (kopiuro) segun Rafael.** Nultempe uzez **segun vice per. Do dicez : el esis la perfekta portreto di sua** **patrulo per** (e ne : *segun*) **sua boneso e honesteso** (1).
 
 > (1) Ne imitez Esperanto dicanta en « La feino » : « *kiu estis la* *plena portreto de sia patro laù* (vice *per*) *sia boneco kaj honesteco* », nam vi alterus l'ideo tradukenda.
 
-91. — **Sen** esas la kontreajo di **kun**. (Videz ica.) **Ol indikas l'absenteso, la manko dil persono o kozo nomata :** **Il arivis sen sua amiko; me ne povus vivar sen tu.**
+91. — **Sen** esas la kontreajo di **kun**. (Videz ica.) Ol indikas l'absenteso, la manko dil persono o kozo nomata : **Il arivis sen sua amiko; me ne povus vivar sen tu.**
 
 92. — **Sub** indikas la situeso di ulo (od ulu) relate to quo esas supere ed en la sama vertikal direciono : **la kato** **dormas sub la tablo. Me refujis sub la hangaro pro la pluvo** **qua faleskis. La muso kuris (ad) sub la armoro.** (Komp. *sur*).
 
@@ -1438,7 +1438,7 @@ To esas tre importanta por evitar l'obskuraji ed ambiguaji, quin produktas en la
 
 Ma kande la prepoziciono indikata dal senco esas **di** o **ad**, esas ordinare plu bona ne expresar olu, nam la kuntexto sufias por sugestar lu.
 
-105. — Vice l'expresuro « la fakto di » sequata da infinitivo, on darfas uzar nur l'artiklo kun ta infinitivo. Ex. : « *Ne la fakto (di) ebriigar su konstitucas l'alkoholismo, ma* *la fakto (di) drinkar kustume alkoholo* » povas e darfas esar expresata ne min klare e plu kurte per : **Ne la ebriigar su** **konstitucas l'alkoholismo, ma la drinkar kustume alkoholo;** ed altramaniere : **la alkoholismo konsistas ne en la ebriigar** **su, ma en la drinkar kustume alkoholo.** — **Altr exemplo :** « *Ne la fakto (di) timar nulo konstitucas kurajo, ma la fakto* (*di*) *afrontar danjeri malgre la pavoro, quan on sentas pro* *li* »; plu kurte per : **Ne la timar nulo konstitucas kurajo,** **ma la afrontar danjeri malgre la pavoro quan on sentas** **pro li.**
+105. — Vice l'expresuro « la fakto di » sequata da infinitivo, on darfas uzar nur l'artiklo kun ta infinitivo. Ex. : « *Ne la fakto (di) ebriigar su konstitucas l'alkoholismo, ma* *la fakto (di) drinkar kustume alkoholo* » povas e darfas esar expresata ne min klare e plu kurte per : **Ne la ebriigar su** **konstitucas l'alkoholismo, ma la drinkar kustume alkoholo;** ed altramaniere : **la alkoholismo konsistas ne en la ebriigar** **su, ma en la drinkar kustume alkoholo.** — Altr exemplo : « *Ne la fakto (di) timar nulo konstitucas kurajo, ma la fakto* (*di*) *afrontar danjeri malgre la pavoro, quan on sentas pro* *li* »; plu kurte per : **Ne la timar nulo konstitucas kurajo,** **ma la afrontar danjeri malgre la pavoro quan on sentas** **pro li.**
 
 Ma ca exempli di rara kazi ne devas instigar vu ad uzar l'artiklo nediskrete e tedante avan l'infinitivo (quale se la substantivi ne plus existus), e dicar exemple : *la studiar e* *la muzikar esis lua delici*, vice : **la studio e la muziko esis** **lua delici.**
 
@@ -1540,11 +1540,11 @@ A qui korespondas : **pro co, pro to** = *pro ica, pro ita* *kauzo;* **por co,
 
 > (3) Nam subordinal propoziciono komencanta per **ke** equivalas substantivo od infinitivo : **me expektas, ke il venos** = *me expektas* *ilua veno;* same : **pos ke il venis** = *pos ilua veno.*
 
-**Pro ke** (kauzo); **por ke** (skopo); **per ke** (per la fakto **ke) : glacio diferas de aquo per ke ol esas solida** = *per sua* *solideso.*
+**Pro ke** (kauzo); **por ke** (skopo); **per ke** (per la fakto ke) : **glacio diferas de aquo per ke ol esas solida** = *per sua* *solideso.*
 
 **De ke** (de la fakto ke, de ico ke) : **lua febreso venas de** **ke il esis recente malada** = *de lua recenta maladeso.*
 
-**Ante ke; pos ke; depos ke o de kande : depos ke, de kande** **il venis, me ne plus ekiras; omnafoye ke.**
+**Ante ke; pos ke; depos ke** o **de kande : depos ke, de kande** **il venis, me ne plus ekiras; omnafoye ke.**
 
 **Dum ke : dum ke il esis malada** = *dum lua maladeso.*
 
@@ -1560,11 +1560,11 @@ A qui korespondas : **pro co, pro to** = *pro ica, pro ita* *kauzo;* **por co,
 
 > (1) **Time ke** (kun timo ke) diferas de *timante ke*, qua relatas la subjekto di la frazo.
 
-> (2) **Tante ofte ke** e **tante longe ke** inkluzas nula komparo, kontre ke : **tam ofte kam** e **tam longe kam** esas komparanta. **Exemple : Il venas tante ofte, ke il tedas ni; venez tam ofte kam** **vu povos.** — **Il diskursis tante longe, ke fine la asistanti ne plus** **askoltis lu; tam longe kam me vivos, me esforcos sucesigar nia ideo.**
+> (2) **Tante ofte ke** e **tante longe ke** inkluzas nula komparo, kontre ke : **tam ofte kam** e **tam longe kam** esas komparanta. Exemple : **Il venas tante ofte, ke il tedas ni; venez tam ofte kam** **vu povos.** — **Il diskursis tante longe, ke fine la asistanti ne plus** **askoltis lu; tam longe kam me vivos, me esforcos sucesigar nia ideo.**
 
 Remarkez anke la sequanta konjuncional expresuri :
 
-**Lore kande; quik kande; same kam; tante plu... quante** **plu = quante plu... tante plu; tante min... quante min =** **quante min... tante min. Ex. : Quante plu me konocas li,** **tante plu me estimas li (= me tante plu estimas li, quante** **plu me konocas li); quante plu me vidas ilu, tante plu il** **plezas a me; quante min il laboras, tante plu il volas repozar; quante min me dormas, tante min me somnolas.**
+**Lore kande; quik kande; same kam; tante plu... quante** **plu = quante plu... tante plu; tante min... quante min =** **quante min... tante min.** Ex. : **Quante plu me konocas li,** **tante plu me estimas li (= me tante plu estimas li, quante** **plu me konocas li); quante plu me vidas ilu, tante plu il** **plezas a me; quante min il laboras, tante plu il volas repozar; quante min me dormas, tante min me somnolas.**
 
 **Segun quante : segun quante me povos, me certe helpos vu.**
 
@@ -1580,7 +1580,7 @@ Quale on vidas, la konjunciono *kad, ka* sempre komencas la propoziciono (chefa 
 
 Ma on ne uzas lu, se la propoziciono ja havas vorto questionala (**qua, quo, quala, quanta**, e. c.).
 
-**Kad ne o ka ne?** esas fakte elipso vice : **kad ne** (tala esas la kozo)? **Ka ne** (tale vu pensas, opinionas, e. c.)? Ol tradukas la F. *n'est-ce pas?*
+**Kad ne** o **ka ne?** esas fakte elipso vice : **kad ne** (tala esas la kozo)? **Ka ne** (tale vu pensas, opinionas, e. c.)? Ol tradukas la F. *n'est-ce pas?*
 
 Co explikas, ke on ne dicas : *ka no*. (Videz ica lasta vorto ye la adverbo di afirmo, nego o dubo).
 
@@ -1632,7 +1632,7 @@ Altra vorti apartenanta a diversa gramatikal kategorii darfas uzesar kom interje
 
 > (2) *Kin* ne povis esar *quin*, pro ke ica lasta esas la plural akuzativo di *qua*. Ni do havabus okazione : *la quin, quin il donis ad vu,* *esas plu bela kam la quin, quin il donis ad me.* O : *le quin* (5) *quin* *vu skribis sur ta pagino esas omni tre male desegnita.* Nia skopo ne esas konkordar maxim posible kun la Latina *quin-que*, ma donar formi sat dicernebla de altri. Plu importas por ni certa dicernebleso dil diversa formi, kam sklavatra imito di vorti o formi latina efektiganta al vera koncernati di L. I. konfundi e miskompreni.
 
-**Pose : milion; miliard** (*mil milioni*); **bilion** (1,000,000²); **trilion** (1,000,000³); **quadrilion** (1,000,000⁴); **quintilion,** **sextilion, septilion, oktilion, nonilion, decilion** (singla de ta nombri egalesante la preirinta multipliko per un milion (3).
+Pose : **milion; miliard** (*mil milioni*); **bilion** (1,000,000²); **trilion** (1,000,000³); **quadrilion** (1,000,000⁴); **quintilion,** **sextilion, septilion, oktilion, nonilion, decilion** (singla de ta nombri egalesante la preirinta multipliko per un milion (3).
 
 > (3) **Milion, miliard, bilion** e. c. recevas *-i* dil pluralo, se to esas necesa : **on spensis milioni por ta edifico.** — Ma : **il recevis plura** **milion,** pro ke plura sat indikas la pluralo.Ta nombri (kande on ne adjuntas *-o*, quo ne esas *necesa*) havas la acento sur la final silabo, pro ke li esas reale abreviuro di *miliono,* *miliardo* e. c.
 
@@ -1700,15 +1700,15 @@ Por enuncar fraciono komplikita, on obtenas plu granda klareso uzante la prepozi
 
 120. — La *nombro dil foyi* indikesas per la radiko **foy** generale sequata dal adverbal dezinenco **e** : **dufoye**; o, se konvenas, dal dezinenco **a** : **trifoya voko** = *voko repetita* *3 foyi.*
 
-**Notez bone, ke la Franca vorto « fois » ne tradukesas** **per** *foy* **ma per** *opl* **en la senco multiplikanta : triople quar** **esas dekedu** (*3 fois 4 font 12*). On darfas anke uzar la prepoziciono **per**, precipue kande la nombri esas kelke komplikita: **okadek e tri per duacent a quaradek e sis**=83×246. Plu simpla enunco : *ok, tri per du, quar, sis*.
+Notez bone, ke la Franca vorto « fois » ne tradukesas per *foy* ma per *opl* en la senco multiplikanta : **triople quar** **esas dekedu** (*3 fois 4 font 12*). On darfas anke uzar la prepoziciono **per**, precipue kande la nombri esas kelke komplikita: **okadek e tri per duacent a quaradek e sis**=83×246. Plu simpla enunco : *ok, tri per du, quar, sis*.
 
 121. — L'expresuri **distributiva** obtenesas per la sufixo **op**, sequata dal dezinenco konvenanta : **duope** = per rangi o serii de *du*; **triope** = per rangi o serii de *tri*, e. c. **Unope,** un separite, aparte, **single. La soldati marchas quarope.** — **Se li formacos rangi duopa e ne quaropa, lia defilo duros** **duople plu longe.** — **Marchez unope.**
 
-La questional adverbo korespondanta esas **quantope :** **quantope vu vendas la nuci** (quantanombre per un foyo?) **centope o micentope** (dek e kinope). On darfas anke dicar : **pokope, multope** = *ye mikra quanti, ye granda quanti* (2).
+La questional adverbo korespondanta esas **quantope :** **quantope vu vendas la nuci** (quantanombre per un foyo?) **centope** o **micentope** (dek e kinope). On darfas anke dicar : **pokope, multope** = *ye mikra quanti, ye granda quanti* (2).
 
 > (2) Evitez sorge uzar la sufixo distributiva **op** en senco kolektala por qua ol esas neutila, la kardinal adverbo suficante. Dicar : **Ta du** **amiki promenas sempre duope** esus tam kontrelogika kam dicar France ...*se promènent toujours deux à deux*. Quale li povus facar ico, nam *li esas nur du?*
 
-122. — Nula prepoziciono e nula sufixo esas necesa en frazi tal quala ici : **Por mea infanti me kompris dekedu** **pomi, ed a singla de li me donis tri pomi.** — **Ta libro havas** **sisadek pagini; se do me lektos en singla jorno dek e kin** **pagini, me finos la tota libro en quar jorni. La vorto singla** **suficas por indikar la distributo.**
+122. — Nula prepoziciono e nula sufixo esas necesa en frazi tal quala ici : **Por mea infanti me kompris dekedu** **pomi, ed a singla de li me donis tri pomi.** — **Ta libro havas** **sisadek pagini; se do me lektos en singla jorno dek e kin** **pagini, me finos la tota libro en quar jorni.** La vorto **singla** suficas por indikar la distributo.
 
 123. — Por l'enunco di la hori, l'Akademio adoptis explicite **kloko, kloki**. Ca du vorti indikas do propre la diala dividuro markizata da la cifri di horlojo. Ex. : **il departis** **pos du kloki**, to esas : pos la dividuro II di la horlojo. Ma **horo** indikas (exter omna cifroplako, e per su) la duro, l'ensemblo dil 60 minuti konstitucanta un horo. Ex : **il** **departis pos du hori**, t. e. pos 120 minuti, pos restir dum 120 minuti.
 
@@ -1828,17 +1828,17 @@ La **-n** esas anke neutila en kazi analoga al sequanti : **me** **judikis bon
 
 > (2) La mediko *judikis*, ne trovis, nam lu ne serchis.
 
-**Anke nula -n en : Me nomizis Adolfus mea filiulo**, o : **me nomizis mea filiulo Adolfus** (me donis ad ilu la nomo **Adolfus**), quo tre diferas de : **me nomis mea filiulo** **Adolfus** (me pronuncis ilua nomo, qua esas Adolfus) e de : **me vokis mea filiulo Adolfus.**
+Anke nula **-n** en : **Me nomizis Adolfus mea filiulo**, o : **me nomizis mea filiulo Adolfus** (me donis ad ilu la nomo **Adolfus**), quo tre diferas de : **me nomis mea filiulo** **Adolfus** (me pronuncis ilua nomo, qua esas Adolfus) e de : **me vokis mea filiulo Adolfus.**
 
 **Nula -n** esus utila o justifikebla en tala frazi, nek en ica : **me facas** (fabrikas) **vitro neruptebla**, qua diferas tote de : **me igas neruptebla la vitro.**
 
-**Mem pos kom n ne esas uzenda : Me selektis ilu kom prezidero** (por ke il esez prezidero), qua diferas de : **me, kom** **prezidero, selektis ilu**, o : **kom prezidero me selektis ilu** (3).
+Mem pos **kom n** ne esas uzenda : **Me selektis ilu kom prezidero** (por ke il esez prezidero), qua diferas de : **me, kom** **prezidero, selektis ilu**, o : **kom prezidero me selektis ilu** (3).
 
 > (3) Multi de la lasta exempli vizas aparte Esperantisti qui divenos Idisti, imitante la nombro ja tre granda dil Espisti konvertita a Ido.
 
 ## TEMPI E MODI
 
-131. — Pri la *tempi* e *modi* esas nur un regulo generala di selekto : on uzas en propoziciono subordinita (nedireta diskurso) la sama tempo e modo quan on uzus en chefa propoziciono (diskurso direta). Ex. : **il dicis ke il skribas** (4) (il dicis : *me skribas*); **il dicis ke il skribis hiere a vua** **matro** (il dicis : *me skribis*, e. c.); **il dicis ke il ja esis skribinta** o : **skribabis dufoye ante recevar respondo** (il dicis : *me ja esis skribinta o skribabis*, e. c.; **dicez ad ilu ke il** **venez** (dicez ad ilu : *venez*); **me pensis ke il esas hike** (1) (*il esas hike, me pensis*); **me pensis ke il esos hike** (2) (*il* *esos hike, me pensis*); **me esperas, ke il venos** (*il venos, me* *esperas*); **me timas, ke il venos** (3) (*il venos, me lo timas*); **me timas, ke il ne venos** (4) (*il ne venos, me lo timas*); **me** **dubas, kad il venos** (5) (*kad il venos, me dubas pri lo*); **me kredis ke il venos** (6) (*il venos, me kredis lo*); **me kredas ke il venus, se il ne impedesus** (hike la ideo esas vere kondicionala, e ne futura); **il dicis, ke se il savabus** (o : **esus savinta), il venabus** (o : **esus veninta**) **plu frue** (*se* *me savabus, il dicis, me venabus plu frue*); **konvenas** (decas), **ke vu facez ito** (*facez ito, lo konvenas*).
+131. — Pri la *tempi* e *modi* esas nur un regulo generala di selekto : on uzas en propoziciono subordinita (nedireta diskurso) la sama tempo e modo quan on uzus en chefa propoziciono (diskurso direta). Ex. : **il dicis ke il skribas** (4) (il dicis : *me skribas*); **il dicis ke il skribis hiere a vua** **matro** (il dicis : *me skribis*, e. c.); **il dicis ke il ja esis skribinta** o : **skribabis dufoye ante recevar respondo** (il dicis : **me ja esis skribinta** o **skribabis**, e. c.; **dicez ad ilu ke il** **venez** (dicez ad ilu : *venez*); **me pensis ke il esas hike** (1) (*il esas hike, me pensis*); **me pensis ke il esos hike** (2) (*il* *esos hike, me pensis*); **me esperas, ke il venos** (*il venos, me* *esperas*); **me timas, ke il venos** (3) (*il venos, me lo timas*); **me timas, ke il ne venos** (4) (*il ne venos, me lo timas*); **me** **dubas, kad il venos** (5) (*kad il venos, me dubas pri lo*); **me kredis ke il venos** (6) (*il venos, me kredis lo*); **me kredas ke il venus, se il ne impedesus** (hike la ideo esas vere kondicionala, e ne futura); **il dicis, ke se il savabus** (o : **esus savinta), il venabus** (o : **esus veninta**) **plu frue** (*se* *me savabus, il dicis, me venabus plu frue*); **konvenas (decas)**, **ke vu facez ito** (*facez ito, lo konvenas*).
 
 > (4) France : *il disait qu'il écrivait.*
 
@@ -1864,9 +1864,9 @@ Partikulare, l'imperativo (o plu juste *volitivo*) indikas sempre intenco o dezi
 
 Pri la *kondicionalo* bone memorez, ke ol sempre supozas kondiciono explicita od implicita. En ta modo la fakti ne prizentesas kom certa (quale en l'indikativo),ma kom plu o min dubebla, eventuala, dependanta de kondiciono quan indikas ofte (ma ne sempre) la konjunciono *se*. Ex. : **li esus** **kontenta, se vu konsentus. Forsan ni povus sucesar** (*se*...). **Me tre volus aceptar ilu** (se me ne esus impedata) **ma me** **esas tro malada cadie. En ta kazo, me quik forirus. Me jurus,** **ke lu venabus sen ta obstaklo. Sen via helpo, ni perisabus** **infalible. Kad esus posibla, ke vua gepatri ne sokursus vu.** **Esus plu afabla, se vu skribus ipsa, ke vu aceptas lia invito.**
 
-Remarkez, en la lasta exemplo, ke se tradukas la Franca konjunciono *que* di : *il serait plus aimable* que *vous écriviez* *vous-même*, e. c., de quo rezultas ke la kondicionalo esas substitucata en Ido al subjuntivo di la Franca. Vu facus kulpo, se vu tradukus o : **esus plu afabla ke vu skribas,** o : **esus plu afabla ke vu skribus o skribez.** Memorez bone ta exemplo ed imitez lu omnafoye, kande *que* povos chanjesar a *se*.
+Remarkez, en la lasta exemplo, ke se tradukas la Franca konjunciono *que* di : *il serait plus aimable* **que** *vous écriviez* *vous-même*, e. c., de quo rezultas ke la kondicionalo esas substitucata en Ido al subjuntivo di la Franca. Vu facus kulpo, se vu tradukus o : **esus plu afabla ke vu skribas,** o : **esus plu afabla ke vu skribus** o **skribez.** Memorez bone ta exemplo ed imitez lu omnafoye, kande *que* povos chanjesar a *se*.
 
-Tale ordinante la vorti dil exemplo : **se vu skribus ipsa,** **ke vu aceptas lia invito, esus plu afabla, vu komprenos bone,** **ke nur la kondicionalo esas hike logikala e justa.**
+Tale ordinante la vorti dil exemplo : **se vu skribus ipsa,** **ke vu aceptas lia invito, esus plu afabla,** vu komprenos bone, ke nur la kondicionalo esas hike logikala e justa.
 
 133. — Quale ni dicis ye la fino di § 131, Ido ne havas *subjuntivo*, modo reale ne necesa, e quan logike remplasas en Ido l'*indikativo*, la *volitivo* o la *kondicionalo*, segun la kazi (1).
 
@@ -1880,15 +1880,15 @@ Same, pro quo la formo questionala o negala dil frazo dispensus ni uzar l'indika
 
 Konkluze : sive la frazo esos afirma, nega o questiona, sive trovesos, o ne, avan la verbo la konjunciono *quankam*, od altra postulanta, en irga linguo, altra modo kam l'indikativo, Ido sequos la logiko ed uzos konstante l'indikativo, se la fakto o l'ideo prizentesos kom certa.
 
-134. — Analoge Ido ne imitas la lingui qui uzas altra modo kam la kondicionalo pro la konjunciono *se* (2). Ido sempre uzos la kondicionalo : **li esus kontenta, se vu konsentus; li esabus kontenta, se vu konsentabus.** Ma, kompreneble, se irga linguo, la Franca exemple, kontrelogike uzas la kondicionalo vice l'indikativo futura, Ido uzas l'indikativo. Ex. : Il espérait qu'*il trouverait*, **il esperis, ke** *il* *trovos* (*me trovos*, il dicis a su espere). Elle nous a écrit qu'*elle scrait ici demain*, **el skribis a ni ke** *el esos* **hike,** **morge** (*morge me esos hike*, el skribis a ni).
+134. — Analoge Ido ne imitas la lingui qui uzas altra modo kam la kondicionalo pro la konjunciono *se* (2). Ido sempre uzos la kondicionalo : **li esus kontenta, se vu konsentus; li esabus kontenta, se vu konsentabus.** Ma, kompreneble, se irga linguo, la Franca exemple, kontrelogike uzas la kondicionalo vice l'indikativo futura, Ido uzas l'indikativo. Ex. : Il espérait qu'*il trouverait*, **il esperis, ke** *il* *trovos* (*me trovos*, il dicis a su espere). Elle nous a écrit qu'*elle scrait ici demain*, **el skribis a ni ke** *el esos* **hike,** morge (*morge me esos hike*, el skribis a ni).
 
 > (2) Exemple : *si j'étais* F., *se io fossi* I. = **se me esus**.
 
 135. — Same kam Ido abandonas nek l'*indikativo*, nek la *kondicionalo* por imitar uzi kontrelogika di ula lingui, tale ol restas sempre fidela a sua *volitivo*, kande la fakto o stando dependas de volo, deziro, impero, interdikto, prego, demando, postulo, bezono, neceso, konveno, deco, merito.
 
-Exempli : **Me volas, ke vu skribez ad elu. Me totkordie** **deziras, ke vi sucesez. Il imperis, ke me restez ed interdiktis,** **ke mea fratino venez che ilu. Me pregas, suplikas, ke vu** **helpez mea filiulo. Ni bezonas ed esas necesa, ke plu multa** **homi partoprenez l'entraprezo. Vere il meritas, ke on rekompensez lu. Konvenas, ke ni vizitez li. Decas, ke la filii respektez ed obediez sua gepatri. Ni rekomendos a li, ke li tacez** **ico. Fine il permisis, ke ni departez. Pro quo vu konsentas, ke** **el traktez vu tale. Il venez e rakontez a me omno, quo eventis.**
+**Exempli : Me volas, ke vu skribez ad elu. Me totkordie** **deziras, ke vi sucesez. Il imperis, ke me restez ed interdiktis,** **ke mea fratino venez che ilu. Me pregas, suplikas, ke vu** **helpez mea filiulo. Ni bezonas ed esas necesa, ke plu multa** **homi partoprenez l'entraprezo. Vere il meritas, ke on rekompensez lu. Konvenas, ke ni vizitez li. Decas, ke la filii respektez ed obediez sua gepatri. Ni rekomendos a li, ke li tacez** **ico. Fine il permisis, ke ni departez. Pro quo vu konsentas, ke** **el traktez vu tale. Il venez e rakontez a me omno, quo eventis.**
 
-L'expresuro por ke sempre postulas la *volitivo* pro ke, kande on uzas ta expresuro konjunciona, la fakto o stando dependas tre reale de la neceseso, bezono, konveno o volo : **Por ke vu povez pagar ta debajo, oportas ke vu kunprenez** **sat grosa sumo de pekunio. Por ke il elektesez, vu mustas** **luktar kun extrema energio. Por ke ni rekompensez vi, pueri,** **konvenas ke vi meritez lo. Me volas agar omno posibla, por** **ke vu esez kontenta pri me. Respondez ante morge, por ke** **me savez precize to, quon me devas dicar ad ilu.**
+L'expresuro **por ke** sempre postulas la *volitivo* pro ke, kande on uzas ta expresuro konjunciona, la fakto o stando dependas tre reale de la neceseso, bezono, konveno o volo : **Por ke vu povez pagar ta debajo, oportas ke vu kunprenez** **sat grosa sumo de pekunio. Por ke il elektesez, vu mustas** **luktar kun extrema energio. Por ke ni rekompensez vi, pueri,** **konvenas ke vi meritez lo. Me volas agar omno posibla, por** **ke vu esez kontenta pri me. Respondez ante morge, por ke** **me savez precize to, quon me devas dicar ad ilu.**
 
 Remarkez, ke la propoziciono dependanta de *volitivo* postulas ta modo por sua propra verbo, pro ke ica fakte dependas de impero, prego, deziro, volo : **Imperez, ke il venez.** **Dicez ad elu, ke el quik departez. Atencez, ke vu ne falez.** **Ni ne tolerez, ke il tale rezistez a ni. Ni sorgez, ke il povez** **domajar nulo.**
 
@@ -2080,11 +2080,11 @@ Mea *stifa* onklulo esas la spozo di mea onklino rimariajinta su kun ilu, ma tot
 
 On devas dicernar e distingar sorgoze la vorti *kontrea*, formacata per **des-**, de la vorti *kontredicanta* (simpla nego), formacata per **ne-** : *neafabla, neutila, neobedio.*
 
-Por certe facar la dicerno (e pose la distingo per **des-** o **ne-**) suficas questionar su kad existas mezo inter la du extremaji; se ta mezo existas, l'extremaji esas kontrea, lore oportas uzar **des-**; se ta mezo ne existas, lore oportas uzar **ne-.** Ex. : **afabla** e **desafabla**, pro la mezo : **neafabla**; **obediar** e **desobediar**, pro la mezo : **neobediar** (2); **richa** e **desricha** (se on ne uzas *povra*), pro la mezo : nericha. Ta persono esas nericha; tamen ol ne esas povra (*desricha*), nam ol posedas mikra domeno ek qua ol vivas.
+Por certe facar la dicerno (e pose la distingo per **des-** o **ne-**) suficas questionar su kad existas mezo inter la du extremaji; se ta mezo existas, l'extremaji esas kontrea, lore oportas uzar **des-**; se ta mezo ne existas, lore oportas uzar **ne-.** Ex. : **afabla** e **desafabla**, pro la mezo : **neafabla**; **obediar** e **desobediar**, pro la mezo : **neobediar** (2); **richa** e **desricha** (se on ne uzas *povra*), pro la mezo : **nericha. Ta persono** **esas nericha; tamen ol ne esas povra** (*desricha*), **nam ol** **posedas mikra domeno ek qua ol vivas.**
 
 > (2) On imperis a me agar ulo, e ton me ne agas; lore me *ne-obedias.* On interdiktis a me ulo, e tamen me agas lu; lore me *desobedias.* Ed anke : on imperis a me agar ulo, e me agas lo kontrea, lore me *desobedias.*
 
-Nultempe uzez : despovar, desdormar, desvolar, desexistar, desesar, desmovar, desvivo, desposedo, deshavanta, e. c., pro ke ta vorti ed altri analoga povas nur equivalar simpla nego : *ne povar*, e. c. Multa kontreaji esas expresata en Ido (quale en nia lingui) da radiki specala. Exemple : jorno, nokto; lumo, tenebro; komencar, finar; audacar, timar; ganar, perdar; laborar, ociar; bona, mala; dextre, sinistre; supere, infre; alte, base; plu, min; ante, pos; avan, dop, e. c.
+Nultempe uzez : **despovar, desdormar, desvolar, desexistar,** **desesar, desmovar, desvivo, desposedo, deshavanta,** e. c., pro ke ta vorti ed altri analoga povas nur equivalar simpla nego : *ne povar*, e. c. Multa kontreaji esas expresata en Ido (quale en nia lingui) da radiki specala. Exemple : **jorno,** **nokto; lumo, tenebro; komencar, finar; audacar, timar;** **ganar, perdar; laborar, ociar; bona, mala; dextre, sinistre;** **supere, infre; alte, base; plu, min; ante, pos; avan, dop,** e. c.
 
 La motivi esas : 1e ke la opozeso en ula kazi ne esas evidenta (1); 2e ke serio kelke longa de kontreaji unike per **des-** esus vere netolerebla (2); 3e ke la uzo dil prefixo **des-** povas ulkaze produktar grava detrimenti (3); 4e ke lu donas vorti tote nejusta ulkaze e ne aceptebla da la cienci (4).
 
@@ -2234,7 +2234,7 @@ Same ol devas ne uzesar pri la organi o funcioni di la bestii, ecepte se on vola
 
 > (1) « L'iterado o frequeso di l'ago esas expresata en Ido per derivado, nome per la sufixo *-ad* : *pafar, pafadar, parolar, paroladar.* » (*Progreso*, IV, 390, noto.)
 
-*Polko, valso*, e. c., esas dansi; ma dansado esas to, quon ni altre nomizas : dansarto : dansado esas praktikata da omna populi ed en omna epoki.
+*Polko, valso*, e. c., esas **dansi;** ma **dansado** esas to, quon ni altre nomizas : **dansarto : dansado esas praktikata da omna** **populi ed en omna epoki.**
 
 **Parolo** esas frazo, frazeto pronuncata : il dicis a me : « **vu esas idiota** »; il do insultis me per ta parolo. — **Parolado** esas la fakultato o la maniero parolar (2) ed anke longa uzo kontinua dil parolado : **Parolado grantesis nur a la** **homi. Ne ilua diskurso hierala fatigis lu, ma lua trihora** **parolado kun l'advokato camatine.**
 
@@ -2340,7 +2340,7 @@ Kompreneble on ne uzas **aro** aparte, kom radiko, ma : *ensemblo, kolektajo, 
 
 Kun radiko indikanta koloro, **-atr-** expresas koloro afina ad olta quan enuncas la radiko : **redatra, blankatra,** **bluatra, verdatra**, di koloro afina a redeso, blueso, verdeso. Per la diminutivo *et* on nur diminutas la koloro ed expresas altra nuanco dil ideo : on afirmas certeso pri la koloro (quon on ne agas per **-atr-**) ma on afirmas anke olua extrema febleso.
 
-En la vorti teknikala, ta sufixo darfas esar remplasata, segun la kazi, da la radiki **-form**, **-simil**, o dal sufixo teknikala **-oid** : metaloido, elipsoido, konkoido, konoido, helicoido, e. c.
+En la vorti teknikala, ta sufixo darfas esar remplasata, segun la kazi, da la radiki **-form**, **-simil**, o dal sufixo teknikala **-oid** : **metaloido, elipsoido, konkoido, konoido,** **helicoido,** e. c.
 
 **-e-**. — Ta sufixo korespondas a *at* (en *rosata* L.), a *at* (en *rosato* I.), a *ad* (en *atigrado* S.), a *é* (en *rosé, tigré* F.). Ol adoptesis per la decido 758 kun ica signifiko : *qua havas la* *koloro od aspekto di...* Ex. : **rozea** = *rozkolora*; **violea** = *violkolora*; **kastanea** = *kastankolora*; **oranjea** = *oranjokolora*, cindrea, orea, arjentea, kuprea, plombea; tigrea, zebrea felo; cindreo, sangeo. Per ta sufixo ni sparas centi de tedanta vorti kompozita per *-kolor(a)* (1).
 
@@ -2360,7 +2360,7 @@ La sufixo **-ebl-** ne darfas uzesar kom radiko o plu juste vorto izolita. Uzez 
 
 > (2) Nule *forsan*, qua expresas tote altra ideo, quale montras : *to esas forsan posibla.*
 
-**Posiblo** = *to quo esas posibla* : Kad vu forsan opinionus ke la homo povus transirar la limiti dil posiblo? (1).
+**Posiblo** = *to quo esas posibla* : **Kad vu forsan opinionus** **ke la homo povus transirar la limiti dil posiblo?** (1).
 
 > (1) A la komuna raciono esas ne plu multe posibla konfundar a homo « *posiblo* » kam dezerto. (Videz en l'apendico 4a, la pagino 196.) Okazione di ta pagino ni memorigas, ke Sro L. Couturat esis tre remarkinda specalisto pri filozofio, ke il iris aden Germania por facar longa e minucioza serchi en la manuskripti da Leibniz, ke il publikigis « L'Algèbre de la Logique » e « La Logique de Leibniz d'après des documents inédits » kun « Opuscules et fragments inédits de Leibniz », ke dum un yaro il supleis en *Collège de France* la eminenta filozofiisto H. Bergson. Lua idei e judiki pri la kozi filozofiala konseque havas valoro tote specala e certe plu granda kam olti di altra personi plu o min profana pri filozofio.
 
@@ -2368,17 +2368,17 @@ La sufixo **-ebl-** ne darfas uzesar kom radiko o plu juste vorto izolita. Uzez 
 
 Altra exempli : **kulieredo, pladedo, bruetedo, charetedo,** **chariotedo, kamionedo, nestedo, aguledo, pinchedo, glutedo,** **brakiedo, kruchedo, potedo, e. c., e. c.**
 
-Me drinkis nur un glutedo de vino. — Il prenis ofte pinchedo di sniflotabako ek mea tabakuyo.
+**Me drinkis nur un glutedo de vino.** — **Il prenis ofte pinchedo di sniflotabako ek mea tabakuyo.**
 
-**-eg-.** — Ta sufixo, inter altri, venis che Ido de Espo. Ol uzesas por formacar *augmentivi* qui indikas grado supera od extrema, *chanjanta la nociono*. Ol juntesas a nomala ed a verbala radiki. Exempli : varmega = *varma til la maxim alta* *grado*. La aquo quan on pozas en kaserolo sur fairo por boliigar olu, esas unesme kolda, ma pose ol divenas varmeta o tepida, varma, tre varma, e varmega kande ol bolias.
+**-eg-.** — Ta sufixo, inter altri, venis che Ido de Espo. Ol uzesas por formacar *augmentivi* qui indikas grado supera od extrema, *chanjanta la nociono*. Ol juntesas a nomala ed a verbala radiki. Exempli : **varmega** = *varma til la maxim alta* *grado*. La aquo quan on pozas en kaserolo sur fairo por boliigar olu, esas unesme kolda, ma pose ol divenas varmeta o tepida, varma, tre varma, e **varmega** kande ol bolias.
 
-*Kruela* esas min forta kam *tre kruela*, ma ica esas min forta kam *kruelega*, nam homo kruelega atingas la extrema *grado*. Il esas ne nur tre bona, ma bonega e ciencozega. Il divenis ne nur tre richa ma richega. Il ploris e ploregis kun singluti. Ne tro bruisez ridante : ridego ne konvenas. Me tante sufris, ke me kriegis pro doloro.
+*Kruela* esas min forta kam *tre kruela*, ma ica esas min forta kam *kruelega*, nam homo **kruelega** atingas la extrema *grado*. **Il esas ne nur tre bona, ma bonega e ciencozega. Il** **divenis ne nur tre richa ma richega. Il ploris e ploregis kun** **singluti. Ne tro bruisez ridante : ridego ne konvenas. Me** **tante sufris, ke me kriegis pro doloro.**
 
-On ne donez ad **-eg-** la pejorativa senco di **-ach-**, e ne aplikez lu a la bestii. La bestii havas **boko,** **pedi** quale la homi, ma proporcione a sua grandeso e tipi. Same li manjas, drinkas, e. c., quale la homi; konseque esas adminime neutila uzar specala vorti por organi e funcioni quin la bestii havas komuna kun la homi (1).
+On ne donez ad **-eg-** la pejorativa senco di **-ach-**, e ne aplikez lu a la bestii. La bestii havas **boko,** **pedi** quale la homi, ma proporcione a sua grandeso e tipi. Same li **manjas,** **drinkas,** e. c., quale la homi; konseque esas adminime neutila uzar specala vorti por organi e funcioni quin la bestii havas komuna kun la homi (1).
 
 > (1) Ni ne povis imitar D. e E., uzante *plen-*, nam tre ofte tala vorti ne esas justa : *plenboko* ne esas *bokedo* (D. ipsa havas *Bissen*, peco demordita, apud *Mund voll*); e quo esus : *plenaghulo?* Pluse, li povas esar dusenca, nam *plen-plado*, exemple, equivalas, pro l'eliziono permisata, *plena* plado. Ma donar *plen-plado* o *plena plado* de ulo ne esas lo sama : l'unesma expresuro indikas nur quanto, la duesma implikas la plado ipsa.On ne povis prenar *-ad* (veninta de *-ata* L., che S. exemple, e vicina a *-at* I.) pro ke *-ad* havis altra rolo en Ido. On do kunfuzis *ée* F. kun *-ad*, quo donis *-ed* e lasis *-e* libera por altro.
 
-*Treege*, restajo Esperantala, fortunoze desaparis de che ni. Ni do ne uzez lu. Dicez : **Me chagrenas extreme (en maniero** **extrema) pro la tristiganta novajo quan vu savigas da me.** E nultempe uzez *ege* o *ega* (2).
+*Treege*, restajo Esperantala, fortunoze desaparis de che ni. Ni do ne uzez lu. Dicez : **Me chagrenas extreme** (en maniero extrema) **pro la tristiganta novajo quan vu savigas da me.** E nultempe uzez *ege* o *ega* (2).
 
 > (2) Ni sincere konfesez, ke **-eg-** semblas tote arbitriala. On expresis pri olu reprocho plu grava : « Ube esas bruiso, o kande on telefonas, ta sufixo povas facile konfundesar al diminutivo *-et*. » Se la futuro montros vere ta desavantajo, pos la periodo di stabileso forsan on povus (por chanjar minim posible) chanjar *-eg-* ad *-ug-* qua certe ne povus konfundesar a *-et*, segun la propozo quan me facis en *Progreso*, III, 683. En la sama revuo, IV, 97, Sro Jonsson judikis lu kom « rekomendinda » e remarkigis : « Kontraste, *-ug* diferas perfekte de *-et-* ed ol semblas aparte fortunoza pro la memorigo por Angli pri E. *huge* (imensa); *animalugo* facile komprenesas quale E. *a huge animal*; *longuga* quale E. « *hugely long* ».Me lore agis nulo por ke l'Akademio adoptez mea propozo, e nun me nule solicitas futura adopto por olu. Sempre me esis e sempre me esos l'unesma obediero dil decidi, acepti o refuzi di nia Akademio, judikante kun la tante regretata Couturat, ke ne penvaloras elektar e laborigar akademio, se on ne aceptas lua decidi, o se mem on kritikas li. Singlu facez sua linguo e proklamez, ke nur olu esas digna aceptesar dal mondo. Pri Ido, quale olim pri Espo, me predikos la diciplino proprexemple, tante plu ke me ne havas, quale altri, la doturo di neeroriveso.**Ego** en Ido indikas « la *me* filozofiala ».
 
@@ -2408,7 +2408,7 @@ Ta sufixo darfas formacar substantivi : **dividendo, multiplikendo**, e. c. Ol
 
 **-er-.** — Ta sufixo (moderna formo : *-ier, -er, -eur* F.; *-iero, -aio* I., *-ero* S., *-eiro* Port.) venas de *arius* Latina. Ol quik adoptesis dal Komitato di la *Delegitaro* por indikar la *amatoro di*... Ma pose la decidi 591 e 690 pluampligis lua senco. Konseque nun ol indikas : *ta qua kustume o mem nur ofte* *okupas su pri*... sen facar ek la kozo sua profesiono (Videz sufixo **-ist**). Quale on vidas, la amatoro inkluzesas en ta defino.
 
-La sufixo **-er-** soldesas a radiki nomala ed a radiki ver**bala : biciklero (amatoro), gimnastikero, arkero, fumero,** **kolektero, chasero, peskero. — Il nultempe enoyas, pro ke** **esante granda lektero, fotografero ed exkursero il sempre** **okupesas. — Dum sep yari il esis prezidero di nia societo** **e nun il esas lua honor-prezidero.**
+La sufixo **-er-** soldesas a radiki nomala ed a radiki verbala : **biciklero** (amatoro), **gimnastikero, arkero, fumero,** **kolektero, chasero, peskero. — Il nultempe enoyas, pro ke** **esante granda lektero, fotografero ed exkursero il sempre** **okupesas. — Dum sep yari il esis prezidero di nia societo** **e nun il esas lua honor-prezidero.**
 
 Ta sufixo aplikesas anke a nomi di bestii o di objekti qui esas karakterizata da specal ago kustumala : **reptero, ruminero, rodero, klimero; remorkero, krozero, flotacero** (Vid. sufixo **-il**).
 
@@ -2442,7 +2442,7 @@ Konseque ol uzesas por formacar substantivi qui expresas *pasiva stando*, sen ir
 
 > (1) Nula konfundo esas posibla inter ica lasta uzo di la radiko **es** ed olua uzo en la verbi pasiva, pro la dicerno inter la radiki verbala e la radiki neverbala (o nomala) quan omnu facas instinte. Nulu inklinesas komprenar : **amar** = *esar amo*, ma komprenas lu kom *abreviuro* di **am(at)esar.**La Komitato dil Delegitaro quik adoptis la propozita radiko **es** por **esar** e la uzo supere expozita. On lektas lo yena, pag. 24 di *Compte Rendu des Travaux du Comité* : « On varme aprobis la identigo dil sufixo **ec** al radiko dil verbo *esti* (*esar*), e la logikal klareso qua rezultas de olu por la verbi dil tipo **utilesar** e la korespondanta substantivo (**utileso**). »
 
-On tote darfus uzar **es(o)** mem izolita, nam ol esas radiko esence. Ma fakte **stando** (de *standar*) remplasas lu konstante. Tamen nule esus nekorekta dicar : **Me trovis lu en bona eso.** Same on darfus dicar : **Quale vu esas?** quo tote ne signifikus : **quale vu existas?** nam esar ne signifikas existar.
+On tote darfus uzar **es(o)** mem izolita, nam ol esas radiko esence. Ma fakte **stando** (de *standar*) remplasas lu konstante. Tamen nule esus nekorekta dicar : **Me trovis lu en bona eso.** Same on darfus dicar : **Quale vu esas?** quo tote ne signifikus : **quale vu existas?** nam **esar** ne signifikas **existar.**
 
 **-esk-.** — Greka e Latina, ta sufixo ritrovesas en novlatina lingui. On nomizas lu *inkoativo*, to esas *montranta* *komenco*. Ol quik adoptesis del reformo-plano kun la senco : *komencar*, kande ol juntesas a radiki verbala : **dormeskar** = *komencar dormar*; **morteskar** = *komencar mortar*; **videskar** = *komencar vidar*; **sideskar** = *komencar sidar*; **iraceskar** = *komencar iracar*; **emoceskar** = *komencar emocar*.
 
@@ -2546,7 +2546,7 @@ Quale on vidis en la supera exempli, la sufixo **ig** uzesas kom radiko dil verb
 
 On anke vidis, ke la verbo **igar** darfas havar propoziciono kom objekto : **me igas mea kavalo manjar aveno.** Quale on vidas, importas (por la justa expreso e kompreno) sequar la « normal ordino » en ta propozicioni infinitivala : **Il igis** **Petrus ocidar Alexander** = *il igis Alexander ocidesar da* *Petrus.*
 
-Ne konfundez **igar** a **koaktar** od a **lasar**. **Il igis sua spozino manjar la kordio di elua amoranto** (el ne savis lo); **il koaktis sua spozino,** e. c. (el ne volis, ma il impozis ad **elu koakte sua volo**). **Lasez me enirar** = *ne impedez me* *enirar*; **igez ni enirar** = *ayez por ke ni enirez.*
+Ne konfundez **igar** a **koaktar** od a **lasar**. **Il igis sua spozino manjar la kordio di elua amoranto** (el ne savis lo); **il koaktis sua spozino,** e. c. (el ne volis, ma il impozis ad elu koakte sua volo). **Lasez me enirar** = *ne impedez me* *enirar*; **igez ni enirar** = *ayez por ke ni enirez.*
 
 La uzo di **lasar** en la senco di **igar** esas Germanajo.
 
@@ -2596,7 +2596,7 @@ Remarkez bone, ke **em**, **er**, **iv** (videz ica) havas senco aktiva, ma **eb
 
 > (4) On bone remarkez, ke la defino dil sufixo *-ist* dicas « profesione ». Or la profesiono implikas multa okupi qui ne esas mestiero propre dicata. Mestiero esas profesiono, ma tre ofte profesiono ne esas mestiero : *ciencisto*.
 
-Per extenso, qua trovesas en nia lingui, ta sufixo indikas *adepto* o *adherinto di partiso, skolo* (doktrino) (5); **socialisto,** **materialisto, idealisto, e. c.;** ecepte se la radiko dil vorto en **-ism** ja posedas ta senco : **Kristano, skeptiko, mistiko,** **katoliko, protestanto, e. c.**
+Per extenso, qua trovesas en nia lingui, ta sufixo indikas *adepto* o *adherinto di partiso, skolo* (doktrino) (5); **socialisto,** **materialisto, idealisto,** e. c.; ecepte se la radiko dil vorto en **-ism** ja posedas ta senco : **Kristano, skeptiko, mistiko,** **katoliko, protestanto,** e. c.
 
 > (5) Do *Idisto* ne *Idano*, tante plu ke *-an* signifikas esence : *membro* di : *societano, senatano*, ed instinte omna profani nomizas ni *Idisti*.
 
@@ -2642,7 +2642,7 @@ La difero inter **-anta** e **-oza** esas ke l'unesma expresas *ago* kun ideo te
 
 La difero inter **-oz** e **-iz** esas, ke l'unesma expresas ulo naturala, e la duesma expresas ulo artificala. Exemple, tereno **sabloza** nature kontenas sablo; ma korto **sablizita** havas sablo nur artifice, per laboro qua kovris lu ye sablo.
 
-**-ul-.** — Adoptita per la decido 1090, pos tote fundamentala studiado dil questiono. Yen la texto di la decido : « On adoptas la sufixo -ul *por indikar maskula sexuo* » (decido, 714 : V, 65). Specala noto dicas : « Komprenende, ico ne exkluzas la formaco di kompozaji quale *porko-maskulo*; ma *pork-ulo* esas equivalanta e plu kurta. La sufixo -ul ya esas abreviuro di *(mask)ulo*, quale -in esas abreviuro di *(fem)ino*. »
+**-ul-.** — Adoptita per la decido 1090, pos tote fundamentala studiado dil questiono. Yen la texto di la decido : « On adoptas la sufixo **-ul** *por indikar maskula sexuo* » (decido, 714 : V, 65). Specala noto dicas : « Komprenende, ico ne exkluzas la formaco di kompozaji quale *porko-maskulo*; ma *pork-ulo* esas equivalanta e plu kurta. La sufixo **-ul** ya esas abreviuro di *(mask)ulo*, quale **-in** esas abreviuro di *(fem)ino*. »
 
 La decido pri ul esabis preirata da ica (1089) : « On decidas definitive, ke la substantivi generale signifikez nedeterminita sexuo » (decido, 714 : V, 65). Exempli : **avulo,** **patrulo, onklulo, fratulo, kuzulo, siorulo; bovulo, katulo,** **hundulo; finkulo, sturnulo; luciulo, karpulo, tenkulo, perkulo; leonulo, panterulo, tigrulo, hienulo,** e. c., e. c. (1).
 
@@ -2688,7 +2688,7 @@ Kom radiko ne uzez **uyo,** quale l'Esperantisti, ma selektez inter *etuyo, gain
 
 **-yun-.** — La radiko **yun** uzesas kom sufixo por la « *yuni* » l'infanti dil bestii : **bovyuno** = *yuno di la bova speco;* **bovyunulo** = *yuna bovulo;* **bovyunino** = *yuna bovino;* **hanyuno,** **porkoyuno, katyuno, leonyuno,** e. c.
 
-Por la homa genituro, quale on ja savas, nur filio, infanto, puero esas uzenda, e kun indiko pri la sexuo : filiulo, filiino; infantulo, infantino; puerulo, puerino.
+Por la homa genituro, quale on ja savas, nur **filio, infanto, puero** esas uzenda, e kun indiko pri la sexuo : **filiulo,** **filiino; infantulo, infantino; puerulo, puerino.**
 
 Ultre **yun** la radiki **es,** **ig** e **ag** (3) uzesas kom sufixo.
 
@@ -2760,7 +2760,7 @@ La kompozado per prepozicioni formacas la transito inter la derivado e la kompoz
 
 Ma, kande la prepoziciono esas unionita a nomal radiko, on devas generale komencar la deskompozo de la prepoziciono ipsa; altravorte : on sequas l'ordino di la elementi. Ex. : **sen-hara** = *sen hari*; **sur-tera** = *qua esas sur tero*; **sub-mara** = *qua esas sub maro*; **super-natura** = *qua esas* *super la naturo*; **inter-naciona** = *qua esas inter nacioni*; **inter-popula**, **inter-homa** = *qua esas inter la populi, la homi*; **inter-yuna** = *qua esas inter yuni*, e. c., e. c.
 
-Konseque on darfas dicar : intertempo, intertempe; interakto; subtaso, subvesto, subjupo, e. c.
+Konseque on darfas dicar : **intertempo, intertempe; interakto; subtaso, subvesto, subjupo,** e. c.
 
 Ta duopla regulo posibligas interpretar korekte la verbi kompozita per **-igar** e prepoziciono; on devas komencar de la verbo **igar** : **enter-igar** devas analizesar **igar entera**, e ne **en-terigar**, qua havus nula senco; **sen-arm-igar** = *igar senarma.*
 
@@ -2878,15 +2878,15 @@ Ta punto esas dominacata da du kozi : 1e la verbal rolo di **s** (2), unesma m
 
 > (3) Vere kad esus tolerebla e facile pronuncebla : *quasn vu* *prenos?* vice : *quin vu prenos?*O : *la homos quasn me renkontris?* O fine : *mokosn, persekutosn,* *mem tormentosn dum yaros il subisis...* vice : *mokin, persekutin,* *mem tormentin dum yari il subisis...?*Or la **n** inversigala esas necesa, nome por *qua*, *qui*, *quo*, quale on vidis en la gramatiko. Senco klara, nedubebla povas obtenesar nur per olu, en ula kazi. Do ol devas esar konservata, ed ol ne esas admisebla pos *s* en finalo,
 
-Un del argumenti uzata kontre Ido esas opozar a lua pluralo per -i, la pluralo per -s dil Angla, di la Hispana e di la Franca. Tre rapide on deduktas ica konkluzo : Ido violacas l'internacioneso, formacante sua pluralo per -i.
+Un del argumenti uzata kontre Ido esas opozar a lua pluralo per **-i**, la pluralo per **-s** dil Angla, di la Hispana e di la Franca. Tre rapide on deduktas ica konkluzo : Ido violacas l'internacioneso, formacante sua pluralo per **-i**.
 
-Pri ta reprocho un del maxim eminenta partisani dil naturaleso en L. I. ed anke dil pluralo per -i (1), Sro Rosenberger, mortinta, suflas a ni la respondo : « On devas ne regardar unike l'internacioneso (en la gramatiko), ma anke la regulozeso, simpleso e komodeso. Or la finalo -i esas plu komoda kam -s (-es), qua postulas komplikita regulo ».
+Pri ta reprocho un del maxim eminenta partisani dil naturaleso en L. I. ed anke dil pluralo per **-i** (1), Sro Rosenberger, mortinta, suflas a ni la respondo : « On devas ne regardar unike l'internacioneso (en la gramatiko), ma anke la regulozeso, simpleso e komodeso. Or la finalo **-i** esas plu komoda kam -s (-es), qua postulas komplikita regulo ».
 
 > (1) Quan havis *Neutral* e *Reform-Neutral*.
 
 Ni adjuntez, ke nur ta finalo plurala posibligas l'akuzativo (*-n* inversigala) e co esas decidiganta niaopinione. Se la homo poke instruktita sucesas nur tre desfacile aplikar l'akuzativo (lon montras l'Esperantisti ed ante li la plebeyi Latina), ta homo komprenas frazo qua aplikas ol saje. En la vivo omnadia, ta kazo esas kompliko neutila, e jenanta, quale omna kompliko. Ibe l'inversigo di la subjekto povas e devas proxime reduktesar al kazo ube *qua, qui, quo* divenas komplemento direta e preiras la subjekto : *quan* me vidas? evidente diferanta de *qua* vidas me? o : *qua* me vidas?
 
-Ma, exter la domeno omnadia, ne esas certa ed on ne pruvis, ke l'akuzativo esas neutila por unionar plu rapide e plu evidente la du parti di rezono filozofiala, teologiala, o mem matematikala, e. c. Yen pro quo Ido ne forjetis tote l'akuzativo. Or, ni lo dicis e repetas, l'akuzativo esas posibla nur kun la pluralo per -i, ecepte se on inventus ula subtilajo qua fakte pruvus nia aserto (2).
+Ma, exter la domeno omnadia, ne esas certa ed on ne pruvis, ke l'akuzativo esas neutila por unionar plu rapide e plu evidente la du parti di rezono filozofiala, teologiala, o mem matematikala, e. c. Yen pro quo Ido ne forjetis tote l'akuzativo. Or, ni lo dicis e repetas, l'akuzativo esas posibla nur kun la pluralo per **-i**, ecepte se on inventus ula subtilajo qua fakte pruvus nia aserto (2).
 
 > (2) On reprochis a Ido (por justifikar Esperanto) formacar sua pluralo per *substituco*. **O**, on dicas, esas la marko distingiva di la substantivo. Konseque on devas konservar ol en la pluralo.Unesme **o** ne esas nur la marko dil substantivo : ol esas anke la marko dil substantivo *singulara*. On do havas nul motivo por adjuntar la marko dil pluralo ad olta dil singularo; kontree, on devas remplasigar ica per ita; nam l'ideo dil pluralo ne *adjuntesas* al ideo dil singularo : ol kontredicas lu absolute. La marko dil pluralo konseque devas remplasar olta dil singularo e ne adjuntesar ad olu.Altraparte, se **o** esus la marko generala di la substantivo, on devus adjuntar *un* specal marko por la singularo, ed *un altra* markospecala por la pluralo. Tal esas la konsequo di ta postulo superlogika. Ma lore la kritiko atingas tam Esperanto kam Ido.Altraparte, se **o** esas la marko di la substantivo generale, qua do esas la marko dil verbo generale? Qua esas la komuna elemento en ta omna finali *as, is, os, us, u, i* di Esperanto? Nula, ne mem un litero! On certe respondos ke suficas savar, ke ta omna finali esas finali *verbala* e karakterizas la verbo. Tre bone! ma same suficas savar, ke **o** e **i** esas finali substantivala e karakterizas rispektive la substantivi singulara e la substantivi plurala. La rezono esas rigoroze identa en la du kazi. Se l'objeciono havus la maxim mikra justeso, on devus konservar la marko dil verbo (**i** dil infinitivo en Esperanto, exemple) en omna modi e tempi, e dicar : *amias,* *amiis, amios..., amianta...* Fakte, por defensar la pluralo di Esperanto, on kondamnas lua tota konjugo! On do koaktesas admisar, ke se la konjugo di Esperanto ne pekas kontre logiko, la pluralo per **i** ne pekas, anke lu, kontre logiko. O l'objeciono ne valoras, od ol atingas la kara linguo quale « la pavo dil urso »!Finante, ni donez la decidiganta motivo di la substituco dil Idopluralo ad olta di Espo; ta motivo esas, ke l'Ido-pluralo esas tam facile pronuncebla da omni (ye la nominativo o ye l'akuzativo) kam ne esas tala por tota populi la pluralo di Espo, precipue ye l'akuzativo. Ex. : *Me amas chiujn tiujn, kiujn vi amas, kaj mi malamas* *chiujn tiujn, kiujn vi malamas.* En Ido : *me amas ti omna quin vu* *amas, e me odias ti omna quin vu odias.*
 
@@ -3002,11 +3002,11 @@ Rezume, Ido solvas la questiono dil genro ed emendas la maskulismo di nia lingui
 
 1e Radiko di speco, konvenanta egale bone por la maskuli kam por la femini : *elefanto* (maskula o femina), *homo* (ento homa, sive maskula, sive femina), *filio* (la genitito sive maskula, sive femina) (1).
 
-> (1) Ni pasante remarkigez, ke la Franca ed altra lingui ne povas simple e sen ambigueso expresar ica ideo : *Mea filii ne plus esas* *infanti.*
+> (1) Ni pasante remarkigez, ke la Franca ed altra lingui ne povas simple e sen ambigueso expresar ica ideo : **M***ea filii ne plus esas* *infanti.*
 
-2e Sufixo *-ul* preiranta la dezinenco ed indikanta la sexuo maskulala, se oportas enuncar olu : *elefant-ulo* (elefanto maskula); *hom-ulo* (homa ento maskula); *fili-ulo* (genitito maskula).
+2e Sufixo *-ul* preiranta la dezinenco ed indikanta la sexuo maskulala, **se oportas enuncar olu** : *elefant-ulo* (elefanto maskula); *hom-ulo* (homa ento maskula); *fili-ulo* (genitito maskula).
 
-3e Sufixo *-in* preiranta la dezinenco ed indikanta la sexuo feminala, se oportas enuncar olu : *elefant-ino* (elefanto femina); *hom-ino* (homa ento femina); *fili-ino* (genitito femina).
+3e Sufixo *-in* preiranta la dezinenco ed indikanta la sexuo feminala, **se oportas enuncar olu** : *elefant-ino* (elefanto femina); *hom-ino* (homa ento femina); *fili-ino* (genitito femina).
 
 Kompreneble, se altra vorto, exemple pronomo personala, ja indikas la sexuo, la radiko di speco suficas : *mea filiulo* *ne plus esas infanto* (1); *el esas sekretario* (2) *di ministro* (3).
 
@@ -3022,13 +3022,13 @@ Semblas a ni, ke ta sistemo sustenesas da la raciono, e ke ol havas la merito es
 
 Unesme importas precizigar bone la justa signifiko dil vorto « adjektivo » (qualifikanta). Yen to, quon skribis pri ta punto la ciencoza filozofiisto L. Couturat, nia regretata pioniro :
 
-« Adjektivo (plu precize : adjektival radiko) tote ne indikas la abstraktita qualeso, ma la konkreta ento qua « posedas » ta qualeso, e qua tam multe diferas de ta qualeso, kam la habitanto diferas de sua lando o la mestieristo de sua mestiero (4). La radiko **blind** expresas ulo **blinda**, e ne la blindeso; konseque **blindo** = **ento** (praktike homo) **blinda**, e tote ne la **blindeso**. Same **belo**, **bono** ne povas indikar la **beleso,** la **boneso** (quale se la sufixo **es,** o **ec,** havus nula senco e nula valoro), nek felico la feliceso, nek fiero la fiereso, e. c., e. c., ma nur la enti, qui posedas ta qualesi. » (1).
+« Adjektivo (plu precize : adjektival radiko) tote ne indikas la abstraktita qualeso, ma la konkreta ento qua « posedas » ta qualeso, e qua tam multe diferas de ta qualeso, kam la habitanto diferas de sua lando o la mestieristo de sua mestiero (4). La radiko **blind** expresas ulo **blinda**, e ne la blindeso; konseque **blindo** = **ento** (praktike homo) **blinda**, e tote ne la **blindeso**. Same **belo**, **bono** ne povas indikar la **beleso,** la **boneso** (quale se la sufixo **es,** o **ec,** havus nula senco e nula valoro), nek **felico** la feliceso, nek **fiero** la fiereso, e. c., e. c., ma nur la enti, qui posedas ta qualesi. » (1).
 
 > (4) E vere, F. **grand** ne equivalas *grandeur*, **grandeso**, nek **pauvre** esas identa a *pauvreté*, **povreso**. Li do ne indikas la qualeso ipsa, ma indikas, nomizas la ento karakterizata da olu : *la povra* o *povro*, *la* *granda* o *grando*. Nam, dicis Leibniz : « Discrimen adjectivi et substantivi in lingua rationali non est magni momenti. » *Granda* e *grando*, *povra* e *povro* fakte nomizas ento konkreta e diferas nur gramatikale.
 
 > (1) *Progreso*, I, 389.
 
-Reale la substituco di o a a substantivigas la adjektivo, ma ol ne homigas lu. Icon agnoskis Sro Couturat per ica vorti :
+Reale la substituco di **o** a **a** substantivigas la adjektivo, ma ol ne homigas lu. Icon agnoskis Sro Couturat per ica vorti :
 
 « Certe, **substantivigar** adjektivo ne esas necese **personigar** ol. **Belo** nur signifikas « bela ento » (persono o kozo indiferente), nam la finalo **-o** di la substantivo aplikesas tote egale a personi ed a kozi. Ma hike aparas motivo, **ne plus** **di logiko,** ma di simpleso : se on bezonas distingar la kazo di persono e la kazo di kozo, on havas ja la sufixo **-aj** por la kozi : do ne esas necesa uzar altra sufixo : to esas nur praktikal konvenciono di « komuna raciono ». Remarkez bone, ke la substantivigo di adjektivo ne implikas plu l'ideo di kozo kam l'ideo di persono; **belo** vice **belajo** esus tam konvencionala kam **belo** vice **bela viro** (2). Ma l'ideo ipsa dil adjektivo maxim ofte implikas, sive ideo di persono, sive ideo di kozo : **acido, dezerto, vakuo,** e. c., povas (naturale) indikar nur kozi; **avaro, blindo, malado,** e. c. povas indikar nur personi (o vivanti). Do en omna kazi en qui povas aparar praktike nula dusenceso, on darfas substantivigar *direte* l'adjektivo : to esas simpligo e sparado di neutila sufixo. Nur en kazo di reala dubo on uzos **-aj** por distingar la kozi » (3).
 
@@ -3058,37 +3058,37 @@ Altraloke Sro Couturat dicabis :
 
 Nun kande ni expozis la questiono tal quala nia Akademio mantenis ol, pos diskuti e studiado, ni konocigos propozo, quan facis, la unesma, ed unesme en formo di questiono, Sro de Janko, qua mortis dum la milito pos esir vice-sekretario dil Akademio :
 
-« Pro ke la pronomi : **unu, ulu, altru, nulu, omnu, irgu,** omni signifikas homi, kad on povus (darfus) analoge, aplikar l'afixo -u a l'adjektivi por donar ad li senco simila? exemple **la blondu** — la blonda homo, **la modestu** — la modesta homo; e. c.? » (*Progreso*, I, 307.)
+« Pro ke la pronomi : **unu, ulu, altru, nulu, omnu, irgu,** omni signifikas homi, kad on povus (darfus) analoge, aplikar l'afixo **-u** a l'adjektivi por donar ad li senco simila? exemple **la blondu** — la blonda homo, **la modestu** — la modesta homo; e. c.? » (*Progreso*, I, 307.)
 
 Sro Couturat respondis : « Ca sugesto esas interesanta e meritas studio. Nun on uzas en ca senco simple la substantivo : **blondo, modesto**, e. c. E co havas nula malavantajo (desavantajo), nam, kande on parolas pri kozi, on uzas la sufixo **-aj**, specala por ca kazi. »
 
-Ni dicez quik, ke la propozo di Sro de Janko rezultis de fundamental eroro pri la valoro dil dezinenco -u. Il ipsa agnoskis lo pose.
+Ni dicez quik, ke la propozo di Sro de Janko rezultis de fundamental eroro pri la valoro dil dezinenco **-u**. Il ipsa agnoskis lo pose.
 
-La dezinenco -u selektesis da « Ido » (me) en la reformoplano, *tote ne* por homigar **un, ul, altr, nul, omn, irg**, ma unike por pronomigar li, quo esas tre diferanta. Mem me propozabis **icu, istu**, *tote ne* por homigar **ic, ist** (diveninta **it**), ma por pronomigar li, per la substituco di -u al dezinenco adjektivala (a) di **ica, ista**. La -u esis ed esas ankore nur pronomal dezinenco, quale **-a** esis ed esas ankore adjektival dezinenco. -u formacas individuala, ma ne homala *pronomi*. Kad ankore nun ni ne uzas omnainstante l'unu, l'altru, kom *pronomi, pri enti nule homa, mem nule bestia?*
+La dezinenco **-u** selektesis da « Ido » (me) en la reformoplano, *tote ne* por homigar **un, ul, altr, nul, omn, irg**, ma unike por pronomigar li, quo esas tre diferanta. Mem me propozabis **icu, istu**, *tote ne* por homigar **ic, ist** (diveninta **it**), ma por pronomigar li, per la substituco di **-u** al dezinenco adjektivala (**a**) di **ica, ista**. La **-u** esis ed esas ankore nur pronomal dezinenco, quale **-a** esis ed esas ankore adjektival dezinenco. **-u** formacas individuala, ma ne homala *pronomi*. Kad ankore nun ni ne uzas omnainstante **l'unu,** **l'altru,** kom *pronomi, pri enti nule homa, mem nule bestia?*
 
-Cetere Sro Couturat dicis : « Ni memorigas insiste, ke la finalo- u nule indikas la personi, ma karakterizas la **pronomi** » (*Progreso*, II, 602).
+Cetere Sro Couturat dicis : « Ni memorigas insiste, ke la finalo- **u** nule indikas la personi, ma karakterizas la **pronomi** » (*Progreso*, II, 602).
 
-Sualatere Sro de Janko skribis : « Til nun semblis a me, ke la finalo -u esis institucata por indikar personeso; sed (ma) nun aparas, ke ol indikas simple pronomo » (1).
+Sualatere Sro de Janko skribis : « Til nun semblis a me, ke la finalo **-u** esis institucata por indikar personeso; sed (ma) nun aparas, ke ol indikas simple pronomo » (1).
 
 > (1) Forsan ta konstato inspiris a lu la penso ofrar pose **-u** kom specala karakterizivo dil prepozicioni.
 
-Semblas do, ke se on komprenabus bone la valoro pronomala di -u, on ne pensabus ad olu por homigar adjektivi, o plu juste adjektival radiki.
+Semblas do, ke se on komprenabus bone la valoro pronomala di **-u**, on ne pensabus ad olu por homigar adjektivi, o plu juste adjektival radiki.
 
 Tamen, pos dicir : « Sed (ma) en ta rolo (di pronomo) ol semblas a me tote ne utila, nam omnu vidas, kad la pronomo esas o ne sequata da nomo » (ma nultempe la pronomo sequesas da nomo, pro ke ol *remplasas* nomo), Sro de Janko mantenis e mem generaligis sua propozo pri la personigo (homigo) dil adjektivo dicante :
 
-« Uzez la finalo -u por personigar omna adjektivi indiferente : ' ulu venis. Quu venis? Icu esas genio. Anke la bonu pekas. L'amantu esas blinda ' » (2).
+« Uzez la finalo **-u** por personigar omna adjektivi indiferente : ' ulu venis. Quu venis? Icu esas genio. Anke la bonu pekas. L'amantu esas blinda ' » (2).
 
 > (2) *Progreso*, III, 278.
 
 Pri l'unesma propozo (videz p. 198) Sro Couturat respondis :
 
-« La finalo -u indikas personi (exakte : *individui*) nur en la pronomi, ne en la substantivi. Teorie, on devus adoptar ed uzar du sufixi, un por la personi, altra por kozi (3); ma praktike, un sola suficas por distingar la du kazi, e mem ol esas necesa nur en kazi di posibla dusenceso.
+« La finalo **-u** indikas personi (exakte : *individui*) nur en la pronomi, ne en la substantivi. Teorie, on devus adoptar ed uzar du sufixi, un por la personi, altra por kozi (3); ma praktike, un sola suficas por distingar la du kazi, e mem ol esas necesa nur en kazi di posibla dusenceso.
 
 > (3) E la agi? (Videz pag. 196, noto 2) Se on respondos, ke la senco ipsa dil radiko indikas, ka la vorto expresas ago substantive, me replikos, ke la senco dil radiko indikas, ka la vorto expresas homo o kozo sammaniere.
 
 « Lasta remarko : en la pronomi la plurala formo (per **-i**) sempre korespondas a la singulara per **-u**, nam la singularo per **-o** indikanta nedeterminita kozo, ne povas havar pluralo (se on vizas plura kozi, ta kozi esas pro to ipsa determinita, e konseque on devas dicar : **ta kozi, multa kozi, altra** **kozi,** e. c., e ne simple, **to, multo, altro**...).
 
-Ma, se on adoptus la propozo di Sro de Janko, la formo per **-o** indikanta determinita kozi, povus e devus havar pluralo, qua esus necese la formo per **-i**, segun la generala regulo : **bono, boni** (L. **bonum, bona**); ed on devus inventar altra pluralo por la formo per **-u**. Ma to ipsa montras, ke ta formo ne esas admisebla, e ke on devus uzar specala sufixo konservenda en pluralo; ex. : **bonomo, bonomi**. La rezultajo esus nur renversar la nuna regulo, t. e. uzar ula sufixo por personi, e nula sufixo por la kozi, quo esus « arbitriala » o konvencionala. On dicus **bonomo, bonomi**, vice nia **bono, boni**, e **bono, boni** vice nia **bonaji** » (1).
+Ma, se on adoptus la propozo di Sro de Janko, la formo per **-o** indikanta determinita kozi, povus e devus havar pluralo, qua esus necese la formo per **-i**, segun la generala regulo : **bono, boni** (L. **bonum, bona**); ed on devus inventar altra pluralo por la formo per **-u**. Ma to ipsa montras, ke ta formo ne esas admisebla, e ke on devus uzar specala sufixo konservenda en pluralo; ex. : **bonomo, bonomi**. La rezultajo esus nur renversar la nuna regulo, t. e. uzar **ula** sufixo por personi, e **nula** sufixo por la kozi, quo esus « arbitriala » o konvencionala. On dicus **bonomo, bonomi**, vice nia **bono, boni**, e **bono, boni** vice nia **bonaji** » (1).
 
 > (1) *Progreso*, I, 556-557.
 
@@ -3110,15 +3110,15 @@ Ca konsideri apogita sur tre multa exempli (2) grandaparte aprobesis da Sro de J
 
 > (1) *Progreso*, III, 281.
 
-« ... Do por esar klara e ne fidar a la kuntexto, semblas oportuna indikar specale la nedeterminita neutro. Altraparte me agnoskas la justeso dil objecioni facita en la Respondo kontre mea tilnuna propozo, ja plurfoye repetita, ke -u signifikez persono ed -o la neutro. » Il adjuntis :
+« ... Do por esar klara e ne fidar a la kuntexto, semblas oportuna indikar specale la nedeterminita neutro. Altraparte me agnoskas la justeso dil objecioni facita en la Respondo kontre mea tilnuna propozo, ja plurfoye repetita, ke **-u** signifikez persono ed **-o** la neutro. » Il adjuntis :
 
-« Ula ecelanta konocanto di nia linguo recente remarkigis l'eventualajo permutar la -o ad -u, t. e. uzar la finalo -u (qua ne havas pluralo) por la nedeterminita neutro (qua ne bezonas pluralo). To semblas a me tre sagaca ideo e vera salvo (2) de ta desfacilaji. »
+« Ula ecelanta konocanto di nia linguo recente remarkigis l'eventualajo permutar la **-o** ad **-u**, t. e. uzar la finalo **-u** (qua ne havas pluralo) por la nedeterminita neutro (qua ne bezonas pluralo). To semblas a me tre sagaca ideo e vera salvo (2) de ta desfacilaji. »
 
 > (2) **Vera salvo** en la texto (ideo **salvar**),
 
 Konseque il propozis fine :
 
-« Por substantivigo (signifikanta, segun la senco, persono o kozo) uzez la finalo -o. Exempli ek la Respondo : **la blondo, la yusto** (pers.) **la dezerto** (kozo); me adjuntas : **Irgo venis...** « Por la nedeterminita neutro uzez la finalo -u : **La belu esas l'imajo di la bonu. Me prizas irga bonu** = **irgu bona...** » E pos reflekti e propozo pri la pluralo dil adjektivo, il finis per : « Tale per malgranda (mikra) retusho ni advenos (arivos) a la maxim simpla e belsona formi propozita da Sro Couturat, sen sakrifikar en kazi di bezono la precizeso di nia linguo. »
+« Por substantivigo (signifikanta, segun la senco, persono o kozo) uzez la finalo **-o**. Exempli ek la Respondo : **la blondo, la yusto** (pers.) **la dezerto** (kozo); me adjuntas : **Irgo venis...** « Por la nedeterminita neutro uzez la finalo **-u** : **La belu esas l'imajo di la bonu. Me prizas irga bonu** = **irgu bona...** » E pos reflekti e propozo pri la pluralo dil adjektivo, il finis per : « Tale per malgranda (mikra) retusho ni advenos (arivos) a la maxim simpla e belsona formi propozita da Sro Couturat, sen sakrifikar en kazi di bezono la precizeso di nia linguo. »
 
 Yen do quala esis la *definitiva* judiko e koncepto di Sro de Janko pri ta punto gravega, ed on ne povas negar, ke ol esis injenioza, simpla, e chanjabus minime posible.
 
@@ -3128,7 +3128,7 @@ Sro de Janko, quale omni, aceptis ta decido, qua fakte nur konfirmis la tillora 
 
 Ni adjuntez ica konsideri.
 
-Vice un sola kategorio de substantivi, la procedo **bono,** **bonu** establisabus du kategorii, ica per **-o**, ita per **-u**. Omna substantivi per **-o** nun havas sua pluralo per **-i** : tablo, tabli; doloro, dolori. Ma, ecepte, segun altra propozo, omna substantivi per **-o** venanta de adjektivo ne havus pluralo, o formacus ol per altra procedo : **le, uli, kelki.** Ma se **le, uli, kelki** ne esos uzebla? Ex. : purgivi tro frequa esas nociva, quo tre diferas de uli purgivo tro frequa, e. c. **Arabi, Franci, Italiani** = homi **Franca, Araba,** **Italiana.** Ma : **Arabo, Franco, Italiano** egalesus : **irgo Araba,** **Franca, Italiana** (kavalo, kultelo, armo exemple); nur **Arabu, Francu, Italianu** esus homo. Simile : **parolanto, babilemo, amanto** ne esus **homo,** ma **irgo;** nur **parolantu, babilemu, amantu** esus **homo.** Nun, por direte substantivigar adjektivo, o adjektivigar substantivo, ni remplasigas **-a** per **-o**, **-o** per **-a** tote simple; de **katolika** ni facas **katoliko,** o de **katoliko** ni facas **katolika.** Ma kun la sistemo **-o** = **irgo,** **-u** = **homo,** oportus esar certa antee, kad la radiko **katolik** esas adjektiva, o substantiva. Nam, se ol esas adjektiva, ni havos : **katoliko** = *irgo katolika* (exter homo), e **katoliku** = nur *homo katolika*. Ma, se ol esas substantiva, **katoliko** esos nur *homo katolika* (ne : irgo katolika). Ta distingi, qui ne mem havas la apogo di nia lingui, semblas vere tro superlogika por helpolinguo destinata a spiriti di ordinara forteso e ne a superlogikozi.
+Vice un sola kategorio de substantivi, la procedo **bono,** **bonu** establisabus du kategorii, ica per **-o**, ita per **-u**. Omna substantivi per **-o** nun havas sua pluralo per **-i** : tablo, tabli; doloro, dolori. Ma, ecepte, segun altra propozo, omna substantivi per **-o** venanta de adjektivo ne havus pluralo, o formacus ol per altra procedo : **le, uli, kelki.** Ma se **le, uli, kelki** ne esos uzebla? Ex. : **purgivi tro** **frequa esas nociva,** quo tre diferas de **uli purgivo tro fre**qua, e. c. **Arabi, Franci, Italiani** = homi **Franca, Araba,** **Italiana.** Ma : **Arabo, Franco, Italiano** egalesus : **irgo Araba,** **Franca, Italiana** (kavalo, kultelo, armo exemple); nur **Arabu, Francu, Italianu** esus homo. Simile : **parolanto, babilemo, amanto** ne esus **homo,** ma **irgo;** nur **parolantu, babilemu, amantu** esus **homo.** Nun, por direte substantivigar adjektivo, o adjektivigar substantivo, ni remplasigas **-a** per **-o**, **-o** per **-a** tote simple; de **katolika** ni facas **katoliko,** o de **katoliko** ni facas **katolika.** Ma kun la sistemo **-o** = **irgo,** **-u** = **homo,** oportus esar certa antee, kad la radiko **katolik** esas adjektiva, o substantiva. Nam, se ol esas adjektiva, ni havos : **katoliko** = *irgo katolika* (exter homo), e **katoliku** = nur *homo katolika*. Ma, se ol esas substantiva, **katoliko** esos nur *homo katolika* (ne : irgo katolika). Ta distingi, qui ne mem havas la apogo di nia lingui, semblas vere tro superlogika por helpolinguo destinata a spiriti di ordinara forteso e ne a superlogikozi.
 
 Ni darfas joyar ke nia Akademio en sua decidi sucias nur l'unesmi (1). ideo abstraktita, ex. : a la nociono **homo.** « Ni havas aparta homi, ed anke la qualeso : **homeso.** Ma ni havas anke la generala ideo di omna homi, to ne esas un homo, ma l'ensemblo o koncepto di omna homi. Singla homo esas ya un homo; ma ni ne povas parolar pri **la homo generale.** » Tamen ni sempre parolas tale : ex. ni dicas : « la hundo esas l'amiko di la homo », sen vizar un aparta hundo nek un aparta homo, ma komprenante **la hundo** e **la homo** generale.
 
@@ -3146,11 +3146,11 @@ La artiklo (quan ni tre konsilas rilektar) finas per tre pruvanta frazi Germana 
 
 ## CA, TA e QUA
 
-Esas eroro kredar, ke nia demonstrativi esas arbitrie selektita; sed (ma), pro ke en ta fako mankas internaciona formi, on devis serchar l'internacioneso en la primitiva (Indo-europana) formi. Or la Indo-europana demonstrativi havas la sequanta radiki : 1e **sa, ta**; 2e k, qua divenis *h* o *c*, ed indikas proxima objekto : « la preciza senco di *k* esas bone definita per la fakto, ke ol esas la demonstrativo qua, juntita kun la vorto *dio*, donas la senco di *cadie* »(1). 3e por la fora objekti, on havas tri radiki : **w**, **n**, **l**. La radiko **w** esas orientala; la radiko **n** trovesas precipue en la Slava lingui ed en D. *jene*; la radiko **l** trovesas en L. *ille*. Nu, ta tri lasta radiki ne povus uzesar, nam la sola qua esas sat internaciona, **l**, uzesas ja por l'artiklo e la pronomi (personala). La k ne povas uzesar sub ta formo, qua karakterizas la relativ-questionala pronomi, nek sub la formo h, desfacile pronuncebla e dicernebla; restas do la tri formi : *sa, ta, ca*. Ma, se on adoptas **s** por la posedala pronomo di 3a persono (qua esas pasable internaciona), restas nur la du radiki **c** e **t**, de qui **c** necese koncernas la proximeso (ex. : L. *hic* = *hi-ce*, Romanala lingui : *cil*, cist, nia *cis* (L.), e. c. (*Progreso*, II, p. 25.)
+Esas eroro kredar, ke nia demonstrativi esas arbitrie selektita; sed (ma), pro ke en ta fako mankas internaciona formi, on devis serchar l'internacioneso en la primitiva (Indo-europana) formi. Or la Indo-europana demonstrativi havas la sequanta radiki : 1e **sa, ta**; 2e **k**, qua divenis *h* o *c*, ed indikas proxima objekto : « la preciza senco di *k* esas bone definita per la fakto, ke ol esas la demonstrativo qua, juntita kun la vorto *dio*, donas la senco di *cadie* »(1). 3e por la fora objekti, on havas tri radiki : **w**, **n**, **l**. La radiko **w** esas orientala; la radiko **n** trovesas precipue en la Slava lingui ed en D. *jene*; la radiko **l** trovesas en L. *ille*. Nu, ta tri lasta radiki ne povus uzesar, nam la sola qua esas sat internaciona, **l**, uzesas ja por l'artiklo e la pronomi (personala). La k ne povas uzesar sub ta formo, qua karakterizas la relativ-questionala pronomi, nek sub la formo h, desfacile pronuncebla e dicernebla; restas do la tri formi : *sa, ta, ca*. Ma, se on adoptas **s** por la posedala pronomo di 3a persono (qua esas pasable internaciona), restas nur la du radiki **c** e **t**, de qui **c** necese koncernas la proximeso (ex. : L. *hic* = *hi-ce*, Romanala lingui : *cil*, **cist**, nia *cis* (L.), e. c. (*Progreso*, II, p. 25.)
 
 > (1) A. Meillet, *Introduction à l'étude comparative des langues* *indo-européennes*, p. 293-599.Cf. Brugmann, *Abrégé de grammaire comparée*, § 495.
 
-Ni ja dicis, por justigar (justifikar) la quaze-digramo **qu**, ke ol explikesas per la Indo-europana fonetiko, ube ol reprezentas la antiqua *labio-velala* artikulado. On respondis a ni, ke ni ne devas sorgar pri la antiqua o prehistorial fonetiko, ma nur pri la moderna. To semblas tre justa, ma nur per ta « prehistorial » serchado on povas trovar l'origino komuna di ula importanta vorti di nia moderna lingui, e konseque lia formo *internaciona*. To esas aparte vera pri la pronomi questionala. La Indo-europana radiko esas (duopla formo) *quo, quei*, qua divenis en E. *what, which* (qui pronuncesas reale *hwat, hwich*), ed en D. *wer, was* (la palatal o velal elemento, ankore reprezentata en E. da *h*, tote desaparis). Quale on remarkis (1), E. *what* = L. *quod*. Tale la maxim internaciona formo di la radiko esas vere *qu*, e tote ne *ki* (Esperanto). Kompreneble, la u qua sequas q esas konsonanto, quan la fonetikisti reprezentas ofte per *w* (2).
+Ni ja dicis, por justigar (justifikar) la quaze-digramo **qu**, ke ol explikesas per la Indo-europana fonetiko, ube ol reprezentas la antiqua *labio-velala* artikulado. On respondis a ni, ke ni ne devas sorgar pri la antiqua o prehistorial fonetiko, ma nur pri la moderna. To semblas tre justa, ma nur per ta « prehistorial » serchado on povas trovar l'origino komuna di ula importanta vorti di nia moderna lingui, e konseque lia formo *internaciona*. To esas aparte vera pri la pronomi questionala. La Indo-europana radiko esas (duopla formo) *quo, quei*, qua divenis en E. *what, which* (qui pronuncesas reale *hwat, hwich*), ed en D. *wer, was* (la palatal o velal elemento, ankore reprezentata en E. da *h*, tote desaparis). Quale on remarkis (1), E. *what* = L. *quod*. Tale la maxim internaciona formo di la radiko esas vere *qu*, e tote ne *ki* (Esperanto). Kompreneble, la **u** qua sequas **q** esas konsonanto, quan la fonetikisti reprezentas ofte per *w* (2).
 
 > (1) *Corespondense international* no 9 (*Progreso*, no 11, p. 681).
 
@@ -3222,7 +3222,7 @@ On forsan alegos objecione, ke ta finalo, en la Hispana, pluse markas substantiv
 
 Ma kad ol agas lo en Ido? E juste pro ke *os* en la Hispana renkontresas 19 foyi kom final sono en la verbi, esas eroro selektar **s** kom plural signo di substantivi, citante la Hispana kom susteno. Nam fakte la verbi, en ica linguo, prezentas *os* kom final sono plu ofte kam la substantivi.
 
-Ma on questionas : pro quo la vokalo o kom karakterizivo dil futuro?
+Ma on questionas : pro quo la vokalo **o** kom karakterizivo dil futuro?
 
 Pro ke, se ni atribuas karakteriziva vokalo al prezento (*a*), **altra** (*i*) al pasinto, ne esas kontrelogika o nekoheranta atribuar anke specal vokalo (*o*) a la futuro. Facar ek ta vokalo la simbolo dil futuro en la tota konjugo ne esas plu arbitriala, ed alteras mine la Latina kam selektar (quale ula Latinisti) la partikulo *pos* kom signo di ta tempo, o transportar sur la finalo la acento dil infinitivo latina por facar ek lu kondicionalo : *amarè, audirè*, e. c., kande on povabus evitar omna barbarismo, uzante *amarem, audirem*, e. c. Stranja maniero, vere, restar ciencoza e naturala!
 
@@ -3234,7 +3234,7 @@ Irge quon opinionas kontrediceri, fakto esas nekontestebla : la Franca linguo 
 
 Justifikinte *-as, -is, -os, -us, -ez*, restas justifikenda **-ir**, **-or** dil infinitivi pasinta e futura.
 
-Fakte nia kontrediceri *chikanas* nur pri l'infinitivo futura, nam generale li ipsa uzas infinitivo pasinta (1) kun infinitivo prezenta. Li anke ne kontestas pri -r kom karakterizivo dil modo infinitiva. Do reale kontestesas nur la vokalo simbolizanta la tempo (*-i, -o*) e la bezono ipsa di futura infinitivo.
+Fakte nia kontrediceri *chikanas* nur pri l'infinitivo futura, nam generale li ipsa uzas infinitivo pasinta (1) kun infinitivo prezenta. Li anke ne kontestas pri **-r** kom karakterizivo dil modo infinitiva. Do reale kontestesas nur la vokalo simbolizanta la tempo (*-i, -o*) e la bezono ipsa di futura infinitivo.
 
 > (1) Che li ta infinitivo esas kompozita per la verbo *havar* o *esar* e pasinta participo; che ni ol esas simpla do plu kurta : *-ir*, quale la prezenta *-ar*. Yen la tota difero. Kad on volus donar solid expliko pro quo l'infinitivo prezenta devas esar simpla, ma la pasinta, kompozita.
 
@@ -3246,7 +3246,7 @@ Altraparte *-ar, -ir* en Ido semblas a me tam natural sono verbala kam en la inf
 
 Ma on objecionas, ke li esas prezenta en la lingui supere mencionita. Me agnoskas lo; ma li restas adminime infinitivi, en Ido; e ke *i* simbolizas en li la pasinto, quale en la tota konjugo, certe ne povas jenar la adepto, nek supercharjar lua memorado. Kad esus por lu plu facila memorar, ke *du* simbolizas la pasinto, *pos* la futuro, *fe* l'imperfekto, *vell* la kondicionalo, *dum* (pos-pozita) l'imperativo, quale en altra sistemi plu o min laborita? Kad vere Ido ne darfas, kun adminime yuro tam granda e cienco egala, donar ica principo : en *omna* dezinenco verbala, **a** simbolizas la prezento, **i** la pasinto, **o** la futuro? Kad ol esas per to min simpla o min koheranta kam altri?
 
-Ma, on objecionas ankore, pro quo *sis* participi, kande *2* suficas a multa lingui? On ne dicas, kompreneble, ke pro la jus mencionita principo pri *a*, *i*, *o* en dezinenco verbala, la lerno e memoro pri la participi reduktesas a *2* kozi : nt participo aktiva, t participo pasiva. Yen fakte la *sis* participi! On ne dicas, ke la participi futura (*-ont, -ot*), multe min frequa, lernesas pos la ceteri, okazione. On ne dicas de quanta dubi, miskompreni o perifrazi liberigas ta participi. On ne dicas ke li genitas multega substantivi tre preciza, quin nia lingui kareas nur koakte e kun multa desavantaji. Ton omna on tacas por blamar mokante kun semblanta justeso e yusteso. Ma bone ridos, qua laste ridos. Yes; e kande Ido vere sucesabos, on laudos me ne propozir lu *tro* simpla, e ne sakrifikir la just expreso dil pensi a simpleso exajerita.
+Ma, on objecionas ankore, pro quo *sis* participi, kande *2* suficas a multa lingui? On ne dicas, kompreneble, ke pro la jus mencionita principo pri *a*, *i*, *o* en dezinenco verbala, la lerno e memoro pri la participi reduktesas a *2* kozi : **nt** participo aktiva, **t** participo pasiva. Yen fakte la *sis* participi! On ne dicas, ke la participi futura (*-ont, -ot*), multe min frequa, lernesas pos la ceteri, okazione. On ne dicas de quanta dubi, miskompreni o perifrazi liberigas ta participi. On ne dicas ke li genitas multega substantivi tre preciza, quin nia lingui kareas nur koakte e kun multa desavantaji. Ton omna on tacas por blamar mokante kun semblanta justeso e yusteso. Ma bone ridos, qua laste ridos. Yes; e kande Ido vere sucesabos, on laudos me ne propozir lu *tro* simpla, e ne sakrifikir la just expreso dil pensi a simpleso exajerita.
 
 La nuna Greka kareas omna infinitivo. Ka ni devus imitar olu? No, tre certe. La Angla e la Germana havas nur *1* personal pronomo : *they, sie* por la triesma persono plurala, e ni havas *tri*. Ka ni esas pro to blaminda? Certe no. La Franca posedas nur *son, sa, ses* kom posedal adjektivo por la triesma persono. Ka ni devus imitar lu, quale agis granda kritikero? Ha certe no, nam ico esas ne simpleso, ma deplorinda mizero. En « Les vrais principes de la Langue Auxiliaire » me pozis la limito netranspasebla dil simpleso por ta linguo : *la* *klara e justa expreso dil pensi.*
 
@@ -3274,7 +3274,7 @@ Kelka kritikanti anke propozas chanjar la verbal finali : *-as, -is, -os, -us,
 
 Me finas do kun la propozo : « Nia estimata Akademio konservez la nuna, facila e tre praktikala konjugo! »
 
-L'artiklo esis sequata da la yena remarko : « Ne nur D. ed F. havas verbi qui formacas la kompozita tempi per *esar* vice *havar,* ma inter la korespondanta verbi di la du lingui, sat (pasable) multi uzas *havar* en un linguo ed *esar* en l'altra, exemple : *esar, kurar, saltar,* e. c. Do ne nur l'adepti di singla linguo hezitus ofte inter *esar* e *havar,* sed (ma) la Franci ne uzus la sama helpanta verbo en la sama kazi kam la Germani. Adjuntez ke, en la reflektiva verbi, la F. vicigas (remplasigas) absurde *havar* per *esar*, dum ke la D. uzas (logike) ankore *havar* : *ich habe mich gewaschen* = *je me* suis *lavé* : altra frequa kauzo di erori, di heziti, di miskompreni. Tale en ta sola punto questionesas pri la logikala karaktero di nia linguo, do pri sa (lua) vera internacioneso. »
+L'artiklo esis sequata da la yena remarko : « Ne nur D. ed F. havas verbi qui formacas la kompozita tempi per *esar* vice *havar,* ma inter la korespondanta verbi di la du lingui, sat (pasable) multi uzas *havar* en un linguo ed *esar* en l'altra, exemple : *esar, kurar, saltar,* e. c. Do ne nur l'adepti di singla linguo hezitus ofte inter *esar* e *havar,* sed (ma) la Franci ne uzus la sama helpanta verbo en la sama kazi kam la Germani. Adjuntez ke, en la reflektiva verbi, la F. vicigas (remplasigas) absurde *havar* per *esar*, dum ke la D. uzas (logike) ankore *havar* : *ich habe mich gewaschen* = *je me* **suis** *lavé* : altra frequa kauzo di erori, di heziti, di miskompreni. Tale en ta sola punto questionesas pri la logikala karaktero di nia linguo, do pri sa (lua) vera internacioneso. »
 
 ## VORTORDINO
 
@@ -3284,7 +3284,7 @@ Omna rupto dil ordino normala nomizesas *inversigo*, sive pro ke la komplemento 
 
 *La questionanta vorti* sempre komencas la propoziciono e ne diplasas la subjekto : **Kad vu venos; dicez kad vu venos.** **— Quo eventis? Quon vu vidas? — Quantin me kontis?** **me ne plus memoras.**
 
-*L'atributo* devas quik sequar la verbo esar : **Esez mizerikordioza por omni,** e ne : *esez por omni mizerikordioza.* — Il *ne* toleras to, quo esas erora segun sua konvinkeso, e ne : *il ne* *toleras to, quo esas segun sua konvinkeso erora,* en qua *erora* semblas relatar *konvinkeso*. E tale kun omna verbo havanta atributo : **Il mortis tre povra de pekunio, ma richa de vertui,** e ne : *il mortis de pekunio tre povra, ma de vertui richa.*
+*L'atributo* devas quik sequar la verbo esar : **Esez mizerikordioza por omni,** e ne : *esez por omni mizerikordioza.* — **Il** *ne* **toleras to, quo esas erora segun sua konvinkeso,** e ne : *il ne* *toleras to, quo esas segun sua konvinkeso erora,* en qua *erora* semblas relatar *konvinkeso*. E tale kun omna verbo havanta atributo : **Il mortis tre povra de pekunio, ma richa de vertui,** e ne : *il mortis de pekunio tre povra, ma de vertui richa.*
 
 *L'adjektivo* avan o dop lua substantivo (Videz en la gramatiko, ye adjektivo). Ma ne sistematre avan la substantivo, quale en la Germana e l'Angla,
 

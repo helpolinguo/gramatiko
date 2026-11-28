@@ -9,13 +9,13 @@ Transskribita de https://ido.help/gramatiko/
 
 Unesme importas precizigar bone la justa signifiko dil vorto « adjektivo » (qualifikanta). Yen to, quon skribis pri ta punto la ciencoza filozofiisto L. Couturat, nia regretata pioniro :
 
-« Adjektivo (plu precize : adjektival radiko) tote ne indikas la abstraktita qualeso, ma la konkreta ento qua « posedas » ta qualeso, e qua tam multe diferas de ta qualeso, kam la habitanto diferas de sua lando o la mestieristo de sua mestiero (4). La radiko **blind** expresas ulo **blinda**, e ne la blindeso; konseque **blindo** = **ento** (praktike homo) **blinda**, e tote ne la **blindeso**. Same **belo**, **bono** ne povas indikar la **beleso,** la **boneso** (quale se la sufixo **es,** o **ec,** havus nula senco e nula valoro), nek felico la feliceso, nek fiero la fiereso, e. c., e. c., ma nur la enti, qui posedas ta qualesi. » (1).
+« Adjektivo (plu precize : adjektival radiko) tote ne indikas la abstraktita qualeso, ma la konkreta ento qua « posedas » ta qualeso, e qua tam multe diferas de ta qualeso, kam la habitanto diferas de sua lando o la mestieristo de sua mestiero (4). La radiko **blind** expresas ulo **blinda**, e ne la blindeso; konseque **blindo** = **ento** (praktike homo) **blinda**, e tote ne la **blindeso**. Same **belo**, **bono** ne povas indikar la **beleso,** la **boneso** (quale se la sufixo **es,** o **ec,** havus nula senco e nula valoro), nek **felico** la feliceso, nek **fiero** la fiereso, e. c., e. c., ma nur la enti, qui posedas ta qualesi. » (1).
 
 > (4) E vere, F. **grand** ne equivalas *grandeur*, **grandeso**, nek **pauvre** esas identa a *pauvreté*, **povreso**. Li do ne indikas la qualeso ipsa, ma indikas, nomizas la ento karakterizata da olu : *la povra* o *povro*, *la* *granda* o *grando*. Nam, dicis Leibniz : « Discrimen adjectivi et substantivi in lingua rationali non est magni momenti. » *Granda* e *grando*, *povra* e *povro* fakte nomizas ento konkreta e diferas nur gramatikale.
 
 > (1) *Progreso*, I, 389.
 
-Reale la substituco di o a a substantivigas la adjektivo, ma ol ne homigas lu. Icon agnoskis Sro Couturat per ica vorti :
+Reale la substituco di **o** a **a** substantivigas la adjektivo, ma ol ne homigas lu. Icon agnoskis Sro Couturat per ica vorti :
 
 « Certe, **substantivigar** adjektivo ne esas necese **personigar** ol. **Belo** nur signifikas « bela ento » (persono o kozo indiferente), nam la finalo **-o** di la substantivo aplikesas tote egale a personi ed a kozi. Ma hike aparas motivo, **ne plus** **di logiko,** ma di simpleso : se on bezonas distingar la kazo di persono e la kazo di kozo, on havas ja la sufixo **-aj** por la kozi : do ne esas necesa uzar altra sufixo : to esas nur praktikal konvenciono di « komuna raciono ». Remarkez bone, ke la substantivigo di adjektivo ne implikas plu l'ideo di kozo kam l'ideo di persono; **belo** vice **belajo** esus tam konvencionala kam **belo** vice **bela viro** (2). Ma l'ideo ipsa dil adjektivo maxim ofte implikas, sive ideo di persono, sive ideo di kozo : **acido, dezerto, vakuo,** e. c., povas (naturale) indikar nur kozi; **avaro, blindo, malado,** e. c. povas indikar nur personi (o vivanti). Do en omna kazi en qui povas aparar praktike nula dusenceso, on darfas substantivigar *direte* l'adjektivo : to esas simpligo e sparado di neutila sufixo. Nur en kazo di reala dubo on uzos **-aj** por distingar la kozi » (3).
 
@@ -45,37 +45,37 @@ Altraloke Sro Couturat dicabis :
 
 Nun kande ni expozis la questiono tal quala nia Akademio mantenis ol, pos diskuti e studiado, ni konocigos propozo, quan facis, la unesma, ed unesme en formo di questiono, Sro de Janko, qua mortis dum la milito pos esir vice-sekretario dil Akademio :
 
-« Pro ke la pronomi : **unu, ulu, altru, nulu, omnu, irgu,** omni signifikas homi, kad on povus (darfus) analoge, aplikar l'afixo -u a l'adjektivi por donar ad li senco simila? exemple **la blondu** — la blonda homo, **la modestu** — la modesta homo; e. c.? » (*Progreso*, I, 307.)
+« Pro ke la pronomi : **unu, ulu, altru, nulu, omnu, irgu,** omni signifikas homi, kad on povus (darfus) analoge, aplikar l'afixo **-u** a l'adjektivi por donar ad li senco simila? exemple **la blondu** — la blonda homo, **la modestu** — la modesta homo; e. c.? » (*Progreso*, I, 307.)
 
 Sro Couturat respondis : « Ca sugesto esas interesanta e meritas studio. Nun on uzas en ca senco simple la substantivo : **blondo, modesto**, e. c. E co havas nula malavantajo (desavantajo), nam, kande on parolas pri kozi, on uzas la sufixo **-aj**, specala por ca kazi. »
 
-Ni dicez quik, ke la propozo di Sro de Janko rezultis de fundamental eroro pri la valoro dil dezinenco -u. Il ipsa agnoskis lo pose.
+Ni dicez quik, ke la propozo di Sro de Janko rezultis de fundamental eroro pri la valoro dil dezinenco **-u**. Il ipsa agnoskis lo pose.
 
-La dezinenco -u selektesis da « Ido » (me) en la reformoplano, *tote ne* por homigar **un, ul, altr, nul, omn, irg**, ma unike por pronomigar li, quo esas tre diferanta. Mem me propozabis **icu, istu**, *tote ne* por homigar **ic, ist** (diveninta **it**), ma por pronomigar li, per la substituco di -u al dezinenco adjektivala (a) di **ica, ista**. La -u esis ed esas ankore nur pronomal dezinenco, quale **-a** esis ed esas ankore adjektival dezinenco. -u formacas individuala, ma ne homala *pronomi*. Kad ankore nun ni ne uzas omnainstante l'unu, l'altru, kom *pronomi, pri enti nule homa, mem nule bestia?*
+La dezinenco **-u** selektesis da « Ido » (me) en la reformoplano, *tote ne* por homigar **un, ul, altr, nul, omn, irg**, ma unike por pronomigar li, quo esas tre diferanta. Mem me propozabis **icu, istu**, *tote ne* por homigar **ic, ist** (diveninta **it**), ma por pronomigar li, per la substituco di **-u** al dezinenco adjektivala (**a**) di **ica, ista**. La **-u** esis ed esas ankore nur pronomal dezinenco, quale **-a** esis ed esas ankore adjektival dezinenco. **-u** formacas individuala, ma ne homala *pronomi*. Kad ankore nun ni ne uzas omnainstante **l'unu,** **l'altru,** kom *pronomi, pri enti nule homa, mem nule bestia?*
 
-Cetere Sro Couturat dicis : « Ni memorigas insiste, ke la finalo- u nule indikas la personi, ma karakterizas la **pronomi** » (*Progreso*, II, 602).
+Cetere Sro Couturat dicis : « Ni memorigas insiste, ke la finalo- **u** nule indikas la personi, ma karakterizas la **pronomi** » (*Progreso*, II, 602).
 
-Sualatere Sro de Janko skribis : « Til nun semblis a me, ke la finalo -u esis institucata por indikar personeso; sed (ma) nun aparas, ke ol indikas simple pronomo » (1).
+Sualatere Sro de Janko skribis : « Til nun semblis a me, ke la finalo **-u** esis institucata por indikar personeso; sed (ma) nun aparas, ke ol indikas simple pronomo » (1).
 
 > (1) Forsan ta konstato inspiris a lu la penso ofrar pose **-u** kom specala karakterizivo dil prepozicioni.
 
-Semblas do, ke se on komprenabus bone la valoro pronomala di -u, on ne pensabus ad olu por homigar adjektivi, o plu juste adjektival radiki.
+Semblas do, ke se on komprenabus bone la valoro pronomala di **-u**, on ne pensabus ad olu por homigar adjektivi, o plu juste adjektival radiki.
 
 Tamen, pos dicir : « Sed (ma) en ta rolo (di pronomo) ol semblas a me tote ne utila, nam omnu vidas, kad la pronomo esas o ne sequata da nomo » (ma nultempe la pronomo sequesas da nomo, pro ke ol *remplasas* nomo), Sro de Janko mantenis e mem generaligis sua propozo pri la personigo (homigo) dil adjektivo dicante :
 
-« Uzez la finalo -u por personigar omna adjektivi indiferente : ' ulu venis. Quu venis? Icu esas genio. Anke la bonu pekas. L'amantu esas blinda ' » (2).
+« Uzez la finalo **-u** por personigar omna adjektivi indiferente : ' ulu venis. Quu venis? Icu esas genio. Anke la bonu pekas. L'amantu esas blinda ' » (2).
 
 > (2) *Progreso*, III, 278.
 
 Pri l'unesma propozo (videz p. 198) Sro Couturat respondis :
 
-« La finalo -u indikas personi (exakte : *individui*) nur en la pronomi, ne en la substantivi. Teorie, on devus adoptar ed uzar du sufixi, un por la personi, altra por kozi (3); ma praktike, un sola suficas por distingar la du kazi, e mem ol esas necesa nur en kazi di posibla dusenceso.
+« La finalo **-u** indikas personi (exakte : *individui*) nur en la pronomi, ne en la substantivi. Teorie, on devus adoptar ed uzar du sufixi, un por la personi, altra por kozi (3); ma praktike, un sola suficas por distingar la du kazi, e mem ol esas necesa nur en kazi di posibla dusenceso.
 
 > (3) E la agi? (Videz pag. 196, noto 2) Se on respondos, ke la senco ipsa dil radiko indikas, ka la vorto expresas ago substantive, me replikos, ke la senco dil radiko indikas, ka la vorto expresas homo o kozo sammaniere.
 
 « Lasta remarko : en la pronomi la plurala formo (per **-i**) sempre korespondas a la singulara per **-u**, nam la singularo per **-o** indikanta nedeterminita kozo, ne povas havar pluralo (se on vizas plura kozi, ta kozi esas pro to ipsa determinita, e konseque on devas dicar : **ta kozi, multa kozi, altra** **kozi,** e. c., e ne simple, **to, multo, altro**...).
 
-Ma, se on adoptus la propozo di Sro de Janko, la formo per **-o** indikanta determinita kozi, povus e devus havar pluralo, qua esus necese la formo per **-i**, segun la generala regulo : **bono, boni** (L. **bonum, bona**); ed on devus inventar altra pluralo por la formo per **-u**. Ma to ipsa montras, ke ta formo ne esas admisebla, e ke on devus uzar specala sufixo konservenda en pluralo; ex. : **bonomo, bonomi**. La rezultajo esus nur renversar la nuna regulo, t. e. uzar ula sufixo por personi, e nula sufixo por la kozi, quo esus « arbitriala » o konvencionala. On dicus **bonomo, bonomi**, vice nia **bono, boni**, e **bono, boni** vice nia **bonaji** » (1).
+Ma, se on adoptus la propozo di Sro de Janko, la formo per **-o** indikanta determinita kozi, povus e devus havar pluralo, qua esus necese la formo per **-i**, segun la generala regulo : **bono, boni** (L. **bonum, bona**); ed on devus inventar altra pluralo por la formo per **-u**. Ma to ipsa montras, ke ta formo ne esas admisebla, e ke on devus uzar specala sufixo konservenda en pluralo; ex. : **bonomo, bonomi**. La rezultajo esus nur renversar la nuna regulo, t. e. uzar **ula** sufixo por personi, e **nula** sufixo por la kozi, quo esus « arbitriala » o konvencionala. On dicus **bonomo, bonomi**, vice nia **bono, boni**, e **bono, boni** vice nia **bonaji** » (1).
 
 > (1) *Progreso*, I, 556-557.
 
@@ -97,15 +97,15 @@ Ca konsideri apogita sur tre multa exempli (2) grandaparte aprobesis da Sro de J
 
 > (1) *Progreso*, III, 281.
 
-« ... Do por esar klara e ne fidar a la kuntexto, semblas oportuna indikar specale la nedeterminita neutro. Altraparte me agnoskas la justeso dil objecioni facita en la Respondo kontre mea tilnuna propozo, ja plurfoye repetita, ke -u signifikez persono ed -o la neutro. » Il adjuntis :
+« ... Do por esar klara e ne fidar a la kuntexto, semblas oportuna indikar specale la nedeterminita neutro. Altraparte me agnoskas la justeso dil objecioni facita en la Respondo kontre mea tilnuna propozo, ja plurfoye repetita, ke **-u** signifikez persono ed **-o** la neutro. » Il adjuntis :
 
-« Ula ecelanta konocanto di nia linguo recente remarkigis l'eventualajo permutar la -o ad -u, t. e. uzar la finalo -u (qua ne havas pluralo) por la nedeterminita neutro (qua ne bezonas pluralo). To semblas a me tre sagaca ideo e vera salvo (2) de ta desfacilaji. »
+« Ula ecelanta konocanto di nia linguo recente remarkigis l'eventualajo permutar la **-o** ad **-u**, t. e. uzar la finalo **-u** (qua ne havas pluralo) por la nedeterminita neutro (qua ne bezonas pluralo). To semblas a me tre sagaca ideo e vera salvo (2) de ta desfacilaji. »
 
 > (2) **Vera salvo** en la texto (ideo **salvar**),
 
 Konseque il propozis fine :
 
-« Por substantivigo (signifikanta, segun la senco, persono o kozo) uzez la finalo -o. Exempli ek la Respondo : **la blondo, la yusto** (pers.) **la dezerto** (kozo); me adjuntas : **Irgo venis...** « Por la nedeterminita neutro uzez la finalo -u : **La belu esas l'imajo di la bonu. Me prizas irga bonu** = **irgu bona...** » E pos reflekti e propozo pri la pluralo dil adjektivo, il finis per : « Tale per malgranda (mikra) retusho ni advenos (arivos) a la maxim simpla e belsona formi propozita da Sro Couturat, sen sakrifikar en kazi di bezono la precizeso di nia linguo. »
+« Por substantivigo (signifikanta, segun la senco, persono o kozo) uzez la finalo **-o**. Exempli ek la Respondo : **la blondo, la yusto** (pers.) **la dezerto** (kozo); me adjuntas : **Irgo venis...** « Por la nedeterminita neutro uzez la finalo **-u** : **La belu esas l'imajo di la bonu. Me prizas irga bonu** = **irgu bona...** » E pos reflekti e propozo pri la pluralo dil adjektivo, il finis per : « Tale per malgranda (mikra) retusho ni advenos (arivos) a la maxim simpla e belsona formi propozita da Sro Couturat, sen sakrifikar en kazi di bezono la precizeso di nia linguo. »
 
 Yen do quala esis la *definitiva* judiko e koncepto di Sro de Janko pri ta punto gravega, ed on ne povas negar, ke ol esis injenioza, simpla, e chanjabus minime posible.
 
@@ -115,7 +115,7 @@ Sro de Janko, quale omni, aceptis ta decido, qua fakte nur konfirmis la tillora 
 
 Ni adjuntez ica konsideri.
 
-Vice un sola kategorio de substantivi, la procedo **bono,** **bonu** establisabus du kategorii, ica per **-o**, ita per **-u**. Omna substantivi per **-o** nun havas sua pluralo per **-i** : tablo, tabli; doloro, dolori. Ma, ecepte, segun altra propozo, omna substantivi per **-o** venanta de adjektivo ne havus pluralo, o formacus ol per altra procedo : **le, uli, kelki.** Ma se **le, uli, kelki** ne esos uzebla? Ex. : purgivi tro frequa esas nociva, quo tre diferas de uli purgivo tro frequa, e. c. **Arabi, Franci, Italiani** = homi **Franca, Araba,** **Italiana.** Ma : **Arabo, Franco, Italiano** egalesus : **irgo Araba,** **Franca, Italiana** (kavalo, kultelo, armo exemple); nur **Arabu, Francu, Italianu** esus homo. Simile : **parolanto, babilemo, amanto** ne esus **homo,** ma **irgo;** nur **parolantu, babilemu, amantu** esus **homo.** Nun, por direte substantivigar adjektivo, o adjektivigar substantivo, ni remplasigas **-a** per **-o**, **-o** per **-a** tote simple; de **katolika** ni facas **katoliko,** o de **katoliko** ni facas **katolika.** Ma kun la sistemo **-o** = **irgo,** **-u** = **homo,** oportus esar certa antee, kad la radiko **katolik** esas adjektiva, o substantiva. Nam, se ol esas adjektiva, ni havos : **katoliko** = *irgo katolika* (exter homo), e **katoliku** = nur *homo katolika*. Ma, se ol esas substantiva, **katoliko** esos nur *homo katolika* (ne : irgo katolika). Ta distingi, qui ne mem havas la apogo di nia lingui, semblas vere tro superlogika por helpolinguo destinata a spiriti di ordinara forteso e ne a superlogikozi.
+Vice un sola kategorio de substantivi, la procedo **bono,** **bonu** establisabus du kategorii, ica per **-o**, ita per **-u**. Omna substantivi per **-o** nun havas sua pluralo per **-i** : tablo, tabli; doloro, dolori. Ma, ecepte, segun altra propozo, omna substantivi per **-o** venanta de adjektivo ne havus pluralo, o formacus ol per altra procedo : **le, uli, kelki.** Ma se **le, uli, kelki** ne esos uzebla? Ex. : **purgivi tro** **frequa esas nociva,** quo tre diferas de **uli purgivo tro fre**qua, e. c. **Arabi, Franci, Italiani** = homi **Franca, Araba,** **Italiana.** Ma : **Arabo, Franco, Italiano** egalesus : **irgo Araba,** **Franca, Italiana** (kavalo, kultelo, armo exemple); nur **Arabu, Francu, Italianu** esus homo. Simile : **parolanto, babilemo, amanto** ne esus **homo,** ma **irgo;** nur **parolantu, babilemu, amantu** esus **homo.** Nun, por direte substantivigar adjektivo, o adjektivigar substantivo, ni remplasigas **-a** per **-o**, **-o** per **-a** tote simple; de **katolika** ni facas **katoliko,** o de **katoliko** ni facas **katolika.** Ma kun la sistemo **-o** = **irgo,** **-u** = **homo,** oportus esar certa antee, kad la radiko **katolik** esas adjektiva, o substantiva. Nam, se ol esas adjektiva, ni havos : **katoliko** = *irgo katolika* (exter homo), e **katoliku** = nur *homo katolika*. Ma, se ol esas substantiva, **katoliko** esos nur *homo katolika* (ne : irgo katolika). Ta distingi, qui ne mem havas la apogo di nia lingui, semblas vere tro superlogika por helpolinguo destinata a spiriti di ordinara forteso e ne a superlogikozi.
 
 Ni darfas joyar ke nia Akademio en sua decidi sucias nur l'unesmi (1). ideo abstraktita, ex. : a la nociono **homo.** « Ni havas aparta homi, ed anke la qualeso : **homeso.** Ma ni havas anke la generala ideo di omna homi, to ne esas un homo, ma l'ensemblo o koncepto di omna homi. Singla homo esas ya un homo; ma ni ne povas parolar pri **la homo generale.** » Tamen ni sempre parolas tale : ex. ni dicas : « la hundo esas l'amiko di la homo », sen vizar un aparta hundo nek un aparta homo, ma komprenante **la hundo** e **la homo** generale.
 

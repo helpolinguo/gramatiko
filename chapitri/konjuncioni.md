@@ -87,11 +87,11 @@ A qui korespondas : **pro co, pro to** = *pro ica, pro ita* *kauzo;* **por co,
 
 > (3) Nam subordinal propoziciono komencanta per **ke** equivalas substantivo od infinitivo : **me expektas, ke il venos** = *me expektas* *ilua veno;* same : **pos ke il venis** = *pos ilua veno.*
 
-**Pro ke** (kauzo); **por ke** (skopo); **per ke** (per la fakto **ke) : glacio diferas de aquo per ke ol esas solida** = *per sua* *solideso.*
+**Pro ke** (kauzo); **por ke** (skopo); **per ke** (per la fakto ke) : **glacio diferas de aquo per ke ol esas solida** = *per sua* *solideso.*
 
 **De ke** (de la fakto ke, de ico ke) : **lua febreso venas de** **ke il esis recente malada** = *de lua recenta maladeso.*
 
-**Ante ke; pos ke; depos ke o de kande : depos ke, de kande** **il venis, me ne plus ekiras; omnafoye ke.**
+**Ante ke; pos ke; depos ke** o **de kande : depos ke, de kande** **il venis, me ne plus ekiras; omnafoye ke.**
 
 **Dum ke : dum ke il esis malada** = *dum lua maladeso.*
 
@@ -107,11 +107,11 @@ A qui korespondas : **pro co, pro to** = *pro ica, pro ita* *kauzo;* **por co,
 
 > (1) **Time ke** (kun timo ke) diferas de *timante ke*, qua relatas la subjekto di la frazo.
 
-> (2) **Tante ofte ke** e **tante longe ke** inkluzas nula komparo, kontre ke : **tam ofte kam** e **tam longe kam** esas komparanta. **Exemple : Il venas tante ofte, ke il tedas ni; venez tam ofte kam** **vu povos.** — **Il diskursis tante longe, ke fine la asistanti ne plus** **askoltis lu; tam longe kam me vivos, me esforcos sucesigar nia ideo.**
+> (2) **Tante ofte ke** e **tante longe ke** inkluzas nula komparo, kontre ke : **tam ofte kam** e **tam longe kam** esas komparanta. Exemple : **Il venas tante ofte, ke il tedas ni; venez tam ofte kam** **vu povos.** — **Il diskursis tante longe, ke fine la asistanti ne plus** **askoltis lu; tam longe kam me vivos, me esforcos sucesigar nia ideo.**
 
 Remarkez anke la sequanta konjuncional expresuri :
 
-**Lore kande; quik kande; same kam; tante plu... quante** **plu = quante plu... tante plu; tante min... quante min =** **quante min... tante min. Ex. : Quante plu me konocas li,** **tante plu me estimas li (= me tante plu estimas li, quante** **plu me konocas li); quante plu me vidas ilu, tante plu il** **plezas a me; quante min il laboras, tante plu il volas repozar; quante min me dormas, tante min me somnolas.**
+**Lore kande; quik kande; same kam; tante plu... quante** **plu = quante plu... tante plu; tante min... quante min =** **quante min... tante min.** Ex. : **Quante plu me konocas li,** **tante plu me estimas li (= me tante plu estimas li, quante** **plu me konocas li); quante plu me vidas ilu, tante plu il** **plezas a me; quante min il laboras, tante plu il volas repozar; quante min me dormas, tante min me somnolas.**
 
 **Segun quante : segun quante me povos, me certe helpos vu.**
 
@@ -127,6 +127,6 @@ Quale on vidas, la konjunciono *kad, ka* sempre komencas la propoziciono (chefa 
 
 Ma on ne uzas lu, se la propoziciono ja havas vorto questionala (**qua, quo, quala, quanta**, e. c.).
 
-**Kad ne o ka ne?** esas fakte elipso vice : **kad ne** (tala esas la kozo)? **Ka ne** (tale vu pensas, opinionas, e. c.)? Ol tradukas la F. *n'est-ce pas?*
+**Kad ne** o **ka ne?** esas fakte elipso vice : **kad ne** (tala esas la kozo)? **Ka ne** (tale vu pensas, opinionas, e. c.)? Ol tradukas la F. *n'est-ce pas?*
 
 Co explikas, ke on ne dicas : *ka no*. (Videz ica lasta vorto ye la adverbo di afirmo, nego o dubo).

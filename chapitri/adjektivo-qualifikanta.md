@@ -15,7 +15,7 @@ Por chanjar ol a substantivo samsenca suficas substitucar al dezinenco **a** la 
 
 > (1) Pri la substantivigo e homigo dil adjektivo, videz la apendico quaresma.
 
-25. — Kande adjektivo aplikesas a substantivo tacita, on indikas la pluralo per la artiklo **le**, o per nedefinita pronomo konvenanta, o mem simple per **-i**. Ex. : **Yen pomi,** **prenez le bona e lasez le mala.** Kun ideo partitiva on dicus : **il ofris a me blanka e reda rozi, me prenis uli reda o kelki** **reda**; o plu simple : **me prenis redi**, quale on dicus : **me** **prenis kelki.** Tre certe ya **redi** e **kelki** povas relatar nur rozi, sola kozo pri qua on parolas. La lasta exemplo montras bone, ke en l'unesma ni povabus dicar : **prenez la boni** **e lasez la mali.** Nam vere quon altra kam *pomi* relatus « **la** **boni** », « **la mali** », en ica frazo? Kad on komprenus *homi*, kande traktesas nur *pomi*? (2).
+25. — Kande adjektivo aplikesas a substantivo tacita, on indikas la pluralo per la artiklo **le**, o per nedefinita pronomo konvenanta, o mem simple per **-i**. Ex. : **Yen pomi,** **prenez le bona e lasez le mala.** Kun ideo partitiva on dicus : **il ofris a me blanka e reda rozi, me prenis uli reda o kelki** **reda**; o plu simple : **me prenis redi**, quale on dicus : **me** **prenis kelki.** Tre certe ya **redi** e **kelki** povas relatar nur rozi, sola kozo pri qua on parolas. La lasta exemplo montras bone, ke en l'unesma ni povabus dicar : **prenez la boni** **e lasez la mali.** Nam vere quon altra kam *pomi* relatus « la boni », « la mali », en ica frazo? Kad on komprenus *homi*, kande traktesas nur *pomi*? (2).
 
 > (2) En la komenco, Ido rezervis, pro prudenteso, la yuro indikar (se to esus necesa) la pluralo en l'adjektivi per adjuntar **-i** a lia dezinenco **a** (do **ai**). Ma la praktiko montrinte, ke ta specal pluralo povas abandonesar, decido unanima (1218) dil akademio Idista supresis lu.
 
@@ -23,7 +23,7 @@ Por chanjar ol a substantivo samsenca suficas substitucar al dezinenco **a** la 
 
 > (1) Decido 504 : On konservas l'eliziono di **-a** en l'adjektivi, ma restriktante ol a la kazi, en qui ne rezultos akumulo de konsonanti; per 7 voci ek 9. (*Progreso*, IV, 434.)Decido 586 : On repulsas la supreso di l'eliziono di l'artiklo; per 6 voci ek 9. (*Progreso*, IV, 561.)Decido 587 : On repulsas admisar sempre l'eliziono di l'artiklo dop vokalo ed avan konsonanto; unanime per 8 voci. Exemple : *ke l'regulo, se l'regulo*. (*Progreso*, IV, 561.)
 
-On devas ne uzar l'eliziono tro freque. Ol ne diplasas la acento; konseque ica restas sur **a** en **infantal, amikal, kordial**, quale en **infantala, amikala, kordiala.**
+On devas ne uzar l'eliziono tro freque. Ol ne diplasas la acento; konseque ica restas sur **a** en infant*a*l, amik*a*l, kordi*a*l, quale en infant*a*la, amik*a*la, kordi*a*la.
 
 Diveninte monosilaba per l'eliziono, l'adjektivi dusilaba sequas, pri l'acento, la regulo di omna monosilabi, pri qui parolesas en § 4.
 

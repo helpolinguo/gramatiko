@@ -522,6 +522,9 @@ def is_sentence(t):
     return bool(SENTENCE_BREAK.search(t))
 
 
+EXAMPLE_WORDS = {'Exempli', 'Exemple', 'Ex'}
+
+
 def headword(h):
     """(headword text, offset after the set-off head, head in bold).
 
@@ -584,6 +587,13 @@ def headword(h):
         if not is_sentence(after) or not before:
             return None, -1, False
         t, cut = before, True
+    # 2 bis. THE WORD THAT ANNOUNCES AN EXAMPLE IS NOT A HEADWORD. At folio
+    #    110 the facsimile sets « Exempli : » in the bold of the examples it
+    #    announces -- read roman until the weights pass of 28 November 2026
+    #    -- and rule 2 then cut a head « Exempli » off a bold paragraph, an
+    #    entry « tempi-e-modi-exempli » that names nothing in the grammar.
+    if t.rstrip(' .:') in EXAMPLE_WORDS:
+        return None, -1, False
     # 3. A headword is short.
     if len(t) > HEADWORD_CHARS or len(t.split()) > HEADWORD_WORDS:
         return None, -1, False
@@ -702,7 +712,7 @@ INDEX = {'VUindex': 3, 'VUindexNu': 3, 'VUindexLarge': 3}
 
 class Block(object):
     __slots__ = ('kind', 'frags', 'chap', 'head', 'html', 'notes_here', 'x',
-                 'ident', 'notice')
+                 'ident', 'kept', 'notice')
 
     def __init__(self, kind, frags=None, html=None, x=0.0):
         self.kind = kind        # tit sub p cen fer rango tab
@@ -712,6 +722,7 @@ class Block(object):
         self.head = None
         self.notes_here = []            # notes attached to this block
         self.ident = None
+        self.kept = None            # a kept address (KEPT_ADDRESSES), if any
         self.notice = None          # editor's notice laid under the block
         self.x = x
 
@@ -2513,6 +2524,10 @@ def block_html(b, chap_index, notes):
     if b.head:
         attrs += ' data-vd="%s"' % b.ident
         ident = ' id="%s"' % b.ident
+    elif getattr(b, 'kept', None):
+        # A kept address whose paragraph no longer opens on a headword: the
+        # address stays on the paragraph, out of the list of headwords.
+        ident = ' id="%s"' % b.ident
     if b.kind in ('tit', 'fig'):
         ident = ' id="%s"' % b.ident
     # The chain button: to the right of the chapter title, against the
@@ -2569,6 +2584,33 @@ def block_html(b, chap_index, notes):
 # character corrected. The numeric suffix moves only for entries that
 # REALLY bear the same name.
 SLUG_LENGTH = 40      # at most, cut on a whole word
+
+# ADDRESSES A CORRECTION OF THE TRANSCRIPTION MOVED, AND WHICH STAY.
+# The rule above derives the address from the headword, and the headword
+# from the weight: correct a weight, and the address moves. The weights
+# pass of 28 November 2026 found four bold runs that took in roman words --
+# the « o » between « depos ke » and « de kande », the « o » of « Kad ne o
+# ka ne? », the « Ex. : » of folio 92, « Anke nula » and « en : » at folio
+# 106 -- and, those words set roman, the first two headwords shortened and
+# the last two vanished. The published address is kept on its paragraph:
+# what the page called it, it goes on calling it. Each is found by the
+# opening of its paragraph's text, which is unique in the volume.
+KEPT_ADDRESSES = {
+    'konjuncioni-ante-ke-pos-ke-depos-ke-o-de-kande': 'Ante ke; pos ke; depos ke o de kande',
+    'konjuncioni-kad-ne-o-ka-ne': 'Kad ne o ka ne?',
+    'konjuncioni-lore-kande-quik-kande-same-kam-tante': 'Lore kande; quik kande; same kam',
+    'sintaxo-anke-nula-n-en': 'Anke nula -n en :',
+}
+# Of the two that vanished, « Lore kande; quik kande; same kam... » still
+# OPENS on its bold, and a definition follows it: it was an entry and stays
+# one, listed under the head it was listed by. Its bold now stops at « tante
+# min. » and its first « = » is followed by no sentence, so rule 2 of
+# `headword()` no longer finds it. « Anke nula -n en » was the opening of an
+# example, read bold: it leaves the list of headwords; its address does not.
+KEPT_HEADS = {
+    'konjuncioni-lore-kande-quik-kande-same-kam-tante':
+        'Lore kande; quik kande; same kam; tante plu... quante plu',
+}
 
 # What the transliteration must render before falling back on the general
 # rule. The volume is in Ido, which has no diacritic; these equivalences
@@ -2745,14 +2787,33 @@ def write_page(rel, parties, stats):
         ch['block'].ident = ch['id']
     chap_id = [ch['id'] for ch in rel.chapters]
 
+    # The kept addresses are reserved before any headword is named, so that
+    # no slug can take one of them from its paragraph.
+    for old in KEPT_ADDRESSES:
+        anchors.reserve(old, 'adreso konservita')
+    kept_found = set()
+
     heads_by_chap = {}
     parts = []
     for b in rel.blocks:
         cid = chap_id[b.chap] if b.chap is not None else None
-        if b.head:
+        b.kept = None
+        if b.frags:
+            opening = re.sub(r'\s+', ' ', ''.join(
+                plain_text(h) for _, _, h in b.frags))[:60]
+            for old, start in KEPT_ADDRESSES.items():
+                if old.startswith('%s-' % cid) and opening.startswith(start):
+                    b.kept = old
+                    kept_found.add(old)
+        if b.kept:
+            b.ident = b.kept
+            if not b.head and b.kept in KEPT_HEADS:
+                b.head = KEPT_HEADS[b.kept]
+        if b.head and not b.kept:
             base = slug(b.head)
             b.ident = anchors.fresh('%s-%s' % (cid, base) if cid else base,
                                   b.head, 'chefa vorto')
+        if b.head:
             # The FILTER is upstream, in `headword()`: no example sentence
             # reaches here any more. What remains here is only a column
             # measurement: the few headwords that are lists -- "Cadie,
@@ -2763,6 +2824,10 @@ def write_page(rel, parties, stats):
             heads_by_chap.setdefault(cid, []).append(
                 [b.ident, escape(short), escape(lab)])
         parts.append(block_html(b, cid, rel.notes))
+    # A kept address that finds no paragraph is a lost address: stop.
+    lost = sorted(set(KEPT_ADDRESSES) - kept_found)
+    if lost:
+        raise SystemExit('KEPT ADDRESS WITH NO PARAGRAPH: %s' % ', '.join(lost))
 
     nav = []
     for p in parties:

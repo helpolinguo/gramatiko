@@ -99,10 +99,10 @@ La **-n** esas anke neutila en kazi analoga al sequanti : **me** **judikis bon
 
 > (2) La mediko *judikis*, ne trovis, nam lu ne serchis.
 
-**Anke nula -n en : Me nomizis Adolfus mea filiulo**, o : **me nomizis mea filiulo Adolfus** (me donis ad ilu la nomo **Adolfus**), quo tre diferas de : **me nomis mea filiulo** **Adolfus** (me pronuncis ilua nomo, qua esas Adolfus) e de : **me vokis mea filiulo Adolfus.**
+Anke nula **-n** en : **Me nomizis Adolfus mea filiulo**, o : **me nomizis mea filiulo Adolfus** (me donis ad ilu la nomo **Adolfus**), quo tre diferas de : **me nomis mea filiulo** **Adolfus** (me pronuncis ilua nomo, qua esas Adolfus) e de : **me vokis mea filiulo Adolfus.**
 
 **Nula -n** esus utila o justifikebla en tala frazi, nek en ica : **me facas** (fabrikas) **vitro neruptebla**, qua diferas tote de : **me igas neruptebla la vitro.**
 
-**Mem pos kom n ne esas uzenda : Me selektis ilu kom prezidero** (por ke il esez prezidero), qua diferas de : **me, kom** **prezidero, selektis ilu**, o : **kom prezidero me selektis ilu** (3).
+Mem pos **kom n** ne esas uzenda : **Me selektis ilu kom prezidero** (por ke il esez prezidero), qua diferas de : **me, kom** **prezidero, selektis ilu**, o : **kom prezidero me selektis ilu** (3).
 
 > (3) Multi de la lasta exempli vizas aparte Esperantisti qui divenos Idisti, imitante la nombro ja tre granda dil Espisti konvertita a Ido.

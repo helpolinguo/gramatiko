@@ -23,6 +23,6 @@ La sufixo **-ebl-** ne darfas uzesar kom radiko o plu juste vorto izolita. Uzez 
 
 > (2) Nule *forsan*, qua expresas tote altra ideo, quale montras : *to esas forsan posibla.*
 
-**Posiblo** = *to quo esas posibla* : Kad vu forsan opinionus ke la homo povus transirar la limiti dil posiblo? (1).
+**Posiblo** = *to quo esas posibla* : **Kad vu forsan opinionus** **ke la homo povus transirar la limiti dil posiblo?** (1).
 
 > (1) A la komuna raciono esas ne plu multe posibla konfundar a homo « *posiblo* » kam dezerto. (Videz en l'apendico 4a, la pagino 196.) Okazione di ta pagino ni memorigas, ke Sro L. Couturat esis tre remarkinda specalisto pri filozofio, ke il iris aden Germania por facar longa e minucioza serchi en la manuskripti da Leibniz, ke il publikigis « L'Algèbre de la Logique » e « La Logique de Leibniz d'après des documents inédits » kun « Opuscules et fragments inédits de Leibniz », ke dum un yaro il supleis en *Collège de France* la eminenta filozofiisto H. Bergson. Lua idei e judiki pri la kozi filozofiala konseque havas valoro tote specala e certe plu granda kam olti di altra personi plu o min profana pri filozofio.

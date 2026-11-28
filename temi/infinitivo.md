@@ -12,7 +12,7 @@ Transskribita de https://ido.help/gramatiko/
 
 ## § 4 — [ACENTO TONIKA](../chapitri/acento-tonika.md)
 
-4. — En Ido, la *acento tonika* ne esas plualtigo o plulongigo dil sono, ma plufortigo di la voco sur un silabo dil vorti. On pozas lu « sur la lasta silabo dil infinitivi e sur la prelasta silabo di la cetera vorti » : **amâr, venîr,** **skribôr; fenêstro, bovîno, malâda, trôno, mêa, puêri** opi**niôno**, e. c.
+4. — En Ido, la *acento tonika* ne esas plualtigo o plulongigo dil sono, ma plufortigo di la voco sur un silabo dil vorti. On pozas lu « sur la lasta silabo dil infinitivi e sur la prelasta silabo di la cetera vorti » : **amâr, venîr,** **skribôr; fenêstro, bovîno, malâda, trôno, mêa, puêri opiniôno**, e. c.
 
 > (1) La cirkonflexo indikas nur la *tonika acento*, ne la longeso di la silabo. Yen la texto ipsa dil decido (57), koncernanta ica acento : « L'acento esas sur la lasta silabo dil infinitivi, e sur la prelasta silabo di la cetera vorti. Ma en plursilaba radiki, **i** e **u** nemediate avan vokalo ne povas recevar l'acento. » — *Progreso*, III, 322.En la Hispana, Italiana, Portugalana lingui, l'infinitivo **en-ar** recevas la acento. Ido imitas ta lingui e, pro analogeso, extensas ta acentizo a sua cetera infinitivi : **-ir**, **-or**.
 
@@ -36,7 +36,7 @@ Justifikinte *-as, -is, -os, -us, -ez*, restas justifikenda **-ir**, **-or** dil
 
 ## [KONJUGO-SISTEMO DI IDO](../chapitri/konjugo-sistemo-di-ido.md) — bloko 39 (sen numero en la libro)
 
-Fakte nia kontrediceri *chikanas* nur pri l'infinitivo futura, nam generale li ipsa uzas infinitivo pasinta (1) kun infinitivo prezenta. Li anke ne kontestas pri -r kom karakterizivo dil modo infinitiva. Do reale kontestesas nur la vokalo simbolizanta la tempo (*-i, -o*) e la bezono ipsa di futura infinitivo.
+Fakte nia kontrediceri *chikanas* nur pri l'infinitivo futura, nam generale li ipsa uzas infinitivo pasinta (1) kun infinitivo prezenta. Li anke ne kontestas pri **-r** kom karakterizivo dil modo infinitiva. Do reale kontestesas nur la vokalo simbolizanta la tempo (*-i, -o*) e la bezono ipsa di futura infinitivo.
 
 ## [KONJUGO-SISTEMO DI IDO](../chapitri/konjugo-sistemo-di-ido.md) — bloko 40 (sen numero en la libro)
 
@@ -92,7 +92,7 @@ Infinitivo, o participo havanta komplemento, konstitucas propoziciono : **me v
 
 ## § 105 — [PREPOZICIONI](../chapitri/prepozicioni.md)
 
-105. — Vice l'expresuro « la fakto di » sequata da infinitivo, on darfas uzar nur l'artiklo kun ta infinitivo. Ex. : « *Ne la fakto (di) ebriigar su konstitucas l'alkoholismo, ma* *la fakto (di) drinkar kustume alkoholo* » povas e darfas esar expresata ne min klare e plu kurte per : **Ne la ebriigar su** **konstitucas l'alkoholismo, ma la drinkar kustume alkoholo;** ed altramaniere : **la alkoholismo konsistas ne en la ebriigar** **su, ma en la drinkar kustume alkoholo.** — **Altr exemplo :** « *Ne la fakto (di) timar nulo konstitucas kurajo, ma la fakto* (*di*) *afrontar danjeri malgre la pavoro, quan on sentas pro* *li* »; plu kurte per : **Ne la timar nulo konstitucas kurajo,** **ma la afrontar danjeri malgre la pavoro quan on sentas** **pro li.**
+105. — Vice l'expresuro « la fakto di » sequata da infinitivo, on darfas uzar nur l'artiklo kun ta infinitivo. Ex. : « *Ne la fakto (di) ebriigar su konstitucas l'alkoholismo, ma* *la fakto (di) drinkar kustume alkoholo* » povas e darfas esar expresata ne min klare e plu kurte per : **Ne la ebriigar su** **konstitucas l'alkoholismo, ma la drinkar kustume alkoholo;** ed altramaniere : **la alkoholismo konsistas ne en la ebriigar** **su, ma en la drinkar kustume alkoholo.** — Altr exemplo : « *Ne la fakto (di) timar nulo konstitucas kurajo, ma la fakto* (*di*) *afrontar danjeri malgre la pavoro, quan on sentas pro* *li* »; plu kurte per : **Ne la timar nulo konstitucas kurajo,** **ma la afrontar danjeri malgre la pavoro quan on sentas** **pro li.**
 
 Ma ca exempli di rara kazi ne devas instigar vu ad uzar l'artiklo nediskrete e tedante avan l'infinitivo (quale se la substantivi ne plus existus), e dicar exemple : *la studiar e* *la muzikar esis lua delici*, vice : **la studio e la muziko esis** **lua delici.**
 

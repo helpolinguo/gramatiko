@@ -29,7 +29,7 @@ Same ol devas ne uzesar pri la organi o funcioni di la bestii, ecepte se on vola
 
 > (1) « L'iterado o frequeso di l'ago esas expresata en Ido per derivado, nome per la sufixo *-ad* : *pafar, pafadar, parolar, paroladar.* » (*Progreso*, IV, 390, noto.)
 
-*Polko, valso*, e. c., esas dansi; ma dansado esas to, quon ni altre nomizas : dansarto : dansado esas praktikata da omna populi ed en omna epoki.
+*Polko, valso*, e. c., esas **dansi;** ma **dansado** esas to, quon ni altre nomizas : **dansarto : dansado esas praktikata da omna** **populi ed en omna epoki.**
 
 **Parolo** esas frazo, frazeto pronuncata : il dicis a me : « **vu esas idiota** »; il do insultis me per ta parolo. — **Parolado** esas la fakultato o la maniero parolar (2) ed anke longa uzo kontinua dil parolado : **Parolado grantesis nur a la** **homi. Ne ilua diskurso hierala fatigis lu, ma lua trihora** **parolado kun l'advokato camatine.**
 
@@ -135,7 +135,7 @@ Kompreneble on ne uzas **aro** aparte, kom radiko, ma : *ensemblo, kolektajo, 
 
 Kun radiko indikanta koloro, **-atr-** expresas koloro afina ad olta quan enuncas la radiko : **redatra, blankatra,** **bluatra, verdatra**, di koloro afina a redeso, blueso, verdeso. Per la diminutivo *et* on nur diminutas la koloro ed expresas altra nuanco dil ideo : on afirmas certeso pri la koloro (quon on ne agas per **-atr-**) ma on afirmas anke olua extrema febleso.
 
-En la vorti teknikala, ta sufixo darfas esar remplasata, segun la kazi, da la radiki **-form**, **-simil**, o dal sufixo teknikala **-oid** : metaloido, elipsoido, konkoido, konoido, helicoido, e. c.
+En la vorti teknikala, ta sufixo darfas esar remplasata, segun la kazi, da la radiki **-form**, **-simil**, o dal sufixo teknikala **-oid** : **metaloido, elipsoido, konkoido, konoido,** **helicoido,** e. c.
 
 **-e-**. — Ta sufixo korespondas a *at* (en *rosata* L.), a *at* (en *rosato* I.), a *ad* (en *atigrado* S.), a *é* (en *rosé, tigré* F.). Ol adoptesis per la decido 758 kun ica signifiko : *qua havas la* *koloro od aspekto di...* Ex. : **rozea** = *rozkolora*; **violea** = *violkolora*; **kastanea** = *kastankolora*; **oranjea** = *oranjokolora*, cindrea, orea, arjentea, kuprea, plombea; tigrea, zebrea felo; cindreo, sangeo. Per ta sufixo ni sparas centi de tedanta vorti kompozita per *-kolor(a)* (1).
 
@@ -155,7 +155,7 @@ La sufixo **-ebl-** ne darfas uzesar kom radiko o plu juste vorto izolita. Uzez 
 
 > (2) Nule *forsan*, qua expresas tote altra ideo, quale montras : *to esas forsan posibla.*
 
-**Posiblo** = *to quo esas posibla* : Kad vu forsan opinionus ke la homo povus transirar la limiti dil posiblo? (1).
+**Posiblo** = *to quo esas posibla* : **Kad vu forsan opinionus** **ke la homo povus transirar la limiti dil posiblo?** (1).
 
 > (1) A la komuna raciono esas ne plu multe posibla konfundar a homo « *posiblo* » kam dezerto. (Videz en l'apendico 4a, la pagino 196.) Okazione di ta pagino ni memorigas, ke Sro L. Couturat esis tre remarkinda specalisto pri filozofio, ke il iris aden Germania por facar longa e minucioza serchi en la manuskripti da Leibniz, ke il publikigis « L'Algèbre de la Logique » e « La Logique de Leibniz d'après des documents inédits » kun « Opuscules et fragments inédits de Leibniz », ke dum un yaro il supleis en *Collège de France* la eminenta filozofiisto H. Bergson. Lua idei e judiki pri la kozi filozofiala konseque havas valoro tote specala e certe plu granda kam olti di altra personi plu o min profana pri filozofio.
 
@@ -163,17 +163,17 @@ La sufixo **-ebl-** ne darfas uzesar kom radiko o plu juste vorto izolita. Uzez 
 
 Altra exempli : **kulieredo, pladedo, bruetedo, charetedo,** **chariotedo, kamionedo, nestedo, aguledo, pinchedo, glutedo,** **brakiedo, kruchedo, potedo, e. c., e. c.**
 
-Me drinkis nur un glutedo de vino. — Il prenis ofte pinchedo di sniflotabako ek mea tabakuyo.
+**Me drinkis nur un glutedo de vino.** — **Il prenis ofte pinchedo di sniflotabako ek mea tabakuyo.**
 
-**-eg-.** — Ta sufixo, inter altri, venis che Ido de Espo. Ol uzesas por formacar *augmentivi* qui indikas grado supera od extrema, *chanjanta la nociono*. Ol juntesas a nomala ed a verbala radiki. Exempli : varmega = *varma til la maxim alta* *grado*. La aquo quan on pozas en kaserolo sur fairo por boliigar olu, esas unesme kolda, ma pose ol divenas varmeta o tepida, varma, tre varma, e varmega kande ol bolias.
+**-eg-.** — Ta sufixo, inter altri, venis che Ido de Espo. Ol uzesas por formacar *augmentivi* qui indikas grado supera od extrema, *chanjanta la nociono*. Ol juntesas a nomala ed a verbala radiki. Exempli : **varmega** = *varma til la maxim alta* *grado*. La aquo quan on pozas en kaserolo sur fairo por boliigar olu, esas unesme kolda, ma pose ol divenas varmeta o tepida, varma, tre varma, e **varmega** kande ol bolias.
 
-*Kruela* esas min forta kam *tre kruela*, ma ica esas min forta kam *kruelega*, nam homo kruelega atingas la extrema *grado*. Il esas ne nur tre bona, ma bonega e ciencozega. Il divenis ne nur tre richa ma richega. Il ploris e ploregis kun singluti. Ne tro bruisez ridante : ridego ne konvenas. Me tante sufris, ke me kriegis pro doloro.
+*Kruela* esas min forta kam *tre kruela*, ma ica esas min forta kam *kruelega*, nam homo **kruelega** atingas la extrema *grado*. **Il esas ne nur tre bona, ma bonega e ciencozega. Il** **divenis ne nur tre richa ma richega. Il ploris e ploregis kun** **singluti. Ne tro bruisez ridante : ridego ne konvenas. Me** **tante sufris, ke me kriegis pro doloro.**
 
-On ne donez ad **-eg-** la pejorativa senco di **-ach-**, e ne aplikez lu a la bestii. La bestii havas **boko,** **pedi** quale la homi, ma proporcione a sua grandeso e tipi. Same li manjas, drinkas, e. c., quale la homi; konseque esas adminime neutila uzar specala vorti por organi e funcioni quin la bestii havas komuna kun la homi (1).
+On ne donez ad **-eg-** la pejorativa senco di **-ach-**, e ne aplikez lu a la bestii. La bestii havas **boko,** **pedi** quale la homi, ma proporcione a sua grandeso e tipi. Same li **manjas,** **drinkas,** e. c., quale la homi; konseque esas adminime neutila uzar specala vorti por organi e funcioni quin la bestii havas komuna kun la homi (1).
 
 > (1) Ni ne povis imitar D. e E., uzante *plen-*, nam tre ofte tala vorti ne esas justa : *plenboko* ne esas *bokedo* (D. ipsa havas *Bissen*, peco demordita, apud *Mund voll*); e quo esus : *plenaghulo?* Pluse, li povas esar dusenca, nam *plen-plado*, exemple, equivalas, pro l'eliziono permisata, *plena* plado. Ma donar *plen-plado* o *plena plado* de ulo ne esas lo sama : l'unesma expresuro indikas nur quanto, la duesma implikas la plado ipsa.On ne povis prenar *-ad* (veninta de *-ata* L., che S. exemple, e vicina a *-at* I.) pro ke *-ad* havis altra rolo en Ido. On do kunfuzis *ée* F. kun *-ad*, quo donis *-ed* e lasis *-e* libera por altro.
 
-*Treege*, restajo Esperantala, fortunoze desaparis de che ni. Ni do ne uzez lu. Dicez : **Me chagrenas extreme (en maniero** **extrema) pro la tristiganta novajo quan vu savigas da me.** E nultempe uzez *ege* o *ega* (2).
+*Treege*, restajo Esperantala, fortunoze desaparis de che ni. Ni do ne uzez lu. Dicez : **Me chagrenas extreme** (en maniero extrema) **pro la tristiganta novajo quan vu savigas da me.** E nultempe uzez *ege* o *ega* (2).
 
 > (2) Ni sincere konfesez, ke **-eg-** semblas tote arbitriala. On expresis pri olu reprocho plu grava : « Ube esas bruiso, o kande on telefonas, ta sufixo povas facile konfundesar al diminutivo *-et*. » Se la futuro montros vere ta desavantajo, pos la periodo di stabileso forsan on povus (por chanjar minim posible) chanjar *-eg-* ad *-ug-* qua certe ne povus konfundesar a *-et*, segun la propozo quan me facis en *Progreso*, III, 683. En la sama revuo, IV, 97, Sro Jonsson judikis lu kom « rekomendinda » e remarkigis : « Kontraste, *-ug* diferas perfekte de *-et-* ed ol semblas aparte fortunoza pro la memorigo por Angli pri E. *huge* (imensa); *animalugo* facile komprenesas quale E. *a huge animal*; *longuga* quale E. « *hugely long* ».Me lore agis nulo por ke l'Akademio adoptez mea propozo, e nun me nule solicitas futura adopto por olu. Sempre me esis e sempre me esos l'unesma obediero dil decidi, acepti o refuzi di nia Akademio, judikante kun la tante regretata Couturat, ke ne penvaloras elektar e laborigar akademio, se on ne aceptas lua decidi, o se mem on kritikas li. Singlu facez sua linguo e proklamez, ke nur olu esas digna aceptesar dal mondo. Pri Ido, quale olim pri Espo, me predikos la diciplino proprexemple, tante plu ke me ne havas, quale altri, la doturo di neeroriveso.**Ego** en Ido indikas « la *me* filozofiala ».
 
@@ -203,7 +203,7 @@ Ta sufixo darfas formacar substantivi : **dividendo, multiplikendo**, e. c. Ol
 
 **-er-.** — Ta sufixo (moderna formo : *-ier, -er, -eur* F.; *-iero, -aio* I., *-ero* S., *-eiro* Port.) venas de *arius* Latina. Ol quik adoptesis dal Komitato di la *Delegitaro* por indikar la *amatoro di*... Ma pose la decidi 591 e 690 pluampligis lua senco. Konseque nun ol indikas : *ta qua kustume o mem nur ofte* *okupas su pri*... sen facar ek la kozo sua profesiono (Videz sufixo **-ist**). Quale on vidas, la amatoro inkluzesas en ta defino.
 
-La sufixo **-er-** soldesas a radiki nomala ed a radiki ver**bala : biciklero (amatoro), gimnastikero, arkero, fumero,** **kolektero, chasero, peskero. — Il nultempe enoyas, pro ke** **esante granda lektero, fotografero ed exkursero il sempre** **okupesas. — Dum sep yari il esis prezidero di nia societo** **e nun il esas lua honor-prezidero.**
+La sufixo **-er-** soldesas a radiki nomala ed a radiki verbala : **biciklero** (amatoro), **gimnastikero, arkero, fumero,** **kolektero, chasero, peskero. — Il nultempe enoyas, pro ke** **esante granda lektero, fotografero ed exkursero il sempre** **okupesas. — Dum sep yari il esis prezidero di nia societo** **e nun il esas lua honor-prezidero.**
 
 Ta sufixo aplikesas anke a nomi di bestii o di objekti qui esas karakterizata da specal ago kustumala : **reptero, ruminero, rodero, klimero; remorkero, krozero, flotacero** (Vid. sufixo **-il**).
 
@@ -237,7 +237,7 @@ Konseque ol uzesas por formacar substantivi qui expresas *pasiva stando*, sen ir
 
 > (1) Nula konfundo esas posibla inter ica lasta uzo di la radiko **es** ed olua uzo en la verbi pasiva, pro la dicerno inter la radiki verbala e la radiki neverbala (o nomala) quan omnu facas instinte. Nulu inklinesas komprenar : **amar** = *esar amo*, ma komprenas lu kom *abreviuro* di **am(at)esar.**La Komitato dil Delegitaro quik adoptis la propozita radiko **es** por **esar** e la uzo supere expozita. On lektas lo yena, pag. 24 di *Compte Rendu des Travaux du Comité* : « On varme aprobis la identigo dil sufixo **ec** al radiko dil verbo *esti* (*esar*), e la logikal klareso qua rezultas de olu por la verbi dil tipo **utilesar** e la korespondanta substantivo (**utileso**). »
 
-On tote darfus uzar **es(o)** mem izolita, nam ol esas radiko esence. Ma fakte **stando** (de *standar*) remplasas lu konstante. Tamen nule esus nekorekta dicar : **Me trovis lu en bona eso.** Same on darfus dicar : **Quale vu esas?** quo tote ne signifikus : **quale vu existas?** nam esar ne signifikas existar.
+On tote darfus uzar **es(o)** mem izolita, nam ol esas radiko esence. Ma fakte **stando** (de *standar*) remplasas lu konstante. Tamen nule esus nekorekta dicar : **Me trovis lu en bona eso.** Same on darfus dicar : **Quale vu esas?** quo tote ne signifikus : **quale vu existas?** nam **esar** ne signifikas **existar.**
 
 **-esk-.** — Greka e Latina, ta sufixo ritrovesas en novlatina lingui. On nomizas lu *inkoativo*, to esas *montranta* *komenco*. Ol quik adoptesis del reformo-plano kun la senco : *komencar*, kande ol juntesas a radiki verbala : **dormeskar** = *komencar dormar*; **morteskar** = *komencar mortar*; **videskar** = *komencar vidar*; **sideskar** = *komencar sidar*; **iraceskar** = *komencar iracar*; **emoceskar** = *komencar emocar*.
 
@@ -341,7 +341,7 @@ Quale on vidis en la supera exempli, la sufixo **ig** uzesas kom radiko dil verb
 
 On anke vidis, ke la verbo **igar** darfas havar propoziciono kom objekto : **me igas mea kavalo manjar aveno.** Quale on vidas, importas (por la justa expreso e kompreno) sequar la « normal ordino » en ta propozicioni infinitivala : **Il igis** **Petrus ocidar Alexander** = *il igis Alexander ocidesar da* *Petrus.*
 
-Ne konfundez **igar** a **koaktar** od a **lasar**. **Il igis sua spozino manjar la kordio di elua amoranto** (el ne savis lo); **il koaktis sua spozino,** e. c. (el ne volis, ma il impozis ad **elu koakte sua volo**). **Lasez me enirar** = *ne impedez me* *enirar*; **igez ni enirar** = *ayez por ke ni enirez.*
+Ne konfundez **igar** a **koaktar** od a **lasar**. **Il igis sua spozino manjar la kordio di elua amoranto** (el ne savis lo); **il koaktis sua spozino,** e. c. (el ne volis, ma il impozis ad elu koakte sua volo). **Lasez me enirar** = *ne impedez me* *enirar*; **igez ni enirar** = *ayez por ke ni enirez.*
 
 La uzo di **lasar** en la senco di **igar** esas Germanajo.
 
@@ -391,7 +391,7 @@ Remarkez bone, ke **em**, **er**, **iv** (videz ica) havas senco aktiva, ma **eb
 
 > (4) On bone remarkez, ke la defino dil sufixo *-ist* dicas « profesione ». Or la profesiono implikas multa okupi qui ne esas mestiero propre dicata. Mestiero esas profesiono, ma tre ofte profesiono ne esas mestiero : *ciencisto*.
 
-Per extenso, qua trovesas en nia lingui, ta sufixo indikas *adepto* o *adherinto di partiso, skolo* (doktrino) (5); **socialisto,** **materialisto, idealisto, e. c.;** ecepte se la radiko dil vorto en **-ism** ja posedas ta senco : **Kristano, skeptiko, mistiko,** **katoliko, protestanto, e. c.**
+Per extenso, qua trovesas en nia lingui, ta sufixo indikas *adepto* o *adherinto di partiso, skolo* (doktrino) (5); **socialisto,** **materialisto, idealisto,** e. c.; ecepte se la radiko dil vorto en **-ism** ja posedas ta senco : **Kristano, skeptiko, mistiko,** **katoliko, protestanto,** e. c.
 
 > (5) Do *Idisto* ne *Idano*, tante plu ke *-an* signifikas esence : *membro* di : *societano, senatano*, ed instinte omna profani nomizas ni *Idisti*.
 
@@ -437,7 +437,7 @@ La difero inter **-anta** e **-oza** esas ke l'unesma expresas *ago* kun ideo te
 
 La difero inter **-oz** e **-iz** esas, ke l'unesma expresas ulo naturala, e la duesma expresas ulo artificala. Exemple, tereno **sabloza** nature kontenas sablo; ma korto **sablizita** havas sablo nur artifice, per laboro qua kovris lu ye sablo.
 
-**-ul-.** — Adoptita per la decido 1090, pos tote fundamentala studiado dil questiono. Yen la texto di la decido : « On adoptas la sufixo -ul *por indikar maskula sexuo* » (decido, 714 : V, 65). Specala noto dicas : « Komprenende, ico ne exkluzas la formaco di kompozaji quale *porko-maskulo*; ma *pork-ulo* esas equivalanta e plu kurta. La sufixo -ul ya esas abreviuro di *(mask)ulo*, quale -in esas abreviuro di *(fem)ino*. »
+**-ul-.** — Adoptita per la decido 1090, pos tote fundamentala studiado dil questiono. Yen la texto di la decido : « On adoptas la sufixo **-ul** *por indikar maskula sexuo* » (decido, 714 : V, 65). Specala noto dicas : « Komprenende, ico ne exkluzas la formaco di kompozaji quale *porko-maskulo*; ma *pork-ulo* esas equivalanta e plu kurta. La sufixo **-ul** ya esas abreviuro di *(mask)ulo*, quale **-in** esas abreviuro di *(fem)ino*. »
 
 La decido pri ul esabis preirata da ica (1089) : « On decidas definitive, ke la substantivi generale signifikez nedeterminita sexuo » (decido, 714 : V, 65). Exempli : **avulo,** **patrulo, onklulo, fratulo, kuzulo, siorulo; bovulo, katulo,** **hundulo; finkulo, sturnulo; luciulo, karpulo, tenkulo, perkulo; leonulo, panterulo, tigrulo, hienulo,** e. c., e. c. (1).
 
@@ -483,7 +483,7 @@ Kom radiko ne uzez **uyo,** quale l'Esperantisti, ma selektez inter *etuyo, gain
 
 **-yun-.** — La radiko **yun** uzesas kom sufixo por la « *yuni* » l'infanti dil bestii : **bovyuno** = *yuno di la bova speco;* **bovyunulo** = *yuna bovulo;* **bovyunino** = *yuna bovino;* **hanyuno,** **porkoyuno, katyuno, leonyuno,** e. c.
 
-Por la homa genituro, quale on ja savas, nur filio, infanto, puero esas uzenda, e kun indiko pri la sexuo : filiulo, filiino; infantulo, infantino; puerulo, puerino.
+Por la homa genituro, quale on ja savas, nur **filio, infanto, puero** esas uzenda, e kun indiko pri la sexuo : **filiulo,** **filiino; infantulo, infantino; puerulo, puerino.**
 
 Ultre **yun** la radiki **es,** **ig** e **ag** (3) uzesas kom sufixo.
 

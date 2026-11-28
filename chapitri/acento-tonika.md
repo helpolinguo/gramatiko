@@ -7,7 +7,7 @@ Transskribita de https://ido.help/gramatiko/
 
 ---
 
-4. — En Ido, la *acento tonika* ne esas plualtigo o plulongigo dil sono, ma plufortigo di la voco sur un silabo dil vorti. On pozas lu « sur la lasta silabo dil infinitivi e sur la prelasta silabo di la cetera vorti » : **amâr, venîr,** **skribôr; fenêstro, bovîno, malâda, trôno, mêa, puêri** opi**niôno**, e. c.
+4. — En Ido, la *acento tonika* ne esas plualtigo o plulongigo dil sono, ma plufortigo di la voco sur un silabo dil vorti. On pozas lu « sur la lasta silabo dil infinitivi e sur la prelasta silabo di la cetera vorti » : **amâr, venîr,** **skribôr; fenêstro, bovîno, malâda, trôno, mêa, puêri opiniôno**, e. c.
 
 « Ma en plursilaba radiki, **i** e **u** nemediate avan vokalo ne darfas recevar l'acento » : **Kâspia, râdie, fîlii, mistêrio;** **tênua; îlua, êlua, sêxuo, stâtui, lînguo** (1).
 

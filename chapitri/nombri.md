@@ -13,7 +13,7 @@ Transskribita de https://ido.help/gramatiko/
 
 > (2) *Kin* ne povis esar *quin*, pro ke ica lasta esas la plural akuzativo di *qua*. Ni do havabus okazione : *la quin, quin il donis ad vu,* *esas plu bela kam la quin, quin il donis ad me.* O : *le quin* (5) *quin* *vu skribis sur ta pagino esas omni tre male desegnita.* Nia skopo ne esas konkordar maxim posible kun la Latina *quin-que*, ma donar formi sat dicernebla de altri. Plu importas por ni certa dicernebleso dil diversa formi, kam sklavatra imito di vorti o formi latina efektiganta al vera koncernati di L. I. konfundi e miskompreni.
 
-**Pose : milion; miliard** (*mil milioni*); **bilion** (1,000,000²); **trilion** (1,000,000³); **quadrilion** (1,000,000⁴); **quintilion,** **sextilion, septilion, oktilion, nonilion, decilion** (singla de ta nombri egalesante la preirinta multipliko per un milion (3).
+Pose : **milion; miliard** (*mil milioni*); **bilion** (1,000,000²); **trilion** (1,000,000³); **quadrilion** (1,000,000⁴); **quintilion,** **sextilion, septilion, oktilion, nonilion, decilion** (singla de ta nombri egalesante la preirinta multipliko per un milion (3).
 
 > (3) **Milion, miliard, bilion** e. c. recevas *-i* dil pluralo, se to esas necesa : **on spensis milioni por ta edifico.** — Ma : **il recevis plura** **milion,** pro ke plura sat indikas la pluralo.Ta nombri (kande on ne adjuntas *-o*, quo ne esas *necesa*) havas la acento sur la final silabo, pro ke li esas reale abreviuro di *miliono,* *miliardo* e. c.
 
@@ -81,15 +81,15 @@ Por enuncar fraciono komplikita, on obtenas plu granda klareso uzante la prepozi
 
 120. — La *nombro dil foyi* indikesas per la radiko **foy** generale sequata dal adverbal dezinenco **e** : **dufoye**; o, se konvenas, dal dezinenco **a** : **trifoya voko** = *voko repetita* *3 foyi.*
 
-**Notez bone, ke la Franca vorto « fois » ne tradukesas** **per** *foy* **ma per** *opl* **en la senco multiplikanta : triople quar** **esas dekedu** (*3 fois 4 font 12*). On darfas anke uzar la prepoziciono **per**, precipue kande la nombri esas kelke komplikita: **okadek e tri per duacent a quaradek e sis**=83×246. Plu simpla enunco : *ok, tri per du, quar, sis*.
+Notez bone, ke la Franca vorto « fois » ne tradukesas per *foy* ma per *opl* en la senco multiplikanta : **triople quar** **esas dekedu** (*3 fois 4 font 12*). On darfas anke uzar la prepoziciono **per**, precipue kande la nombri esas kelke komplikita: **okadek e tri per duacent a quaradek e sis**=83×246. Plu simpla enunco : *ok, tri per du, quar, sis*.
 
 121. — L'expresuri **distributiva** obtenesas per la sufixo **op**, sequata dal dezinenco konvenanta : **duope** = per rangi o serii de *du*; **triope** = per rangi o serii de *tri*, e. c. **Unope,** un separite, aparte, **single. La soldati marchas quarope.** — **Se li formacos rangi duopa e ne quaropa, lia defilo duros** **duople plu longe.** — **Marchez unope.**
 
-La questional adverbo korespondanta esas **quantope :** **quantope vu vendas la nuci** (quantanombre per un foyo?) **centope o micentope** (dek e kinope). On darfas anke dicar : **pokope, multope** = *ye mikra quanti, ye granda quanti* (2).
+La questional adverbo korespondanta esas **quantope :** **quantope vu vendas la nuci** (quantanombre per un foyo?) **centope** o **micentope** (dek e kinope). On darfas anke dicar : **pokope, multope** = *ye mikra quanti, ye granda quanti* (2).
 
 > (2) Evitez sorge uzar la sufixo distributiva **op** en senco kolektala por qua ol esas neutila, la kardinal adverbo suficante. Dicar : **Ta du** **amiki promenas sempre duope** esus tam kontrelogika kam dicar France ...*se promènent toujours deux à deux*. Quale li povus facar ico, nam *li esas nur du?*
 
-122. — Nula prepoziciono e nula sufixo esas necesa en frazi tal quala ici : **Por mea infanti me kompris dekedu** **pomi, ed a singla de li me donis tri pomi.** — **Ta libro havas** **sisadek pagini; se do me lektos en singla jorno dek e kin** **pagini, me finos la tota libro en quar jorni. La vorto singla** **suficas por indikar la distributo.**
+122. — Nula prepoziciono e nula sufixo esas necesa en frazi tal quala ici : **Por mea infanti me kompris dekedu** **pomi, ed a singla de li me donis tri pomi.** — **Ta libro havas** **sisadek pagini; se do me lektos en singla jorno dek e kin** **pagini, me finos la tota libro en quar jorni.** La vorto **singla** suficas por indikar la distributo.
 
 123. — Por l'enunco di la hori, l'Akademio adoptis explicite **kloko, kloki**. Ca du vorti indikas do propre la diala dividuro markizata da la cifri di horlojo. Ex. : **il departis** **pos du kloki**, to esas : pos la dividuro II di la horlojo. Ma **horo** indikas (exter omna cifroplako, e per su) la duro, l'ensemblo dil 60 minuti konstitucanta un horo. Ex : **il** **departis pos du hori**, t. e. pos 120 minuti, pos restir dum 120 minuti.
 

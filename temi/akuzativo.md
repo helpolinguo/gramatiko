@@ -44,7 +44,7 @@ Ni adjuntez, ke nur ta finalo plurala posibligas l'akuzativo (*-n* inversigala) 
 
 ## [LA PLURALO EN IDO](../chapitri/la-pluralo-en-ido.md) — bloko 8 (sen numero en la libro)
 
-Ma, exter la domeno omnadia, ne esas certa ed on ne pruvis, ke l'akuzativo esas neutila por unionar plu rapide e plu evidente la du parti di rezono filozofiala, teologiala, o mem matematikala, e. c. Yen pro quo Ido ne forjetis tote l'akuzativo. Or, ni lo dicis e repetas, l'akuzativo esas posibla nur kun la pluralo per -i, ecepte se on inventus ula subtilajo qua fakte pruvus nia aserto (2).
+Ma, exter la domeno omnadia, ne esas certa ed on ne pruvis, ke l'akuzativo esas neutila por unionar plu rapide e plu evidente la du parti di rezono filozofiala, teologiala, o mem matematikala, e. c. Yen pro quo Ido ne forjetis tote l'akuzativo. Or, ni lo dicis e repetas, l'akuzativo esas posibla nur kun la pluralo per **-i**, ecepte se on inventus ula subtilajo qua fakte pruvus nia aserto (2).
 
 ## [LA PLURALO EN IDO](../chapitri/la-pluralo-en-ido.md) — bloko 9 (sen numero en la libro)
 
