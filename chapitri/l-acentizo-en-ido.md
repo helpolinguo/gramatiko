@@ -43,7 +43,7 @@ La vorto « plursilaba » esas necesa, pro ke sen ol on havus nula regulo pr
 
 Ta regulo « konkordas en maxim multa kazi kun la valorprincipo. Ol evitas acento sur *patrôn, niân, amâs*.
 
-Ol esas facile memorenda e aplikenda sen presupozar ula ciencala konoci pri « mivokali » o pri latina od altra acentoreguli. Esas vera ke en klaso 3 (*irônio, akadêmio, simfônio, filosôfio, melôdio, teôrio*, e. c.) ni havas acento qua semblas nenaturala, ma on devas memorar, ke on havas kelka nenaturalaji, irge qua regulo adoptesas, ed anke, ke per ca regulo la ritmo konservas acento (miforta) sur la sama silabo kande on adjuntas finalo :
+Ol esas facile memorenda e aplikenda sen presupozar ula ciencala konoci pri « mivokali » o pri latina od altra acentoreguli. Esas vera ke en klaso 3 (*irônio, akadêmio, simfônio, filozôfio, melôdio, teôrio*, e. c.) ni havas acento qua semblas nenaturala, ma on devas memorar, ke on havas kelka nenaturalaji, irge qua regulo adoptesas, ed anke, ke per ca regulo la ritmo konservas acento (miforta) sur la sama silabo kande on adjuntas finalo :
 
 melôdio : melôdiôza.
 
