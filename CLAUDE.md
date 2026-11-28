@@ -42,12 +42,12 @@ Then the page and its machine-readable forms, which come from the
 transcription and from nothing else:
 
     python3 tools/html.py             # 868 anchors, 1231 paragraphs, 412 notes
-    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,481 bytes
+    python3 tools/machine_readable.py # 49 chapters, 1692 blocks, 492,483 bytes
     python3 tools/temi.py             # 9 topics over 1643 blocks, 171,649 bytes
     python3 tools/afixi.py            # 65 affixes (43 + 19 + 3), 133,416 bytes
-    python3 tools/witnesses.py        # 128 witnesses, exits non-zero if one is lost
+    python3 tools/witnesses.py        # 129 witnesses, exits non-zero if one is lost
 
-**THE FIGURES ABOVE HAVE MOVED TEN TIMES. THE FIRST TIME:** `gramatiko.md` gave
+**THE FIGURES ABOVE HAVE MOVED ELEVEN TIMES. THE FIRST TIME:** `gramatiko.md` gave
 492,417 bytes and `temi/` 171,327 — the line here said 171,328, off by one
 since it was written. A word broken across a line of the facsimile comes
 back as two runs, the transcription reopening the emphasis on the second
@@ -174,6 +174,13 @@ which makes the first a misreading rather than a typo and gives the
 second's \VUcorrige its true first argument. 492,453 → 492,481 bytes in
 `gramatiko.md`; nothing else moves. See the journal, « Rulings looked at
 again, on the book ».
+
+**THE ELEVENTH TIME, two letters.** Folio 24 prints « transkribo » with
+one s twice — the book's only two, against seven « transskrib- », each
+checked on the spreads — and the commissioner ruled both typos:
+« transskribo », by `\VUcorrige`. 492,481 → 492,483 bytes in
+`gramatiko.md`. (Folio 181's « filosôfio » → « filozôfio », ruled the same
+day, moved no figure: a z for an s.)
 
 `tools/witnesses.py` is the guard against a lost container and a bad
 merge: one characteristic string per fix already made. When a rename
