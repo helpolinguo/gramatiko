@@ -5690,7 +5690,9 @@ by up to 0.01 pt, enough to change 227 pages' pixels at 100 dpi.
 
 **`tools/word_spaces.py`**, run by `build.mk` after pdflatex, writes the
 spaces into the finished PDF: at each gap between words, a space glyph of
-pdfTeX's own space font (dummy-space, mapped to U+0020 as pdfTeX maps it),
+pdfTeX's own space font (dummy-space, mapped to U+0020 as pdfTeX maps it --
+embedded by hand from the .pfb, and Apple Books ignored it: see « Apple
+Books reads the spaces », below, where the font became pdfTeX's own object),
 sized so that its advance IS the gap — no repositioning, the next glyph
 starts where the kern put it. A gap between words is a kern 0.12 em beyond
 its run's LETTER LEVEL, inside a TJ array, or the jump to the next run of
@@ -5733,4 +5735,39 @@ rewrites the file, writes no object streams; the rest is the spaces.
 Checks 1 to 7: the same 237 failures; 8 to 12 not run, for want of the
 scan. Nothing else moves — the page and the Markdown come from the
 transcription, not from the PDF. Not tested in Apple Books itself: there
-is no Apple device here. Witnesses 146 -> 148.
+is no Apple device here -- and in Apple Books it did not work; see the next
+entry. Witnesses 146 -> 148.
+
+## Apple Books reads the spaces
+
+**THE SPACES WERE THERE, AND APPLE BOOKS IGNORED THEM.** Merged, the
+volume came back on the commissioner's iPad exactly as before: folio 16,
+« Ma,prokelanomidilasepdiisemanalaneesaskompozaji ». Every reader at hand
+here read the spaces; Apple's is not at hand.
+
+**Three test files**, the same three pages (folios 15-17), the same gaps,
+only the font of the space differing, each searched for « semanal » on the
+iPad (28 November 2026):
+
+| file | the space | Apple Books |
+|---|---|---|
+| A | dummy-space.pfb embedded here, by hand: the program as it stands, a descriptor of my own (FontBBox [0 0 0 0]) | ignored: « Ma,prokelanomidilasepdii… » |
+| B | pdfTeX's own PdfTeX-Space font object, copied from a pdfTeX output | read: « Ma, pro ke la nomi di la sep dii semanala ne esas kompozaji » |
+| C | a space of Helvetica, the standard font, not embedded | read, the same |
+
+**B is kept**: embedded, like every other font of the volume, where
+Helvetica would be the one font left out. Which difference between A and
+B Apple's reader minds -- the bounding box, the program that pdfTeX
+rewrites and subsets, the name -- was not sought: the object that works
+is taken whole, from pdfTeX itself. `tools/word_spaces.py` has pdftex set
+a one-line document with \pdfinterwordspaceon in a scratch directory and
+copies its PdfTeX-Space font into the volume. Under plain pdftex,
+`\input glyphtounicode` and `\pdfgentounicode=1` give it its ToUnicode;
+so set, it is byte for byte the font of file B (program and ToUnicode
+compared by digest).
+
+**Verified again**: all 236 pages identical at 100 dpi to the build without
+spaces; the 413,742 glyphs the same, none moved by more than 1.9e-7 pt;
+pdftotext's text identical; the words read from the spaces alone as
+before; every font embedded (pdffonts); the same bytes from the same
+input. 2.19 MB. Witnesses 148 -> 149.

@@ -220,6 +220,8 @@ T = [
   'python3 tools/word_spaces.py gramatiko.pdf', 1),
  ('PDF: the letter level is the lower quartile, run by run', 'tools/word_spaces.py',
   'return quartile(alnum)', 1),
+ ("PDF: the space font is pdfTeX's own, as Apple Books reads it", 'tools/word_spaces.py',
+  "endswith('PdfTeX-Space')", 1),
  ('typo: folio 74, note (1) ends on a full stop', 'content/10-part1.tex',
   '\\textit{infanteso}\\VUcorrige{,}{.}', 1),
  ('typo: folio 207, « pri ca punto. »', 'content/20-part2.tex',

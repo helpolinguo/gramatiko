@@ -17,10 +17,11 @@ ones that fail -- and none at all where a space meets a change of font,
 the size written in the PDF; neither \\fontdimen2 nor \\fontdimen6 moves it.
 
 So the space is written here, after pdflatex, into the finished PDF: at each
-gap between words, a space glyph of pdfTeX's own space font (dummy-space,
-the font \\pdfinterwordspaceon uses, mapped to U+0020), sized so that its
-advance IS the gap. Nothing is drawn and nothing moves: the glyph after the
-space starts where the kern used to put it.
+gap between words, a space glyph of pdfTeX's own space font (PdfTeX-Space,
+the font \\pdfinterwordspaceon uses, mapped to U+0020, taken whole from
+pdfTeX's own output: see space_font), sized so that its advance IS the
+gap. Nothing is drawn and nothing moves: the glyph after the space starts
+where the kern used to put it.
 
 WHAT IS A GAP BETWEEN WORDS. Measured on the volume: kerns between letters
 lie within 0.05 em of their run's letter level, gaps between words 0.15 em
@@ -40,15 +41,15 @@ Usage: python3 tools/word_spaces.py gramatiko.pdf     (rewrites it in place)
 import os
 import subprocess
 import sys
+import tempfile
 
 import pypdf
-from pypdf.generic import (ArrayObject, ContentStream, DecodedStreamObject,
-                           DictionaryObject, FloatObject, NameObject,
-                           NumberObject, ByteStringObject)
+from pypdf.generic import (ArrayObject, ByteStringObject, ContentStream,
+                           FloatObject, NameObject, NumberObject)
 
 GAP = 0.12            # em beyond the run's letter level
 SPACE_FONT = NameObject('/FWsp')
-SPACE_WIDTH = 334.2   # the width pdfTeX gives the glyph, in 1/1000 of the size
+SPACE_WIDTH = None    # the width of the space glyph, read from pdfTeX's font
 MARK = NameObject('/GramatikoWordSpaces')   # in the document info: done once
 
 
@@ -115,53 +116,42 @@ def letter_level(arr):
 
 
 def space_font(writer):
-    """pdfTeX's dummy-space Type 1 font, embedded once, its glyph mapped to
-    U+0020 by a ToUnicode CMap as pdfTeX maps it."""
-    pfb_path = subprocess.run(['kpsewhich', 'dummy-space.pfb'], capture_output=True,
-                              text=True, check=True).stdout.strip()
-    pfb = open(pfb_path, 'rb').read()
-    segs, i = [], 0
-    while pfb[i + 1] != 3:
-        n = int.from_bytes(pfb[i + 2:i + 6], 'little')
-        segs.append(pfb[i + 6:i + 6 + n])
-        i += 6 + n
-    ff = DecodedStreamObject()
-    ff.set_data(b''.join(segs))
-    ff[NameObject('/Length1')] = NumberObject(len(segs[0]))
-    ff[NameObject('/Length2')] = NumberObject(len(segs[1]))
-    ff[NameObject('/Length3')] = NumberObject(len(segs[2]) if len(segs) > 2 else 0)
-    ff = ff.flate_encode()
-    fd = DictionaryObject({
-        NameObject('/Type'): NameObject('/FontDescriptor'),
-        NameObject('/FontName'): NameObject('/DummySpace'),
-        NameObject('/Flags'): NumberObject(4),
-        NameObject('/FontBBox'): ArrayObject([NumberObject(0)] * 4),
-        NameObject('/ItalicAngle'): NumberObject(0),
-        NameObject('/Ascent'): NumberObject(0),
-        NameObject('/Descent'): NumberObject(0),
-        NameObject('/CapHeight'): NumberObject(0),
-        NameObject('/StemV'): NumberObject(0),
-        NameObject('/CharSet'): ByteStringObject(b'/space'),
-        NameObject('/FontFile'): writer._add_object(ff),
-    })
-    cmap = DecodedStreamObject()
-    cmap.set_data(b'/CIDInit /ProcSet findresource begin\n12 dict begin\nbegincmap\n'
-                  b'/CIDSystemInfo << /Registry (TeX) /Ordering (pdftexspace-builtin) '
-                  b'/Supplement 0 >> def\n/CMapName /TeX-pdftexspace-builtin-0 def\n'
-                  b'/CMapType 2 def\n1 begincodespacerange\n<00> <FF>\nendcodespacerange\n'
-                  b'1 beginbfchar\n<20> <0020>\nendbfchar\nendcmap\n'
-                  b'CMapName currentdict /CMap defineresource pop\nend\nend\n')
-    font = DictionaryObject({
-        NameObject('/Type'): NameObject('/Font'),
-        NameObject('/Subtype'): NameObject('/Type1'),
-        NameObject('/BaseFont'): NameObject('/DummySpace'),
-        NameObject('/FirstChar'): NumberObject(32),
-        NameObject('/LastChar'): NumberObject(32),
-        NameObject('/Widths'): ArrayObject([FloatObject(SPACE_WIDTH)]),
-        NameObject('/FontDescriptor'): writer._add_object(fd),
-        NameObject('/ToUnicode'): writer._add_object(cmap.flate_encode()),
-    })
-    return writer._add_object(font)
+    """pdfTeX's own space font, AS pdfTeX EMBEDS IT: a one-line document is
+    set by pdftex with \\pdfinterwordspaceon in a scratch directory, and its
+    PdfTeX-Space font -- program, descriptor, widths, ToUnicode -- is copied
+    into the volume. Returns the font and the width of its glyph.
+
+    THE FIRST EMBEDDING, GIVEN UP ON THE COMMISSIONER'S iPAD. The font had
+    been built here from dummy-space.pfb as found in TeX Live: the program
+    as it stands, a descriptor of my own (FontBBox [0 0 0 0]), a ToUnicode
+    like pdfTeX's. Every reader at hand read its spaces -- pdfminer, poppler
+    -- and Apple Books did not: folio 16 still came back « Ma,prokelanomidi
+    lasepdii... ». Three test files, the same three pages, the same gaps,
+    only the space font differing (28 November 2026): that one, ignored;
+    pdfTeX's own object, copied from a pdfTeX output, read -- « Ma, pro ke
+    la nomi di la sep dii semanala »; a space of Helvetica, read too.
+    pdfTeX's is kept: it is embedded, like every other font of the volume,
+    where Helvetica would be the one font left out. Which of the
+    differences Apple's reader minds -- the bounding box, the program pdfTeX
+    rewrites and subsets, the name -- was not sought: the object that works
+    is taken whole, from pdfTeX itself.
+
+    \\input glyphtounicode and \\pdfgentounicode=1 are what give it its
+    ToUnicode under plain pdftex; so set, it is byte for byte the font that
+    LaTeX's pdfTeX writes, and the one the iPad read."""
+    with tempfile.TemporaryDirectory() as d:
+        with open(os.path.join(d, 'space.tex'), 'w') as fh:
+            fh.write('\\input glyphtounicode \\pdfgentounicode=1 '
+                     '\\pdfinterwordspaceon a\\pdffakespace b\\bye\n')
+        subprocess.run(['pdftex', '-interaction=nonstopmode', 'space.tex'],
+                       cwd=d, capture_output=True, check=True)
+        reader = pypdf.PdfReader(os.path.join(d, 'space.pdf'))
+        for ref in reader.pages[0]['/Resources']['/Font'].values():
+            font = ref.get_object()
+            if str(font['/BaseFont']).endswith('PdfTeX-Space'):
+                width = float(font['/Widths'][0])
+                return font.clone(writer).indirect_reference, width
+    raise SystemExit('word_spaces: pdftex wrote no PdfTeX-Space font')
 
 
 def num(x):
@@ -311,7 +301,8 @@ def main(path):
         print('word_spaces: %s already carries its spaces' % path)
         return
     writer = pypdf.PdfWriter(clone_from=reader, keep_initial_header=True)
-    font_ref = space_font(writer)
+    global SPACE_WIDTH
+    font_ref, SPACE_WIDTH = space_font(writer)
     stats = {'inside': 0, 'between': 0}
     for page in writer.pages:
         process(page, writer, font_ref, stats)
