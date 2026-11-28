@@ -198,6 +198,14 @@ T = [
   '\\VUcorrige{Cigari}{Sigari}', 1),
  ('typo: folio 167, « sigari »', 'content/20-part2.tex',
   '\\VUcorrige{cigari}{sigari}', 1),
+ # PAGE-END LINES RUN TO THE MARGIN (28 November 2026): a note or a
+ # paragraph continued on the next page ends its page on a FULL line in the
+ # facsimile; 33 of them were set ragged, missing \parplein -- 17 notes, 16
+ # paragraphs. Counts are minima: part 1 44 -> 58, part 2 91 -> 110.
+ ('page ends: folio 73, the note runs to the margin', 'content/10-part1.tex',
+  'E la tota frazo\\parplein%', 1),
+ ('page ends: \\parplein, part 1', 'content/10-part1.tex', '\\parplein', 58),
+ ('page ends: \\parplein, part 2', 'content/20-part2.tex', '\\parplein', 110),
  ('typo: folio 74, note (1) ends on a full stop', 'content/10-part1.tex',
   '\\textit{infanteso}\\VUcorrige{,}{.}%', 1),
  ('typo: folio 207, « pri ca punto. »', 'content/20-part2.tex',
