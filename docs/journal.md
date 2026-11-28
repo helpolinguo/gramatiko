@@ -5367,7 +5367,9 @@ showed — the kind that folio 130's headwords had just proved unsafe.
 **Kept anomalies, now corrected like their kind.** Folio 189's quotation
 « La klasifiko dil genro... », kept open on 27 November when the 27 others
 were closed: closed after « mem en la Franca. », before the author's
-« Semblis a ni ». Folio 171's « bisenca.. », a double stop kept when every
+« Semblis a ni ». *(The wrong place: the quoted source ends earlier, before
+« adminime ». See « Folio 189's quotation, closed where its source ends »,
+below.)* Folio 171's « bisenca.. », a double stop kept when every
 other stray stop was corrected: one stop. Both by `\VUcorrige`.
 
 **Kept, again.** Folio 93's « orsù », accented the Italian way under the
@@ -5406,3 +5408,20 @@ line or the lines of the « -i »; the same 62 boxes. `gramatiko.md` 492,453
 +8 for « en », « ek »); `temi/`, `afixi/`, the anchors unchanged in size and
 number. Witnesses 122 → 127. Checks 1 to 7: the same 237 failures; 8 to 12
 not run, for want of the scan.
+
+## Folio 189's quotation, closed where its source ends
+
+**THE COMMISSIONER CHECKED THE SOURCE: THE QUOTATION ENDS BEFORE
+« ADMINIME », NOT AT THE END OF THE PARAGRAPH.** « La klasifiko dil genro
+maxim konocata da ni... e mem por multa animali on ne distingas maskulo e
+femino » is quoted; « adminime per chanjo di formo. Exemple en la Franca...
+mem en la Franca. » is the author carrying the argument on. The » set at
+the end of the paragraph a few hours earlier is withdrawn and set after
+« femino », before the comma, as the closing marks of folios 66 and 69 sit
+against theirs. The ruling and the journal's account of it are corrected
+where they are written.
+
+Proposed at the end of the paragraph because the author's own voice is
+heard plainly only with « Semblis a ni » after it; the source settles what
+the page does not. A place proposed for a closing mark is a reading, and
+where the quoted text can be had, the quoted text decides.
